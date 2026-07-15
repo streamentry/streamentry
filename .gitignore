@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Local Typst render and QA artifacts
+build/
+.typst-cache/
+
+# Local agent session state
+.omx/
+
+# Editor and temporary files
+.idea/
+.vscode/
+*.bak
+*.log
+*.swp
+*.swo
+*.tmp
+*~
