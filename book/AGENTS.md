@@ -6,12 +6,14 @@ This module owns the A5 publication system for *Hướng Đến Nhập Lưu*. `m
 
 ## Key Components
 
-- `main.typ`: metadata, cover, and include order.
+- `main.typ`: metadata, canonical author credit, cover, and include order.
 - `theme.typ`: Libertinus Serif and Inter type system, warm paper palette, A5 margins.
 - `components.typ`: stable content blocks only.
 - `chapters/`: narrative and instructional sequence.
 - `appendices/`: printable tools and reference material.
 - `references/`: doctrinal audit trail.
+
+The canonical publication credit is `TS. Lê Việt Hồng - Cư Sĩ Chánh Niệm + ChatGPT`. Do not edit the visible cover credit without updating PDF metadata and the root README in the same change.
 
 ## Diagrams (Mermaid)
 

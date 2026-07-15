@@ -12,6 +12,10 @@ description: Maintain and publish the Vietnamese Typst handbook Hướng Đến 
 3. Read the immediate chapter, its source codes, `book/components.typ`, and `book/theme.typ` before editing.
 4. Preserve the original Markdown unchanged.
 
+## Publication Credit
+
+The canonical author string is `TS. Lê Việt Hồng - Cư Sĩ Chánh Niệm + ChatGPT`. Keep it synchronized across `book/main.typ`, the rendered cover, PDF metadata, and `README.md`.
+
 ## Source Contract
 
 Use one of six visible source classes:

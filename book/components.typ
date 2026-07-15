@@ -14,7 +14,7 @@
   fill: fill,
 )
 
-#let cover(title, subtitle, edition: [Ấn bản thực hành 2026]) = {
+#let cover(title, subtitle, author: none, edition: [Ấn bản thực hành 2026]) = {
   set page(
     margin: 0mm,
     header: none,
@@ -49,6 +49,17 @@
       size: 10.5pt,
       fill: palette.muted,
     )[#subtitle]
+    #if author != none [
+      #v(8mm)
+      #eyebrow([TÁC GIẢ], fill: palette.saffron)
+      #v(2.5mm)
+      #text(
+        font: fonts.sans,
+        size: 9.5pt,
+        weight: 600,
+        fill: palette.forest,
+      )[#author]
+    ]
     #v(1fr)
     #grid(
       columns: (1fr, auto),

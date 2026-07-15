@@ -1,8 +1,11 @@
 #import "theme.typ": apply-theme
 #import "components.typ": cover
 
+#let publication-author = [TS. Lê Việt Hồng - Cư Sĩ Chánh Niệm + ChatGPT]
+
 #set document(
   title: "Hướng Đến Nhập Lưu",
+  author: ("TS. Lê Việt Hồng - Cư Sĩ Chánh Niệm + ChatGPT",),
   description: "Sổ tay Niệm xứ cho người tại gia theo truyền thống Mahāsi, đối chiếu Kinh tạng Pāli và Thanh Tịnh Đạo",
   keywords: ("Niệm xứ", "Mahāsi", "Nhập lưu", "Thiền Vipassanā", "Thanh Tịnh Đạo"),
 )
@@ -12,6 +15,7 @@
 #cover(
   [Hướng Đến #linebreak() Nhập Lưu],
   [Sổ tay Niệm xứ cho người tại gia theo truyền thống Mahāsi, đối chiếu Kinh tạng Pāli và Thanh Tịnh Đạo],
+  author: publication-author,
 )
 
 #include "chapters/00-frontmatter.typ"
