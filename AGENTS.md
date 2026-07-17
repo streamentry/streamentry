@@ -17,7 +17,7 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `book/references/claim-ledger.md`: claim-to-source audit trail.
 - `dist/huong-den-nhap-luu.pdf`: verified deliverable.
 
-The canonical publication credit is `TS. Lê Việt Hồng - Cư Sĩ Chánh Niệm + ChatGPT`. Keep the cover, PDF metadata, and README synchronized.
+The canonical publication credit is `CS Chánh Niệm + ChatGPT`. Keep the cover, PDF metadata, and README synchronized.
 
 Build from the workspace root:
 

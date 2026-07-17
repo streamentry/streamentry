@@ -4,7 +4,7 @@ Source and publication files for *Hướng Đến Nhập Lưu*, an A5 Vietnamese
 
 The title describes a direction of practice, not a guarantee of spiritual attainment.
 
-**Author:** TS. Lê Việt Hồng - Cư Sĩ Chánh Niệm + ChatGPT
+**Author:** CS Chánh Niệm + ChatGPT
 
 ## Build
 

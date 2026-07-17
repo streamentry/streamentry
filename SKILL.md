@@ -14,7 +14,7 @@ description: Maintain and publish the Vietnamese Typst handbook Hướng Đến 
 
 ## Publication Credit
 
-The canonical author string is `TS. Lê Việt Hồng - Cư Sĩ Chánh Niệm + ChatGPT`. Keep it synchronized across `book/main.typ`, the rendered cover, PDF metadata, and `README.md`.
+The canonical author string is `CS Chánh Niệm + ChatGPT`. Keep it synchronized across `book/main.typ`, the rendered cover, PDF metadata, and `README.md`.
 
 ## Print Contract
 

@@ -13,7 +13,7 @@ This module owns the A5 publication system for *Hướng Đến Nhập Lưu*. `m
 - `appendices/`: printable tools and reference material.
 - `references/`: doctrinal audit trail.
 
-The canonical publication credit is `TS. Lê Việt Hồng - Cư Sĩ Chánh Niệm + ChatGPT`. Do not edit the visible cover credit without updating PDF metadata and the root README in the same change.
+The canonical publication credit is `CS Chánh Niệm + ChatGPT`. Do not edit the visible cover credit without updating PDF metadata and the root README in the same change.
 
 ## Diagrams (Mermaid)
 
