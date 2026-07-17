@@ -13,3 +13,5 @@ typst compile --root . book/main.typ dist/huong-den-nhap-luu.pdf
 ```
 
 The compiled handbook is available at [`dist/huong-den-nhap-luu.pdf`](dist/huong-den-nhap-luu.pdf). Source provenance is documented in [`book/references/claim-ledger.md`](book/references/claim-ledger.md).
+
+The PDF uses an A5 print-safe white page background. Small neutral surfaces preserve hierarchy in grayscale without printing a full-page tint.

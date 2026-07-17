@@ -1,16 +1,16 @@
 #let palette = (
   ink: rgb("#211d18"),
   muted: rgb("#6f675e"),
-  paper: rgb("#f8f3e9"),
-  surface: rgb("#eee5d6"),
-  surface-light: rgb("#fffdf8"),
+  paper: white,
+  surface: rgb("#f2f2f0"),
+  surface-light: white,
   saffron: rgb("#a75d20"),
   forest: rgb("#315b4b"),
   clay: rgb("#8b4f3d"),
   indigo: rgb("#4f5572"),
   research: rgb("#3f6687"),
-  rule: rgb("#d6c8b5"),
-  inverse: rgb("#fffdf7"),
+  rule: rgb("#c9c9c5"),
+  inverse: white,
 )
 
 #let fonts = (

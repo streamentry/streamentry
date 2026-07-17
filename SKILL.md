@@ -16,6 +16,10 @@ description: Maintain and publish the Vietnamese Typst handbook Hướng Đến 
 
 The canonical author string is `TS. Lê Việt Hồng - Cư Sĩ Chánh Niệm + ChatGPT`. Keep it synchronized across `book/main.typ`, the rendered cover, PDF metadata, and `README.md`.
 
+## Print Contract
+
+Use a white page background. Keep large surfaces neutral and pale so they remain legible in grayscale without consuming unnecessary ink. Verify the cover, dense cards, margins, page geometry, and final page in both color and grayscale before publishing.
+
 ## Source Contract
 
 Use one of six visible source classes:
