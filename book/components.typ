@@ -141,7 +141,7 @@
 )[
   #set par(first-line-indent: 0em)
   #source-badge(kind, refs: refs)
-  #h(5pt)
+  #v(4pt)
   #body
 ]
 
@@ -201,7 +201,7 @@
 )[
   #set par(first-line-indent: 0em)
   #source-badge("BIÊN SOẠN")
-  #h(5pt)
+  #v(4pt)
   #body
 ]
 

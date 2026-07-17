@@ -20,6 +20,8 @@ The canonical author string is `TS. Lê Việt Hồng - Cư Sĩ Chánh Niệm + 
 
 Use a white page background. Keep large surfaces neutral and pale so they remain legible in grayscale without consuming unnecessary ink. Verify the cover, dense cards, margins, page geometry, and final page in both color and grayscale before publishing.
 
+Keep source and editorial badges on a line above their prose. Do not let a long badge compress only the first line of a paragraph or create a ragged wrap under it.
+
 ## Source Contract
 
 Use one of six visible source classes:
