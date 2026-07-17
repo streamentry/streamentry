@@ -136,6 +136,7 @@
 #let source-line(kind, refs, body) = block(
   width: 100%,
   breakable: false,
+  below: 5pt,
   inset: (left: 9pt),
   stroke: (left: 1.5pt + source-color(kind)),
 )[
@@ -196,6 +197,7 @@
 #let modern-note(body) = block(
   width: 100%,
   breakable: false,
+  below: 5pt,
   inset: (left: 10pt),
   stroke: (left: 1.5pt + palette.muted),
 )[

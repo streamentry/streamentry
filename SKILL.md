@@ -1,6 +1,6 @@
 ---
 name: streamentry-book
-description: Maintain and publish the Vietnamese Typst handbook Hướng Đến Nhập Lưu with strict Buddhist source provenance and render-first verification.
+description: Maintain and publish the Vietnamese Typst handbook Hướng Đến Nhập Lưu with strict Buddhist source provenance and render-first verification. Keep provenance badges above cited prose with clear spacing below each block.
 ---
 
 # Streamentry Book
