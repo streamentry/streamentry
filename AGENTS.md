@@ -10,7 +10,7 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 
 - `con-duong-niem-xu-mahasi-hop-nhat.md`: immutable source manuscript. Recorded SHA-256: `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440`.
 - `book/main.typ`: only publication entry point.
-- `book/theme.typ`: A5 page, type, print-safe white paper palette, and global show rules.
+- `book/theme.typ`: A5 page, type, print-safe white paper palette, and global show rules. Use left binding with mirrored 22 mm inside and 14 mm outside margins for the perfect-bound edition.
 - `book/components.typ`: source badges, chapter openers, practice cards, cautions, and reference blocks. Keep source badges above, not inline with, cited prose; preserve a quiet gap below provenance blocks.
 - `book/chapters/`: editorial chapters.
 - `book/appendices/`: reusable practice tools.

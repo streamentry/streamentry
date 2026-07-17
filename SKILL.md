@@ -20,6 +20,8 @@ The canonical author string is `CS Chánh Niệm + ChatGPT`. Keep it synchronize
 
 Use a white page background. Keep large surfaces neutral and pale so they remain legible in grayscale without consuming unnecessary ink. Verify the cover, dense cards, margins, page geometry, and final page in both color and grayscale before publishing.
 
+For the perfect-bound A5 edition, use `binding: left` and mirrored margins of 22 mm inside and 14 mm outside. Do not use a fixed larger left margin, because the inner edge alternates across facing pages.
+
 Keep source and editorial badges on a line above their prose. Do not let a long badge compress only the first line of a paragraph or create a ragged wrap under it.
 
 ## Source Contract

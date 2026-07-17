@@ -7,7 +7,7 @@ This module owns the A5 publication system for *Hướng Đến Nhập Lưu*. `m
 ## Key Components
 
 - `main.typ`: metadata, canonical author credit, cover, and include order.
-- `theme.typ`: Libertinus Serif and Inter type system, print-safe white paper palette, A5 margins.
+- `theme.typ`: Libertinus Serif and Inter type system, print-safe white paper palette, and A5 perfect-binding margins: 22 mm inside, 14 mm outside, left binding.
 - `components.typ`: stable content blocks only. `source-line` and `modern-note` place badges on a separate line and leave space below the block so prose retains the full reading measure and notes do not run together.
 - `chapters/`: narrative and instructional sequence.
 - `appendices/`: printable tools and reference material.

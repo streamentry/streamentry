@@ -33,11 +33,12 @@
   set page(
     paper: "a5",
     fill: palette.paper,
+    binding: left,
     margin: (
       top: 16mm,
-      right: 15mm,
       bottom: 19mm,
-      left: 17mm,
+      inside: 22mm,
+      outside: 14mm,
     ),
     header: align(
       right,
