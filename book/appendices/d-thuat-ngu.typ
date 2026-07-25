@@ -47,9 +47,9 @@
 #term-card(
   [samādhi],
   [định, tâm thu nhiếp],
-  [K05; K12; K26],
+  [K05; K12; K25],
   [
-    Sự ổn định và quy tụ của tâm. Trong công thức phân tích Bát Thánh đạo, K26 định nghĩa chánh định bằng bốn tầng thiền. Một phút dễ chịu hay không có ý nghĩ chưa đủ để gọi là chánh định; định còn phải đứng trong chánh kiến, giới và các chi đạo khác.
+    Sự ổn định và quy tụ của tâm. Trong công thức phân tích Bát Thánh đạo, K25 định nghĩa chánh định bằng bốn tầng thiền. Một phút dễ chịu hay không có ý nghĩ chưa đủ để gọi là chánh định; định còn phải đứng trong chánh kiến, giới và các chi đạo khác.
   ],
 )
 
@@ -80,7 +80,7 @@
 #term-card(
   [vedanā],
   [thọ],
-  [K01; K20],
+  [K01; K19],
   [
     Sắc thái dễ chịu, khó chịu hoặc trung tính sinh trên nền tiếp xúc. *Vedanā* không phải toàn bộ cảm xúc. Một cơn giận có thể gồm thọ khó chịu, nóng nơi thân, nhận diện một người, ký ức, ý nghĩ và ý muốn đáp trả.
   ],
@@ -117,9 +117,9 @@
 #term-card(
   [cetanā và manasikāra],
   [tư, ý định và tác ý],
-  [K02; K20],
+  [K02; K19],
   [
-    *Cetanā* là tư hay ý định; K20 dùng từ này khi định nghĩa nghiệp. *Manasikāra* là sự hướng tâm hoặc tác ý; trong cụm *yoniso manasikāra*, nó chỉ như lý tác ý. Một số bản dịch Việt dùng “tác ý” cho cả hai, nhưng hai thuật ngữ không đồng nghĩa.
+    *Cetanā* là tư hay ý định; K19 dùng từ này khi định nghĩa nghiệp. *Manasikāra* là sự hướng tâm hoặc tác ý; trong cụm *yoniso manasikāra*, nó chỉ như lý tác ý. Một số bản dịch Việt dùng “tác ý” cho cả hai, nhưng hai thuật ngữ không đồng nghĩa.
   ],
 )
 

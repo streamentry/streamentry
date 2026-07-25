@@ -1,7 +1,7 @@
 #import "../components.typ": *
 
 #chapter(
-  [05],
+  [06],
   [Triền cái và giác chi],
   [Tâm không cần sạch rồi mới được quan sát. Chính lúc ham muốn, bực bội, lịm xuống, chao động hay nghi ngờ, Kinh Niệm xứ yêu cầu biết rõ điều đang có mặt, duyên nuôi nó và con đường làm nó lắng.],
   provenance: source-badge("KINH", refs: [K01 · K13]),
@@ -19,7 +19,7 @@
 
 == Tham dục: tâm nghiêng về lời hứa dễ chịu
 
-#source-line("KINH", [K01 · MN 10; K23 · SN 46.51], [
+#source-line("KINH", [K01 · MN 10; K22 · SN 46.51], [
   Tham dục có mặt thì biết có mặt; vắng thì biết vắng. SN 46.51 nói sự chú ý không như lý đến tướng hấp dẫn nuôi tham dục, còn chú ý như lý đến khía cạnh không hấp dẫn làm nó suy yếu. Đây không phải lệnh ghét thân hay ghét cái đẹp. Nó sửa cái nhìn chỉ chọn phần quyến rũ và giấu giá phải trả.
 ])
 
@@ -29,7 +29,7 @@
 
 == Sân: cái đau muốn đẩy một cái đau khác đi
 
-#source-line("KINH", [K01 · MN 10; K23 · SN 46.51], [
+#source-line("KINH", [K01 · MN 10; K22 · SN 46.51], [
   Sân được biết khi có và khi không. SN 46.51 nêu tâm từ giải thoát như thức ăn cho sự không sinh và sự đoạn trừ sân. Tâm từ không tuyên bố hành vi gây hại là chấp nhận được; nó ngăn tâm tự thiêu trong lúc vẫn cho phép đặt giới hạn và hành động sáng suốt.
 ])
 
@@ -38,7 +38,7 @@
   [
     Biết rõ “sân” và nơi thân đang nóng, siết hoặc rung. Nếu tâm tiếp tục dựng lại cuộc đối đầu, chuyển năm phút sang tâm từ: “Mong tôi không bị sân thiêu đốt. Mong người kia không bị vô minh dẫn dắt. Mong chúng tôi không gây thêm khổ.” Sau đó mới trở về đề mục chính.
   ],
-  label: [THỰC HÀNH · BIÊN SOẠN THEO K23],
+  label: [THỰC HÀNH · BIÊN SOẠN THEO K22],
 )
 
 == Hôn trầm thụy miên: khi cái biết mất độ sáng

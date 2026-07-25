@@ -2,14 +2,16 @@
 
 ## Overview
 
-Chapters carry the explanatory arc from a seven-day start through the full path, Mahāsi technique, daily life, safety, insight maps, and canonical descriptions of stream-entry. Keep each file below 300 lines.
+Chapters carry the explanatory arc from a seven-day start through the full path, dependent origination at feeling and craving, Mahāsi technique, daily life, safety, insight maps, and canonical descriptions of stream-entry. Prefer files below 300 lines, but do not compress sourced explanation merely to satisfy the line target.
 
 ## Key Components
 
 - Begin with `chapter(...)`.
+- Frontmatter must give a short non-linear reading route: first practice, early safety, foundations, retreat screening, then the insight map as later reference.
 - Attach `source-badge(...)` or `source-line(...)` to non-obvious doctrinal claims.
 - Use prose for argument and cards only for procedures, checks, or source boundaries.
-- Never make a schedule or phenomenological map sound universal.
+- Never make a schedule, a “feeling to craving” intervention, or a phenomenological map sound universal.
+- Put hard decision rules where a beginner first encounters the decision. Do not rely on a later safety or retreat chapter to repair ambiguous week-one instructions.
 
 ## Diagrams (Mermaid)
 
@@ -17,7 +19,7 @@ Chapters carry the explanatory arc from a seven-day start through the full path,
 
 ```mermaid
 flowchart LR
-  A["Orientation"] --> B["Foundations"] --> C["Technique"] --> D["Integration"] --> E["Safety"] --> F["Attainment criteria"]
+  A["Orientation"] --> B["Foundations"] --> C["Dependent origination"] --> D["Technique"] --> E["Integration"] --> F["Safety"] --> G["Insight map"] --> H["Attainment criteria"]
 ```
 
 ### Component Diagram

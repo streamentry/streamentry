@@ -9,6 +9,7 @@ Appendices are reusable field tools, not a second narrative. They must remain pr
 - Daily and monthly logs measure conduct and continuity, not insight rank.
 - Reference labels are pragmatic Mahāsi cues, not an exact taxonomy of the four satipaṭṭhānas.
 - FAQ answers preserve source limits.
+- When an FAQ sentence relies on more than one tier, display every relevant badge rather than collapsing Mahāsi, commentary, and scripture into one label.
 - The glossary distinguishes similar Pāli terms without pretending one English or Vietnamese word exhausts them.
 
 ## Diagrams (Mermaid)

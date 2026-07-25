@@ -80,8 +80,8 @@
 
 #reference-item(
   [K11],
-  [Đoạn ba kiết sử, Majjhima Nikāya 2],
-  [Thân kiến, nghi và chấp thủ giới cấm được nêu trong mô tả quả Nhập lưu.],
+  [Kinh Tất cả lậu hoặc, Majjhima Nikāya 2],
+  [Bảy cách đoạn trừ lậu hoặc gồm thấy, phòng hộ, thọ dụng, kham nhẫn, tránh né, trừ bỏ và tu tập; trong phần đoạn trừ bằng thấy, kinh cũng nêu ba kiết sử được đoạn.],
   "https://suttacentral.net/mn2/en/sujato",
 )
 
@@ -129,65 +129,100 @@
 
 #reference-item(
   [K18],
-  [Tùy tín hành và tùy pháp hành, Saṁyutta Nikāya 25.1],
-  [Một bảo chứng hẹp dành cho hai hạng người đã đạt ngưỡng được kinh định nghĩa, không phải mọi người đang tập thiền.],
-  "https://suttacentral.net/sn25.1/en/sujato",
-)
-
-#reference-item(
-  [K19],
   [Giới hạnh và chánh ngữ, Saṁyutta Nikāya 55.7],
   [Liệt kê tránh sát sinh, lấy của không cho, tà hạnh và bốn loại lời nói có hại. Khi đối chiếu công thức Năm giới, giới thứ tư chỉ nêu tránh nói dối.],
   "https://suttacentral.net/sn55.7/en/sujato",
 )
 
 #reference-item(
-  [K20],
+  [K19],
   [Thọ và tư tác, Aṅguttara Nikāya 6.63],
   [Ba loại thọ lấy xúc làm nguồn; tư (*cetanā*), tức ý định, được định nghĩa là nghiệp. Bài kinh không nói mọi chuyển động đều có ý định hữu thức đi trước.],
   "https://suttacentral.net/an6.63/en/sujato",
 )
 
 #reference-item(
-  [K21],
+  [K20],
   [Thân kiến, Majjhima Nikāya 44],
   [Tỳ-kheo-ni Dhammadinnā phân tích hai mươi cách chấp năm uẩn liên hệ đến tự ngã.],
   "https://suttacentral.net/mn44/en/suddhaso",
 )
 
 #reference-item(
-  [K22],
+  [K21],
   [Năm sợ hãi và Nhập lưu, Aṅguttara Nikāya 10.92],
   [Năm hành vi gây sợ hãi được lắng, bốn phẩm chất Nhập lưu và trí thấy duyên khởi.],
   "https://suttacentral.net/an10.92/en/sujato",
 )
 
 #reference-item(
-  [K23],
+  [K22],
   [Thức ăn của triền cái, Saṁyutta Nikāya 46.51],
   [Như lý tác ý làm suy yếu triền cái và nuôi lớn bảy giác chi.],
   "https://suttacentral.net/sn46.51/en/bodhi",
 )
 
 #reference-item(
-  [K24],
+  [K23],
   [Đại kinh Bốn mươi, Majjhima Nikāya 117],
   [Quan hệ giữa chánh kiến, các chi đạo và chánh mạng.],
   "https://suttacentral.net/mn117/en/sujato",
 )
 
 #reference-item(
-  [K25],
+  [K24],
   [Mười kiết sử, Aṅguttara Nikāya 10.13],
   [Năm kiết sử thấp và năm kiết sử cao; ba kiết sử đầu thuộc nhóm thấp.],
   "https://suttacentral.net/an10.13/en/sujato",
 )
 
 #reference-item(
-  [K26],
+  [K25],
   [Phân tích Bát Thánh đạo, Saṁyutta Nikāya 45.8],
   [Định nghĩa tám chi đạo; chánh định được trình bày bằng bốn tầng thiền.],
   "https://suttacentral.net/sn45.8/en/sujato",
+)
+
+#reference-item(
+  [K26],
+  [Phân tích mười hai chi duyên khởi, Saṁyutta Nikāya 12.2],
+  [Định nghĩa các chi từ vô minh đến già chết, gồm sáu loại thọ và sáu loại ái.],
+  "https://suttacentral.net/sn12.2/en/bodhi",
+)
+
+#reference-item(
+  [K27],
+  [Duyên khởi qua sáu cửa giác quan, Saṁyutta Nikāya 12.44],
+  [Từ căn, cảnh và thức đến xúc, thọ, ái, thủ và sự sinh khởi của khổ.],
+  "https://suttacentral.net/sn12.44/en/bodhi",
+)
+
+#reference-item(
+  [K28],
+  [Hai mũi tên, Saṁyutta Nikāya 36.6],
+  [Phân biệt cảm giác đau với phản ứng chống đối và tìm dục lạc để trốn đau.],
+  "https://suttacentral.net/sn36.6/en/sujato",
+)
+
+#reference-item(
+  [K29],
+  [Đại kinh Đoạn tận ái, Majjhima Nikāya 38],
+  [Không thích thú, chào đón và bám chặt thọ; từ đó trình bày chiều đoạn diệt của thủ và khổ.],
+  "https://suttacentral.net/mn38/en/suddhaso",
+)
+
+#reference-item(
+  [K30],
+  [Sáu bộ sáu, Majjhima Nikāya 148],
+  [Ba loại thọ và các khuynh hướng tham, sân, vô minh khi thọ không được hiểu đúng.],
+  "https://suttacentral.net/mn148/en/sujato",
+)
+
+#reference-item(
+  [K31],
+  [Chánh tri kiến, Majjhima Nikāya 9],
+  [Tôn giả Sāriputta phân tích thọ, ái và xác định Bát Chánh Đạo là đường đưa đến đoạn diệt.],
+  "https://suttacentral.net/mn9/en/bodhi",
 )
 
 == Thanh Tịnh Đạo và truyền thống Mahāsi
@@ -213,3 +248,13 @@
 == Quy tắc đọc nguồn
 
 Một mã nguồn cho phép truy nguyên, nhưng không tự động chứng minh mọi câu đứng cạnh nó. Người đọc cần xem đúng đoạn, đúng ngữ cảnh và phân biệt lời kinh với lời chú giải của dịch giả. Nếu một chỉ dẫn chỉ mang dấu *Biên soạn*, hãy xem nó như một phương án thực tế có thể điều chỉnh, không phải giới luật hay bảo chứng giác ngộ.
+
+== Trách nhiệm biên tập và sửa sai
+
+#modern-note([
+  Ấn bản này ghi công *CS Chánh Niệm + ChatGPT*. ChatGPT được dùng trong việc dựng cấu trúc, soạn thảo và rà soát; nó không phải thẩm quyền tâm linh, nhân chứng thực hành hay người xác nhận đạo quả. Các mệnh đề chịu tải được phân loại nguồn trong sách và đối chiếu tại sổ kiểm chứng của dự án.
+])
+
+Kho mã nguồn chưa có phản biện độc lập toàn bộ bản thảo bởi một vị thầy Theravāda đủ năng lực hoặc chuyên gia lâm sàng. Vì vậy, kiểm nguồn nội bộ không phải sự chứng thực bên ngoài. Khoảng trống này chỉ được đóng bằng phản biện có tên, phạm vi và ngày tháng rõ ràng.
+
+Nội dung được kiểm tra ngày 25 tháng 7 năm 2026. Báo sai nguồn, câu chữ dễ gây hại hoặc lỗi hiển thị tại #link("https://github.com/streamentry/streamentry/issues")[kênh sửa sai công khai]. Mỗi lần sửa giáo lý phải cập nhật sổ kiểm chứng, ngày kiểm tra và cả hai bản PDF, EPUB.

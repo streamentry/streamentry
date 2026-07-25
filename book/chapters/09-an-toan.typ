@@ -1,7 +1,7 @@
 #import "../components.typ": *
 
 #chapter(
-  [08],
+  [09],
   [An toàn khi thực hành],
   [Thiền có thể nâng đỡ đời sống, nhưng không vô hại trong mọi liều lượng và mọi hoàn cảnh. Biết khi nào nên giảm, dừng và tìm trợ giúp là một phần của trí tuệ thực hành.],
   provenance: [
