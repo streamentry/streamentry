@@ -1,7 +1,7 @@
 #import "../components.typ": *
 
 #chapter(
-  [10],
+  [11],
   [Nhập lưu: điều kinh thật sự nói],
   [Nhập lưu không phải tên đẹp cho một buổi thiền sâu. Trong kinh, đó là bước chuyển có cấu trúc: vào Thánh đạo, đoạn ba kiết sử, có tịnh tín được xác chứng và giới hạnh vững.],
   provenance: [
@@ -11,7 +11,7 @@
   ],
 )
 
-Từ “dòng” dễ gợi một luồng năng lượng hay một khoảnh khắc ý thức đứt đoạn. Kinh định nghĩa khác. Điều cần nhìn không chỉ là trạng thái đã xảy ra trên tọa cụ, mà là đạo lộ người ấy đã đi vào và những phẩm chất không còn như trước.
+Từ “dòng” dễ gợi một luồng năng lượng hay một khoảnh khắc ý thức đứt đoạn. Kinh định nghĩa khác. Nhập lưu không chỉ là một trạng thái đã xảy ra trên tọa cụ. Điều cần nhìn là đạo lộ người ấy đã đi vào và những phẩm chất không còn như trước.
 
 == Dòng là Bát Thánh đạo
 

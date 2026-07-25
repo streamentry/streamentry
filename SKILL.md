@@ -9,12 +9,21 @@ description: Maintain and publish the Vietnamese Typst handbook Hướng Đến 
 
 1. Read `AGENTS.md`.
 2. Read `book/references/claim-ledger.md` before changing doctrinal prose.
-3. Read the immediate chapter, its source codes, `book/components.typ`, and `book/theme.typ` before editing.
-4. Preserve the original Markdown unchanged.
+3. Read `book/references/editorial-depth-audit.md` before expanding or compressing a chapter.
+4. Read the immediate chapter, its source codes, `book/components.typ`, and `book/theme.typ` before editing.
+5. Preserve the original Markdown unchanged.
 
 ## Publication Credit
 
 The canonical author string is `CS Chánh Niệm + ChatGPT`. Keep it synchronized across `book/main.typ`, the rendered cover, PDF metadata, and `README.md`.
+
+## Dual-output Contract
+
+`book/main.typ` is the single content entry point. Use `target()` in theme and shared components to keep the A5 PDF presentation separate from semantic HTML used by EPUB. Never package the print-oriented HTML fallback without target-aware components: ignored grids can silently remove content.
+
+The EPUB must be reflowable. Preserve heading hierarchy, source badges, cautions, practice cards, navigation, external links, Vietnamese diacritics, canonical metadata, and cover credit. Do not reproduce A5 page breaks or worksheet blank space as fixed-layout ebook pages.
+
+The builder fails on unexpected Typst HTML warnings, missing semantic body matter, heading jumps, broken navigation, lost dark-mode CSS, and non-reproducible ZIP metadata. A clean build and EPUBCheck result are necessary but do not prove behavior in Apple Books, Kindle, Kobo, or every assistive-technology stack.
 
 ## Print Contract
 
@@ -45,9 +54,14 @@ Write contemporary Vietnamese that is precise, calm, and public-facing. Use full
 
 ```sh
 typst compile --root /Volumes/SSD/streamentry book/main.typ dist/huong-den-nhap-luu.pdf
+python3 scripts/build-epub.py
 pdfinfo dist/huong-den-nhap-luu.pdf
 pdftotext -layout dist/huong-den-nhap-luu.pdf build/huong-den-nhap-luu.txt
 pdftoppm -png -r 144 dist/huong-den-nhap-luu.pdf build/page
 ```
 
 Inspect the cover, contents, every chapter opener, dense appendix pages, source map, and final page. Search extracted text for missing glyphs, bad URLs, placeholder language, and unlabelled guarantees.
+
+For EPUB, run the packaging script and then EPUBCheck when available. Inspect metadata, cover, table of contents, internal anchors, external links, font resizing, dark mode, and reading order in at least one standards-based reader. Structural checks are not proof of reader interoperability.
+
+Before describing the book as validated for beginners, run `book/references/beginner-validation-protocol.md` with unassisted novice readers. Before making a comparative market claim, run a preregistered test against named alternatives. Internal editorial review is not independent expert endorsement.

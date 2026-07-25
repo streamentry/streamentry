@@ -1,7 +1,7 @@
 #import "../components.typ": *
 
 #chapter(
-  [04],
+  [05],
   [Phương pháp Mahāsi],
   [Một kỹ thuật tốt cần được học đúng hình dáng của nó. Phồng xẹp, ghi nhận hiện tượng trong tâm và theo dõi đối tượng nổi bật là chỉ dẫn của một dòng thiền Theravāda hiện đại, dựa trên kinh và luận giải nhưng không đồng nhất với văn bản kinh.],
   provenance: source-badge("MAHĀSI", refs: [P01 · P02]),
@@ -61,7 +61,7 @@
 
 == Ý định và cử động có chủ ý
 
-#source-line("KINH", [K20 · AN 6.63], [
+#source-line("KINH", [K19 · AN 6.63], [
   AN 6.63 nói nghiệp là tư (*cetanā*), tức ý định: sau khi có ý định, con người hành động bằng thân, lời và ý. Bài kinh xác lập vai trò đạo đức của tư; nó không nói mọi rung động hay phản xạ sinh lý đều phải có một ý muốn được ý thức thấy trước.
 ])
 
@@ -93,8 +93,12 @@
   AN 4.170 nêu bốn mẫu phát triển: quán đi sau chỉ, chỉ đi sau quán, chỉ và quán được phát triển song hành, hoặc tâm trước hết được ổn định sau một giai đoạn dao động liên quan đến pháp. Bài kinh không dựng cuộc tranh thắng giữa hai phe “chỉ” và “quán”.
 ])
 
-#source-line("LUẬN GIẢI", [P02 · “The Method of Insight in Brief,” dẫn Papañcasūdanī; V01 · Vism XVIII.3, XVIII.5], [
-  Hệ thống luận giải Theravāda về sau phân biệt người lấy chỉ làm cỗ xe và người lấy thuần quán làm cỗ xe. Thanh Tịnh Đạo mô tả người đi bằng chỉ quán các pháp liên hệ đến tầng định sau khi xuất định, còn người đi bằng thuần quán bắt đầu bằng phân định các yếu tố thân tâm.
+#source-line("THANH TỊNH ĐẠO", [V01 · Vism XVIII.3, XVIII.5], [
+  Thanh Tịnh Đạo phân biệt người lấy chỉ làm cỗ xe với người lấy thuần quán làm cỗ xe. Người đi bằng chỉ quán các pháp liên hệ đến tầng định sau khi xuất định; người đi bằng thuần quán bắt đầu bằng phân định các yếu tố thân tâm.
+])
+
+#source-line("MAHĀSI", [P02 · “The Method of Insight in Brief,” dẫn Papañcasūdanī], [
+  P02 tiếp nhận cách phân biệt luận giải này khi trình bày phương pháp tuệ quán. Việc một trước tác Mahāsi dẫn chú giải không biến toàn bộ cách trình bày ấy thành lời kinh nguyên văn.
 ])
 
 #source-line("MAHĀSI", [P02 · “The Purification of Mind”], [

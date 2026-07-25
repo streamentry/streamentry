@@ -14,8 +14,19 @@
   fill: fill,
 )
 
-#let cover(title, subtitle, author: none, edition: [Ấn bản thực hành 2026]) = {
-  set page(
+#let cover(title, subtitle, author: none, edition: [Ấn bản thực hành 2026]) = context {
+  if target() == "html" {
+    html.elem("section", attrs: (class: "cover"))[
+      #html.elem("p", attrs: (class: "cover-kicker"))[Sổ tay Niệm xứ cho người tại gia]
+      #html.elem("h1")[#title]
+      #html.elem("p", attrs: (class: "cover-subtitle"))[#subtitle]
+      #if author != none {
+        html.elem("p", attrs: (class: "cover-author"))[Tác giả: #author]
+      }
+      #html.elem("p", attrs: (class: "cover-edition"))[#edition]
+    ]
+  } else {
+    set page(
     margin: 0mm,
     header: none,
     footer: none,
@@ -81,25 +92,37 @@
   ]
 
   pagebreak()
-  counter(page).update(1)
+    counter(page).update(1)
+  }
 }
 
-#let chapter(number, title, deck, provenance: none) = {
-  pagebreak(weak: true)
-  v(7mm)
-  eyebrow([CHƯƠNG #number], fill: palette.saffron)
-  v(4mm)
-  heading(level: 1, outlined: true)[#title]
-  v(4mm)
-  block(width: 78%)[
-    #set par(first-line-indent: 0em, justify: false, leading: 0.72em)
-    #text(font: fonts.sans, size: 10pt, fill: palette.muted)[#deck]
-  ]
-  if provenance != none {
-    v(space.md)
-    provenance
+#let chapter(number, title, deck, provenance: none) = context {
+  if target() == "html" {
+    html.elem("header", attrs: (class: "chapter-opener"))[
+      #html.elem("p", attrs: (class: "chapter-number"))[Chương #number]
+      #heading(level: 1, outlined: true)[#title]
+      #html.elem("p", attrs: (class: "chapter-deck"))[#deck]
+      #if provenance != none {
+        html.elem("div", attrs: (class: "provenance"), provenance)
+      }
+    ]
+  } else {
+    pagebreak(weak: true)
+    v(7mm)
+    eyebrow([CHƯƠNG #number], fill: palette.saffron)
+    v(4mm)
+    heading(level: 1, outlined: true)[#title]
+    v(4mm)
+    block(width: 78%)[
+      #set par(first-line-indent: 0em, justify: false, leading: 0.72em)
+      #text(font: fonts.sans, size: 10pt, fill: palette.muted)[#deck]
+    ]
+    if provenance != none {
+      v(space.md)
+      provenance
+    }
+    v(space.xl)
   }
-  v(space.xl)
 }
 
 #let source-color(kind) = {
@@ -111,156 +134,244 @@
   else { palette.muted }
 }
 
-#let source-badge(kind, refs: none) = {
-  let color = source-color(kind)
-  box(
-    fill: color.lighten(83%),
-    stroke: 0.55pt + color.lighten(40%),
-    radius: 3pt,
-    inset: (x: 6pt, y: 3pt),
-  )[
-    #text(
-      font: fonts.sans,
-      size: 6.5pt,
-      weight: 700,
-      tracking: 0.08em,
-      fill: color,
-    )[#kind]
-    #if refs != none [
-      #h(4pt)
-      #text(font: fonts.sans, size: 6.5pt, fill: color)[#refs]
+#let source-badge(kind, refs: none) = context {
+  if target() == "html" {
+    let kind-class = if kind == "KINH" { "source-kinh" }
+      else if kind == "THANH TỊNH ĐẠO" { "source-thanh-tinh-dao" }
+      else if kind == "LUẬN GIẢI" { "source-luan-giai" }
+      else if kind == "MAHĀSI" { "source-mahasi" }
+      else if kind == "NGHIÊN CỨU" { "source-nghien-cuu" }
+      else { "source-bien-soan" }
+    html.elem("span", attrs: (class: "source-badge " + kind-class))[
+      #kind
+      #if refs != none [ · #refs]
     ]
-  ]
+  } else {
+    let color = source-color(kind)
+    box(
+      fill: color.lighten(83%),
+      stroke: 0.55pt + color.lighten(40%),
+      radius: 3pt,
+      inset: (x: 6pt, y: 3pt),
+    )[
+      #text(
+        font: fonts.sans,
+        size: 6.5pt,
+        weight: 700,
+        tracking: 0.08em,
+        fill: color,
+      )[#kind]
+      #if refs != none [
+        #h(4pt)
+        #text(font: fonts.sans, size: 6.5pt, fill: color)[#refs]
+      ]
+    ]
+  }
 }
 
-#let source-line(kind, refs, body) = block(
-  width: 100%,
-  breakable: false,
-  below: 5pt,
-  inset: (left: 9pt),
-  stroke: (left: 1.5pt + source-color(kind)),
-)[
-  #set par(first-line-indent: 0em)
-  #source-badge(kind, refs: refs)
-  #v(4pt)
-  #body
-]
-
-#let scripture-quote(body, source) = block(
-  width: 100%,
-  breakable: false,
-  fill: palette.surface,
-  inset: 14pt,
-  radius: 5pt,
-  stroke: 0.6pt + palette.rule,
-)[
-  #set par(first-line-indent: 0em, justify: false, leading: 0.72em)
-  #text(font: fonts.display, size: 13.5pt, style: "italic")[#body]
-  #v(8pt)
-  #divider()
-  #v(6pt)
-  #text(font: fonts.sans, size: 7.5pt, fill: palette.muted)[#source]
-]
-
-#let practice-card(title, body, label: [THỰC HÀNH]) = block(
-  width: 100%,
-  breakable: false,
-  fill: palette.surface-light,
-  inset: 12pt,
-  radius: 5pt,
-  stroke: 0.7pt + palette.rule,
-)[
-  #set par(first-line-indent: 0em)
-  #eyebrow(label, fill: palette.forest)
-  #v(4pt)
-  #text(font: fonts.display, size: 13pt, weight: 600)[#title]
-  #v(7pt)
-  #body
-]
-
-#let caution(title, body) = block(
-  width: 100%,
-  breakable: false,
-  fill: palette.clay.lighten(88%),
-  inset: 12pt,
-  radius: 5pt,
-  stroke: 0.7pt + palette.clay.lighten(48%),
-)[
-  #set par(first-line-indent: 0em)
-  #eyebrow([GIỚI HẠN CẦN NHỚ], fill: palette.clay)
-  #v(4pt)
-  #text(font: fonts.display, size: 13pt, weight: 600)[#title]
-  #v(7pt)
-  #body
-]
-
-#let modern-note(body) = block(
-  width: 100%,
-  breakable: false,
-  below: 5pt,
-  inset: (left: 10pt),
-  stroke: (left: 1.5pt + palette.muted),
-)[
-  #set par(first-line-indent: 0em)
-  #source-badge("BIÊN SOẠN")
-  #v(4pt)
-  #body
-]
-
-#let day-card(day, title, duration, body) = block(
-  width: 100%,
-  breakable: false,
-  inset: (y: 10pt),
-)[
-  #grid(
-    columns: (24pt, 1fr),
-    column-gutter: 10pt,
-    [
-      #circle(
-        radius: 12pt,
-        fill: palette.saffron,
-      )[
-        #align(center + horizon)[
-          #text(font: fonts.sans, size: 8pt, weight: 700, fill: white)[#day]
-        ]
-      ]
-    ],
-    [
+#let source-line(kind, refs, body) = context {
+  if target() == "html" {
+    html.elem("aside", attrs: (class: "source-line"))[
+      #source-badge(kind, refs: refs)
+      #body
+    ]
+  } else {
+    block(
+      width: 100%,
+      breakable: false,
+      below: 5pt,
+      inset: (left: 9pt),
+      stroke: (left: 1.5pt + source-color(kind)),
+    )[
       #set par(first-line-indent: 0em)
-      #text(font: fonts.display, size: 12.5pt, weight: 600)[#title]
-      #h(5pt)
-      #text(font: fonts.sans, size: 7pt, fill: palette.saffron)[#duration]
+      #source-badge(kind, refs: refs)
       #v(4pt)
       #body
-    ],
-  )
-]
+    ]
+  }
+}
 
-#let check-row(label, body) = grid(
-  columns: (15pt, 1fr),
-  column-gutter: 6pt,
-  align: top,
-  [#box(width: 8pt, height: 8pt, stroke: 0.7pt + palette.forest, radius: 1pt)],
-  [
-    #set par(first-line-indent: 0em)
-    *#label* #body
-  ],
-)
+#let scripture-quote(body, source) = context {
+  if target() == "html" {
+    html.elem("blockquote", attrs: (class: "scripture-quote"))[
+      #body
+      #html.elem("footer", attrs: (class: "quote-source"))[#source]
+    ]
+  } else {
+    block(
+      width: 100%,
+      breakable: false,
+      fill: palette.surface,
+      inset: 14pt,
+      radius: 5pt,
+      stroke: 0.6pt + palette.rule,
+    )[
+      #set par(first-line-indent: 0em, justify: false, leading: 0.72em)
+      #text(font: fonts.display, size: 13.5pt, style: "italic")[#body]
+      #v(8pt)
+      #divider()
+      #v(6pt)
+      #text(font: fonts.sans, size: 7.5pt, fill: palette.muted)[#source]
+    ]
+  }
+}
 
-#let reference-item(code, title, detail, url) = block(
-  width: 100%,
-  breakable: false,
-  inset: (y: 5pt),
-)[
-  #set par(first-line-indent: 0em)
-  #grid(
-    columns: (32pt, 1fr),
-    column-gutter: 8pt,
-    [#source-badge("KINH", refs: code)],
-    [
-      *#title*\
-      #text(size: 8.5pt, fill: palette.muted)[#detail]\
-      #link(url)[#text(font: fonts.sans, size: 7pt)[Mở bản nguồn trực tuyến]]
-    ],
-  )
-]
+#let practice-card(title, body, label: [THỰC HÀNH]) = context {
+  if target() == "html" {
+    html.elem("aside", attrs: (class: "practice-card"))[
+      #html.elem("p", attrs: (class: "eyebrow"))[#label]
+      #html.elem("div", attrs: (class: "card-title"))[#title]
+      #body
+    ]
+  } else {
+    block(
+      width: 100%,
+      breakable: false,
+      fill: palette.surface-light,
+      inset: 12pt,
+      radius: 5pt,
+      stroke: 0.7pt + palette.rule,
+    )[
+      #set par(first-line-indent: 0em)
+      #eyebrow(label, fill: palette.forest)
+      #v(4pt)
+      #text(font: fonts.display, size: 13pt, weight: 600)[#title]
+      #v(7pt)
+      #body
+    ]
+  }
+}
+
+#let caution(title, body) = context {
+  if target() == "html" {
+    html.elem("aside", attrs: (class: "caution"))[
+      #html.elem("p", attrs: (class: "eyebrow"))[Giới hạn cần nhớ]
+      #html.elem("p", attrs: (class: "card-title"))[#title]
+      #body
+    ]
+  } else {
+    block(
+      width: 100%,
+      breakable: false,
+      fill: palette.clay.lighten(88%),
+      inset: 12pt,
+      radius: 5pt,
+      stroke: 0.7pt + palette.clay.lighten(48%),
+    )[
+      #set par(first-line-indent: 0em)
+      #eyebrow([GIỚI HẠN CẦN NHỚ], fill: palette.clay)
+      #v(4pt)
+      #text(font: fonts.display, size: 13pt, weight: 600)[#title]
+      #v(7pt)
+      #body
+    ]
+  }
+}
+
+#let modern-note(body) = context {
+  if target() == "html" {
+    html.elem("aside", attrs: (class: "modern-note"))[
+      #source-badge("BIÊN SOẠN")
+      #body
+    ]
+  } else {
+    block(
+      width: 100%,
+      breakable: false,
+      below: 5pt,
+      inset: (left: 10pt),
+      stroke: (left: 1.5pt + palette.muted),
+    )[
+      #set par(first-line-indent: 0em)
+      #source-badge("BIÊN SOẠN")
+      #v(4pt)
+      #body
+    ]
+  }
+}
+
+#let day-card(day, title, duration, body) = context {
+  if target() == "html" {
+    html.elem("section", attrs: (class: "day-card"))[
+      #html.elem("span", attrs: (class: "day-number"))[#day]
+      #html.elem("span", attrs: (class: "day-title"))[#title]
+      #html.elem("span", attrs: (class: "day-duration"))[#duration]
+      #body
+    ]
+  } else {
+    block(
+      width: 100%,
+      breakable: false,
+      inset: (y: 10pt),
+    )[
+      #grid(
+        columns: (24pt, 1fr),
+        column-gutter: 10pt,
+        [
+          #circle(
+            radius: 12pt,
+            fill: palette.saffron,
+          )[
+            #align(center + horizon)[
+              #text(font: fonts.sans, size: 8pt, weight: 700, fill: white)[#day]
+            ]
+          ]
+        ],
+        [
+          #set par(first-line-indent: 0em)
+          #text(font: fonts.display, size: 12.5pt, weight: 600)[#title]
+          #h(5pt)
+          #text(font: fonts.sans, size: 7pt, fill: palette.saffron)[#duration]
+          #v(4pt)
+          #body
+        ],
+      )
+    ]
+  }
+}
+
+#let check-row(label, body) = context {
+  if target() == "html" {
+    html.elem("div", attrs: (class: "check-row"))[*#label* #body]
+  } else {
+    grid(
+      columns: (15pt, 1fr),
+      column-gutter: 6pt,
+      align: top,
+      [#box(width: 8pt, height: 8pt, stroke: 0.7pt + palette.forest, radius: 1pt)],
+      [
+        #set par(first-line-indent: 0em)
+        *#label* #body
+      ],
+    )
+  }
+}
+
+#let reference-item(code, title, detail, url) = context {
+  if target() == "html" {
+    html.elem("section", attrs: (class: "reference-item"))[
+      #source-badge("KINH", refs: code)
+      #html.elem("p", attrs: (class: "reference-title"))[*#title*]
+      #html.elem("p", attrs: (class: "reference-detail"))[#detail]
+      #html.elem("p")[#link(url)[Mở bản nguồn trực tuyến]]
+    ]
+  } else {
+    block(
+      width: 100%,
+      breakable: false,
+      inset: (y: 5pt),
+    )[
+      #set par(first-line-indent: 0em)
+      #grid(
+        columns: (32pt, 1fr),
+        column-gutter: 8pt,
+        [#source-badge("KINH", refs: code)],
+        [
+          *#title*\
+          #text(size: 8.5pt, fill: palette.muted)[#detail]\
+          #link(url)[#text(font: fonts.sans, size: 7pt)[Mở bản nguồn trực tuyến]]
+        ],
+      )
+    ]
+  }
+}

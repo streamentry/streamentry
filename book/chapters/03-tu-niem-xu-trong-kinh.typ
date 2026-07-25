@@ -44,7 +44,7 @@
 == Thọ: biết vị của kinh nghiệm trước khi ái chen vào
 
 #source-line("KINH", [K01 · MN 10, Vedanānupassanā], [
-  *Thọ* ở đây là sắc thái dễ chịu, khó chịu hoặc trung tính của kinh nghiệm, không đồng nghĩa với toàn bộ “cảm xúc”. Kinh còn phân biệt thọ *sāmisa* và *nirāmisa*, được các bản dịch diễn đạt khác nhau như “có vật chất, không vật chất” hoặc “thuộc thế tục, thuộc tinh thần”. Khi thọ được nhận ra sớm, hành giả có cơ hội thấy xu hướng tìm giữ, xua đuổi hay bỏ quên.
+  *Thọ* ở đây là sắc thái dễ chịu, khó chịu hoặc trung tính của kinh nghiệm, không đồng nghĩa với toàn bộ “cảm xúc”. Khi thọ được nhận ra sớm, hành giả có cơ hội thấy xu hướng tìm giữ, xua đuổi hay bỏ quên.
 ])
 
 #modern-note([

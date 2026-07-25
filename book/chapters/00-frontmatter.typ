@@ -1,11 +1,20 @@
 #import "../components.typ": *
 
-#align(center)[
-  #v(12mm)
-  #eyebrow([LỜI DẪN], fill: palette.saffron)
-  #v(6mm)
-  #text(font: fonts.display, size: 24pt, weight: 600)[Một cuốn sổ tay, không phải giấy chứng nhận]
-]
+#context {
+  if target() == "html" {
+    html.elem("header", attrs: (class: "introduction-opener"))[
+      #html.elem("p", attrs: (class: "eyebrow"))[LỜI DẪN]
+      #heading(level: 1, outlined: true)[Một cuốn sổ tay, không phải giấy chứng nhận]
+    ]
+  } else {
+    align(center)[
+      #v(12mm)
+      #eyebrow([LỜI DẪN], fill: palette.saffron)
+      #v(6mm)
+      #text(font: fonts.display, size: 24pt, weight: 600)[Một cuốn sổ tay, không phải giấy chứng nhận]
+    ]
+  }
+}
 
 #v(10mm)
 
@@ -20,6 +29,24 @@ Tên sách dùng cụm từ *hướng đến nhập lưu*. Đây là giới hạ
   [
     Chánh niệm là một chi của Bát Chánh Đạo, không phải toàn bộ đạo lộ. Giới, chánh kiến, tinh tấn, định, thiện hữu và nghe Chánh pháp đều có chức năng riêng. Ghi nhận giúp thấy kinh nghiệm rõ hơn, nhưng bản thân việc lặp nhãn không đồng nghĩa với tuệ giác hay thánh quả.
   ],
+)
+
+== Lộ trình đọc cho người mới
+
+#practice-card(
+  [Đọc theo nhu cầu, không cần nuốt trọn từ đầu đến cuối],
+  [
+    1. *Trước buổi đầu:* đọc chương 1, rồi đọc các ngưỡng dừng ở chương 9. Thực hành lịch bảy ngày ở mức vừa sức.
+
+    2. *Sau tuần đầu:* đọc chương 2 đến chương 7 để đặt kỹ thuật vào giới, Bát Chánh Đạo, Tứ Niệm Xứ, duyên khởi và đời sống tại gia.
+
+    3. *Trước khi tăng mạnh thời lượng hoặc đi khóa:* đọc chương 8 và chương 9, kiểm tra sức khỏe, người hướng dẫn và quyền rời khóa.
+
+    4. *Chương 10 để về sau:* trong những tuần hoặc tháng đầu, chỉ đọc hai phần đầu để biết nguồn và cách đếm, rồi dừng trước phần “Đọc bản đồ theo bốn vùng”. Đừng dùng tên tầng tuệ để tự phong cấp cho một trải nghiệm.
+
+    Chương 11 và các phụ lục là nơi tra cứu khi cần. Nếu một chỉ dẫn trong sách xung đột với an toàn, giới hoặc bổn phận thiết yếu, hãy dừng và kiểm tra lại thay vì cố hoàn thành lịch.
+  ],
+  label: [BẮT ĐẦU Ở ĐÂY · BIÊN SOẠN],
 )
 
 == Sáu dấu nguồn dùng trong sách
@@ -45,7 +72,9 @@ Mỗi đoạn mang tính giáo lý hoặc kỹ thuật sẽ được đặt gầ
 
 == Cách dùng cuốn sách
 
-Nếu chưa từng hành thiền, hãy đi thẳng đến chương *Bảy ngày bắt đầu*. Sau một tuần, đọc các chương nền tảng rồi mới tăng thời lượng. Nếu đã hành lâu, hãy đọc phần nguồn và an toàn trước khi dùng bản đồ tuệ. Khi có trải nghiệm mạnh, kéo dài hoặc làm suy giảm giấc ngủ và sinh hoạt, đừng tự gắn tên một tầng tuệ. Giảm cường độ và tìm người hướng dẫn đủ năng lực; khi cần, tìm hỗ trợ y tế.
+Nếu chưa từng hành thiền, hãy dùng lộ trình ở trên thay vì đọc tuyến tính. Nếu đã hành lâu, hãy đọc phần nguồn và an toàn trước khi dùng bản đồ tuệ. Khi có trải nghiệm mạnh, kéo dài hoặc làm suy giảm giấc ngủ và sinh hoạt, đừng tự gắn tên một tầng tuệ. Giảm cường độ và tìm người hướng dẫn đủ năng lực; khi cần, tìm hỗ trợ y tế.
+
+Nếu bạn mới bắt đầu, hãy coi chương 10 là tài liệu tham khảo về sau, không phải nơi tự chẩn đoán trong những tuần đầu.
 
 #pagebreak()
 

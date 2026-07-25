@@ -14,9 +14,23 @@
 #practice-card(
   [Quy ước tối thiểu],
   [
-    Chọn một giờ và một chỗ tương đối cố định. Dùng đồng hồ hẹn giờ. Ngồi trên gối hoặc ghế, miễn thân vững và không phải chịu đau có nguy cơ gây chấn thương. Trong bảy ngày đầu, đừng tăng thời lượng để bù một buổi đã lỡ.
+    Chọn một giờ và một chỗ tương đối cố định. Dùng đồng hồ hẹn giờ. Ngồi trên gối hoặc ghế, miễn thân vững và không phải chịu đau có nguy cơ gây chấn thương. Trong bảy ngày đầu, đừng tăng thời lượng để bù một buổi đã lỡ. Nếu mười lăm phút chưa thực tế, giữ năm phút mỗi ngày trong trọn tuần. Năm phút là mức sàn biên soạn để bảo vệ tính liên tục, không phải liều tối ưu hay mốc kinh điển.
   ],
   label: [THỰC HÀNH · BIÊN SOẠN THEO P01],
+)
+
+#caution(
+  [Nếu chuyển động bụng không rõ],
+  [
+    Giữ bụng là điểm tựa mặc định trong tuần đầu, nhưng không ép nó phải hiện ra bằng sức căng. Thả lỏng thân và thử lại trong khoảng hai đến ba phút. Nếu chuyển động vẫn rất mờ, dùng cảm giác hơi thở ở mũi cho phần còn lại của buổi đó. Giữ nguyên một điểm tựa đến hết buổi thay vì đổi qua đổi lại. Mốc hai đến ba phút và cách chuyển điểm tựa là quy tắc biên soạn để người mới khỏi mắc kẹt; P01 không ấn định mốc này.
+  ],
+)
+
+#caution(
+  [Dừng buổi và đọc chương an toàn],
+  [
+    Nếu việc hành đi kèm hoảng sợ lặp lại, mất ngủ tăng dần, cảm giác xa lạ với bản thân hay thực tại, hoặc suy giảm rõ khả năng làm việc và sinh hoạt, hãy dừng buổi hiện tại và đừng tăng cường độ. Đọc chương 9 trước khi tiếp tục. Khi triệu chứng mạnh, kéo dài hoặc có nguy cơ gây hại, tìm hỗ trợ y tế phù hợp thay vì tự gọi đó là một tầng tuệ.
+  ],
 )
 
 #source-line("BIÊN SOẠN", [lịch bảy ngày dựa trên P01], [Các mốc 15 đến 30 phút dưới đây là đề nghị tạo thói quen cho người tại gia. P01 không ấn định lịch bảy ngày hay các thời lượng này.])

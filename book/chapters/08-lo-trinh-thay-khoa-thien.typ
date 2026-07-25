@@ -1,7 +1,7 @@
 #import "../components.typ": *
 
 #chapter(
-  [07],
+  [08],
   [Lộ trình, người hướng dẫn và khóa thiền],
   [Một thời khóa tốt tạo điều kiện cho giới, định và tuệ lớn lên. Nó không phải hợp đồng đổi số giờ ngồi lấy thánh quả.],
   provenance: [
@@ -70,6 +70,15 @@ Trước khi đăng ký, hãy hỏi thẳng:
 - Khi mất ngủ hoặc hoảng sợ, hành giả được giảm thời khóa không?
 - Có quy trình cấp cứu, liên lạc gia đình và rời khóa an toàn không?
 - Chi phí, hoàn tiền và cúng dường được công bố ra sao?
+
+#caution(
+  [Ba điều kiện đủ để không đăng ký],
+  [
+    #source-badge("BIÊN SOẠN", refs: [quy tắc sàng lọc])
+    #v(5pt)
+    Đừng tham dự nếu trung tâm không nói rõ quy trình cấp cứu và quyền rời khóa, hoặc lảng tránh khi được hỏi. Đừng tham dự nếu họ gây áp lực buộc ngừng thuốc, che giấu triệu chứng hay cắt liên lạc cần thiết. Đừng tham dự nếu họ bảo đảm đạo quả, ép chịu đau hoặc tước giấc ngủ như một phép thử. Chỉ một trong ba nhóm dấu hiệu này đã đủ để dừng việc đăng ký.
+  ],
+)
 
 == Chọn người hướng dẫn
 

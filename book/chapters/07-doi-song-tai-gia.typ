@@ -1,7 +1,7 @@
 #import "../components.typ": *
 
 #chapter(
-  [06],
+  [07],
   [Đem niệm vào một ngày sống],
   [Đời sống tại gia không đứng ngoài pháp hành. Chính lúc ăn, nói, làm việc, chăm người thân và chịu va chạm, ta thấy tâm đang nắm, đẩy hay sáng biết ra sao.],
   provenance: [
@@ -55,9 +55,9 @@ Trong giờ thiền, đi chậm giúp nhận ra các pha của chuyển động.
 
 Khi con quấy, cha mẹ bệnh hoặc người bạn đời bất đồng, mục tiêu không phải làm cảm xúc biến mất. Trước hết, nhận ra sân, sợ, buồn hay ý muốn thắng. Sau đó mới chọn lời và hành động ít gây hại hơn. Chánh niệm đúng không khiến ta lạnh đi; nó giúp ta không giao tay lái cho phản ứng đầu tiên.
 
-#source-line("KINH", [K19], [SN 55.7 trình bày việc tránh sát hại, lấy của không cho, tà hạnh và bốn loại lời nói có hại: dối trá, chia rẽ, thô ác, phù phiếm.])
+#source-line("KINH", [K18], [SN 55.7 trình bày việc tránh sát hại, lấy của không cho, tà hạnh và bốn loại lời nói có hại: dối trá, chia rẽ, thô ác, phù phiếm.])
 
-#source-line("BIÊN SOẠN", [đối chiếu K19 với công thức Năm giới], [SN 55.7 liệt kê bảy điều tránh. Trong công thức Năm giới, giới thứ tư chỉ nêu tránh nói dối. So sánh này là phần đối chiếu của sách.])
+#source-line("BIÊN SOẠN", [đối chiếu K18 với công thức Năm giới], [SN 55.7 liệt kê bảy điều tránh. Trong công thức Năm giới, giới thứ tư chỉ nêu tránh nói dối. So sánh này là phần đối chiếu của sách.])
 
 Trong một cuộc tranh luận, “tôi đúng” có thể là một ý nghĩ đáng quan sát, nhưng không phải mọi bất đồng đều do ngã mạn. Có lúc ta cần nói rõ một ranh giới, ngăn một hành vi nguy hiểm hoặc sửa một thông tin sai. Chánh niệm phục vụ thấy biết và hành động đúng, không phục vụ sự im lặng dễ dãi.
 

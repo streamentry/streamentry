@@ -39,11 +39,11 @@
 
 == Nhập lưu được kinh mô tả thế nào?
 
-#source-line("KINH", [K25 · AN 10.13; K10 · AN 3.88], [
+#source-line("KINH", [K24 · AN 10.13; K10 · AN 3.88], [
   Kinh mô tả bậc Nhập lưu là người đã dứt ba kiết sử đầu, không còn bị đọa vào khổ cảnh, chắc chắn hướng đến giác ngộ và còn tái sinh nhiều nhất bảy lần. “Bảy lần” là giới hạn tối đa trong mô tả kinh điển, không phải lịch hẹn cho một cá nhân.
 ])
 
-#source-line("KINH", [K21 · MN 44, Cūḷavedalla Sutta], [
+#source-line("KINH", [K20 · MN 44, Cūḷavedalla Sutta], [
   Thân kiến không chỉ là dùng chữ “tôi”. MN 44 phân tích nó như những cách chấp năm uẩn là tự ngã, thuộc về tự ngã, nằm trong tự ngã hoặc chứa tự ngã. Vì thế, một thoáng thấy “không có người điều khiển” chưa đủ để tuyên bố thân kiến đã được nhổ tận gốc.
 ])
 
@@ -51,14 +51,14 @@
   Một nhóm tiêu chuẩn khác là tịnh tín đã được xác chứng nơi Phật, Pháp, Tăng và giới hạnh được bậc Thánh quý trọng. Đây không phải niềm tin vay mượn vì sợ hãi. Nó là lòng tin đã đứng được trên thấy biết và trên một đời sống không còn dễ dàng phản bội điều mình biết là lành.
 ])
 
-#source-line("KINH", [K22 · AN 10.92, Bhaya Sutta], [
+#source-line("KINH", [K21 · AN 10.92, Bhaya Sutta], [
   AN 10.92 đặt cạnh nhau ba mặt: năm mối sợ và thù hận được làm lắng qua việc tránh năm hành vi gây hại, bốn phẩm chất của bậc Nhập lưu, và sự thấy rõ duyên khởi. Bức tranh này rộng hơn bất kỳ dấu hiệu thiền định đơn lẻ nào.
 ])
 
 #caution(
   [Không có bài tự kiểm cấp tốc],
   [
-    #source-badge("BIÊN SOẠN", refs: [đối chiếu K03; K22])
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu K03; K21])
     #v(5pt)
     Một khoảnh khắc trống lặng, ánh sáng, hỷ lạc hay cảm giác “cái tôi biến mất” không phải giấy chứng nhận. Kinh cho nhiều tiêu chuẩn cùng lúc. Sổ tay này khuyên đối chiếu lâu dài với giới hạnh, chánh kiến và người hướng dẫn có năng lực để giảm nguy cơ tự lừa. Cuốn sách không xác nhận thánh quả cho người đọc.
   ],
@@ -89,7 +89,7 @@
   AN 10.1 trình bày một chuỗi có trật tự: giới lành đưa đến không hối hận; từ đó có hân hoan, hỷ, khinh an, lạc, định, thấy biết như thật, nhàm lìa, ly tham và tri kiến giải thoát. Giới không phải nghi lễ mở màn. Nó dọn mặt đất để tâm có thể đứng yên mà không phải che giấu chính mình.
 ])
 
-#source-line("KINH", [K22 · AN 10.92; K24 · MN 117], [
+#source-line("KINH", [K21 · AN 10.92; K23 · MN 117], [
   Năm học giới của cư sĩ là tránh sát sinh, lấy của không cho, tà hạnh trong dục, nói dối và chất say gây phóng dật. Chánh mạng, theo MN 117, là từ bỏ cách sinh sống sai và nuôi mạng bằng cách đúng. Những ứng dụng mới như bản quyền, dữ liệu, quảng cáo hay đầu tư phải được xét theo nguyên tắc không chiếm đoạt, không lừa dối và không gây hại, chứ không được giả làm câu chữ cổ có sẵn trong kinh.
 ])
 

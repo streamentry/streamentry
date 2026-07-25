@@ -23,6 +23,8 @@
 
     Chọn một điểm trở về trong buổi tập. Khi đối tượng khác hết nổi bật, trở lại đó.
 
+    Trong tuần đầu, bụng là điểm mặc định. Nếu sau hai đến ba phút thả lỏng mà chuyển động vẫn không rõ, đổi sang hơi thở ở mũi cho phần còn lại của buổi đó và đừng qua lại giữa hai điểm trong cùng một lần ngồi.
+
     Hơi thở ở mũi là phương án biên soạn theo K12, không phải đề mục căn bản của P01.
 
     #v(5pt)

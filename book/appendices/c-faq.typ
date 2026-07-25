@@ -69,6 +69,8 @@
 
     #v(5pt)
     #source-badge("THANH TỊNH ĐẠO", refs: [V01])
+    #h(4pt)
+    #source-badge("MAHĀSI", refs: [P02])
   ],
 )
 
