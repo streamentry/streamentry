@@ -10,9 +10,11 @@ description: Maintain and publish the Vietnamese Typst handbook Hướng Đến 
 1. Read `AGENTS.md`.
 2. Read `book/references/claim-ledger.md` before changing doctrinal prose.
 3. Read `book/references/editorial-depth-audit.md` before expanding or compressing a chapter.
-4. Read the immediate chapter, its source codes, `book/components.typ`, and `book/theme.typ` before editing.
-5. Preserve the original Markdown unchanged.
-6. For beginner validation, use `book/references/beginner-reader-kit.md` together with `book/references/beginner-validation-protocol.md`.
+4. Read `book/references/release-evidence.md` before repeating or changing any verification claim.
+5. Read the immediate chapter, its source codes, `book/components.typ`, and `book/theme.typ` before editing.
+6. Preserve the original Markdown unchanged.
+7. For beginner validation, use `book/references/beginner-reader-kit.md` together with `book/references/beginner-validation-protocol.md`; freeze the cohort with `book/references/beginner-pilot-cohort-manifest.schema.json`, record every ordered attempt with `book/references/beginner-pilot-record.schema.json`, and pass only the manifest to `scripts/score-beginner-pilot.py`.
+8. For independent doctrine review, use `book/references/doctrinal-review-protocol.md`; never convert an internal audit into external endorsement.
 
 ## Publication Credit
 
@@ -24,7 +26,7 @@ The canonical author string is `CS Chánh Niệm + ChatGPT`. Keep it synchronize
 
 The EPUB must be reflowable. Preserve heading hierarchy, source badges, cautions, practice cards, navigation, external links, Vietnamese diacritics, canonical metadata, and cover credit. Do not reproduce A5 page breaks or worksheet blank space as fixed-layout ebook pages.
 
-The builder fails on unexpected Typst HTML warnings, missing semantic body matter, heading jumps, broken navigation, lost dark-mode CSS, and non-reproducible ZIP metadata. A clean build and EPUBCheck result are necessary but do not prove behavior in Apple Books, Kindle, Kobo, or every assistive-technology stack.
+The builder compiles the print artifact as deterministic PDF/UA-1 and fails on unexpected Typst HTML warnings, missing semantic body matter, heading jumps, broken navigation, lost dark-mode CSS, and non-reproducible ZIP metadata. A clean build, EPUBCheck result, and automated accessibility scan are necessary but do not prove behavior in Apple Books, Kindle, Kobo, or every assistive-technology stack.
 
 ## Print Contract
 
@@ -42,10 +44,12 @@ Use one of six visible source classes:
 - `LUẬN GIẢI`: Abhidhamma or later commentarial analysis.
 - `THANH TỊNH ĐẠO`: claims specifically traceable to the *Visuddhimagga*.
 - `MAHĀSI`: instructions traceable to a named Mahāsi work or lineage manual.
-- `NGHIÊN CỨU`: modern research used only for health and safety questions.
+- `Y TẾ & NGHIÊN CỨU`: modern research and authoritative health guidance used only for health and safety questions.
 - `BIÊN SOẠN`: modern habit design, editorial synthesis, or safety guidance.
 
 Never label modern schedules, percentages, diagnostic heuristics, or attainment promises as `KINH`. “The Pāli discourses state” is different from “empirical fact.” Keep that distinction explicit.
+
+For attainment language, keep the first three fetters, the full five lower fetters, the four fruits, and DN 2's broader discourse title distinct. Use Chapter 10, the glossary, and claim codes C41–C45 as the canonical project anchors.
 
 ## Writing Contract
 
@@ -62,7 +66,6 @@ The glossary is a reference aid, not permission to leave the main reading path o
 ## Build and Verify
 
 ```sh
-typst compile --root /Volumes/SSD/streamentry book/main.typ dist/huong-den-nhap-luu.pdf
 python3 scripts/build-epub.py
 pdfinfo dist/huong-den-nhap-luu.pdf
 pdftotext -layout dist/huong-den-nhap-luu.pdf build/huong-den-nhap-luu.txt
@@ -71,6 +74,8 @@ pdftoppm -png -r 144 dist/huong-den-nhap-luu.pdf build/page
 
 Inspect the cover, contents, every chapter opener, dense appendix pages, source map, and final page. Search extracted text for missing glyphs, bad URLs, placeholder language, and unlabelled guarantees.
 
-For EPUB, run the packaging script and then EPUBCheck when available. Inspect metadata, cover, table of contents, internal anchors, external links, font resizing, dark mode, and reading order in at least one standards-based reader. Structural checks are not proof of reader interoperability.
+For EPUB, run the packaging script, EPUBCheck, and DAISY Ace when available. Inspect metadata, cover, table of contents, internal anchors, external links, font resizing, dark mode, and reading order in at least one standards-based reader. For PDF, confirm the PDF/UA metadata and tagged structure, but do not call it independently validated without a separate PDF/UA validator. Structural checks are not proof of reader interoperability.
 
-Before describing the book as validated for beginners, run `book/references/beginner-validation-protocol.md` with unassisted novice readers. Before making a comparative market claim, run a preregistered test against named alternatives. Internal editorial review is not independent expert endorsement.
+Before describing the book as validated for beginners, run `book/references/beginner-validation-protocol.md` with unassisted novice readers and preserve a scorer-produced aggregate report tied to exact committed artifacts, contract hashes, and an ordered attempt manifest. A self-reported manifest timestamp is not independent preregistration evidence; use an external append-only registry when that claim matters. Before making a comparative market claim, run a preregistered test against named alternatives. Internal editorial review is not independent expert endorsement.
+
+After the final build, update `book/references/release-evidence.md` with exact hashes and results. A dirty candidate record is not a release manifest and cannot be used as the artifact identity for human testing.

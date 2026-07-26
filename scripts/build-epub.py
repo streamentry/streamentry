@@ -22,6 +22,7 @@ LANGUAGE = "vi"
 SOURCE_SHA256 = "ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440"
 IDENTIFIER = f"urn:uuid:{uuid.uuid5(uuid.NAMESPACE_URL, 'https://streamentry.local/huong-den-nhap-luu')}"
 MODIFIED = "2026-07-26T00:00:00Z"
+CREATION_TIMESTAMP = "1785024000"
 XHTML_NS = "http://www.w3.org/1999/xhtml"
 EPUB_NS = "http://www.idpf.org/2007/ops"
 XML_NS = "http://www.w3.org/XML/1998/namespace"
@@ -368,7 +369,12 @@ def nav_xhtml(headings: list[Heading], intro_anchor: str) -> str:
     toc = ET.SubElement(
         body,
         _qname(XHTML_NS, "nav"),
-        {_qname(EPUB_NS, "type"): "toc", "id": "toc"},
+        {
+            _qname(EPUB_NS, "type"): "toc",
+            "id": "toc",
+            "role": "doc-toc",
+            "aria-label": "Mục lục",
+        },
     )
     ET.SubElement(toc, _qname(XHTML_NS, "h1")).text = "Mục lục"
     outline = ET.SubElement(toc, _qname(XHTML_NS, "ol"))
@@ -379,7 +385,12 @@ def nav_xhtml(headings: list[Heading], intro_anchor: str) -> str:
     landmarks = ET.SubElement(
         body,
         _qname(XHTML_NS, "nav"),
-        {_qname(EPUB_NS, "type"): "landmarks", "hidden": "hidden"},
+        {
+            _qname(EPUB_NS, "type"): "landmarks",
+            "role": "navigation",
+            "aria-label": "Các điểm mốc",
+            "hidden": "hidden",
+        },
     )
     landmark_list = ET.SubElement(landmarks, _qname(XHTML_NS, "ol"))
     cover = ET.SubElement(landmark_list, _qname(XHTML_NS, "li"))
@@ -630,6 +641,10 @@ def build(root: Path, output: Path) -> None:
             "compile",
             "--root",
             str(root),
+            "--creation-timestamp",
+            CREATION_TIMESTAMP,
+            "--pdf-standard",
+            "ua-1",
             str(root / "book" / "main.typ"),
             str(root / "dist" / "huong-den-nhap-luu.pdf"),
         ],
@@ -645,6 +660,8 @@ def build(root: Path, output: Path) -> None:
             "html",
             "--root",
             str(root),
+            "--creation-timestamp",
+            CREATION_TIMESTAMP,
             str(root / "book" / "main.typ"),
             str(html_path),
         ],

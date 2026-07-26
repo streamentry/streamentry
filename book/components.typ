@@ -130,7 +130,7 @@
   else if kind == "THANH TỊNH ĐẠO" { palette.saffron }
   else if kind == "LUẬN GIẢI" { palette.indigo }
   else if kind == "MAHĀSI" { palette.clay }
-  else if kind == "NGHIÊN CỨU" { palette.research }
+  else if kind == "Y TẾ & NGHIÊN CỨU" { palette.research }
   else { palette.muted }
 }
 
@@ -140,7 +140,7 @@
       else if kind == "THANH TỊNH ĐẠO" { "source-thanh-tinh-dao" }
       else if kind == "LUẬN GIẢI" { "source-luan-giai" }
       else if kind == "MAHĀSI" { "source-mahasi" }
-      else if kind == "NGHIÊN CỨU" { "source-nghien-cuu" }
+      else if kind == "Y TẾ & NGHIÊN CỨU" { "source-nghien-cuu" }
       else { "source-bien-soan" }
     html.elem("span", attrs: (class: "source-badge " + kind-class))[
       #kind
@@ -171,7 +171,7 @@
 
 #let source-line(kind, refs, body) = context {
   if target() == "html" {
-    html.elem("aside", attrs: (class: "source-line"))[
+    html.elem("aside", attrs: (class: "source-line", role: "note"))[
       #source-badge(kind, refs: refs)
       #body
     ]
@@ -218,7 +218,7 @@
 
 #let practice-card(title, body, label: [THỰC HÀNH]) = context {
   if target() == "html" {
-    html.elem("aside", attrs: (class: "practice-card"))[
+    html.elem("aside", attrs: (class: "practice-card", role: "note"))[
       #html.elem("p", attrs: (class: "eyebrow"))[#label]
       #html.elem("div", attrs: (class: "card-title"))[#title]
       #body
@@ -242,9 +242,37 @@
   }
 }
 
+#let faq-card(anchor, question, body) = context {
+  if target() == "html" {
+    html.elem("section", attrs: (class: "faq-card practice-card"))[
+      #html.elem("p", attrs: (class: "eyebrow"))[GIẢI ĐÁP]
+      #html.elem("h2", attrs: (class: "card-title"))[#question]
+      #label(anchor)
+      #body
+    ]
+  } else {
+    block(
+      width: 100%,
+      breakable: false,
+      fill: palette.surface-light,
+      inset: 12pt,
+      radius: 5pt,
+      stroke: 0.7pt + palette.rule,
+    )[
+      #set par(first-line-indent: 0em)
+      #eyebrow([GIẢI ĐÁP], fill: palette.forest)
+      #v(4pt)
+      #text(font: fonts.display, size: 13pt, weight: 600)[#question]
+      #label(anchor)
+      #v(7pt)
+      #body
+    ]
+  }
+}
+
 #let caution(title, body) = context {
   if target() == "html" {
-    html.elem("aside", attrs: (class: "caution"))[
+    html.elem("aside", attrs: (class: "caution", role: "note"))[
       #html.elem("p", attrs: (class: "eyebrow"))[Giới hạn cần nhớ]
       #html.elem("p", attrs: (class: "card-title"))[#title]
       #body
@@ -270,7 +298,7 @@
 
 #let modern-note(body) = context {
   if target() == "html" {
-    html.elem("aside", attrs: (class: "modern-note"))[
+    html.elem("aside", attrs: (class: "modern-note", role: "note"))[
       #source-badge("BIÊN SOẠN")
       #body
     ]

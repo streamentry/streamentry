@@ -26,10 +26,21 @@
 #practice-card(
   [Một trang cho mỗi ngày],
   [
-    *Ngày:* ...........................................  *Giờ:* ........................
+    #context {
+      if target() == "html" {
+        html.elem("div", attrs: (class: "worksheet-fields"))[
+          #html.elem("div", attrs: (class: "worksheet-field"))[*Ngày:*]
+          #html.elem("div", attrs: (class: "worksheet-field"))[*Giờ:*]
+          #html.elem("div", attrs: (class: "worksheet-field"))[*Thiền hành, phút:*]
+          #html.elem("div", attrs: (class: "worksheet-field"))[*Thiền tọa, phút:*]
+        ]
+      } else [
+        *Ngày:* ...........................................  *Giờ:* ........................
 
-    #v(6pt)
-    *Thiền hành:* ........ phút  |  *Thiền tọa:* ........ phút
+        #v(6pt)
+        *Thiền hành:* ........ phút  |  *Thiền tọa:* ........ phút
+      ]
+    }
 
     #v(7pt)
     #check-row([Năm giới.], [Hôm nay tôi nhớ và giữ giới bằng hành động cụ thể.])

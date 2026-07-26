@@ -1,7 +1,7 @@
 #import "../components.typ": *
 
 #chapter(
-  [10],
+  [11],
   [Bản đồ tuệ, dùng như bản đồ],
   [Bản đồ giúp gọi tên một địa hình khó nói. Nó không biến trải nghiệm chủ quan thành máy đo thánh quả, và số thứ tự không phải chiếc thang để dựng một cái tôi tinh tế hơn.],
   provenance: [
@@ -56,11 +56,24 @@ Puṇṇa dùng ví dụ bảy cỗ xe trạm. Mỗi xe đưa người đi đế
     + *Đoạn nghi thanh tịnh:* thấy các tiến trình nương điều kiện mà sinh, nên nghi về nhân duyên giảm.
     + *Đạo phi đạo tri kiến thanh tịnh:* phân biệt điều đang hỗ trợ đường tu với hiện tượng phụ dễ bị lầm là cứu cánh.
     + *Hành đạo tri kiến thanh tịnh:* phần đường tuệ quán chín dần qua các vùng được giải thích ở dưới.
-    + *Tri kiến thanh tịnh:* trong hệ thống luận giải, phần liên hệ đến đạo, quả và sự xem lại.
+    + *Tri kiến thanh tịnh:* trong hệ thống luận giải, chính đạo trí làm thành thanh tịnh này; quả và sự xem lại được trình bày tiếp sau, không phải ba tên đồng nghĩa.
 
     Đây là lời dẫn nhập gần nghĩa, không thay thế định nghĩa kỹ thuật của Thanh Tịnh Đạo. Người mới chỉ cần thấy logic: sửa đời sống, làm tâm đủ vững, thấy thân-tâm và điều kiện, phân biệt đường đúng, rồi mới bàn các giai đoạn sâu hơn.
   ],
   label: [CẦU NỐI THUẬT NGỮ],
+)
+
+#practice-card(
+  [Bản đồ bốn vùng trước khi nhìn các con số],
+  [
+    + *Vùng một:* phân biệt tiến trình vật chất, tiến trình biết và các điều kiện đang liên hệ với nhau.
+    + *Vùng hai:* sinh diệt trở nên rõ hơn; ánh sáng, hỷ và sự trôi chảy có thể xuất hiện nhưng dễ bị lầm là cứu cánh.
+    + *Vùng ba:* mặt tan rã và tính không đáng nương tựa của các hành nổi bật; các tên đáng sợ, khổ lụy, nhàm chán và muốn giải thoát thuộc vùng này.
+    + *Vùng bốn:* việc biết quân bình hơn; hệ thống luận giải mới bàn đến những chuyển tiếp được gọi là thuận thứ, chuyển tộc, đạo, quả và phản khán.
+
+    Bốn vùng chỉ giúp nhìn logic của bản đồ P02. Chúng không phải bốn chẩn đoán, không bắt buộc ai cũng có cùng cảm xúc và không cho phép suy ra thánh quả.
+  ],
+  label: [BẢN ĐỒ MỘT TRANG · BIÊN SOẠN THEO P02],
 )
 
 == Vì sao có nơi nói mười sáu, có nơi nói mười bảy?
@@ -101,7 +114,7 @@ Vì vậy, hai người nói “tuệ 12” có thể đang chỉ hai mục khá
 
 Nếu người đọc chưa biết mỗi tên đang chỉ điều gì, danh sách trên vẫn còn quá kỹ thuật. Phần dưới đây diễn giải P02 theo bốn vùng dễ đọc hơn. Các mô tả là *bản đồ của truyền thống Mahāsi dựa trên hệ thống luận giải*, không phải bảng triệu chứng đã được khoa học thực nghiệm xác nhận và cũng không phải danh sách nằm nguyên vẹn trong một bài kinh.
 
-Đọc theo bốn vùng trước, rồi mới quay lại mười sáu hay mười bảy nhãn khi thật sự cần. Cách đi này giúp người mới bớt mắc ở tên gọi và nhìn được logic của trải nghiệm trước khi phải nhớ toàn bộ danh mục.
+Phần khái quát bốn vùng ở trên cho thấy logic trước khi phần này mở từng tên. Chỉ quay lại con số mười sáu hay mười bảy khi thật sự cần đối chiếu một tài liệu hoặc cách trình pháp cụ thể.
 
 #source-line("MAHĀSI", [P02 · mục 1–17], [
   P02 mô tả tiến trình cho những người đã thực hành nghiêm mật và có kết quả nổi bật. Lời tựa nói tác phẩm không được viết như cẩm nang nhập môn. Vì vậy, mô tả dưới đây dùng để hiểu thuật ngữ và trình pháp rõ hơn, không dùng để tự phong tầng tuệ từ vài dấu hiệu rời rạc.
@@ -165,8 +178,18 @@ Tên này không đồng nghĩa với mất trí nhớ, ngất, ngủ gật hay 
 
 *10. Tuệ quán xét lại.* Hành giả tiếp tục quan sát mạnh hơn; ba đặc tính hiện rõ, khía cạnh khổ có thể nổi bật, đau và bồn chồn có thể tăng. P02 khuyên tiếp tục ghi nhận và không đổi tư thế quá dễ dàng trong bối cảnh hành trì của tác phẩm. Lời ấy không bãi bỏ giới hạn an toàn của chương trước. Đau sắc, tê lan, yếu chi, chấn thương, mất ngủ hoặc suy giảm chức năng vẫn phải được xử lý theo nguy cơ.
 
+#practice-card(
+  [Một bản trình pháp giả định qua vùng ba],
+  [
+    Lúc đầu, người hành nói: “Tôi thấy chuyển động và cái biết đều đứt thành từng đoạn; tôi tưởng mình hành kém đi.” Sau đó: “Mọi thứ vừa xuất hiện đã mất, nên không còn cảm giác có chỗ nào thật vững.” Sự hấp dẫn quen thuộc giảm; tâm muốn thoát khỏi việc cứ phải bấu vào những tiến trình ấy. Khi tiếp tục quan sát, đau và bồn chồn có thể rõ hơn, nên người ấy phải phân biệt dữ kiện trong lúc ngồi với ảnh hưởng lên giấc ngủ và sinh hoạt.
+
+    Câu chuyện này lần lượt minh họa hướng của tan rã, đáng sợ, khổ lụy, nhàm chán, muốn giải thoát và quán xét lại trong P02. Nó không chứng minh người kể đã đi qua các tuệ ấy. Cùng những câu chữ có thể xuất hiện trong lo âu, trầm cảm, phân ly, thiếu ngủ hoặc do đã biết trước bản đồ.
+  ],
+  label: [MINH HỌA BIÊN SOẠN · ĐỐI CHIẾU P02],
+)
+
 #caution(
-  [Năm tên liên tiếp không phải “đêm tối” bắt buộc],
+  [Sáu tên liên tiếp không phải “đêm tối” bắt buộc],
   [
     P02 trình bày tan rã, đáng sợ, khổ lụy, nhàm chán, muốn giải thoát và quán xét lại như một tiến trình tuệ trong hệ thống Mahāsi. Nguồn không cho phép kết luận mọi lo âu, trầm cảm, phân ly, kích động hoặc ý muốn chết là dấu hiệu đúng đường. Khi hiện tượng vượt khỏi buổi hành, kéo dài hoặc làm hỏng giấc ngủ và sinh hoạt, giả thuyết sức khỏe phải được kiểm tra độc lập.
   ],

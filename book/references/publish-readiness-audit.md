@@ -1,19 +1,22 @@
 # Publish Readiness Audit
 
-Checked: 2026-07-26
+Checked: 2026-07-27
 
-The 80-item scoring is a static content review adapted from a web-oriented benchmark. Release verification was then run against the same content: the PDF compiled to 92 A5 pages, the EPUB builder found 113 navigable headings, and EPUBCheck 5.3.0 reported 0 fatals, 0 errors, and 0 warnings. The 2026-07-26 beginner-flow pass added first-use definitions, chapter handoffs, a source-bounded twelve-link guide, a seven-purification guide, a visual stop gate for beginners, and a larger glossary without changing the verdict. Those build facts do not replace human-reader or expert review.
+The 80-item scoring is a static content review adapted from a web-oriented benchmark. The exact current checks are recorded in [`release-evidence.md`](release-evidence.md): the PDF has 123 A5 pages, the EPUB has 136 nested content entries plus one cover entry in its table of contents, EPUBCheck 5.3.0 reports 0 fatals, 0 errors, and 0 warnings, and DAISY Ace 1.4.6 reports no issue in the package or three XHTML documents. The 2026-07-27 beginner-flow pass added first-use definitions, chapter handoffs, a source-bounded twelve-link guide, a four-region insight-map guide, a visual stop gate for beginners, a detailed treatment of fetters and fruits, a causal bridge from the Four Noble Truths to the first three fetters, an early clarification that lay practitioners are not excluded from the four fruits, six load-bearing glossary rescue entries, and a precommitted local emergency-action card. Those build facts do not replace human-reader or expert review.
 
 ## Overview
 
 - **Content**: *Hướng Đến Nhập Lưu*
 - **Artifact**: standalone Vietnamese handbook, not a website
 - **Audit scope**: book prose, references, frontmatter, chapter structure, appendices, and repo-level publication contract
-- **Gate verdict**: **SHIP as an internally verified candidate; do not claim external beginner validation or market leadership**
+- **Artifact gate**: **PASS as an internally verified candidate**
+- **Commit binding**: **Bound by the enclosing clean Git commit and artifact hashes; do not copy this audit out of that tree**
+- **External beginner, doctrinal, and clinical-safety gate**: **BLOCKED until the defined tests and reviews are actually run**
+- **Market-leadership claim**: **NOT ESTABLISHED**
 - **Book-applicable score**: **88.4/100**
 - **GEO analogue**: **93.8/100**
 - **Observable EEAT score**: **68.3/100**; Authority is excluded because it lacks enough applicable artifact-level data
-- **Veto status**: **No critical veto triggered**
+- **Veto status**: **No internal content veto; external evidence gates remain open**
 
 ## Veto Audit
 
@@ -21,7 +24,7 @@ The 80-item scoring is a static content review adapted from a web-oriented bench
 |---|---|---|
 | C01 Intent alignment | Pass | `book/chapters/00-frontmatter.typ` says it is "một cuốn sổ tay, không phải giấy chứng nhận"; title and subtitle match that frame. |
 | T04 Disclosure statements | Pass | No affiliate or sponsored commerce appears in `README.md`, `book/main.typ`, or the chapter text; source badges disclose provenance instead. |
-| R10 Content consistency | Pass | `book/references/claim-ledger.md`, `book/chapters/11-nhap-luu.typ`, and `book/appendices/c-faq.typ` keep the same distinctions between sutta, commentary, Mahāsi, and editorial advice. |
+| R10 Content consistency | Pass | `book/references/claim-ledger.md`, `book/chapters/10-nhap-luu.typ`, and `book/appendices/c-faq.typ` keep the same distinctions between sutta, commentary, Mahāsi, and editorial advice. |
 
 ## Weighting
 
@@ -57,10 +60,10 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 | C04 | Pass | `book/chapters/00-frontmatter.typ` defines the six source classes and keeps Pāli use explicit. | None |
 | C05 | Pass | `book/references/claim-ledger.md` separates sutta, commentary, Mahāsi, research, and editorial claims. | None |
 | C06 | Pass | The frontmatter targets lay readers and repeats that the book is for ordinary household life. | None |
-| C07 | Pass | Chapter sequence is coherent: basics, path, sutta frame, dependent origination, method, safety, map, entry, appendices. | None |
+| C07 | Pass | Chapter sequence is coherent: basics, path, sutta frame, dependent origination, method, safety, Stream-entry, insight map, appendices. | None |
 | C08 | Pass | `book/chapters/00-frontmatter.typ` includes a reading path for first-time readers and later-stage readers. | None |
-| C09 | Pass | Appendix C is a dedicated FAQ with 12 direct questions and answers. | None |
-| C10 | Pass | Chapter 11 closes by rejecting attainment guarantees and returning to direction, practice, and verification. | None |
+| C09 | Pass | Appendix C is a dedicated FAQ with 13 direct questions and answers. | None |
+| C10 | Pass | Chapter 10 closes by rejecting attainment guarantees and returning to direction, practice, and verification. | None |
 
 ### O -- Organization
 
@@ -87,7 +90,7 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 | R04 | Pass | Claim-to-source mapping is explicit in the ledger and repeated in the chapter provenance badges. | None |
 | R05 | Pass | The claim ledger includes a strength scale and caveat column, so methodology is visible. | None |
 | R06 | Pass | `book/references/claim-ledger.md`, `book/references/editorial-depth-audit.md`, and `book/chapters/99-nguon.typ` are date-checked. | None |
-| R07 | Pass | The book uses precise entity codes such as K01, P01, V01, R01, and R02 instead of vague source language. | None |
+| R07 | Pass | The book uses precise entity codes K01–K37, P01–P02, V01, and R01–R09 instead of vague source language; every used code resolves in the source map. | None |
 | R08 | Pass | Cross-references connect chapters, appendices, claim ledger, and source map. | None |
 | R09 | Pass | `book/theme.typ` uses semantic HTML elements and bookmarks rather than decorative-only structure. | None |
 | R10 | Pass | The manuscript keeps its own internal claims consistent, especially around stream-entry, safety, and source-tier boundaries. | None |
@@ -103,7 +106,7 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 | E05 | Fail | The publication is mostly text and tables; there are no proprietary visuals in the book artifact itself. | None |
 | E06 | Pass | The book fills gaps with a felt-to-craving bridge, safety guidance, and reader-facing FAQ answers. | None |
 | E07 | Pass | Practice cards, checklists, and the seven-day starter path are practical tools, not abstract doctrine. | None |
-| E08 | Pass | The claim ledger and chapter 11 give depth that most generic meditation handbooks lack. | None |
+| E08 | Pass | The claim ledger and chapter 10 give depth that most generic meditation handbooks lack. | None |
 | E09 | Pass | The book synthesizes early discourses, commentarial material, Mahāsi teaching, research, and editorial guidance. | None |
 | E10 | Pass | Later chapters point forward to safety, self-checking, and reuse rather than ending in vague inspiration. | None |
 
@@ -116,7 +119,7 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 | Exp03 | Pass | The frontmatter and appendices document step-by-step practice, not just principles. | None |
 | Exp04 | Fail | There are no photos, screenshots, timestamped logs, or other tangible proof artifacts. | None |
 | Exp05 | Fail | The schedule states recommended duration but gives no verified record of how long the authors or test readers used this exact edition. | None |
-| Exp06 | Partial | Chapter 9 and Chapter 11 name pain, sleep disruption, self-misreading, and overreach as real failure modes. | None |
+| Exp06 | Partial | Chapter 9 and Chapter 10 name pain, sleep disruption, self-misreading, and overreach as real failure modes. | None |
 | Exp07 | Partial | The text contrasts before/after in practice logic, but not with lived case studies. | None |
 | Exp08 | Partial | The book uses numbers and thresholds, but not outcome metrics from repeated field use. | None |
 | Exp09 | Fail | There is no evidence of repeated user testing or longitudinal practice logging inside the artifact. | None |
@@ -133,7 +136,7 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 | Ept05 | Pass | The claim ledger gives a visible method: source code, tier, strength, and caveat. | None |
 | Ept06 | Pass | Safety, pain, misreading, and attainment overclaim are all handled explicitly. | None |
 | Ept07 | Pass | The book separates early discourses, later Theravāda commentary, Mahāsi lineage, and modern research. | None |
-| Ept08 | Pass | Chapter 11 explains why isolated experiences do not prove stream-entry. | None |
+| Ept08 | Pass | Chapter 10 explains why isolated experiences do not prove stream-entry. | None |
 | Ept09 | Pass | The book integrates canonical, commentarial, lineage, research, and editorial layers without collapsing them. | None |
 | Ept10 | Partial | The repository shows a clear internal editorial process, but there is no independent editor or reviewer label. | None |
 
@@ -163,18 +166,18 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 | T05 | Partial | The source contract, claim ledger, and AGENTS files function like an editorial policy, but there is no separate public policy page. | None |
 | T06 | Pass | `book/chapters/99-nguon.typ` carries the checked date, public issue channel, and rule that source changes update the ledger and both deliverables; `README.md` exposes the audit trail. | None |
 | T07 | N/A | There are no ads or ad placements in the book artifact. | Not a service site. |
-| T08 | Pass | `book/chapters/09-an-toan.typ`, `book/chapters/11-nhap-luu.typ`, and the FAQ warn against over-reading experiences and overclaiming attainment. | None |
+| T08 | Pass | `book/chapters/09-an-toan.typ`, `book/chapters/10-nhap-luu.typ`, and the FAQ warn against over-reading experiences and overclaiming attainment. | None |
 | T09 | N/A | The book publishes no testimonials or customer reviews whose authenticity could be assessed. | No review corpus. |
 | T10 | N/A | Customer-support operations and service levels are outside the standalone book artifact. | Site or organization-level signal. |
 
 ## Top five improvements by evidential value
 
-1. Obtain a named, scoped doctrinal review from a qualified Theravāda teacher and publish what was checked, what was not checked, and every unresolved disagreement.
-2. Run `beginner-validation-protocol.md` with five unassisted true beginners. Treat any safety, retreat, or insight-map failure as release-blocking.
-3. Smoke-test the final EPUB in at least one standards-based reader at 150% text size and dark mode; record app, version, device, and defects.
-4. Publish a verifiable author/editor biography and responsibility split, or keep the current explicit statement that no external credential has been established.
-5. After repairing failures from the first novice test, repeat with new readers and publish the results. This is stronger evidence than adding testimonials or decorative claims.
+1. Obtain the rights holder's explicit decision on source-text permissions, licensing, and allowed PDF/EPUB distribution.
+2. Obtain a named, scoped doctrinal review under `doctrinal-review-protocol.md`, plus a separately qualified review of research and clinical-safety claims; publish what each reviewer checked, did not check, and disputed.
+3. Run `beginner-validation-protocol.md` with five unassisted true beginners, using the fixed eight-task rubric, two JSON schemas, deterministic scorer, a fresh public-history check, and an external append-only preregistration and attempt registry. Treat any safety, retreat, or insight-map failure as release-blocking.
+4. Smoke-test the final EPUB in at least one standards-based reader at 150% text size and dark mode; record app, version, device, and defects.
+5. Repair any novice failures, repeat with new readers, then run the preregistered comparative panel before making a market-leadership claim.
 
 ## Conclusion
 
-This is internally publish-ready as a handbook and dual-format package. It is not independently validated and not top-1 proven. The strongest remaining work is external evidence, not more unsourced prose.
+This is internally verified as a handbook and dual-format candidate bound by its enclosing clean commit and exact artifact hashes. It is not independently validated or top-1 proven. The strongest remaining work is rights clearance and external evidence, not more unsourced prose.

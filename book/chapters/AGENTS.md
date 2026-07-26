@@ -2,7 +2,7 @@
 
 ## Overview
 
-Chapters carry the explanatory arc from a seven-day start through the full path, dependent origination at feeling and craving, Mahāsi technique, daily life, safety, insight maps, and canonical descriptions of stream-entry. Prefer files below 300 lines, but do not compress sourced explanation merely to satisfy the line target.
+Chapters carry the explanatory arc from a seven-day start through the full path, dependent origination at feeling and craving, Mahāsi technique, daily life, safety, canonical descriptions of stream-entry, and the insight map as later reference. Prefer files below 300 lines, but do not compress sourced explanation merely to satisfy the line target.
 
 ## Key Components
 
@@ -15,6 +15,7 @@ Chapters carry the explanatory arc from a seven-day start through the full path,
 - Give every technical or Pāli term a plain-language gloss in the same paragraph or immediately adjacent block on first use. A rear glossary reinforces but does not rescue an opaque chapter.
 - Open each chapter by carrying forward the minimum prior idea and naming the next problem. Before a dense list, orient the reader; after it, state the usable synthesis.
 - Keep repeated warnings only when they add a threshold, decision rule, or source-boundary correction. Otherwise point to the full treatment.
+- When explaining attainment, keep the first three fetters, the full five lower fetters, and the four fruits distinct. Stream-entry cuts the first three fetters; non-returning concerns the full five lower fetters; “sa-môn quả” names the four fruits, not one vague success state.
 
 ## Diagrams (Mermaid)
 
@@ -22,7 +23,7 @@ Chapters carry the explanatory arc from a seven-day start through the full path,
 
 ```mermaid
 flowchart LR
-  A["Orientation"] --> B["Foundations"] --> C["Dependent origination"] --> D["Technique"] --> E["Integration"] --> F["Safety"] --> G["Insight map"] --> H["Attainment criteria"]
+  A["Orientation"] --> B["Foundations"] --> C["Dependent origination"] --> D["Technique"] --> E["Integration"] --> F["Safety"] --> G["Attainment criteria"] --> H["Insight map as later reference"]
 ```
 
 ### Component Diagram

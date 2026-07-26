@@ -19,10 +19,14 @@ Trong chương này, *quán* có nghĩa là nhìn kỹ và liên tục vào kinh
 == Ba phẩm chất giữ việc quán đi đúng hướng
 
 #source-line("KINH", [K01 · MN 10, công thức mở đầu], [
-  Kinh đặt cạnh nhau *nhiệt tâm* (ātāpī), *tỉnh giác* (sampajāno) và *chánh niệm* (satimā). Chánh niệm giữ đề mục không rơi khỏi tâm; tỉnh giác biết rõ việc đang xảy ra và hoàn cảnh của nó; nhiệt tâm cung cấp nỗ lực để từ bỏ bất thiện, nuôi lớn thiện. Nếu chỉ nhìn mà không phân biệt điều nên làm, pháp hành bị thu hẹp thành sự chú ý trung tính.
+  Kinh đặt cạnh nhau *nhiệt tâm* (ātāpī), *tỉnh giác* (sampajāno) và *chánh niệm* (satimā), đồng thời nói đến việc chế ngự tham ưu đối với đời. Chính công thức này không cho ba định nghĩa từ điển riêng và không mô tả pháp hành như sự chú ý trung tính, không có hướng tu.
 ])
 
-Ba từ này là chiếc khung cho toàn chương. Khi đã nắm được khung, bốn niệm xứ không còn là bốn danh mục lạ, mà là bốn cách nhìn cùng một kinh nghiệm.
+#modern-note([
+  Trong nghĩa làm việc của sách, *chánh niệm* giúp không quên khung đang quan sát; *tỉnh giác* giúp biết rõ việc đang xảy ra và hoàn cảnh của nó; *nhiệt tâm* là sức nỗ lực không nuôi điều bất thiện và phát triển điều thiện. Đây là lời giải thích biên soạn để thực hành, không phải ba câu định nghĩa nguyên văn của MN 10.
+])
+
+Ba phẩm chất này là chiếc khung cho toàn chương. Khi đã nắm được khung, bốn niệm xứ không còn là bốn danh mục lạ, mà là bốn cách nhìn cùng một kinh nghiệm.
 
 #practice-card(
   [Một việc, bốn góc nhìn],
