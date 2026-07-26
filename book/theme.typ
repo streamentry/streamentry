@@ -14,10 +14,10 @@
 )
 
 #let fonts = (
-  display: ("Libertinus Serif", "PT Serif", "Charter"),
-  body: ("Libertinus Serif", "PT Serif", "Charter"),
-  sans: ("Inter", "Avenir Next", "Arial"),
-  mono: ("DejaVu Sans Mono", "Menlo"),
+  display: "Libertinus Serif",
+  body: "Libertinus Serif",
+  sans: "Inter",
+  mono: "DejaVu Sans Mono",
 )
 
 #let space = (

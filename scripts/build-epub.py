@@ -670,22 +670,25 @@ def build(root: Path, output: Path) -> None:
     )
     xhtml, headings, intro_anchor = to_xhtml(html_path.read_text(encoding="utf-8"))
 
-    cover_prefix = work / "cover-render"
+    cover_path = work / "cover-render.png"
     run(
         [
-            "pdftoppm",
-            "-f",
+            "typst",
+            "compile",
+            "--root",
+            str(root),
+            "--creation-timestamp",
+            CREATION_TIMESTAMP,
+            "--pages",
             "1",
-            "-singlefile",
-            "-r",
+            "--ppi",
             "160",
-            "-png",
-            str(root / "dist" / "huong-den-nhap-luu.pdf"),
-            str(cover_prefix),
+            str(root / "book" / "main.typ"),
+            str(cover_path),
         ],
         root,
     )
-    shutil.copyfile(work / "cover-render.png", epub_dir / "cover.png")
+    shutil.copyfile(cover_path, epub_dir / "cover.png")
 
     write_text(work / "META-INF" / "container.xml", container_xml())
     write_text(epub_dir / "book.xhtml", xhtml)
