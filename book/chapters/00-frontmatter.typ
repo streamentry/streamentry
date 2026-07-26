@@ -20,6 +20,12 @@
 
 Cuốn sách này có một mục đích thực tế: giúp người tại gia bắt đầu và duy trì pháp hành Niệm xứ theo truyền thống Mahāsi, đồng thời biết rõ điều nào đến từ kinh sớm, điều nào thuộc hệ thống luận giải, điều nào là chỉ dẫn của một dòng thiền hiện đại.
 
+Vì vậy, sách đi theo một nhịp khá rõ: trước hết là cách bắt đầu cho người mới, sau đó là nền giáo lý tối thiểu, rồi mới đến các chủ đề dễ làm người đọc lẫn nếu gặp quá sớm.
+
+#source-line("BIÊN SOẠN", [ba nghĩa làm việc, đối chiếu K01; P01; K06], [
+  Để bắt đầu, chỉ cần giữ ba nghĩa ngắn. *Niệm xứ* là học cách biết rõ thân, sắc thái dễ chịu hay khó chịu, trạng thái tâm và những khuôn mẫu được lời dạy chỉ ra. *Mahāsi* là một dòng thiền hiện đại trong truyền thống Theravāda, truyền thống Phật giáo dùng kinh tạng Pāli làm nền; phương pháp dùng chuyển động bụng, ghi nhận trong tâm và thiền hành để tổ chức việc quan sát. *Nhập lưu* là sự bước vào Bát Thánh đạo theo tiêu chuẩn của kinh, không phải tên khác của cảm giác yên hay một buổi ngồi sâu. Các chương sau sẽ mở từng nghĩa ra; người mới chưa cần thuộc thuật ngữ ngay ở đây.
+])
+
 Tên sách dùng cụm từ *hướng đến nhập lưu*. Đây là giới hạn có chủ ý. Kinh điển mô tả Nhập lưu là một chuyển đổi xác định trong thấy biết và đời sống đạo đức. Không thời khóa, kỹ thuật hay trải nghiệm đơn lẻ nào cho phép một cuốn sách hứa chắc kết quả ấy.
 
 #v(8pt)
@@ -27,11 +33,13 @@ Tên sách dùng cụm từ *hướng đến nhập lưu*. Đây là giới hạ
 #caution(
   [Đừng thu hẹp con đường thành một kỹ thuật],
   [
-    Chánh niệm là một chi của Bát Chánh Đạo, không phải toàn bộ đạo lộ. Giới, chánh kiến, tinh tấn, định, thiện hữu và nghe Chánh pháp đều có chức năng riêng. Ghi nhận giúp thấy kinh nghiệm rõ hơn, nhưng bản thân việc lặp nhãn không đồng nghĩa với tuệ giác hay thánh quả.
+    Chánh niệm chỉ là một phần của Bát Chánh Đạo, tức toàn bộ con đường tu. Con đường ấy còn đòi thấy đúng, sống có giới, nỗ lực đúng, làm tâm vững và học với người đáng tin. Bạn chưa cần nhớ tên từng chi ở đây. Chỉ cần đừng lầm một kỹ thuật ghi nhận với cả con đường, hoặc lầm việc lặp nhãn với tuệ giác và thánh quả.
   ],
 )
 
 == Lộ trình đọc cho người mới
+
+Phần này cố tình đọc chậm hơn phần thực hành. Người mới không cần hiểu hết ngay; chỉ cần biết phải đọc chương nào trước, chương nào sau, và đoạn nào nên để lại làm tài liệu tham chiếu.
 
 #practice-card(
   [Đọc theo nhu cầu, không cần nuốt trọn từ đầu đến cuối],
@@ -84,6 +92,8 @@ Nếu bạn mới bắt đầu, hãy coi chương 10 là tài liệu tham khảo
 #outline(title: none, depth: 2, indent: auto)
 
 #pagebreak()
+
+Câu kinh sau là trục của toàn sách. Nếu các từ “thân, thọ, tâm, pháp” hoặc “nhiệt tâm, tỉnh giác, chánh niệm” còn lạ, cứ đọc để nhận mặt; chương 3 sẽ giải thích từng phần bằng ngôn ngữ thực hành.
 
 #scripture-quote(
   [Có bốn nền tảng chánh niệm: quán thân nơi thân, quán thọ nơi thọ, quán tâm nơi tâm và quán pháp nơi pháp, với nhiệt tâm, tỉnh giác và chánh niệm, sau khi chế ngự tham ưu đối với đời.],

@@ -7,10 +7,12 @@
   provenance: source-badge("MAHĀSI", refs: [P01 · P02]),
 )
 
+Chương 4 đã chỉ ra đoạn phản ứng có thể được quan sát. Chương này chuyển sang câu hỏi kỹ thuật: trong một buổi ngồi hoặc đi, phương pháp Mahāsi tổ chức sự quan sát ấy ra sao?
+
 == Phồng xẹp là chuyển động, không phải một chữ để tụng
 
 #source-line("MAHĀSI", [P02 · “The Method of Insight in Brief”], [
-  Mahāsi giải thích chuyển động phồng và xẹp ở bụng như tiến trình xúc chạm của yếu tố chuyển động, thường gọi là phong đại, do hơi thở làm điều kiện. Hành giả biết sự căng, rung, đẩy, kéo của chuyển động. Đối tượng trực tiếp là hiện tượng thân được cảm nhận, không phải hình ảnh cái bụng và cũng không phải ý niệm “phồng, xẹp”.
+  Mahāsi giải thích chuyển động phồng và xẹp ở bụng như tiến trình xúc chạm của yếu tố chuyển động, thường gọi là *phong đại*, do hơi thở làm điều kiện. “Phong đại” ở đây là cách truyền thống gọi nét căng, rung, đẩy, kéo và chuyển động được cảm nhận, không phải một vật vô hình để tưởng tượng. Đối tượng trực tiếp là hiện tượng thân được cảm nhận, không phải hình ảnh cái bụng và cũng không phải ý niệm “phồng, xẹp”.
 ])
 
 #source-line("KINH", [K12 · MN 118], [
@@ -59,6 +61,8 @@
   ],
 )
 
+Khi đã có một điểm trở về và biết chuyển sang đối tượng nổi bật, lớp kế tiếp là nhận ra cử động có chủ ý bắt đầu từ đâu.
+
 == Ý định và cử động có chủ ý
 
 #source-line("KINH", [K19 · AN 6.63], [
@@ -72,6 +76,8 @@
 #modern-note([
   Với đau, hãy phân biệt khó chịu có thể quan sát với tín hiệu có nguy cơ tổn thương. Đau sắc, tê lan, yếu chi hoặc đau kéo dài sau buổi ngồi là lý do đổi tư thế và xem lại cách ngồi. Chịu đau không phải thước đo buông ngã.
 ])
+
+Thiền hành lặp lại ý định và cử động trong một khung đơn giản hơn đời sống thường ngày. Nhờ vậy, điều vừa được giải thích có chỗ để tập bằng thân, không chỉ còn là một ý niệm.
 
 == Thiền hành nối định với đời sống
 
@@ -89,12 +95,16 @@
 
 == Định và tuệ: đừng biến một cách giải thích thành cách duy nhất
 
+#source-line("BIÊN SOẠN", [nghĩa làm việc, đối chiếu K16; V01; P02], [
+  Phần này trả lời một câu hỏi thực tế: phải có tâm thật yên rồi mới quán, hay sự yên và thấy rõ có thể nâng nhau trong lúc tập? *Chỉ* là làm tâm lắng và ổn định; *quán* là thấy rõ đặc tính cùng điều kiện của kinh nghiệm; *định* là mức quy tụ khiến tâm không bị kéo khỏi việc đang biết quá dễ dàng. Ba từ liên hệ với nhau nhưng không đồng nghĩa.
+])
+
 #source-line("KINH", [K16 · AN 4.170], [
   AN 4.170 nêu bốn mẫu phát triển: quán đi sau chỉ, chỉ đi sau quán, chỉ và quán được phát triển song hành, hoặc tâm trước hết được ổn định sau một giai đoạn dao động liên quan đến pháp. Bài kinh không dựng cuộc tranh thắng giữa hai phe “chỉ” và “quán”.
 ])
 
 #source-line("THANH TỊNH ĐẠO", [V01 · Vism XVIII.3, XVIII.5], [
-  Thanh Tịnh Đạo phân biệt người lấy chỉ làm cỗ xe với người lấy thuần quán làm cỗ xe. Người đi bằng chỉ quán các pháp liên hệ đến tầng định sau khi xuất định; người đi bằng thuần quán bắt đầu bằng phân định các yếu tố thân tâm.
+  Thanh Tịnh Đạo phân biệt người lấy chỉ làm cỗ xe với người lấy thuần quán làm cỗ xe. Người đi bằng chỉ quán các pháp liên hệ đến tầng định, tức trạng thái tâm hấp thụ và quy tụ rất sâu, sau khi xuất định; người đi bằng thuần quán bắt đầu bằng phân định các yếu tố thân tâm.
 ])
 
 #source-line("MAHĀSI", [P02 · “The Method of Insight in Brief,” dẫn Papañcasūdanī], [
@@ -102,7 +112,7 @@
 ])
 
 #source-line("MAHĀSI", [P02 · “The Purification of Mind”], [
-  Mahāsi lập luận rằng chuỗi ghi nhận liên tục tạo định sát-na đủ sức ngăn triền cái và làm nền cho tuệ, dù hành giả chưa phát triển thiền hấp thụ trước đó. Đây là lập trường có căn cứ trong truyền thống luận giải của phương pháp. Nó không nên được viết như một câu nguyên văn hay một phân loại hai đường duy nhất do Đức Phật tuyên bố.
+  Mahāsi lập luận rằng chuỗi ghi nhận liên tục tạo *định sát-na*, tức sự quy tụ được duy trì từ khoảnh khắc biết này sang khoảnh khắc biết kế tiếp, đủ sức ngăn triền cái và làm nền cho tuệ dù hành giả chưa phát triển thiền hấp thụ trước đó. Đây là lập trường có căn cứ trong truyền thống luận giải của phương pháp. Nó không nên được viết như một câu nguyên văn hay một phân loại hai đường duy nhất do Đức Phật tuyên bố.
 ])
 
 #caution(

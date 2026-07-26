@@ -11,7 +11,9 @@
   ],
 )
 
-Từ “dòng” dễ gợi một luồng năng lượng hay một khoảnh khắc ý thức đứt đoạn. Kinh định nghĩa khác. Nhập lưu không chỉ là một trạng thái đã xảy ra trên tọa cụ. Điều cần nhìn là đạo lộ người ấy đã đi vào và những phẩm chất không còn như trước.
+Từ “dòng” dễ gợi một luồng năng lượng hay một khoảnh khắc ý thức đứt đoạn. Kinh định nghĩa khác. Nhập lưu không chỉ là một trạng thái đã xảy ra trên tọa cụ. Điều cần nhìn là đạo lộ người ấy đã đi vào và những phẩm chất không còn như trước. Hai phần dưới đây chỉ bóc hai mặt ấy: đạo lộ là gì, và ba kiết sử nào đã rơi.
+
+Vì vậy, chương này không chạy theo cảm giác đặc biệt. Nó đi chậm qua các tiêu chuẩn mà kinh thật sự đặt ra, rồi mới so chúng với những điều dễ bị nhầm là chứng đắc.
 
 == Dòng là Bát Thánh đạo
 
@@ -20,6 +22,10 @@ Từ “dòng” dễ gợi một luồng năng lượng hay một khoảnh kh�
 Vì vậy, một kỹ thuật ghi nhận, một đề mục hơi thở hay một khóa thiền không phải toàn bộ dòng. Chúng có thể rèn chánh niệm, định và tuệ, nhưng Bát Thánh đạo còn đòi cách thấy, ý hướng, lời nói, hành động và sinh kế. Nếu thực hành làm sự dối trá, tàn nhẫn hay tà mạng được che kỹ hơn, đó không phải bằng chứng đã vào dòng.
 
 == Ba kiết sử được đoạn
+
+#source-line("BIÊN SOẠN", [nghĩa làm việc, đối chiếu K11; K24], [
+  *Kiết sử* có nghĩa làm việc là mối trói buộc bền chặt, không phải mọi tâm trạng khó chịu hay thói quen chưa tốt. Kinh có danh mục rộng hơn, nhưng phần này chỉ xét ba trói buộc gắn với Nhập lưu: thân kiến, hoài nghi và chấp thủ giới-nghi thức.
+])
 
 #source-line("KINH", [K11 · MN 2], [MN 2 nói rằng khi như lý tác ý đến bốn sự thật về khổ, nguồn gốc, sự chấm dứt và con đường, ba kiết sử được từ bỏ: thân kiến, hoài nghi và chấp thủ giới cùng nghi thức.])
 
@@ -39,6 +45,8 @@ Kiết sử thứ ba là nắm giới điều và nghi thức theo cách sai l�
 
 == Gương Pháp: bốn phẩm chất để tự soi
 
+Ba kiết sử cho biết điều gì đã không còn trói như trước. Gương Pháp nhìn mặt dương của cùng sự chuyển đổi: lòng tin đã được xác chứng và giới hạnh có thể soi lại trong đời sống.
+
 #source-line("KINH", [K08 · DN 16, phần Gương Pháp], [DN 16 nêu tịnh tín đã được xác chứng nơi Phật, Pháp và Tăng, cùng giới hạnh được bậc Thánh quý trọng, không rạn vỡ, không tì vết và đưa đến định. Bài kinh nói vị Thánh đệ tử có Gương Pháp ấy có thể tự tuyên bố mình là bậc Nhập lưu, không còn đọa xứ và chắc chắn hướng đến giác ngộ.])
 
 Chi tiết này sửa hai cực đoan. Một là cho rằng bất kỳ cảm giác tin tưởng nào cũng đủ. Văn bản đòi tịnh tín đã được xác chứng và giới hạnh tương ứng. Hai là cho rằng kinh buộc một thiền sư phải cấp chứng thư sau một số tháng quan sát. DN 16 không đặt điều kiện ấy. Người hướng dẫn có thể giúp phát hiện ngộ nhận, nhưng không được thay bốn phẩm chất bằng quyền uy cá nhân.
@@ -48,6 +56,8 @@ Chi tiết này sửa hai cực đoan. Một là cho rằng bất kỳ cảm gi�
 SN 12.41 khiến tiêu chuẩn khó bị rút thành một bảng niềm tin. Giới được biểu hiện bằng những điều không còn làm. Tuệ được biểu hiện bằng sự thâm nhập cơ chế sinh và diệt của khổ. Chỉ tự cho điểm cao về lòng tin không đáp ứng toàn bộ cấu trúc ấy.
 
 == Điều gì không đủ để kết luận?
+
+Bốn phẩm chất trên giải thích vì sao một hiện tượng đứng riêng không thể gánh toàn bộ kết luận. Danh sách dưới đây không phủ nhận giá trị của trải nghiệm; nó chỉ đặt trải nghiệm về đúng trọng lượng chứng cứ.
 
 - Ánh sáng, hỷ lạc, thân nhẹ hoặc định sâu.
 - Một khoảng trống ký ức hay cảm giác ý thức ngừng lại.

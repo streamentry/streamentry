@@ -7,7 +7,7 @@
 = Những câu hỏi cần trả lời thẳng
 
 #text(font: fonts.sans, size: 9.5pt, fill: palette.muted)[
-  Câu trả lời dưới đây phân biệt điều kinh nói, điều truyền thống Mahāsi dạy và điều người biên soạn đề nghị.
+  Câu trả lời dưới đây phân biệt điều kinh nói, điều truyền thống Mahāsi dạy và điều người biên soạn đề nghị. Mã K chỉ kinh, P chỉ tài liệu Mahāsi, V chỉ Thanh Tịnh Đạo và R chỉ nghiên cứu hiện đại; nguồn đầy đủ nằm ở chương “Bản đồ nguồn”.
 ]
 
 #v(8mm)

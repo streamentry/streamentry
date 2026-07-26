@@ -50,6 +50,14 @@ Never label modern schedules, percentages, diagnostic heuristics, or attainment 
 
 Write contemporary Vietnamese that is precise, calm, and public-facing. Use full paragraphs, exact verbs, and varied cadence. Avoid em dashes, motivational fog, sectarian claims, and invented certainty. Define Pāli terms at first use and retain them only when translation would conceal a meaningful distinction.
 
+For beginner-facing prose, apply three gates before building:
+
+1. No technical term survives more than one sentence without a plain-language gloss or an explicit local pointer.
+2. Every chapter and major conceptual pivot says what it carries forward and why the next section follows.
+3. Every dense list has an orientation before it and a synthesis, example, or action after it.
+
+The glossary is a reference aid, not permission to leave the main reading path opaque.
+
 ## Build and Verify
 
 ```sh

@@ -35,6 +35,10 @@
 
 #source-line("BIÊN SOẠN", [lịch bảy ngày dựa trên P01], [Các mốc 15 đến 30 phút dưới đây là đề nghị tạo thói quen cho người tại gia. P01 không ấn định lịch bảy ngày hay các thời lượng này.])
 
+Các ngày dưới đây không phải một cuộc leo thang để chứng minh sức bền. Mỗi ngày chỉ đổi một nút điều khiển chính để người mới thấy rõ điều gì thật sự giúp mình trở lại với *đề mục*, tức đối tượng đang được dùng làm điểm quan sát, và điều gì chỉ làm tâm rối thêm.
+
+Nhịp của tuần là: học một điểm trở về, biết điều gì vừa chen vào, thêm chuyển động, nhận ra ý định, đưa sự biết rõ vào việc thường ngày, nhìn trạng thái tâm, rồi rà lại toàn tuần. Mỗi ngày giữ phần đã học và chỉ thêm một lớp mới.
+
 #day-card([1], [Làm quen với phồng và xẹp], [15 phút], [Ngồi yên, thở tự nhiên. Cảm nhận chuyển động ở bụng. Khi bụng mở ra, nhận biết trong tâm “phồng”; khi bụng thu lại, nhận biết “xẹp”. Không đọc thành tiếng hay tụng chữ. Tâm đi đâu, chỉ cần nhận ra “nghĩ” rồi trở về.])
 
 #day-card([2], [Biết đối tượng nổi bật], [15 phút], [Giữ phồng xẹp làm điểm trở về. Khi đau, âm thanh hoặc suy nghĩ rõ hơn, biết hiện tượng ấy bằng một nhãn ngắn, trung tính. Khi nó lắng, trở về bụng.])
@@ -56,6 +60,8 @@
 #v(8pt)
 
 #source-line("BIÊN SOẠN", [thử nghiệm thói quen], [Một tuần đủ để kiểm tra tính khả thi của giờ, chỗ và thời lượng. Nó không đủ để kết luận kỹ thuật hợp hay không hợp với toàn bộ con đường tu của một người.])
+
+Nói gọn, “làm đúng” trong tuần đầu chỉ gồm ba việc: biết đối tượng đang có, biết lúc đã rời nó, rồi trở về. Tâm không cần đứng yên liên tục. Khoảnh khắc nhận ra mình vừa phóng đi đã là một phần của bài tập.
 
 == Ba lỗi cần sửa ngay
 

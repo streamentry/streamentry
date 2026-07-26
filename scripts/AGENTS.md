@@ -7,6 +7,7 @@ This folder owns deterministic EPUB 3 packaging. It converts the target-aware Ty
 ## Key Components
 
 - `build-epub.py`: recompiles PDF and HTML, verifies the immutable manuscript hash, removes the duplicate HTML cover, promotes Typst body headings from h2-h6 to h1-h5, creates namespaced XHTML and nested navigation, and checks semantics, accessibility metadata, manifest resources, anchors, warning classes, fixed ZIP timestamps, entry order, and uncompressed mimetype.
+- Keep the OPF `dcterms:modified` value fixed within a release for reproducibility, but advance it when the published content changes to a new release date.
 - `build/epub/`: ignored intermediate output.
 - `dist/huong-den-nhap-luu.epub`: final artifact.
 

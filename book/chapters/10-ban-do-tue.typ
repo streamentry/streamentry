@@ -13,7 +13,9 @@
   ],
 )
 
-Cụm từ “mười sáu tuệ” không phải một bảng nguyên xi nằm trong kinh. Kinh đưa ra khung bảy thanh tịnh; Thanh Tịnh Đạo khai triển khung ấy bằng hệ thống luận giải; các cẩm nang và dòng thiền về sau sắp những tuệ quán thành danh mục có cách đếm hơi khác nhau.
+Cụm từ “mười sáu tuệ” không phải một bảng nguyên xi nằm trong kinh. Kinh đưa ra khung bảy thanh tịnh; Thanh Tịnh Đạo khai triển khung ấy bằng hệ thống luận giải; các cẩm nang và dòng thiền về sau sắp những tuệ quán thành danh mục có cách đếm hơi khác nhau. Nếu bạn mới đọc lần đầu, chỉ cần nhớ một việc: đây là bản đồ để hiểu ngôn ngữ truyền thống, không phải thước đo để tự chấm điểm trải nghiệm.
+
+Đọc chương này chậm hơn các chương trước. Mục tiêu không phải thuộc lòng một danh sách dài, mà là biết mỗi tên đang muốn chỉ vùng nào của kinh nghiệm và tại sao truyền thống lại cần đến nó.
 
 #caution(
   [Người mới không dùng chương này để tự chẩn đoán],
@@ -23,6 +25,8 @@ Cụm từ “mười sáu tuệ” không phải một bảng nguyên xi nằm 
 )
 
 == Bảy thanh tịnh xuất hiện ở đâu?
+
+Phần đầu chỉ dựng khung. Nếu chưa quen danh mục, cứ giữ ý chính: mỗi thanh tịnh là một bước đi trong tiến trình, không phải một huy chương riêng.
 
 #source-line("KINH", [K07 · MN 24], [MN 24 đặt bảy thanh tịnh trong cuộc đối thoại giữa Sāriputta và Puṇṇa Mantāniputta. Vì vậy, đây là nội dung thuộc kinh tạng, nhưng không nên đặt trong ngoặc kép như lời Đức Phật trực tiếp nói trong bài kinh ấy.])
 
@@ -39,6 +43,25 @@ Bảy thanh tịnh được nêu theo thứ tự:
 Puṇṇa dùng ví dụ bảy cỗ xe trạm. Mỗi xe đưa người đi đến trạm kế tiếp, nhưng không xe nào tự nó là đích cuối. Cũng vậy, các thanh tịnh phục vụ mục tiêu Niết-bàn không do chấp thủ; không thanh tịnh trung gian nào được đồng nhất với cứu cánh.
 
 #source-line("THANH TỊNH ĐẠO", [V01], [Thanh Tịnh Đạo, một luận thư Theravāda hậu kinh điển gắn với Buddhaghosa vào khoảng thế kỷ thứ năm, lấy bảy thanh tịnh làm bố cục và phân tích tiến trình với mức chi tiết mà MN 24 không cung cấp. Đây là nguồn luận giải có ảnh hưởng lớn, không phải một bài kinh.])
+
+#practice-card(
+  [Bảy tên ấy muốn chỉ điều gì?],
+  [
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu K07; V01; P02])
+    #v(5pt)
+
+    + *Giới thanh tịnh:* đời sống đạo đức được làm trong sạch để tâm bớt hối hận.
+    + *Tâm thanh tịnh:* tâm đủ quy tụ để triền cái không liên tục lấn át việc quán.
+    + *Kiến thanh tịnh:* bắt đầu phân biệt tiến trình thân-vật chất với tiến trình biết, không dựng thêm một người điều khiển.
+    + *Đoạn nghi thanh tịnh:* thấy các tiến trình nương điều kiện mà sinh, nên nghi về nhân duyên giảm.
+    + *Đạo phi đạo tri kiến thanh tịnh:* phân biệt điều đang hỗ trợ đường tu với hiện tượng phụ dễ bị lầm là cứu cánh.
+    + *Hành đạo tri kiến thanh tịnh:* phần đường tuệ quán chín dần qua các vùng được giải thích ở dưới.
+    + *Tri kiến thanh tịnh:* trong hệ thống luận giải, phần liên hệ đến đạo, quả và sự xem lại.
+
+    Đây là lời dẫn nhập gần nghĩa, không thay thế định nghĩa kỹ thuật của Thanh Tịnh Đạo. Người mới chỉ cần thấy logic: sửa đời sống, làm tâm đủ vững, thấy thân-tâm và điều kiện, phân biệt đường đúng, rồi mới bàn các giai đoạn sâu hơn.
+  ],
+  label: [CẦU NỐI THUẬT NGỮ],
+)
 
 == Vì sao có nơi nói mười sáu, có nơi nói mười bảy?
 
@@ -67,9 +90,18 @@ Tên Việt giữa các bản dịch không hoàn toàn giống nhau. “Phân b
 
 Vì vậy, hai người nói “tuệ 12” có thể đang chỉ hai mục khác nhau. Trước khi tranh luận, hãy hỏi họ dùng bảng nào. Khác số ở đây chủ yếu là khác quy ước phân loại, không phải bằng chứng rằng một bên đã phát hiện thêm một nấc tâm linh.
 
+#caution(
+  [ĐIỂM DỪNG CHO NGƯỜI MỚI],
+  [
+    Nếu bạn đang ở những tuần hoặc tháng đầu, hãy dừng chương tại đây và quay về chương 1 đến chương 9. Phần dưới mô tả chi tiết các vùng tuệ trong P02; đọc tiếp quá sớm dễ khiến tâm chọn những dấu hiệu giống mình rồi bỏ qua dữ kiện không khớp. Chỉ dùng phần này như tài liệu tham chiếu khi đã có thực hành đủ đều, biết ngưỡng an toàn của chương 9 và có người hướng dẫn giúp kiểm tra diễn giải.
+  ],
+)
+
 == Đọc bản đồ theo bốn vùng, không chạy theo mười bảy nhãn
 
 Nếu người đọc chưa biết mỗi tên đang chỉ điều gì, danh sách trên vẫn còn quá kỹ thuật. Phần dưới đây diễn giải P02 theo bốn vùng dễ đọc hơn. Các mô tả là *bản đồ của truyền thống Mahāsi dựa trên hệ thống luận giải*, không phải bảng triệu chứng đã được khoa học thực nghiệm xác nhận và cũng không phải danh sách nằm nguyên vẹn trong một bài kinh.
+
+Đọc theo bốn vùng trước, rồi mới quay lại mười sáu hay mười bảy nhãn khi thật sự cần. Cách đi này giúp người mới bớt mắc ở tên gọi và nhìn được logic của trải nghiệm trước khi phải nhớ toàn bộ danh mục.
 
 #source-line("MAHĀSI", [P02 · mục 1–17], [
   P02 mô tả tiến trình cho những người đã thực hành nghiêm mật và có kết quả nổi bật. Lời tựa nói tác phẩm không được viết như cẩm nang nhập môn. Vì vậy, mô tả dưới đây dùng để hiểu thuật ngữ và trình pháp rõ hơn, không dùng để tự phong tầng tuệ từ vài dấu hiệu rời rạc.
@@ -98,6 +130,8 @@ Tuệ này không có nghĩa đã thấy trọn mười hai chi duyên khởi ho
   label: [TRÌNH PHÁP · DỰA TRÊN P02],
 )
 
+Khi đối tượng, cái biết và các điều kiện đã được phân biệt, bản đồ chuyển từ câu hỏi “đây là tiến trình gì?” sang “tiến trình ấy sinh và mất ra sao?”. Đó là lý do vùng hai nói nhiều về sinh diệt và những hiện tượng dễ làm tâm say mê.
+
 === Vùng hai: sinh diệt rõ, nhưng hiện tượng đẹp dễ đánh lừa
 
 *4. Tuệ sinh và diệt.* Khi việc ghi nhận liên tục hơn, P02 mô tả đối tượng hiện rõ trong lúc sinh và mất. Năng lượng, niệm, định và sự sáng rõ có thể tăng. Đây cũng là vùng tác phẩm đặt “mười ô nhiễm của tuệ”: ánh sáng, tri kiến sắc bén, hỷ, khinh an, lạc, quyết tín, tinh cần, niệm, xả và sự ưa thích đối với các hiện tượng ấy.
@@ -112,6 +146,8 @@ Một người có thể thấy ánh sáng do nhiều nguyên nhân không thu�
     Sự trôi chảy khiến hành giả nghĩ công việc đã xong. P02 tự mô tả nguy cơ lầm hiện tượng phụ là đạo quả. Cách sửa không phải đè hỷ hoặc sợ ánh sáng, mà là nhận chúng như các tiến trình sinh diệt, kiểm tra sự ưa thích, tiếp tục quan sát và trình bày dữ kiện thay vì tuyên bố.
   ],
 )
+
+Nếu sự chú ý tiếp tục đặt vào mặt biến mất, vẻ trôi chảy của vùng hai có thể nhường chỗ cho cảm nhận tan rã và bất toại nguyện. Bản đồ bước sang vùng ba ở đây, không phải vì mọi người đều phải trải qua cùng một kịch bản cảm xúc.
 
 === Vùng ba: mặt tan rã và tính bất toại nguyện nổi bật
 
@@ -135,6 +171,8 @@ Tên này không đồng nghĩa với mất trí nhớ, ngất, ngủ gật hay 
     P02 trình bày tan rã, đáng sợ, khổ lụy, nhàm chán, muốn giải thoát và quán xét lại như một tiến trình tuệ trong hệ thống Mahāsi. Nguồn không cho phép kết luận mọi lo âu, trầm cảm, phân ly, kích động hoặc ý muốn chết là dấu hiệu đúng đường. Khi hiện tượng vượt khỏi buổi hành, kéo dài hoặc làm hỏng giấc ngủ và sinh hoạt, giả thuyết sức khỏe phải được kiểm tra độc lập.
   ],
 )
+
+Vùng bốn không xóa những gì đã thấy ở vùng ba. Theo cách kể của P02, tâm bớt chống và bớt đuổi theo các hành, nên việc biết trở nên quân bình hơn trước khi hệ thống bàn đến chuỗi chuyển tiếp rất ngắn.
 
 === Vùng bốn: quân bình, chuyển tiếp và điều truyền thống gọi là đạo quả
 

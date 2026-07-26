@@ -68,6 +68,8 @@
 #practice-card(
   [Sáu cửa và suy nghĩ],
   [
+    “Sáu cửa” là mắt, tai, mũi, lưỡi, thân và ý. Năm cửa đầu nhận cảnh giác quan; cửa ý nhận ý nghĩ, ký ức, hình ảnh tâm và các đối tượng tâm khác.
+
     *Giác quan:* “thấy”, “nghe”, “ngửi”, “nếm”, “chạm”
 
     *Tâm:* “nghĩ”, “nhớ”, “tính”, “tưởng tượng”, “so sánh”

@@ -19,11 +19,13 @@ An toàn không đồng nghĩa với sợ mọi cảm giác lạ. Nó cũng khô
 
 #source-line("NGHIÊN CỨU", [R02], [Tổng quan hệ thống của Farias và cộng sự năm 2020 cho thấy các biến cố bất lợi đã được báo cáo trong nghiên cứu về thiền, đồng thời cách định nghĩa và theo dõi chúng rất không đồng nhất. Bằng chứng này bác bỏ giả định “thiền luôn vô hại”, nhưng không cho phép dự đoán chính xác rủi ro của một cá nhân.])
 
-Hai nguồn trên không phải kinh điển Phật giáo và không thay thế chẩn đoán y khoa. Các ngưỡng hành động trong chương này là hướng dẫn biên soạn thận trọng dựa trên mức suy giảm chức năng và nguy cơ cấp thời.
+Hai nguồn trên không phải kinh điển Phật giáo và không thay thế chẩn đoán y khoa. Các ngưỡng hành động trong chương này là hướng dẫn biên soạn thận trọng dựa trên mức suy giảm chức năng và nguy cơ cấp thời. Từ đây trở xuống, mỗi mục chỉ nhằm trả lời một câu: nên điều chỉnh nhẹ, nên giảm cường độ hay phải tìm trợ giúp ngay.
 
 == Trước khi tăng cường độ
 
 Nếu bạn đang mất ngủ kéo dài, vừa trải qua sang chấn nặng, từng có cơn hưng cảm hoặc loạn thần, thường xuyên phân ly, đang nghĩ đến tự sát, hoặc đang điều trị một bệnh tâm thần nghiêm trọng, đừng tự đưa mình vào thời khóa khắc nghiệt. Điều đó không nhất thiết cấm mọi hình thức thiền. Nó có nghĩa là kế hoạch cần được trao đổi với chuyên gia lâm sàng đang hiểu tình trạng của bạn và, nếu có, một người dạy thiền biết giới hạn chuyên môn.
+
+Bạn không cần tự chẩn đoán những thuật ngữ trên để dùng chương này. Ba mức dưới đây dựa vào dấu hiệu có thể nhận ra, thời gian kéo dài, mức suy giảm sinh hoạt và nguy cơ cấp thời; khi không chắc, hãy để chuyên gia lâm sàng làm phần chẩn đoán.
 
 #caution(
   [Không tự ý đổi thuốc],

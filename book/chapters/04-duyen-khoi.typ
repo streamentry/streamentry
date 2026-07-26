@@ -11,6 +11,8 @@
   ],
 )
 
+Chương trước phân biệt thọ với toàn bộ cảm xúc. Chương này giữ đúng phân biệt ấy rồi hỏi tiếp: sau một sắc thái dễ chịu, khó chịu hay trung tính, điều gì khiến tâm chuyển sang muốn giữ, muốn đẩy hoặc muốn tìm một trạng thái khác?
+
 #scripture-quote(
   [Do xúc có thọ; do thọ có ái; do ái có thủ. Khi ái đoạn tận thì thủ đoạn tận, và toàn bộ khối khổ theo chiều ấy đi đến chấm dứt.],
   [Phỏng dịch công thức duyên khởi trong K26 · SN 12.2 và K27 · SN 12.44.],
@@ -22,6 +24,32 @@
   SN 12.2 nêu chuỗi: vô minh duyên hành; hành duyên thức; thức duyên danh sắc; danh sắc duyên sáu xứ; sáu xứ duyên xúc; xúc duyên thọ; thọ duyên ái; ái duyên thủ; thủ duyên hữu; hữu duyên sinh; sinh duyên già chết, sầu, bi, khổ, ưu và não. Bài kinh cũng định nghĩa từng chi, trong đó thọ và ái đều được phân theo sáu cửa giác quan.
 ])
 
+Trước khi đọc bảng thuật ngữ, hãy giữ một đường dây đơn giản: vì không thấy đúng, các tạo tác tiếp tục; trên nền thân-tâm và sáu căn, kinh nghiệm tiếp xúc rồi mang một vị; ái và thủ tiếp sức cho tiến trình; sinh cùng già chết cho thấy khổ chín thành kết quả. Câu này chỉ là tay vịn để đọc. Nó không rút toàn bộ duyên khởi thành một câu chuyện tâm lý xảy ra trong vài giây.
+
+#practice-card(
+  [Mười hai mốc, đọc gần nghĩa trước khi học thuật ngữ],
+  [
+    #source-badge("KINH", refs: [K26 · SN 12.2])
+    #v(5pt)
+
+    + *Vô minh:* không biết đúng về khổ, nguyên nhân, sự chấm dứt và con đường.
+    + *Hành:* các tạo tác thuộc thân, lời và ý.
+    + *Thức:* sáu loại nhận biết tương ứng với mắt, tai, mũi, lưỡi, thân và ý.
+    + *Danh sắc:* “danh” gồm thọ, tưởng, tư, xúc và tác ý; “sắc” gồm bốn đại cùng sắc nương vào chúng.
+    + *Sáu xứ:* sáu căn bên trong là mắt, tai, mũi, lưỡi, thân và ý.
+    + *Xúc:* sự tiếp xúc tại từng cửa giác quan.
+    + *Thọ:* cảm thọ sinh từ sáu loại xúc; trong thực hành được nhận ra là dễ chịu, khó chịu hoặc trung tính.
+    + *Ái:* khát ái đối với cảnh được thấy, nghe, ngửi, nếm, chạm hay nghĩ.
+    + *Thủ:* bám chặt vào dục, quan điểm, giới cấm-nghi thức hoặc học thuyết về tự ngã.
+    + *Hữu:* ba phạm vi hiện hữu được kinh nêu là dục, sắc và vô sắc.
+    + *Sinh:* sự xuất hiện của một hữu tình, các uẩn và các căn trong một loại chúng sinh.
+    + *Già chết:* sự già suy và chấm dứt mạng sống, kéo theo sầu, bi, khổ, ưu và não trong công thức đầy đủ.
+
+    Đây là bản đọc gần nghĩa từ chính các định nghĩa của SN 12.2, không phải mười hai nhãn tâm lý để ép lên từng giây. Đặc biệt, *hữu* và *sinh* không được cuốn sách tự ý đổi thành một phản ứng thoáng qua.
+  ],
+  label: [BẢN ĐỌC NHANH · K26],
+)
+
 Chuỗi này mô tả sự sinh khởi có điều kiện của khổ, không mô tả một linh hồn đi qua mười hai căn phòng. Chữ “duyên” cũng không nên bị đọc thành một nguyên nhân đơn độc, tức thời và tất định. Một điều kiện có mặt không buộc chi kế tiếp phải biểu hiện theo cùng một kiểu trong mọi hoàn cảnh. Chính khả năng tu tập và đoạn tận cho thấy phản ứng không phải định mệnh.
 
 Để đọc dễ hơn, có thể chia chuỗi thành bốn cụm. Cách chia này là công cụ biên soạn, không phải một danh sách thứ hai trong SN 12.2:
@@ -30,6 +58,8 @@ Chuỗi này mô tả sự sinh khởi có điều kiện của khổ, không m�
 + *Cấu trúc kinh nghiệm:* thức, danh sắc, sáu xứ, xúc và thọ.
 + *Phần tâm tiếp nhiên liệu:* ái, thủ và hữu.
 + *Kết quả chín muồi:* sinh, già chết và toàn bộ khối khổ.
+
+Nói giản dị, cụm đầu giải thích vì sao ta không thấy rõ; cụm giữa dựng nên một kinh nghiệm; cụm thứ ba cho thấy tâm bám và tiếp sức; cụm cuối cho thấy khổ chín thành kết quả. Phần thực hành của chương sẽ phóng gần cụm giữa và điểm nối sang cụm thứ ba.
 
 #caution(
   [Đừng ép mười hai chi vào một chiếc đồng hồ tâm lý],
@@ -41,6 +71,8 @@ Chuỗi này mô tả sự sinh khởi có điều kiện của khổ, không m�
 )
 
 == Từ sáu cửa đến một phản ứng
+
+Ở đây, hãy giữ lại nghĩa đã học ở chương 3: *thọ* chỉ vị dễ chịu, khó chịu hoặc trung tính, chưa phải toàn bộ cơn giận, nỗi sợ hay niềm vui.
 
 #source-line("KINH", [K27 · SN 12.44, Loka Sutta], [
   SN 12.44 bắt đầu bằng mắt và hình sắc. Do mắt và hình sắc, nhãn thức sinh; sự gặp nhau của ba yếu tố là xúc. Do xúc có thọ, do thọ có ái, rồi thủ, hữu, sinh và khổ. Bài kinh lặp lại cấu trúc ấy cho tai, mũi, lưỡi, thân và ý. Như vậy, “thế giới” cần quan sát không phải một ý niệm xa xôi: nó được dựng lên quanh những gì đang được thấy, nghe, ngửi, nếm, chạm và nghĩ.

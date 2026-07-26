@@ -17,6 +17,10 @@
   Ghi điều đã làm và điều đã thấy. Đừng dùng nhật ký để phong cho mình một tầng tuệ.
 ]
 
+#source-line("BIÊN SOẠN", [nhắc nghĩa từ chương 2], [
+  *Năm giới* trong mẫu này là tránh sát sinh, lấy của không cho, tà hạnh trong dục, nói dối và chất say gây phóng dật. Dòng kiểm không đòi một cảm giác “trong sạch”; nó hỏi hôm nay giới đã đi vào hành động cụ thể nào.
+])
+
 #v(8mm)
 
 #practice-card(

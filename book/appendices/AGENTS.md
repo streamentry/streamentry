@@ -11,6 +11,7 @@ Appendices are reusable field tools, not a second narrative. They must remain pr
 - FAQ answers preserve source limits.
 - When an FAQ sentence relies on more than one tier, display every relevant badge rather than collapsing Mahāsi, commentary, and scripture into one label.
 - The glossary distinguishes similar Pāli terms without pretending one English or Vietnamese word exhausts them.
+- Each appendix must work when opened directly. Define local terms such as Five Precepts, six sense doors, fetters, or awakening factors instead of assuming the narrative chapters are still in working memory.
 
 ## Diagrams (Mermaid)
 

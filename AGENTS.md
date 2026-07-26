@@ -24,6 +24,8 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 
 The canonical publication credit is `CS Chánh Niệm + ChatGPT`. Keep the cover, PDF metadata, and README synchronized.
 
+Beginner readability is a publication contract, not a style preference. Define technical terms at first use, connect each conceptual section to the prior one, orient and synthesize dense lists, and keep appendices usable when opened directly. Internal editorial review may mark these gates complete, but only `book/references/beginner-validation-protocol.md` can support a claim of novice validation.
+
 Build from the workspace root:
 
 ```sh
