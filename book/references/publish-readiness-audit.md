@@ -2,7 +2,7 @@
 
 Checked: 2026-07-27
 
-The 80-item scoring is a static content review adapted from a web-oriented benchmark. The exact current checks are recorded in [`release-evidence.md`](release-evidence.md): the PDF has 123 A5 pages, the EPUB has 136 nested content entries plus one cover entry in its table of contents, EPUBCheck 5.3.0 reports 0 fatals, 0 errors, and 0 warnings, and DAISY Ace 1.4.6 reports no issue in the package or three XHTML documents. The 2026-07-27 beginner-flow pass added first-use definitions, chapter handoffs, a source-bounded twelve-link guide, a four-region insight-map guide, a visual stop gate for beginners, a detailed treatment of fetters and fruits, a causal bridge from the Four Noble Truths to the first three fetters, an early clarification that lay practitioners are not excluded from the four fruits, six load-bearing glossary rescue entries, and a precommitted local emergency-action card. Those build facts do not replace human-reader or expert review.
+The 80-item scoring is a static content review adapted from a web-oriented benchmark. The exact current checks are recorded in [`release-evidence.md`](release-evidence.md): the PDF has 126 A5 pages, the EPUB has 146 nested content entries plus one cover entry in its table of contents, EPUBCheck 5.3.0 reports 0 fatals, 0 errors, and 0 warnings, and DAISY Ace 1.4.6 reports no issue in the package or three XHTML documents. The 2026-07-27 beginner-flow work added first-use definitions, chapter handoffs, a source-bounded twelve-link guide, a four-region insight-map guide, a visual stop gate for beginners, a focused chapter on the first three fetters, a separate chapter on the full five lower fetters and four fruits, a causal bridge from the Four Noble Truths to the first three fetters, fixed scenario-level novice checks, six load-bearing glossary rescue entries, and a precommitted local emergency-action card. Those build facts do not replace human-reader or expert review.
 
 ## Overview
 
@@ -60,7 +60,7 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 | C04 | Pass | `book/chapters/00-frontmatter.typ` defines the six source classes and keeps Pāli use explicit. | None |
 | C05 | Pass | `book/references/claim-ledger.md` separates sutta, commentary, Mahāsi, research, and editorial claims. | None |
 | C06 | Pass | The frontmatter targets lay readers and repeats that the book is for ordinary household life. | None |
-| C07 | Pass | Chapter sequence is coherent: basics, path, sutta frame, dependent origination, method, safety, Stream-entry, insight map, appendices. | None |
+| C07 | Pass | Chapter sequence is coherent: basics, path, sutta frame, dependent origination, method, safety, the first three fetters, the five-lower-fetters/four-fruits map, the later insight map, then appendices. | None |
 | C08 | Pass | `book/chapters/00-frontmatter.typ` includes a reading path for first-time readers and later-stage readers. | None |
 | C09 | Pass | Appendix C is a dedicated FAQ with 13 direct questions and answers. | None |
 | C10 | Pass | Chapter 10 closes by rejecting attainment guarantees and returning to direction, practice, and verification. | None |
@@ -74,7 +74,7 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 | O03 | Pass | `book/references/claim-ledger.md` and the appendix tables use clear tabular structure. | None |
 | O04 | Pass | The book uses headings, lists, check cards, caution boxes, and FAQ blocks consistently. | None |
 | O05 | N/A | The artifact is a book, not a site; there is no schema/JSON-LD layer in the publication pipeline. | No web schema layer to audit. |
-| O06 | Pass | Chapters are chunked into short, focused units with appendices reserved for reference material. | None |
+| O06 | Pass | Chapters are chunked into focused units; the formerly overloaded attainment chapter is now split between deep first-fetter explanation and the wider 3–5–4 classification, with appendices reserved for reference material. | None |
 | O07 | Pass | `book/theme.typ` and `book/components.typ` create a strong visual hierarchy for cover, chapters, cards, and citations. | None |
 | O08 | Pass | The frontmatter includes an outline, and HTML target support preserves navigable structure. | None |
 | O09 | Pass | The manuscript is dense without becoming unreadable; reference and safety material is separated from running prose. | None |
@@ -106,7 +106,7 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 | E05 | Fail | The publication is mostly text and tables; there are no proprietary visuals in the book artifact itself. | None |
 | E06 | Pass | The book fills gaps with a felt-to-craving bridge, safety guidance, and reader-facing FAQ answers. | None |
 | E07 | Pass | Practice cards, checklists, and the seven-day starter path are practical tools, not abstract doctrine. | None |
-| E08 | Pass | The claim ledger and chapter 10 give depth that most generic meditation handbooks lack. | None |
+| E08 | Pass | The claim ledger and Chapters 10–11 give source-bounded depth on the first three fetters, full five lower fetters, and four fruits that most generic meditation handbooks lack. | None |
 | E09 | Pass | The book synthesizes early discourses, commentarial material, Mahāsi teaching, research, and editorial guidance. | None |
 | E10 | Pass | Later chapters point forward to safety, self-checking, and reuse rather than ending in vague inspiration. | None |
 
@@ -132,7 +132,7 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 | Ept01 | Partial | The credit is consistent, but `CS Chánh Niệm` is not accompanied by a verifiable identity, biography, or scoped responsibility statement. | None |
 | Ept02 | Fail | The book does not display formal credentials, degrees, or teacher verification. | None |
 | Ept03 | Pass | The prose uses Pāli terms carefully and keeps them distinct from Vietnamese glosses. | None |
-| Ept04 | Pass | Chapters on dependent origination, insight map, and stream-entry show real technical depth. | None |
+| Ept04 | Pass | Chapters on dependent origination, the first three fetters, the wider fruit classification, and the insight map show real technical depth. | None |
 | Ept05 | Pass | The claim ledger gives a visible method: source code, tier, strength, and caveat. | None |
 | Ept06 | Pass | Safety, pain, misreading, and attainment overclaim are all handled explicitly. | None |
 | Ept07 | Pass | The book separates early discourses, later Theravāda commentary, Mahāsi lineage, and modern research. | None |

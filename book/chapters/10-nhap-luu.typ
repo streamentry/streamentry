@@ -2,20 +2,20 @@
 
 #chapter(
   [10],
-  [Nhập lưu: điều kinh thật sự nói],
-  [Nhập lưu không phải tên đẹp cho một buổi thiền sâu. Trong kinh, đó là bước chuyển có cấu trúc: vào Thánh đạo, đoạn ba kiết sử, có tịnh tín được xác chứng và giới hạnh vững.],
+  [Ba kiết sử đầu: hướng về Nhập lưu],
+  [Muốn hiểu Nhập lưu, đừng bắt đầu bằng một kinh nghiệm lạ. Hãy hiểu sâu ba mối trói được kinh nói là phải đoạn: thân kiến, hoài nghi và chấp thủ giới-tập tục.],
   provenance: [
     #source-badge("KINH", refs: [K06; K08; K09; K10; K11; K17])
     #h(4pt)
-    #source-badge("KINH", refs: [K20; K24; K32–K37])
+    #source-badge("KINH", refs: [K20; K21; K24; K35])
     #h(4pt)
     #source-badge("BIÊN SOẠN")
   ],
 )
 
-Từ “dòng” dễ gợi một luồng năng lượng hay một khoảnh khắc ý thức đứt đoạn. Kinh định nghĩa khác. Nhập lưu không chỉ là một trạng thái đã xảy ra trên tọa cụ. Điều cần nhìn là đạo lộ người ấy đã đi vào, ba kiết sử nào đã rơi và vị trí của kết quả ấy trong bốn quả Sa-môn.
+Từ “dòng” dễ gợi một luồng năng lượng hay một khoảnh khắc ý thức đứt đoạn. Kinh định nghĩa khác. Nhập lưu không chỉ là một trạng thái đã xảy ra trên tọa cụ. Điều cần nhìn là đạo lộ người ấy đã đi vào, ba mối trói nào đã rơi, và các phẩm chất nào đã đứng vững trong cách thấy cùng cách sống.
 
-Vì vậy, chương này không chạy theo cảm giác đặc biệt. Nó đi chậm qua các tiêu chuẩn mà kinh thật sự đặt ra, rồi mới so chúng với những điều dễ bị nhầm là chứng đắc.
+Chương này chỉ giữ một trục: *ba kiết sử đầu*. Chương 11 sẽ đặt chúng vào nhóm năm hạ phần kiết sử và bốn quả Sa-môn. Tách hai việc ra giúp người mới hiểu từng mối trói trước khi học bảng phân loại.
 
 == Dòng là Bát Thánh đạo <dong-bat-thanh-dao>
 
@@ -26,97 +26,29 @@ Vì vậy, một kỹ thuật ghi nhận, một đề mục hơi thở hay một
 #practice-card(
   [Đường đọc lần đầu],
   [
-    Nếu đây là lần đầu bạn học về Nhập lưu, hãy giữ một đường ngắn:
+    Nếu đây là lần đầu bạn học về Nhập lưu, hãy đọc chương này theo một đường thẳng:
 
     1. Hiểu “dòng” là toàn bộ Bát Thánh đạo ở phần này.
-    2. Đi thẳng đến #link(<ba-kiet-su>)[ba kiết sử đầu].
-    3. Đọc #link(<huong-ba-kiet-su>)[việc có thể làm ngay], rồi #link(<guong-phap>)[Gương Pháp].
+    2. Giữ ba câu hỏi trong thẻ kế tiếp rồi đi lần lượt qua #link(<ba-kiet-su>)[ba kiết sử đầu].
+    3. Đọc #link(<huong-ba-kiet-su>)[hướng thực hành], rồi #link(<guong-phap>)[Gương Pháp].
     4. Kết thúc ở #link(<khong-du-ket-luan>)[những điều không đủ để kết luận].
 
-    Sau đó mới quay lại phần #link(<nam-ha-phan>)[năm hạ phần kiết sử] và #link(<bon-qua>)[bốn quả]. Đường tắt này giúp người mới hiểu đích đến của tên sách trước khi học toàn bộ bảng phân loại.
+    Sau đó mới sang chương 11 để học khung 3–5–4. Đừng vừa đọc định nghĩa vừa cố xác định mình đã “ở quả nào”.
   ],
   label: [LẦN ĐỌC ĐẦU · BIÊN SOẠN],
 )
 
 #practice-card(
-  [Chỉ cần nhớ khung 3–5–4],
+  [Ba câu hỏi để khỏi lạc trong thuật ngữ],
   [
-    + *3 kiết sử đầu:* thân kiến, hoài nghi và chấp thủ giới-tập tục. Đây là ba mối trói được nói là đoạn ở Nhập lưu.
-    + *5 hạ phần kiết sử:* ba kiết sử trên cộng thêm dục tham và sân. Đoạn đủ cả năm là mốc của Bất lai, không phải Nhập lưu.
-    + *4 quả:* Nhập lưu, Nhất lai, Bất lai và A-la-hán. Đây là bốn kết quả của đời sống Sa-môn trong SN 45.35.
+    + *Tâm đang nắm cái gì làm “tôi” hoặc “của tôi”?* Câu này mở vào thân kiến.
+    + *Tâm đã thấy đủ để đứng vững trên con đường ra khỏi khổ, hay vẫn đứng ngoài vì chưa biết?* Câu này mở vào hoài nghi.
+    + *Tâm đang dùng giới, nghi thức và kỹ thuật theo đúng chức năng, hay biến phương tiện thành bảo chứng giải thoát?* Câu này mở vào chấp thủ giới-tập tục.
 
-    Ba kiết sử đầu nằm *bên trong* nhóm năm hạ phần; bốn quả là một bảng khác, dùng để chỉ các mốc kết quả. “Bốn đôi, tám hạng” không thêm tám quả mới, mà phân biệt người đang hướng đến mỗi quả với người đã chứng quả ấy.
+    Đây là ba cửa để học, không phải ba câu tự chấm. Ba kiết sử nâng đỡ nhau và được MN 2 đặt trong một việc thấy Tứ Thánh Đế, chứ không phải ba lỗi có thể xóa bằng ba mẹo riêng.
   ],
-  label: [KHUNG CỐT LÕI · K10; K24; K32; K33],
+  label: [BẢN ĐỒ ĐỌC · BIÊN SOẠN THEO K11; K20],
 )
-
-== “Sa-môn quả” đang được dùng theo nghĩa nào? <bon-qua>
-
-Giữ hai câu trước khi đi vào chi tiết: *Kinh Sa-môn quả*, DN 2, là tên một bài kinh; *bốn quả Sa-môn* là bốn mốc giải thoát gồm Nhập lưu, Nhất lai, Bất lai và A-la-hán. Trong cụm này, “Sa-môn” chỉ đời sống tu hành và con đường được thực hành, còn “quả” là kết quả của con đường ấy. Đây không phải điều kiện rằng chỉ người đã xuất gia mới có thể chứng quả. DN 16 kể cả các nam nữ cư sĩ tại Nādika đã đạt Nhập lưu, Nhất lai hoặc Bất lai.
-
-DN 2 trả lời một câu hỏi rộng hơn về các kết quả có thể thấy của đời sống xuất gia. Bài kinh trình bày một tiến trình từ giới hạnh, phòng hộ các giác quan, biết đủ và định tâm đến tri kiến đoạn tận lậu hoặc, tức các ô nhiễm sâu được kinh nói là phải chấm dứt. Vì vậy, không nên tưởng DN 2 chỉ là một bảng định nghĩa bốn danh hiệu.
-
-#source-line("KINH", [K34 · DN 2], [
-  Vua Ajātasattu hỏi về quả của đời sống Sa-môn có thể thấy ngay trong hiện tại. DN 2 trả lời bằng nhiều kết quả và một tiến trình huấn luyện rộng, đi đến tri kiến rằng các lậu hoặc đã chấm dứt. Tựa bài kinh và cụm “bốn quả Sa-môn” có liên hệ về chữ, nhưng không phải hai tên gọi thay thế hoàn toàn cho nhau.
-])
-
-#source-line("KINH", [K32 · SN 45.35], [
-  SN 45.35 gọi Bát Thánh đạo là đời sống Sa-môn và nêu bốn quả của đời sống ấy: quả Nhập lưu, quả Nhất lai, quả Bất lai và quả A-la-hán. “Quả” ở đây là kết quả giải thoát có tiêu chuẩn, không phải một cảm giác dễ chịu hay một lần thiền nổi bật.
-])
-
-#source-line("KINH", [K33 · Ud 5.5], [
-  Ud 5.5 phân biệt người đang thực hành để chứng từng quả với người đã thành tựu quả ấy. Bốn cặp tạo thành tám hạng người: hướng đến và đã chứng Nhập lưu; hướng đến và đã chứng Nhất lai; hướng đến và đã chứng Bất lai; hướng đến và đã chứng A-la-hán.
-])
-
-Phân biệt này chặn một lối nói nhập nhằng. “Đang hướng đến” không đồng nghĩa “đã chứng”. Kinh nghiệm mạnh, lời xác nhận của một người khác hoặc việc đã theo đúng một thời khóa không tự xóa khoảng cách ấy. Phần mô tả đạo rồi quả như một chuỗi những khoảnh khắc tâm cực ngắn ở chương 11 thuộc hệ thống luận giải Theravāda và cách trình bày Mahāsi; nó không nên được lén đưa vào miệng một bài kinh sớm.
-
-#source-line("KINH", [K10 · AN 3.88; K24 · AN 10.13], [
-  AN 3.88 cho ba ranh giới: Nhập lưu đoạn ba kiết sử đầu; Nhất lai cũng đoạn ba kiết sử ấy và làm mỏng tham, sân, si; Bất lai đoạn năm hạ phần kiết sử. Ở mức A-la-hán, bài kinh nói các lậu hoặc đã tận và giải thoát được tự chứng ngay trong hiện tại. AN 10.13 cho danh sách mười kiết sử để thấy bốn quả không chỉ khác nhau bằng số lần tái sinh.
-])
-
-#practice-card(
-  [Bốn quả trên một trang],
-  [
-    + *Nhập lưu, sotāpanna:* đoạn ba kiết sử đầu. Theo mô tả trong DN 16, không còn tái sinh vào các cảnh giới khổ đau và chắc chắn hướng đến giác ngộ.
-    + *Nhất lai, sakadāgāmī:* đoạn ba kiết sử đầu, đồng thời tham, sân và si đã mỏng đi; còn trở lại thế giới này tối đa một lần theo khung tái sinh của kinh.
-    + *Bất lai, anāgāmī:* đoạn đủ năm hạ phần kiết sử. DN 16 mô tả người ở mốc này hóa sinh, tức tái sinh trực tiếp trong một cảnh giới khác, rồi đạt giải thoát hoàn toàn tại đó và không trở lại từ cảnh giới ấy.
-    + *A-la-hán, arahant:* đoạn tận các lậu hoặc, tức các ô nhiễm sâu trong cách gọi của kinh, và hoàn tất công việc giải thoát.
-
-    Đây là bản đồ phân loại, không phải bảng tự chấm. “Mỏng đi” ở Nhất lai không đồng nghĩa “đã nhổ tận” dục tham và sân như ở Bất lai.
-  ],
-  label: [BẢN ĐỒ KHÁI NIỆM · K08; K10; K24; K32],
-)
-
-== Năm hạ phần kiết sử: khung rộng hơn Nhập lưu <nam-ha-phan>
-
-#source-line("KINH", [K24 · AN 10.13], [
-  Năm hạ phần kiết sử là: thân kiến, hoài nghi, chấp thủ giới và tập tục, dục tham, sân. Năm thượng phần kiết sử là: tham đối với sắc giới, tham đối với vô sắc giới, ngã mạn, trạo cử, tức tâm dao động, và vô minh.
-])
-
-#source-line("KINH", [K08 · DN 16; K10 · AN 3.88], [
-  AN 3.88 liên hệ việc đoạn trọn năm hạ phần kiết sử với Bất lai. Trong đoạn nói về những người đã mất tại Nādika, DN 16 mô tả người đoạn đủ năm kiết sử này hóa sinh và đạt giải thoát hoàn toàn tại đó, không trở lại từ cảnh giới ấy.
-])
-
-Cách gọi chính xác trong các nguồn đang dùng là *ba kiết sử đầu*, không phải một danh sách độc lập mang tên “ba hạ phần kiết sử”. Ba kiết sử ấy đều nằm trong nhóm năm hạ phần. Chữ *hạ phần* không có nghĩa “nhẹ”, “mới vào môn” hay “dễ đoạn”. Cách nói gọn “không trở lại cõi dục” là một lối giải thích theo vũ trụ quan Theravāda; câu kinh được dẫn trực tiếp ở trên thận trọng hơn: “không trở lại từ cảnh giới ấy”. Vì vậy, Nhập lưu mới chỉ làm gãy ba mối trói đầu, chưa gãy hai lực kéo còn lại.
-
-#source-line("KINH", [K36 · MN 64; K37 · SN 41.1], [
-  MN 64 mô tả một hạ phần kiết sử là khuynh hướng đã thành thói, chưa được nhổ tận, có thể ám ảnh và chi phối tâm khi người ấy chưa thấy lối thoát. SN 41.1 phân biệt giác quan và đối tượng với mối trói: chính dục và tham sinh lên dựa vào cuộc gặp giữa chúng mới là kiết sử.
-])
-
-#practice-card(
-  [Hai kiết sử còn lại không phải mọi ý thích và mọi khó chịu],
-  [
-    + *Dục tham* là sự ham muốn và bám chặt vào khoái lạc giác quan đến mức tâm bị nó trói và chi phối. Một lựa chọn chức năng như thích chỗ ngồi ít ồn hơn không tự nó chứng minh kiết sử này đang hiện hành hay đã được đoạn.
-    + *Sân* là ác ý và lực chống đối muốn xua đuổi, làm tổn thương hoặc triệt hạ điều mình ghét. Nhận ra một tình huống nguy hiểm, nói một hành vi là sai hoặc đặt ranh giới không tự động đồng nghĩa với sân.
-
-    Hai nghĩa làm việc này giúp người mới tránh biến mọi sở thích và mọi khó chịu thành bảng tự chẩn đoán. Chúng là diễn giải biên soạn dựa trên cách các kinh mô tả sự trói buộc và chi phối, không phải hai định nghĩa nguyên văn trọn vẹn.
-  ],
-  label: [GIẢI NGHĨA BIÊN SOẠN · ĐỐI CHIẾU K24; K36; K37],
-)
-
-Điểm này đặc biệt quan trọng cho người hướng đến Nhập lưu. Bậc Nhập lưu vẫn có thể còn dục tham và sân. Bậc Nhất lai được mô tả là đã làm mỏng tham, sân, si, nhưng công thức ấy chưa nói hai kiết sử dục tham và sân đã bị nhổ tận. Cụm *tham, sân, si* ở AN 3.88 là một bộ ba mô tả khác; đừng đọc chữ “si” như một kiết sử được thêm vào nhóm năm hạ phần. Chỉ ở Bất lai, năm hạ phần kiết sử mới được nói là đã đoạn. Ngược lại, vài giờ không thấy ham muốn hay bực bội không chứng minh chúng đã bị đoạn; sự vắng mặt tạm thời không tự chứng minh một trói buộc đã mất khả năng trở lại.
-
-Có thể nhớ khung này bằng một câu, nhưng đừng biến câu nhớ thành giáo lý đầy đủ: *Nhập lưu gãy ba mối trói đầu; Nhất lai làm mỏng lực tham-sân-si; Bất lai đoạn luôn hai lực kéo còn lại của cõi dục; A-la-hán đoạn tận lậu hoặc.*
 
 == Ba kiết sử đầu: ba mối trói phải rơi <ba-kiet-su>
 
@@ -358,17 +290,15 @@ Người tại gia có thể làm phần việc trước mắt: giữ giới, s�
   [
     Không nhìn phần trên, hãy tự trả lời:
 
-    1. Vẽ lại khung 3–5–4: ba kiết sử đầu là gì, hai kiết sử nào hoàn tất nhóm năm hạ phần, và bốn quả là gì?
+    1. Ba kiết sử đầu là gì? Với mỗi kiết sử, nói một câu về điều nó trói, không chỉ đọc lại tên.
     2. Vì sao một bậc Nhập lưu vẫn nói “tôi” trong đời thường mà điều đó không tự chứng minh thân kiến còn nguyên?
     3. Một câu hỏi tìm chứng cứ khác hoài nghi như kiết sử ở điểm nào?
     4. Giữ giới đúng chức năng khác chấp thủ giới-tập tục như bùa bảo chứng ra sao?
-    5. Quả nào đoạn ba kiết sử đầu, quả nào đoạn đủ năm? Vì sao một sở thích hay một cơn bực thoáng qua không phải bảng chẩn đoán hai kiết sử còn lại?
-    6. *Kinh Sa-môn quả* DN 2 khác cụm *bốn quả Sa-môn* thế nào?
-    7. Nêu một trải nghiệm có thể quan trọng nhưng tự nó không đủ chứng minh Nhập lưu.
+    5. Nêu một trải nghiệm có thể quan trọng nhưng tự nó không đủ chứng minh Nhập lưu.
 
-    Sau khi trả lời, mở lại #link(<ba-kiet-su>)[phần ba kiết sử], #link(<nam-ha-phan>)[phần năm hạ phần], #link(<bon-qua>)[bốn quả và DN 2], rồi #link(<khong-du-ket-luan>)[danh sách giới hạn]. Nếu câu trả lời đổi sau khi xem lại, hãy ghi đúng chỗ đã nhầm thay vì tự chấm điểm.
+    Sau khi trả lời, mở lại #link(<ba-kiet-su>)[phần ba kiết sử] và #link(<khong-du-ket-luan>)[danh sách giới hạn]. Nếu câu trả lời đổi sau khi xem lại, hãy ghi đúng chỗ đã nhầm thay vì tự chấm điểm. Khung năm hạ phần và bốn quả được tự kiểm riêng ở chương 11.
   ],
   label: [TỰ KIỂM KHÔNG NHÌN SÁCH],
 )
 
-Nhập lưu là lời hứa của kinh về hướng đi không thoái đọa, không phải lời hứa của cuốn sách về thành tích của người đọc. Cuốn sách chỉ có thể trao bản đồ, phương pháp và các hàng rào chống tự lừa. Phần còn lại phải được sống, thấy và kiểm chứng.
+Nhập lưu là lời kinh về hướng đi không thoái đọa, không phải lời hứa của cuốn sách về thành tích người đọc. Phần còn lại phải được sống và kiểm chứng.

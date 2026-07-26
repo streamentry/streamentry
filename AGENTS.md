@@ -13,6 +13,9 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `book/theme.typ`: A5 print rules plus reflowable HTML CSS selected through `target()`. Use left binding with mirrored 22 mm inside and 14 mm outside margins for the perfect-bound edition.
 - `book/components.typ`: target-aware source badges, chapter openers, practice cards, cautions, and reference blocks. Keep source badges above, not inline with, cited prose; preserve a quiet gap below provenance blocks.
 - `book/chapters/`: editorial chapters.
+- `book/chapters/10-nhap-luu.typ`: focused beginner explanation of the first three fetters and the canonical criteria surrounding Stream-entry.
+- `book/chapters/11-ha-phan-va-sa-mon-qua.typ`: separate 3–5–4 map for the five lower fetters, four fruits, four pairs/eight persons, and DN 2.
+- `book/chapters/12-ban-do-tue.typ`: later-reference insight map; never use it as a beginner self-diagnostic ladder.
 - `book/appendices/`: reusable practice tools.
 - `book/references/claim-ledger.md`: claim-to-source audit trail.
 - `book/references/editorial-depth-audit.md`: chapter-by-chapter test for harmful compression.
@@ -38,7 +41,7 @@ Beginner readability is a publication contract, not a style preference. Define t
 
 For running the novice test, start with `book/references/beginner-reader-kit.md` and use it together with the protocol. Freeze the artifacts and ten-file scoring contract before attempt one, enumerate every started attempt in one authoritative manifest, and count only the first five completed eligible attempts among at most seven starts. Raw records stay under ignored `build/beginner-pilot/`; only the privacy-coarsened aggregate report is publishable. A local manifest cannot independently prove its registration time or terminal-attempt completeness; use an external append-only registry for that stronger claim.
 
-When discussing attainment, use *the first three fetters*, not an invented standalone canonical list called “three lower fetters.” Keep that subset distinct from the full five lower fetters, the four fruits, and DN 2's broader discourse title.
+When discussing attainment, use *the first three fetters*, not an invented standalone canonical list called “three lower fetters.” Keep that subset distinct from the full five lower fetters, the four fruits, and DN 2's broader discourse title. Chapter 10 explains the subset deeply; Chapter 11 supplies the wider classification.
 
 Build from the workspace root:
 

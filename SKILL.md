@@ -51,7 +51,7 @@ Use one of six visible source classes:
 
 Never label modern schedules, percentages, diagnostic heuristics, or attainment promises as `KINH`. “The Pāli discourses state” is different from “empirical fact.” Keep that distinction explicit.
 
-For attainment language, keep the first three fetters, the full five lower fetters, the four fruits, and DN 2's broader discourse title distinct. Use Chapter 10, the glossary, and claim codes C41–C45 as the canonical project anchors.
+For attainment language, keep the first three fetters, the full five lower fetters, the four fruits, and DN 2's broader discourse title distinct. Use Chapter 10 for the first three fetters, Chapter 11 for the wider 3–5–4 classification, the glossary for direct lookup, and claim codes C41–C45 as the canonical project anchors.
 
 ## Writing Contract
 

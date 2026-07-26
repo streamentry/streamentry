@@ -31,7 +31,7 @@ TASK_CRITERIA = {
     ),
     "insight_map": (
         "rejects_stage_diagnosis",
-        "chapter_11_is_later_reference",
+        "chapter_12_is_later_reference",
         "names_alternative_or_longitudinal_context",
     ),
     "retreat_decision": (
