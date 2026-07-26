@@ -387,7 +387,51 @@ class ExternalReleaseGateTests(unittest.TestCase):
                     return_value=current_commit,
                 ),
                 self.assertRaisesRegex(
-                    ReleaseVerificationError, "cannot close more than one gate"
+                    ReleaseVerificationError, "may appear only once"
+                ),
+            ):
+                verify_external_release_gates(root, release)
+
+    def test_rejects_stale_hash_field_even_if_current_hash_appears_elsewhere(
+        self,
+    ) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root, _release = self._fixture(directory)
+            registry = self._registry(root)
+            current_commit = "1" * 40
+            self._terminal_gate(
+                root,
+                registry,
+                gate_id="doctrinal_review",
+                status="passed",
+                candidate_commit=current_commit,
+            )
+            release = parse_release_evidence(
+                (root / RELEASE_EVIDENCE_PATH).read_text(encoding="utf-8")
+            )
+            evidence_item = registry["gates"]["doctrinal_review"]["evidence"][0]
+            evidence_path = root / evidence_item["path"]
+            evidence_text = evidence_path.read_text(encoding="utf-8").replace(
+                f"PDF SHA-256: {release.pdf_sha256}",
+                "\n".join(
+                    [
+                        f"PDF SHA-256: {'0' * 64}",
+                        f"Incidental current digest: {release.pdf_sha256}",
+                    ]
+                ),
+                1,
+            )
+            evidence_path.write_text(evidence_text, encoding="utf-8")
+            evidence_item["sha256"] = _sha256(evidence_path)
+            self._write_registry(root, registry)
+            with (
+                patch(
+                    "external_release_gates._current_git_candidate",
+                    return_value=current_commit,
+                ),
+                self.assertRaisesRegex(
+                    ReleaseVerificationError,
+                    "does not bind the current PDF SHA-256",
                 ),
             ):
                 verify_external_release_gates(root, release)

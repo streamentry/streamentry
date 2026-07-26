@@ -126,7 +126,7 @@ Ngay cả kết quả thuận lợi cũng chỉ hỗ trợ một kết luận h�
 
 ## 9. Nộp bằng chứng và đổi trạng thái
 
-Bằng chứng được phép công khai đặt dưới `book/references/external-evidence/` theo hướng dẫn trong thư mục đó. Mỗi hồ sơ phải có đúng một dòng `Evidence role:` khớp với vai trò được ghi trong `external-release-gates.json`. Mỗi vai trò singleton phải dùng một tệp riêng; không dùng một tệp chung để đóng nhiều vai trò. Mỗi hồ sơ phải có:
+Bằng chứng được phép công khai đặt dưới `book/references/external-evidence/` theo hướng dẫn trong thư mục đó. Mỗi hồ sơ phải có đúng một dòng `Evidence role:`, một dòng `PDF SHA-256:` và một dòng `EPUB SHA-256:`; cả ba phải khớp với vai trò và ứng viên hiện hành. Mỗi vai trò singleton phải dùng một tệp riêng; không dùng một tệp chung để đóng nhiều vai trò. Mỗi hồ sơ phải có:
 
 ```text
 Gate status: PASSED | FAILED

@@ -16,7 +16,7 @@ This folder holds the audit trail behind doctrinal and safety claims. It is the 
 - `doctrinal-review-protocol.md`: reviewer qualifications, conflicts, artifact identity, scope, severity, disposition, and signed report requirements.
 - `clinical-safety-review-protocol.md`: clinical and research-safety competence, mandatory checks, findings, and signed-report requirements.
 - `external-evidence/`: public, privacy-safe gate evidence only; never raw participant data.
-- Every terminal evidence item must declare a canonical gate-specific `role`, and its Markdown must contain exactly one matching `Evidence role:` line. Required singleton roles cannot be combined in one generic file; the clinical gate may carry multiple separately bound reports of its one allowed role.
+- Every terminal evidence item must declare a canonical gate-specific `role`, and its Markdown must contain exactly one matching `Evidence role:`, `PDF SHA-256:`, and `EPUB SHA-256:` line. Required singleton roles cannot be combined in one generic file; the clinical gate may carry multiple separately bound reports of its one allowed role.
 - `beginner-validation-protocol.md`: unassisted comprehension, safety, navigation, and EPUB-reader gates for true beginners.
 - `comparative-beginner-protocol.md`: preregistration draft for a rights-safe comparison against a fixed Vietnamese beginner panel.
 - `beginner-reader-kit.md`: consent and moderator scripts, privacy and distress rules, fixed eight-task rubric, scenario-level fetter discrimination, and EPUB smoke-test procedure.

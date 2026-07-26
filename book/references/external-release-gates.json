@@ -3,12 +3,12 @@
   "candidate_binding": "enclosing_clean_git_commit_plus_release_evidence",
   "release_evidence": {
     "path": "book/references/release-evidence.md",
-    "sha256": "16e4bcfa156cbe294bb7808bb3e9802ef05016b0c5dc84c86691576896f2154b"
+    "sha256": "e37fdd87965b06014b26109590b8a52cdb943c031080013f9a9d9b178f4eb3b6"
   },
   "protocols": {
     "external_release_packet": {
       "path": "book/references/external-release-packet.md",
-      "sha256": "9bf71c2f3f71b366353ac9d3d7157656351bfd72b5ef045dbc996cc70f50dee6"
+      "sha256": "71f296105c1b3b471444abcc2523d91ece2be88c7ba5574ca5659b1fc5488c4a"
     },
     "rights_decision": {
       "path": "book/references/rights-decision-template.md",
@@ -36,7 +36,7 @@
     },
     "public_evidence_policy": {
       "path": "book/references/external-evidence/README.md",
-      "sha256": "486f651bef46477b01d3868a388f382c5ad3854b96654b497c8e7fdf0ccc5335"
+      "sha256": "825eb6d46ce6d961d7690f19efe50374842ce1f4bb1a16413b99f29febda6a21"
     }
   },
   "gates": {

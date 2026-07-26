@@ -22,13 +22,13 @@ Chương này chỉ giữ một trục: *ba kiết sử đầu*. Chương 11 s�
   [
     Nếu phải nói thật gọn cho người mới:
 
-    + *Thân kiến:* cứ lấy một phần của kinh nghiệm làm lõi “tôi” phải bảo vệ.
-    + *Hoài nghi:* chưa đứng vững vào con đường diệt khổ nên còn đứng ngoài mà dò xét.
-    + *Chấp thủ giới-tập tục:* tưởng rằng làm đúng hình thức thì tự nó sẽ sinh giải thoát.
+    + *Thân kiến:* xem một phần của thân tâm là “tôi”, “của tôi” hoặc nơi một cái tôi trú ngụ.
+    + *Hoài nghi:* chưa có niềm tin đã được kiểm chứng đủ để thật sự bước vào con đường diệt khổ.
+    + *Chấp thủ giới-tập tục:* tưởng rằng giữ đúng giới điều, nghi thức hay kỹ thuật thì tự nó đã đủ sinh giải thoát.
 
     Ba mối trói này chặn cửa Nhập lưu vì chúng làm lệch cả ba việc căn bản: thấy khổ cho đúng, tin con đường cho đúng và dùng phương tiện cho đúng. Phần dưới sẽ mở rộng từng điểm bằng nguồn kinh và ví dụ thực hành.
   ],
-  label: [BẮC CẦU CHO NGƯỜI MỚI · BIÊN SOẠN THEO K11; K20],
+  label: [BẮC CẦU CHO NGƯỜI MỚI · BIÊN SOẠN, ĐỐI CHIẾU K03; K06; K09; K11; K20],
 )
 
 == Dòng là Bát Thánh đạo <dong-bat-thanh-dao>

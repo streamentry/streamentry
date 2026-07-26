@@ -12,7 +12,7 @@ This folder owns deterministic PDF and EPUB publication checks. It converts the 
 - `release_pdf.py`: verifies PDF metadata, tagging, security flags, file size, and every page's A5 geometry and rotation.
 - `release_epub.py`: verifies the active package, exact manifest and spine, passive XHTML, metadata, resolved unique navigation, and content/cover counts.
 - `external_release_gates.py`: verifies protocol fingerprints, six external-gate states, gate-specific required evidence roles, public evidence paths and artifact binding, release-evidence status agreement, and claims derived from passed gates.
-- `external_release_gate_files.py`: contains the fail-closed JSON, repository-path, file-fingerprint, local-link, evidence-status, and exact evidence-role validators used by the external gate orchestrator.
+- `external_release_gate_files.py`: contains the fail-closed JSON, repository-path, file-fingerprint, local-link, evidence-status, exact evidence-role, and exact-once PDF/EPUB digest-field validators used by the external gate orchestrator.
 - `beginner_pilot_contract.py`: fixed task ids, criteria, thresholds, allowed fields, cohort rules, and the exact ten-file scoring contract. The insight-map criterion points to Chapter 12; the fetter criterion is coded true only under the scenario-level rubric in the reader kit.
 - `beginner_pilot_validation.py`: strict JSON, schema, consent, eligibility, task-state, fixed stop-reason, bounded contact-data detection, and retention validation.
 - `beginner_pilot_artifact.py`: verifies hashes and page count against real files and committed Git blobs, plus a bounded EPUB container check.

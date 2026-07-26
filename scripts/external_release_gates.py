@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Any
 
 from external_release_gate_files import (
+    evidence_artifact_sha256,
     evidence_role,
     evidence_status,
     exact_keys,
@@ -198,11 +199,11 @@ def _validate_evidence(
         f"{label} must bind exactly once to the current clean Git candidate",
     )
     require(
-        release.pdf_sha256 in markdown,
+        evidence_artifact_sha256(markdown, "PDF") == release.pdf_sha256,
         f"{label} does not bind the current PDF SHA-256",
     )
     require(
-        release.epub_sha256 in markdown,
+        evidence_artifact_sha256(markdown, "EPUB") == release.epub_sha256,
         f"{label} does not bind the current EPUB SHA-256",
     )
     return relative, role
@@ -367,7 +368,7 @@ def verify_external_release_gates(
                 )
                 require(
                     relative not in used_evidence,
-                    "one evidence file cannot close more than one gate",
+                    "one evidence path may appear only once in the registry",
                 )
                 used_evidence.add(relative)
                 role_counts[role] = role_counts.get(role, 0) + 1
