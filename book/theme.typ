@@ -43,6 +43,8 @@
         --saffron: #8c4e1b;
         --forest: #315b4b;
         --clay: #7c4636;
+        --indigo: #4f5572;
+        --research: #3f6687;
         --rule: #c9c9c5;
       }
       html { font-family: Georgia, 'Times New Roman', serif; line-height: 1.55; }
@@ -70,18 +72,20 @@
       .source-kinh { color: var(--forest); }
       .source-mahasi, .source-caution { color: var(--clay); }
       .source-thanh-tinh-dao { color: var(--saffron); }
-      .source-luan-giai { color: #4f5572; }
-      .source-nghien-cuu { color: #3f6687; }
+      .source-luan-giai { color: var(--indigo); }
+      .source-nghien-cuu { color: var(--research); }
       .source-bien-soan { color: var(--muted); }
       .source-line, .modern-note { margin: 1.2rem 0; padding: 0.2rem 0 0.2rem 0.9rem; border-left: 0.18rem solid var(--forest); }
       .modern-note { border-left-color: var(--muted); }
       .practice-card, .caution, .scripture-quote { margin: 1.25rem 0; padding: 0.9rem 1rem; border: 0.06rem solid var(--rule); border-radius: 0.35rem; background: var(--surface-light); }
       .caution { border-color: #c7a79c; background: #f7efec; }
       .scripture-quote { background: var(--surface); font-style: italic; }
-      .card-title { margin: 0.35rem 0 0.65rem; font-size: 1.12rem; font-weight: 700; }
-      .quote-source { margin-top: 0.8rem; color: var(--muted); font-family: Arial, sans-serif; font-size: 0.78rem; font-style: normal; }
+      .card-title { margin: 0.35rem 0 0.65rem; overflow-wrap: anywhere; font-size: 1.12rem; font-weight: 700; }
+      .quote-source { margin-top: 0.8rem; overflow-wrap: anywhere; color: var(--muted); font-family: Arial, sans-serif; font-size: 0.78rem; font-style: normal; }
+      .worksheet-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem 0.8rem; margin: 0.8rem 0 1rem; }
+      .worksheet-field { min-width: 0; padding-bottom: 0.3rem; border-bottom: 0.08rem solid var(--rule); overflow-wrap: anywhere; }
       .day-card { margin: 1rem 0; padding: 0.75rem 0; border-bottom: 0.06rem solid var(--rule); }
-      .day-number { display: inline-block; min-width: 1.6rem; margin-right: 0.45rem; padding: 0.15rem; border-radius: 50%; color: white; background: var(--saffron); text-align: center; font-family: Arial, sans-serif; font-weight: 700; }
+      .day-number { display: inline-block; min-width: 1.6rem; margin-right: 0.45rem; padding: 0.15rem; border-radius: 50%; color: var(--paper); background: var(--saffron); text-align: center; font-family: Arial, sans-serif; font-weight: 700; }
       .day-title { font-weight: 700; }
       .day-duration { margin-left: 0.45rem; color: var(--saffron); font-family: Arial, sans-serif; font-size: 0.75rem; }
       .check-row { margin: 0.55rem 0; padding-left: 1.25rem; }
@@ -90,8 +94,23 @@
       .reference-title { margin-bottom: 0.15rem; }
       .reference-detail { margin-top: 0.15rem; color: var(--muted); }
       nav[role='doc-toc'] { margin: 1.5rem 0; padding: 0.75rem 1rem; background: var(--surface-light); }
+      @media (max-width: 24rem) {
+        .worksheet-fields { grid-template-columns: minmax(0, 1fr); }
+      }
       @media (prefers-color-scheme: dark) {
-        :root { --ink: #eee9e2; --muted: #c6beb5; --paper: #171513; --surface: #262320; --surface-light: #211e1b; --rule: #59534d; }
+        :root {
+          --ink: #eee9e2;
+          --muted: #c6beb5;
+          --paper: #171513;
+          --surface: #262320;
+          --surface-light: #211e1b;
+          --saffron: #e7a367;
+          --forest: #8bc5ad;
+          --clay: #dba08d;
+          --indigo: #b7bddb;
+          --research: #91bce0;
+          --rule: #59534d;
+        }
         .caution { background: #2a1d19; border-color: #755247; }
       }
     ")

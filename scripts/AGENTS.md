@@ -7,6 +7,13 @@ This folder owns deterministic EPUB 3 packaging. It converts the target-aware Ty
 ## Key Components
 
 - `build-epub.py`: recompiles PDF and HTML, verifies the immutable manuscript hash, removes the duplicate HTML cover, promotes Typst body headings from h2-h6 to h1-h5, creates namespaced XHTML and nested navigation, and checks semantics, accessibility metadata, manifest resources, anchors, warning classes, fixed ZIP timestamps, entry order, and uncompressed mimetype.
+- `beginner_pilot_contract.py`: fixed task ids, criteria, thresholds, allowed fields, cohort rules, and the exact ten-file scoring contract.
+- `beginner_pilot_validation.py`: strict JSON, schema, consent, eligibility, task-state, fixed stop-reason, bounded contact-data detection, and retention validation.
+- `beginner_pilot_artifact.py`: verifies hashes and page count against real files and committed Git blobs, plus a bounded EPUB container check.
+- `beginner_pilot_manifest.py`: loads the only authoritative manifest, rejects direct or nested record additions and reachable Git-history exposure, enforces chronological first-five selection among at most seven starts, verifies canonical origin/main ancestry, and binds the running scorer to the committed contract.
+- `beginner_pilot.py`: reusable scoring rules for one validated five-reader novice cohort.
+- `score-beginner-pilot.py`: manifest-only CLI that applies fixed comprehension, EPUB, completeness, and distress-veto gates and emits a privacy-coarsened aggregate report without first answers or notes.
+- The pilot runtime requires Python's `jsonschema` package. A local manifest cannot independently prove its asserted registration time or that the moderator did not omit the terminal attempt; stronger custody needs an external append-only timestamped registry.
 - Keep the OPF `dcterms:modified` value fixed within a release for reproducibility, but advance it when the published content changes to a new release date.
 - `build/epub/`: ignored intermediate output.
 - `dist/huong-den-nhap-luu.epub`: final artifact.
@@ -25,6 +32,8 @@ flowchart LR
   N --> E["EPUB package"]
   C --> E
   E --> V["Structural validation"]
+  R["Frozen manifest and ordered attempts"] --> S["Deterministic cohort scorer"]
+  S --> G["Aggregate gate report"]
 ```
 
 ### Component Diagram
@@ -39,6 +48,10 @@ flowchart TB
   O --> Z
   N --> Z
   X --> Z
+  S["Pilot scorer"] --> R["Manifest, contract, eligibility, and committed-artifact checks"]
+  S --> G["Eight task gates"]
+  R --> A["Aggregate report"]
+  G --> A
 ```
 
 ### Sequence Diagram
@@ -49,12 +62,15 @@ sequenceDiagram
   participant T as Typst
   participant B as EPUB builder
   participant V as Validator
+  participant S as Pilot scorer
   U->>B: Run build
   B->>T: Compile PDF and semantic HTML
   T-->>B: Current content and cover
   B->>B: Normalize namespaces, bodymatter, outline, and OPF
   B->>V: Validate archive and links
   V-->>U: Verified EPUB or exact failure
+  U->>S: Score one manifest with all ordered attempts
+  S-->>U: Aggregate gate report or exact invalid-data error
 ```
 
 ### State Machine
@@ -68,6 +84,12 @@ stateDiagram-v2
   Rejected --> Compiled
   Packaged --> Verified
   Verified --> [*]
+  [*] --> PilotFrozen
+  PilotFrozen --> PilotRecorded: every start added in order
+  PilotRecorded --> PilotRejected: invalid evidence, distress, or failed gate
+  PilotRecorded --> PilotPassed: first five satisfy all fixed thresholds
+  PilotRejected --> [*]
+  PilotPassed --> [*]
 ```
 
 ### Data Flow Diagram
@@ -83,4 +105,6 @@ flowchart LR
   N --> Z
   I --> Z
   D["Metadata constants"] --> Z
+  R["Manifest and pseudonymous attempt JSON"] --> S["Cohort scorer"]
+  S --> A["Aggregate report"]
 ```

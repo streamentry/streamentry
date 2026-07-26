@@ -59,8 +59,8 @@
 
 #reference-item(
   [K08],
-  [Gương Pháp, Dīgha Nikāya 16],
-  [Tịnh tín nơi Phật, Pháp, Tăng và giới hạnh được bậc Thánh quý trọng.],
+  [Các quả tại Nādika và Gương Pháp, Dīgha Nikāya 16],
+  [Đoạn Nādika phân loại người đã mất theo bốn quả, gồm hơn năm trăm cư sĩ Nhập lưu và hơn năm mươi cư sĩ đoạn năm hạ phần kiết sử; phần kế tiếp nêu tịnh tín nơi Phật, Pháp, Tăng và giới hạnh được bậc Thánh quý trọng.],
   "https://suttacentral.net/dn16/en/sujato",
 )
 
@@ -73,8 +73,8 @@
 
 #reference-item(
   [K10],
-  [Ba hạng Nhập lưu, Aṅguttara Nikāya 3.88],
-  [Mô tả giáo lý về tối đa bảy lần sinh giữa loài người và chư thiên.],
+  [Các bậc hữu học và ba học, Aṅguttara Nikāya 3.88],
+  [Phân biệt các hạng Nhập lưu, Nhất lai, năm hạng Bất lai và sự đoạn tận lậu hoặc ở A-la-hán.],
   "https://suttacentral.net/an3.88/en/sujato",
 )
 
@@ -172,7 +172,7 @@
 #reference-item(
   [K24],
   [Mười kiết sử, Aṅguttara Nikāya 10.13],
-  [Năm kiết sử thấp và năm kiết sử cao; ba kiết sử đầu thuộc nhóm thấp.],
+  [Năm hạ phần kiết sử và năm thượng phần kiết sử; ba kiết sử đầu thuộc nhóm hạ phần.],
   "https://suttacentral.net/an10.13/en/sujato",
 )
 
@@ -225,6 +225,48 @@
   "https://suttacentral.net/mn9/en/bodhi",
 )
 
+#reference-item(
+  [K32],
+  [Bốn quả của đời sống Sa-môn, Saṁyutta Nikāya 45.35],
+  [Bát Thánh đạo là đời sống Sa-môn; quả của nó là Nhập lưu, Nhất lai, Bất lai và A-la-hán.],
+  "https://suttacentral.net/sn45.35/en/sujato",
+)
+
+#reference-item(
+  [K33],
+  [Bốn cặp, tám hạng Thánh đệ tử, Udāna 5.5],
+  [Phân biệt người đang thực hành để chứng mỗi quả với người đã thành tựu quả ấy.],
+  "https://suttacentral.net/ud5.5/en/sujato",
+)
+
+#reference-item(
+  [K34],
+  [Kinh Sa-môn quả, Dīgha Nikāya 2],
+  [Câu hỏi về quả có thể thấy của đời sống Sa-môn và tiến trình huấn luyện rộng đi đến đoạn tận lậu hoặc.],
+  "https://suttacentral.net/dn2/en/sujato",
+)
+
+#reference-item(
+  [K35],
+  [Đặc tướng vô ngã, Saṁyutta Nikāya 22.59],
+  [Năm uẩn không ở trọn dưới quyền sai khiến, vô thường, chịu đổi thay và không thích hợp để nắm là tôi hay của tôi.],
+  "https://suttacentral.net/sn22.59/en/sujato",
+)
+
+#reference-item(
+  [K36],
+  [Con đường đoạn năm hạ phần kiết sử, Majjhima Nikāya 64],
+  [Mô tả mỗi hạ phần kiết sử như một khuynh hướng đã thành thói, chưa được nhổ tận, có thể ám ảnh và chi phối tâm khi lối thoát chưa được thấy như thật.],
+  "https://suttacentral.net/mn64/en/bodhi",
+)
+
+#reference-item(
+  [K37],
+  [Kiết sử và điều làm kiết sử sinh, Saṁyutta Nikāya 41.1],
+  [Giác quan và đối tượng không tự là kiết sử; dục và tham sinh lên dựa vào cuộc gặp giữa chúng mới là mối trói.],
+  "https://suttacentral.net/sn41.1/en/sujato",
+)
+
 == Thanh Tịnh Đạo và truyền thống Mahāsi
 
 #source-line("THANH TỊNH ĐẠO", [V01], [Buddhaghosa, _The Path of Purification_, Bhikkhu Ñāṇamoli dịch, BPS Online Edition 2014. #link("https://www.bps.lk/olib/bp/bp207h_The-Path-of-Purification-%28Visuddhimagga%29.pdf")[Bản PDF của nhà xuất bản].])
@@ -239,15 +281,51 @@
 
 == Nguồn an toàn thực hành
 
-#source-line("NGHIÊN CỨU", [R01], [Lindahl và cộng sự, “The Varieties of Contemplative Experience”, _PLOS ONE_ 12(5), 2017. #link("https://pmc.ncbi.nlm.nih.gov/articles/PMC5443484/")[Toàn văn].])
+#source-line("Y TẾ & NGHIÊN CỨU", [R01], [Lindahl và cộng sự, “The Varieties of Contemplative Experience”, _PLOS ONE_ 12(5), 2017. #link("https://pmc.ncbi.nlm.nih.gov/articles/PMC5443484/")[Toàn văn].])
 
 #v(7pt)
 
-#source-line("NGHIÊN CỨU", [R02], [Farias và cộng sự, tổng quan hệ thống về biến cố bất lợi khi hành thiền, _Acta Psychiatrica Scandinavica_, 2020. #link("https://pubmed.ncbi.nlm.nih.gov/32820538/")[Tóm tắt PubMed].])
+#source-line("Y TẾ & NGHIÊN CỨU", [R02], [Farias và cộng sự, tổng quan hệ thống về biến cố bất lợi khi hành thiền, _Acta Psychiatrica Scandinavica_, 2020. #link("https://pubmed.ncbi.nlm.nih.gov/32820538/")[Tóm tắt PubMed].])
+
+#v(7pt)
+
+#source-line("Y TẾ & NGHIÊN CỨU", [R03], [World Health Organization, _Doing What Matters in Times of Stress: An Illustrated Guide_, 2020. Phần “grounding” hướng dẫn nhận ra ý nghĩ và cảm xúc, kết nối lại với thân và chuyển chú ý về thế giới quanh mình; sách nói rõ kỹ thuật không nhằm xóa cảm xúc khó chịu. #link("https://www.who.int/publications/i/item/9789240003927")[Trang xuất bản chính thức của WHO].])
+
+#v(7pt)
+
+#source-line("Y TẾ & NGHIÊN CỨU", [R04], [World Health Organization, _Do you know someone who may be considering suicide?_, tài liệu một trang cho người thân và bạn bè, 2021. WHO khuyên không để người có nguy cơ tức thời ở một mình và liên hệ dịch vụ cấp cứu, đường dây khủng hoảng, nhân viên y tế hoặc người thân. #link("https://cdn.who.int/media/docs/default-source/campaigns-and-initiatives/world-mental-health-day/2021/4_suicide_for_friend_family_members_2021.pdf?sfvrsn=ec5c0d68_17")[Bản PDF chính thức của WHO].])
+
+#v(7pt)
+
+#source-line("Y TẾ & NGHIÊN CỨU", [R05], [National Institute of Mental Health, _Understanding Psychosis_. Trang nêu các dấu hiệu như khó phân biệt thực tế với tưởng tượng, rối loạn giấc ngủ, lời nói khó hiểu, suy giảm tự chăm sóc, học tập, công việc và chức năng chung; khi dấu hiệu tăng lên hoặc không biến mất, cần liên hệ người cung cấp chăm sóc sức khỏe. #link("https://www.nimh.nih.gov/health/publications/understanding-psychosis")[Trang chính thức của NIMH].])
+
+#v(7pt)
+
+#source-line("Y TẾ & NGHIÊN CỨU", [R06], [National Health Service, _Treatment: Psychosis_. NHS dặn không ngừng thuốc đã được kê nếu chưa có chỉ dẫn của chuyên gia y tế đủ năng lực đang chịu trách nhiệm chăm sóc, vì ngừng đột ngột có thể làm triệu chứng trở lại. Các số 999 và địa chỉ A&E trên trang chỉ áp dụng tại Vương quốc Anh. #link("https://www.nhs.uk/mental-health/conditions/psychosis/treatment/")[Trang chính thức của NHS].])
+
+#v(7pt)
+
+#source-line("Y TẾ & NGHIÊN CỨU", [R07], [Centers for Disease Control and Prevention, _Signs and Symptoms of Stroke_. CDC liệt kê các dấu hiệu thần kinh khởi phát đột ngột và yêu cầu gọi cấp cứu ngay; số 911 trên trang chỉ áp dụng tại Hoa Kỳ. #link("https://www.cdc.gov/stroke/signs-symptoms/index.html")[Trang chính thức của CDC].])
+
+#v(7pt)
+
+#source-line("Y TẾ & NGHIÊN CỨU", [R08], [Centers for Disease Control and Prevention, _About Heart Attack Symptoms, Risk, and Recovery_. CDC nêu đau hay khó chịu ở ngực, khó thở, choáng hoặc ngất và đau ở hàm, cổ, lưng, tay hay vai là các dấu hiệu chính cần gọi cấp cứu ngay; số 911 trên trang chỉ áp dụng tại Hoa Kỳ. #link("https://www.cdc.gov/heart-disease/about/heart-attack.html")[Trang chính thức của CDC].])
+
+#v(7pt)
+
+#source-line("Y TẾ & NGHIÊN CỨU", [R09], [Centers for Disease Control and Prevention, _First Aid for Seizures_. CDC nói không phải mọi cơn co giật đều cần cấp cứu, rồi nêu các ngưỡng như kéo dài quá năm phút, tái diễn ngay, khó thở hoặc khó tỉnh, bị thương, xảy ra trong nước, cơn đầu tiên, mang thai, hoặc đái tháo đường kèm mất ý thức; số 911 trên trang chỉ áp dụng tại Hoa Kỳ. #link("https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html")[Trang chính thức của CDC].])
+
+R01 và R02 xác nhận rằng trải nghiệm bất lợi liên quan đến thiền đã được ghi nhận. Chúng không thiết lập một tỷ lệ nguy cơ chung và không kiểm chứng toàn bộ quy trình ba mức của chương 9. R03 đến R09 chỉ hỗ trợ các hướng dẫn cụ thể được nêu cạnh từng mã; chúng không biến cuốn sách thành tài liệu chẩn đoán hay phác đồ điều trị.
 
 == Quy tắc đọc nguồn
 
 Một mã nguồn cho phép truy nguyên, nhưng không tự động chứng minh mọi câu đứng cạnh nó. Người đọc cần xem đúng đoạn, đúng ngữ cảnh và phân biệt lời kinh với lời chú giải của dịch giả. Nếu một chỉ dẫn chỉ mang dấu *Biên soạn*, hãy xem nó như một phương án thực tế có thể điều chỉnh, không phải giới luật hay bảo chứng giác ngộ.
+
+#context {
+  if target() != "html" {
+    pagebreak(weak: true)
+  }
+}
 
 == Trách nhiệm biên tập và sửa sai
 

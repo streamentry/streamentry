@@ -17,23 +17,32 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `book/references/claim-ledger.md`: claim-to-source audit trail.
 - `book/references/editorial-depth-audit.md`: chapter-by-chapter test for harmful compression.
 - `book/references/publish-readiness-audit.md`: adapted 80-item publication scorecard.
+- `book/references/release-evidence.md`: exact candidate hashes, tool versions, verification scope, and open external gates.
 - `book/references/beginner-validation-protocol.md`: external novice and reader-app acceptance gates.
-- `dist/huong-den-nhap-luu.pdf`: verified deliverable.
+- `book/references/comparative-beginner-protocol.md`: bounded comparison protocol for a fixed Vietnamese beginner panel.
+- `book/references/beginner-pilot-cohort-manifest.schema.json`: frozen cohort contract and ordered attempt ledger.
+- `book/references/beginner-pilot-record.schema.json`: structured, privacy-bounded novice-attempt record.
+- `book/references/doctrinal-review-protocol.md`: operational contract for independent Theravāda review.
+- `dist/huong-den-nhap-luu.pdf`: current internally verified print candidate.
 - `scripts/build-epub.py`: deterministic EPUB 3 packaging and structural validation.
-- `dist/huong-den-nhap-luu.epub`: verified reflowable deliverable.
+- `scripts/score-beginner-pilot.py`: manifest-only first-five gate scoring with artifact and contract binding.
+- `dist/huong-den-nhap-luu.epub`: current internally verified reflowable candidate.
 
 The canonical publication credit is `CS Chánh Niệm + ChatGPT`. Keep the cover, PDF metadata, and README synchronized.
 
 Beginner readability is a publication contract, not a style preference. Define technical terms at first use, connect each conceptual section to the prior one, orient and synthesize dense lists, and keep appendices usable when opened directly. Internal editorial review may mark these gates complete, but only `book/references/beginner-validation-protocol.md` can support a claim of novice validation.
 
-For running the novice test, start with `book/references/beginner-reader-kit.md` and use it together with the protocol. The kit holds the facilitator script, scoring sheet, and EPUB smoke-test fields.
+For running the novice test, start with `book/references/beginner-reader-kit.md` and use it together with the protocol. Freeze the artifacts and ten-file scoring contract before attempt one, enumerate every started attempt in one authoritative manifest, and count only the first five completed eligible attempts among at most seven starts. Raw records stay under ignored `build/beginner-pilot/`; only the privacy-coarsened aggregate report is publishable. A local manifest cannot independently prove its registration time or terminal-attempt completeness; use an external append-only registry for that stronger claim.
+
+When discussing attainment, use *the first three fetters*, not an invented standalone canonical list called “three lower fetters.” Keep that subset distinct from the full five lower fetters, the four fruits, and DN 2's broader discourse title.
 
 Build from the workspace root:
 
 ```sh
-typst compile --root /Volumes/SSD/streamentry book/main.typ dist/huong-den-nhap-luu.pdf
 python3 scripts/build-epub.py
 ```
+
+The canonical builder emits a deterministic PDF/UA-1 candidate and the synchronized reflowable EPUB. Treat PDF/UA metadata, EPUBCheck, and DAISY Ace as internal evidence; actual assistive-technology and reader-app use remain external gates.
 
 Do not impersonate the Buddha, fabricate quotations, or turn a retreat schedule, noting technique, cessation experience, or teacher verdict into a canonical guarantee of stream-entry.
 
@@ -44,7 +53,7 @@ Do not impersonate the Buddha, fabricate quotations, or turn a retreat schedule,
 ```mermaid
 flowchart LR
   A["Source manuscript"] --> B["Doctrinal claim audit"]
-  B --> C["Six-tier provenance"]
+  B --> C["Six-class provenance"]
   C --> D["Chapter modules"]
   D --> E["Typst composition"]
   E --> F["PDF render, grayscale, and print QA"]
@@ -68,6 +77,8 @@ flowchart TB
   E --> P["scripts/build-epub.py"]
   P --> U["EPUB 3"]
   M --> Q["Quality audits"]
+  N["Frozen manifest and attempt records"] --> G["Deterministic pilot scorer"]
+  G --> Q
   H --> C
   A --> C
   H -. "claim codes" .-> L["references/claim-ledger.md"]
@@ -84,6 +95,7 @@ sequenceDiagram
   participant Q as PDF QA
   participant P as EPUB packager
   participant R as External reviewers
+  participant S as Pilot scorer
   E->>L: Verify doctrine, speaker, edition, and source tier
   L-->>E: Return source code and caveat
   E->>T: Compose source-labelled chapter
@@ -92,7 +104,9 @@ sequenceDiagram
   P-->>E: Validate EPUB container, XML, manifest, and navigation
   Q-->>E: Report overflow, page rhythm, and text defects
   E->>R: Run novice comprehension and scoped expert review
-  R-->>E: Return failures or external validation evidence
+  R->>S: Submit frozen manifest and all ordered attempts
+  S-->>E: Return fixed gate failures or aggregate pass evidence
+  R-->>E: Return scoped expert findings
   E->>T: Correct and recompile
 ```
 
@@ -107,6 +121,8 @@ stateDiagram-v2
   Rendered --> Audited: defect or unsupported claim found
   Rendered --> InternallyVerified: structural and visual QA pass
   InternallyVerified --> ExternallyValidated: novice and expert gates pass
+  InternallyVerified --> PilotFailed: novice gate fails
+  PilotFailed --> Audited: correct wording and recruit a fresh cohort
   InternallyVerified --> [*]: candidate only
   ExternallyValidated --> [*]
 ```
@@ -129,6 +145,9 @@ flowchart LR
   U --> V["XML, manifest, navigation, and reader QA"]
   D --> B["Beginner validation"]
   U --> B
+  B --> R["Frozen manifest and pseudonymous attempt records"]
+  R --> SC["Deterministic gate scorer"]
+  SC --> AE["Aggregate evidence"]
   Q -. "corrections" .-> E
   V -. "corrections" .-> E
   B -. "comprehension failures" .-> E

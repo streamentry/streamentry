@@ -11,7 +11,10 @@ Appendices are reusable field tools, not a second narrative. They must remain pr
 - FAQ answers preserve source limits.
 - When an FAQ sentence relies on more than one tier, display every relevant badge rather than collapsing Mahāsi, commentary, and scripture into one label.
 - The glossary distinguishes similar Pāli terms without pretending one English or Vietnamese word exhausts them.
+- The glossary begins with a linked four-group quick index. Preserve its internal anchors and category headings so the EPUB table of contents remains usable at term-search depth.
+- Printable dotted worksheet leaders must become responsive bordered fields in HTML; never force a fixed line of punctuation into narrow EPUB viewports.
 - Each appendix must work when opened directly. Define local terms such as Five Precepts, six sense doors, fetters, or awakening factors instead of assuming the narrative chapters are still in working memory.
+- When glossary or FAQ entries touch stream-entry or the lower fetters, define sakkāyadiṭṭhi, vicikicchā, sīlabbataparāmāsa, the five lower fetters, and the four fruits separately. Do not compress them into one generic “thánh quả” label.
 
 ## Diagrams (Mermaid)
 

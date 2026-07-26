@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://streamentry.local/schemas/beginner-pilot-cohort-manifest.schema.json",
+  "title": "Hướng Đến Nhập Lưu beginner pilot v2 cohort manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "cohort_id",
+    "registered_at",
+    "closed_at",
+    "repo_root",
+    "records_dir",
+    "primary_format",
+    "target_completed",
+    "max_started_attempts",
+    "selection_rule",
+    "epub_section_finding_prompt",
+    "artifact",
+    "contract",
+    "attempts"
+  ],
+  "properties": {
+    "schema_version": { "const": 2 },
+    "cohort_id": { "$ref": "#/$defs/id" },
+    "registered_at": { "type": "string", "format": "date-time" },
+    "closed_at": { "type": "string", "format": "date-time" },
+    "repo_root": { "$ref": "#/$defs/nonempty_text" },
+    "records_dir": { "$ref": "#/$defs/nonempty_text" },
+    "primary_format": { "enum": ["pdf", "epub"] },
+    "target_completed": { "const": 5 },
+    "max_started_attempts": { "const": 7 },
+    "selection_rule": { "const": "first_five_completed_eligible" },
+    "epub_section_finding_prompt": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 500,
+      "pattern": "\\S"
+    },
+    "artifact": { "$ref": "#/$defs/artifact" },
+    "contract": { "$ref": "#/$defs/contract" },
+    "attempts": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 7,
+      "items": { "$ref": "#/$defs/attempt" }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]{3,64}$"
+    },
+    "nonempty_text": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1024,
+      "pattern": "\\S"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "commit": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "git_commit",
+        "pdf_sha256",
+        "epub_sha256",
+        "pdf_pages",
+        "pdf_path",
+        "epub_path"
+      ],
+      "properties": {
+        "git_commit": { "$ref": "#/$defs/commit" },
+        "pdf_sha256": { "$ref": "#/$defs/sha256" },
+        "epub_sha256": { "$ref": "#/$defs/sha256" },
+        "pdf_pages": { "type": "integer", "minimum": 1 },
+        "pdf_path": { "$ref": "#/$defs/nonempty_text" },
+        "epub_path": { "$ref": "#/$defs/nonempty_text" }
+      }
+    },
+    "contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["git_commit", "files"],
+      "properties": {
+        "git_commit": { "$ref": "#/$defs/commit" },
+        "files": {
+          "type": "object",
+          "minProperties": 10,
+          "maxProperties": 10,
+          "propertyNames": {
+            "type": "string",
+            "pattern": "^(book/references|scripts)/[A-Za-z0-9._/-]+$"
+          },
+          "additionalProperties": { "$ref": "#/$defs/sha256" }
+        }
+      }
+    },
+    "attempt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "attempt_number",
+        "attempt_id",
+        "record_path",
+        "record_sha256"
+      ],
+      "properties": {
+        "attempt_number": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "attempt_id": { "$ref": "#/$defs/id" },
+        "record_path": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9._-]+\\.json$"
+        },
+        "record_sha256": { "$ref": "#/$defs/sha256" }
+      }
+    }
+  }
+}

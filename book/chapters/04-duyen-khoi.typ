@@ -24,7 +24,11 @@ Chương trước phân biệt thọ với toàn bộ cảm xúc. Chương này 
   SN 12.2 nêu chuỗi: vô minh duyên hành; hành duyên thức; thức duyên danh sắc; danh sắc duyên sáu xứ; sáu xứ duyên xúc; xúc duyên thọ; thọ duyên ái; ái duyên thủ; thủ duyên hữu; hữu duyên sinh; sinh duyên già chết, sầu, bi, khổ, ưu và não. Bài kinh cũng định nghĩa từng chi, trong đó thọ và ái đều được phân theo sáu cửa giác quan.
 ])
 
-Trước khi đọc bảng thuật ngữ, hãy giữ một đường dây đơn giản: vì không thấy đúng, các tạo tác tiếp tục; trên nền thân-tâm và sáu căn, kinh nghiệm tiếp xúc rồi mang một vị; ái và thủ tiếp sức cho tiến trình; sinh cùng già chết cho thấy khổ chín thành kết quả. Câu này chỉ là tay vịn để đọc. Nó không rút toàn bộ duyên khởi thành một câu chuyện tâm lý xảy ra trong vài giây.
+Trước khi đọc bảng thuật ngữ, hãy giữ quan hệ chính: vô minh tạo điều kiện cho các hành; từ đó tiến trình đi qua thức, danh sắc và sáu xứ đến xúc, thọ, ái và thủ; hữu, sinh, già chết cùng toàn bộ khổ tiếp tục trên các điều kiện ấy. Đây chỉ là bản tóm tắt để đọc danh mục. Nó không rút toàn bộ duyên khởi thành một câu chuyện tâm lý xảy ra trong vài giây.
+
+#modern-note([
+  Ở đoạn gần kinh nghiệm trực tiếp, tai gặp âm thanh của một lời chê; nhĩ thức sinh; sự gặp nhau ấy là xúc. Vị khó chịu là thọ; động tác muốn đẩy lời chê ấy đi hoặc muốn trả đũa là ái; sự bám chặt vào “tôi đúng, người kia sai” cho thấy hướng của thủ. Ví dụ này chỉ minh họa đoạn *xúc → thọ → ái → thủ*. Nó không đồng nhất một phản ứng ngắn với toàn bộ mười hai chi.
+])
 
 #practice-card(
   [Mười hai mốc, đọc gần nghĩa trước khi học thuật ngữ],
@@ -146,7 +150,17 @@ Vai trò có thể phân biệt như sau:
 + *Chánh định* cho tâm đủ ổn định để không bị phản ứng kéo đi ngay.
 + *Giới* đặt ranh giới cho hành động, nhất là khi niệm chưa kịp mạnh.
 
-Danh sách trên là sự tổng hợp chức năng từ các chi đạo, không phải một câu trích nguyên văn. Nó sửa một hiểu lầm quan trọng: niệm phát hiện và giữ hiện tượng trong tầm biết; niệm không một mình làm toàn bộ công việc của tuệ, định và giới.
+Danh sách trên là sự tổng hợp chức năng từ các chi đạo, không phải một câu trích nguyên văn. Nó sửa một hiểu lầm quan trọng: niệm giúp nhận ra và không quên thọ đang được quan sát; niệm không một mình làm toàn bộ công việc của tuệ, định và giới.
+
+#practice-card(
+  [Một lời chê, sáu phần của con đường],
+  [
+    Bạn nghe câu “bài làm này quá tệ” và thấy ngực nóng lên. *Chánh niệm* nhận ra thọ khó chịu trước khi câu chuyện chạy xa. *Tỉnh giác* biết mình đang ở nơi làm việc và sắp đáp lời. *Chánh kiến* thấy thọ này sinh do xúc, đang đổi và không phải một mệnh lệnh. *Chánh tinh tấn* không tiếp tục nuôi ý muốn trả đũa. *Chánh định* giữ tâm đủ yên để nghe hết câu. *Giới* chặn lời dối trá hoặc thô ác, dù tâm chưa hết khó chịu.
+
+    Không chi nào làm thay phần còn lại. Đây là ví dụ biên soạn để thấy quán thọ vận hành trong cả đạo lộ.
+  ],
+  label: [MINH HỌA · BIÊN SOẠN THEO K01; K05; K31],
+)
 
 == Một quy trình năm nhịp tại thọ
 
@@ -208,3 +222,17 @@ Trong khuôn khổ ấy, có thể ghi nhận “dễ chịu”, “khó chịu�
 - Với thọ trung tính, ta có bớt tìm kích thích một cách máy móc không?
 
 Đây là chỉ dấu thực hành do sách biên soạn, không phải tiêu chuẩn chứng thánh. Duyên khởi được hiểu đúng không làm ta tự hào vì đã tìm thấy một mắt xích để “cắt”. Nó làm rõ một việc giản dị hơn và khó hơn: khi xúc đã thành thọ, khổ không nhất thiết phải được tiếp tục bằng cùng một phản ứng cũ.
+
+#practice-card(
+  [Gấp sách lại: ba câu để tự nhớ],
+  [
+    1. *Thọ* khác toàn bộ một cảm xúc phức hợp ở điểm nào?
+
+    2. Trong một ví dụ đời thường, hãy kể riêng bốn mốc *xúc, thọ, ái, thủ* mà không gộp thọ với ái.
+
+    3. Vì sao câu “thọ đến ái luôn là mắt xích dễ cắt nhất” mạnh hơn nguồn?
+
+    Trả lời xong, mở lại phần “Từ thọ sang ái” và “Có phải chỉ cần niệm là đủ?”. Nếu còn lẫn, dùng quy trình năm nhịp trên một tình huống thật nhưng không lấy kết quả làm bằng chứng chứng đắc.
+  ],
+  label: [GẤP SÁCH LẠI · TỰ NHỚ],
+)

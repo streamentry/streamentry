@@ -5,7 +5,7 @@
   [An toàn khi thực hành],
   [Thiền có thể nâng đỡ đời sống, nhưng không vô hại trong mọi liều lượng và mọi hoàn cảnh. Biết khi nào nên giảm, dừng và tìm trợ giúp là một phần của trí tuệ thực hành.],
   provenance: [
-    #source-badge("NGHIÊN CỨU", refs: [R01; R02])
+    #source-badge("Y TẾ & NGHIÊN CỨU", refs: [R01; R02; R03–R09])
     #h(4pt)
     #source-badge("BIÊN SOẠN")
   ],
@@ -13,19 +13,27 @@
 
 An toàn không đồng nghĩa với sợ mọi cảm giác lạ. Nó cũng không cho phép ta gọi mọi khủng hoảng là “tiến bộ tâm linh”. Cách nghiêm túc hơn là mô tả điều đang xảy ra, xem mức độ kéo dài và ảnh hưởng đến sinh hoạt, rồi chọn mức hỗ trợ tương xứng.
 
-#source-line("NGHIÊN CỨU", [R01], [Nghiên cứu đa phương pháp của Lindahl và cộng sự năm 2017 dùng phỏng vấn định tính để ghi nhận nhiều loại trải nghiệm liên quan đến thiền, từ thay đổi nhận thức và cảm xúc đến khó khăn trong sinh hoạt. Mẫu nghiên cứu được tuyển có chủ đích để khảo sát phạm vi trải nghiệm, nên không dùng được để ước tính bao nhiêu phần trăm người hành thiền sẽ gặp tác dụng bất lợi.])
+#source-line("Y TẾ & NGHIÊN CỨU", [R01], [Nghiên cứu đa phương pháp của Lindahl và cộng sự năm 2017 dùng phỏng vấn định tính để ghi nhận nhiều loại trải nghiệm liên quan đến thiền, từ thay đổi nhận thức và cảm xúc đến khó khăn trong sinh hoạt. Mẫu nghiên cứu được tuyển có chủ đích để khảo sát phạm vi trải nghiệm, nên không dùng được để ước tính bao nhiêu phần trăm người hành thiền sẽ gặp tác dụng bất lợi.])
 
 #v(8pt)
 
-#source-line("NGHIÊN CỨU", [R02], [Tổng quan hệ thống của Farias và cộng sự năm 2020 cho thấy các biến cố bất lợi đã được báo cáo trong nghiên cứu về thiền, đồng thời cách định nghĩa và theo dõi chúng rất không đồng nhất. Bằng chứng này bác bỏ giả định “thiền luôn vô hại”, nhưng không cho phép dự đoán chính xác rủi ro của một cá nhân.])
+#source-line("Y TẾ & NGHIÊN CỨU", [R02], [Tổng quan hệ thống của Farias và cộng sự năm 2020 cho thấy các biến cố bất lợi đã được báo cáo trong nghiên cứu về thiền, đồng thời cách định nghĩa và theo dõi chúng rất không đồng nhất. Bằng chứng này bác bỏ giả định “thiền luôn vô hại”, nhưng không cho phép dự đoán chính xác rủi ro của một cá nhân.])
 
-Hai nguồn trên không phải kinh điển Phật giáo và không thay thế chẩn đoán y khoa. Các ngưỡng hành động trong chương này là hướng dẫn biên soạn thận trọng dựa trên mức suy giảm chức năng và nguy cơ cấp thời. Từ đây trở xuống, mỗi mục chỉ nhằm trả lời một câu: nên điều chỉnh nhẹ, nên giảm cường độ hay phải tìm trợ giúp ngay.
+Hai nguồn trên không phải kinh điển Phật giáo và không thay thế chẩn đoán y khoa. R01 không thể ước tính tỷ lệ biến cố trong toàn bộ người hành thiền; R02 bị giới hạn bởi sự không đồng nhất giữa các nghiên cứu. Cả hai nguồn không kiểm chứng toàn bộ quy trình ba mức dưới đây. Quy trình ấy là khung biên soạn thận trọng, được giới hạn thêm bằng hướng dẫn trực tiếp của WHO, NIMH, NHS và CDC về một số dấu hiệu cụ thể.
 
-== Trước khi tăng cường độ
+== Trước khi tăng cường độ <an-toan>
 
-Nếu bạn đang mất ngủ kéo dài, vừa trải qua sang chấn nặng, từng có cơn hưng cảm hoặc loạn thần, thường xuyên phân ly, đang nghĩ đến tự sát, hoặc đang điều trị một bệnh tâm thần nghiêm trọng, đừng tự đưa mình vào thời khóa khắc nghiệt. Điều đó không nhất thiết cấm mọi hình thức thiền. Nó có nghĩa là kế hoạch cần được trao đổi với chuyên gia lâm sàng đang hiểu tình trạng của bạn và, nếu có, một người dạy thiền biết giới hạn chuyên môn.
+Nếu bạn đang khó phân biệt điều có thật với điều không thật, nghe hoặc thấy những điều người khác không thấy, suy giảm rõ việc ngủ, tự chăm sóc, học tập hay làm việc, đang nghĩ đến tự sát, hoặc đang được điều trị vì một bệnh tâm thần nghiêm trọng, đừng tự đưa mình vào thời khóa khắc nghiệt. Điều đó không nhất thiết cấm mọi hình thức thiền. Nó có nghĩa là kế hoạch cần được trao đổi với chuyên gia lâm sàng đang hiểu tình trạng của bạn và, nếu có, một người dạy thiền biết giới hạn chuyên môn.
 
 Bạn không cần tự chẩn đoán những thuật ngữ trên để dùng chương này. Ba mức dưới đây dựa vào dấu hiệu có thể nhận ra, thời gian kéo dài, mức suy giảm sinh hoạt và nguy cơ cấp thời; khi không chắc, hãy để chuyên gia lâm sàng làm phần chẩn đoán.
+
+#source-line("Y TẾ & NGHIÊN CỨU", [R05], [NIMH liệt kê các dấu hiệu cảnh báo liên quan đến loạn thần như khó phân biệt thực tế với tưởng tượng, rối loạn giấc ngủ, lời nói khó hiểu, suy giảm tự chăm sóc và giảm sút đột ngột trong học tập hoặc công việc. NIMH khuyên liên hệ người cung cấp chăm sóc sức khỏe khi những thay đổi ấy tăng lên hoặc không biến mất. Đây là dấu hiệu cần đánh giá, không phải bảng tự chẩn đoán; thiếu ngủ, thuốc, chất kích thích và bệnh cơ thể cũng có thể liên quan.])
+
+#v(8pt)
+
+#source-line("Y TẾ & NGHIÊN CỨU", [R06], [Trong hướng dẫn điều trị loạn thần, NHS dặn không ngừng thuốc đã được kê nếu chưa có chỉ dẫn của chuyên gia y tế đủ năng lực đang chịu trách nhiệm chăm sóc, vì ngừng đột ngột có thể làm triệu chứng trở lại. Các số 999 và địa chỉ A&E trên trang NHS chỉ áp dụng tại Vương quốc Anh.])
+
+#v(8pt)
 
 #caution(
   [Không tự ý đổi thuốc],
@@ -46,40 +54,73 @@ Nếu bạn vẫn ngủ, ăn, làm việc và quan hệ bình thường, hãy gh
 
 Hãy giảm thời lượng, bỏ khóa im lặng hoặc tạm dừng pháp hành cường độ cao khi có một trong các dấu hiệu sau:
 
-- Mất ngủ nhiều đêm, hoảng sợ lặp lại hoặc kích động tăng dần.
-- Cảm giác mình hay thế giới không thật kéo dài ngoài giờ thiền.
-- Nghe tiếng, thấy hình hoặc có niềm tin khác thường làm giảm khả năng phán đoán.
-- Trầm cảm, lo âu, ám ảnh hoặc ký ức sang chấn nặng hơn rõ rệt.
-- Không còn làm được việc thường ngày, chăm con, ăn uống hoặc giữ vệ sinh như trước.
-- Người thân đáng tin nhận thấy tính khí, lời nói hay quyết định của bạn đổi mạnh.
+- Giấc ngủ suy giảm rõ và tình trạng tiếp tục nặng lên hoặc không lắng.
+- Khó phân biệt điều có thật với điều không thật, lời nói trở nên khó hiểu, hoặc có niềm tin hay tri giác khác thường làm giảm khả năng phán đoán.
+- Tự chăm sóc, vệ sinh, học tập, làm việc hoặc các trách nhiệm thường ngày giảm rõ.
+- Lo âu, khí sắc hoặc hành vi thay đổi đến mức cản trở sinh hoạt.
+- Người thân đáng tin nhận thấy những thay đổi trên đang tăng lên hoặc không biến mất.
 
 Liên hệ sớm với chuyên gia sức khỏe tâm thần. Nếu người hướng dẫn có năng lực, báo cho họ biết, nhưng đừng để một lời giải thích bằng “bản đồ tuệ” trì hoãn chăm sóc lâm sàng.
 
 === Mức ba: xử lý như tình huống cấp cứu
 
-Ngừng thực hành và tìm trợ giúp khẩn cấp nếu có ý định hoặc kế hoạch tự sát, thôi thúc làm hại người khác, dấu hiệu hưng cảm hay loạn thần nặng, lú lẫn, mất khả năng tự chăm sóc, hoặc hành vi nguy hiểm mà bạn không kiểm soát được. Hãy ở cùng một người đáng tin, liên hệ dịch vụ cấp cứu tại nơi bạn sống hoặc đến cơ sở y tế gần nhất.
+#source-line("Y TẾ & NGHIÊN CỨU", [R04], [WHO khuyên không để một người ở một mình khi họ có nguy cơ tự sát tức thời; cần liên hệ dịch vụ cấp cứu, đường dây khủng hoảng, nhân viên y tế hoặc người thân, đồng thời hạn chế khả năng tiếp cận phương tiện tự hại. Đây là nguyên tắc an toàn tức thời, không phải bản đánh giá nguy cơ đầy đủ.])
 
-Đau ngực, khó thở dữ dội, ngất, yếu liệt, co giật hay triệu chứng thần kinh đột ngột cũng cần được đánh giá y tế khẩn cấp. Đừng ngồi tiếp để thử “xuyên qua cảm giác”.
+#v(8pt)
+
+Ngừng thực hành và tìm trợ giúp khẩn cấp nếu có ý định, kế hoạch hoặc hành vi chuẩn bị tự sát; thôi thúc làm hại người khác; mất liên hệ với thực tế kèm hành vi nguy hiểm; hoặc không còn giữ được an toàn cho bản thân. Đừng để người đang có nguy cơ tự sát tức thời ở một mình. Liên hệ dịch vụ cấp cứu tại nơi đang sống hoặc đưa họ đến cơ sở cấp cứu gần nhất nếu có thể làm vậy một cách an toàn.
+
+WHO nêu nguyên tắc toàn cầu, không ấn định một số điện thoại dùng cho mọi nước. Các số 911, 988 và 999 xuất hiện trong nguồn của Hoa Kỳ hoặc Vương quốc Anh chỉ dùng tại những hệ thống đó. Khi ở Việt Nam hoặc một nước khác, hãy dùng số cấp cứu và dịch vụ khủng hoảng chính thức của nơi mình đang có mặt.
+
+#practice-card(
+  [Điền kế hoạch trước khi tăng cường độ],
+  [
+    Đừng đợi đến lúc hoảng loạn mới tìm cách liên hệ. Trước khi tăng thời lượng, đi khóa im lặng hoặc tập một mình dài ngày, hãy tự điền và lưu ở nơi dễ thấy:
+
+    + *Số cấp cứu chính thức tại nơi đang ở:* ................................
+    + *Cơ sở cấp cứu gần nhất và cách đến đó:* ................................
+    + *Người đáng tin có thể gọi và ở cùng mình:* ................................
+    + *Người hướng dẫn hoặc chuyên gia đang theo dõi, nếu có:* ................................
+
+    Kiểm tra các thông tin này từ nguồn chính thức và cập nhật khi đổi nơi ở. Nếu chưa có một đường trợ giúp khả dụng, đừng tăng cường độ một mình.
+  ],
+  label: [KẾ HOẠCH AN TOÀN · BIÊN SOẠN],
+)
+
+#v(8pt)
+
+#source-line("Y TẾ & NGHIÊN CỨU", [R07; R08], [CDC yêu cầu cấp cứu ngay khi có dấu hiệu đột quỵ hoặc nhồi máu cơ tim. Dấu hiệu đột quỵ gồm yếu hay tê đột ngột ở mặt, tay hoặc chân, nhất là một bên; đột ngột khó nói, khó hiểu lời, khó nhìn, khó đi, mất thăng bằng hoặc đau đầu dữ dội không rõ nguyên nhân. Dấu hiệu nhồi máu cơ tim gồm đau hay khó chịu ở ngực, khó thở, yếu hoặc choáng, vã mồ hôi lạnh, và đau hay khó chịu ở hàm, cổ, lưng, tay hoặc vai. Số 911 trên các trang CDC chỉ áp dụng tại Hoa Kỳ.])
+
+#v(8pt)
+
+Nếu có những dấu hiệu trên, đừng ngồi tiếp để thử “xuyên qua cảm giác”. Gọi dịch vụ cấp cứu tại nơi đang sống. Với dấu hiệu đột quỵ, ghi lại thời điểm triệu chứng bắt đầu nếu biết.
+
+#source-line("Y TẾ & NGHIÊN CỨU", [R09], [CDC lưu ý rằng không phải mọi cơn co giật đều cần cấp cứu. Cần gọi trợ giúp khẩn cấp khi cơn kéo dài quá năm phút, cơn khác xảy ra ngay sau đó, người bệnh khó thở hoặc khó tỉnh, bị thương, co giật trong nước, đang mang thai, bị đái tháo đường và mất ý thức, hoặc đây là cơn đầu tiên được biết. Số 911 trên trang CDC chỉ áp dụng tại Hoa Kỳ.])
 
 == Một quy trình hạ cường độ
+
+#source-line("Y TẾ & NGHIÊN CỨU", [R03], [Hướng dẫn tự trợ giúp về căng thẳng của WHO mô tả “grounding” bằng ba động tác: nhận ra ý nghĩ và cảm xúc đang có; chậm lại và kết nối với thân, chẳng hạn ấn chân xuống sàn; rồi chuyển chú ý về những gì đang thấy, nghe và chạm quanh mình. WHO nói rõ kỹ thuật này không nhằm xóa cảm xúc khó chịu. Nó giúp người thực hành kết nối lại với đời sống và không thay thế chăm sóc khẩn cấp hay điều trị.])
+
+#v(8pt)
 
 #practice-card(
   [Khi thân tâm vượt quá sức chứa],
   [
     + Dừng việc ghi nhận dồn dập và mở mắt.
-    + Nhìn quanh, nói thầm mình đang ở đâu, hôm nay là ngày nào.
-    + Cảm nhận bàn chân trên sàn, dựa lưng vào ghế và thở tự nhiên.
-    + Ăn, uống, ngủ và trở lại một sinh hoạt quen thuộc nếu có thể.
-    + Báo cho người đáng tin; sắp xếp hỗ trợ chuyên môn khi dấu hiệu không nhanh chóng lắng xuống.
+    + Nhận ra ngắn gọn ý nghĩ và cảm xúc đang có, không cố tranh cãi với chúng.
+    + Chậm lại, ấn bàn chân xuống sàn, duỗi tay hoặc ép nhẹ hai bàn tay vào nhau.
+    + Thở chậm và nhẹ. Nếu chóng mặt, tức ngực hoặc hoảng tăng, đừng cố hít sâu.
+    + Nhìn quanh và gọi tên vài điều đang thấy, nghe hoặc chạm được.
+    + Báo cho người đáng tin; sắp xếp hỗ trợ chuyên môn khi dấu hiệu tăng lên, không lắng hoặc làm giảm sinh hoạt.
   ],
   label: [HẠ CƯỜNG ĐỘ],
 )
 
-Đây là cách ổn định tạm thời, không phải phép chữa bệnh. Nếu một kỹ thuật chú ý vào hơi thở làm hoảng sợ tăng, đừng ép dùng chính kỹ thuật ấy để tự trấn an. Có thể chuyển sang cảm nhận bàn chân, nhìn vật thật quanh phòng hoặc đi bộ cùng người khác.
+Đây là cách ổn định tạm thời, không phải phép chữa bệnh. Nếu chú ý vào hơi thở làm hoảng sợ tăng, đừng ép dùng chính điểm tựa ấy. Chuyển sang cảm nhận bàn chân, nhìn vật thật quanh phòng hoặc ở cùng một người đáng tin.
 
 == Đau: cảm giác để quan sát hay tín hiệu cần khám?
 
-Đau mỏi nhẹ do ngồi lâu thường giảm khi đổi tư thế. Đau sắc, tăng nhanh, lan dọc chi, kèm tê hoặc yếu, xuất hiện sau chấn thương, hay còn kéo dài ngoài giờ tọa cần được xem như vấn đề thân thể cho đến khi có đánh giá thích hợp. Chánh niệm giúp nhận rõ đau; nó không làm dây chằng, khớp hay thần kinh miễn nhiễm tổn thương.
+Cuốn sách này không có đủ căn cứ để đặt một bảng ngưỡng chẩn đoán chấn thương từ mô tả đau. Khi đau xuất hiện, hãy đổi tư thế hoặc dừng thay vì dùng đau làm bài kiểm tra ý chí. Nếu đau mới xuất hiện, tăng lên, không lắng, làm giảm vận động hay sinh hoạt, hoặc khiến bạn lo ngại, hãy tìm đánh giá y tế phù hợp. Nếu đau đi cùng dấu hiệu đột quỵ hoặc nhồi máu cơ tim đã nêu ở trên, xử lý như cấp cứu.
 
 Không có giá trị đạo đức nào trong việc chịu đau để làm vừa lòng thầy hoặc nhóm. Tư thế là phương tiện. Đổi sang ghế, nằm, đi chậm hoặc dừng buổi hành đều có thể là lựa chọn đúng.
 

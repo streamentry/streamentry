@@ -11,7 +11,7 @@
       #v(12mm)
       #eyebrow([LỜI DẪN], fill: palette.saffron)
       #v(6mm)
-      #text(font: fonts.display, size: 24pt, weight: 600)[Một cuốn sổ tay, không phải giấy chứng nhận]
+      #heading(level: 1, outlined: true)[Một cuốn sổ tay, không phải giấy chứng nhận]
     ]
   }
 }
@@ -44,15 +44,15 @@ Phần này cố tình đọc chậm hơn phần thực hành. Người mới kh
 #practice-card(
   [Đọc theo nhu cầu, không cần nuốt trọn từ đầu đến cuối],
   [
-    1. *Trước buổi đầu:* đọc chương 1, rồi đọc các ngưỡng dừng ở chương 9. Thực hành lịch bảy ngày ở mức vừa sức.
+    1. *Trước buổi đầu:* đọc chương 1, rồi đọc #link(<an-toan>)[các ngưỡng dừng ở chương 9]. Thực hành lịch bảy ngày ở mức vừa sức.
 
-    2. *Sau tuần đầu:* đọc chương 2 đến chương 7 để đặt kỹ thuật vào giới, Bát Chánh Đạo, Tứ Niệm Xứ, duyên khởi và đời sống tại gia.
+    2. *Sau tuần đầu:* đọc chương 2 đến chương 7 để đặt kỹ thuật vào giới, Bát Chánh Đạo, Tứ Niệm Xứ, duyên khởi và đời sống tại gia. Sau chương 2, bắt đầu chương 10 từ #link(<dong-bat-thanh-dao>)[“Dòng là Bát Thánh đạo”], đọc luôn thẻ “Đường đọc lần đầu” và khung 3–5–4 trước khi đi đến ba kiết sử. Đường này giải thích đích đến của tên sách nhưng không dùng phần ấy làm bảng tự phong cấp.
 
-    3. *Trước khi tăng mạnh thời lượng hoặc đi khóa:* đọc chương 8 và chương 9, kiểm tra sức khỏe, người hướng dẫn và quyền rời khóa.
+    3. *Trước khi tăng mạnh thời lượng hoặc đi khóa:* đọc chương 8 và #link(<an-toan>)[chương 9], kiểm tra sức khỏe, người hướng dẫn và quyền rời khóa.
 
-    4. *Chương 10 để về sau:* trong những tuần hoặc tháng đầu, chỉ đọc hai phần đầu để biết nguồn và cách đếm, rồi dừng trước phần “Đọc bản đồ theo bốn vùng”. Đừng dùng tên tầng tuệ để tự phong cấp cho một trải nghiệm.
+    4. *Chương 11 để về sau:* trong những tuần hoặc tháng đầu, chỉ đọc hai phần đầu để biết nguồn và cách đếm, rồi dừng trước phần “Đọc bản đồ theo bốn vùng”. Đừng dùng tên tầng tuệ để tự phong cấp cho một trải nghiệm.
 
-    Chương 11 và các phụ lục là nơi tra cứu khi cần. Nếu một chỉ dẫn trong sách xung đột với an toàn, giới hoặc bổn phận thiết yếu, hãy dừng và kiểm tra lại thay vì cố hoàn thành lịch.
+    Phần còn lại của chương 11, #link(<faq>)[FAQ] và #link(<thuat-ngu>)[bảng thuật ngữ] là nơi tra cứu khi cần. Nếu một chỉ dẫn trong sách xung đột với an toàn, giới hoặc bổn phận thiết yếu, hãy dừng và kiểm tra lại thay vì cố hoàn thành lịch.
   ],
   label: [BẮT ĐẦU Ở ĐÂY · BIÊN SOẠN],
 )
@@ -73,7 +73,7 @@ Mỗi đoạn mang tính giáo lý hoặc kỹ thuật sẽ được đặt gầ
 #source-line("MAHĀSI", [thế kỷ XX], [Chỉ dẫn về phồng xẹp, ghi nhận hiện tượng trong tâm, thiền hành chậm và trình pháp theo dòng truyền thừa Mahāsi. P01 dặn không đọc thành tiếng hay tụng lặp các từ ghi nhận.])
 
 #v(7pt)
-#source-line("NGHIÊN CỨU", [hiện đại], [Nghiên cứu đương đại chỉ được dùng cho câu hỏi an toàn và sức khỏe. Nó không được dùng để chứng minh giáo lý, nghiệp, tái sinh hay thánh quả.])
+#source-line("Y TẾ & NGHIÊN CỨU", [hiện đại], [Nghiên cứu đương đại cùng hướng dẫn chính thức của các cơ quan y tế chỉ được dùng cho câu hỏi an toàn và sức khỏe. Chúng không được dùng để chứng minh giáo lý, nghiệp, tái sinh hay thánh quả.])
 
 #v(7pt)
 #source-line("BIÊN SOẠN", [hiện đại], [Lịch thực hành, cách tạo thói quen, bảng tự kiểm và các nguyên tắc an toàn được biên soạn cho đời sống hôm nay.])
@@ -82,7 +82,7 @@ Mỗi đoạn mang tính giáo lý hoặc kỹ thuật sẽ được đặt gầ
 
 Nếu chưa từng hành thiền, hãy dùng lộ trình ở trên thay vì đọc tuyến tính. Nếu đã hành lâu, hãy đọc phần nguồn và an toàn trước khi dùng bản đồ tuệ. Khi có trải nghiệm mạnh, kéo dài hoặc làm suy giảm giấc ngủ và sinh hoạt, đừng tự gắn tên một tầng tuệ. Giảm cường độ và tìm người hướng dẫn đủ năng lực; khi cần, tìm hỗ trợ y tế.
 
-Nếu bạn mới bắt đầu, hãy coi chương 10 là tài liệu tham khảo về sau, không phải nơi tự chẩn đoán trong những tuần đầu.
+Nếu bạn mới bắt đầu, hãy coi chương 11 là tài liệu tham khảo về sau, không phải nơi tự chẩn đoán trong những tuần đầu.
 
 #pagebreak()
 

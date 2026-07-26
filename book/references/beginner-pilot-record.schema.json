@@ -1,0 +1,627 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://streamentry.local/schemas/beginner-pilot-record.schema.json",
+  "title": "Hướng Đến Nhập Lưu beginner pilot v2 attempt record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "cohort_id",
+    "attempt_id",
+    "attempt_number",
+    "delete_by",
+    "reader_id",
+    "consent_confirmed",
+    "eligibility",
+    "artifact",
+    "session",
+    "tasks",
+    "epub_smoke"
+  ],
+  "properties": {
+    "schema_version": { "const": 2 },
+    "cohort_id": { "$ref": "#/$defs/id" },
+    "attempt_id": { "$ref": "#/$defs/id" },
+    "attempt_number": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 7
+    },
+    "delete_by": { "type": "string", "format": "date-time" },
+    "reader_id": { "$ref": "#/$defs/id" },
+    "consent_confirmed": { "const": true },
+    "eligibility": { "$ref": "#/$defs/eligibility" },
+    "artifact": { "$ref": "#/$defs/artifact" },
+    "session": { "$ref": "#/$defs/session" },
+    "tasks": { "$ref": "#/$defs/tasks" },
+    "epub_smoke": {
+      "oneOf": [
+        { "type": "null" },
+        { "$ref": "#/$defs/epub_smoke" }
+      ]
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]{3,64}$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "metadata": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120,
+      "pattern": "^[^\\r\\n`]*\\S[^\\r\\n`]*$"
+    },
+    "bounded_text": {
+      "type": "string",
+      "maxLength": 4000,
+      "pattern": "^[^\\u0000]*$"
+    },
+    "eligibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "vietnamese_comfort",
+        "age_18_or_over",
+        "meditation_sessions_lifetime",
+        "retreats_completed",
+        "knows_mahasi_vocabulary",
+        "read_book_before",
+        "participated_in_prior_book_pilot",
+        "seen_tested_passages_before",
+        "experienced_buddhist",
+        "is_editor",
+        "is_source_reviewer"
+      ],
+      "properties": {
+        "vietnamese_comfort": {
+          "enum": ["native", "fluent", "not_fluid"]
+        },
+        "age_18_or_over": { "type": "boolean" },
+        "meditation_sessions_lifetime": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100000
+        },
+        "retreats_completed": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10000
+        },
+        "knows_mahasi_vocabulary": { "type": "boolean" },
+        "read_book_before": { "type": "boolean" },
+        "participated_in_prior_book_pilot": { "type": "boolean" },
+        "seen_tested_passages_before": { "type": "boolean" },
+        "experienced_buddhist": { "type": "boolean" },
+        "is_editor": { "type": "boolean" },
+        "is_source_reviewer": { "type": "boolean" }
+      }
+    },
+    "artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "git_commit",
+        "pdf_sha256",
+        "epub_sha256",
+        "pdf_pages"
+      ],
+      "properties": {
+        "git_commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "pdf_sha256": { "$ref": "#/$defs/sha256" },
+        "epub_sha256": { "$ref": "#/$defs/sha256" },
+        "pdf_pages": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "session": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primary_format",
+        "moderator_is_editor",
+        "started_at",
+        "completed_at",
+        "stopped_early",
+        "stop_category",
+        "stop_reason",
+        "device",
+        "reader_app",
+        "reader_app_version",
+        "text_scale_percent",
+        "dark_mode"
+      ],
+      "properties": {
+        "primary_format": { "enum": ["pdf", "epub"] },
+        "moderator_is_editor": { "type": "boolean" },
+        "started_at": { "type": "string", "format": "date-time" },
+        "completed_at": { "type": "string", "format": "date-time" },
+        "stopped_early": { "type": "boolean" },
+        "stop_category": {
+          "enum": [
+            "none",
+            "distress",
+            "withdrawal",
+            "technical",
+            "ineligible_after_start",
+            "moderator_abort"
+          ]
+        },
+        "stop_reason": {
+          "type": "string",
+          "enum": [
+            "",
+            "distress_stop",
+            "reader_withdrew",
+            "technical_failure",
+            "eligibility_rule_failed",
+            "moderator_aborted"
+          ]
+        },
+        "device": { "$ref": "#/$defs/metadata" },
+        "reader_app": { "$ref": "#/$defs/metadata" },
+        "reader_app_version": { "$ref": "#/$defs/metadata" },
+        "text_scale_percent": {
+          "type": "integer",
+          "minimum": 50,
+          "maximum": 1000
+        },
+        "dark_mode": { "type": "boolean" }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "stopped_early": { "const": false } },
+            "required": ["stopped_early"]
+          },
+          "then": {
+            "properties": {
+              "stop_category": { "const": "none" },
+              "stop_reason": { "const": "" }
+            }
+          },
+          "else": {
+            "properties": {
+              "stop_category": {
+                "enum": [
+                  "distress",
+                  "withdrawal",
+                  "technical",
+                  "ineligible_after_start",
+                  "moderator_abort"
+                ]
+              },
+              "stop_reason": {
+                "enum": [
+                  "distress_stop",
+                  "reader_withdrew",
+                  "technical_failure",
+                  "eligibility_rule_failed",
+                  "moderator_aborted"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "tasks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "start_route",
+        "anchor_fallback",
+        "safety",
+        "feeling_to_craving",
+        "evidential_limit",
+        "insight_map",
+        "retreat_decision",
+        "fetters_and_fruits"
+      ],
+      "properties": {
+        "start_route": {
+          "allOf": [
+            { "$ref": "#/$defs/task" },
+            {
+              "properties": {
+                "criteria": { "$ref": "#/$defs/criteria_start_route" }
+              }
+            }
+          ]
+        },
+        "anchor_fallback": {
+          "allOf": [
+            { "$ref": "#/$defs/task" },
+            {
+              "properties": {
+                "criteria": { "$ref": "#/$defs/criteria_anchor_fallback" }
+              }
+            }
+          ]
+        },
+        "safety": {
+          "allOf": [
+            { "$ref": "#/$defs/task" },
+            {
+              "properties": {
+                "criteria": { "$ref": "#/$defs/criteria_safety" }
+              }
+            }
+          ]
+        },
+        "feeling_to_craving": {
+          "allOf": [
+            { "$ref": "#/$defs/task" },
+            {
+              "properties": {
+                "criteria": { "$ref": "#/$defs/criteria_feeling_to_craving" }
+              }
+            }
+          ]
+        },
+        "evidential_limit": {
+          "allOf": [
+            { "$ref": "#/$defs/task" },
+            {
+              "properties": {
+                "criteria": { "$ref": "#/$defs/criteria_evidential_limit" }
+              }
+            }
+          ]
+        },
+        "insight_map": {
+          "allOf": [
+            { "$ref": "#/$defs/task" },
+            {
+              "properties": {
+                "criteria": { "$ref": "#/$defs/criteria_insight_map" }
+              }
+            }
+          ]
+        },
+        "retreat_decision": {
+          "allOf": [
+            { "$ref": "#/$defs/task" },
+            {
+              "properties": {
+                "criteria": { "$ref": "#/$defs/criteria_retreat_decision" }
+              }
+            }
+          ]
+        },
+        "fetters_and_fruits": {
+          "allOf": [
+            { "$ref": "#/$defs/task" },
+            {
+              "properties": {
+                "criteria": { "$ref": "#/$defs/criteria_fetters_and_fruits" }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "task": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "outcome",
+        "completed",
+        "first_answer_recorded",
+        "first_answer",
+        "source_locator",
+        "elapsed_seconds",
+        "hint_used",
+        "criteria",
+        "notes"
+      ],
+      "properties": {
+        "outcome": { "enum": ["answered", "skipped", "not_reached"] },
+        "completed": { "type": "boolean" },
+        "first_answer_recorded": { "type": "boolean" },
+        "first_answer": { "$ref": "#/$defs/bounded_text" },
+        "source_locator": {
+          "type": "string",
+          "maxLength": 500,
+          "pattern": "^[^\\u0000]*$"
+        },
+        "elapsed_seconds": { "type": "number", "minimum": 0 },
+        "hint_used": { "type": "boolean" },
+        "criteria": { "type": "object" },
+        "notes": {
+          "type": "string",
+          "maxLength": 500,
+          "pattern": "^[^\\u0000]*$"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "outcome": { "const": "answered" } },
+            "required": ["outcome"]
+          },
+          "then": {
+            "properties": {
+              "completed": { "const": true },
+              "first_answer_recorded": { "const": true },
+              "first_answer": { "type": "string", "pattern": "\\S" },
+              "source_locator": { "type": "string", "pattern": "\\S" }
+            }
+          },
+          "else": {
+            "properties": {
+              "completed": { "const": false },
+              "first_answer_recorded": { "const": false },
+              "first_answer": { "const": "" },
+              "source_locator": { "const": "" },
+              "hint_used": { "const": false }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "outcome": { "const": "skipped" } },
+            "required": ["outcome"]
+          },
+          "then": {}
+        },
+        {
+          "if": {
+            "properties": { "outcome": { "const": "not_reached" } },
+            "required": ["outcome"]
+          },
+          "then": {
+            "properties": { "elapsed_seconds": { "const": 0 } }
+          }
+        }
+      ]
+    },
+    "criteria_start_route": {
+      "$ref": "#/$defs/three_boolean_criteria",
+      "additionalProperties": false,
+      "required": [
+        "found_chapter_1",
+        "described_seven_day_route",
+        "found_early_safety_instruction"
+      ],
+      "properties": {
+        "found_chapter_1": { "type": "boolean" },
+        "described_seven_day_route": { "type": "boolean" },
+        "found_early_safety_instruction": { "type": "boolean" }
+      }
+    },
+    "criteria_anchor_fallback": {
+      "$ref": "#/$defs/three_boolean_criteria",
+      "additionalProperties": false,
+      "required": [
+        "selected_allowed_fallback",
+        "kept_one_anchor",
+        "rejected_object_cycling"
+      ],
+      "properties": {
+        "selected_allowed_fallback": { "type": "boolean" },
+        "kept_one_anchor": { "type": "boolean" },
+        "rejected_object_cycling": { "type": "boolean" }
+      }
+    },
+    "criteria_safety": {
+      "$ref": "#/$defs/three_boolean_criteria",
+      "additionalProperties": false,
+      "required": [
+        "stops_intensification",
+        "rejects_pushing_through",
+        "seeks_qualified_support"
+      ],
+      "properties": {
+        "stops_intensification": { "type": "boolean" },
+        "rejects_pushing_through": { "type": "boolean" },
+        "seeks_qualified_support": { "type": "boolean" }
+      }
+    },
+    "criteria_feeling_to_craving": {
+      "$ref": "#/$defs/three_boolean_criteria",
+      "additionalProperties": false,
+      "required": [
+        "distinguishes_tone_from_emotion",
+        "gives_contact_feeling_craving_sequence",
+        "keeps_feeling_and_craving_distinct"
+      ],
+      "properties": {
+        "distinguishes_tone_from_emotion": { "type": "boolean" },
+        "gives_contact_feeling_craving_sequence": { "type": "boolean" },
+        "keeps_feeling_and_craving_distinct": { "type": "boolean" }
+      }
+    },
+    "criteria_evidential_limit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "rejects_universal_easiest_claim",
+        "identifies_editorial_intervention_point",
+        "finds_chapter_4_caveat",
+        "uses_source_badge_boundary"
+      ],
+      "properties": {
+        "rejects_universal_easiest_claim": { "type": "boolean" },
+        "identifies_editorial_intervention_point": { "type": "boolean" },
+        "finds_chapter_4_caveat": { "type": "boolean" },
+        "uses_source_badge_boundary": { "type": "boolean" }
+      }
+    },
+    "criteria_insight_map": {
+      "$ref": "#/$defs/three_boolean_criteria",
+      "additionalProperties": false,
+      "required": [
+        "rejects_stage_diagnosis",
+        "chapter_11_is_later_reference",
+        "names_alternative_or_longitudinal_context"
+      ],
+      "properties": {
+        "rejects_stage_diagnosis": { "type": "boolean" },
+        "chapter_11_is_later_reference": { "type": "boolean" },
+        "names_alternative_or_longitudinal_context": { "type": "boolean" }
+      }
+    },
+    "criteria_retreat_decision": {
+      "$ref": "#/$defs/three_boolean_criteria",
+      "additionalProperties": false,
+      "required": [
+        "rejects_retreat",
+        "identifies_missing_exit_policy",
+        "identifies_medication_and_coercion"
+      ],
+      "properties": {
+        "rejects_retreat": { "type": "boolean" },
+        "identifies_missing_exit_policy": { "type": "boolean" },
+        "identifies_medication_and_coercion": { "type": "boolean" }
+      }
+    },
+    "criteria_fetters_and_fruits": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "names_first_three_fetters",
+        "distinguishes_first_three_from_five_lower",
+        "maps_stream_entry_and_non_returning",
+        "distinguishes_four_fruits_from_dn2_title"
+      ],
+      "properties": {
+        "names_first_three_fetters": { "type": "boolean" },
+        "distinguishes_first_three_from_five_lower": { "type": "boolean" },
+        "maps_stream_entry_and_non_returning": { "type": "boolean" },
+        "distinguishes_four_fruits_from_dn2_title": { "type": "boolean" }
+      }
+    },
+    "three_boolean_criteria": {
+      "type": "object",
+      "minProperties": 3,
+      "maxProperties": 3
+    },
+    "epub_smoke": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "device",
+        "reader_app",
+        "reader_app_version",
+        "text_scale_percent",
+        "dark_mode",
+        "repeated_tasks",
+        "criteria",
+        "notes"
+      ],
+      "properties": {
+        "device": { "$ref": "#/$defs/metadata" },
+        "reader_app": { "$ref": "#/$defs/metadata" },
+        "reader_app_version": { "$ref": "#/$defs/metadata" },
+        "text_scale_percent": {
+          "type": "integer",
+          "minimum": 150,
+          "maximum": 1000
+        },
+        "dark_mode": { "const": true },
+        "repeated_tasks": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["start_route", "section_finding"],
+          "properties": {
+            "start_route": { "$ref": "#/$defs/epub_repeated_task" },
+            "section_finding": { "$ref": "#/$defs/epub_repeated_task" }
+          }
+        },
+        "criteria": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "reading_order",
+            "nested_toc",
+            "source_badges",
+            "cautions",
+            "links",
+            "vietnamese_diacritics",
+            "no_overlap_or_loss",
+            "no_color_only_meaning"
+          ],
+          "properties": {
+            "reading_order": { "type": "boolean" },
+            "nested_toc": { "type": "boolean" },
+            "source_badges": { "type": "boolean" },
+            "cautions": { "type": "boolean" },
+            "links": { "type": "boolean" },
+            "vietnamese_diacritics": { "type": "boolean" },
+            "no_overlap_or_loss": { "type": "boolean" },
+            "no_color_only_meaning": { "type": "boolean" }
+          }
+        },
+        "notes": {
+          "type": "string",
+          "maxLength": 500,
+          "pattern": "^[^\\u0000]*$"
+        }
+      }
+    },
+    "epub_repeated_task": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "outcome",
+        "first_answer_recorded",
+        "first_answer",
+        "source_locator",
+        "elapsed_seconds",
+        "hint_used",
+        "passed",
+        "notes"
+      ],
+      "properties": {
+        "outcome": { "enum": ["answered", "skipped", "not_reached"] },
+        "first_answer_recorded": { "type": "boolean" },
+        "first_answer": { "$ref": "#/$defs/bounded_text" },
+        "source_locator": {
+          "type": "string",
+          "maxLength": 500,
+          "pattern": "^[^\\u0000]*$"
+        },
+        "elapsed_seconds": { "type": "number", "minimum": 0 },
+        "hint_used": { "type": "boolean" },
+        "passed": { "type": "boolean" },
+        "notes": {
+          "type": "string",
+          "maxLength": 500,
+          "pattern": "^[^\\u0000]*$"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "outcome": { "const": "answered" } },
+            "required": ["outcome"]
+          },
+          "then": {
+            "properties": {
+              "first_answer_recorded": { "const": true },
+              "first_answer": { "type": "string", "pattern": "\\S" },
+              "source_locator": { "type": "string", "pattern": "\\S" }
+            }
+          },
+          "else": {
+            "properties": {
+              "first_answer_recorded": { "const": false },
+              "first_answer": { "const": "" },
+              "source_locator": { "const": "" },
+              "elapsed_seconds": { "const": 0 },
+              "hint_used": { "const": false },
+              "passed": { "const": false }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
