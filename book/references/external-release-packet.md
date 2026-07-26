@@ -28,16 +28,16 @@ python3 scripts/verify_release.py
 
 `git status --porcelain` không được trả về dòng nào. Không chép mã băm từ email, tin nhắn hay tên tệp. Chỉ dùng mã băm mà trình kiểm tra đọc từ bản checkout sạch.
 
-## 2. Sáu cổng, sáu loại bằng chứng
+## 2. Sáu cổng, sáu loại bằng chứng theo vai trò
 
 | Cổng | Câu hỏi phải được quyết định | Giao thức hoặc biểu mẫu | Bằng chứng công khai tối thiểu | Câu được phép nói khi qua |
 |---|---|---|---|---|
-| `redistribution_rights` | Ai có quyền cho phép phát hành, ở định dạng và kênh nào? | [`rights-decision-template.md`](rights-decision-template.md) | Quyết định ký tên, nêu căn cứ thẩm quyền, phạm vi PDF và EPUB, điều kiện và vật liệu bên thứ ba | Chỉ phạm vi phân phối được văn bản cho phép |
-| `doctrinal_review` | Các tuyên bố Theravāda có đúng nguồn, đúng tầng và đúng giới hạn không? | [`doctrinal-review-protocol.md`](doctrinal-review-protocol.md) | Báo cáo có tên, năng lực công khai, phạm vi, phát hiện và kết quả kiểm tra lại; không còn lỗi `blocking` hoặc `major` | “Được phản biện độc lập về giáo lý” chỉ trong đúng phạm vi đã ký |
-| `clinical_safety_review` | Khuyến nghị an toàn, y khoa và giới hạn nghiên cứu có phù hợp không? | [`clinical-safety-review-protocol.md`](clinical-safety-review-protocol.md) | Một hoặc nhiều báo cáo đủ bao phủ sức khỏe tâm thần, thuốc, nguy cơ cấp thời và các giới hạn phương pháp | “Được phản biện độc lập về an toàn lâm sàng” trong đúng phạm vi đã ký |
-| `beginner_cohort` | Năm người mới đầu tiên có tự tìm và dùng đúng sách không? | [`beginner-validation-protocol.md`](beginner-validation-protocol.md) và [`beginner-reader-kit.md`](beginner-reader-kit.md) | Báo cáo tổng hợp do chương trình chấm điểm tạo, biên nhận đăng ký trước, xác minh mới về lịch sử công khai và xác nhận rà soát riêng tư | “Đúng ứng viên này đã qua cổng năm người mới theo giao thức đã định” |
-| `epub_reader_app` | EPUB có dùng được trong ứng dụng đọc thật ở cỡ chữ 150% và chế độ tối không? | Phần EPUB trong [`beginner-reader-kit.md`](beginner-reader-kit.md) | Ứng dụng, phiên bản, loại thiết bị, cỡ chữ, chế độ tối, hai tác vụ lặp lại, tám kiểm tra hiển thị và các lỗi còn mở | “Đã qua cổng thử nghiệm bằng ứng dụng đọc đã ghi” |
-| `comparative_evidence` | Ứng viên có tốt hơn các ấn bản được nêu trong lần sử dụng đầu tiên theo tiêu chí đã đăng ký trước không? | [`comparative-beginner-protocol.md`](comparative-beginner-protocol.md) | Hồ sơ đăng ký trước độc lập, Giai đoạn A, thiết kế Giai đoạn B đã khóa, kết quả và sai lệch công khai | Chỉ kết luận hẹp về nhóm thử, dân số và kết quả đã đo |
+| `redistribution_rights` | Ai có quyền cho phép phát hành, ở định dạng và kênh nào? | [`rights-decision-template.md`](rights-decision-template.md) | Một quyết định ký tên với vai trò `rights_decision`, nêu căn cứ thẩm quyền, phạm vi PDF và EPUB, điều kiện và vật liệu bên thứ ba | Chỉ phạm vi phân phối được văn bản cho phép |
+| `doctrinal_review` | Các tuyên bố Theravāda có đúng nguồn, đúng tầng và đúng giới hạn không? | [`doctrinal-review-protocol.md`](doctrinal-review-protocol.md) | Một báo cáo có vai trò `doctrinal_review_report`, có tên, năng lực công khai, phạm vi, phát hiện và kết quả kiểm tra lại; không còn lỗi `blocking` hoặc `major` | “Được phản biện độc lập về giáo lý” chỉ trong đúng phạm vi đã ký |
+| `clinical_safety_review` | Khuyến nghị an toàn, y khoa và giới hạn nghiên cứu có phù hợp không? | [`clinical-safety-review-protocol.md`](clinical-safety-review-protocol.md) | Ít nhất một báo cáo có vai trò `clinical_safety_review_report`; có thể có nhiều báo cáo nếu cần để bao phủ sức khỏe tâm thần, thuốc, nguy cơ cấp thời và các giới hạn phương pháp | “Được phản biện độc lập về an toàn lâm sàng” trong đúng phạm vi đã ký |
+| `beginner_cohort` | Năm người mới đầu tiên có tự tìm và dùng đúng sách không? | [`beginner-validation-protocol.md`](beginner-validation-protocol.md) và [`beginner-reader-kit.md`](beginner-reader-kit.md) | Bốn tệp công khai riêng biệt với bốn vai trò bắt buộc: `aggregate_report`, `preregistration_receipt`, `public_history_confirmation`, `privacy_review_confirmation` | “Đúng ứng viên này đã qua cổng năm người mới theo giao thức đã định” |
+| `epub_reader_app` | EPUB có dùng được trong ứng dụng đọc thật ở cỡ chữ 150% và chế độ tối không? | Phần EPUB trong [`beginner-reader-kit.md`](beginner-reader-kit.md) | Một báo cáo môi trường EPUB với vai trò `reader_app_report`, nêu ứng dụng, phiên bản, loại thiết bị, cỡ chữ, chế độ tối, hai tác vụ lặp lại, tám kiểm tra hiển thị và các lỗi còn mở | “Đã qua cổng thử nghiệm bằng ứng dụng đọc đã ghi” |
+| `comparative_evidence` | Ứng viên có tốt hơn các ấn bản được nêu trong lần sử dụng đầu tiên theo tiêu chí đã đăng ký trước không? | [`comparative-beginner-protocol.md`](comparative-beginner-protocol.md) | Hai tệp công khai riêng biệt với hai vai trò bắt buộc: `preregistration_receipt` và `comparative_results` | Chỉ kết luận hẹp về nhóm thử, dân số và kết quả đã đo |
 
 Không cổng nào thay thế cổng khác. Quyền phát hành không chứng minh đúng giáo lý. Một báo cáo giáo lý không chứng minh an toàn lâm sàng. Một nhóm thử năm người không chứng minh ưu thế thị trường.
 
@@ -126,10 +126,11 @@ Ngay cả kết quả thuận lợi cũng chỉ hỗ trợ một kết luận h�
 
 ## 9. Nộp bằng chứng và đổi trạng thái
 
-Bằng chứng được phép công khai đặt dưới `book/references/external-evidence/` theo hướng dẫn trong thư mục đó. Mỗi hồ sơ phải có:
+Bằng chứng được phép công khai đặt dưới `book/references/external-evidence/` theo hướng dẫn trong thư mục đó. Mỗi hồ sơ phải có đúng một dòng `Evidence role:`, một dòng `PDF SHA-256:` và một dòng `EPUB SHA-256:`; cả ba phải khớp với vai trò và ứng viên hiện hành. Mỗi vai trò singleton phải dùng một tệp riêng; không dùng một tệp chung để đóng nhiều vai trò. Mỗi hồ sơ phải có:
 
 ```text
 Gate status: PASSED | FAILED
+Evidence role: <canonical_role>
 Candidate commit: <40 lowercase hex>
 PDF SHA-256: <64 lowercase hex>
 EPUB SHA-256: <64 lowercase hex>
@@ -140,7 +141,7 @@ What this evidence does not establish:
 
 Sau đó:
 
-1. thêm đường dẫn bằng chứng vào đúng cổng trong `external-release-gates.json`;
+1. thêm từng đường dẫn bằng chứng, `sha256` và `role` vào đúng cổng trong `external-release-gates.json`;
 2. đổi trạng thái sang `passed` hoặc `failed`;
 3. chỉ thêm mã tuyên bố mà trình kiểm tra suy ra từ các cổng đã qua;
 4. cập nhật phần Status của `release-evidence.md`;

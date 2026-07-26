@@ -15,6 +15,21 @@ Nếu vừa đọc chương 10, bạn đã biết ba kiết sử đầu là thâ
 
 Có một lỗi rất dễ mắc: thấy cả ba con số 3, 5 và 4 rồi tưởng chúng là ba phiên bản của cùng một bảng. Không phải. *Ba* và *năm* đếm các trói buộc; *bốn* đếm các mốc kết quả trên đường giải thoát.
 
+#practice-card(
+  [“Sa-môn quả” nghĩa đơn giản là gì],
+  [
+    *Sa-môn quả* nghĩa sát chữ là *kết quả của đời sống Sa-môn*, tức kết quả của con đường tu đưa đến giải thoát. Trong cách phân loại bốn quả đang dùng ở chương này, đó không phải tên chung cho mọi trải nghiệm thiền mạnh, cũng không có nghĩa chỉ người xuất gia mới có phần.
+
+    Nói gọn cho người mới:
+
+    + *Kiết sử* trả lời câu hỏi: tâm còn bị trói ở đâu?
+    + *Quả* trả lời câu hỏi: người ấy đã đến mốc giải thoát nào?
+
+    Vì thế, năm hạ phần kiết sử và bốn quả liên hệ với nhau, nhưng không thể dùng thay tên cho nhau.
+  ],
+  label: [BẮC CẦU THUẬT NGỮ · BIÊN SOẠN, ĐỐI CHIẾU K08; K32; K34],
+)
+
 == Hai bản đồ, một quan hệ <khung-354>
 
 #practice-card(

@@ -15,7 +15,7 @@ description: Maintain and publish the Vietnamese Typst handbook Hướng Đến 
 6. Preserve the original Markdown unchanged.
 7. For beginner validation, use `book/references/beginner-reader-kit.md` together with `book/references/beginner-validation-protocol.md`; freeze the cohort with `book/references/beginner-pilot-cohort-manifest.schema.json`, record every ordered attempt with `book/references/beginner-pilot-record.schema.json`, and pass only the manifest to `scripts/score-beginner-pilot.py`.
 8. For independent doctrine review, use `book/references/doctrinal-review-protocol.md`; never convert an internal audit into external endorsement.
-9. For release rights and all external gates, start with `book/references/external-release-packet.md`; use `rights-decision-template.md` and `clinical-safety-review-protocol.md` for their separate scopes.
+9. For release rights and all external gates, start with `book/references/external-release-packet.md`; use `rights-decision-template.md` and `clinical-safety-review-protocol.md` for their separate scopes. Terminal gates require the canonical evidence roles documented in `book/references/external-evidence/README.md`; do not substitute one generic report for a required bundle.
 
 ## Publication Credit
 
@@ -83,4 +83,4 @@ Before describing the book as validated for beginners, run `book/references/begi
 
 After the final build, update `book/references/release-evidence.md` with exact hashes and results. A dirty candidate record is not a release manifest and cannot be used as the artifact identity for human testing.
 
-`book/references/external-release-gates.json` is the machine-readable status and permitted-claims registry. `scripts/verify_release.py` rejects stale protocol hashes, contradictory human-facing statuses, terminal gate claims without candidate-bound public evidence, or claims not derived from passed gates. It cannot authenticate signatures, rights ownership, credentials, reviewer independence, or participant records; those remain human evidence.
+`book/references/external-release-gates.json` is the machine-readable status and permitted-claims registry. `scripts/verify_release.py` rejects stale protocol hashes, contradictory human-facing statuses, terminal gates missing their exact typed evidence bundle, evidence-path reuse, role/header mismatches, missing or duplicate PDF/EPUB digest fields, stale evidence hashes, or claims not derived from passed gates. It cannot authenticate signatures, rights ownership, credentials, reviewer independence, or participant records; those remain human evidence.

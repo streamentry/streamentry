@@ -27,7 +27,7 @@ Hai nhóm cùng được dịch bằng những cụm từ gần giống nhau, nh
 
 === Tháng 1 và 2: làm cho việc hành có chỗ đứng
 
-Giữ một thời tọa từ hai mươi đến ba mươi phút, năm hoặc sáu ngày mỗi tuần. Nếu thân cho phép, thêm năm đến mười phút thiền hành. Chọn một hoạt động thường ngày làm điểm neo. Mục tiêu là đều đặn, không phải ngồi bất động bằng mọi giá.
+Sau #link(<ngay-8-30>)[cầu nối tháng đầu] của chương 1, có thể giữ một thời tọa từ hai mươi đến ba mươi phút, năm hoặc sáu ngày mỗi tuần khi mức thấp hơn đã thật sự ổn. Nếu thân cho phép, thêm năm đến mười phút thiền hành. Chọn một hoạt động thường ngày làm điểm neo. Mục tiêu là đều đặn, không phải ngồi bất động bằng mọi giá.
 
 Mốc này chỉ dùng sau khi mức năm đến mười lăm phút của chương 1 đã đứng được trong đời sống. Nếu hai mươi phút làm mất ngủ, đau tăng hoặc khiến bạn bỏ liên tục, hãy giữ mức thấp hơn; lịch tháng không có quyền bắt thân tâm chạy trước nền thực tế.
 

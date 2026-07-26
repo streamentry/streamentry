@@ -8,6 +8,8 @@ from pathlib import Path
 from typing import Any
 
 from external_release_gate_files import (
+    evidence_artifact_sha256,
+    evidence_role,
     evidence_status,
     exact_keys,
     load_registry,
@@ -65,6 +67,52 @@ CLAIM_BY_GATE = {
     "epub_reader_app": "human_epub_reader_app_gate_passed",
 }
 
+GATE_EVIDENCE_RULES = {
+    "redistribution_rights": {
+        "allowed_roles": {"rights_decision"},
+        "required_singletons": {"rights_decision"},
+        "required_at_least_one": set(),
+    },
+    "doctrinal_review": {
+        "allowed_roles": {"doctrinal_review_report"},
+        "required_singletons": {"doctrinal_review_report"},
+        "required_at_least_one": set(),
+    },
+    "clinical_safety_review": {
+        "allowed_roles": {"clinical_safety_review_report"},
+        "required_singletons": set(),
+        "required_at_least_one": {"clinical_safety_review_report"},
+    },
+    "beginner_cohort": {
+        "allowed_roles": {
+            "aggregate_report",
+            "preregistration_receipt",
+            "public_history_confirmation",
+            "privacy_review_confirmation",
+        },
+        "required_singletons": {
+            "aggregate_report",
+            "preregistration_receipt",
+            "public_history_confirmation",
+            "privacy_review_confirmation",
+        },
+        "required_at_least_one": set(),
+    },
+    "epub_reader_app": {
+        "allowed_roles": {"reader_app_report"},
+        "required_singletons": {"reader_app_report"},
+        "required_at_least_one": set(),
+    },
+    "comparative_evidence": {
+        "allowed_roles": {"preregistration_receipt", "comparative_results"},
+        "required_singletons": {
+            "preregistration_receipt",
+            "comparative_results",
+        },
+        "required_at_least_one": set(),
+    },
+}
+
 
 def _current_git_candidate(root: Path) -> str:
     try:
@@ -99,15 +147,23 @@ def _current_git_candidate(root: Path) -> str:
 def _validate_evidence(
     root: Path,
     item: dict[str, Any],
+    gate_id: str,
     status: str,
     release: ReleaseEvidence,
     candidate_commit: str,
     label: str,
-) -> str:
+) -> tuple[str, str]:
     require(isinstance(item, dict), f"{label} must be one object")
-    exact_keys(item, {"path", "sha256"}, label)
+    exact_keys(item, {"path", "sha256", "role"}, label)
     relative = item["path"]
     require(isinstance(relative, str), f"{label} path must be text")
+    role = item["role"]
+    require(isinstance(role, str), f"{label} role must be text")
+    rules = GATE_EVIDENCE_RULES[gate_id]
+    require(
+        role in rules["allowed_roles"],
+        f"{label} role is unsupported for gate {gate_id}",
+    )
     path_parts = Path(relative).parts
     require(
         path_parts[: len(EVIDENCE_PREFIX.parts)] == EVIDENCE_PREFIX.parts
@@ -129,6 +185,10 @@ def _validate_evidence(
         evidence_status(markdown) == status,
         f"{label} Gate status contradicts the registry",
     )
+    require(
+        evidence_role(markdown) == role,
+        f"{label} Evidence role contradicts the registry",
+    )
     commit_matches = re.findall(
         r"^Candidate commit:\s*`?([0-9a-f]{40})`?\s*$",
         markdown,
@@ -139,14 +199,39 @@ def _validate_evidence(
         f"{label} must bind exactly once to the current clean Git candidate",
     )
     require(
-        release.pdf_sha256 in markdown,
+        evidence_artifact_sha256(markdown, "PDF") == release.pdf_sha256,
         f"{label} does not bind the current PDF SHA-256",
     )
     require(
-        release.epub_sha256 in markdown,
+        evidence_artifact_sha256(markdown, "EPUB") == release.epub_sha256,
         f"{label} does not bind the current EPUB SHA-256",
     )
-    return relative
+    return relative, role
+
+
+def _validate_gate_roles(gate_id: str, role_counts: dict[str, int]) -> None:
+    rules = GATE_EVIDENCE_RULES[gate_id]
+    singleton_roles = rules["required_singletons"]
+    repeated = sorted(
+        role for role in singleton_roles if role_counts.get(role, 0) > 1
+    )
+    require(
+        not repeated,
+        f"gate {gate_id} has duplicate singleton roles: {repeated}",
+    )
+    missing_singletons = sorted(
+        role for role in singleton_roles if role_counts.get(role, 0) != 1
+    )
+    missing_at_least_one = sorted(
+        role
+        for role in rules["required_at_least_one"]
+        if role_counts.get(role, 0) < 1
+    )
+    missing = missing_singletons + missing_at_least_one
+    require(
+        not missing,
+        f"gate {gate_id} is missing required evidence roles: {missing}",
+    )
 
 
 def _validate_status_summary(markdown: str, gates: dict[str, Any]) -> None:
@@ -212,7 +297,7 @@ def verify_external_release_gates(
         },
         "external release registry",
     )
-    require(registry["schema_version"] == 1, "unsupported gate registry version")
+    require(registry["schema_version"] == 2, "unsupported gate registry version")
     require(
         registry["candidate_binding"]
         == "enclosing_clean_git_commit_plus_release_evidence",
@@ -270,10 +355,12 @@ def verify_external_release_gates(
             )
             if candidate_commit is None:
                 candidate_commit = _current_git_candidate(root)
+            role_counts: dict[str, int] = {}
             for index, item in enumerate(gate["evidence"]):
-                relative = _validate_evidence(
+                relative, role = _validate_evidence(
                     root,
                     item,
+                    gate_id,
                     gate["status"],
                     release,
                     candidate_commit,
@@ -281,9 +368,11 @@ def verify_external_release_gates(
                 )
                 require(
                     relative not in used_evidence,
-                    "one evidence file cannot close more than one gate",
+                    "one evidence path may appear only once in the registry",
                 )
                 used_evidence.add(relative)
+                role_counts[role] = role_counts.get(role, 0) + 1
+            _validate_gate_roles(gate_id, role_counts)
 
     require(
         gates["beginner_cohort"]["status"] != "passed"

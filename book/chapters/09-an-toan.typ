@@ -23,7 +23,11 @@ Hai nguồn trên không phải kinh điển Phật giáo và không thay thế 
 
 == Trước khi tăng cường độ <an-toan>
 
-Nếu bạn đang khó phân biệt điều có thật với điều không thật, nghe hoặc thấy những điều người khác không thấy, suy giảm rõ việc ngủ, tự chăm sóc, học tập hay làm việc, đang nghĩ đến tự sát, hoặc đang được điều trị vì một bệnh tâm thần nghiêm trọng, đừng tự đưa mình vào thời khóa khắc nghiệt. Điều đó không nhất thiết cấm mọi hình thức thiền. Nó có nghĩa là kế hoạch cần được trao đổi với chuyên gia lâm sàng đang hiểu tình trạng của bạn và, nếu có, một người dạy thiền biết giới hạn chuyên môn.
+Đừng tự đưa mình vào thời khóa khắc nghiệt nếu bạn đang khó phân biệt điều có thật với điều không thật; nghe hoặc thấy những điều người khác không thấy; suy giảm rõ việc ngủ, tự chăm sóc, học tập hay làm việc; đang nghĩ đến tự sát; hoặc đang được điều trị vì một bệnh tâm thần nghiêm trọng.
+
+Cũng cần thận trọng nếu bạn có tiền sử sang chấn dễ bị khơi lại, cơn hoảng loạn, trạng thái phân ly hay cảm giác tách rời mình và thực tại, hoặc mất ngủ kéo dài từng làm sinh hoạt mất ổn định.
+
+Những dấu hiệu này không nhất thiết cấm mọi hình thức thiền. Chúng có nghĩa là kế hoạch tăng cường độ cần được trao đổi với chuyên gia lâm sàng đang hiểu tình trạng của bạn và, nếu có, một người dạy thiền biết giới hạn chuyên môn.
 
 Bạn không cần tự chẩn đoán những thuật ngữ trên để dùng chương này. Ba mức dưới đây dựa vào dấu hiệu có thể nhận ra, thời gian kéo dài, mức suy giảm sinh hoạt và nguy cơ cấp thời; khi không chắc, hãy để chuyên gia lâm sàng làm phần chẩn đoán.
 
@@ -109,8 +113,8 @@ Nếu có những dấu hiệu trên, đừng ngồi tiếp để thử “xuyê
     + Dừng việc ghi nhận dồn dập và mở mắt.
     + Nhận ra ngắn gọn ý nghĩ và cảm xúc đang có, không cố tranh cãi với chúng.
     + Chậm lại, ấn bàn chân xuống sàn, duỗi tay hoặc ép nhẹ hai bàn tay vào nhau.
-    + Thở chậm và nhẹ. Nếu chóng mặt, tức ngực hoặc hoảng tăng, đừng cố hít sâu.
     + Nhìn quanh và gọi tên vài điều đang thấy, nghe hoặc chạm được.
+    + Nếu một nhịp thở tự nhiên, chậm và nhẹ giúp ổn định, có thể để hơi thở diễn ra như vậy. Bỏ qua bước này nếu chú ý vào hơi thở làm chóng mặt, tức ngực, hoảng hoặc cảm giác tách rời tăng lên; đừng cố hít sâu.
     + Báo cho người đáng tin; sắp xếp hỗ trợ chuyên môn khi dấu hiệu tăng lên, không lắng hoặc làm giảm sinh hoạt.
   ],
   label: [HẠ CƯỜNG ĐỘ],

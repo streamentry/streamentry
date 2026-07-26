@@ -13,6 +13,7 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `book/theme.typ`: A5 print rules plus reflowable HTML CSS selected through `target()`. Use left binding with mirrored 22 mm inside and 14 mm outside margins for the perfect-bound edition.
 - `book/components.typ`: target-aware source badges, chapter openers, practice cards, cautions, and reference blocks. Keep source badges above, not inline with, cited prose; preserve a quiet gap below provenance blocks.
 - `book/chapters/`: editorial chapters.
+- `book/chapters/01-bay-ngay.typ`: seven-day start plus the explicitly editorial days 8–30 bridge and its hold, increase, reduce, and stop decisions.
 - `book/chapters/10-nhap-luu.typ`: focused beginner explanation of the first three fetters and the canonical criteria surrounding Stream-entry.
 - `book/chapters/11-ha-phan-va-sa-mon-qua.typ`: separate 3–5–4 map for the five lower fetters, four fruits, four pairs/eight persons, and DN 2.
 - `book/chapters/12-ban-do-tue.typ`: later-reference insight map; never use it as a beginner self-diagnostic ladder.
@@ -22,7 +23,7 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `book/references/publish-readiness-audit.md`: adapted 80-item publication scorecard.
 - `book/references/release-evidence.md`: exact candidate hashes, tool versions, verification scope, and open external gates.
 - `book/references/external-release-packet.md`: single operational handoff for rights, expert review, novice testing, human EPUB evidence, and bounded comparison.
-- `book/references/external-release-gates.json`: machine-readable external-gate and permitted-claims registry.
+- `book/references/external-release-gates.json`: machine-readable external-gate, typed-evidence, and permitted-claims registry.
 - `book/references/rights-decision-template.md`: authority, asset, format, channel, commercial-scope, and third-party-rights decision record.
 - `book/references/clinical-safety-review-protocol.md`: independent clinical and research-safety reviewer contract.
 - `book/references/beginner-validation-protocol.md`: external novice and reader-app acceptance gates.
@@ -45,7 +46,7 @@ Beginner readability is a publication contract, not a style preference. Define t
 
 For running the novice test, start with `book/references/beginner-reader-kit.md` and use it together with the protocol. Freeze the artifacts and ten-file scoring contract before attempt one, enumerate every started attempt in one authoritative manifest, and count only the first five completed eligible attempts among at most seven starts. Raw records stay under ignored `build/beginner-pilot/`; only the privacy-coarsened aggregate report is publishable. A local manifest cannot independently prove its registration time or terminal-attempt completeness; use an external append-only registry for that stronger claim.
 
-For external release work, start with `book/references/external-release-packet.md`. Treat `external-release-gates.json` as the status source and let `scripts/verify_release.py` check protocol hashes, evidence paths, artifact binding, cross-document status, and permitted claim enums. Machine verification cannot establish a signer's authority, a reviewer's competence, or the honesty of a study. Keep every gate open until that human evidence exists.
+For external release work, start with `book/references/external-release-packet.md`. Treat `external-release-gates.json` as the status source and let `scripts/verify_release.py` check protocol hashes, required gate-specific evidence roles, path reuse, role/header agreement, exact-once PDF and EPUB digest fields, candidate binding, cross-document status, and permitted claim enums. Machine verification cannot establish a signer's authority, a reviewer's competence, or the honesty of a study. Keep every gate open until that human evidence exists.
 
 When discussing attainment, use *the first three fetters*, not an invented standalone canonical list called “three lower fetters.” Keep that subset distinct from the full five lower fetters, the four fruits, and DN 2's broader discourse title. Chapter 10 explains the subset deeply; Chapter 11 supplies the wider classification.
 
@@ -68,7 +69,7 @@ Do not impersonate the Buddha, fabricate quotations, or turn a retreat schedule,
 flowchart LR
   A["Source manuscript"] --> B["Doctrinal claim audit"]
   B --> C["Six-class provenance"]
-  C --> D["Chapter modules"]
+  C --> D["Chapter modules, including month-one bridge"]
   D --> E["Typst composition"]
   E --> F["PDF render, grayscale, and print QA"]
   E --> H["Semantic HTML target"]
@@ -94,7 +95,7 @@ flowchart TB
   N["Frozen manifest and attempt records"] --> G["Deterministic pilot scorer"]
   G --> Q
   X["External gate registry"] --> Q
-  R["Rights and expert-review evidence"] --> X
+  R["Role-labelled rights and review evidence"] --> X
   H --> C
   A --> C
   H -. "claim codes" .-> L["references/claim-ledger.md"]
@@ -165,8 +166,8 @@ flowchart LR
   B --> R["Frozen manifest and pseudonymous attempt records"]
   R --> SC["Deterministic gate scorer"]
   SC --> AE["Aggregate evidence"]
-  AE --> X["External gate registry"]
-  ER["Rights and signed reviews"] --> X
+  AE --> X["Typed external gate registry"]
+  ER["Role-labelled rights and signed reviews"] --> X
   Q -. "corrections" .-> E
   V -. "corrections" .-> E
   B -. "comprehension failures" .-> E

@@ -42,7 +42,7 @@ Bảy thanh tịnh được nêu theo thứ tự:
 
 Puṇṇa dùng ví dụ bảy cỗ xe trạm. Mỗi xe đưa người đi đến trạm kế tiếp, nhưng không xe nào tự nó là đích cuối. Cũng vậy, các thanh tịnh phục vụ mục tiêu Niết-bàn không do chấp thủ; không thanh tịnh trung gian nào được đồng nhất với cứu cánh.
 
-#source-line("THANH TỊNH ĐẠO", [V01], [Thanh Tịnh Đạo, một luận thư Theravāda hậu kinh điển gắn với Buddhaghosa vào khoảng thế kỷ thứ năm, lấy bảy thanh tịnh làm bố cục và phân tích tiến trình với mức chi tiết mà MN 24 không cung cấp. Đây là nguồn luận giải có ảnh hưởng lớn, không phải một bài kinh.])
+#source-line("THANH TỊNH ĐẠO", [V01 · lời giới thiệu; XIV.32; XVIII.1–2; XX–XXII], [Thanh Tịnh Đạo, một luận thư Theravāda hậu kinh điển gắn với Buddhaghosa vào khoảng thế kỷ thứ năm, lấy bảy thanh tịnh làm bố cục và phân tích tiến trình với mức chi tiết mà MN 24 không cung cấp. Đây là nguồn luận giải có ảnh hưởng lớn, không phải một bài kinh.])
 
 #practice-card(
   [Bảy tên ấy muốn chỉ điều gì?],
@@ -99,7 +99,7 @@ Một quy ước mười sáu thường gặp đếm như sau:
 
 Tên Việt giữa các bản dịch không hoàn toàn giống nhau. “Phân biệt điều kiện” cũng có thể được dịch là “tuệ nắm bắt nhân duyên”; “quán xét lại” có khi là “tuệ tái quán”; “phản khán” là sự xem lại sau đạo quả. Đổi chữ dịch không tự tạo ra một tầng mới.
 
-#source-line("MAHĀSI", [P02 · mục lục và chú thích 40], [Trong _The Progress of Insight_, các mục từ phân định danh sắc đến phản khán được đánh số 1 đến 17. Số 12 là “tuệ dẫn đến xuất khởi”; thuận thứ thành số 13, chuyển tộc số 14, đạo số 15, quả số 16 và phản khán số 17. Chú thích của bản dịch giải thích “tuệ dẫn đến xuất khởi” là tên bao quát liên hệ đến xả đối với các hành, muốn giải thoát và quán xét lại, chứ không đơn giản là một biến cố mới chen giữa số 11 và thuận thứ.])
+#source-line("MAHĀSI", [P02 · mục lục; mục 12; chú thích 40], [Trong _The Progress of Insight_, các mục từ phân định danh sắc đến phản khán được đánh số 1 đến 17. Số 12 là “tuệ dẫn đến xuất khởi”; thuận thứ thành số 13, chuyển tộc số 14, đạo số 15, quả số 16 và phản khán số 17. Chú thích của bản dịch giải thích “tuệ dẫn đến xuất khởi” là tên bao quát liên hệ đến xả đối với các hành, muốn giải thoát và quán xét lại, chứ không đơn giản là một biến cố mới chen giữa số 11 và thuận thứ.])
 
 Vì vậy, hai người nói “tuệ 12” có thể đang chỉ hai mục khác nhau. Trước khi tranh luận, hãy hỏi họ dùng bảng nào. Khác số ở đây chủ yếu là khác quy ước phân loại, không phải bằng chứng rằng một bên đã phát hiện thêm một nấc tâm linh.
 
@@ -116,7 +116,7 @@ Nếu người đọc chưa biết mỗi tên đang chỉ điều gì, danh sác
 
 Phần khái quát bốn vùng ở trên cho thấy logic trước khi phần này mở từng tên. Chỉ quay lại con số mười sáu hay mười bảy khi thật sự cần đối chiếu một tài liệu hoặc cách trình pháp cụ thể.
 
-#source-line("MAHĀSI", [P02 · mục 1–17], [
+#source-line("MAHĀSI", [P02 · lời tựa; mục 1–17], [
   P02 mô tả tiến trình cho những người đã thực hành nghiêm mật và có kết quả nổi bật. Lời tựa nói tác phẩm không được viết như cẩm nang nhập môn. Vì vậy, mô tả dưới đây dùng để hiểu thuật ngữ và trình pháp rõ hơn, không dùng để tự phong tầng tuệ từ vài dấu hiệu rời rạc.
 ])
 
@@ -213,7 +213,7 @@ Sự dễ dàng cũng không bảo đảm tiến trình chỉ đi thẳng. P02 n
 
 *17. Phản khán.* P02 mô tả sự xem lại đạo, quả và Niết-bàn; một số người còn xem lại những phiền não đã đoạn hay còn lại. Phản khán không phải dựng lại câu chuyện để hợp bảng sau khi trải nghiệm đã qua.
 
-#source-line("MAHĀSI", [P02 · mục 12–17], [
+#source-line("MAHĀSI", [P02 · mục 12–17; chú thích 40–45], [
   P02 trình bày thuận thứ, chuyển tộc, đạo, quả và phản khán như một chuỗi rất nhanh trong hệ thống của tác phẩm. Chính vì độ ngắn và tính kỹ thuật ấy, việc tự nhận diện từng sát-na từ ký ức thông thường có độ tin cậy thấp. P02 là nguồn cho mô tả dòng thiền; nó không thay các tiêu chuẩn kinh điển rộng hơn về Nhập lưu.
 ])
 
@@ -227,7 +227,7 @@ Sự dễ dàng cũng không bảo đảm tiến trình chỉ đi thẳng. P02 n
 
 == Ánh sáng và hỷ không phải giấy chứng nhận
 
-#source-line("THANH TỊNH ĐẠO", [V01 · XX.105 trở đi], [Thanh Tịnh Đạo giải thích mười thứ có thể làm ô nhiễm tuệ quán, gồm ánh sáng, tri kiến, hỷ, khinh an, lạc, quyết tín, tinh cần, niệm, xả và sự ưa thích. Vấn đề không nhất thiết nằm ở hiện tượng, mà ở việc chấp nó là đạo, quả hay cứu cánh.])
+#source-line("THANH TỊNH ĐẠO", [V01 · XX.105–129], [Thanh Tịnh Đạo giải thích mười thứ có thể làm ô nhiễm tuệ quán, gồm ánh sáng, tri kiến, hỷ, khinh an, lạc, quyết tín, tinh cần, niệm, xả và sự ưa thích. Vấn đề không nhất thiết nằm ở hiện tượng, mà ở việc chấp nó là đạo, quả hay cứu cánh.])
 
 Ánh sáng có thể là trải nghiệm trong thiền. Nó cũng có thể đến từ sinh lý thị giác, đau đầu, thiếu ngủ hoặc nguyên nhân khác. Hỷ mạnh, thân nhẹ, cảm giác dòng điện hay một khoảng vắng ý thức đều cần được mô tả đúng như đã xảy ra. Không hiện tượng đơn lẻ nào trong số ấy chứng minh Nhập lưu.
 
