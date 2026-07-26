@@ -12,6 +12,7 @@ description: Maintain and publish the Vietnamese Typst handbook Hướng Đến 
 3. Read `book/references/editorial-depth-audit.md` before expanding or compressing a chapter.
 4. Read the immediate chapter, its source codes, `book/components.typ`, and `book/theme.typ` before editing.
 5. Preserve the original Markdown unchanged.
+6. For beginner validation, use `book/references/beginner-reader-kit.md` together with `book/references/beginner-validation-protocol.md`.
 
 ## Publication Credit
 

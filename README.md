@@ -34,6 +34,7 @@ The PDF uses an A5 print-safe white page background. Small neutral surfaces pres
 - [`book/references/editorial-depth-audit.md`](book/references/editorial-depth-audit.md) checks every chapter for under-explained mechanisms, procedures, and limits.
 - [`book/references/publish-readiness-audit.md`](book/references/publish-readiness-audit.md) records the adapted 80-item publication scorecard.
 - [`book/references/beginner-validation-protocol.md`](book/references/beginner-validation-protocol.md) defines unassisted comprehension, safety, navigation, and EPUB-reader gates.
+- [`book/references/beginner-reader-kit.md`](book/references/beginner-reader-kit.md) gives the facilitator script, scoring sheet, and EPUB smoke-test fields used to run that protocol consistently.
 - Corrections can be reported through the [public issue tracker](https://github.com/streamentry/streamentry/issues).
 
 The current build has a 92-page A5 PDF and a deterministic EPUB with 113 navigable headings. EPUBCheck 5.3.0 reports no errors or warnings. These checks establish source traceability and format validity; they do not establish spiritual attainment, clinical safety for every reader, proprietary-reader interoperability, independent expert endorsement, or a “number-one” market position. Those claims require the external reviews and reader tests named in the validation protocol.
