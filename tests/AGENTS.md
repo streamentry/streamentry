@@ -11,6 +11,7 @@ This folder owns focused regression tests for the builder, pilot scorer, and rel
 - `test_release_pdf.py`: metadata, encryption, all-page size, and rotation regressions.
 - `test_release_epub.py`: active-rootfile, fixed manifest/spine, passive XHTML, and TOC-target regressions.
 - `test_release_verifier.py`: integration check against the tracked release candidate.
+- `test_external_release_gates.py`: protocol-fingerprint, status, evidence-binding, and permitted-claim regressions for the external release packet.
 - Existing `test_beginner_pilot*.py` files retain the novice-cohort privacy and scoring contract.
 - When an intentional chapter or layout change alters the tracked PDF extent, update the integration expectation only after rebuilding both artifacts and updating `release-evidence.md`; do not change synthetic parser fixtures merely to mirror the current book.
 
@@ -23,6 +24,7 @@ flowchart LR
   F["Synthetic fixtures"] --> E["Evidence tests"]
   F --> P["PDF tests"]
   F --> U["EPUB tests"]
+  F --> X["External gate tests"]
   R["Tracked release"] --> I["Integration test"]
   E --> G["Full test gate"]
   P --> G
@@ -38,6 +40,7 @@ flowchart TB
   X --> P["test_release_pdf.py"]
   X --> U["test_release_epub.py"]
   V["verify_release.py"] --> I["test_release_verifier.py"]
+  G["external_release_gates.py"] --> Q["test_external_release_gates.py"]
 ```
 
 ### Sequence Diagram
@@ -53,6 +56,8 @@ sequenceDiagram
   M-->>T: Exact rejection or facts
   T->>A: Run integration contract
   A-->>T: Matching release evidence
+  T->>M: Mutate a gate status or evidence binding
+  M-->>T: Exact rejection
 ```
 
 ### State Machine
@@ -79,4 +84,5 @@ flowchart LR
   D --> R
   U --> R
   V --> R
+  G["Gate registry"] --> R
 ```

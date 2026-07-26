@@ -46,22 +46,22 @@ Có một lỗi rất dễ mắc: thấy cả ba con số 3, 5 và 4 rồi tư�
 == Năm hạ phần kiết sử: ba cộng hai <nam-ha-phan>
 
 #source-line("KINH", [K24 · AN 10.13], [
-  Năm hạ phần kiết sử là thân kiến, hoài nghi, chấp thủ giới và tập tục, dục tham, sân. Năm thượng phần kiết sử là tham đối với sắc giới, tham đối với vô sắc giới, ngã mạn, trạo cử, tức tâm dao động, và vô minh.
+  Năm hạ phần kiết sử là thân kiến, hoài nghi, chấp thủ giới và tập tục, dục tham, sân. Năm thượng phần kiết sử là tham đối với sắc giới, tham đối với vô sắc giới, ngã mạn, trạo cử, tức tâm dao động, và vô minh. Nhóm thứ hai được nêu ở đây để thấy đủ danh mục mười; chương này chỉ phân tích nhóm năm liên hệ đến các mốc đầu.
 ])
 
-Chữ *hạ phần* không có nghĩa “nhẹ”, “sơ cấp” hay “dễ đoạn”. Nó đặt năm mối trói này vào phần dưới của một danh mục mười kiết sử. Vì vậy, đừng suy ra rằng người mới chỉ cần vài buổi thiền là có thể “xử lý xong năm cái thấp”.
+AN 10.13 chia mười kiết sử thành hai nhóm và gọi nhóm này là *hạ phần*, nhưng bài kinh không giải thích thêm tên gọi ngay tại đây. Điều chắc chắn không thể suy ra từ chữ *hạ* là “nhẹ”, “sơ cấp” hay “dễ đoạn”. Người mới không có căn cứ để nghĩ vài buổi thiền có thể “xử lý xong năm cái thấp”.
 
 Ba kiết sử đầu liên hệ trực tiếp đến Nhập lưu đã được phân tích ở chương 10. Hai kiết sử hoàn tất nhóm năm là dục tham và sân. Chính hai mối trói còn lại giải thích vì sao bậc Nhập lưu chưa phải Bất lai.
 
 #source-line("KINH", [K36 · MN 64; K37 · SN 41.1], [
-  MN 64 mô tả một hạ phần kiết sử như khuynh hướng đã thành thói, chưa được nhổ tận, có thể ám ảnh và chi phối tâm khi lối thoát chưa được thấy như thật. SN 41.1 phân biệt giác quan và đối tượng với mối trói: chính dục và tham sinh lên dựa vào cuộc gặp giữa chúng mới là kiết sử.
+  MN 64 phân biệt khuynh hướng tiềm ẩn với kiết sử đang sinh khởi: ngay cả trẻ nhỏ chưa có khái niệm rõ vẫn có khuynh hướng tiềm ẩn tương ứng; khi kiết sử hiện hành, nó có thể ám ảnh và chi phối tâm, còn mạnh, chưa được nhổ tận, và lối thoát chưa được thấy như thật. SN 41.1 phân biệt giác quan và đối tượng với mối trói: chính dục và tham sinh lên dựa vào cuộc gặp giữa chúng mới là kiết sử.
 ])
 
 #practice-card(
   [Hai kiết sử còn lại không phải mọi sở thích và mọi khó chịu],
   [
     + *Dục tham* là sự ham muốn và bám chặt vào khoái lạc giác quan đến mức tâm bị nó trói và chi phối. Thích thức ăn hợp sức khỏe hay chọn chỗ ngồi ít ồn hơn không tự nó chứng minh dục tham đang hiện hành, càng không cho biết kiết sử đã còn hay mất.
-    + *Sân* là ác ý và lực chống đối muốn xua đuổi, làm tổn thương hoặc triệt hạ điều mình ghét. Nhận ra nguy hiểm, nói một hành vi là sai, rời nơi bị bạo hành hoặc đặt ranh giới không tự động đồng nghĩa với sân.
+    + *Sân* là lực ghét bỏ, chống đối hay ác ý muốn gạt điều khó chịu ra khỏi kinh nghiệm. Nó có thể đi từ bực bội âm thầm đến ý muốn làm tổn thương hoặc triệt hạ. Nhận ra nguy hiểm, nói một hành vi là sai, rời nơi bị bạo hành hoặc đặt ranh giới không tự động đồng nghĩa với sân.
 
     Đây là nghĩa làm việc do sách biên soạn từ cách các kinh mô tả sự trói buộc và chi phối. Chúng không phải hai định nghĩa nguyên văn, trọn vẹn cho mọi ngữ cảnh.
   ],
@@ -88,13 +88,13 @@ Nhập lưu chưa đoạn dục tham và sân. Nói “người ấy vẫn có t
 
 === Nhất lai, sakadāgāmī
 
-AN 3.88 mô tả mốc này bằng hai phần: ba kiết sử đầu đã đoạn, còn tham, sân và si đã mỏng. Theo khung tái sinh của bài kinh, người ấy chỉ trở lại thế giới này tối đa một lần nữa trước khi chấm dứt khổ.
+AN 3.88 mô tả mốc này bằng hai phần: ba kiết sử đầu đã đoạn, còn tham, sân và si đã mỏng. Theo khung tái sinh của bài kinh, người ấy chỉ trở lại thế giới này một lần nữa rồi chấm dứt khổ.
 
 “Làm mỏng tham, sân, si” không đồng nghĩa dục tham và sân đã bị đoạn như ở Bất lai. *Tham, sân, si* ở đây là một bộ ba mô tả; đừng đọc chữ “si” như một kiết sử thứ sáu được thêm vào nhóm năm hạ phần.
 
 === Bất lai, anāgāmī
 
-Đây là mốc đoạn đủ năm hạ phần kiết sử: ba kiết sử đầu cộng dục tham và sân. DN 16 mô tả những người ở mốc này hóa sinh, tức tái sinh trực tiếp trong một cảnh giới khác, rồi đạt giải thoát hoàn toàn tại đó và không trở lại từ cảnh giới ấy.
+Đây là mốc đoạn đủ năm hạ phần kiết sử: ba kiết sử đầu cộng dục tham và sân. DN 16 mô tả những người ở mốc này là hóa sinh theo vũ trụ quan của bài kinh, rồi đạt giải thoát hoàn toàn tại đó và không trở lại từ cảnh giới ấy.
 
 Cách nói quen “không trở lại cõi dục” là lối giải thích trong vũ trụ quan Theravāda. Khi dẫn riêng đoạn DN 16 đang dùng, câu hẹp và chắc hơn là “không trở lại từ cảnh giới ấy”. Một cuốn sách nhập môn không nên biến phần diễn giải rộng hơn thành nguyên văn của bài kinh.
 
@@ -120,14 +120,14 @@ Giữ hai câu riêng:
 1. *Bốn quả Sa-môn* là bốn mốc vừa học: Nhập lưu, Nhất lai, Bất lai và A-la-hán.
 2. *Kinh Sa-môn quả*, DN 2, là tên một bài kinh trả lời câu hỏi rộng hơn về những kết quả có thể thấy của đời sống xuất gia.
 
-Trong cụm *bốn quả Sa-môn*, “Sa-môn” chỉ đời sống tu hành và con đường được thực hành, còn “quả” là kết quả của con đường ấy. Điều này không đặt ra điều kiện rằng chỉ người xuất gia mới có thể chứng quả. DN 16 kể cả nam và nữ cư sĩ tại Nādika ở các mốc Nhập lưu, Nhất lai và Bất lai.
+Trong công thức của SN 45.35, đời sống Sa-môn chính là Bát Thánh đạo và bốn quả là kết quả của đạo lộ ấy. Công thức này không đặt ra điều kiện rằng chỉ người xuất gia mới có thể chứng quả. Ở Nādika, DN 16 nêu cư sĩ nữ Sujātā là bậc Nhập lưu, cư sĩ nam Sudatta là bậc Nhất lai, cùng nhiều cư sĩ nam được nêu tên là bậc Bất lai; bài kinh còn cho các tổng số lớn hơn ở cả ba mốc.
 
 #source-line("KINH", [K34 · DN 2], [
   Vua Ajātasattu hỏi về quả của đời sống Sa-môn có thể thấy ngay trong hiện tại. DN 2 trả lời bằng nhiều kết quả và một tiến trình huấn luyện rộng, từ giới hạnh, phòng hộ giác quan, biết đủ và định tâm đến tri kiến rằng các lậu hoặc đã chấm dứt. Tựa bài kinh và cụm “bốn quả Sa-môn” có liên hệ về chữ, nhưng không phải hai tên gọi thay thế hoàn toàn cho nhau.
 ])
 
 #source-line("KINH", [K08 · DN 16, đoạn Nādika], [
-  DN 16 phân loại cả những nam và nữ cư sĩ đã qua đời ở Nādika theo các mốc Nhập lưu, Nhất lai và Bất lai. Chi tiết này cho thấy địa vị cư sĩ không tự loại trừ các quả ấy. Nó không biến đời sống tại gia, một kỹ thuật hay một khóa thiền thành bảo đảm chứng quả.
+  DN 16 nêu cư sĩ nữ Sujātā ở mốc Nhập lưu, cư sĩ nam Sudatta ở mốc Nhất lai, và các cư sĩ nam Kakudha, Kāliṅga, Nikaṭa, Kaṭissabha, Tuṭṭha, Santuṭṭha, Bhadda, Subhadda ở mốc Bất lai. Bài kinh còn nói hơn năm trăm cư sĩ Nhập lưu, hơn chín mươi Nhất lai và hơn năm mươi Bất lai đã qua đời tại Nādika. Chi tiết này cho thấy địa vị cư sĩ không tự loại trừ ba quả ấy. Nó không biến đời sống tại gia, một kỹ thuật hay một khóa thiền thành bảo đảm chứng quả.
 ])
 
 == “Đang hướng đến” khác “đã chứng”
