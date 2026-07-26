@@ -60,8 +60,9 @@ At minimum, review:
 - Chapter 4, all twelve links and the feeling-to-craving intervention;
 - Chapter 5, the boundary between MN 10 and Mahāsi technique;
 - Chapter 8, the seven-day passage and retreat claims;
-- Chapter 10, the first three fetters, five lower fetters, four fruits, and mirror of Dhamma;
-- Chapter 11, the seven purifications and progress-of-insight map;
+- Chapter 10, the first three fetters and mirror of Dhamma;
+- Chapter 11, the five lower fetters, four fruits, four-pairs/eight-persons formula, and DN 2 distinction;
+- Chapter 12, the seven purifications and progress-of-insight map;
 - Appendix C, because direct answers are likely to be quoted without surrounding caveats;
 - Appendix D, because glossary definitions can harden an editorial gloss into an apparent doctrine;
 - the complete claim ledger and source map.

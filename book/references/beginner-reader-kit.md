@@ -170,16 +170,16 @@ Pass criteria:
 
 Prompt:
 
-> Một người có ánh sáng mạnh, hỷ lạc và một khoảng trống ký ức trong một buổi thiền. Chương 11 có cho phép họ xác định mình đang ở tuệ nào hoặc đã chứng quả không? Người mới nên dùng chương này vào lúc nào?
+> Một người có ánh sáng mạnh, hỷ lạc và một khoảng trống ký ức trong một buổi thiền. Chương 12 có cho phép họ xác định mình đang ở tuệ nào hoặc đã chứng quả không? Người mới nên dùng chương này vào lúc nào?
 
 Pass criteria:
 
 - rejects stage or attainment diagnosis from one event;
-- treats Chapter 11 as later reference material, not the beginner's first route;
+- treats Chapter 12 as later reference material, not the beginner's first route;
 - names at least one alternative explanation or the need for longitudinal context;
 - uses no hint.
 
-The release gate separately requires all five to reject self-diagnosis. At least four must also place Chapter 11 correctly and name an alternative explanation or the need for longitudinal context.
+The release gate separately requires all five to reject self-diagnosis. At least four must also place Chapter 12 correctly and name an alternative explanation or the need for longitudinal context.
 
 ### 7. Retreat decision
 
@@ -202,13 +202,22 @@ Prompt:
 
 > “Ba kiết sử đầu”, “năm hạ phần kiết sử” và “bốn quả Sa-môn” khác nhau thế nào? Quả nào đoạn ba kiết sử đầu, quả nào đoạn đủ năm? *Kinh Sa-môn quả* DN 2 có chỉ là một bảng bốn tên ấy không?
 
+Sau câu trả lời đầu tiên, đưa nguyên văn bốn tình huống này và hỏi mỗi tình huống cho thấy điều gì, không cho thấy điều gì:
+
+1. Một người yêu cầu xem nguồn kinh và kiểm tra năng lực của người dạy trước khi làm theo.
+2. Một người giữ giới nhưng tin rằng chỉ cần hoàn tất đúng nghi thức thì giải thoát chắc chắn xảy ra.
+3. Một người rời tình huống bị bạo hành và đặt ranh giới rõ, nhưng không muốn trả đũa hay làm hại.
+4. Một người xem ký ức và quan điểm của mình là một lõi bất biến phải bảo vệ bằng mọi giá.
+
 Pass criteria:
 
-- names identity view, doubt, and clinging to precepts-observances as the first three fetters;
+- names identity view, doubt, and clinging to precepts-observances as the first three fetters, explains each in plain language, and correctly handles at least 3 of the 4 fixed scenarios;
 - explains that sensual desire and ill will complete the five lower fetters;
 - maps the first three to Stream-entry and all five to Non-returning;
 - distinguishes the four fruits from DN 2's broader discourse title and training sequence;
 - uses no hint.
+
+For the frozen record, mark `names_first_three_fetters` true only when the first bullet, including the 3-of-4 scenario requirement, passes. Preserve the response to each scenario in the first-answer field; do not replace it with a moderator summary.
 
 ## Recording rule
 

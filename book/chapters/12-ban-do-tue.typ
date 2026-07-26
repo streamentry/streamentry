@@ -1,7 +1,7 @@
 #import "../components.typ": *
 
 #chapter(
-  [11],
+  [12],
   [Bản đồ tuệ, dùng như bản đồ],
   [Bản đồ giúp gọi tên một địa hình khó nói. Nó không biến trải nghiệm chủ quan thành máy đo thánh quả, và số thứ tự không phải chiếc thang để dựng một cái tôi tinh tế hơn.],
   provenance: [

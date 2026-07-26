@@ -19,12 +19,12 @@ Checked: 2026-07-27
 | Item | Evidence |
 |---|---|
 | Immutable source SHA-256 | `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440` |
-| PDF SHA-256 | `1eabab5e96d4efeeca81d95c37fbaf2e2731f30bcb3a3c5ef5c089bd4bd8daa6` |
-| EPUB SHA-256 | `f8c0984c93529621b7aa7efa84c32a2ee51780dd020a4c38770d2457763443b6` |
-| PDF extent | 123 A5 pages |
-| PDF file size | 1,021,520 bytes |
-| EPUB navigation | 136 nested content entries plus 1 cover entry |
-| EPUB archive size | 144,891 bytes |
+| PDF SHA-256 | `c2fcd5ac3e9e80406c864dedb4c6b1ceb9bfb91155e8f14367e59de436ac4a9e` |
+| EPUB SHA-256 | `897313955fe16cb59859cac9928d12daa097276a969c92f18af581c6d2cd6ee6` |
+| PDF extent | 126 A5 pages |
+| PDF file size | 1,055,242 bytes |
+| EPUB navigation | 146 nested content entries plus 1 cover entry |
+| EPUB archive size | 146,685 bytes |
 | Publication credit | `CS Chánh Niệm + ChatGPT` |
 
 Any content, theme, component, builder, or metadata change invalidates these hashes and requires this record to be regenerated.
@@ -44,7 +44,7 @@ Any content, theme, component, builder, or metadata change invalidates these has
 | Ruff | 0.15.20 |
 | JSON Schema validator | `jsonschema` 4.26.0 |
 
-The builder acknowledged 176 allowlisted Typst HTML-export warnings and rejected unexpected warning classes. The print build now names only the exact embedded families plus Inter, and release CI supplies the official Inter 4.0 files while disabling system fonts. Typst renders the EPUB cover directly instead of delegating rasterization to Poppler. Two consecutive canonical builds under that isolated macOS ARM64 environment were byte-identical for both PDF and EPUB. The platform is part of the byte-reproducibility contract; structurally valid builds on another operating system are not assumed to have the same hashes. Hosted CI obtains Poppler from Homebrew on macOS 15 ARM64 only for inspection, never artifact generation; the verifier fails closed unless the required stable fields and every page's geometry are present.
+The builder acknowledged 177 allowlisted Typst HTML-export warnings and rejected unexpected warning classes. The print build now names only the exact embedded families plus Inter, and release CI supplies the official Inter 4.0 files while disabling system fonts. Typst renders the EPUB cover directly instead of delegating rasterization to Poppler. Two consecutive canonical builds under that isolated macOS ARM64 environment were byte-identical for both PDF and EPUB. The platform is part of the byte-reproducibility contract; structurally valid builds on another operating system are not assumed to have the same hashes. Hosted CI obtains Poppler from Homebrew on macOS 15 ARM64 only for inspection, never artifact generation; the verifier fails closed unless the required stable fields and every page's geometry are present.
 
 ## Verification results
 
@@ -57,8 +57,8 @@ The builder acknowledged 176 allowlisted Typst HTML-export warnings and rejected
 | DAISY Ace 1.4.6 | Pass | No issues in `cover.xhtml`, `nav.xhtml`, `book.xhtml`, or `package.opf`. |
 | Narrow-screen reflow | Pass | Headless viewport 320 × 568 CSS px, root font 24 px, dark mode on: root and body `scrollWidth` both 320; 0 overflow offenders. |
 | Dark-mode automated contrast | Pass | Minimum tested text contrast was 7.443:1. |
-| PDF metadata and tagging | Pass | `pdfinfo` reports Vietnamese title metadata, canonical author, tagged structure, 123 unrotated A5 pages, no encryption, no JavaScript, and no suspects; embedded text extraction preserves the new Chapter 10 headings and clarification. |
-| PDF visual QA | Pass internally | All 123 pages were inspected in contact sheets, with full-size checks on the expanded Chapter 10, the new Chapter 9 safety card, glossary additions, and closing pages. No clipping, overlap, truncated badges, accidental blanks, duplicates, or broken hierarchy were found. |
+| PDF metadata and tagging | Pass | `pdfinfo` reports Vietnamese title metadata, canonical author, tagged structure, 126 unrotated A5 pages, no encryption, no JavaScript, and no suspects; embedded text extraction preserves the focused Chapter 10, the new Chapter 11, and the renumbered Chapter 12 headings. |
+| PDF visual QA | Pass internally | All 126 pages were inspected in contact sheets, with full-size checks on the Chapter 10 close, the new Chapter 11 opener, 3–5–4 card, worked inference case, and Chapter 12 handoff. A one-line Chapter 10 spill page found in the first render was removed by tightening the closing sentence; the final render has no clipping, overlap, truncated badges, accidental blanks, duplicates, or broken hierarchy. |
 | Pilot schema, scorer, and release verifier | Pass internally | Both JSON Schema 2020-12 contracts meta-validate; 64 focused tests pass; Ruff and Python compilation pass. The scorer enforces the first five eligible completions among at most seven starts, terminal stopped-session sequencing, fixed stop reasons, distress-note erasure and vetoes, exact artifact and contract hashes, canonical-origin ancestry, recursive record discovery, reachable-history privacy, bounded likely-contact-data rejection, and strict retention bounds. |
 | Source-integrity re-audit | Pass internally | Every used K01–K37, P01–P02, V01, and R01–R09 code resolves in the source map. Independent sub-agent adversarial reviews of doctrine, provenance, beginner clarity, code, and pilot privacy found no remaining material internal defect after corrections. These are internal reviews, not a named external Theravāda or clinical-safety sign-off. |
 

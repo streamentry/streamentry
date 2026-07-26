@@ -201,11 +201,18 @@
   "faq-kiet-su",
   [13\. “Ba hạ phần kiết sử”, năm hạ phần kiết sử và Sa-môn quả khác nhau thế nào?],
   [
-    Cách nói chính xác hơn trong các nguồn sách đang dùng là *ba kiết sử đầu*: thân kiến, hoài nghi và chấp thủ giới-tập tục. Cả ba nằm trong nhóm *năm hạ phần kiết sử*, cùng với dục tham và sân. Nhập lưu đoạn ba kiết sử đầu, nhưng chưa đoạn hai cái còn lại; vì vậy Nhập lưu vẫn có thể còn tham và sân. Nhất lai làm mỏng tham, sân, si; Bất lai, còn gọi là Bất hoàn, đoạn đủ năm hạ phần kiết sử; A-la-hán đoạn tận lậu hoặc.
+    Hãy tách hai bảng:
 
-    “Sa-môn quả” trong cách dùng phổ biến chỉ bốn quả này: Nhập lưu, Nhất lai, Bất lai và A-la-hán. Còn *Kinh Sa-môn quả* là tên một bài kinh riêng nói rộng hơn về quả của đời sống Sa-môn, không phải chỉ là một bảng tên bốn bậc.
+    + *Bảng kiết sử:* cách nói chính xác hơn là *ba kiết sử đầu*, không phải một danh sách riêng tên “ba hạ phần”. Ba kiết sử ấy là thân kiến, hoài nghi và chấp thủ giới-tập tục. Cộng thêm dục tham và sân thì thành *năm hạ phần kiết sử*.
+    + *Bảng quả:* Nhập lưu, Nhất lai, Bất lai và A-la-hán là bốn quả Sa-môn.
+
+    Quan hệ giữa hai bảng là: Nhập lưu đoạn ba kiết sử đầu nhưng chưa đoạn dục tham và sân, nên một bậc Nhập lưu vẫn có thể còn tham hoặc giận. Nhất lai đã đoạn ba kiết sử ấy và làm mỏng tham, sân, si. Bất lai, còn gọi là Bất hoàn, đoạn đủ năm hạ phần kiết sử. A-la-hán đoạn tận các lậu hoặc.
+
+    Vì vậy, “hôm nay tôi không giận” không chứng minh Bất lai; sự tạm lắng không đồng nghĩa một kiết sử đã mất khả năng trở lại. Ngược lại, một cơn giận cũng không tự nó bác bỏ Nhập lưu, vì sân không nằm trong ba kiết sử đầu.
+
+    Cuối cùng, *Kinh Sa-môn quả*, DN 2, là tên một bài kinh riêng. Bài kinh trình bày nhiều kết quả và một tiến trình huấn luyện rộng của đời sống xuất gia; nó không chỉ là bảng bốn tên ở trên.
 
     #v(5pt)
-    #source-badge("KINH", refs: [K10; K24; K32])
+    #source-badge("KINH", refs: [K10; K24; K32; K34])
   ],
 )

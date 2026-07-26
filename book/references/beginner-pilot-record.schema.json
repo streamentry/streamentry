@@ -459,12 +459,12 @@
       "additionalProperties": false,
       "required": [
         "rejects_stage_diagnosis",
-        "chapter_11_is_later_reference",
+        "chapter_12_is_later_reference",
         "names_alternative_or_longitudinal_context"
       ],
       "properties": {
         "rejects_stage_diagnosis": { "type": "boolean" },
-        "chapter_11_is_later_reference": { "type": "boolean" },
+        "chapter_12_is_later_reference": { "type": "boolean" },
         "names_alternative_or_longitudinal_context": { "type": "boolean" }
       }
     },
