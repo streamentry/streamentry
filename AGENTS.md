@@ -47,7 +47,7 @@ python3 scripts/build-epub.py
 python3 scripts/verify_release.py
 ```
 
-Under the pinned publication CI tool and font environment, the canonical builder emits a byte-reproducible PDF/UA-1 candidate and synchronized reflowable EPUB. Publication CI disables system-font discovery and supplies the official checksum-pinned Inter 4.0 files so a missing or substituted local font cannot silently change the release. Treat PDF/UA metadata, EPUBCheck, and DAISY Ace as internal evidence; actual assistive-technology and reader-app use remain external gates.
+Under the pinned macOS 15 ARM64 publication CI tool and font environment, the canonical builder emits a byte-reproducible PDF/UA-1 candidate and synchronized reflowable EPUB. The platform is part of the reproducibility contract because official Typst builds on different operating systems need not emit identical bytes. Publication CI disables system-font discovery and supplies the official checksum-pinned Inter 4.0 files so a missing or substituted local font cannot silently change the release. Treat PDF/UA metadata, EPUBCheck, and DAISY Ace as internal evidence; actual assistive-technology and reader-app use remain external gates.
 
 Do not impersonate the Buddha, fabricate quotations, or turn a retreat schedule, noting technique, cessation experience, or teacher verdict into a canonical guarantee of stream-entry.
 

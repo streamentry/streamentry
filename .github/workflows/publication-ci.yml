@@ -43,7 +43,7 @@ concurrency:
 jobs:
   publication:
     name: Build and verify publication
-    runs-on: ubuntu-24.04
+    runs-on: macos-15
     timeout-minutes: 25
     env:
       PYTHONUTF8: "1"
@@ -79,13 +79,11 @@ jobs:
           java-version: "21"
 
       - name: Install PDF inspection tools
-        run: |
-          sudo apt-get update
-          sudo apt-get install --yes poppler-utils
+        run: brew install poppler
 
       - name: Install pinned publication tools
         env:
-          TYPST_SHA256: 59b207df01be2dab9f13e80f73d04d7ff8273ffd46b3dd1b9eef5c60f3eeabea
+          TYPST_SHA256: fe53838737abf93a774495952a1a797b4686e9c4a21c2d99b9fdf77f46cc3572
           INTER_SHA256: ff970a5d4561a04f102a7cb781adbd6ac4e9b6c460914c7a101f15acb7f7d1a4
           EPUBCHECK_SHA256: 6c07e68584b2e2ce2f89fe06e1246dfead3eb36b46b340e7d93524f29dcff6c5
         run: |
@@ -93,25 +91,25 @@ jobs:
           cd build/ci-tools
 
           curl --fail --silent --show-error --location \
-            https://github.com/typst/typst/releases/download/v0.15.0/typst-x86_64-unknown-linux-musl.tar.xz \
+            https://github.com/typst/typst/releases/download/v0.15.0/typst-aarch64-apple-darwin.tar.xz \
             --output typst.tar.xz
-          printf '%s  %s\n' "$TYPST_SHA256" typst.tar.xz | sha256sum --check -
+          printf '%s  %s\n' "$TYPST_SHA256" typst.tar.xz | shasum -a 256 --check
           tar -xJf typst.tar.xz
 
           curl --fail --silent --show-error --location \
             https://github.com/rsms/inter/releases/download/v4.0/Inter-4.0.zip \
             --output inter.zip
-          printf '%s  %s\n' "$INTER_SHA256" inter.zip | sha256sum --check -
+          printf '%s  %s\n' "$INTER_SHA256" inter.zip | shasum -a 256 --check
           unzip -q inter.zip -d inter
 
           curl --fail --silent --show-error --location \
             https://github.com/w3c/epubcheck/releases/download/v5.3.0/epubcheck-5.3.0.zip \
             --output epubcheck.zip
-          printf '%s  %s\n' "$EPUBCHECK_SHA256" epubcheck.zip | sha256sum --check -
+          printf '%s  %s\n' "$EPUBCHECK_SHA256" epubcheck.zip | shasum -a 256 --check
           unzip -q epubcheck.zip
 
           printf '%s\n' \
-            "$GITHUB_WORKSPACE/build/ci-tools/typst-x86_64-unknown-linux-musl" \
+            "$GITHUB_WORKSPACE/build/ci-tools/typst-aarch64-apple-darwin" \
             >> "$GITHUB_PATH"
 
       - name: Install pinned test dependencies

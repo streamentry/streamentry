@@ -44,7 +44,7 @@ Any content, theme, component, builder, or metadata change invalidates these has
 | Ruff | 0.15.20 |
 | JSON Schema validator | `jsonschema` 4.26.0 |
 
-The builder acknowledged 176 allowlisted Typst HTML-export warnings and rejected unexpected warning classes. The print build now names only the exact embedded families plus Inter, and release CI supplies the official Inter 4.0 files while disabling system fonts. Typst renders the EPUB cover directly instead of delegating rasterization to Poppler. Two consecutive canonical builds under that isolated font environment were byte-identical for both PDF and EPUB. Hosted CI obtains Poppler from the Ubuntu 24.04 package repository only for inspection, never artifact generation; the verifier fails closed unless the required stable fields and every page's geometry are present.
+The builder acknowledged 176 allowlisted Typst HTML-export warnings and rejected unexpected warning classes. The print build now names only the exact embedded families plus Inter, and release CI supplies the official Inter 4.0 files while disabling system fonts. Typst renders the EPUB cover directly instead of delegating rasterization to Poppler. Two consecutive canonical builds under that isolated macOS ARM64 environment were byte-identical for both PDF and EPUB. The platform is part of the byte-reproducibility contract; structurally valid builds on another operating system are not assumed to have the same hashes. Hosted CI obtains Poppler from Homebrew on macOS 15 ARM64 only for inspection, never artifact generation; the verifier fails closed unless the required stable fields and every page's geometry are present.
 
 ## Verification results
 
