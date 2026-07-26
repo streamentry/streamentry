@@ -126,7 +126,12 @@ jobs:
 
       - name: Verify tool versions
         run: |
-          test "$(typst --version)" = "typst 0.15.0 (unknown commit)"
+          typst_version="$(typst --version)"
+          printf '%s\n' "$typst_version"
+          case "$typst_version" in
+            "typst 0.15.0"|"typst 0.15.0 "*) ;;
+            *) exit 1 ;;
+          esac
           test "$(ci/node_modules/.bin/ace-cli --version)" = "1.4.6"
           java -version
           pdfinfo -v
