@@ -2,11 +2,15 @@
 
 ## Overview
 
-This folder owns deterministic EPUB 3 packaging. It converts the target-aware Typst HTML output into XML-conformant XHTML, generates navigation and package metadata, renders the synchronized PDF cover, creates the EPUB container, and fails loudly on structural defects.
+This folder owns deterministic PDF and EPUB publication checks. It converts the target-aware Typst HTML output into XML-conformant XHTML, generates navigation and package metadata, renders the synchronized cover directly through Typst, creates the EPUB container, verifies the release record against both binaries, and fails loudly on structural defects.
 
 ## Key Components
 
-- `build-epub.py`: recompiles PDF and HTML, verifies the immutable manuscript hash, removes the duplicate HTML cover, promotes Typst body headings from h2-h6 to h1-h5, creates namespaced XHTML and nested navigation, and checks semantics, accessibility metadata, manifest resources, anchors, warning classes, fixed ZIP timestamps, entry order, and uncompressed mimetype.
+- `build-epub.py`: recompiles PDF and HTML, renders page 1 directly to the EPUB cover PNG, verifies the immutable manuscript hash, removes the duplicate HTML cover, promotes Typst body headings from h2-h6 to h1-h5, creates namespaced XHTML and nested navigation, and checks semantics, accessibility metadata, manifest resources, anchors, warning classes, fixed ZIP timestamps, entry order, and uncompressed mimetype.
+- `verify_release.py`: orchestrates the release contract and compares the immutable source plus exact binary identities.
+- `release_evidence.py`: parses only the visible artifact table and anchors the immutable source hash and publication credit.
+- `release_pdf.py`: verifies PDF metadata, tagging, security flags, file size, and every page's A5 geometry and rotation.
+- `release_epub.py`: verifies the active package, exact manifest and spine, passive XHTML, metadata, resolved unique navigation, and content/cover counts.
 - `beginner_pilot_contract.py`: fixed task ids, criteria, thresholds, allowed fields, cohort rules, and the exact ten-file scoring contract.
 - `beginner_pilot_validation.py`: strict JSON, schema, consent, eligibility, task-state, fixed stop-reason, bounded contact-data detection, and retention validation.
 - `beginner_pilot_artifact.py`: verifies hashes and page count against real files and committed Git blobs, plus a bounded EPUB container check.
@@ -25,13 +29,14 @@ This folder owns deterministic EPUB 3 packaging. It converts the target-aware Ty
 ```mermaid
 flowchart LR
   T["book/main.typ"] --> P["Fresh PDF"]
+  T --> C["Typst page-1 PNG"]
   T --> H["Semantic HTML"]
-  P --> C["Cover PNG"]
   H --> X["Cover removal, h1-h5 outline, and bodymatter"]
   X --> N["Nested semantic navigation"]
   N --> E["EPUB package"]
   C --> E
-  E --> V["Structural validation"]
+  E --> V["Builder structural validation"]
+  E --> W["Separate release-evidence verifier"]
   R["Frozen manifest and ordered attempts"] --> S["Deterministic cohort scorer"]
   S --> G["Aggregate gate report"]
 ```
@@ -96,15 +101,15 @@ stateDiagram-v2
 
 ```mermaid
 flowchart LR
-  S["Typst source"] --> H["HTML"]
-  S --> P["PDF"]
+  T["Typst source"] --> H["HTML"]
+  T --> P["PDF"]
   H --> X["namespaced book.xhtml"]
   X --> N["h1-h5 outline"]
-  P --> I["cover.png"]
+  T --> I["Typst page-1 cover.png"]
   X --> Z["EPUB"]
   N --> Z
   I --> Z
   D["Metadata constants"] --> Z
-  R["Manifest and pseudonymous attempt JSON"] --> S["Cohort scorer"]
-  S --> A["Aggregate report"]
+  R["Manifest and pseudonymous attempt JSON"] --> C["Cohort scorer"]
+  C --> A["Aggregate report"]
 ```

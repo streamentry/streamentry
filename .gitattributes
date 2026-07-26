@@ -1,3 +1,4 @@
 *.md text eol=lf
 *.typ text eol=lf
 *.pdf binary
+*.epub binary

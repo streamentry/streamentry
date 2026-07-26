@@ -25,6 +25,10 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `book/references/doctrinal-review-protocol.md`: operational contract for independent Theravāda review.
 - `dist/huong-den-nhap-luu.pdf`: current internally verified print candidate.
 - `scripts/build-epub.py`: deterministic EPUB 3 packaging and structural validation.
+- `scripts/verify_release.py`: small release-verification orchestrator.
+- `scripts/release_evidence.py`, `scripts/release_pdf.py`, and `scripts/release_epub.py`: fail-closed evidence-table, per-page PDF, and fixed-publication EPUB contracts.
+- `.github/workflows/publication-ci.yml`: read-only publication CI with SHA-pinned actions and checksum-pinned downloaded tools for deterministic rebuilds, tests, EPUBCheck, and DAISY Ace.
+- `ci/`: pinned Python and Node dependency contracts used only by publication CI.
 - `scripts/score-beginner-pilot.py`: manifest-only first-five gate scoring with artifact and contract binding.
 - `dist/huong-den-nhap-luu.epub`: current internally verified reflowable candidate.
 
@@ -40,9 +44,10 @@ Build from the workspace root:
 
 ```sh
 python3 scripts/build-epub.py
+python3 scripts/verify_release.py
 ```
 
-The canonical builder emits a deterministic PDF/UA-1 candidate and the synchronized reflowable EPUB. Treat PDF/UA metadata, EPUBCheck, and DAISY Ace as internal evidence; actual assistive-technology and reader-app use remain external gates.
+Under the pinned publication CI tool and font environment, the canonical builder emits a byte-reproducible PDF/UA-1 candidate and synchronized reflowable EPUB. Publication CI disables system-font discovery and supplies the official checksum-pinned Inter 4.0 files so a missing or substituted local font cannot silently change the release. Treat PDF/UA metadata, EPUBCheck, and DAISY Ace as internal evidence; actual assistive-technology and reader-app use remain external gates.
 
 Do not impersonate the Buddha, fabricate quotations, or turn a retreat schedule, noting technique, cessation experience, or teacher verdict into a canonical guarantee of stream-entry.
 

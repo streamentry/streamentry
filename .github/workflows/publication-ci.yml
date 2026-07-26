@@ -1,0 +1,166 @@
+name: Publication CI
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/publication-ci.yml"
+      - ".gitattributes"
+      - "ci/**"
+      - "book/**"
+      - "scripts/**"
+      - "tests/**"
+      - "dist/**"
+      - "con-duong-niem-xu-mahasi-hop-nhat.md"
+      - "README.md"
+      - "AGENTS.md"
+      - "SKILL.md"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/publication-ci.yml"
+      - ".gitattributes"
+      - "ci/**"
+      - "book/**"
+      - "scripts/**"
+      - "tests/**"
+      - "dist/**"
+      - "con-duong-niem-xu-mahasi-hop-nhat.md"
+      - "README.md"
+      - "AGENTS.md"
+      - "SKILL.md"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  publication:
+    name: Build and verify publication
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    env:
+      PYTHONUTF8: "1"
+      TYPST_IGNORE_SYSTEM_FONTS: "true"
+      TYPST_FONT_PATHS: ${{ github.workspace }}/build/ci-tools/inter/extras/otf
+      PUPPETEER_CACHE_DIR: ${{ github.workspace }}/build/puppeteer
+
+    steps:
+      - name: Check out the candidate
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: ci/requirements.txt
+
+      - name: Set up Node.js 22
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: ci/package-lock.json
+
+      - name: Set up Java 21
+        uses: actions/setup-java@03ad4de0992f5dab5e18fcb136590ce7c4a0ac95
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Install PDF inspection tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes poppler-utils
+
+      - name: Install pinned publication tools
+        env:
+          TYPST_SHA256: 59b207df01be2dab9f13e80f73d04d7ff8273ffd46b3dd1b9eef5c60f3eeabea
+          INTER_SHA256: ff970a5d4561a04f102a7cb781adbd6ac4e9b6c460914c7a101f15acb7f7d1a4
+          EPUBCHECK_SHA256: 6c07e68584b2e2ce2f89fe06e1246dfead3eb36b46b340e7d93524f29dcff6c5
+        run: |
+          mkdir -p build/ci-tools
+          cd build/ci-tools
+
+          curl --fail --silent --show-error --location \
+            https://github.com/typst/typst/releases/download/v0.15.0/typst-x86_64-unknown-linux-musl.tar.xz \
+            --output typst.tar.xz
+          printf '%s  %s\n' "$TYPST_SHA256" typst.tar.xz | sha256sum --check -
+          tar -xJf typst.tar.xz
+
+          curl --fail --silent --show-error --location \
+            https://github.com/rsms/inter/releases/download/v4.0/Inter-4.0.zip \
+            --output inter.zip
+          printf '%s  %s\n' "$INTER_SHA256" inter.zip | sha256sum --check -
+          unzip -q inter.zip -d inter
+
+          curl --fail --silent --show-error --location \
+            https://github.com/w3c/epubcheck/releases/download/v5.3.0/epubcheck-5.3.0.zip \
+            --output epubcheck.zip
+          printf '%s  %s\n' "$EPUBCHECK_SHA256" epubcheck.zip | sha256sum --check -
+          unzip -q epubcheck.zip
+
+          printf '%s\n' \
+            "$GITHUB_WORKSPACE/build/ci-tools/typst-x86_64-unknown-linux-musl" \
+            >> "$GITHUB_PATH"
+
+      - name: Install pinned test dependencies
+        run: |
+          python -m pip install --disable-pip-version-check \
+            --only-binary=:all: \
+            --require-hashes \
+            --requirement ci/requirements.txt
+          npm ci --prefix ci
+          npm audit --prefix ci --audit-level=high
+          ci/node_modules/.bin/puppeteer browsers install chrome
+
+      - name: Verify tool versions
+        run: |
+          test "$(typst --version)" = "typst 0.15.0 (unknown commit)"
+          test "$(ci/node_modules/.bin/ace-cli --version)" = "1.4.6"
+          java -version
+          pdfinfo -v
+          ruff --version
+
+      - name: Verify committed release evidence
+        run: python scripts/verify_release.py
+
+      - name: Rebuild synchronized PDF and EPUB
+        run: python scripts/build-epub.py
+
+      - name: Verify reproducible artifacts
+        run: |
+          python scripts/verify_release.py
+          git diff --exit-code -- dist/huong-den-nhap-luu.pdf dist/huong-den-nhap-luu.epub
+
+      - name: Run Python tests and static checks
+        run: |
+          python -m unittest discover -s tests -p "test_*.py"
+          ruff check scripts tests
+          python -m compileall -q scripts tests
+          python -c "import json; from pathlib import Path; from jsonschema.validators import validator_for; files=['book/references/beginner-pilot-record.schema.json','book/references/beginner-pilot-cohort-manifest.schema.json']; [(lambda schema: validator_for(schema).check_schema(schema))(json.loads(Path(path).read_text())) for path in files]; print('2 schemas meta-validated')"
+
+      - name: Run EPUBCheck 5.3.0
+        run: |
+          java -jar build/ci-tools/epubcheck-5.3.0/epubcheck.jar \
+            dist/huong-den-nhap-luu.epub
+
+      - name: Run DAISY Ace 1.4.6
+        run: |
+          ci/node_modules/.bin/ace-cli \
+            --exiterror2 \
+            --outdir build/ace-report \
+            dist/huong-den-nhap-luu.epub
+
+      - name: Reject whitespace errors
+        run: git diff --check

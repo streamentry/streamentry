@@ -1,0 +1,12 @@
+{
+  "name": "streamentry-publication-ci",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Pinned accessibility tooling for publication CI",
+  "devDependencies": {
+    "@daisy/ace-cli": "1.4.6"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}

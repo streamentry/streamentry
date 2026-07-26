@@ -18,7 +18,7 @@ The canonical builder creates both deliverables from the same Typst entry point.
 typst compile --root . --creation-timestamp 1785024000 --pdf-standard ua-1 book/main.typ dist/huong-den-nhap-luu.pdf
 ```
 
-The builder recompiles the PDF for a synchronized cover, compiles Typst's semantic HTML target, packages a reflowable EPUB 3 publication, and runs structural, XML, manifest, navigation, manuscript-hash, and required-content checks. It requires Typst 0.15 or later and `pdftoppm`.
+The builder recompiles the PDF, asks Typst to render the same first page as the EPUB cover, compiles Typst's semantic HTML target, packages a reflowable EPUB 3 publication, and runs structural, XML, manifest, navigation, manuscript-hash, and required-content checks. Publication CI release builds use Typst 0.15.0, its embedded Libertinus Serif and DejaVu Sans Mono families, and the official Inter 4.0 OTF files with system-font discovery disabled.
 
 The current internally verified candidate files are:
 
@@ -28,6 +28,16 @@ The current internally verified candidate files are:
 Source provenance is documented in [`book/references/claim-ledger.md`](book/references/claim-ledger.md). The EPUB is reflowable: it preserves source labels, cautions, practice cards, navigation, links, and Vietnamese text while intentionally omitting A5 page geometry.
 
 The PDF uses an A5 print-safe white page background. Small neutral surfaces preserve hierarchy in grayscale without printing a full-page tint.
+
+## Verify the release candidate
+
+```sh
+python3 scripts/verify_release.py
+```
+
+The verifier compares the human-facing release record against the actual immutable manuscript, PDF, and EPUB. It fails on stale hashes or sizes, wrong PDF title or credit, missing tags, suspect, encrypted, JavaScript-bearing, rotated, or non-A5 PDF pages, wrong active EPUB package, manifest, spine, or navigation document, active base or script elements, wrong EPUB title, creator or language, unresolved or duplicate TOC targets, and navigation-count drift.
+
+Every pull request and push to `main` that can affect publication runs `.github/workflows/publication-ci.yml`. The workflow uses only a read-only ephemeral `GITHUB_TOKEN` and no repository or environment secrets. It pins GitHub Actions by commit, downloads checksum-pinned Typst 0.15.0, Inter 4.0, and EPUBCheck 5.3.0, installs hash-locked Python wheels and locked DAISY Ace 1.4.6 dependencies, rebuilds both formats with system fonts disabled, requires byte-identical tracked artifacts, and runs the complete Python, schema, EPUBCheck, and accessibility gates. It never uploads raw pilot records.
 
 ## Quality evidence and limits
 
