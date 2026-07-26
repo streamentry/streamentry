@@ -15,6 +15,8 @@ Kinh Niệm xứ đặt tỉnh giác giữa những việc rất thường: đi 
 
 #source-line("KINH", [K01], [MN 10 nêu rõ tỉnh giác trong các sinh hoạt của thân. Điệp khúc của bài kinh còn yêu cầu nhiệt tâm, tỉnh giác, chánh niệm, thấy sự sinh diệt và không nắm giữ. Chỉ gọi tên động tác chưa đủ thay cho những phẩm chất này.])
 
+Vì thế, bốn điểm neo dưới đây cố ý ngắn và lặp lại. Mục tiêu không phải biến cả ngày thành một chuỗi ghi nhãn liên tục, mà là tạo vài chỗ chắc để người mới có thể quay về khi tâm trôi khỏi công việc đang làm.
+
 == Sống tỉnh giác không có nghĩa luôn làm thật chậm
 
 Trong giờ thiền, đi chậm giúp nhận ra các pha của chuyển động. Ngoài đời, tốc độ phải hợp hoàn cảnh. Qua đường cần nhanh và nhìn xe. Cầm dao cần chắc. Bế con đang khóc cần đáp ứng ngay. Chánh niệm không làm ta chậm chạp; nó cắt bớt phần hấp tấp, lơ đãng và phản ứng thừa.
@@ -51,6 +53,8 @@ Trong giờ thiền, đi chậm giúp nhận ra các pha của chuyển động.
   [Khi lời sắp bật ra trong lúc căng thẳng, cảm nhận thân trước: hàm có siết không, ngực có nóng không, hơi thở có gấp không. Một khoảng dừng ngắn có thể giữ lời nói khỏi thành vết thương.],
 )
 
+Bốn điểm neo chỉ có giá trị khi chúng đổi được lần phản ứng kế tiếp. Nơi dễ kiểm nhất không phải một buổi ngồi yên, mà là lúc người gần mình cần được lắng nghe hoặc đang làm ta khó chịu.
+
 == Gia đình là nơi thấy quả của sự tu tập
 
 Khi con quấy, cha mẹ bệnh hoặc người bạn đời bất đồng, mục tiêu không phải làm cảm xúc biến mất. Trước hết, nhận ra sân, sợ, buồn hay ý muốn thắng. Sau đó mới chọn lời và hành động ít gây hại hơn. Chánh niệm đúng không khiến ta lạnh đi; nó giúp ta không giao tay lái cho phản ứng đầu tiên.
@@ -60,6 +64,8 @@ Khi con quấy, cha mẹ bệnh hoặc người bạn đời bất đồng, mụ
 #source-line("BIÊN SOẠN", [đối chiếu K18 với công thức Năm giới], [SN 55.7 liệt kê bảy điều tránh. Trong công thức Năm giới, giới thứ tư chỉ nêu tránh nói dối. So sánh này là phần đối chiếu của sách.])
 
 Trong một cuộc tranh luận, “tôi đúng” có thể là một ý nghĩ đáng quan sát, nhưng không phải mọi bất đồng đều do ngã mạn. Có lúc ta cần nói rõ một ranh giới, ngăn một hành vi nguy hiểm hoặc sửa một thông tin sai. Chánh niệm phục vụ thấy biết và hành động đúng, không phục vụ sự im lặng dễ dãi.
+
+Cùng khoảng dừng trước lời nói ấy được mang sang công việc. Khác ở chỗ phần lớn chú ý lúc này phải phục vụ nhiệm vụ, không quay vào quan sát mình đến mức làm hỏng việc.
 
 == Công việc cũng là nơi hành pháp
 

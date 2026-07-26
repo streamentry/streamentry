@@ -7,6 +7,10 @@
   provenance: source-badge("KINH", refs: [K01 · K13]),
 )
 
+#source-line("KINH", [K01 · MN 10; K13 · SN 46.53], [
+  *Năm triền cái* là năm nhóm trạng thái cản trở sự sáng rõ: tham dục, sân, hôn trầm-thụy miên, trạo cử-hối và hoài nghi. *Bảy giác chi* là bảy phẩm chất cần được nuôi và cân bằng: niệm, trạch pháp, tinh tấn, hỷ, khinh an, định và xả. Chương đi theo một nhịp đơn giản: trước hết nhận ra điều đang che tâm, sau đó biết nên làm mạnh hay làm dịu phẩm chất nào.
+])
+
 == Biết một triền cái là biết cả vòng đời của nó
 
 #source-line("KINH", [K01 · MN 10, Nīvaraṇapabba], [
@@ -89,11 +93,15 @@
   ],
 )
 
+Đến đây, năm phần trên đã trả lời “điều gì đang che tâm?”. Phần kế tiếp đổi hướng sang “phẩm chất lành nào cần được nuôi để tâm lấy lại thăng bằng?”.
+
 == Bảy giác chi: biết lúc nâng tâm, biết lúc làm dịu
 
 #source-line("KINH", [K01 · MN 10, Bojjhaṅgapabba], [
   Bảy giác chi là niệm, trạch pháp, tinh tấn, hỷ, khinh an, định và xả. MN 10 yêu cầu biết mỗi chi khi có, khi không, nó sinh thế nào và được tu tập đến viên mãn thế nào. Đây là các phẩm chất cần nuôi lớn, không chỉ là trạng thái để dán nhãn.
 ])
+
+Nói gần nghĩa: *niệm* giữ việc cần biết trong tâm; *trạch pháp* xem xét hiện tượng theo Pháp; *tinh tấn* cung cấp năng lượng; *hỷ* làm tâm hứng khởi; *khinh an* làm thân tâm lắng dịu; *định* quy tụ tâm; *xả* giữ quân bình trước dễ chịu và khó chịu. Các nghĩa này đủ để dùng bảng cân bằng dưới đây, không thay cho phân tích đầy đủ trong luận giải.
 
 #source-line("KINH", [K13 · SN 46.53], [
   Khi tâm trì trệ, SN 46.53 khuyên phát triển trạch pháp, tinh tấn và hỷ; khinh an, định và xả không phải nhóm thích hợp để nâng một tâm đang lịm. Khi tâm chao động, quan hệ đảo lại: khinh an, định và xả giúp làm lắng, còn tăng khảo sát và năng lượng có thể khiến tâm động hơn. Niệm được nói là hữu ích trong mọi trường hợp.
@@ -112,6 +120,8 @@
 )
 
 == Khi triền cái giống một vấn đề sức khỏe
+
+Nếu điều chỉnh đề mục và cường độ không giúp, còn trạng thái kéo dài ra ngoài giờ hành, phải đổi câu hỏi. Lúc ấy, điều quan trọng không còn là gọi đúng tên pháp mà là kiểm tra giấc ngủ, chức năng và mức nguy cơ.
 
 #caution(
   [Tên pháp không thay cho chẩn đoán],

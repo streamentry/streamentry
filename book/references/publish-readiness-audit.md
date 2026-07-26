@@ -1,8 +1,8 @@
 # Publish Readiness Audit
 
-Checked: 2026-07-25
+Checked: 2026-07-26
 
-The 80-item scoring is a static content review adapted from a web-oriented benchmark. Release verification was then run against the same content: the PDF compiled to 83 A5 pages, the EPUB builder found 113 navigable headings, and EPUBCheck 5.3.0 reported no errors or warnings. Those build facts do not replace human-reader or expert review.
+The 80-item scoring is a static content review adapted from a web-oriented benchmark. Release verification was then run against the same content: the PDF compiled to 92 A5 pages, the EPUB builder found 113 navigable headings, and EPUBCheck 5.3.0 reported 0 fatals, 0 errors, and 0 warnings. The 2026-07-26 beginner-flow pass added first-use definitions, chapter handoffs, a source-bounded twelve-link guide, a seven-purification guide, a visual stop gate for beginners, and a larger glossary without changing the verdict. Those build facts do not replace human-reader or expert review.
 
 ## Overview
 

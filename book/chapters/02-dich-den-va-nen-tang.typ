@@ -7,6 +7,8 @@
   provenance: source-badge("KINH", refs: [K05 · K06]),
 )
 
+Chương này đi chậm hơn một nhịp: trước khi nói đến kỹ thuật, nó tách rõ đích đến và nền đất đang đỡ đích ấy. Người mới thường muốn hỏi ngay “làm sao đạt”, nhưng kinh lại bắt đầu bằng “điều gì đang được hiểu sai” và “đời sống phải đổi hướng ra sao”.
+
 #scripture-quote(
   [Có khổ cần được hiểu, nguyên nhân của khổ cần được đoạn, sự chấm dứt khổ cần được chứng và con đường đưa đến chấm dứt khổ cần được tu tập.],
   [Phỏng dịch Tứ Thánh Đế, K05 · SN 56.11, Dhammacakkappavattana Sutta.],
@@ -28,6 +30,8 @@
   Khi Đức Phật hỏi Tôn giả Sāriputta “dòng” là gì, câu trả lời là Bát Chánh Đạo: chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm và chánh định. Người có đạo lộ cao quý ấy được gọi là người nhập dòng. Vì vậy, chánh niệm là một chi thiết yếu, nhưng không đứng một mình.
 ])
 
+Đạo lộ cho biết người ấy đã đi vào đâu. Phần kế tiếp nhìn từ phía ngược lại: những trói buộc nào đã rơi và những phẩm chất nào đã trở nên vững.
+
 #caution(
   [Đừng lấy một chi thay cho cả con đường],
   [
@@ -38,6 +42,10 @@
 )
 
 == Nhập lưu được kinh mô tả thế nào?
+
+#source-line("BIÊN SOẠN", [nghĩa làm việc, đối chiếu K20; K24], [
+  *Kiết sử* là cách kinh gọi những trói buộc bền chặt giữ hữu tình trong khổ, không phải tên chung cho mọi thói quen xấu. *Năm uẩn* là năm nhóm kinh nghiệm: sắc hay phương diện thân-vật chất, thọ, tưởng, các hành tạo tác và thức. Hai nghĩa làm việc này chỉ giúp theo kịp phần dưới; chương 11 sẽ phân tích ba kiết sử liên hệ trực tiếp đến Nhập lưu.
+])
 
 #source-line("KINH", [K24 · AN 10.13; K10 · AN 3.88], [
   Kinh mô tả bậc Nhập lưu là người đã dứt ba kiết sử đầu, không còn bị đọa vào khổ cảnh, chắc chắn hướng đến giác ngộ và còn tái sinh nhiều nhất bảy lần. “Bảy lần” là giới hạn tối đa trong mô tả kinh điển, không phải lịch hẹn cho một cá nhân.
@@ -66,6 +74,8 @@
 
 == Bốn điều kiện đưa đến nhập dòng
 
+Những tiêu chuẩn trên mô tả người đã vào dòng. Bốn yếu tố dưới đây không phải bằng chứng thành tựu; chúng là các điều kiện giúp người chưa đến đích đi đúng hướng.
+
 #source-line("KINH", [K02 · SN 55.50], [
   Bốn yếu tố đưa đến Nhập lưu là thân cận người chân chánh, nghe Chánh pháp, như lý tác ý và hành pháp thuận pháp. Không yếu tố nào có thể được thay bằng việc đọc thật nhiều hoặc ngồi thật lâu. Thiện hữu giúp sửa điểm mù; Chánh pháp cho hướng; như lý tác ý truy đến nguyên nhân của khổ; hành pháp biến điều đã hiểu thành nếp sống.
 ])
@@ -84,6 +94,8 @@
 )
 
 == Nền của người tại gia
+
+Từ đây, sách trở lại mặt đất. Một người mới không thể dựng đạo lộ trên những khái niệm đẹp nếu đời sống hằng ngày vẫn đầy hối hận, thiếu giới và thiếu phản hồi thật.
 
 #source-line("KINH", [K04 · AN 10.1], [
   AN 10.1 trình bày một chuỗi có trật tự: giới lành đưa đến không hối hận; từ đó có hân hoan, hỷ, khinh an, lạc, định, thấy biết như thật, nhàm lìa, ly tham và tri kiến giải thoát. Giới không phải nghi lễ mở màn. Nó dọn mặt đất để tâm có thể đứng yên mà không phải che giấu chính mình.

@@ -88,6 +88,67 @@
 
 #v(7pt)
 
+#term-card(
+  [khandha],
+  [uẩn, nhóm kinh nghiệm],
+  [K20],
+  [
+    Năm nhóm được kinh dùng để phân tích kinh nghiệm là sắc, thọ, tưởng, hành và thức. “Uẩn” không phải năm vật nằm tách rời trong người. Trong phần nói về thân kiến, điểm cần thấy là cách tâm nắm một uẩn như tự ngã, thuộc về tự ngã, nằm trong tự ngã hoặc chứa tự ngã.
+  ],
+)
+
+#v(7pt)
+
+#term-card(
+  [saṃyojana],
+  [kiết sử, trói buộc],
+  [K11; K24],
+  [
+    Mối trói buộc bền chặt giữ hữu tình trong khổ, không phải tên chung cho mọi thói quen xấu. Chương 11 tập trung vào ba kiết sử gắn với Nhập lưu; K24 đặt chúng trong danh mục mười kiết sử rộng hơn.
+  ],
+)
+
+#v(7pt)
+
+#practice-card(
+  [paṭiccasamuppāda · duyên khởi],
+  [
+    Sự sinh và diệt của khổ tùy thuộc điều kiện. K26 nêu chuỗi chuẩn từ vô minh đến già chết; K27 triển khai đoạn sáu cửa, xúc, thọ, ái và khổ. “Có điều kiện” không có nghĩa một nguyên nhân đơn độc tất định mọi việc, cũng không cho phép thu toàn bộ giáo lý thành vài mili-giây tâm lý.
+
+    #v(6pt)
+    #source-badge("KINH", refs: [K26; K27])
+  ],
+  label: [THUẬT NGỮ PĀLI],
+)
+
+#v(7pt)
+
+#practice-card(
+  [nīvaraṇa và bojjhaṅga · triền cái và giác chi],
+  [
+    *Năm triền cái* là những nhóm trạng thái cản sự sáng rõ: tham dục, sân, hôn trầm-thụy miên, trạo cử-hối và hoài nghi. *Bảy giác chi* là những phẩm chất cần nuôi và cân bằng: niệm, trạch pháp, tinh tấn, hỷ, khinh an, định và xả. Chúng không chỉ là “tâm xấu” và “tâm tốt”; MN 10 yêu cầu biết sự có mặt, vắng mặt, điều kiện sinh và cách phát triển hay đoạn trừ.
+
+    #v(6pt)
+    #source-badge("KINH", refs: [K01; K13])
+  ],
+  label: [CẶP THUẬT NGỮ],
+)
+
+#v(7pt)
+
+#practice-card(
+  [vāyo-dhātu · phong đại, yếu tố chuyển động],
+  [
+    Trong P02, đây là cách gọi truyền thống cho nét cứng đỡ, rung, đẩy, kéo và chuyển động được cảm nhận nơi bụng khi thở. Đối tượng là cảm giác chuyển động, không phải một luồng khí tưởng tượng và cũng không đồng nhất với chữ “phồng, xẹp”.
+
+    #v(6pt)
+    #source-badge("MAHĀSI", refs: [P02])
+  ],
+  label: [THUẬT NGỮ DÒNG THIỀN],
+)
+
+#v(7pt)
+
 #practice-card(
   [satipaṭṭhāna · niệm xứ],
   [

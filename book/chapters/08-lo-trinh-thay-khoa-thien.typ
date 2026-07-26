@@ -11,7 +11,7 @@
   ],
 )
 
-Một lộ trình đáng tin phải làm được ba việc: vừa sức để duy trì, đủ rõ để tự kiểm và đủ linh hoạt để điều chỉnh khi thân tâm hoặc hoàn cảnh thay đổi. Mốc tháng dưới đây là kế hoạch biên soạn cho người tại gia. Kinh không ấn định lịch mười hai tháng, số phút mỗi ngày hay số khóa thiền mỗi năm.
+Một lộ trình đáng tin phải làm được ba việc: vừa sức để duy trì, đủ rõ để tự kiểm và đủ linh hoạt để điều chỉnh khi thân tâm hoặc hoàn cảnh thay đổi. Mốc tháng dưới đây là kế hoạch biên soạn cho người tại gia. Kinh không ấn định lịch mười hai tháng, số phút mỗi ngày hay số khóa thiền mỗi năm. Nói ngắn lại, phần sau là một cách sắp xếp thứ tự, không phải bài kiểm tra trình độ.
 
 == Hai nhóm bốn yếu tố thường bị lẫn
 
@@ -21,7 +21,7 @@ Một lộ trình đáng tin phải làm được ba việc: vừa sức để d
 
 #source-line("KINH", [K03], [SN 55.4 nêu bốn phẩm chất để một người được tuyên bố là bậc Nhập lưu: tịnh tín đã được xác chứng nơi Phật, Pháp, Tăng và giới hạnh được bậc Thánh quý trọng. Đây là phẩm chất của người đã vào dòng.])
 
-Hai nhóm cùng được dịch bằng những cụm từ gần giống nhau, nhưng chức năng khác hẳn. Có thầy, nghe pháp và ngồi đều không tự động chứng minh bốn phẩm chất của bậc Nhập lưu. Chúng chỉ có thể góp phần tạo duyên. Ngược lại, một lời tuyên bố tin đủ ba ngôi báu cũng không thay thế thấy biết và giới hạnh.
+Hai nhóm cùng được dịch bằng những cụm từ gần giống nhau, nhưng chức năng khác hẳn. Có thầy, nghe pháp và ngồi đều không tự động chứng minh bốn phẩm chất của bậc Nhập lưu. Chúng chỉ có thể góp phần tạo duyên. Ngược lại, một lời tuyên bố tin đủ ba ngôi báu cũng không thay thế thấy biết và giới hạnh. Đừng lấy điều kiện để đo phẩm chất đã thành tựu, cũng đừng lấy lời tự xưng về niềm tin để thay cho kiểm chứng.
 
 == Một lộ trình mười hai tháng có thể điều chỉnh
 
@@ -29,9 +29,11 @@ Hai nhóm cùng được dịch bằng những cụm từ gần giống nhau, nh
 
 Giữ một thời tọa từ hai mươi đến ba mươi phút, năm hoặc sáu ngày mỗi tuần. Nếu thân cho phép, thêm năm đến mười phút thiền hành. Chọn một hoạt động thường ngày làm điểm neo. Mục tiêu là đều đặn, không phải ngồi bất động bằng mọi giá.
 
+Mốc này chỉ dùng sau khi mức năm đến mười lăm phút của chương 1 đã đứng được trong đời sống. Nếu hai mươi phút làm mất ngủ, đau tăng hoặc khiến bạn bỏ liên tục, hãy giữ mức thấp hơn; lịch tháng không có quyền bắt thân tâm chạy trước nền thực tế.
+
 === Tháng 3 và 4: tăng độ liên tục
 
-Nâng dần thời tọa đến ba mươi hoặc bốn mươi phút nếu giấc ngủ, công việc và quan hệ vẫn ổn. Thêm thiền hành trước lúc ngồi. Học cách trình bày một buổi thiền bằng sự kiện cụ thể: đối tượng chính, lúc tâm rời đi, cảm giác mạnh, thái độ đối với chúng. Đừng kể một câu chuyện đã được ép vào bản đồ tuệ.
+Nâng dần thời tọa đến ba mươi hoặc bốn mươi phút nếu giấc ngủ, công việc và quan hệ vẫn ổn. Thêm thiền hành trước lúc ngồi. Học cách *trình pháp*, tức báo cáo một buổi hành bằng sự kiện cụ thể: đối tượng chính, lúc tâm rời đi, cảm giác mạnh, thái độ đối với chúng. Đừng kể một câu chuyện đã được ép vào bản đồ tuệ.
 
 === Tháng 5 đến 8: tìm phản hồi có năng lực
 
@@ -47,7 +49,9 @@ Chọn thời lượng có thể sống cùng nhiều năm. Tiếp tục giữ g
 
 == Kinh Niệm xứ thật sự nói gì về bảy ngày và bảy năm?
 
-#source-line("KINH", [K01, đoạn 46], [MN 10 nói rằng người tu tập bốn Niệm xứ “như vậy” trong bảy năm có thể chờ đợi một trong hai kết quả: chánh trí ngay trong hiện tại, hoặc nếu còn dư y thì quả Bất lai. Bài kinh rút dần thời gian qua các mốc năm, tháng, nửa tháng, xuống đến bảy ngày và vẫn nêu hai kết quả ấy.])
+#source-line("KINH", [K01, đoạn 46], [MN 10 nói rằng người tu tập bốn Niệm xứ “như vậy” trong bảy năm có thể chờ đợi một trong hai kết quả: chánh trí ngay trong hiện tại, tức A-la-hán, hoặc nếu còn dư y thì quả Bất lai, tức không trở lại cõi dục. Bài kinh rút dần thời gian qua các mốc năm, tháng, nửa tháng, xuống đến bảy ngày và vẫn nêu hai kết quả ấy.])
+
+“Dư y” là thuật ngữ kỹ thuật được giữ theo bản dịch; người mới không cần dùng nó để tự chấm mình. Chỉ cần giữ ranh giới này: A-la-hán và Bất lai là hai kết quả bài kinh nêu ở đoạn ấy; chúng không phải tên khác của Nhập lưu.
 
 Đoạn kinh không nói “bảy ngày sẽ Nhập lưu”. Hai kết quả được nêu là A-la-hán hoặc Bất lai. Đoạn kinh cũng không đồng nhất bảy ngày ấy với một khóa Mahāsi hiện đại, không cho số giờ ngồi mỗi ngày và không bảo rằng chỉ cần có mặt đủ lịch là kết quả phải xảy ra. Cụm từ chịu tải là “tu tập như vậy”, nghĩa là toàn bộ phẩm chất và nội dung thực hành vừa được bài kinh trình bày.
 

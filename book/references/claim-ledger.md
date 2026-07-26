@@ -1,6 +1,6 @@
 # Claim ledger
 
-Checked: 2026-07-25
+Checked: 2026-07-26
 
 This ledger separates canonical claims, later Theravāda systematization, Mahāsi instructions, modern editorial guidance, and safety evidence. A source code identifies a text. It does not make every nearby sentence equally strong.
 
@@ -54,6 +54,8 @@ This ledger separates canonical claims, later Theravāda systematization, Mahās
 | C36 | The path leading to the cessation of craving and feeling is the Noble Eightfold Path. | Early Buddhist discourse | K31, MN 9 | https://suttacentral.net/mn9/en/bodhi | Direct | The speaker is Venerable Sāriputta. The passage does not assign the whole task to mindfulness alone. |
 | C37 | No cited discourse designates feeling-to-craving as the universally easiest link to sever. | Evidential limit | K26–K31 | See URLs above | Strong | It is an accessible observation point for many practitioners, but “easiest” is an editorial comparative claim without a canonical ranking. |
 | C38 | P02 describes the insight knowledges in detail for practitioners with distinctive results and explicitly says it was not written as a beginner’s practice manual. | Modern Theravāda lineage | P02, translator’s foreword and sections 1–17 | https://www.accesstoinsight.org/lib/authors/mahasi/progress.html | Direct lineage instruction | Stage descriptions are not clinical diagnostic criteria or a canonical numbered list. |
+| C39 | SN 12.2 defines the twelve links by specific doctrinal categories, including the Four Noble Truths for ignorance, three formations, six classes of consciousness, the components of name-and-form, four kinds of clinging, three kinds of existence, and canonical definitions of birth and aging-and-death. | Early Buddhist discourse | K26, SN 12.2 | https://suttacentral.net/sn12.2/en/bodhi | Direct | A short Vietnamese gloss is editorial compression. It must not replace the source's wider cosmological scope with a purely momentary psychological reading. |
+| C40 | MN 10 names five hindrances and seven awakening factors and asks that their presence, absence, arising, removal, or development be known; SN 46.53 explains that energizing and calming factors are cultivated according to the state of mind, while mindfulness is always useful. | Early Buddhist discourse | K01, MN 10; K13, SN 46.53 | https://suttacentral.net/mn10/vi/minh_chau<br>https://suttacentral.net/sn46.53/en/sujato | Direct | Plain-language one-line definitions are reading aids, not exhaustive Abhidhamma or commentarial definitions. |
 
 ## Claims excluded unless stronger evidence is added
 

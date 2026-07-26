@@ -257,4 +257,4 @@ Một mã nguồn cho phép truy nguyên, nhưng không tự động chứng min
 
 Kho mã nguồn chưa có phản biện độc lập toàn bộ bản thảo bởi một vị thầy Theravāda đủ năng lực hoặc chuyên gia lâm sàng. Vì vậy, kiểm nguồn nội bộ không phải sự chứng thực bên ngoài. Khoảng trống này chỉ được đóng bằng phản biện có tên, phạm vi và ngày tháng rõ ràng.
 
-Nội dung được kiểm tra ngày 25 tháng 7 năm 2026. Báo sai nguồn, câu chữ dễ gây hại hoặc lỗi hiển thị tại #link("https://github.com/streamentry/streamentry/issues")[kênh sửa sai công khai]. Mỗi lần sửa giáo lý phải cập nhật sổ kiểm chứng, ngày kiểm tra và cả hai bản PDF, EPUB.
+Nội dung được kiểm tra ngày 26 tháng 7 năm 2026. Báo sai nguồn, câu chữ dễ gây hại hoặc lỗi hiển thị tại #link("https://github.com/streamentry/streamentry/issues")[kênh sửa sai công khai]. Mỗi lần sửa giáo lý phải cập nhật sổ kiểm chứng, ngày kiểm tra và cả hai bản PDF, EPUB.
