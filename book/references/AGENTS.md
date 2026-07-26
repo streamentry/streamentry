@@ -10,6 +10,7 @@ This folder holds the audit trail behind doctrinal and safety claims. It is the 
 - `editorial-depth-audit.md`: chapter-level check for under-explained mechanisms, procedures, and limits.
 - `publish-readiness-audit.md`: 80-item adapted CORE-EEAT scorecard; it records quality evidence but cannot establish market leadership.
 - `beginner-validation-protocol.md`: unassisted comprehension, safety, navigation, and EPUB-reader gates for true beginners.
+- `beginner-reader-kit.md`: facilitator script, scoring sheet, and EPUB smoke-test fields for the beginner-validation protocol.
 - K codes: Nikāya discourses.
 - V codes: *Visuddhimagga*.
 - P codes: Mahāsi works.

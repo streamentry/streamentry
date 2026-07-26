@@ -4,6 +4,8 @@ Checked: 2026-07-25
 
 This is the cheapest test that can disconfirm the claim that the handbook is ready for a true beginner. It tests comprehension and navigation, not spiritual attainment, clinical safety, or market leadership.
 
+Pair this protocol with [`beginner-reader-kit.md`](beginner-reader-kit.md). The kit gives the facilitator script, record sheet, and EPUB smoke-test fields so the same test can be run again without rebuilding the session from scratch.
+
 ## Participants
 
 - Recruit 5 Vietnamese readers who have completed no retreat and no more than 5 meditation sessions.
