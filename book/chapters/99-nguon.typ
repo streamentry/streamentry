@@ -256,7 +256,7 @@
 #reference-item(
   [K36],
   [Con đường đoạn năm hạ phần kiết sử, Majjhima Nikāya 64],
-  [Mô tả mỗi hạ phần kiết sử như một khuynh hướng đã thành thói, chưa được nhổ tận, có thể ám ảnh và chi phối tâm khi lối thoát chưa được thấy như thật.],
+  [Phân biệt khuynh hướng tiềm ẩn với kiết sử đang sinh khởi; khi hiện hành, kiết sử có thể ám ảnh và chi phối tâm, còn mạnh, chưa được nhổ tận, và lối thoát chưa được thấy như thật.],
   "https://suttacentral.net/mn64/en/bodhi",
 )
 

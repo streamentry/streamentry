@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "candidate_binding": "enclosing_clean_git_commit_plus_release_evidence",
+  "release_evidence": {
+    "path": "book/references/release-evidence.md",
+    "sha256": "5d89fadf5d7bc18f0caa6e872d4e54564d1752f4827d8d4603374c71968924ad"
+  },
+  "protocols": {
+    "external_release_packet": {
+      "path": "book/references/external-release-packet.md",
+      "sha256": "0b079a7329293f135121641773de188273d9534a5f3b08200da1af1934a47364"
+    },
+    "rights_decision": {
+      "path": "book/references/rights-decision-template.md",
+      "sha256": "c586875cc43d8a06fcbb6e2bb2cd0b7432eacd49e00890369e2805b7a9e134ca"
+    },
+    "doctrinal_review": {
+      "path": "book/references/doctrinal-review-protocol.md",
+      "sha256": "70422211ddd6cfa26527dda86f6756d4769242cd3b0a4e5c5460d5bbbb818db7"
+    },
+    "clinical_safety_review": {
+      "path": "book/references/clinical-safety-review-protocol.md",
+      "sha256": "473ed2e71eb1561a6378571f18507f743da5dedfd2e7b3177ef09bb661099e01"
+    },
+    "beginner_validation": {
+      "path": "book/references/beginner-validation-protocol.md",
+      "sha256": "7625126c6aee98439c7f9e20c7603cf6b33f84ae140b8f44c8b17bb6b2e1d256"
+    },
+    "beginner_reader_kit": {
+      "path": "book/references/beginner-reader-kit.md",
+      "sha256": "308b5d54ff04c9796a25b95cf5875be8aadc9889e7cff5dae39281c085fed121"
+    },
+    "comparative_beginner": {
+      "path": "book/references/comparative-beginner-protocol.md",
+      "sha256": "6637cd20035fc24d26e40fb12ffc0246351d5b8e3d3140484f40511a7e7e6ef6"
+    },
+    "public_evidence_policy": {
+      "path": "book/references/external-evidence/README.md",
+      "sha256": "c7b96f76938f726a7a70fa0161583a8591bcd6e1b43a198aafe7418250eb74e2"
+    }
+  },
+  "gates": {
+    "redistribution_rights": {
+      "status": "open",
+      "protocols": [
+        "rights_decision"
+      ],
+      "evidence": []
+    },
+    "doctrinal_review": {
+      "status": "open",
+      "protocols": [
+        "doctrinal_review"
+      ],
+      "evidence": []
+    },
+    "clinical_safety_review": {
+      "status": "open",
+      "protocols": [
+        "clinical_safety_review"
+      ],
+      "evidence": []
+    },
+    "beginner_cohort": {
+      "status": "open",
+      "protocols": [
+        "beginner_validation",
+        "beginner_reader_kit"
+      ],
+      "evidence": []
+    },
+    "epub_reader_app": {
+      "status": "open",
+      "protocols": [
+        "beginner_reader_kit"
+      ],
+      "evidence": []
+    },
+    "comparative_evidence": {
+      "status": "open",
+      "protocols": [
+        "comparative_beginner"
+      ],
+      "evidence": []
+    }
+  },
+  "permitted_claims": [
+    "internally_verified_dual_format_candidate"
+  ]
+}

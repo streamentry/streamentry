@@ -209,7 +209,7 @@
   [Nhất lai],
   [K10; K32],
   [
-    Bậc đã đoạn ba kiết sử đầu và làm mỏng tham, sân, si; theo khung tái sinh của kinh, còn trở lại thế giới này tối đa một lần trước khi chấm dứt khổ. “Làm mỏng” không có nghĩa dục tham và sân đã được đoạn như ở Bất lai.
+    Bậc đã đoạn ba kiết sử đầu và làm mỏng tham, sân, si; theo khung tái sinh của kinh, chỉ trở lại thế giới này một lần nữa rồi chấm dứt khổ. “Làm mỏng” không có nghĩa dục tham và sân đã được đoạn như ở Bất lai.
   ],
 )
 
@@ -218,9 +218,9 @@
 #term-card(
   [anāgāmī],
   [Bất lai, Bất hoàn],
-  [K10; K24; K32],
+  [K08; K10; K24; K32],
   [
-    Bậc đã đoạn năm hạ phần kiết sử nên không trở lại cõi dục theo vũ trụ quan kinh điển. Sự tạm lắng của dục hay sân trong định không đủ để xác nhận quả này.
+    Bậc đã đoạn năm hạ phần kiết sử. Đoạn Nādika của DN 16 nói vị ấy hóa sinh, đạt giải thoát hoàn toàn tại cảnh giới ấy và không trở lại từ đó. Cách nói rộng hơn “không trở lại cõi dục” thuộc lối giải thích vũ trụ quan Theravāda, không phải nguyên văn của đoạn kinh này. Sự tạm lắng của dục hay sân trong định không đủ để xác nhận quả.
   ],
 )
 

@@ -206,7 +206,7 @@
     + *Bảng kiết sử:* cách nói chính xác hơn là *ba kiết sử đầu*, không phải một danh sách riêng tên “ba hạ phần”. Ba kiết sử ấy là thân kiến, hoài nghi và chấp thủ giới-tập tục. Cộng thêm dục tham và sân thì thành *năm hạ phần kiết sử*.
     + *Bảng quả:* Nhập lưu, Nhất lai, Bất lai và A-la-hán là bốn quả Sa-môn.
 
-    Quan hệ giữa hai bảng là: Nhập lưu đoạn ba kiết sử đầu nhưng chưa đoạn dục tham và sân, nên một bậc Nhập lưu vẫn có thể còn tham hoặc giận. Nhất lai đã đoạn ba kiết sử ấy và làm mỏng tham, sân, si. Bất lai, còn gọi là Bất hoàn, đoạn đủ năm hạ phần kiết sử. A-la-hán đoạn tận các lậu hoặc.
+    Quan hệ giữa hai bảng là: Nhập lưu đoạn ba kiết sử đầu nhưng chưa đoạn dục tham và sân, nên một bậc Nhập lưu vẫn có thể còn tham hoặc giận. Nhất lai đã đoạn ba kiết sử ấy và làm mỏng tham, sân, si. “Làm mỏng” không phải vài ngày tạm yên, nhưng cũng chưa phải đoạn dục tham và sân như ở Bất lai. Bất lai, còn gọi là Bất hoàn, đoạn đủ năm hạ phần kiết sử. A-la-hán đoạn tận các lậu hoặc.
 
     Vì vậy, “hôm nay tôi không giận” không chứng minh Bất lai; sự tạm lắng không đồng nghĩa một kiết sử đã mất khả năng trở lại. Ngược lại, một cơn giận cũng không tự nó bác bỏ Nhập lưu, vì sân không nằm trong ba kiết sử đầu.
 

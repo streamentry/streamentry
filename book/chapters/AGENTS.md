@@ -16,6 +16,8 @@ Chapters carry the explanatory arc from a seven-day start through the full path,
 - Open each chapter by carrying forward the minimum prior idea and naming the next problem. Before a dense list, orient the reader; after it, state the usable synthesis.
 - Keep repeated warnings only when they add a threshold, decision rule, or source-boundary correction. Otherwise point to the full treatment.
 - When explaining attainment, keep the first three fetters, the full five lower fetters, and the four fruits distinct. Chapter 10 explains the first three; Chapter 11 places them inside the full five and maps the four fruits; Chapter 12 remains a later lineage-map reference. Stream-entry cuts the first three fetters; non-returning concerns the full five lower fetters; “sa-môn quả” names the four fruits, not one vague success state.
+- Keep temporary quiet, attenuation, and eradication visibly distinct. Exercises may expose a manifestation or train against its conditions, but they never diagnose that a fetter has been eradicated.
+- Preserve the source distinctions between `sakkāya` and `sakkāya-diṭṭhi`, latent tendency and an arisen fetter, and exact early-discourse wording versus later Theravāda cosmological glosses.
 
 ## Diagrams (Mermaid)
 

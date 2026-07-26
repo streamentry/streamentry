@@ -41,8 +41,12 @@ class BeginnerPilotV2CliTests(unittest.TestCase):
             self.assertEqual(result.returncode, 0, result.stderr)
             self.assertIn("Verdict: **PASS**", result.stdout)
             self.assertNotIn("iPhone 15", result.stdout)
-            self.assertNotIn("19.0", result.stdout)
+            self.assertIn("app `Books`", result.stdout)
+            self.assertIn("version `19.0`", result.stdout)
+            self.assertIn("text scale `150%`", result.stdout)
+            self.assertIn("dark mode `on`", result.stdout)
             self.assertIn("iOS/iPadOS device", result.stdout)
+            self.assertNotIn("reader-01", result.stdout)
 
     def test_output_write_failure_exits_two(self) -> None:
         with temp_artifact_repo() as ctx:

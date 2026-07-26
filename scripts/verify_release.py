@@ -7,6 +7,7 @@ import sys
 from pathlib import Path
 
 from beginner_pilot_artifact import sha256_file
+from external_release_gates import verify_external_release_gates
 from release_common import ReleaseVerificationError, require
 from release_epub import read_epub_facts
 from release_evidence import (
@@ -68,6 +69,7 @@ def verify_release(root: Path) -> ReleaseEvidence:
         epub.cover_entries == evidence.epub_cover_entries == 1,
         "EPUB must expose exactly one cover navigation entry",
     )
+    verify_external_release_gates(root, evidence)
     return evidence
 
 

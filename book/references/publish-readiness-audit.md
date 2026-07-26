@@ -2,7 +2,7 @@
 
 Checked: 2026-07-27
 
-The 80-item scoring is a static content review adapted from a web-oriented benchmark. The exact current checks are recorded in [`release-evidence.md`](release-evidence.md): the PDF has 126 A5 pages, the EPUB has 146 nested content entries plus one cover entry in its table of contents, EPUBCheck 5.3.0 reports 0 fatals, 0 errors, and 0 warnings, and DAISY Ace 1.4.6 reports no issue in the package or three XHTML documents. The 2026-07-27 beginner-flow work added first-use definitions, chapter handoffs, a source-bounded twelve-link guide, a four-region insight-map guide, a visual stop gate for beginners, a focused chapter on the first three fetters, a separate chapter on the full five lower fetters and four fruits, a causal bridge from the Four Noble Truths to the first three fetters, fixed scenario-level novice checks, six load-bearing glossary rescue entries, and a precommitted local emergency-action card. Those build facts do not replace human-reader or expert review.
+The 80-item scoring is a static content review adapted from a web-oriented benchmark. The exact current checks are recorded in [`release-evidence.md`](release-evidence.md): the PDF has 129 A5 pages, the EPUB has 146 nested content entries plus one cover entry in its table of contents, EPUBCheck 5.3.0 reports 0 fatals, 0 errors, and 0 warnings, and DAISY Ace 1.4.6 reports no issue in the package or three XHTML documents. The 2026-07-27 beginner-flow work added first-use definitions, chapter handoffs, a source-bounded twelve-link guide, a four-region insight-map guide, a visual stop gate for beginners, a focused chapter on the first three fetters, a separate chapter on the full five lower fetters and four fruits, a causal bridge from the Four Noble Truths to the first three fetters, fixed scenario-level novice checks, six load-bearing glossary rescue entries, and a precommitted local emergency-action card. The later release-operations pass added one external handoff, separate rights and clinical-review contracts, a machine-verified six-gate registry, and privacy-safe named EPUB environment evidence. Those internal controls do not replace the human decisions and tests.
 
 ## Overview
 
@@ -172,12 +172,12 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 
 ## Top five improvements by evidential value
 
-1. Obtain the rights holder's explicit decision on source-text permissions, licensing, and allowed PDF/EPUB distribution.
-2. Obtain a named, scoped doctrinal review under `doctrinal-review-protocol.md`, plus a separately qualified review of research and clinical-safety claims; publish what each reviewer checked, did not check, and disputed.
+1. Complete and sign `rights-decision-template.md`; the existence of the template and public repository does not establish authority or permission.
+2. Obtain a named, scoped doctrinal review under `doctrinal-review-protocol.md` and the separately qualified coverage defined in `clinical-safety-review-protocol.md`; publish what each reviewer checked, did not check, and disputed.
 3. Run `beginner-validation-protocol.md` with five unassisted true beginners, using the fixed eight-task rubric, two JSON schemas, deterministic scorer, a fresh public-history check, and an external append-only preregistration and attempt registry. Treat any safety, retreat, or insight-map failure as release-blocking.
-4. Smoke-test the final EPUB in at least one standards-based reader at 150% text size and dark mode; record app, version, device, and defects.
+4. Complete the counted EPUB test in a standards-based reader at 150% text size and dark mode; the aggregate report now exposes privacy-safe app, version, device class, scale and result evidence.
 5. Repair any novice failures, repeat with new readers, then run the preregistered comparative panel before making a market-leadership claim.
 
 ## Conclusion
 
-This is internally verified as a handbook and dual-format candidate bound by its enclosing clean commit and exact artifact hashes. It is not independently validated or top-1 proven. The strongest remaining work is rights clearance and external evidence, not more unsourced prose.
+This is internally verified as a handbook and dual-format candidate bound by its enclosing clean commit and exact artifact hashes. Its external work is now packaged and machine-indexed, but no external gate has been completed. It is not independently validated or top-1 proven. The strongest remaining work is executing rights clearance and external evidence, not more unsourced prose.

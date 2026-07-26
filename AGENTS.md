@@ -21,6 +21,10 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `book/references/editorial-depth-audit.md`: chapter-by-chapter test for harmful compression.
 - `book/references/publish-readiness-audit.md`: adapted 80-item publication scorecard.
 - `book/references/release-evidence.md`: exact candidate hashes, tool versions, verification scope, and open external gates.
+- `book/references/external-release-packet.md`: single operational handoff for rights, expert review, novice testing, human EPUB evidence, and bounded comparison.
+- `book/references/external-release-gates.json`: machine-readable external-gate and permitted-claims registry.
+- `book/references/rights-decision-template.md`: authority, asset, format, channel, commercial-scope, and third-party-rights decision record.
+- `book/references/clinical-safety-review-protocol.md`: independent clinical and research-safety reviewer contract.
 - `book/references/beginner-validation-protocol.md`: external novice and reader-app acceptance gates.
 - `book/references/comparative-beginner-protocol.md`: bounded comparison protocol for a fixed Vietnamese beginner panel.
 - `book/references/beginner-pilot-cohort-manifest.schema.json`: frozen cohort contract and ordered attempt ledger.
@@ -40,6 +44,8 @@ The canonical publication credit is `CS Chánh Niệm + ChatGPT`. Keep the cover
 Beginner readability is a publication contract, not a style preference. Define technical terms at first use, connect each conceptual section to the prior one, orient and synthesize dense lists, and keep appendices usable when opened directly. Internal editorial review may mark these gates complete, but only `book/references/beginner-validation-protocol.md` can support a claim of novice validation.
 
 For running the novice test, start with `book/references/beginner-reader-kit.md` and use it together with the protocol. Freeze the artifacts and ten-file scoring contract before attempt one, enumerate every started attempt in one authoritative manifest, and count only the first five completed eligible attempts among at most seven starts. Raw records stay under ignored `build/beginner-pilot/`; only the privacy-coarsened aggregate report is publishable. A local manifest cannot independently prove its registration time or terminal-attempt completeness; use an external append-only registry for that stronger claim.
+
+For external release work, start with `book/references/external-release-packet.md`. Treat `external-release-gates.json` as the status source and let `scripts/verify_release.py` check protocol hashes, evidence paths, artifact binding, cross-document status, and permitted claim enums. Machine verification cannot establish a signer's authority, a reviewer's competence, or the honesty of a study. Keep every gate open until that human evidence exists.
 
 When discussing attainment, use *the first three fetters*, not an invented standalone canonical list called “three lower fetters.” Keep that subset distinct from the full five lower fetters, the four fruits, and DN 2's broader discourse title. Chapter 10 explains the subset deeply; Chapter 11 supplies the wider classification.
 
@@ -87,6 +93,8 @@ flowchart TB
   M --> Q["Quality audits"]
   N["Frozen manifest and attempt records"] --> G["Deterministic pilot scorer"]
   G --> Q
+  X["External gate registry"] --> Q
+  R["Rights and expert-review evidence"] --> X
   H --> C
   A --> C
   H -. "claim codes" .-> L["references/claim-ledger.md"]
@@ -128,7 +136,8 @@ stateDiagram-v2
   Composed --> Rendered: PDF and EPUB compile
   Rendered --> Audited: defect or unsupported claim found
   Rendered --> InternallyVerified: structural and visual QA pass
-  InternallyVerified --> ExternallyValidated: novice and expert gates pass
+  InternallyVerified --> ReleasePacketReady: role-specific work orders frozen
+  ReleasePacketReady --> ExternallyValidated: rights, novice and expert gates pass
   InternallyVerified --> PilotFailed: novice gate fails
   PilotFailed --> Audited: correct wording and recruit a fresh cohort
   InternallyVerified --> [*]: candidate only
@@ -156,6 +165,8 @@ flowchart LR
   B --> R["Frozen manifest and pseudonymous attempt records"]
   R --> SC["Deterministic gate scorer"]
   SC --> AE["Aggregate evidence"]
+  AE --> X["External gate registry"]
+  ER["Rights and signed reviews"] --> X
   Q -. "corrections" .-> E
   V -. "corrections" .-> E
   B -. "comprehension failures" .-> E

@@ -7,24 +7,25 @@ Checked: 2026-07-27
 **Internally verified release candidate.** This record is valid only when read from the clean Git commit that contains it and when the artifact hashes below reproduce. The enclosing commit SHA is external metadata and is intentionally not embedded in this self-referential record.
 
 - Candidate binding: **the enclosing clean Git commit plus the exact artifact hashes below**
-- Independent Theravāda review: **NOT YET PERFORMED**
-- Independent clinical-safety review: **NOT YET PERFORMED**
-- Five-reader beginner cohort: **NOT YET PERFORMED**
-- Human EPUB reader-app smoke test: **NOT YET PERFORMED**
-- Comparative “top choice” evidence: **NOT ESTABLISHED**
-- Public redistribution rights: **NOT DOCUMENTED; the public repository has no explicit license or rights statement**
+- Machine-readable external gate registry: [`external-release-gates.json`](external-release-gates.json)
+- Public redistribution rights: **OPEN** — no explicit grant or rights statement is documented.
+- Independent Theravāda review: **OPEN** — no signed report for this candidate exists.
+- Independent clinical-safety review: **OPEN** — no signed report for this candidate exists.
+- Five-reader beginner cohort: **OPEN** — no scored external cohort exists.
+- Human EPUB reader-app smoke test: **OPEN** — no counted human reader-app record exists.
+- Comparative evidence: **OPEN** — no preregistered result supports a market comparison.
 
 ## Artifact identity
 
 | Item | Evidence |
 |---|---|
 | Immutable source SHA-256 | `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440` |
-| PDF SHA-256 | `c2fcd5ac3e9e80406c864dedb4c6b1ceb9bfb91155e8f14367e59de436ac4a9e` |
-| EPUB SHA-256 | `897313955fe16cb59859cac9928d12daa097276a969c92f18af581c6d2cd6ee6` |
-| PDF extent | 126 A5 pages |
-| PDF file size | 1,055,242 bytes |
+| PDF SHA-256 | `3dccd8ed246a48b561800b224717f2ed2c14cd4a6148b443cd86de34a190beb5` |
+| EPUB SHA-256 | `aeb0df58e185a4f3c08113bb59f4f29cb051f386884532c2e5bc59cfefd598f4` |
+| PDF extent | 129 A5 pages |
+| PDF file size | 1,074,244 bytes |
 | EPUB navigation | 146 nested content entries plus 1 cover entry |
-| EPUB archive size | 146,685 bytes |
+| EPUB archive size | 148,544 bytes |
 | Publication credit | `CS Chánh Niệm + ChatGPT` |
 
 Any content, theme, component, builder, or metadata change invalidates these hashes and requires this record to be regenerated.
@@ -57,9 +58,9 @@ The builder acknowledged 177 allowlisted Typst HTML-export warnings and rejected
 | DAISY Ace 1.4.6 | Pass | No issues in `cover.xhtml`, `nav.xhtml`, `book.xhtml`, or `package.opf`. |
 | Narrow-screen reflow | Pass | Headless viewport 320 × 568 CSS px, root font 24 px, dark mode on: root and body `scrollWidth` both 320; 0 overflow offenders. |
 | Dark-mode automated contrast | Pass | Minimum tested text contrast was 7.443:1. |
-| PDF metadata and tagging | Pass | `pdfinfo` reports Vietnamese title metadata, canonical author, tagged structure, 126 unrotated A5 pages, no encryption, no JavaScript, and no suspects; embedded text extraction preserves the focused Chapter 10, the new Chapter 11, and the renumbered Chapter 12 headings. |
-| PDF visual QA | Pass internally | All 126 pages were inspected in contact sheets, with full-size checks on the Chapter 10 close, the new Chapter 11 opener, 3–5–4 card, worked inference case, and Chapter 12 handoff. A one-line Chapter 10 spill page found in the first render was removed by tightening the closing sentence; the final render has no clipping, overlap, truncated badges, accidental blanks, duplicates, or broken hierarchy. |
-| Pilot schema, scorer, and release verifier | Pass internally | Both JSON Schema 2020-12 contracts meta-validate; 64 focused tests pass; Ruff and Python compilation pass. The scorer enforces the first five eligible completions among at most seven starts, terminal stopped-session sequencing, fixed stop reasons, distress-note erasure and vetoes, exact artifact and contract hashes, canonical-origin ancestry, recursive record discovery, reachable-history privacy, bounded likely-contact-data rejection, and strict retention bounds. |
+| PDF metadata and tagging | Pass | `pdfinfo` reports Vietnamese title metadata, canonical author, tagged structure, 129 unrotated A5 pages, no encryption, no JavaScript, and no suspects; embedded text extraction preserves the expanded Chapter 10, the five-lower-fetters and four-fruits Chapter 11, and the renumbered Chapter 12 headings. |
+| PDF visual QA | Pass internally | All 129 pages were inspected in six contact sheets, with full-size checks on the new Chapter 10 exercises and Mirror of the Dhamma warning, the Chapter 11 opener, 3–5–4 card, MN 64 distinction, DN 16 example, and the Chapter 12 handoff. The final render has no clipping, overlap, truncated badges, accidental blanks, duplicates, missing glyphs, or broken hierarchy. |
+| Pilot schema, scorer, and release verifier | Pass internally | Both JSON Schema 2020-12 contracts meta-validate; all 74 focused tests pass; Ruff, Python compilation, and `git diff --check` pass. The scorer enforces the first five eligible completions among at most seven starts, terminal stopped-session sequencing, fixed stop reasons, distress-note erasure and vetoes, exact artifact and contract hashes, canonical-origin ancestry, recursive record discovery, reachable-history privacy, bounded likely-contact-data rejection, and strict retention bounds. |
 | Source-integrity re-audit | Pass internally | Every used K01–K37, P01–P02, V01, and R01–R09 code resolves in the source map. Independent sub-agent adversarial reviews of doctrine, provenance, beginner clarity, code, and pilot privacy found no remaining material internal defect after corrections. These are internal reviews, not a named external Theravāda or clinical-safety sign-off. |
 
 The PDF was compiled with Typst's PDF/UA-1 enforcement and exposes the expected metadata, but no independent PDF/UA validator such as veraPDF was available. Therefore this record does **not** claim independent PDF/UA conformance.
@@ -68,11 +69,13 @@ The pilot scorer proves consistency of the files it receives. Its canonical-orig
 
 ## Open release gates
 
-1. Obtain the rights holder's explicit decision on copyright, licensing, source-text permissions, and allowed PDF/EPUB distribution. Do not infer a public redistribution grant from repository visibility.
-2. Run the independent doctrinal review defined in `doctrinal-review-protocol.md` against the enclosing commit and both hashes, plus a separately scoped review of research and clinical-safety claims by a qualified reviewer.
+Use [`external-release-packet.md`](external-release-packet.md) as the operational handoff. The JSON registry is the machine-readable status source; this list explains the work.
+
+1. Obtain the rights holder's explicit decision under `rights-decision-template.md` on copyright, licensing, source-text permissions, and allowed PDF/EPUB distribution. Do not infer a public redistribution grant from repository visibility.
+2. Run the independent doctrinal review defined in `doctrinal-review-protocol.md` and the separately scoped review defined in `clinical-safety-review-protocol.md` against the enclosing commit and both hashes.
 3. Run one five-reader unassisted beginner cohort using `beginner-validation-protocol.md`; verify the enclosing commit against fresh public canonical history, preregister through an external append-only registry, enumerate every started attempt, and publish only aggregate evidence.
 4. Run the required EPUB smoke test in a named standards-based reader at 150% text and dark mode. Automated Chromium reflow is useful evidence, not a substitute for this human reader-app gate.
 5. Repeat failed reader gates with a fresh cohort after corrections.
-6. Run `comparative-beginner-protocol.md` against the fixed named panel before using “top choice,” “best,” or “number one.”
+6. Freeze and externally register `comparative-beginner-protocol.md`, then run it against the named panel before making even the narrower named-panel first-use outperformance claim. The current draft does not authorize “top choice,” “best,” or “number one.”
 
 Until those gates close, the defensible description is: **a sourced, internally audited, dual-format candidate designed for Vietnamese beginners.**

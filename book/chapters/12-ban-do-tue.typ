@@ -106,7 +106,7 @@ Vì vậy, hai người nói “tuệ 12” có thể đang chỉ hai mục khá
 #caution(
   [ĐIỂM DỪNG CHO NGƯỜI MỚI],
   [
-    Nếu bạn đang ở những tuần hoặc tháng đầu, hãy dừng chương tại đây và quay về chương 1 đến chương 9. Phần dưới mô tả chi tiết các vùng tuệ trong P02; đọc tiếp quá sớm dễ khiến tâm chọn những dấu hiệu giống mình rồi bỏ qua dữ kiện không khớp. Chỉ dùng phần này như tài liệu tham chiếu khi đã có thực hành đủ đều, biết ngưỡng an toàn của chương 9 và có người hướng dẫn giúp kiểm tra diễn giải.
+    Nếu bạn đang ở những tuần hoặc tháng đầu, hãy dừng chương tại đây và quay về lộ trình chương 1 đến chương 11, nhất là phần thực hành căn bản, duyên khởi, an toàn và ba kiết sử đầu. Phần dưới mô tả chi tiết các vùng tuệ trong P02; đọc tiếp quá sớm dễ khiến tâm chọn những dấu hiệu giống mình rồi bỏ qua dữ kiện không khớp. Chỉ dùng phần này như tài liệu tham chiếu khi đã có thực hành đủ đều, biết ngưỡng an toàn của chương 9 và có người hướng dẫn giúp kiểm tra diễn giải.
   ],
 )
 
@@ -176,7 +176,7 @@ Tên này không đồng nghĩa với mất trí nhớ, ngất, ngủ gật hay 
 
 *9. Tuệ muốn giải thoát.* Khi không còn thấy các hành là nơi thỏa mãn, ước muốn thoát khỏi chúng nổi lên. P02 mô tả cả khó chịu thân và không muốn giữ một tư thế lâu. Tên “muốn giải thoát” không biến mọi thôi thúc bỏ việc, rời gia đình hoặc chấm dứt sự sống thành tuệ.
 
-*10. Tuệ quán xét lại.* Hành giả tiếp tục quan sát mạnh hơn; ba đặc tính hiện rõ, khía cạnh khổ có thể nổi bật, đau và bồn chồn có thể tăng. P02 khuyên tiếp tục ghi nhận và không đổi tư thế quá dễ dàng trong bối cảnh hành trì của tác phẩm. Lời ấy không bãi bỏ giới hạn an toàn của chương trước. Đau sắc, tê lan, yếu chi, chấn thương, mất ngủ hoặc suy giảm chức năng vẫn phải được xử lý theo nguy cơ.
+*10. Tuệ quán xét lại.* Hành giả tiếp tục quan sát mạnh hơn; ba đặc tính hiện rõ, khía cạnh khổ có thể nổi bật, đau và bồn chồn có thể tăng. P02 khuyên tiếp tục ghi nhận và không đổi tư thế quá dễ dàng trong bối cảnh hành trì của tác phẩm. Lời ấy không bãi bỏ giới hạn an toàn ở #link(<an-toan>)[chương 9]. Đau sắc, tê lan, yếu chi, chấn thương, mất ngủ hoặc suy giảm chức năng vẫn phải được xử lý theo nguy cơ.
 
 #practice-card(
   [Một bản trình pháp giả định qua vùng ba],
@@ -238,7 +238,7 @@ Các tên như đáng sợ, nguy hiểm, nhàm chán và muốn giải thoát m�
 #caution(
   [Đừng dùng bản đồ để phủ nhận bệnh],
   [
-    Khi mất ngủ, sợ hãi, mất tiếp xúc thực tại hoặc suy giảm chức năng kéo dài, hãy áp dụng ngưỡng an toàn của chương trước. Tên một tầng tuệ không phải chẩn đoán loại trừ. Nếu có nguy cơ cấp thời, xử lý nguy cơ trước rồi mới bàn bản đồ.
+    Khi mất ngủ, sợ hãi, mất tiếp xúc thực tại hoặc suy giảm chức năng kéo dài, hãy áp dụng ngưỡng an toàn ở #link(<an-toan>)[chương 9]. Tên một tầng tuệ không phải chẩn đoán loại trừ. Nếu có nguy cơ cấp thời, xử lý nguy cơ trước rồi mới bàn bản đồ.
   ],
 )
 

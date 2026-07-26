@@ -58,6 +58,27 @@ def _environment_counts(records: list[dict[str, Any]]) -> Counter[tuple[str, str
     )
 
 
+def _epub_environment_counts(
+    records: list[dict[str, Any]],
+) -> Counter[tuple[str, str, str, int, bool, bool]]:
+    rows: Counter[tuple[str, str, str, int, bool, bool]] = Counter()
+    for record in records:
+        smoke = record["epub_smoke"]
+        if not isinstance(smoke, dict):
+            continue
+        rows[
+            (
+                " ".join(smoke["reader_app"].split()),
+                " ".join(smoke["reader_app_version"].split()),
+                _device_class(smoke["device"]),
+                smoke["text_scale_percent"],
+                smoke["dark_mode"],
+                epub_smoke_passed(record),
+            )
+        ] += 1
+    return rows
+
+
 def _failure_misses(records: list[dict[str, Any]]) -> list[tuple[str, int]]:
     misses: list[tuple[str, int]] = []
     for task_id, criteria in TASK_CRITERIA.items():
@@ -169,6 +190,28 @@ def render(
             f"- Passing EPUB repeated-task and display records: `{smoke_count}/5`",
             "- Frozen section-finding prompt: "
             + _inline_code(manifest["epub_section_finding_prompt"]),
+        ]
+    )
+    for (
+        app,
+        version,
+        device,
+        scale,
+        dark_mode,
+        environment_passed,
+    ), count in sorted(_epub_environment_counts(records).items()):
+        lines.append(
+            f"- `{count}` record(s): app {_inline_code(app)}, "
+            f"version {_inline_code(version)}, device class {_inline_code(device)}, "
+            f"text scale `{scale}%`, dark mode `{'on' if dark_mode else 'off'}`, "
+            f"result `{'Pass' if environment_passed else 'Fail'}`"
+        )
+    lines.extend(
+        [
+            "",
+            "The EPUB environment summary intentionally omits reader codes, exact device "
+            "models, personalized device names, first answers, and free-text notes. A human "
+            "privacy review remains required before publication.",
             "",
             "## Limits",
             "",
