@@ -79,3 +79,37 @@ Nói gọn, “làm đúng” trong tuần đầu chỉ gồm ba việc: biết 
     Cảm giác khó chịu có thể là đối tượng quán sát; đau sắc, tê lan, yếu chi hoặc đau tăng sau buổi ngồi có thể báo hiệu tư thế không phù hợp. Hãy đổi tư thế có ý thức. Không có chỉ dẫn nào trong Kinh Niệm xứ yêu cầu gây tổn thương thân để chứng minh tinh tấn.
   ],
 )
+
+== Ngày 8 đến 30: giữ mạch, không vội tăng <ngay-8-30>
+
+#source-line("BIÊN SOẠN", [cầu nối tháng đầu, đối chiếu chương 7; chương 8; phụ lục A], [
+  Không nguồn kinh hay chỉ dẫn Mahāsi nào trong sách ấn định lịch ngày 8 đến ngày 30 dưới đây. Đây là cầu nối biên soạn giữa tuần đầu và lộ trình dài hơn: chỉ đổi một yếu tố mỗi lần, theo dõi tác động lên đời sống và để an toàn quyết định tốc độ.
+])
+
+#practice-card(
+  [Mặc định cho hai mươi ba ngày tiếp theo],
+  [
+    + *Ngày 8–14, giữ nguyên mức đã duy trì ổn.* Nếu tuần đầu chỉ giữ được năm phút, tiếp tục năm phút. Nếu mười lăm phút đã vừa sức, tiếp tục mười lăm phút. Ngồi thiền năm hoặc sáu ngày trong tuần; buổi bỏ lỡ không cần bù.
+
+    + *Ngày 15–21, chỉ đổi một yếu tố.* Nếu giấc ngủ, đau, công việc và quan hệ vẫn ổn, có thể thêm năm phút vào buổi ngồi *hoặc* thêm năm phút thiền hành. Không tăng cả hai trong cùng tuần. Nếu nền chưa ổn, giữ nguyên mức cũ.
+
+    + *Ngày 22–30, giữ mức vừa chọn.* Đừng tiếp tục tăng chỉ vì đã sang tuần mới. Chọn đúng một #link(<bon-diem-neo>)[điểm neo trong đời sống] và dùng nó mỗi ngày. Cuối tuần, mở #link(<ra-soat-tuan>)[mẫu rà soát bảy ngày] để giữ một điều hữu ích và sửa một điều gây vướng.
+
+    Ngày 30 không phải kỳ thi buộc bạn phải đạt hai mươi hay ba mươi phút. Mục tiêu của tháng đầu là tìm được một nhịp có thể sống cùng, không phải chạy kịp con số của người khác.
+  ],
+  label: [CẦU NỐI THÁNG ĐẦU · BIÊN SOẠN],
+)
+
+== Bốn quyết định thay cho việc cố chịu
+
+#check-row([Giữ nguyên.], [Thời khóa còn vừa với giấc ngủ và bổn phận; đau không tăng; bạn có thể nhận ra phóng tâm rồi trở về. Không cần tăng để chứng minh tiến bộ.])
+#v(6pt)
+#check-row([Chỉ tăng năm phút.], [Giữ mức cũ thêm ít nhất một tuần đã ổn, rồi chọn tăng tọa hoặc hành. Nếu chất lượng đời sống giảm, quay lại mức trước.])
+#v(6pt)
+#check-row([Giảm.], [Thời khóa bắt đầu lấy mất giấc ngủ, làm đau tăng, khiến công việc hay quan hệ xấu đi, hoặc tạo tâm thế săn tìm hiện tượng. Giảm về mức gần nhất từng ổn định.])
+#v(6pt)
+#check-row([Dừng tăng và tìm trợ giúp.], [Hoảng sợ lặp lại, mất ngủ nặng dần, cảm giác tách rời mình hay thực tại, khó phân biệt thực với không thực, hoặc suy giảm rõ sinh hoạt. Dừng buổi hiện tại và dùng #link(<an-toan>)[chương 9] để chọn mức hỗ trợ.])
+
+#v(9pt)
+
+Ngày cuối tháng, dùng #link(<ra-soat-thang>)[bốn câu rà soát tháng]. Nếu nhịp đang ổn, đọc chương 8 trước khi tăng tiếp. Nếu chưa ổn, lặp lại một tuần ở mức vừa sức là điều chỉnh đúng, không phải thất bại. Thước đo gần nhất vẫn là tính đều đặn, giới và khả năng bớt làm hại; nó không phải tầng tuệ hay thánh quả.

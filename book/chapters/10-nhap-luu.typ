@@ -17,6 +17,20 @@ Từ “dòng” dễ gợi một luồng năng lượng hay một khoảnh kh�
 
 Chương này chỉ giữ một trục: *ba kiết sử đầu*. Chương 11 sẽ đặt chúng vào nhóm năm hạ phần kiết sử và bốn quả Sa-môn. Tách hai việc ra giúp người mới hiểu từng mối trói trước khi học bảng phân loại.
 
+#practice-card(
+  [Ba kiết sử đầu bằng tiếng đời thường],
+  [
+    Nếu phải nói thật gọn cho người mới:
+
+    + *Thân kiến:* cứ lấy một phần của kinh nghiệm làm lõi “tôi” phải bảo vệ.
+    + *Hoài nghi:* chưa đứng vững vào con đường diệt khổ nên còn đứng ngoài mà dò xét.
+    + *Chấp thủ giới-tập tục:* tưởng rằng làm đúng hình thức thì tự nó sẽ sinh giải thoát.
+
+    Ba mối trói này chặn cửa Nhập lưu vì chúng làm lệch cả ba việc căn bản: thấy khổ cho đúng, tin con đường cho đúng và dùng phương tiện cho đúng. Phần dưới sẽ mở rộng từng điểm bằng nguồn kinh và ví dụ thực hành.
+  ],
+  label: [BẮC CẦU CHO NGƯỜI MỚI · BIÊN SOẠN THEO K11; K20],
+)
+
 == Dòng là Bát Thánh đạo <dong-bat-thanh-dao>
 
 #source-line("KINH", [K06 · SN 55.5], [Khi Sāriputta được hỏi “dòng là gì”, bài kinh trả lời đó chính là Bát Thánh đạo: chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm và chánh định. Người thành tựu đạo lộ ấy được gọi là bậc Nhập lưu.])
@@ -102,6 +116,16 @@ Tên Việt *thân kiến* dễ làm người mới tưởng đây chỉ là qua
 
 Với mỗi uẩn, bài kinh nêu bốn cách chấp: xem uẩn là tự ngã; xem tự ngã sở hữu uẩn; xem uẩn nằm trong tự ngã; hoặc xem tự ngã nằm trong uẩn. Năm uẩn nhân với bốn cách thành hai mươi. Người mới không cần học thuộc con số; cần nhận ra tâm đang đặt chữ “tôi” và “của tôi” vào đâu.
 
+#practice-card(
+  [Vì sao thân kiến chặn cửa Nhập lưu],
+  [
+    Khi còn lấy một uẩn làm lõi “tôi”, tâm sẽ bảo vệ nó như bảo vệ bản thân: cảm giác bị chạm thành “tôi bị xúc phạm”, ý kiến bị phản bác thành “tôi bị đe dọa”, trạng thái dễ chịu sắp mất thành “tôi sắp mất mình”.
+
+    Trong cấu trúc ấy, khổ không còn được thấy như một tiến trình có điều kiện. Nó bị đọc thành câu chuyện của một cái tôi đang bị tấn công hoặc phải được tôn lên. Vì vậy, tháo thân kiến không phải học một khẩu hiệu “không có tôi”, mà là thôi đặt năm uẩn vào địa vị lõi bất khả đụng tới.
+  ],
+  label: [GIẢI THÍCH THỰC HÀNH · BIÊN SOẠN THEO K20; K35],
+)
+
 #source-line("KINH", [K20 · MN 44], [
   MN 44 gọi năm thủ uẩn là *sakkāya*; bản K20 dịch thuật ngữ này là “self-identity”. Ở một câu hỏi tiếp theo, bài kinh phân tích *sakkāya-diṭṭhi*, tức thân kiến, qua bốn cách chấp quanh mỗi uẩn. Bài kinh nêu nguồn gốc của *sakkāya* là ái hướng đến khoái lạc giác quan, ái muốn tiếp tục hiện hữu và ái muốn không hiện hữu; sự chấm dứt là hết say đắm và buông bỏ chính ái ấy; con đường là Bát Thánh đạo. Ở một câu hỏi riêng khác, bài kinh nói dục và tham đối với năm thủ uẩn chính là chấp thủ ở đó. Người trả lời là Tôn giả ni Dhammadinnā.
 ])
@@ -158,6 +182,16 @@ Vì vậy, đoạn thân kiến sâu hơn một ý nghĩ thoáng qua “không c
 
 MN 2 nêu *vicikicchā* là kiết sử nhưng không cho một định nghĩa từ điển đầy đủ ngay tại câu ấy. Muốn hiểu nó mà không biến Phật pháp thành sự phục tùng, cần đọc cùng những phẩm chất được kinh dùng để mô tả bậc Nhập lưu: tịnh tín đã được xác chứng nơi Phật, Pháp, Tăng; giới hạnh vững; và trí thấy duyên khởi.
 
+#practice-card(
+  [Vì sao hoài nghi chặn cửa Nhập lưu],
+  [
+    Nhập lưu là *đi vào dòng*. Nếu tâm vẫn đứng ngoài để đòi một bảo đảm tuyệt đối trước khi chịu học, chịu sống giới hay chịu kiểm nghiệm con đường, thì chưa có chuyện “đi vào”.
+
+    Điểm này thường bị hiểu sai theo hai hướng. Một là cấm hỏi, biến tịnh tín thành phục tùng. Hai là tôn vinh trạng thái lửng lơ, nghĩ rằng cứ giữ quyền ngờ vực mãi đã là trí tuệ. Cả hai đều sai. Điều đối lập với kiết sử hoài nghi không phải mù quáng, mà là tịnh tín có căn cứ đủ để thật sự bước vào học và hành.
+  ],
+  label: [GIẢI THÍCH THỰC HÀNH · BIÊN SOẠN THEO K03; K09; K11],
+)
+
 #source-line("KINH", [K03 · SN 55.4; K09 · SN 12.41], [
   SN 55.4 nêu tịnh tín đã được xác chứng và giới hạnh của bậc Thánh. SN 12.41 đặt các phẩm chất ấy cạnh sự thấy rõ duyên khởi bằng trí tuệ. Đây là các phẩm chất hai bài kinh trực tiếp gắn với bậc Nhập lưu.
 ])
@@ -205,6 +239,16 @@ Hoài nghi còn xuất hiện trong danh sách năm triền cái ở chương 6.
 === 3. Chấp thủ giới-tập tục: không phải bỏ giới
 
 Cụm *sīlabbataparāmāsa* được dịch theo nhiều cách: giới cấm thủ, chấp thủ giới và nghi thức, hay chấp vào tập tục và cách thực hành. MN 2 nêu tên kiết sử nhưng không giải hết mọi sắc thái trong chính đoạn ấy. Điều có thể nói chắc nhất là: đoạn kiết sử này không thể có nghĩa vứt bỏ đạo đức, vì giới hạnh không rạn vỡ vẫn xuất hiện trong Gương Pháp của bậc Nhập lưu.
+
+#practice-card(
+  [Vì sao chấp thủ giới-tập tục chặn cửa Nhập lưu],
+  [
+    Con đường giải thoát đòi thấy nhân và quả. Chấp thủ giới-tập tục phá điểm này bằng cách tráo vị trí của phương tiện và cứu cánh. Người ấy không còn hỏi “điều này đang giúp giảm tham, sân, si thế nào?” mà hỏi “tôi đã làm đúng bài chưa, đúng nghi thức chưa, đủ số giờ chưa?”.
+
+    Khi hình thức được đối xử như bùa bảo chứng, tâm có thể rất chăm mà vẫn đi lạc. Nó bám vào cái dễ đếm thay vì cái phải chuyển hóa. Vì vậy, đoạn kiết sử này không có nghĩa bỏ giới hay bỏ kỹ thuật; nó có nghĩa trả giới, nghi thức và kỹ thuật về đúng vai trò phục vụ toàn bộ Bát Thánh đạo.
+  ],
+  label: [GIẢI THÍCH THỰC HÀNH · BIÊN SOẠN THEO K03; K08; K11],
+)
 
 #source-line("BIÊN SOẠN", [nghĩa làm việc, đối chiếu K03; K08; K11; K24], [
   Trong nghĩa làm việc của sách, điều bị tháo là cách nắm hình thức như thể hình thức tự nó đủ thanh tịnh và giải thoát. Một nghi lễ có thể nhắc tâm; một giới điều có thể ngăn hại; một tư thế có thể giữ thân ổn; một kỹ thuật ghi nhận có thể rèn niệm. Sai lầm bắt đầu khi người ta đổi “điều này hỗ trợ một chi của đường” thành “chỉ cần làm đúng hình thức này thì quả phải xảy ra”. Đây là cách giải thích có giới hạn, không phải câu định nghĩa nguyên văn của MN 2.

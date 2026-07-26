@@ -38,6 +38,9 @@
 #practice-card(
   [Thân và chuyển động],
   [
+    #source-badge("BIÊN SOẠN", refs: [dựa trên P01])
+    #v(5pt)
+
     *Cảm giác:* “nóng”, “lạnh”, “căng”, “rung”, “tê”, “ngứa”, “đau”, “nặng”, “nhẹ”
 
     *Thiền hành:* “nhấc”, “đưa”, “hạ”, “chạm”, “dồn”, “quay”
@@ -54,6 +57,9 @@
 #practice-card(
   [Thọ và tâm],
   [
+    #source-badge("BIÊN SOẠN", refs: [dựa trên K01; P01])
+    #v(5pt)
+
     *Sắc thái cảm giác:* “dễ chịu”, “khó chịu”, “trung tính”
 
     *Trạng thái tâm:* “tham”, “bực”, “sợ”, “lo”, “buồn”, “vui”, “chán”, “nghi”, “buồn ngủ”, “bồn chồn”
@@ -68,6 +74,9 @@
 #practice-card(
   [Sáu cửa và suy nghĩ],
   [
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu K01; P01])
+    #v(5pt)
+
     “Sáu cửa” là mắt, tai, mũi, lưỡi, thân và ý. Năm cửa đầu nhận cảnh giác quan; cửa ý nhận ý nghĩ, ký ức, hình ảnh tâm và các đối tượng tâm khác.
 
     *Giác quan:* “thấy”, “nghe”, “ngửi”, “nếm”, “chạm”
@@ -84,6 +93,9 @@
 #practice-card(
   [Ý định],
   [
+    #source-badge("BIÊN SOẠN", refs: [dựa trên P01])
+    #v(5pt)
+
     Có thể dùng “muốn” kèm một động từ: “muốn gãi”, “muốn nói”, “muốn đứng”, “muốn tránh”. Chỉ ghi khi ý định thực sự được nhận ra. Đừng dựng thêm một ý định trong tưởng tượng để làm đúng bài.
   ],
   label: [Ý ĐỊNH · CETANĀ],

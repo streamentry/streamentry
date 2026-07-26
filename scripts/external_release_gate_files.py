@@ -138,3 +138,16 @@ def evidence_status(markdown: str) -> str:
         "external evidence must contain exactly one Gate status line",
     )
     return matches[0].lower()
+
+
+def evidence_role(markdown: str) -> str:
+    matches = re.findall(
+        r"^Evidence role:\s*([a-z0-9_]+)\s*$",
+        markdown,
+        flags=re.MULTILINE,
+    )
+    require(
+        len(matches) == 1,
+        "external evidence must contain exactly one Evidence role line",
+    )
+    return matches[0]

@@ -57,7 +57,7 @@
       li { margin: 0.38rem 0; }
       a { color: var(--saffron); }
       .cover { min-height: 70vh; display: flex; flex-direction: column; justify-content: center; text-align: center; }
-      .cover-kicker, .eyebrow, .chapter-number { font-family: Arial, sans-serif; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
+      .cover-kicker, .eyebrow, .chapter-number { font-family: Arial, sans-serif; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
       .cover h1 { margin: 1rem 0; font-size: 2.6rem; }
       .cover-subtitle, .chapter-deck { color: var(--muted); }
       .cover-author { margin-top: 1.8rem; color: var(--forest); font-weight: 700; }
@@ -68,7 +68,7 @@
       .chapter-opener h1, .chapter-opener h2 { margin-top: 0.45rem; }
       .chapter-deck { font-family: Arial, sans-serif; font-size: 0.98rem; max-width: 38rem; }
       .provenance { margin: 1rem 0 1.6rem; }
-      .source-badge { display: inline-block; margin: 0.1rem 0.25rem 0.1rem 0; padding: 0.16rem 0.42rem; border: 0.06rem solid currentColor; border-radius: 0.22rem; font-family: Arial, sans-serif; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.05em; }
+      .source-badge { display: inline-block; margin: 0.1rem 0.25rem 0.1rem 0; padding: 0.18rem 0.46rem; border: 0.06rem solid currentColor; border-radius: 0.22rem; font-family: Arial, sans-serif; font-size: 0.76rem; font-weight: 700; letter-spacing: 0.035em; }
       .source-kinh { color: var(--forest); }
       .source-mahasi, .source-caution { color: var(--clay); }
       .source-thanh-tinh-dao { color: var(--saffron); }
@@ -87,7 +87,7 @@
       .day-card { margin: 1rem 0; padding: 0.75rem 0; border-bottom: 0.06rem solid var(--rule); }
       .day-number { display: inline-block; min-width: 1.6rem; margin-right: 0.45rem; padding: 0.15rem; border-radius: 50%; color: var(--paper); background: var(--saffron); text-align: center; font-family: Arial, sans-serif; font-weight: 700; }
       .day-title { font-weight: 700; }
-      .day-duration { margin-left: 0.45rem; color: var(--saffron); font-family: Arial, sans-serif; font-size: 0.75rem; }
+      .day-duration { margin-left: 0.45rem; color: var(--saffron); font-family: Arial, sans-serif; font-size: 0.8rem; }
       .check-row { margin: 0.55rem 0; padding-left: 1.25rem; }
       .check-row::before { content: '□'; margin-left: -1.25rem; margin-right: 0.35rem; color: var(--forest); }
       .reference-item { margin: 0.8rem 0; padding-bottom: 0.65rem; border-bottom: 0.06rem solid var(--rule); }

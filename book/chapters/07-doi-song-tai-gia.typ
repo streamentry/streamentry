@@ -25,7 +25,11 @@ Trong giờ thiền, đi chậm giúp nhận ra các pha của chuyển động.
   Chọn vài điểm neo có thể giữ lâu. Đừng cố ghi nhận từng chi tiết từ sáng đến tối. Sự cố sức quá mức dễ làm tâm căng, giảm khả năng làm việc và khiến người thân phải gánh phần bất tiện do pháp hành của ta.
 ])
 
-== Bốn điểm neo đủ dùng
+== Bốn điểm neo đủ dùng <bon-diem-neo>
+
+#source-line("BIÊN SOẠN", [bốn điểm neo, đối chiếu K01; P01], [
+  Bốn điểm neo dưới đây là cách sách chọn vài sinh hoạt đã có trong Kinh Niệm xứ và chỉ dẫn Mahāsi rồi đặt vào một ngày sống hiện đại. K01 và P01 không ấn định đúng bốn thời điểm, số miếng ăn hay câu hỏi thầm này.
+])
 
 #practice-card(
   [Lúc vừa thức dậy],
@@ -78,13 +82,16 @@ Một cách thực tế là đặt ba lần dừng trong ngày: trước công v
 #practice-card(
   [Năm câu hỏi trước khi ngủ],
   [
+    #source-badge("BIÊN SOẠN")
+    #v(5pt)
+
     - Hôm nay giới nào được giữ vững, giới nào sứt mẻ?
     - Tôi đã nhận ra một cảm xúc trước khi nó thành lời hay hành động chưa?
     - Lúc nào tôi biết mình đang phóng tâm và trở lại được?
     - Có ai phải chịu thêm khó khăn vì cách tôi thực hành không?
     - Ngày mai tôi sẽ giữ một điểm neo nào?
   ],
-  label: [TỰ KIỂM],
+  label: [TỰ KIỂM · BIÊN SOẠN],
 )
 
 #v(8pt)

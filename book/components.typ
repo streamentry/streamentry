@@ -2,7 +2,7 @@
 
 #let eyebrow(label, fill: palette.muted) = text(
   font: fonts.sans,
-  size: 7pt,
+  size: 7.4pt,
   weight: 650,
   tracking: 0.15em,
   fill: fill,
@@ -156,14 +156,14 @@
     )[
       #text(
         font: fonts.sans,
-        size: 6.5pt,
+        size: 7pt,
         weight: 700,
         tracking: 0.08em,
         fill: color,
       )[#kind]
       #if refs != none [
         #h(4pt)
-        #text(font: fonts.sans, size: 6.5pt, fill: color)[#refs]
+        #text(font: fonts.sans, size: 7pt, fill: color)[#refs]
       ]
     ]
   }

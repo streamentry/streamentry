@@ -23,6 +23,7 @@ Each gate report must include:
 
 ```text
 Gate status: PASSED | FAILED
+Evidence role: <canonical_role>
 Candidate commit: <40 lowercase hex>
 PDF SHA-256: <64 lowercase hex>
 EPUB SHA-256: <64 lowercase hex>
@@ -31,4 +32,6 @@ Signer or verifiable public confirmation:
 What this evidence does not establish:
 ```
 
-Use one descriptive filename such as `doctrinal-review-2026-08-15.md`. A passed or failed gate must list every public evidence file in the registry. The machine verifier checks paths, hashes and candidate binding. A human steward still verifies identity, qualifications, authority, signature, confidentiality and substantive findings.
+The `Evidence role:` line must appear exactly once and must match the registry item. Canonical roles are gate-specific: `rights_decision`; `doctrinal_review_report`; `clinical_safety_review_report`; `aggregate_report`; `preregistration_receipt`; `public_history_confirmation`; `privacy_review_confirmation`; `reader_app_report`; `comparative_results`.
+
+Use one descriptive filename per evidence role such as `doctrinal-review-2026-07-15.md`. A passed or failed gate must list every public evidence file in the registry with its `path`, `sha256`, and `role`. Unsupported roles, duplicate singleton roles, reused file paths, stale hashes, or one generic file pretending to close multiple roles are rejected. The machine verifier checks paths, hashes, candidate binding, role lines, and required-role coverage. A human steward still verifies identity, qualifications, authority, signature, confidentiality and substantive findings.

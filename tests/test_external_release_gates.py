@@ -17,6 +17,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 
 from external_release_gates import (  # noqa: E402
     EXPECTED_PROTOCOLS,
+    GATE_EVIDENCE_RULES,
     REGISTRY_PATH,
     RELEASE_EVIDENCE_PATH,
     _derived_claims,
@@ -61,11 +62,19 @@ class ExternalReleaseGateTests(unittest.TestCase):
         status: str,
         candidate_commit: str,
         extra_status_line: str = "",
+        evidence_roles: list[str] | None = None,
+        evidence_role_line_by_role: dict[str, str] | None = None,
+        evidence_path_by_role: dict[str, str] | None = None,
     ) -> None:
         release_path = root / RELEASE_EVIDENCE_PATH
         release_text = release_path.read_text(encoding="utf-8")
         label_by_gate = {
+            "redistribution_rights": "Public redistribution rights",
             "doctrinal_review": "Independent Theravāda review",
+            "clinical_safety_review": "Independent clinical-safety review",
+            "beginner_cohort": "Five-reader beginner cohort",
+            "epub_reader_app": "Human EPUB reader-app smoke test",
+            "comparative_evidence": "Comparative evidence",
         }
         label = label_by_gate[gate_id]
         release_text = release_text.replace(
@@ -77,33 +86,40 @@ class ExternalReleaseGateTests(unittest.TestCase):
         registry["release_evidence"]["sha256"] = _sha256(release_path)
 
         release = parse_release_evidence(release_text)
-        evidence_path = (
-            root
-            / "book"
-            / "references"
-            / "external-evidence"
-            / f"{gate_id}.md"
-        )
-        evidence_path.write_text(
-            "\n".join(
-                [
-                    f"Gate status: {status.upper()}",
-                    extra_status_line,
-                    f"Candidate commit: {candidate_commit}",
-                    f"PDF SHA-256: {release.pdf_sha256}",
-                    f"EPUB SHA-256: {release.epub_sha256}",
-                    "",
-                ]
-            ),
-            encoding="utf-8",
+        roles = evidence_roles or sorted(
+            GATE_EVIDENCE_RULES[gate_id]["required_singletons"]
+            | GATE_EVIDENCE_RULES[gate_id]["required_at_least_one"]
         )
         registry["gates"][gate_id]["status"] = status
-        registry["gates"][gate_id]["evidence"] = [
-            {
-                "path": evidence_path.relative_to(root).as_posix(),
-                "sha256": _sha256(evidence_path),
-            }
-        ]
+        registry["gates"][gate_id]["evidence"] = []
+        role_line_by_role = evidence_role_line_by_role or {}
+        path_by_role = evidence_path_by_role or {}
+        for index, role in enumerate(roles, start=1):
+            filename = path_by_role.get(role, f"{gate_id}-{index}.md")
+            evidence_path = (
+                root / "book" / "references" / "external-evidence" / filename
+            )
+            evidence_path.write_text(
+                "\n".join(
+                    [
+                        f"Gate status: {status.upper()}",
+                        role_line_by_role.get(role, f"Evidence role: {role}"),
+                        extra_status_line,
+                        f"Candidate commit: {candidate_commit}",
+                        f"PDF SHA-256: {release.pdf_sha256}",
+                        f"EPUB SHA-256: {release.epub_sha256}",
+                        "",
+                    ]
+                ),
+                encoding="utf-8",
+            )
+            registry["gates"][gate_id]["evidence"].append(
+                {
+                    "path": evidence_path.relative_to(root).as_posix(),
+                    "sha256": _sha256(evidence_path),
+                    "role": role,
+                }
+            )
         registry["permitted_claims"] = _derived_claims(registry["gates"])
 
     def test_current_registry_matches_protocols_and_release_status(self) -> None:
@@ -191,8 +207,8 @@ class ExternalReleaseGateTests(unittest.TestCase):
             registry_path = root / REGISTRY_PATH
             registry_path.write_text(
                 registry_path.read_text(encoding="utf-8").replace(
-                    '"schema_version": 1,',
-                    '"schema_version": 1, "schema_version": 1,',
+                    '"schema_version": 2,',
+                    '"schema_version": 2, "schema_version": 2,',
                     1,
                 ),
                 encoding="utf-8",
@@ -253,6 +269,188 @@ class ExternalReleaseGateTests(unittest.TestCase):
                 self.assertRaisesRegex(ReleaseVerificationError, "exactly one"),
             ):
                 verify_external_release_gates(root, release)
+
+    def test_rejects_unsupported_evidence_role_for_gate(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root, _release = self._fixture(directory)
+            registry = self._registry(root)
+            current_commit = "1" * 40
+            self._terminal_gate(
+                root,
+                registry,
+                gate_id="doctrinal_review",
+                status="passed",
+                candidate_commit=current_commit,
+                evidence_roles=["rights_decision"],
+            )
+            self._write_registry(root, registry)
+            release = parse_release_evidence(
+                (root / RELEASE_EVIDENCE_PATH).read_text(encoding="utf-8")
+            )
+            with (
+                patch(
+                    "external_release_gates._current_git_candidate",
+                    return_value=current_commit,
+                ),
+                self.assertRaisesRegex(
+                    ReleaseVerificationError, "unsupported for gate"
+                ),
+            ):
+                verify_external_release_gates(root, release)
+
+    def test_rejects_missing_required_roles_for_beginner_cohort(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root, _release = self._fixture(directory)
+            registry = self._registry(root)
+            current_commit = "1" * 40
+            self._terminal_gate(
+                root,
+                registry,
+                gate_id="beginner_cohort",
+                status="passed",
+                candidate_commit=current_commit,
+                evidence_roles=["aggregate_report"],
+            )
+            self._write_registry(root, registry)
+            release = parse_release_evidence(
+                (root / RELEASE_EVIDENCE_PATH).read_text(encoding="utf-8")
+            )
+            with (
+                patch(
+                    "external_release_gates._current_git_candidate",
+                    return_value=current_commit,
+                ),
+                self.assertRaisesRegex(ReleaseVerificationError, "missing required"),
+            ):
+                verify_external_release_gates(root, release)
+
+    def test_rejects_duplicate_singleton_roles(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root, _release = self._fixture(directory)
+            registry = self._registry(root)
+            current_commit = "1" * 40
+            self._terminal_gate(
+                root,
+                registry,
+                gate_id="beginner_cohort",
+                status="passed",
+                candidate_commit=current_commit,
+                evidence_roles=[
+                    "aggregate_report",
+                    "aggregate_report",
+                    "preregistration_receipt",
+                    "public_history_confirmation",
+                    "privacy_review_confirmation",
+                ],
+            )
+            self._write_registry(root, registry)
+            release = parse_release_evidence(
+                (root / RELEASE_EVIDENCE_PATH).read_text(encoding="utf-8")
+            )
+            with (
+                patch(
+                    "external_release_gates._current_git_candidate",
+                    return_value=current_commit,
+                ),
+                self.assertRaisesRegex(
+                    ReleaseVerificationError, "duplicate singleton roles"
+                ),
+            ):
+                verify_external_release_gates(root, release)
+
+    def test_rejects_reused_evidence_path(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root, _release = self._fixture(directory)
+            registry = self._registry(root)
+            current_commit = "1" * 40
+            self._terminal_gate(
+                root,
+                registry,
+                gate_id="clinical_safety_review",
+                status="passed",
+                candidate_commit=current_commit,
+                evidence_roles=[
+                    "clinical_safety_review_report",
+                    "clinical_safety_review_report",
+                ],
+                evidence_path_by_role={
+                    "clinical_safety_review_report": "clinical-shared.md",
+                },
+            )
+            self._write_registry(root, registry)
+            release = parse_release_evidence(
+                (root / RELEASE_EVIDENCE_PATH).read_text(encoding="utf-8")
+            )
+            with (
+                patch(
+                    "external_release_gates._current_git_candidate",
+                    return_value=current_commit,
+                ),
+                self.assertRaisesRegex(
+                    ReleaseVerificationError, "cannot close more than one gate"
+                ),
+            ):
+                verify_external_release_gates(root, release)
+
+    def test_rejects_mismatched_evidence_role_line(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root, _release = self._fixture(directory)
+            registry = self._registry(root)
+            current_commit = "1" * 40
+            self._terminal_gate(
+                root,
+                registry,
+                gate_id="doctrinal_review",
+                status="passed",
+                candidate_commit=current_commit,
+                evidence_role_line_by_role={
+                    "doctrinal_review_report": "Evidence role: rights_decision"
+                },
+            )
+            self._write_registry(root, registry)
+            release = parse_release_evidence(
+                (root / RELEASE_EVIDENCE_PATH).read_text(encoding="utf-8")
+            )
+            with (
+                patch(
+                    "external_release_gates._current_git_candidate",
+                    return_value=current_commit,
+                ),
+                self.assertRaisesRegex(
+                    ReleaseVerificationError, "Evidence role contradicts"
+                ),
+            ):
+                verify_external_release_gates(root, release)
+
+    def test_allows_multiple_clinical_reports_with_the_same_role(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root, _release = self._fixture(directory)
+            registry = self._registry(root)
+            current_commit = "1" * 40
+            self._terminal_gate(
+                root,
+                registry,
+                gate_id="clinical_safety_review",
+                status="passed",
+                candidate_commit=current_commit,
+                evidence_roles=[
+                    "clinical_safety_review_report",
+                    "clinical_safety_review_report",
+                ],
+            )
+            self._write_registry(root, registry)
+            release = parse_release_evidence(
+                (root / RELEASE_EVIDENCE_PATH).read_text(encoding="utf-8")
+            )
+            with patch(
+                "external_release_gates._current_git_candidate",
+                return_value=current_commit,
+            ):
+                verified = verify_external_release_gates(root, release)
+            self.assertEqual(
+                verified["gates"]["clinical_safety_review"]["status"],
+                "passed",
+            )
 
     def test_comparative_claim_requires_the_defined_beginner_gate(self) -> None:
         gates = {

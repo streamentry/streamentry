@@ -1,14 +1,14 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "candidate_binding": "enclosing_clean_git_commit_plus_release_evidence",
   "release_evidence": {
     "path": "book/references/release-evidence.md",
-    "sha256": "5d89fadf5d7bc18f0caa6e872d4e54564d1752f4827d8d4603374c71968924ad"
+    "sha256": "16e4bcfa156cbe294bb7808bb3e9802ef05016b0c5dc84c86691576896f2154b"
   },
   "protocols": {
     "external_release_packet": {
       "path": "book/references/external-release-packet.md",
-      "sha256": "0b079a7329293f135121641773de188273d9534a5f3b08200da1af1934a47364"
+      "sha256": "9bf71c2f3f71b366353ac9d3d7157656351bfd72b5ef045dbc996cc70f50dee6"
     },
     "rights_decision": {
       "path": "book/references/rights-decision-template.md",
@@ -36,7 +36,7 @@
     },
     "public_evidence_policy": {
       "path": "book/references/external-evidence/README.md",
-      "sha256": "c7b96f76938f726a7a70fa0161583a8591bcd6e1b43a198aafe7418250eb74e2"
+      "sha256": "486f651bef46477b01d3868a388f382c5ad3854b96654b497c8e7fdf0ccc5335"
     }
   },
   "gates": {

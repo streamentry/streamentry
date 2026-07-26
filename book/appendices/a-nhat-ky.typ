@@ -70,7 +70,7 @@
 
 #pagebreak()
 
-== Nhìn lại sau bảy ngày
+== Nhìn lại sau bảy ngày <ra-soat-tuan>
 
 #check-row([Mạch thực hành.], [Tôi đã hành ........ trong 7 ngày. Không cộng thời gian để che một ngày đã bỏ.])
 #v(6pt)
@@ -96,7 +96,7 @@
   label: [RÀ SOÁT TUẦN],
 )
 
-== Nhìn lại cuối tháng
+== Nhìn lại cuối tháng <ra-soat-thang>
 
 #practice-card(
   [Bốn câu hỏi có ích],
