@@ -208,6 +208,39 @@
 
 #v(7pt)
 
+#term-card(
+  [kāmacchanda · kāmarāga],
+  [dục tham, sự trói buộc bởi dục giác quan],
+  [K24; K36; K37],
+  [
+    AN 10.13 và phần liệt kê đầu MN 64 dùng *kāmacchanda*; MN 64 cũng dùng *kāmarāga* khi mô tả trạng thái đang chi phối tâm. Sách gom hai cách dùng này dưới từ Việt “dục tham” trong bản đồ năm hạ phần. Một đối tượng giác quan, thọ dễ chịu hay lựa chọn tiện nghi chưa tự là kiết sử; SN 41.1 đặt mối trói ở dục và tham sinh lên dựa vào sự gặp gỡ giữa giác quan và đối tượng.
+  ],
+)
+
+#v(7pt)
+
+#term-card(
+  [byāpāda],
+  [sân, ác ý],
+  [K24; K36],
+  [
+    Mối trói mang hướng chống đối thù nghịch và gây hại trong nhóm năm hạ phần. Thọ khó chịu, nhận ra nguy hiểm, rời khỏi nơi bị bạo hành hoặc đặt một ranh giới chắc chắn chưa tự là *byāpāda*. Một phản ứng đơn lẻ cũng không đủ xác định mối trói đang hiện hành hay đã được đoạn.
+  ],
+)
+
+#v(7pt)
+
+#term-card(
+  [magga · phala],
+  [đạo · quả],
+  [K32; K33; K39],
+  [
+    Trong nghĩa căn bản của chương 11, *đạo* là đường tu và *quả* là kết quả đã thành tựu. SN 45.35 xác định Bát Thánh đạo là đời sống Sa-môn rồi nêu bốn quả. Ud 5.5 và SN 48.18 còn phân biệt người đang thực hành để chứng một quả với người đã thành tựu quả ấy. Cách phân tích đạo-quả theo chuỗi sát-na ở chương 12 thuộc hệ thống luận giải Theravāda; không được tự động gán cho mọi cách dùng hai từ trong kinh sớm.
+  ],
+)
+
+#v(7pt)
+
 #practice-card(
   [Tên quả khác tên người thành tựu quả],
   [
@@ -226,9 +259,9 @@
 #term-card(
   [sāmaññaphala],
   [Sa-môn quả, quả của đời sống Sa-môn],
-  [K32; K34],
+  [K32; K34; K40],
   [
-    Tùy ngữ cảnh, cụm này có hai phạm vi. Trong SN 45.35, nó chỉ bốn quả giải thoát: Nhập lưu, Nhất lai, Bất lai và A-la-hán. Trong DN 2, nó nằm trong tựa một bài kinh hỏi rộng hơn về các kết quả có thể thấy của đời sống xuất gia, rồi triển khai cả một lộ trình huấn luyện đi đến đoạn tận lậu hoặc. Vì vậy, “bốn quả Sa-môn” và “Kinh Sa-môn quả” có liên hệ nhưng không đồng nghĩa hoàn toàn.
+    Tùy ngữ cảnh, cụm này có hai phạm vi. SN 45.35 xác định Bát Thánh đạo là đời sống Sa-môn rồi nêu bốn quả giải thoát: Nhập lưu, Nhất lai, Bất lai và A-la-hán; SN 45.36 gọi đoạn tận tham, sân, si là đích của đời sống ấy. Trong DN 2, cụm này nằm trong tựa một bài kinh hỏi rộng hơn về các kết quả có thể thấy của đời sống xuất gia, rồi triển khai cả một lộ trình huấn luyện đi đến đoạn tận lậu hoặc. Vì vậy, “bốn quả Sa-môn” và “Kinh Sa-môn quả” có liên hệ nhưng không đồng nghĩa hoàn toàn.
   ],
 )
 
@@ -284,17 +317,6 @@
   [K10; K11; K32; K34],
   [
     Bậc đã đoạn tận các lậu hoặc và hoàn tất công việc giải thoát trong khung giáo lý của kinh. Đây là quả cuối trong bốn quả Sa-môn, không phải nhãn chung cho người ngồi thiền lâu năm.
-  ],
-)
-
-#v(7pt)
-
-#term-card(
-  [sāmaññaphala],
-  [quả của đời sống Sa-môn],
-  [K32; K34],
-  [
-    SN 45.35 dùng số nhiều cho bốn quả: Nhập lưu, Nhất lai, Bất lai và A-la-hán. DN 2, thường gọi là Kinh Sa-môn quả, hỏi rộng hơn về những kết quả thấy được của đời sống xuất gia và trình bày cả một tiến trình huấn luyện. Hai cách dùng liên hệ nhưng không hoàn toàn thay thế nhau.
   ],
 )
 

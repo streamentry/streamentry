@@ -46,7 +46,7 @@ Phần này cố tình đọc chậm hơn phần thực hành. Người mới kh
   [
     1. *Trước buổi đầu:* đọc chương 1, rồi đọc #link(<an-toan>)[các ngưỡng dừng ở chương 9]. Thực hành lịch bảy ngày ở mức vừa sức.
 
-    2. *Sau tuần đầu:* dùng #link(<ngay-8-30>)[cầu nối ngày 8 đến ngày 30] trong chương 1, đồng thời đọc xong chương 2 đến chương 7 để đặt kỹ thuật vào giới, Bát Chánh Đạo, Tứ Niệm Xứ, duyên khởi và đời sống tại gia. Sau đó, đọc chương 10 theo thẻ “Đường đọc lần đầu” để hiểu sâu ba kiết sử đầu. Chỉ sang chương 11 khi, với từng kiết sử, bạn có thể nêu một ví dụ, một điều dễ nhầm nhưng không phải, giải thích vì sao một biểu hiện đơn lẻ hay sự vắng mặt tạm thời đều không chứng minh kiết sử còn hay đã đoạn, và nói một hướng tu an toàn mà không tự chấm quả. Hai chương giải thích đích đến của tên sách nhưng không phải bảng tự phong cấp.
+    2. *Sau tuần đầu:* dùng #link(<ngay-8-30>)[cầu nối ngày 8 đến ngày 30] trong chương 1, đồng thời đọc xong chương 2 đến chương 7 để đặt kỹ thuật vào giới, Bát Chánh Đạo, Tứ Niệm Xứ, duyên khởi và đời sống tại gia. Sau đó đọc chương 10 theo thẻ “Đường đọc lần đầu”. Nếu ba kiết sử đầu còn lẫn vào nhau, hãy dừng ở chương 10 và dùng phần thuật ngữ hoặc FAQ để đọc lại. Chương 11 chỉ mở rộng bản đồ sang năm hạ phần kiết sử và bốn quả; nó không phải kỳ thi, cũng không phải bảng tự phong cấp.
 
     3. *Trước khi tăng mạnh thời lượng hoặc đi khóa:* đọc chương 8 và #link(<an-toan>)[chương 9], kiểm tra sức khỏe, người hướng dẫn và quyền rời khóa.
 

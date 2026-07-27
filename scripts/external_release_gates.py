@@ -13,6 +13,7 @@ from external_release_gate_files import (
     evidence_cohort_binding,
     evidence_completed,
     evidence_counted_record_sha256s,
+    evidence_generated_report_passed,
     evidence_limit,
     evidence_public_confirmation,
     evidence_role,
@@ -278,6 +279,12 @@ def _validate_evidence(
     evidence_completed(markdown)
     evidence_public_confirmation(markdown)
     evidence_limit(markdown)
+    generated_report_passed = evidence_generated_report_passed(markdown, role)
+    if generated_report_passed is not None:
+        require(
+            generated_report_passed == (status == "passed"),
+            f"{label} machine-visible report verdict contradicts the registry",
+        )
     commit_matches = re.findall(
         r"^Candidate commit:\s*`?([0-9a-f]{40})`?\s*$",
         markdown,
