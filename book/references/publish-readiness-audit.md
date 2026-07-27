@@ -8,6 +8,16 @@ The PDF path now has a second, generator-independent machine gate: checksum-pinn
 
 A validation-design audit found that the two densest novice tasks could be delivered as one-shot oral paragraphs, which would confound book comprehension with prompt memory and moderator behavior. The frozen reader kit now displays every task verbatim in writing, permits unlimited rereading and scratch notes, removes time pressure except from the explicitly timed start route, and forbids paraphrases, definitions, decomposition into easier oral questions or reminders of omitted components. Three session fields record actual delivery. The deterministic scorer fails the cohort unless all five counted readers received written prompts, could reread them and received no follow-up cue. This improves construct validity; it does not supply the still-missing human results.
 
+A subsequent handoff audit found a separate contamination path: the coordinator
+ZIP itself contains the frozen rubric, schemas and scorer, but its guide did not
+explicitly forbid sending those materials to pilot readers. The guide and
+assignment forms are now fully usable in Vietnamese and mark the full packet as
+operator-only. The protocol and reader kit restrict readers to the candidate
+book, consent material and current written prompt. A required eligibility field
+records pre-answer rubric exposure, and the scorer refuses to count an exposed
+attempt. This protects the meaning of a future pass; it does not authenticate
+the moderator or replace external custody.
+
 ## Overview
 
 - **Content**: *Hướng Đến Nhập Lưu*

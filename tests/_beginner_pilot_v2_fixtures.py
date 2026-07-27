@@ -149,6 +149,7 @@ def build_record(
     age_18_or_over: bool = True,
     participated_in_prior_book_pilot: bool = False,
     seen_tested_passages_before: bool = False,
+    rubric_seen_before_first_answers: bool = False,
 ) -> dict[str, Any]:
     started_at = started_at or iso_at(attempt_number, 9)
     completed_at = completed_at or iso_at(attempt_number, 10)
@@ -166,6 +167,7 @@ def build_record(
         "age_18_or_over": age_18_or_over,
         "participated_in_prior_book_pilot": participated_in_prior_book_pilot,
         "seen_tested_passages_before": seen_tested_passages_before,
+        "rubric_seen_before_first_answers": rubric_seen_before_first_answers,
     }
     if not eligible:
         eligibility["experienced_buddhist"] = True

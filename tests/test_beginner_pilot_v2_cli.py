@@ -781,6 +781,31 @@ class BeginnerPilotV2CliTests(unittest.TestCase):
             self.assertEqual(result.returncode, 2)
             self.assertIn("passage", result.stderr.lower())
 
+    def test_rejects_reader_exposed_to_the_rubric_before_first_answers(self) -> None:
+        with temp_artifact_repo() as ctx:
+            payloads = [
+                build_record(
+                    "reader-01",
+                    ctx["artifact"],
+                    attempt_number=1,
+                    rubric_seen_before_first_answers=True,
+                ),
+                build_record("reader-02", ctx["artifact"], attempt_number=2),
+                build_record("reader-03", ctx["artifact"], attempt_number=3),
+                build_record("reader-04", ctx["artifact"], attempt_number=4),
+                build_record("reader-05", ctx["artifact"], attempt_number=5),
+            ]
+            manifest_path, _, _ = write_manifest_case(
+                ctx["repo_root"],
+                artifact=ctx["artifact"],
+                pdf_path=ctx["pdf_path"],
+                epub_path=ctx["epub_path"],
+                payloads=payloads,
+            )
+            result = run_cli(manifest_path)
+            self.assertEqual(result.returncode, 2)
+            self.assertIn("rubric exposure", result.stderr.lower())
+
     def test_rejects_delete_by_beyond_completed_plus_ninety_days(self) -> None:
         with temp_artifact_repo() as ctx:
             payloads = [

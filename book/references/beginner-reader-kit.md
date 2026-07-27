@@ -33,6 +33,14 @@ Record only a non-personal device model or class plus operating-system version, 
 
 The moderator must not explain Buddhist terms, point to pages, complete an answer, praise a direction, or signal that an answer is correct. A neutral request for the sentence or section used is part of the task, not a hint.
 
+Keep the operator materials blinded. Do not send the coordinator packet,
+protocol, schemas, scorer, rubric, criteria flags, completed records, or prior
+results to a reader before that reader has completed every first answer. The
+reader may use the exact candidate book, the invitation and consent text, and
+the written prompt currently on screen. If the reader has already seen a task's
+rubric or pass criteria, record the start but do not count it; begin no
+replacement outside the preregistered attempt order.
+
 ## Freeze the cohort before attempt one
 
 Before recruitment:

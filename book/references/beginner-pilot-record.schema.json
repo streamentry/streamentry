@@ -73,6 +73,7 @@
         "read_book_before",
         "participated_in_prior_book_pilot",
         "seen_tested_passages_before",
+        "rubric_seen_before_first_answers",
         "experienced_buddhist",
         "is_editor",
         "is_source_reviewer"
@@ -96,6 +97,7 @@
         "read_book_before": { "type": "boolean" },
         "participated_in_prior_book_pilot": { "type": "boolean" },
         "seen_tested_passages_before": { "type": "boolean" },
+        "rubric_seen_before_first_answers": { "type": "boolean" },
         "experienced_buddhist": { "type": "boolean" },
         "is_editor": { "type": "boolean" },
         "is_source_reviewer": { "type": "boolean" }

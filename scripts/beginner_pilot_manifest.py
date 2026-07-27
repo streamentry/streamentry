@@ -354,6 +354,8 @@ def load_cohort(manifest_path: Path, now: datetime | None = None) -> Cohort:
                 reasons.add("prior pilot participation")
             if item["seen_tested_passages_before"] is not False:
                 reasons.add("seen tested passages")
+            if item["rubric_seen_before_first_answers"] is not False:
+                reasons.add("rubric exposure before first answers")
             if not reasons:
                 reasons.add("other eligibility rule")
         detail = ", ".join(sorted(reasons))

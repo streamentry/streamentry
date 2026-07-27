@@ -16,7 +16,7 @@ each failure names one contract.
 - `test_editorial_policy.py`: public-policy, reader-surface, structured-correction-form, privacy-boundary, and honest T02/T05 audit regressions.
 - `test_chapter_12_contract.py`: all seventeen stage headings, the six-part stages 1–11 explanation, the front-loaded four-level conclusion distinction, three-axis/non-numeric maturation model, worked hypothesis interview, one-object walkthrough, and late-sequence evidential limits.
 - `test_chapter_10_contract.py`: the direct “who can attain?” answer, DN 16's monastic/lay and male/female examples, and the possibility-versus-guarantee boundary.
-- Beginner-pilot runtime and CLI tests require written visible prompts, allowed rereading, no moderator follow-up cues, and a scorer-level cohort failure when that delivery contract is violated.
+- Beginner-pilot runtime and CLI tests require written visible prompts, allowed rereading, no moderator follow-up cues, no pre-answer rubric exposure, and a scorer-level cohort rejection when either delivery or blinding is violated.
 - `release_verifier_fixtures.py`: shared synthetic Markdown, PDFInfo, OPF, XHTML, and EPUB fixtures.
 - `test_release_evidence.py`: visible-table parsing plus immutable hash and canonical-credit anchors against the explicitly supplied edition.
 - `test_release_pdf.py`: metadata, encryption, all-page size, and rotation regressions.
@@ -27,7 +27,7 @@ each failure names one contract.
 - `test_rights_inventory_contract.py`: exact schema-v1 source/PDF/EPUB binding plus stale, duplicate, and malformed inventory regressions.
 - `test_rights_decision_contract.py`: direct passed/failed rights-summary contract plus stale binding, unauthorized format, unresolved contributor/third-party, open-item, and contradictory-decision regressions.
 - `rights_decision_fixtures.py`: one shared complete rights-summary fixture for direct and external-gate integration tests.
-- `test_external_review_packet.py`: deterministic ZIP, candidate and assignment binding, required attainment-audit and rights-inventory handoffs, explicit non-evidence boundary, checksum tamper detection, duplicate-path rejection, clean-worktree enforcement, and repository-path containment.
+- `test_external_review_packet.py`: deterministic ZIP, candidate and assignment binding, required attainment-audit and rights-inventory handoffs, Vietnamese coordinator guidance, participant/rubric separation, explicit non-evidence boundary, checksum tamper detection, duplicate-path rejection, clean-worktree enforcement, and repository-path containment.
 - Existing `test_beginner_pilot*.py` files retain the novice-cohort privacy and scoring contract, including dual scorer output: five counted hashes in the aggregate report and one matching hash in the `--epub-evidence-output` reader-app report.
 - When an intentional chapter or layout change alters the tracked PDF extent, update the integration expectation only after rebuilding both artifacts and updating `release-evidence.md`; do not change synthetic parser fixtures merely to mirror the current book.
 

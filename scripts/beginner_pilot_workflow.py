@@ -121,6 +121,7 @@ def create_attempt_draft(
             "read_book_before": None,
             "participated_in_prior_book_pilot": None,
             "seen_tested_passages_before": None,
+            "rubric_seen_before_first_answers": None,
             "experienced_buddhist": None,
             "is_editor": None,
             "is_source_reviewer": None,

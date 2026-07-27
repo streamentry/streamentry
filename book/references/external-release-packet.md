@@ -22,6 +22,13 @@ Gói này chỉ giảm lỗi sao chép và bàn giao. Việc tạo gói không x
 tính, thẩm quyền, năng lực, tính độc lập hoặc chữ ký; không chứng minh dữ liệu
 đầy đủ; không làm bất kỳ cổng nào được thông qua.
 
+Gói đầy đủ là tài liệu của người điều phối, không phải tài liệu phát cho người
+tham gia cohort. Nó chứa rubric, schema và scorer. Với cổng người mới hoặc thử
+ứng dụng EPUB, người tham gia chỉ nhận đúng PDF hoặc EPUB ứng viên, lời mời và
+đồng thuận, rồi từng câu hỏi nguyên văn theo bộ công cụ người đọc. Nếu họ đã xem
+rubric hay tiêu chí đạt trước câu trả lời đầu tiên, phải ghi nhận lần bắt đầu ấy
+nhưng không được tính vào cohort.
+
 Sổ đăng ký dùng schema v3. Commit khóa ứng viên có thể đứng trước commit nộp bằng chứng: nó phải là tổ tiên của commit bằng chứng và phải chứa đúng từng byte PDF và EPUB được ghi trong hồ sơ phát hành. `release-evidence.md` có thể được cập nhật ở commit sau; không được dùng việc đó để thay ứng viên đã thật sự đưa cho người phản biện hoặc người đọc.
 
 ## 1. Khóa đúng ứng viên trước khi giao việc
