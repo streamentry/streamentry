@@ -105,3 +105,17 @@ Hãy rời xa nơi nào có một trong các dấu hiệu sau:
 == Nhịp bền vững sau năm đầu
 
 Giữ một thời khóa hằng ngày vừa sức, sinh hoạt với thiện hữu, đọc nguồn căn bản và đi khóa khi điều kiện chín. Nếu tăng cường độ, hãy tăng từng phần và theo dõi giấc ngủ, khả năng làm việc, quan hệ cùng sức khỏe thân. Tiến bộ không được mua bằng sự đổ vỡ mà ta gọi nhầm là tinh tấn.
+
+#practice-card(
+  [Gấp sách lại: ba quyết định trước khi tăng],
+  [
+    1. Nếu nhịp tháng đầu vừa gãy, đừng nhảy vào lịch mười hai tháng. Trở về #link(<khoi-dong-lai>)[mức gần nhất từng ổn] hoặc mức sàn năm phút, rồi giữ nguyên đến lần rà soát kế tiếp.
+
+    2. Nếu một khóa không nói rõ quy trình cấp cứu, quyền giảm thời khóa và quyền rời khóa, hoặc bảo đảm đạo quả, đừng đăng ký. Một lịch dày không bù được một cấu trúc thiếu an toàn.
+
+    3. Nếu người hướng dẫn ép chịu đau, nhịn ngủ, ngừng thuốc, che giấu triệu chứng hoặc phục tùng cá nhân, hãy rời khỏi quan hệ hướng dẫn ấy và tìm hỗ trợ phù hợp. Danh hiệu tâm linh không miễn trừ trách nhiệm.
+
+    Ba quyết định này không đo mức tiến bộ. Chúng kiểm tra liệu việc tăng cường độ có còn phục vụ giới, sức khỏe và đời sống hay không.
+  ],
+  label: [GẤP SÁCH LẠI · BIÊN SOẠN],
+)

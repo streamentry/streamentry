@@ -107,6 +107,7 @@ For beginner-facing prose, apply these gates before building:
 3. Every dense list has an orientation before it and a synthesis, example, or action after it.
 4. A first-use route must expose the next physical action, its local stop condition, and one direct fallback without forcing the reader through a distant chapter. Keep one canonical restart protocol and use short pointers elsewhere.
 5. In safety and decision passages, give each observable trigger or action its own list item. Treat sentence length as a review signal, not an automatic defect; preserve a long paragraph when its source-bound explanation is coherent and each inference remains visible.
+6. Close each explanatory chapter with either a short closed-book retrieval card or an explicit real-world decision block. Test the central distinction and next action, not vocabulary recall or attainment status. Repeat safety thresholds locally when a distant lookup could delay action.
 
 The glossary is a reference aid, not permission to leave the main reading path opaque.
 

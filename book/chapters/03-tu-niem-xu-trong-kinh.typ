@@ -121,3 +121,18 @@ Khi bốn góc nhìn đã rõ, câu hỏi kế tiếp là phản ứng thành kh
 #modern-note([
   Khi đọc các chương kỹ thuật tiếp theo, hãy giữ hai câu hỏi cùng lúc: “Chỉ dẫn này giúp tôi thấy điều gì?” và “Chỉ dẫn này đến từ nguồn nào?”. Câu thứ nhất bảo vệ thực hành khỏi khô cứng. Câu thứ hai bảo vệ lời Phật khỏi bị mượn danh.
 ])
+
+#practice-card(
+  [Gấp sách lại: một việc, bốn góc nhìn],
+  [
+    Chọn một việc thật vừa xảy ra, chẳng hạn nghe một lời chê. Không mở lại phần trên, hãy kể riêng:
+
+    1. *Thân:* hiện tượng nào ở thân được biết trực tiếp?
+    2. *Thọ:* kinh nghiệm có vị dễ chịu, khó chịu hay trung tính?
+    3. *Tâm:* cái biết đang nhuốm bởi tham, sân, si, co rút hay tán loạn không?
+    4. *Pháp:* nhóm pháp nào trong MN 10 giúp thấy chức năng và điều kiện của việc ấy?
+
+    Nếu cả bốn câu đều chỉ được trả lời bằng một chữ “cảm xúc”, bạn vẫn đang gộp bốn góc nhìn. Hãy đọc lại ví dụ một việc, bốn nền; mục tiêu là đổi góc nhìn trên cùng một kinh nghiệm, không bịa ra bốn kinh nghiệm khác nhau.
+  ],
+  label: [GẤP SÁCH LẠI · BIÊN SOẠN],
+)
