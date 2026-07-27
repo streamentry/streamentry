@@ -13,7 +13,8 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `book/theme.typ`: A5 print rules plus reflowable HTML CSS selected through `target()`. Use left binding with mirrored 22 mm inside and 14 mm outside margins for the perfect-bound edition.
 - `book/components.typ`: target-aware source badges, chapter openers, practice cards, cautions, and reference blocks. Keep source badges above, not inline with, cited prose; preserve a quiet gap below provenance blocks.
 - `book/chapters/`: editorial chapters.
-- `book/chapters/01-bay-ngay.typ`: seven-day start plus the explicitly editorial days 8–30 bridge and its hold, increase, reduce, and stop decisions.
+- `book/chapters/01-bay-ngay.typ`: safe first-sit route, seven-day start, explicitly editorial days 8–30 bridge, and the canonical restart path after ordinary interruption.
+- `book/chapters/04-duyen-khoi.typ`: action-first feeling-to-craving drill followed by the source-bounded full twelve-link map; never collapse the latter into the former.
 - `book/chapters/10-nhap-luu.typ`: focused beginner explanation of the first three fetters and the canonical criteria surrounding Stream-entry.
 - `book/chapters/11-ha-phan-va-sa-mon-qua.typ`: separate 3–5–4 map for the five lower fetters, four fruits, four pairs/eight persons, and DN 2.
 - `book/chapters/12-ban-do-tue.typ`: later-reference insight map; never use it as a beginner self-diagnostic ladder.
@@ -42,7 +43,7 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 
 The canonical publication credit is `CS Chánh Niệm + ChatGPT`. Keep the cover, PDF metadata, and README synchronized.
 
-Beginner readability is a publication contract, not a style preference. Define technical terms at first use, connect each conceptual section to the prior one, orient and synthesize dense lists, and keep appendices usable when opened directly. Internal editorial review may mark these gates complete, but only `book/references/beginner-validation-protocol.md` can support a claim of novice validation.
+Beginner readability is a publication contract, not a style preference. Define technical terms at first use, connect each conceptual section to the prior one, orient and synthesize dense lists, and keep appendices usable when opened directly. The first-sit route must expose its local stop conditions and label lookup without forcing a full safety-chapter detour; the full safety chapter remains mandatory before intensification. Keep one canonical restart protocol in Chapter 1 and link to it briefly elsewhere. Internal editorial review may mark these gates complete, but only `book/references/beginner-validation-protocol.md` can support a claim of novice validation.
 
 For running the novice test, start with `book/references/beginner-reader-kit.md` and use it together with the protocol. Freeze the artifacts and ten-file scoring contract before attempt one, enumerate every started attempt in one authoritative manifest, and count only the first five completed eligible attempts among at most seven starts. Raw records stay under ignored `build/beginner-pilot/`; only the privacy-coarsened aggregate and reader-app reports are publishable. A local manifest cannot independently prove its registration time or terminal-attempt completeness; use an external append-only registry for that stronger claim.
 
@@ -69,7 +70,7 @@ Do not impersonate the Buddha, fabricate quotations, or turn a retreat schedule,
 flowchart LR
   A["Source manuscript"] --> B["Doctrinal claim audit"]
   B --> C["Six-class provenance"]
-  C --> D["Chapter modules, including month-one bridge"]
+  C --> D["Chapter modules, including safe start and restart"]
   D --> E["Typst composition"]
   E --> F["PDF render, grayscale, and print QA"]
   E --> H["Semantic HTML target"]

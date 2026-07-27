@@ -4,7 +4,7 @@
 #v(7mm)
 #eyebrow([PHỤ LỤC B], fill: palette.saffron)
 #v(4mm)
-= Nhãn tham chiếu
+= Nhãn tham chiếu <nhan-tham-chieu>
 
 #text(font: fonts.sans, size: 9.5pt, fill: palette.muted)[
   Nhãn là lời nhắc ngắn để nhận ra kinh nghiệm. Nó không thay thế cảm giác đang được biết.

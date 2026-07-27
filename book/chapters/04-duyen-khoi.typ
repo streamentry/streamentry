@@ -18,6 +18,28 @@ Chương trước phân biệt thọ với toàn bộ cảm xúc. Chương này 
   [Phỏng dịch công thức duyên khởi trong K26 · SN 12.2 và K27 · SN 12.44.],
 )
 
+== Thử trước khi học bản đồ
+
+#practice-card(
+  [Nhận, phân, thấy, không nuôi, chọn],
+  [
+    *1. Nhận cửa.* “Vừa nghe”, “vừa thấy”, “vừa nghĩ” hay “đang chạm”.
+
+    *2. Phân thọ.* “Dễ chịu”, “khó chịu” hoặc “trung tính”. Nếu chưa rõ, biết “chưa rõ”; đừng đoán để hoàn thành bài.
+
+    *3. Thấy hướng nghiêng.* Có muốn giữ, xua, tê đi, chứng minh, trả đũa hay tìm kích thích khác không?
+
+    *4. Không tiếp nhiên liệu trong một nhịp.* Không lặp câu chuyện, không vội nhấn gửi, không cố ép thọ biến mất. Cảm nhận thọ và phản ứng như hai dữ kiện có điều kiện.
+
+    *5. Chọn hành động hợp Pháp.* Im lặng, nói rõ nhưng không gây hại, rời tình huống, đổi tư thế, hoàn thành bổn phận hoặc tìm trợ giúp. “Không ái” không đồng nghĩa bất động.
+  ],
+  label: [BÀI TẬP · BIÊN SOẠN THEO K01; K28; K29; K30],
+)
+
+Ví dụ: một thông báo hiện lên khi bạn đang làm việc. Thấy màn hình là dữ kiện ở cửa mắt; thọ dễ chịu hoặc khó chịu xuất hiện; tâm muốn mở ngay, giữ cảm giác được chú ý hoặc xua nỗi bất an. Bạn chưa cần tuyên bố đã “cắt ái”. Chỉ cần thấy hướng nghiêng, không bồi thêm câu chuyện trong một nhịp, rồi chọn mở vì thật sự cần hoặc trở lại việc đang làm.
+
+Năm nhịp này là giàn giáo học tập, không phải năm sát-na tâm trong kinh. Khi niệm còn yếu, người đọc có thể chỉ kịp thấy sau khi đã phản ứng. Lần thấy muộn ấy vẫn có giá trị nếu được dùng để nhận diện điều kiện cho lần sau, thay vì biến thành tự trách. Bài tập chỉ phóng gần đoạn *xúc → thọ → ái → thủ*; phần tiếp theo đặt đoạn ấy trở lại trong mười hai chi đầy đủ.
+
 == Mười hai chi đang nói về điều gì?
 
 #source-line("KINH", [K26 · SN 12.2, Vibhaṅga Sutta], [
@@ -161,26 +183,6 @@ Danh sách trên là sự tổng hợp chức năng từ các chi đạo, không
   ],
   label: [MINH HỌA · BIÊN SOẠN THEO K01; K05; K31],
 )
-
-== Một quy trình năm nhịp tại thọ
-
-#practice-card(
-  [Nhận, phân, thấy, không nuôi, chọn],
-  [
-    *1. Nhận cửa.* “Vừa nghe”, “vừa thấy”, “vừa nghĩ” hay “đang chạm”.
-
-    *2. Phân thọ.* “Dễ chịu”, “khó chịu” hoặc “trung tính”. Nếu chưa rõ, biết “chưa rõ”; đừng đoán để hoàn thành bài.
-
-    *3. Thấy hướng nghiêng.* Có muốn giữ, xua, tê đi, chứng minh, trả đũa hay tìm kích thích khác không?
-
-    *4. Không tiếp nhiên liệu trong một nhịp.* Không lặp câu chuyện, không vội nhấn gửi, không cố ép thọ biến mất. Cảm nhận thọ và phản ứng như hai dữ kiện có điều kiện.
-
-    *5. Chọn hành động hợp Pháp.* Im lặng, nói rõ nhưng không gây hại, rời tình huống, đổi tư thế, hoàn thành bổn phận hoặc tìm trợ giúp. “Không ái” không đồng nghĩa bất động.
-  ],
-  label: [BÀI TẬP · BIÊN SOẠN THEO K01; K28; K29; K30],
-)
-
-Năm nhịp này là giàn giáo học tập, không phải năm sát-na tâm trong kinh. Khi niệm còn yếu, người đọc có thể chỉ kịp thấy sau khi đã phản ứng. Lần thấy muộn ấy vẫn có giá trị nếu được dùng để nhận diện điều kiện cho lần sau, thay vì biến thành tự trách.
 
 == Ba trường hợp cụ thể
 

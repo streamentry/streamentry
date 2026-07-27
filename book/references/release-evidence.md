@@ -20,12 +20,12 @@ Checked: 2026-07-27
 | Item | Evidence |
 |---|---|
 | Immutable source SHA-256 | `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440` |
-| PDF SHA-256 | `f0b7eff84f2dba52b11572d7281bb551b07e9d37c8578afce550cbce4fa17223` |
-| EPUB SHA-256 | `1dc581b1325a3197347e225839a8c3a187536500a3d924cdd1c5cebf563b512a` |
-| PDF extent | 148 A5 pages |
-| PDF file size | 1,219,320 bytes |
-| EPUB navigation | 153 nested content entries plus 1 cover entry |
-| EPUB archive size | 160,785 bytes |
+| PDF SHA-256 | `abdaeb8dd9a36edf365c7726e734e8a47ce6ad33ba8bd7b1af2062c579230305` |
+| EPUB SHA-256 | `17cf98b80940c3835b428bcf9e0ca3c90b94e6f8d227eea509848a9855405ca7` |
+| PDF extent | 149 A5 pages |
+| PDF file size | 1,239,646 bytes |
+| EPUB navigation | 155 nested content entries plus 1 cover entry |
+| EPUB archive size | 162,416 bytes |
 | Publication credit | `CS Chánh Niệm + ChatGPT` |
 
 Any content, theme, component, builder, or metadata change invalidates these hashes and requires this record to be regenerated.
@@ -58,10 +58,10 @@ The builder acknowledged 197 allowlisted Typst HTML-export warnings and rejected
 | DAISY Ace 1.4.6 | Pass | The pinned CLI completed with `--exiterror2`; no issues were found in `cover.xhtml`, `nav.xhtml`, `book.xhtml`, or `package.opf`. Its cached headless Chrome required an unsandboxed local launch; Publication CI repeated the same pinned check successfully in its isolated runner. |
 | Narrow-screen reflow | Pass | Headless viewport 320 × 568 CSS px, root font 24 px, dark mode on: root and body `scrollWidth` both 320; no rendered box crossed the viewport. |
 | Dark-mode automated contrast | Pass | Minimum tested text contrast was 7.443:1. |
-| PDF metadata and tagging | Pass | `pdfinfo` reports Vietnamese title metadata, canonical author, tagged structure, 148 unrotated A5 pages, no encryption, no JavaScript, and no suspects; embedded text extraction preserves “Ba câu hỏi, ba mối trói,” the latent-versus-arisen distinction, the one-page 3–5–4 map, the Once-returner versus Non-returner contrast, and the optional deep-reading section. |
-| PDF visual QA | Pass internally | All 148 pages were inspected in six contact sheets. Full-size checks covered the revised Chapter 10 opener, learning outcomes, three-question model, shared Four Noble Truths bridge, Chapter 11 opener, one-page 3–5–4 map, complete five-fetter card, sensual-desire example, plain four-fruit map, Once-returner versus Non-returner contrast, self-check, and deep-reading handoff. The final render has no clipping, overlap, truncated badges, accidental blanks, duplicate glossary entry, missing glyphs, or broken hierarchy. |
+| PDF metadata and tagging | Pass | `pdfinfo` reports Vietnamese title metadata, canonical author, tagged structure, 149 unrotated A5 pages, no encryption, no JavaScript, and no suspects; embedded text extraction preserves the safe first-sit anchor, canonical restart route, action-first feeling-to-craving drill, immediate safety shortcut, deep first-three-fetter explanation, 3–5–4 map, and optional insight-map handoff. |
+| PDF visual QA | Pass internally | All 149 pages were inspected in six contact sheets. Full-size checks covered the frontmatter route, first-sit safety boxes, days 8–30 bridge, restart card, action-first feeling-to-craving exercise, Chapter 7 and 8 restart pointers, immediate safety shortcut, weekly review pointer, and Appendix B direct lookup. The unchanged attainment and insight-map spreads were also reviewed in the full contact set. The final render has no clipping, overlap, truncated badges, accidental blanks, duplicate glossary entry, missing glyphs, or broken hierarchy. |
 | Pilot schema, scorer, and release verifier | Pass internally | Both JSON Schema 2020-12 contracts meta-validate; all 102 focused tests pass; Ruff, Python compilation, and `git diff --check` pass. The scorer enforces the first five eligible completions among at most seven starts, terminal stopped-session sequencing, fixed stop reasons, distress-note erasure and vetoes, exact artifact and contract hashes, canonical-origin ancestry, recursive record discovery, reachable-history privacy, bounded likely-contact-data rejection, and strict retention bounds. External gate evidence must declare one typed role, exactly one current PDF and EPUB digest field, and machine-visible generated-report results consistent with a passed registry status; contradictory report bodies fail closed. |
-| Source-integrity re-audit | Pass internally | Every used K01–K40, P01–P02, V01, and R01–R09 code resolves in the source map. Internal adversarial reviews of doctrine, provenance, beginner clarity, code, and pilot privacy found no remaining material internal defect after corrections. These are internal reviews, not a named external Theravāda or clinical-safety sign-off. |
+| Source-integrity re-audit | Pass internally | Every used K01–K40, P01–P02, V01, and R01–R09 code resolves in the source map. The new restart and navigation language is locally marked as editorial; no new doctrinal source claim was introduced. Independent internal passes on onboarding friction, habit re-entry, pacing, prose, and acute-risk wording found no remaining material defect after corrections. These are internal reviews, not a named external Theravāda or clinical-safety sign-off. |
 
 The PDF was compiled with Typst's PDF/UA-1 enforcement and exposes the expected metadata, but no independent PDF/UA validator such as veraPDF was available. Therefore this record does **not** claim independent PDF/UA conformance.
 

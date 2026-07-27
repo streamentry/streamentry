@@ -94,6 +94,8 @@ Một cách thực tế là đặt ba lần dừng trong ngày: trước công v
   label: [TỰ KIỂM · BIÊN SOẠN],
 )
 
+Đứt nhịp vài ngày? Mở #link(<khoi-dong-lai>)[lối khởi động lại ở chương 1]; đừng tự đặt lịch bù.
+
 #v(8pt)
 
 #source-line("KINH", [K14], [AN 6.19 dạy niệm chết với mức khẩn thiết rất cao, tính đến một miếng ăn hay một hơi thở. Việc rà ngày hai phút là cách biên soạn hiện đại để nuôi tinh tấn; đó không phải thời khóa được bài kinh quy định.])

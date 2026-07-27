@@ -11,6 +11,8 @@
   ],
 )
 
+== Trước buổi đầu tiên <buoi-dau>
+
 #practice-card(
   [Quy ước tối thiểu],
   [
@@ -29,9 +31,13 @@
 #caution(
   [Dừng buổi và đọc chương an toàn],
   [
-    Nếu việc hành đi kèm hoảng sợ lặp lại, mất ngủ tăng dần, cảm giác xa lạ với bản thân hay thực tại, hoặc suy giảm rõ khả năng làm việc và sinh hoạt, hãy dừng buổi hiện tại và đừng tăng cường độ. Đọc #link(<an-toan>)[chương 9] trước khi tiếp tục. Khi triệu chứng mạnh, kéo dài hoặc có nguy cơ gây hại, tìm hỗ trợ y tế phù hợp thay vì tự gọi đó là một tầng tuệ.
+    Nếu việc hành đi kèm hoảng sợ lặp lại, mất ngủ tăng dần, cảm giác xa lạ với bản thân hay thực tại, hoặc suy giảm rõ khả năng làm việc và sinh hoạt, hãy dừng buổi hiện tại và đừng tăng cường độ. Đọc #link(<an-toan>)[chương 9] trước khi tiếp tục. Khi triệu chứng mạnh, kéo dài hoặc có nguy cơ gây hại, tìm hỗ trợ y tế phù hợp thay vì tự gọi đó là một tầng tuệ. Nếu có nguy cơ tự hại cấp thời, bỏ lịch bảy ngày, tìm trợ giúp khẩn cấp theo chương 9 và đừng ở một mình. Nếu có thôi thúc làm hại người khác, hoặc mất liên hệ với thực tế và hành vi trở nên nguy hiểm, gọi trợ giúp khẩn cấp và ưu tiên an toàn của mọi người; đừng yêu cầu một người không được huấn luyện ở cạnh nếu việc đó có thể đặt họ vào nguy hiểm.
   ],
 )
+
+#modern-note([
+  Bạn không cần thuộc một danh sách nhãn trước khi ngồi. “Phồng”, “xẹp” và “nghĩ” đã đủ cho Ngày 1. Khi cần tra nhanh một từ cho thân, thọ, tâm hoặc ý định, mở #link(<nhan-tham-chieu>)[Phụ lục B]; nhãn phải đi theo kinh nghiệm, không chạy trước nó.
+])
 
 #source-line("BIÊN SOẠN", [lịch bảy ngày dựa trên P01], [Mười lăm phút ngồi mỗi ngày là đề nghị tạo thói quen cho người tại gia. Từ ngày 3, người đọc có thể thêm một đoạn thiền hành ngắn nếu còn thời gian và thân tâm ổn. Phần thêm hoàn toàn tùy chọn, không phải bậc thang tiến bộ và không cần bù vào ngày khác. P01 không ấn định lịch bảy ngày hay các thời lượng này.])
 
@@ -98,6 +104,26 @@ Nói gọn, “làm đúng” trong tuần đầu chỉ gồm ba việc: biết 
     Ngày 30 không phải kỳ thi buộc bạn phải đạt hai mươi hay ba mươi phút. Mục tiêu của tháng đầu là tìm được một nhịp có thể sống cùng, không phải chạy kịp con số của người khác.
   ],
   label: [CẦU NỐI THÁNG ĐẦU · BIÊN SOẠN],
+)
+
+== Khi nhịp bị gãy, quay lại thế nào <khoi-dong-lai>
+
+#source-line("BIÊN SOẠN", [quy tắc quay lại, đối chiếu mức sàn và ngưỡng an toàn trong sách], [
+  Kinh và P01 không ấn định một số ngày nghỉ khiến người hành phải bắt đầu lại. Quy tắc dưới đây chỉ gom các quyết định đã dùng trong chương này thành một lối quay lại không bù giờ, không tự phạt và không tự động tiếp tục sau dấu hiệu nguy cơ.
+])
+
+#practice-card(
+  [Quay lại ở mức đã từng đứng vững],
+  [
+    + *Không bù.* Dù lỡ một buổi hay nghỉ lâu hơn vì công việc, gia đình hoặc bệnh thân thông thường, đừng cộng dồn số phút đã mất vào buổi kế tiếp.
+
+    + *Trở về mức gần nhất từng ổn.* Nếu năm hay mười lăm phút từng vừa với giấc ngủ, thân thể và bổn phận, dùng lại mức ấy. Nếu chưa có mức nào rõ là ổn, dùng mức sàn năm phút cùng một #link(<bon-diem-neo>)[điểm neo đời thường].
+
+    + *Giữ nguyên đến lần rà soát tuần kế tiếp.* Chưa tăng thời lượng chỉ vì buổi quay lại thấy dễ chịu. Đến lúc rà soát, dùng bốn quyết định ngay dưới đây để giữ, tăng, giảm hoặc tìm trợ giúp.
+
+    Nếu bạn đã dừng vì hoảng sợ lặp lại, mất ngủ tăng, cảm giác xa lạ với bản thân hay thực tại, khó phân biệt thực với không thực, hoặc suy giảm sinh hoạt, đừng tự động khởi động lại. Hãy dùng #link(<an-toan>)[ba mức phản ứng ở chương 9] và tìm hỗ trợ phù hợp trước.
+  ],
+  label: [KHỞI ĐỘNG LẠI · BIÊN SOẠN],
 )
 
 == Bốn quyết định thay cho việc cố chịu
