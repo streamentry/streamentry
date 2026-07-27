@@ -15,6 +15,10 @@ This audit tests whether a chapter is too compressed for a first-time reader. Wo
 7. A source abbreviation or edition-specific code must be expanded on the
    first-reading path; a back-of-book source entry cannot rescue an unexplained
    AN, P01 or V01 encountered dozens of pages earlier.
+8. A reader who receives only the book must encounter its authorship,
+   credential, AI, rights and validation limits before relying on its
+   instructions; a repository policy or final-page disclosure alone arrives
+   too late.
 
 | Chapter | Approximate words | Finding | Action |
 |---|---:|---|---|
@@ -54,6 +58,19 @@ three concrete location examples, and distinguishes canonical collection
 addresses from the edition's K/P/V/R traceability codes. The source map repeats
 the legend under a stable target. This is a bibliographic clarification, not a
 new doctrinal claim or a ranking of sources.
+
+## Reader-trust boundary
+
+The full editorial policy already disclosed the publication credit, the absence
+of verifiable credentials for `CS Chánh Niệm`, ChatGPT's bounded role, missing
+rights clearance and open external evidence. The book itself mentioned AI and
+independent-review limits only near the end of the source chapter. That failed
+the standalone-artifact test: a reader could use almost the entire handbook
+before seeing facts that determine how much authority to assign it. The
+introduction now carries a compact trust statement before the reading route,
+links to the full policy and correction form, and explicitly refuses
+independent-validation or market-leadership language. This changes disclosure
+placement, not the underlying evidence status.
 
 ## Result
 
