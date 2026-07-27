@@ -144,9 +144,55 @@ class ExternalReviewPacketTests(unittest.TestCase):
                 if member.archive_path.endswith(f"/{gate}.md")
             )
             text = work_order.payload.decode("utf-8")
-            self.assertIn("không gửi toàn bộ", text)
+            self.assertIn("không gửi toàn bộ ZIP", text)
             self.assertIn("rubric hay tiêu chí đạt", text)
-            self.assertIn("tính lần thử ấy vào cohort", text)
+            self.assertIn("không che giấu việc lộ tiêu chí", text)
+
+    def test_each_assignment_has_three_start_steps_and_exact_output(self) -> None:
+        expected_roles = {
+            "redistribution_rights": "rights_decision",
+            "doctrinal_review": "doctrinal_review_report",
+            "clinical_safety_review": "clinical_safety_review_report",
+            "beginner_cohort": "aggregate_report",
+            "epub_reader_app": "reader_app_report",
+            "comparative_evidence": "comparative_results",
+        }
+        assignments = {
+            member.archive_path.removesuffix(".md").split("/")[-1]: (
+                member.payload.decode("utf-8")
+            )
+            for member in generated_members(_snapshot())
+            if member.role == "assignment"
+        }
+        for gate, role in expected_roles.items():
+            with self.subTest(gate=gate):
+                text = assignments[gate]
+                self.assertIn("## Bắt đầu trong 10 phút", text)
+                self.assertIn("## Đầu ra phải trả", text)
+                self.assertEqual(
+                    sum(f"\n{index}. " in text for index in range(1, 4)),
+                    3,
+                )
+                self.assertNotIn("\n4. ", text)
+                self.assertIn(role, text)
+
+    def test_participant_warning_only_appears_for_participant_gates(self) -> None:
+        participant_gates = {
+            "beginner_cohort",
+            "epub_reader_app",
+            "comparative_evidence",
+        }
+        for member in generated_members(_snapshot()):
+            if member.role != "assignment":
+                continue
+            gate = member.archive_path.removesuffix(".md").split("/")[-1]
+            text = member.payload.decode("utf-8")
+            if gate in participant_gates:
+                self.assertIn("không gửi toàn bộ ZIP", text)
+                self.assertIn("không che giấu việc lộ tiêu chí", text)
+            else:
+                self.assertNotIn("không gửi toàn bộ ZIP", text)
+                self.assertNotIn("rubric hoặc tiêu chí chấm", text)
 
     def test_build_is_byte_reproducible_and_self_validating(self) -> None:
         snapshot = _snapshot()
