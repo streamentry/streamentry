@@ -5,14 +5,14 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass
 
+from edition_contract import EDITION, EditionContract
 from release_common import ReleaseVerificationError, require
 
 
-PUBLICATION_CREDIT = "CS Chánh Niệm + ChatGPT"
-IMMUTABLE_SOURCE_SHA256 = (
-    "ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440"
-)
+PUBLICATION_CREDIT = EDITION.author
+IMMUTABLE_SOURCE_SHA256 = EDITION.source_sha256
 ARTIFACT_LABELS = {
+    "Edition contract SHA-256",
     "Immutable source SHA-256",
     "PDF SHA-256",
     "EPUB SHA-256",
@@ -26,6 +26,7 @@ ARTIFACT_LABELS = {
 
 @dataclass(frozen=True)
 class ReleaseEvidence:
+    edition_contract_sha256: str
     source_sha256: str
     pdf_sha256: str
     epub_sha256: str
@@ -134,6 +135,10 @@ def parse_release_evidence(markdown: str) -> ReleaseEvidence:
             "publication credit must be one code-delimited value"
         )
     return ReleaseEvidence(
+        edition_contract_sha256=_sha256_value(
+            rows["Edition contract SHA-256"],
+            "edition contract SHA-256",
+        ),
         source_sha256=_sha256_value(
             rows["Immutable source SHA-256"], "immutable source SHA-256"
         ),
@@ -152,12 +157,15 @@ def parse_release_evidence(markdown: str) -> ReleaseEvidence:
     )
 
 
-def validate_evidence_contract(evidence: ReleaseEvidence) -> None:
+def validate_evidence_contract(
+    evidence: ReleaseEvidence,
+    edition: EditionContract,
+) -> None:
     require(
-        evidence.source_sha256 == IMMUTABLE_SOURCE_SHA256,
+        evidence.source_sha256 == edition.source_sha256,
         "release evidence redefines the immutable source SHA-256",
     )
     require(
-        evidence.publication_credit == PUBLICATION_CREDIT,
+        evidence.publication_credit == edition.author,
         "release evidence redefines the canonical publication credit",
     )

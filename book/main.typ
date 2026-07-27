@@ -1,21 +1,20 @@
+#import "edition.typ": edition, stack-lines
 #import "theme.typ": apply-theme
 #import "components.typ": cover
 
-#let publication-author = [CS Chánh Niệm + ChatGPT]
-
 #set document(
-  title: "Hướng Đến Nhập Lưu",
-  author: ("CS Chánh Niệm + ChatGPT",),
-  description: "Sổ tay Niệm xứ cho người tại gia theo truyền thống Mahāsi, đối chiếu Kinh tạng Pāli và Thanh Tịnh Đạo",
-  keywords: ("Niệm xứ", "Mahāsi", "Nhập lưu", "Thiền Vipassanā", "Thanh Tịnh Đạo"),
+  title: edition.metadata.title,
+  author: (edition.metadata.author,),
+  description: edition.metadata.description,
+  keywords: edition.metadata.keywords,
 )
 
 #show: apply-theme
 
 #cover(
-  [Hướng Đến #linebreak() Nhập Lưu],
-  [Sổ tay Niệm xứ cho người tại gia theo truyền thống Mahāsi, đối chiếu Kinh tạng Pāli và Thanh Tịnh Đạo],
-  author: publication-author,
+  stack-lines(edition.cover.title_lines),
+  edition.metadata.description,
+  author: edition.metadata.author,
 )
 
 #include "chapters/00-frontmatter.typ"

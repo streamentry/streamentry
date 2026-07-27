@@ -8,6 +8,7 @@ import subprocess
 from pathlib import Path
 from typing import Any
 
+from edition_contract import EditionContract, load_edition_contract
 from external_release_gate_files import (
     evidence_artifact_sha256,
     evidence_cohort_binding,
@@ -35,10 +36,6 @@ EVIDENCE_PREFIX = Path("book/references/external-evidence")
 BASE_CLAIM = "internally_verified_dual_format_candidate"
 ALLOWED_STATUSES = {"open", "in_progress", "failed", "passed"}
 COHORT_BOUND_ROLES = {"aggregate_report", "reader_app_report"}
-FROZEN_ARTIFACT_PATHS = {
-    "PDF": "dist/huong-den-nhap-luu.pdf",
-    "EPUB": "dist/huong-den-nhap-luu.epub",
-}
 
 EXPECTED_PROTOCOLS = {
     "external_release_packet": "book/references/external-release-packet.md",
@@ -204,6 +201,7 @@ def _validate_frozen_candidate(
     candidate_commit: str,
     head_commit: str,
     release: ReleaseEvidence,
+    edition: EditionContract,
 ) -> None:
     require(
         re.fullmatch(r"[0-9a-f]{40}", candidate_commit) is not None,
@@ -217,7 +215,11 @@ def _validate_frozen_candidate(
         "PDF": release.pdf_sha256,
         "EPUB": release.epub_sha256,
     }
-    for artifact, relative in FROZEN_ARTIFACT_PATHS.items():
+    artifact_paths = {
+        "PDF": edition.pdf_relative_path.as_posix(),
+        "EPUB": edition.epub_relative_path.as_posix(),
+    }
+    for artifact, relative in artifact_paths.items():
         require(
             _git_blob_sha256(root, candidate_commit, relative)
             == expected[artifact],
@@ -395,7 +397,9 @@ def _derived_claims(gates: dict[str, Any]) -> list[str]:
 def verify_external_release_gates(
     root: Path,
     release: ReleaseEvidence,
+    edition: EditionContract | None = None,
 ) -> dict[str, Any]:
+    edition = edition or load_edition_contract(root / "book" / "edition.json")
     registry = load_registry(root / REGISTRY_PATH)
     exact_keys(
         registry,
@@ -493,6 +497,7 @@ def verify_external_release_gates(
                         candidate_commit,
                         head_commit,
                         release,
+                        edition,
                     )
                     validated_candidates.add(candidate_commit)
                 if frozen_candidate is None:

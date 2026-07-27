@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "edition_id": "vi-2026",
+  "metadata": {
+    "title": "Hướng Đến Nhập Lưu",
+    "author": "CS Chánh Niệm + ChatGPT",
+    "language": "vi",
+    "description": "Sổ tay Niệm xứ cho người tại gia theo truyền thống Mahāsi, đối chiếu Kinh tạng Pāli và Thanh Tịnh Đạo",
+    "keywords": [
+      "Niệm xứ",
+      "Mahāsi",
+      "Nhập lưu",
+      "Thiền Vipassanā",
+      "Thanh Tịnh Đạo"
+    ],
+    "subjects": [
+      "Niệm xứ",
+      "Duyên khởi",
+      "Thiền Vipassanā"
+    ]
+  },
+  "publication": {
+    "file_stem": "huong-den-nhap-luu",
+    "identifier_seed": "https://streamentry.local/huong-den-nhap-luu",
+    "epub_modified": "2026-07-26T00:00:00Z",
+    "pdf_creation_timestamp": "1785024000"
+  },
+  "source": {
+    "path": "con-duong-niem-xu-mahasi-hop-nhat.md",
+    "sha256": "ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440"
+  },
+  "cover": {
+    "title_lines": [
+      "Hướng Đến",
+      "Nhập Lưu"
+    ],
+    "kicker": "Sổ tay Niệm xứ cho người tại gia",
+    "edition_label": "Ấn bản thực hành 2026",
+    "provenance_lines": [
+      "Kinh tạng Pāli · Thanh Tịnh Đạo",
+      "Chỉ dẫn thực hành Mahāsi"
+    ]
+  },
+  "labels": {
+    "author": "Tác giả",
+    "chapter": "Chương",
+    "practice": "Thực hành",
+    "faq": "Giải đáp",
+    "caution": "Giới hạn cần nhớ",
+    "source_link": "Mở bản nguồn trực tuyến",
+    "toc": "Mục lục",
+    "introduction": "Lời dẫn",
+    "cover": "Bìa",
+    "content": "Nội dung",
+    "landmarks": "Các điểm mốc"
+  },
+  "accessibility": {
+    "cover_alt": "Bìa sách Hướng Đến Nhập Lưu",
+    "summary": "Ấn bản có mục lục điều hướng phân cấp, văn bản reflowable và nhãn thay thế cho ảnh bìa."
+  },
+  "quality": {
+    "semantic_required_text": [
+      "Duyên khởi ngay nơi thọ và ái",
+      "Có phải thọ đến ái là mắt xích dễ cắt nhất?",
+      "Đọc bản đồ theo bốn vùng"
+    ]
+  },
+  "scope": {
+    "validation_locale": "vi-VN",
+    "target_audience": "Người lớn Việt Nam mới bắt đầu thực hành thiền"
+  }
+}

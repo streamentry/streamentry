@@ -1,15 +1,16 @@
 #import "../components.typ": *
+#import "../edition.typ": edition
 
 #context {
   if target() == "html" {
     html.elem("header", attrs: (class: "introduction-opener"))[
-      #html.elem("p", attrs: (class: "eyebrow"))[LỜI DẪN]
+      #html.elem("p", attrs: (class: "eyebrow"))[#edition.labels.introduction]
       #heading(level: 1, outlined: true)[Một cuốn sổ tay, không phải giấy chứng nhận]
     ]
   } else {
     align(center)[
       #v(12mm)
-      #eyebrow([LỜI DẪN], fill: palette.saffron)
+      #eyebrow(edition.labels.introduction, fill: palette.saffron)
       #v(6mm)
       #heading(level: 1, outlined: true)[Một cuốn sổ tay, không phải giấy chứng nhận]
     ]
@@ -86,7 +87,7 @@ Nếu bạn mới bắt đầu, hãy coi chương 12 là tài liệu tham khảo
 
 #pagebreak()
 
-= Mục lục
+#heading(level: 1, outlined: true)[#edition.labels.toc]
 
 #v(5mm)
 #outline(title: none, depth: 2, indent: auto)

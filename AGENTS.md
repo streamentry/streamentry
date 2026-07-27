@@ -9,6 +9,10 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 ## Key Components
 
 - `con-duong-niem-xu-mahasi-hop-nhat.md`: immutable source manuscript. Recorded SHA-256: `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440`.
+- `book/edition.json`: sole canonical edition and locale authority for publication identity, output names, source binding, cover copy, interface labels, accessibility copy, semantic smoke text, and validation scope.
+- `book/edition.typ`: thin Typst leaf that exposes `edition.json`; it must not introduce independent metadata or locale policy.
+- `scripts/edition_contract.py`: strict schema-v1 Python loader used by build and verification. Unknown, missing, malformed, unsafe, or internally inconsistent values fail closed.
+- `scripts/edition_contract_validation.py`: focused duplicate-key, exact-object, Unicode, and string-array validation primitives for the loader.
 - `book/main.typ`: only Typst content entry point for both paged and HTML targets.
 - `book/theme.typ`: A5 print rules plus reflowable HTML CSS selected through `target()`. Use left binding with mirrored 22 mm inside and 14 mm outside margins for the perfect-bound edition.
 - `book/components.typ`: target-aware source badges, chapter openers, practice cards, cautions, and reference blocks. Keep source badges above, not inline with, cited prose; preserve a quiet gap below provenance blocks.
@@ -23,6 +27,7 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `book/references/editorial-depth-audit.md`: chapter-by-chapter test for harmful compression.
 - `book/references/publish-readiness-audit.md`: adapted 80-item publication scorecard.
 - `book/references/release-evidence.md`: exact candidate hashes, tool versions, verification scope, and open external gates.
+- `book/references/edition-contract.md`: field ownership, canonical Vietnamese line, future-locale rules, build flow, and falsifiable limits of the edition contract.
 - `book/references/external-release-packet.md`: single operational handoff for rights, expert review, novice testing, human EPUB evidence, and bounded comparison.
 - `book/references/external-release-gates.json`: machine-readable external-gate, typed-evidence, and permitted-claims registry.
 - `book/references/rights-decision-template.md`: authority, asset, format, channel, commercial-scope, and third-party-rights decision record.
@@ -39,9 +44,21 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `.github/workflows/publication-ci.yml`: read-only publication CI with SHA-pinned actions and checksum-pinned downloaded tools for deterministic rebuilds, tests, EPUBCheck, and DAISY Ace.
 - `ci/`: pinned Python and Node dependency contracts used only by publication CI.
 - `scripts/score-beginner-pilot.py`: manifest-only first-five gate scoring with artifact and contract binding.
+- `tests/test_edition_contract.py`: regression coverage for strict loading and cross-field invariants.
+- `tests/test_epub_edition_contract.py` and `tests/test_release_identity.py`: alternate-locale XML/label escaping plus PDF/EPUB identity-drift regressions.
 - `dist/huong-den-nhap-luu.epub`: current internally verified reflowable candidate.
 
-The canonical publication credit is `CS Chánh Niệm + ChatGPT`. Keep the cover, PDF metadata, and README synchronized.
+`book/edition.json` is the only canonical source for the publication credit and
+all other edition or locale values. The current Vietnamese contract declares
+`CS Chánh Niệm + ChatGPT`; consume it through `book/edition.typ` or
+`scripts/edition_contract.py` rather than copying it into production code.
+README may describe the current value, but it is not an authority.
+
+Schema v1 has one canonical Vietnamese build line. A future locale is a separate
+publication candidate with its own identity, localized labels, rights decision,
+source and doctrinal review, safety review where applicable, novice
+comprehension evidence, and reader-app evidence. Passing the Vietnamese
+internal or external gates never transfers those results to a translation.
 
 Beginner readability is a publication contract, not a style preference. Define technical terms at first use, connect each conceptual section to the prior one, orient and synthesize dense lists, and keep appendices usable when opened directly. The first-sit route must expose its local stop conditions and label lookup without forcing a full safety-chapter detour; the full safety chapter remains mandatory before intensification. Keep one canonical restart protocol in Chapter 1 and link to it briefly elsewhere. Internal editorial review may mark these gates complete, but only `book/references/beginner-validation-protocol.md` can support a claim of novice validation.
 
@@ -85,12 +102,17 @@ flowchart LR
 
 ```mermaid
 flowchart TB
+  D["book/edition.json"] --> Y["book/edition.typ"]
+  D --> Z["scripts/edition_contract.py"]
+  Y --> M["book/main.typ"]
   M["book/main.typ"] --> T["theme.typ"]
   M --> C["components.typ"]
   M --> H["chapters/*.typ"]
   M --> A["appendices/*.typ"]
   M --> E["Semantic HTML"]
   E --> P["scripts/build-epub.py"]
+  Z --> P
+  Z --> Q
   P --> U["EPUB 3"]
   M --> Q["Quality audits"]
   N["Frozen manifest and attempt records"] --> G["Deterministic dual-output pilot scorer"]
@@ -108,12 +130,15 @@ flowchart TB
 ```mermaid
 sequenceDiagram
   participant E as Editor
+  participant D as Edition contract
   participant L as Claim ledger
   participant T as Typst
   participant Q as PDF QA
   participant P as EPUB packager
   participant R as External reviewers
   participant S as Pilot scorer
+  E->>D: Change one schema-v1 edition or locale value
+  D-->>E: Strict loader accepts it or names the defect
   E->>L: Verify doctrine, speaker, edition, and source tier
   L-->>E: Return source code and caveat
   E->>T: Compose source-labelled chapter
@@ -150,26 +175,29 @@ stateDiagram-v2
 
 ```mermaid
 flowchart LR
-  S["Source manuscript"] --> E["Editorial rewrite"]
-  P["Primary texts and editions"] --> L["Claim ledger"]
-  L --> E
-  E --> T["Typst chapter and appendix modules"]
-  Y["Theme and components"] --> T
-  T --> C["Typst compiler"]
-  C --> D["A5 PDF"]
-  T --> H["Semantic HTML"]
-  H --> P["EPUB 3 packager"]
-  P --> U["Reflowable EPUB"]
-  D --> Q["Text, structure, and visual QA"]
-  U --> V["XML, manifest, navigation, and reader QA"]
-  D --> B["Beginner validation"]
-  U --> B
+  ED["Canonical edition.json"] --> ET["Typst edition leaf"]
+  ED --> EL["Strict Python loader"]
+  SM["Source manuscript"] --> EW["Editorial rewrite"]
+  PS["Primary texts and editions"] --> CL["Claim ledger"]
+  CL --> EW
+  EW --> TM["Typst chapter and appendix modules"]
+  ET --> TM
+  TM --> TC["Typst compiler"]
+  TC --> PDF["A5 PDF"]
+  TM --> HTML["Semantic HTML"]
+  HTML --> EP["EPUB 3 packager"]
+  EL --> EP
+  EP --> EPUB["Reflowable EPUB"]
+  PDF --> QA["Text, structure, and visual QA"]
+  EPUB --> V["XML, manifest, navigation, and reader QA"]
+  PDF --> B["Beginner validation"]
+  EPUB --> B
   B --> R["Frozen manifest and pseudonymous attempt records"]
   R --> SC["Deterministic gate scorer"]
   SC --> AE["Aggregate and reader-app evidence"]
   AE --> X["Typed external gate registry"]
   ER["Role-labelled rights and signed reviews"] --> X
-  Q -. "corrections" .-> E
-  V -. "corrections" .-> E
-  B -. "comprehension failures" .-> E
+  QA -. "corrections" .-> EW
+  V -. "corrections" .-> EW
+  B -. "comprehension failures" .-> EW
 ```

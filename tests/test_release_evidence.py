@@ -14,6 +14,7 @@ for directory in (SCRIPTS_DIR, TESTS_DIR):
         sys.path.insert(0, str(directory))
 
 from release_common import ReleaseVerificationError  # noqa: E402
+from edition_contract import EDITION  # noqa: E402
 from release_evidence import (  # noqa: E402
     IMMUTABLE_SOURCE_SHA256,
     PUBLICATION_CREDIT,
@@ -26,6 +27,7 @@ from release_verifier_fixtures import EVIDENCE  # noqa: E402
 class ReleaseEvidenceParserTests(unittest.TestCase):
     def test_parses_exact_artifact_identity_rows(self) -> None:
         evidence = parse_release_evidence(EVIDENCE)
+        self.assertEqual(evidence.edition_contract_sha256, "d" * 64)
         self.assertEqual(evidence.pdf_pages, 123)
         self.assertEqual(evidence.pdf_size, 1_021_520)
         self.assertEqual(evidence.epub_content_entries, 136)
@@ -75,9 +77,12 @@ class ReleaseEvidenceParserTests(unittest.TestCase):
     def test_contract_anchors_the_immutable_source_hash(self) -> None:
         evidence = parse_release_evidence(EVIDENCE)
         anchored = replace(evidence, source_sha256=IMMUTABLE_SOURCE_SHA256)
-        validate_evidence_contract(anchored)
+        validate_evidence_contract(anchored, EDITION)
         with self.assertRaisesRegex(ReleaseVerificationError, "source SHA-256"):
-            validate_evidence_contract(replace(anchored, source_sha256="0" * 64))
+            validate_evidence_contract(
+                replace(anchored, source_sha256="0" * 64),
+                EDITION,
+            )
 
     def test_contract_anchors_the_canonical_publication_credit(self) -> None:
         evidence = parse_release_evidence(EVIDENCE)
@@ -86,11 +91,27 @@ class ReleaseEvidenceParserTests(unittest.TestCase):
             source_sha256=IMMUTABLE_SOURCE_SHA256,
             publication_credit=PUBLICATION_CREDIT,
         )
-        validate_evidence_contract(anchored)
+        validate_evidence_contract(anchored, EDITION)
         with self.assertRaisesRegex(ReleaseVerificationError, "publication credit"):
             validate_evidence_contract(
-                replace(anchored, publication_credit="Different author")
+                replace(anchored, publication_credit="Different author"),
+                EDITION,
             )
+
+    def test_contract_validation_uses_the_supplied_edition(self) -> None:
+        edition = replace(
+            EDITION,
+            author="Sentinel Author",
+            source_sha256="1" * 64,
+        )
+        evidence = replace(
+            parse_release_evidence(EVIDENCE),
+            publication_credit=edition.author,
+            source_sha256=edition.source_sha256,
+        )
+        validate_evidence_contract(evidence, edition)
+        with self.assertRaisesRegex(ReleaseVerificationError, "source SHA-256"):
+            validate_evidence_contract(evidence, EDITION)
 
 
 if __name__ == "__main__":

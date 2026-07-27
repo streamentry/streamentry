@@ -1,3 +1,5 @@
+#import "edition.typ": edition
+
 #let palette = (
   ink: rgb("#211d18"),
   muted: rgb("#6f675e"),
@@ -31,7 +33,7 @@
 
 #let apply-theme(body) = context {
   if target() == "html" {
-    set text(lang: "vi")
+    set text(lang: edition.metadata.language)
     html.style("
       :root {
         color-scheme: light dark;
@@ -133,7 +135,7 @@
         size: 6.6pt,
         tracking: 0.12em,
         fill: palette.muted,
-      )[HƯỚNG ĐẾN NHẬP LƯU],
+      )[#upper(edition.metadata.title)],
     ),
     numbering: "1",
     number-align: center + bottom,
@@ -143,7 +145,7 @@
     font: fonts.body,
     size: 10.2pt,
     fill: palette.ink,
-    lang: "vi",
+    lang: edition.metadata.language,
   )
   set par(
     justify: true,

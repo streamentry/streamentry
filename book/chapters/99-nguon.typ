@@ -1,4 +1,5 @@
 #import "../components.typ": *
+#import "../edition.typ": edition
 
 #chapter(
   [NGUỒN],
@@ -351,7 +352,7 @@ Một mã nguồn cho phép truy nguyên, nhưng không tự động chứng min
 == Trách nhiệm biên tập và sửa sai
 
 #modern-note([
-  Ấn bản này ghi công *CS Chánh Niệm + ChatGPT*. ChatGPT được dùng trong việc dựng cấu trúc, soạn thảo và rà soát; nó không phải thẩm quyền tâm linh, nhân chứng thực hành hay người xác nhận đạo quả. Các mệnh đề chịu tải được phân loại nguồn trong sách và đối chiếu tại sổ kiểm chứng của dự án.
+  Ấn bản này ghi công *#(edition.metadata.author)*. ChatGPT được dùng trong việc dựng cấu trúc, soạn thảo và rà soát; nó không phải thẩm quyền tâm linh, nhân chứng thực hành hay người xác nhận đạo quả. Các mệnh đề chịu tải được phân loại nguồn trong sách và đối chiếu tại sổ kiểm chứng của dự án.
 ])
 
 Kho mã nguồn chưa có phản biện độc lập toàn bộ bản thảo bởi một vị thầy Theravāda đủ năng lực hoặc chuyên gia lâm sàng. Vì vậy, kiểm nguồn nội bộ không phải sự chứng thực bên ngoài. Khoảng trống này chỉ được đóng bằng phản biện có tên, phạm vi và ngày tháng rõ ràng.

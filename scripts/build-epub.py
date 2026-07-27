@@ -9,20 +9,15 @@ import re
 import shutil
 import subprocess
 import sys
-import uuid
 import zipfile
 from dataclasses import dataclass
+from html import escape as xml_escape
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
+from edition_contract import EDITION, EditionContract, load_edition_contract
 
-TITLE = "Hướng Đến Nhập Lưu"
-AUTHOR = "CS Chánh Niệm + ChatGPT"
-LANGUAGE = "vi"
-SOURCE_SHA256 = "ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440"
-IDENTIFIER = f"urn:uuid:{uuid.uuid5(uuid.NAMESPACE_URL, 'https://streamentry.local/huong-den-nhap-luu')}"
-MODIFIED = "2026-07-26T00:00:00Z"
-CREATION_TIMESTAMP = "1785024000"
+
 XHTML_NS = "http://www.w3.org/1999/xhtml"
 EPUB_NS = "http://www.idpf.org/2007/ops"
 XML_NS = "http://www.w3.org/XML/1998/namespace"
@@ -144,7 +139,10 @@ def _apply_xhtml_namespace(element: ET.Element) -> None:
         _apply_xhtml_namespace(child)
 
 
-def _parse_html(raw_html: str) -> ET.Element:
+def _parse_html(
+    raw_html: str,
+    edition: EditionContract = EDITION,
+) -> ET.Element:
     document = re.sub(r"^\s*<!DOCTYPE html>\s*", "", raw_html, count=1, flags=re.IGNORECASE)
     try:
         root = ET.fromstring(_close_html_void_elements(document))
@@ -154,8 +152,8 @@ def _parse_html(raw_html: str) -> ET.Element:
         raise ValueError(f"expected an html root, found {root.tag!r}")
 
     _apply_xhtml_namespace(root)
-    root.set("lang", LANGUAGE)
-    root.set(_qname(XML_NS, "lang"), LANGUAGE)
+    root.set("lang", edition.language)
+    root.set(_qname(XML_NS, "lang"), edition.language)
     return root
 
 
@@ -224,7 +222,12 @@ def _assign_missing_heading_ids(root: ET.Element) -> None:
         sequence += 1
 
 
-def _extract_headings(root: ET.Element, *, include_toc: bool = False) -> list[Heading]:
+def _extract_headings(
+    root: ET.Element,
+    *,
+    include_toc: bool = False,
+    edition: EditionContract = EDITION,
+) -> list[Heading]:
     headings: list[Heading] = []
     anchors: set[str] = set()
     for element in root.iter():
@@ -238,7 +241,7 @@ def _extract_headings(root: ET.Element, *, include_toc: bool = False) -> list[He
         if anchor in anchors:
             raise ValueError(f"duplicate heading id: {anchor}")
         anchors.add(anchor)
-        if include_toc or label != "Mục lục":
+        if include_toc or label != edition.toc_label:
             headings.append(Heading(int(match.group(1)), anchor, label))
     if not headings:
         raise ValueError("no navigable h1-h6 headings found")
@@ -268,11 +271,47 @@ def _intro_heading(root: ET.Element) -> Heading:
     return next(iter(candidates.values()))
 
 
-def _validate_semantics(root: ET.Element) -> tuple[list[Heading], Heading]:
+def _validate_head_metadata(
+    head: ET.Element,
+    edition: EditionContract = EDITION,
+) -> None:
+    titles = head.findall(_qname(XHTML_NS, "title"))
+    if len(titles) != 1 or _label(titles[0]) != edition.title:
+        raise ValueError("book XHTML title does not match the edition contract")
+
+    expected = {
+        "description": edition.description,
+        "authors": edition.author,
+        "keywords": ", ".join(edition.keywords),
+    }
+    for name, expected_content in expected.items():
+        metas = [
+            meta
+            for meta in head.findall(_qname(XHTML_NS, "meta"))
+            if meta.attrib.get("name") == name
+        ]
+        if (
+            len(metas) != 1
+            or metas[0].attrib.get("content") != expected_content
+        ):
+            raise ValueError(
+                f"book XHTML {name} metadata does not match the edition contract"
+            )
+
+
+def _validate_semantics(
+    root: ET.Element,
+    edition: EditionContract = EDITION,
+) -> tuple[list[Heading], Heading]:
     head = root.find(_qname(XHTML_NS, "head"))
     body = root.find(_qname(XHTML_NS, "body"))
     if head is None or body is None:
         raise ValueError("XHTML head or body is missing")
+    if root.attrib.get("lang") != edition.language or root.attrib.get(
+        _qname(XML_NS, "lang")
+    ) != edition.language:
+        raise ValueError("book XHTML language does not match the edition contract")
+    _validate_head_metadata(head, edition)
     mains = body.findall(_qname(XHTML_NS, "main"))
     if len(mains) != 1 or len(body) != 1:
         raise ValueError("body must contain exactly one main element")
@@ -298,17 +337,12 @@ def _validate_semantics(root: ET.Element) -> tuple[list[Heading], Heading]:
     ):
         raise ValueError("reflowable CSS must retain color-scheme and dark-mode rules")
 
-    headings = _extract_headings(root)
+    headings = _extract_headings(root, edition=edition)
     intro = _intro_heading(root)
     if headings[0] != intro:
         raise ValueError("the introduction must be the first navigable h1")
 
-    required_text = (
-        "Duyên khởi ngay nơi thọ và ái",
-        "Có phải thọ đến ái là mắt xích dễ cắt nhất?",
-        "Đọc bản đồ theo bốn vùng",
-        "CS Chánh Niệm + ChatGPT",
-    )
+    required_text = (*edition.semantic_required_text, edition.author)
     body_text = " ".join("".join(main.itertext()).split())
     missing = [text for text in required_text if text not in body_text]
     if missing:
@@ -316,12 +350,15 @@ def _validate_semantics(root: ET.Element) -> tuple[list[Heading], Heading]:
     return headings, intro
 
 
-def to_xhtml(raw_html: str) -> tuple[str, list[Heading], str]:
-    root = _parse_html(raw_html)
+def to_xhtml(
+    raw_html: str,
+    edition: EditionContract = EDITION,
+) -> tuple[str, list[Heading], str]:
+    root = _parse_html(raw_html, edition)
     _prepare_body(root)
     _promote_body_headings(root)
     _assign_missing_heading_ids(root)
-    headings, intro = _validate_semantics(root)
+    headings, intro = _validate_semantics(root, edition)
     document = ET.tostring(root, encoding="unicode", method="xml", short_empty_elements=True)
     return (
         '<?xml version="1.0" encoding="utf-8"?>\n<!DOCTYPE html>\n' + document,
@@ -344,7 +381,12 @@ def _heading_tree(headings: list[Heading]) -> list[NavNode]:
     return roots
 
 
-def _render_nav_nodes(parent: ET.Element, nodes: list[NavNode], intro_anchor: str) -> None:
+def _render_nav_nodes(
+    parent: ET.Element,
+    nodes: list[NavNode],
+    intro_anchor: str,
+    edition: EditionContract,
+) -> None:
     for node in nodes:
         item = ET.SubElement(parent, _qname(XHTML_NS, "li"))
         link = ET.SubElement(
@@ -352,19 +394,30 @@ def _render_nav_nodes(parent: ET.Element, nodes: list[NavNode], intro_anchor: st
             _qname(XHTML_NS, "a"),
             {"href": f"book.xhtml#{node.heading.anchor}"},
         )
-        link.text = "Lời dẫn" if node.heading.anchor == intro_anchor else node.heading.label
+        link.text = (
+            edition.introduction_label
+            if node.heading.anchor == intro_anchor
+            else node.heading.label
+        )
         if node.children:
             nested = ET.SubElement(item, _qname(XHTML_NS, "ol"))
-            _render_nav_nodes(nested, node.children, intro_anchor)
+            _render_nav_nodes(nested, node.children, intro_anchor, edition)
 
 
-def nav_xhtml(headings: list[Heading], intro_anchor: str) -> str:
+def nav_xhtml(
+    headings: list[Heading],
+    intro_anchor: str,
+    edition: EditionContract = EDITION,
+) -> str:
     html_root = ET.Element(
         _qname(XHTML_NS, "html"),
-        {"lang": LANGUAGE, _qname(XML_NS, "lang"): LANGUAGE},
+        {
+            "lang": edition.language,
+            _qname(XML_NS, "lang"): edition.language,
+        },
     )
     head = ET.SubElement(html_root, _qname(XHTML_NS, "head"))
-    ET.SubElement(head, _qname(XHTML_NS, "title")).text = "Mục lục"
+    ET.SubElement(head, _qname(XHTML_NS, "title")).text = edition.toc_label
     body = ET.SubElement(html_root, _qname(XHTML_NS, "body"))
     toc = ET.SubElement(
         body,
@@ -373,14 +426,18 @@ def nav_xhtml(headings: list[Heading], intro_anchor: str) -> str:
             _qname(EPUB_NS, "type"): "toc",
             "id": "toc",
             "role": "doc-toc",
-            "aria-label": "Mục lục",
+            "aria-label": edition.toc_label,
         },
     )
-    ET.SubElement(toc, _qname(XHTML_NS, "h1")).text = "Mục lục"
+    ET.SubElement(toc, _qname(XHTML_NS, "h1")).text = edition.toc_label
     outline = ET.SubElement(toc, _qname(XHTML_NS, "ol"))
     cover_item = ET.SubElement(outline, _qname(XHTML_NS, "li"))
-    ET.SubElement(cover_item, _qname(XHTML_NS, "a"), {"href": "cover.xhtml"}).text = "Bìa"
-    _render_nav_nodes(outline, _heading_tree(headings), intro_anchor)
+    ET.SubElement(
+        cover_item,
+        _qname(XHTML_NS, "a"),
+        {"href": "cover.xhtml"},
+    ).text = edition.cover_label
+    _render_nav_nodes(outline, _heading_tree(headings), intro_anchor, edition)
 
     landmarks = ET.SubElement(
         body,
@@ -388,7 +445,7 @@ def nav_xhtml(headings: list[Heading], intro_anchor: str) -> str:
         {
             _qname(EPUB_NS, "type"): "landmarks",
             "role": "navigation",
-            "aria-label": "Các điểm mốc",
+            "aria-label": edition.landmarks_label,
             "hidden": "hidden",
         },
     )
@@ -398,47 +455,49 @@ def nav_xhtml(headings: list[Heading], intro_anchor: str) -> str:
         cover,
         _qname(XHTML_NS, "a"),
         {_qname(EPUB_NS, "type"): "cover", "href": "cover.xhtml"},
-    ).text = "Bìa"
+    ).text = edition.cover_label
     content = ET.SubElement(landmark_list, _qname(XHTML_NS, "li"))
     ET.SubElement(
         content,
         _qname(XHTML_NS, "a"),
         {_qname(EPUB_NS, "type"): "bodymatter", "href": "book.xhtml#bodymatter"},
-    ).text = "Nội dung"
+    ).text = edition.content_label
 
     document = ET.tostring(html_root, encoding="unicode", method="xml", short_empty_elements=True)
     return '<?xml version="1.0" encoding="utf-8"?>\n<!DOCTYPE html>\n' + document
 
 
-def cover_xhtml() -> str:
+def cover_xhtml(edition: EditionContract = EDITION) -> str:
     return f"""<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
-<html xmlns="{XHTML_NS}" xmlns:epub="{EPUB_NS}" lang="{LANGUAGE}" xml:lang="{LANGUAGE}">
+<html xmlns="{XHTML_NS}" xmlns:epub="{EPUB_NS}" lang="{edition.language}" xml:lang="{edition.language}">
   <head>
-    <title>{TITLE}</title>
+    <title>{xml_escape(edition.title)}</title>
     <style>html, body {{ margin: 0; padding: 0; text-align: center; }} img {{ max-width: 100%; height: auto; }}</style>
   </head>
   <body epub:type="cover">
-    <img src="cover.png" alt="Bìa sách Hướng Đến Nhập Lưu" />
+    <img src="cover.png" alt="{xml_escape(edition.cover_alt, quote=True)}" />
   </body>
 </html>
 """
 
 
-def package_opf() -> str:
+def package_opf(edition: EditionContract = EDITION) -> str:
+    subjects = "\n".join(
+        f"    <dc:subject>{xml_escape(subject)}</dc:subject>"
+        for subject in edition.subjects
+    )
     return f"""<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="pub-id" xml:lang="{LANGUAGE}" prefix="{PACKAGE_PREFIXES}">
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="pub-id" xml:lang="{edition.language}" prefix="{PACKAGE_PREFIXES}">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <dc:identifier id="pub-id">{IDENTIFIER}</dc:identifier>
-    <dc:title>{TITLE}</dc:title>
-    <dc:creator id="creator">{AUTHOR}</dc:creator>
+    <dc:identifier id="pub-id">{edition.identifier}</dc:identifier>
+    <dc:title>{xml_escape(edition.title)}</dc:title>
+    <dc:creator id="creator">{xml_escape(edition.author)}</dc:creator>
     <meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
-    <dc:language>{LANGUAGE}</dc:language>
-    <dc:description>Sổ tay Niệm xứ cho người tại gia theo truyền thống Mahāsi, đối chiếu Kinh tạng Pāli và Thanh Tịnh Đạo.</dc:description>
-    <dc:subject>Niệm xứ</dc:subject>
-    <dc:subject>Duyên khởi</dc:subject>
-    <dc:subject>Thiền Vipassanā</dc:subject>
-    <meta property="dcterms:modified">{MODIFIED}</meta>
+    <dc:language>{edition.language}</dc:language>
+    <dc:description>{xml_escape(edition.description)}</dc:description>
+{subjects}
+    <meta property="dcterms:modified">{edition.epub_modified}</meta>
     <meta property="schema:accessMode">textual</meta>
     <meta property="schema:accessModeSufficient">textual</meta>
     <meta property="schema:accessibilityFeature">tableOfContents</meta>
@@ -446,7 +505,7 @@ def package_opf() -> str:
     <meta property="schema:accessibilityFeature">structuralNavigation</meta>
     <meta property="schema:accessibilityFeature">displayTransformability</meta>
     <meta property="schema:accessibilityHazard">none</meta>
-    <meta property="schema:accessibilitySummary">Ấn bản có mục lục điều hướng phân cấp, văn bản reflowable và nhãn thay thế cho ảnh bìa.</meta>
+    <meta property="schema:accessibilitySummary">{xml_escape(edition.accessibility_summary)}</meta>
     <meta name="cover" content="cover-image" />
   </metadata>
   <manifest>
@@ -502,17 +561,35 @@ def _find_nav(root: ET.Element, epub_type: str) -> ET.Element:
     return matches[0]
 
 
-def _validate_navigation(nav: ET.Element, headings: list[Heading], intro_anchor: str) -> None:
+def _validate_navigation(
+    nav: ET.Element,
+    headings: list[Heading],
+    intro_anchor: str,
+    edition: EditionContract = EDITION,
+) -> None:
+    if nav.attrib.get("lang") != edition.language or nav.attrib.get(
+        _qname(XML_NS, "lang")
+    ) != edition.language:
+        raise ValueError("navigation language does not match the edition contract")
     toc = _find_nav(nav, "toc")
+    if toc.attrib.get("aria-label") != edition.toc_label:
+        raise ValueError("table-of-contents label does not match the edition contract")
+    toc_heading = toc.find(_qname(XHTML_NS, "h1"))
+    if toc_heading is None or _label(toc_heading) != edition.toc_label:
+        raise ValueError("table-of-contents heading does not match the edition contract")
     outline = toc.find(_qname(XHTML_NS, "ol"))
     if outline is None:
         raise ValueError("EPUB table of contents requires an ordered list")
     actual = _toc_links(outline)
-    expected = [("cover.xhtml", "Bìa", 1)]
+    expected = [("cover.xhtml", edition.cover_label, 1)]
     expected.extend(
         (
             f"book.xhtml#{heading.anchor}",
-            "Lời dẫn" if heading.anchor == intro_anchor else heading.label,
+            (
+                edition.introduction_label
+                if heading.anchor == intro_anchor
+                else heading.label
+            ),
             heading.level,
         )
         for heading in headings
@@ -525,6 +602,14 @@ def _validate_navigation(nav: ET.Element, headings: list[Heading], intro_anchor:
         raise ValueError("subheadings must be represented by nested ordered lists")
 
     landmarks = _find_nav(nav, "landmarks")
+    if landmarks.attrib.get("aria-label") != edition.landmarks_label:
+        raise ValueError("landmarks label does not match the edition contract")
+    landmark_labels = [
+        _label(link)
+        for link in landmarks.findall(f".//{_qname(XHTML_NS, 'a')}")
+    ]
+    if landmark_labels != [edition.cover_label, edition.content_label]:
+        raise ValueError("landmark link labels do not match the edition contract")
     bodymatter_links = [
         link
         for link in landmarks.findall(f".//{_qname(XHTML_NS, 'a')}")
@@ -534,7 +619,10 @@ def _validate_navigation(nav: ET.Element, headings: list[Heading], intro_anchor:
         raise ValueError("landmarks must target the semantic bodymatter anchor")
 
 
-def validate_package(epub_path: Path) -> None:
+def validate_package(
+    epub_path: Path,
+    edition: EditionContract = EDITION,
+) -> None:
     with zipfile.ZipFile(epub_path) as archive:
         names = archive.namelist()
         if not names or names[0] != "mimetype":
@@ -557,8 +645,37 @@ def validate_package(epub_path: Path) -> None:
 
         package = roots["EPUB/package.opf"]
         opf_ns = {"opf": "http://www.idpf.org/2007/opf"}
+        dc_ns = {"dc": "http://purl.org/dc/elements/1.1/"}
         if package.attrib.get("prefix") != PACKAGE_PREFIXES:
             raise ValueError("package vocabulary prefixes do not match EPUB 3.3 mappings")
+        if package.attrib.get(_qname(XML_NS, "lang")) != edition.language:
+            raise ValueError("package language does not match the edition contract")
+        metadata = package.find("opf:metadata", opf_ns)
+        if metadata is None:
+            raise ValueError("package metadata is missing")
+
+        def metadata_text(name: str) -> str:
+            values = metadata.findall(f"dc:{name}", dc_ns)
+            if len(values) != 1:
+                raise ValueError(f"package requires exactly one dc:{name}")
+            return (values[0].text or "").strip()
+
+        expected_metadata = {
+            "identifier": edition.identifier,
+            "title": edition.title,
+            "creator": edition.author,
+            "language": edition.language,
+            "description": edition.description,
+        }
+        for name, expected_value in expected_metadata.items():
+            if metadata_text(name) != expected_value:
+                raise ValueError(f"dc:{name} does not match the edition contract")
+        subjects = [
+            (node.text or "").strip()
+            for node in metadata.findall("dc:subject", dc_ns)
+        ]
+        if subjects != list(edition.subjects):
+            raise ValueError("dc:subject values do not match the edition contract")
         resources = {
             item.attrib["href"]
             for item in package.findall("opf:manifest/opf:item", opf_ns)
@@ -576,11 +693,25 @@ def validate_package(epub_path: Path) -> None:
             raise ValueError("the only required access mode must be textual")
         if metadata_values.get("schema:accessModeSufficient") != ["textual"]:
             raise ValueError("the sufficient access mode must be textual")
+        if metadata_values.get("schema:accessibilitySummary") != [
+            edition.accessibility_summary
+        ]:
+            raise ValueError(
+                "accessibility summary does not match the edition contract"
+            )
 
         book = roots["EPUB/book.xhtml"]
-        headings, intro = _validate_semantics(book)
+        headings, intro = _validate_semantics(book, edition)
         nav = roots["EPUB/nav.xhtml"]
-        _validate_navigation(nav, headings, intro.anchor)
+        _validate_navigation(nav, headings, intro.anchor, edition)
+        cover = roots["EPUB/cover.xhtml"]
+        if cover.attrib.get("lang") != edition.language or cover.attrib.get(
+            _qname(XML_NS, "lang")
+        ) != edition.language:
+            raise ValueError("cover language does not match the edition contract")
+        cover_image = cover.find(f".//{_qname(XHTML_NS, 'img')}")
+        if cover_image is None or cover_image.attrib.get("alt") != edition.cover_alt:
+            raise ValueError("cover alt text does not match the edition contract")
 
         anchors = {element.attrib["id"] for element in book.iter() if "id" in element.attrib}
         bad_targets = [
@@ -624,9 +755,14 @@ def write_epub(work: Path, output: Path) -> None:
             )
 
 
-def build(root: Path, output: Path) -> None:
-    source = root / "con-duong-niem-xu-mahasi-hop-nhat.md"
-    if file_sha256(source) != SOURCE_SHA256:
+def build(
+    root: Path,
+    output: Path,
+    edition: EditionContract | None = None,
+) -> None:
+    edition = edition or load_edition_contract(root / "book" / "edition.json")
+    source = root / edition.source_path
+    if file_sha256(source) != edition.source_sha256:
         raise ValueError("immutable source manuscript hash changed")
 
     work = root / "build" / "epub"
@@ -642,11 +778,11 @@ def build(root: Path, output: Path) -> None:
             "--root",
             str(root),
             "--creation-timestamp",
-            CREATION_TIMESTAMP,
+            edition.pdf_creation_timestamp,
             "--pdf-standard",
             "ua-1",
             str(root / "book" / "main.typ"),
-            str(root / "dist" / "huong-den-nhap-luu.pdf"),
+            str(root / edition.pdf_relative_path),
         ],
         root,
     )
@@ -661,14 +797,17 @@ def build(root: Path, output: Path) -> None:
             "--root",
             str(root),
             "--creation-timestamp",
-            CREATION_TIMESTAMP,
+            edition.pdf_creation_timestamp,
             str(root / "book" / "main.typ"),
             str(html_path),
         ],
         root,
         TYPST_HTML_WARNING_HEADERS,
     )
-    xhtml, headings, intro_anchor = to_xhtml(html_path.read_text(encoding="utf-8"))
+    xhtml, headings, intro_anchor = to_xhtml(
+        html_path.read_text(encoding="utf-8"),
+        edition,
+    )
 
     cover_path = work / "cover-render.png"
     run(
@@ -678,7 +817,7 @@ def build(root: Path, output: Path) -> None:
             "--root",
             str(root),
             "--creation-timestamp",
-            CREATION_TIMESTAMP,
+            edition.pdf_creation_timestamp,
             "--pages",
             "1",
             "--ppi",
@@ -692,12 +831,15 @@ def build(root: Path, output: Path) -> None:
 
     write_text(work / "META-INF" / "container.xml", container_xml())
     write_text(epub_dir / "book.xhtml", xhtml)
-    write_text(epub_dir / "nav.xhtml", nav_xhtml(headings, intro_anchor))
-    write_text(epub_dir / "cover.xhtml", cover_xhtml())
-    write_text(epub_dir / "package.opf", package_opf())
+    write_text(
+        epub_dir / "nav.xhtml",
+        nav_xhtml(headings, intro_anchor, edition),
+    )
+    write_text(epub_dir / "cover.xhtml", cover_xhtml(edition))
+    write_text(epub_dir / "package.opf", package_opf(edition))
 
     write_epub(work, output)
-    validate_package(output)
+    validate_package(output, edition)
     try:
         output_label = output.relative_to(root)
     except ValueError:
@@ -708,16 +850,17 @@ def build(root: Path, output: Path) -> None:
 
 
 def main() -> None:
+    root = Path(__file__).resolve().parents[1]
+    edition = load_edition_contract(root / "book" / "edition.json")
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--output",
         type=Path,
-        default=Path("dist/huong-den-nhap-luu.epub"),
+        default=edition.epub_relative_path,
     )
     args = parser.parse_args()
-    root = Path(__file__).resolve().parents[1]
     output = args.output if args.output.is_absolute() else root / args.output
-    build(root, output)
+    build(root, output, edition)
 
 
 if __name__ == "__main__":
