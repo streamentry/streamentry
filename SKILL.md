@@ -17,7 +17,8 @@ description: Maintain and publish the Vietnamese Typst handbook Hướng Đến 
 8. For beginner validation, use `book/references/beginner-reader-kit.md` together with `book/references/beginner-validation-protocol.md`; freeze the cohort with `book/references/beginner-pilot-cohort-manifest.schema.json`, record every ordered attempt with `book/references/beginner-pilot-record.schema.json`, and pass only the manifest to `scripts/score-beginner-pilot.py`.
 9. For independent doctrine review, use `book/references/doctrinal-review-protocol.md` together with the frozen segment map in `book/references/attainment-source-audit.md`; recheck the passages rather than inheriting the internal verdicts, and never convert an internal audit into external endorsement.
 10. For release rights and all external gates, start with `book/references/external-release-packet.md`; use `rights-materials-inventory.md` before completing `rights-decision-template.md`, including its exact machine-readable public summary, and use `clinical-safety-review-protocol.md` for its separate scope. Recheck the inventory facts instead of treating them as legal conclusions. Its schema-v1 source/PDF/EPUB identity must pass `scripts/verify_release.py`; matching bytes prevent a wrong-candidate handoff but do not establish rights. Terminal gates require the canonical evidence roles and mandatory public fields documented in `book/references/external-evidence/README.md`; do not substitute one generic report for a required bundle.
-11. Build `scripts/build-external-review-packet.py` from a clean candidate when issuing work orders. Treat the resulting ignored ZIP as a deterministic handoff aid, never as evidence that a gate passed.
+11. Read `EDITORIAL_POLICY.md` before changing public source, AI, safety, correction, privacy, rights, commercial-interest, or accountability language. Keep README, Chapter 99, and `.github/ISSUE_TEMPLATE/correction.yml` aligned; the public form must not solicit contact or private medical data, and the policy must not invent a named owner or response SLA.
+12. Build `scripts/build-external-review-packet.py` from a clean candidate when issuing work orders. Treat the resulting ignored ZIP as a deterministic handoff aid, never as evidence that a gate passed.
 
 ## Edition and Locale Contract
 
@@ -80,7 +81,7 @@ Never label modern schedules, percentages, diagnostic heuristics, or attainment 
 
 For attainment language, keep the first three fetters, the full five lower fetters, the four fruits, and DN 2's broader discourse title distinct. Use Chapter 10 for the first three fetters, Chapter 11 for the wider 3–5–4 classification, the glossary for direct lookup, claim codes C41–C45 as the canonical project anchors, C66 for the bounded object/basis/means teaching model, and `attainment-source-audit.md` for the immutable passage-level audit. Never present that teaching model or its meditation case as a canonical 1–2–3 sequence.
 
-For the insight map, Chapter 12 must define the map, `tuệ`, `các hành`, conditional maturation and the practice boundary before presenting the seven purifications or competing counts. Keep object, knowing, reaction and conclusion distinct, and preserve the beginner's direct route to the four-region explanation. Preserve a navigable subheading and the six-question explanation across stages 1–11: prior foundation, changed way of knowing, possible experience, appropriate practice, insufficient lookalikes and transition. Retain the one-object walkthrough, and explain stages 12–17 by system function and evidential limit rather than inventing separately reproducible feelings. The frame, ordinary-sitting loop, walkthrough and retrieval exercise are editorial scaffolding bound by C69–C70. They are not canonical checklists, validated stage classifiers, fixed calendars, or exercises that mechanically produce named stages.
+For the insight map, Chapter 12 must define the map, `tuệ`, `các hành`, conditional maturation and the practice boundary before presenting the seven purifications or competing counts. Keep continuity, experiential resolution and relation-to-experience distinct; separate object, knowing, reaction and conclusion; state that the cited sources supply no validated numeric maturity threshold; and preserve the beginner's direct route to the four-region explanation. Preserve the five-part evidential frame, worked dissolution-and-fear interview, navigable subheading and six-question explanation across stages 1–11: prior foundation, changed way of knowing, possible experience, appropriate practice, insufficient lookalikes and transition. Retain the one-object walkthrough, and explain stages 12–17 by system function and evidential limit rather than inventing separately reproducible feelings. The frame, interview, ordinary-sitting loop, walkthrough and retrieval exercise are editorial scaffolding bound by C69–C70. They are not canonical checklists, validated stage classifiers, fixed calendars, or exercises that mechanically produce named stages.
 
 For ordinary-life practice, Chapter 7 owns the transfer contract. Keep task-first
 attention, a brief response check, and formal practice distinct. Immediate
@@ -121,6 +122,9 @@ candidate status, and the missing-rights warning. Public file access is not a
 license. Read identity from `book/edition.json`, artifact status from
 `release-evidence.md`, and external status from
 `external-release-gates.json`; do not copy counts or claims that can drift.
+Link the public editorial policy and structured correction form. The policy
+must preserve the no-SLA, no-credentials, open-rights, and open-external-gate
+boundaries; the issue form must be public-data safe.
 
 ## Build and Verify
 

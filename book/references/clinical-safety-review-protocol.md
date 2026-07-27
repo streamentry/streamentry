@@ -66,7 +66,7 @@ At minimum inspect:
 - Chapter 8, retreat screening, medication pressure, exit rights and coercion;
 - Chapter 9 in full;
 - Chapter 10, depersonalization and attainment-diagnosis cautions;
-- Chapter 12, map language, sleep, medication and loss-of-reality alternatives;
+- Chapter 12, map language, the worked dissolution-and-fear interview, and its sleep, medication, panic, dissociation, function and loss-of-reality alternatives;
 - safety-related FAQ and glossary entries;
 - Appendix A if it is used in a real seven-day study;
 - Appendix E in full, especially its immediate-danger gate, Vietnam emergency-number shorthand, somatic warning shorthand, restart boundary and reduction rule;

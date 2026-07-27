@@ -32,6 +32,30 @@ Hãy hình dung cùng một tiếng xe ngoài đường. Ban đầu ta chỉ bi�
   P02 nói các tuệ phát triển khi niệm và định mạnh dần, rồi mô tả chúng bằng sự trưởng thành có điều kiện của cách biết thân-tâm. Tác phẩm được viết chủ yếu cho người đã có kết quả rõ sau thực hành nghiêm mật, không phải cẩm nang nhập môn hay bảng triệu chứng cho mọi người tự chấm.
 ])
 
+=== Ba việc đổi song song, nhưng đừng nhập chúng làm một
+
+Khi pháp hành phát triển, ít nhất ba trục có thể đổi cùng lúc:
+
++ *Độ liên tục:* tâm nhận ra đối tượng sớm hơn, khoảng quên ngắn hơn và trở về nhanh hơn.
++ *Độ phân giải:* điều từng hiện như một khối “tôi đang đau” có thể lộ thành cảm giác, biết, phản ứng, ý định và biến đổi nối nhau.
++ *Quan hệ với kinh nghiệm:* tâm bớt nắm, chống hoặc tìm nơi nương trong những gì đang sinh rồi mất.
+
+Ba trục hỗ trợ nhau nhưng không đồng nhất. Tập trung mạnh chưa chắc đã là tuệ; thấy nhiều chi tiết chưa chắc đã thấy ba đặc tính; bình thản có thể là xả, nhưng cũng có thể chỉ là thư giãn, mệt, tê cảm xúc hoặc phân ly. Một tên tầng chỉ có cơ sở hơn khi *cách biết đặc trưng của tầng ấy* nổi bật trên nền thích hợp, chứ không phải vì một trục tăng mạnh.
+
+#practice-card(
+  [Một chìa khóa đọc toàn chương],
+  [
+    Khi gặp bất kỳ tên tuệ nào, đừng hỏi trước: “Tôi phải cảm thấy gì?” Hãy hỏi ba câu theo thứ tự:
+
+    + *Cái gì đang được biết?* Cảm giác, âm thanh, ý định, suy nghĩ hay chính việc biết?
+    + *Nó đang được biết theo cách nào?* Như một khối, như tiến trình có điều kiện, như sinh-diệt, như tan rã, như không đáng nương, hay với quân bình?
+    + *Quan hệ của tâm ra sao?* Đang thích, chống, sợ, muốn thoát, hay biết mà ít bị kéo?
+
+    Tên tầng nằm chủ yếu ở câu thứ hai. Câu thứ nhất cung cấp đối tượng; câu thứ ba giúp thấy phản ứng và kiểm tra những cách giải thích khác.
+  ],
+  label: [ĐỐI TƯỢNG → CÁCH BIẾT → QUAN HỆ · BIÊN SOẠN THEO P02],
+)
+
 === Một “trải nghiệm” có bốn lớp, đừng trộn chúng
 
 Khi nghe tiếng xe, ít nhất bốn việc có thể được kể:
@@ -95,6 +119,36 @@ Ngay cả khi bốn điều ấy có vẻ khớp, “đang ở vùng này” v�
   label: [THOÁNG THẤY ≠ VÙNG TUỆ ≠ ĐẠO QUẢ],
 )
 
+=== Nguồn không cho một vạch đích có thể đo
+
+Đây là giới hạn cần nói thẳng. P02 dùng các từ như “chín”, “mạnh”, “sắc bén”, “liên tục” và mô tả một giai đoạn làm nền cho giai đoạn sau. Tác phẩm không định nghĩa rằng phải thấy bao nhiêu đối tượng, ngồi bao nhiêu phút, lặp bao nhiêu buổi hoặc đạt một tỉ lệ tập trung nào thì được cấp tên tầng. Thanh Tịnh Đạo cũng cung cấp cấu trúc luận giải, không cung cấp một thang đo đã được kiểm định cho người đọc hiện đại.
+
+Vì vậy, sách này không thể trung thực đưa ra một con số để trả lời “khi nào đạt”. Một con số rõ ràng nhưng không có trong nguồn sẽ dễ nhớ, cũng dễ sai. Điều có thể làm là tăng độ tin cậy của một giả thuyết bằng năm loại dữ kiện:
+
++ *Dữ kiện nền:* cách hành thực tế, giới, niệm, định và độ liên tục trước khi hiện tượng xuất hiện.
++ *Dữ kiện hiện tại:* cách biết nào lặp lại qua nhiều đối tượng, không chỉ cảm giác nào mạnh nhất.
++ *Dữ kiện chuyển tiếp:* mặt nổi bật trước đó giải thích hợp lý vì sao mặt mới xuất hiện.
++ *Dữ kiện dọc thời gian:* cách biết có trở lại qua nhiều lần quan sát, hay chỉ là một khoảnh khắc nổi bật.
++ *Dữ kiện phản chứng:* giấc ngủ, thuốc, đau, bệnh, lo âu, phân ly, ám thị và suy giảm chức năng có giải thích tốt hơn không.
+
+“Nhiều” trong đoạn trên cố ý không được đổi thành một con số. Ba buổi có thể cho ba dữ kiện nghèo; một buổi dài có thể cho nhiều dữ kiện nhưng vẫn bị thiếu ngủ hoặc kỳ vọng làm lệch. Chất lượng, quan hệ trước–sau và khả năng bị phản chứng quan trọng hơn việc đếm.
+
+#source-line("BIÊN SOẠN", [C69 · giới hạn suy luận từ P02], [
+  Năm loại dữ kiện là hàng rào biên tập để tránh biến các từ “chín” và “mạnh” của P02 thành một phép đo giả. P02 không ban hành khung năm mục, không cho ngưỡng số và không xác nhận rằng đủ năm mục sẽ chứng minh khách quan một tầng.
+])
+
+#practice-card(
+  [Ba câu trả lời trung thực cho “trải nghiệm gì, khi nào, làm sao?”],
+  [
+    *Trải nghiệm gì?* Chỉ có thể nêu những biểu hiện nguồn mô tả là *có thể* đi kèm và cách biết cốt lõi của tầng. Không biến biểu hiện phụ thành danh sách bắt buộc.
+
+    *Khi nào?* Khi cách biết ấy chín có điều kiện, lặp lại và chi phối trên nền trước phù hợp. Nguồn không cho lịch hay ngưỡng định lượng để dự báo.
+
+    *Làm sao?* Vun giới, niệm, định, tinh tấn cân bằng và quan sát đúng hiện tượng đang có. Không có bài tập trung thực nào sản xuất riêng ánh sáng, tan rã, sợ hãi, nhàm chán hay xả theo yêu cầu.
+  ],
+  label: [CÓ THỂ MÔ TẢ · KHÔNG THỂ HỨA · KHÔNG ĐƯỢC DÀN DỰNG],
+)
+
 === “Làm sao đạt?”: vun điều kiện, không sản xuất trải nghiệm
 
 Muốn trả lời chính xác, phải tách ba việc thường bị gộp vào chữ “đạt”.
@@ -130,6 +184,24 @@ Bản đồ chỉ đúng khi nó đưa người đọc trở về việc quan s�
   ],
   label: [LỐI ĐỌC CHO NGƯỜI CHƯA BIẾT THANH TỊNH ĐẠO],
 )
+
+=== Một ca giả định: từ dữ kiện thô đến giả thuyết
+
+Giả sử một người nói: “Tối qua tôi thấy toàn thân tan thành rung động, rồi rất sợ. Có phải tôi đã qua tuệ tan rã và tuệ đáng sợ không?” Câu hỏi ấy chưa thể trả lời bằng hai từ khóa “tan” và “sợ”.
+
+*Lượt hỏi thứ nhất, dựng lại sự kiện.* Người ấy đang theo dõi đối tượng nào? “Tan” nghĩa là cảm giác rung, hình ảnh thân mờ, sự chấm dứt của từng cảm giác, hay một khoảng mất ký ức? Có còn biết rõ trước, trong và sau hiện tượng không? “Sợ” là các hành hiện như không đáng nương, hay là tim đập nhanh và hoảng vì một trải nghiệm lạ?
+
+*Lượt hỏi thứ hai, tìm nền và tính lặp lại.* Trước đó người ấy có phân biệt được đối tượng với việc biết, thấy quan hệ điều kiện và thấy sinh-diệt trực tiếp không? Mặt chấm dứt có lặp lại ở nghe, đau, chuyển động và tâm biết, hay chỉ có một lần toàn thân rung? Sau đó cách biết tiếp tục thay đổi ra sao?
+
+*Lượt hỏi thứ ba, tìm phản chứng.* Người ấy ngủ bao nhiêu, có tăng cường độ đột ngột, dùng thuốc hay chất kích thích, đau đầu, hoảng loạn, phân ly hoặc suy giảm sinh hoạt không? Đã đọc trước mô tả “tan rã rồi sợ” đến mức câu chuyện có thể bị ráp theo kỳ vọng không?
+
+Sau ba lượt, có ba kết luận khác nhau:
+
++ Nếu chỉ có rung mạnh rồi hoảng, kết luận là *chưa đủ dữ kiện*.
++ Nếu mặt chấm dứt của đối tượng và việc biết lặp lại trên nền sinh-diệt đã rõ, “vùng tan rã có thể là một giả thuyết làm việc” là cách nói có giới hạn.
++ Nếu mất ký ức, mất định hướng, mất ngủ hoặc chức năng giảm, câu hỏi bản đồ phải lùi lại; xử lý an toàn và sức khỏe trước.
+
+Không kết luận nào trong ba trường hợp tự chứng minh đạo quả. Ca này do sách biên soạn để minh họa cách suy luận, không phải bệnh án thật và không phải phiếu chẩn đoán.
 
 === Bảy câu trả lời trước khi gặp bất kỳ tên tầng nào
 

@@ -63,7 +63,7 @@ At minimum, review:
 - Chapter 8, the seven-day passage and retreat claims;
 - Chapter 10, the first three fetters and mirror of Dhamma;
 - Chapter 11, the five lower fetters, four fruits, four-pairs/eight-persons formula, and DN 2 distinction;
-- Chapter 12, the opening definition of the map, the object/knowing/reaction/conclusion distinction, the direct route around technical taxonomy, the distinction between conditional maturation and stage production, the ordinary-sitting loop, the six-question editorial frame, stages 1–11, and the post-equanimity limits;
+- Chapter 12, the opening definition of the map, its three axes, the object/knowing/reaction/conclusion distinction, the explicit absence of a numeric maturity threshold, the five-part evidential frame, the worked dissolution-and-fear interview, the direct route around technical taxonomy, the distinction between conditional maturation and stage production, the ordinary-sitting loop, the six-question editorial frame, stages 1–11, and the post-equanimity limits;
 - Appendix C, because direct answers are likely to be quoted without surrounding caveats;
 - Appendix D, because glossary definitions can harden an editorial gloss into an apparent doctrine;
 - Appendix E, because its visual compression must remain an editorial retrieval aid rather than an apparent canonical sequence or new path model;
