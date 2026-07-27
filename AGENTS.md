@@ -10,6 +10,8 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 
 - `con-duong-niem-xu-mahasi-hop-nhat.md`: immutable source manuscript. Recorded SHA-256: `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440`.
 - `README.md`: public reader gateway. Put the Vietnamese reader's download choice, intended use, reading route, safety boundary, source model, correction path, candidate status, and missing-rights warning before contributor build details. Never let public file access imply a redistribution license or external validation.
+- `EDITORIAL_POLICY.md`: public source, AI, safety, disagreement, correction, privacy, rights, commercial-interest, and unresolved-evidence contract. It must state the absence of a fixed response deadline, verifiable credentials, rights clearance, and external validation rather than manufacturing accountability.
+- `.github/ISSUE_TEMPLATE/correction.yml`: privacy-bounded public correction form linked from README and Chapter 99; require actionable location and wording evidence without soliciting direct contact or private medical data.
 - `book/edition.json`: sole canonical edition and locale authority for publication identity, output names, source binding, cover copy, interface labels, accessibility copy, semantic smoke text, and validation scope.
 - `book/edition.typ`: thin Typst leaf that exposes `edition.json`; it must not introduce independent metadata or locale policy.
 - `scripts/edition_contract.py`: strict schema-v1 Python loader used by build and verification. Unknown, missing, malformed, unsafe, or internally inconsistent values fail closed.
@@ -23,7 +25,7 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `book/chapters/07-doi-song-tai-gia.typ`: ordinary-life transfer through task-first attention, brief response checks, formal-practice boundaries, an immediate collision loop, and a post-error repair loop. Their counts and timings are editorial; immediate protection and essential duties outrank introspection.
 - `book/chapters/10-nhap-luu.typ`: focused beginner explanation of the first three fetters through separate source claims, a visibly editorial object/basis/means model, ordinary-life and meditation cases, and the canonical criteria surrounding Stream-entry.
 - `book/chapters/11-ha-phan-va-sa-mon-qua.typ`: separate 3–5–4 map for the five lower fetters, four fruits, four pairs/eight persons, and DN 2.
-- `book/chapters/12-ban-do-tue.typ`: later-reference insight map. Define the map before taxonomy, separate object/knowing/reaction/conclusion, and preserve the direct beginner route to the four-region explanation. Keep a navigable subheading and the six-question explanation (foundation, changed knowing, possible experience, practice, insufficient lookalikes, transition) consistent across stages 1–11, plus the one-object walkthrough that makes the changing way of knowing concrete. Explain stages 12–17 by system function and evidential limit, not as separately reproducible feelings. Never turn its editorial teaching aids into a self-diagnostic ladder or stage-production recipe.
+- `book/chapters/12-ban-do-tue.typ`: later-reference insight map. Define the map before taxonomy; separate continuity, experiential resolution, and relation-to-experience; separate object/knowing/reaction/conclusion; state that the sources supply no validated numeric maturity threshold; and preserve the direct beginner route to the four-region explanation. Keep the five-part evidence interview, a navigable subheading and the six-question explanation (foundation, changed knowing, possible experience, practice, insufficient lookalikes, transition) consistent across stages 1–11, plus the one-object walkthrough that makes the changing way of knowing concrete. Explain stages 12–17 by system function and evidential limit, not as separately reproducible feelings. Never turn its editorial teaching aids into a self-diagnostic ladder or stage-production recipe.
 - `book/appendices/`: reusable practice tools.
 - `book/appendices/e-ban-do-quyet-dinh.typ`: original safety-first retrieval map for stay, switch, act, repair, reduce and stop decisions; its editorial synthesis is C74 and its current Vietnamese emergency-number route is bounded by C75–C76.
 - `book/references/claim-ledger.md`: claim-to-source audit trail.
@@ -135,6 +137,8 @@ flowchart TB
   R0["README reader gateway"] --> U
   R0 --> V["Tracked PDF"]
   R0 --> X
+  EP["Public editorial policy"] --> R0
+  CF["Privacy-bounded correction form"] --> EP
   M --> Q["Quality audits"]
   N["Frozen manifest and attempt records"] --> G["Deterministic dual-output pilot scorer"]
   G --> Q

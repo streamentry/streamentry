@@ -55,6 +55,43 @@ class Chapter12ContractTests(unittest.TestCase):
             self.assertRegex(section, rf"(?m)^\+ \*{number} · ")
         self.assertIn("C69 · minh họa đối chiếu P02 mục 1–11", section)
 
+    def test_beginner_model_explains_maturation_without_fake_thresholds(
+        self,
+    ) -> None:
+        required_sections = (
+            "=== Ba việc đổi song song, nhưng đừng nhập chúng làm một",
+            "=== Nguồn không cho một vạch đích có thể đo",
+            "=== Một ca giả định: từ dữ kiện thô đến giả thuyết",
+        )
+        for heading in required_sections:
+            self.assertIn(heading, self.chapter)
+
+        required_distinctions = (
+            "*Độ liên tục:*",
+            "*Độ phân giải:*",
+            "*Quan hệ với kinh nghiệm:*",
+            "*Dữ kiện nền:*",
+            "*Dữ kiện hiện tại:*",
+            "*Dữ kiện chuyển tiếp:*",
+            "*Dữ kiện dọc thời gian:*",
+            "*Dữ kiện phản chứng:*",
+            "*Trải nghiệm gì?*",
+            "*Khi nào?*",
+            "*Làm sao?*",
+        )
+        for distinction in required_distinctions:
+            self.assertIn(distinction, self.chapter)
+
+        self.assertIn(
+            "P02 không ban hành khung năm mục, không cho ngưỡng số",
+            self.chapter,
+        )
+        self.assertIn(
+            "Nếu chỉ có rung mạnh rồi hoảng, kết luận là "
+            "*chưa đủ dữ kiện*",
+            self.chapter,
+        )
+
     def test_late_sequence_retains_source_and_non_diagnostic_boundaries(
         self,
     ) -> None:

@@ -3,7 +3,7 @@
   "candidate_binding": "frozen_artifact_commit_ancestor_plus_release_evidence",
   "release_evidence": {
     "path": "book/references/release-evidence.md",
-    "sha256": "049047cbbdea94ec57753bf996b1da7863c13659f50e646309f1acc7ecf03a51"
+    "sha256": "9f7fe349b5b39ef653d773a75d007b015f5fc122f81b151bd69dfcf40f428a88"
   },
   "protocols": {
     "external_release_packet": {
@@ -16,19 +16,19 @@
     },
     "doctrinal_review": {
       "path": "book/references/doctrinal-review-protocol.md",
-      "sha256": "f591b53b68b5de7eafe8ee8d9744ba95c879f86e53a455fae07d5fb6570d6e05"
+      "sha256": "4fd2cef5e9b271b527d8cd71cc2e754470fd005a2427ecb361658be6dfdfe78e"
     },
     "clinical_safety_review": {
       "path": "book/references/clinical-safety-review-protocol.md",
-      "sha256": "52ffdb583128e07891149a7540e65f0a4178a5656bd57fb4dbc102eb7dabe5a8"
+      "sha256": "7702a61ca05c98e7fbe961217f90e8d8ac1dd84c18eb65d26a38512ea15a0199"
     },
     "beginner_validation": {
       "path": "book/references/beginner-validation-protocol.md",
-      "sha256": "5d10c5da8f4a1cc2bf8626061cadfac8d7ddc172d0fda25898eeff9c84b93e34"
+      "sha256": "3a15bb4bf760a29dc3487eb9764562a876a889ffd378c6c30cebd08fa8456207"
     },
     "beginner_reader_kit": {
       "path": "book/references/beginner-reader-kit.md",
-      "sha256": "059526b822bcf66d2d7c71133535b50fc9e8d807ec08d9b4379e7f4bae921b9d"
+      "sha256": "1058dc389e859ac7fee6e38d8fb214df46cd515f644456f66159f1a9e93bf2d9"
     },
     "comparative_beginner": {
       "path": "book/references/comparative-beginner-protocol.md",

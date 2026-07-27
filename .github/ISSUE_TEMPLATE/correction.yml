@@ -1,0 +1,82 @@
+name: Báo lỗi sách hoặc nguồn
+description: Báo lỗi giáo lý, nguồn, an toàn, quyền, chữ, dàn trang hoặc khả năng tiếp cận
+title: "[Đính chính]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Cảm ơn bạn đã giúp kiểm tra sách. Issue này sẽ công khai.
+
+        Không ghi tên thật, email, số điện thoại, tài khoản cá nhân, hồ sơ bệnh án hoặc chi tiết trải nghiệm có thể nhận diện một người. Nếu đang có nguy hiểm tức thời, hãy dùng dịch vụ cấp cứu nơi bạn sống; đừng chờ phản hồi tại đây.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Loại vấn đề
+      options:
+        - Nguồn hoặc trích dẫn
+        - Giáo lý hoặc diễn giải
+        - An toàn hoặc y khoa
+        - Quyền hoặc ghi công
+        - EPUB hoặc khả năng tiếp cận
+        - Lỗi chữ hoặc dàn trang
+        - Khác
+    validations:
+      required: true
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: Bạn gặp lỗi ở đâu?
+      options:
+        - PDF
+        - EPUB
+        - README hoặc tài liệu trong kho
+        - Nhiều định dạng
+        - Chưa rõ
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Vị trí chính xác
+      description: Ghi chương và trang PDF, hoặc tên mục EPUB và vài chữ đầu của đoạn.
+      placeholder: "Ví dụ: Chương 11, trang 114; mục “Vì sao vô ngã liên quan đến thân kiến?”"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_text
+    attributes:
+      label: Câu chữ hoặc hành vi hiện tại
+      description: Chép đoạn ngắn cần kiểm tra, hoặc mô tả lỗi hiển thị và cách tái hiện.
+    validations:
+      required: true
+
+  - type: textarea
+    id: concern
+    attributes:
+      label: Vì sao bạn cho rằng cần sửa?
+      description: Nêu mâu thuẫn, nguy cơ, lỗi điều hướng hoặc kết quả bạn mong đợi.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Nguồn đối chiếu
+      description: Nếu có, đưa liên kết và đúng đoạn hỗ trợ. Có thể để trống với lỗi chữ hoặc dàn trang rõ ràng.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: public_report
+    attributes:
+      label: Xác nhận trước khi gửi
+      options:
+        - label: Tôi đã bỏ dữ liệu liên lạc, thông tin y tế riêng và chi tiết có thể nhận diện người khác.
+          required: true
+        - label: Tôi đã tìm issue hiện có để tránh báo trùng.
+          required: true

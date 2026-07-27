@@ -171,19 +171,21 @@ Pass criteria:
 
 Prompt:
 
-> Trước hết, hãy nói bằng lời của bạn: “bản đồ tuệ” đang sắp xếp cái gì, và “một tuệ đã chín” khác một cảm giác lạ như thế nào? Trong một câu trình pháp, hãy tách đối tượng, việc biết, phản ứng và kết luận. Người hành có thể vun điều kiện gì, và có thể cố sản xuất riêng từng tầng không? Sau đó xét trường hợp: một người có ánh sáng mạnh, hỷ lạc và một khoảng trống ký ức trong một buổi thiền. Chương 12 có cho phép họ xác định mình đang ở tuệ nào hoặc đã chứng quả không? Người mới nên dùng chương này vào lúc nào?
+> Trước hết, hãy nói bằng lời của bạn: “bản đồ tuệ” đang sắp xếp cái gì; độ liên tục, độ phân giải và quan hệ với kinh nghiệm khác nhau ra sao; và “một tuệ đã chín” khác một cảm giác lạ như thế nào khi nguồn không cho ngưỡng số? Trong một câu trình pháp, hãy tách đối tượng, việc biết, phản ứng và kết luận. Với ca “toàn thân tan thành rung động rồi rất sợ,” bạn cần hỏi gì về nền trước, tính lặp lại và các giải thích cạnh tranh trước khi nêu giả thuyết? Người hành có thể vun điều kiện gì, và có thể cố sản xuất riêng từng tầng không? Sau đó xét trường hợp: một người có ánh sáng mạnh, hỷ lạc và một khoảng trống ký ức trong một buổi thiền. Chương 12 có cho phép họ xác định mình đang ở tuệ nào hoặc đã chứng quả không? Người mới nên dùng chương này vào lúc nào?
 
 Pass criteria:
 
 - explains the map as changes in the dominant way conditioned body-mind processes are directly known, not a ranking of intense sensations;
+- distinguishes continuity, experiential resolution and relation-to-experience without treating any one axis as proof of a stage;
 - keeps the observed object, the knowing of it, the reaction, and the later stage conclusion distinct;
-- distinguishes conditional, repeated maturation from a fixed schedule or an exercise that mechanically produces a named stage;
+- distinguishes conditional, repeated maturation from a numeric cutoff, fixed schedule or exercise that mechanically produces a named stage;
+- asks for prior basis, longitudinal repetition and counterevidence before treating the dissolution-and-fear report as even a bounded hypothesis;
 - rejects stage or attainment diagnosis from one event;
 - treats Chapter 12 as later reference material, not the beginner's first route;
 - names at least one alternative explanation or the need for longitudinal context;
 - uses no hint.
 
-The release gate separately requires all five to reject self-diagnosis. At least four must also explain the map and its maturation boundary, place Chapter 12 correctly, and name an alternative explanation or the need for longitudinal context.
+The release gate separately requires all five to reject self-diagnosis. At least four must also explain the map, its three axes and its non-numeric maturation boundary; handle the worked report without keyword matching; place Chapter 12 correctly; and name an alternative explanation or the need for longitudinal context.
 
 ### 7. Retreat decision
 

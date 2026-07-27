@@ -13,6 +13,8 @@ each failure names one contract.
 - `test_epub_edition_contract.py`: alternate-locale HTML head metadata, navigation, cover, OPF, language, accessibility, XML-escaping, content-link, and repeated-card visible-title binding contract proof with no Vietnamese-label fallback.
 - `test_release_identity.py`: table-driven PDF and EPUB title, credit, and language drift rejection against the loaded contract.
 - `test_readme_gateway.py`: reader-first ordering, contract-derived download identity, relative-link integrity, missing-rights and open-gate boundaries, and rejection of drift-prone artifact counts in the public README.
+- `test_editorial_policy.py`: public-policy, reader-surface, structured-correction-form, privacy-boundary, and honest T02/T05 audit regressions.
+- `test_chapter_12_contract.py`: all seventeen stage headings, the six-part stages 1–11 explanation, the three-axis/non-numeric maturation model, the worked hypothesis interview, one-object walkthrough, and late-sequence evidential limits.
 - `release_verifier_fixtures.py`: shared synthetic Markdown, PDFInfo, OPF, XHTML, and EPUB fixtures.
 - `test_release_evidence.py`: visible-table parsing plus immutable hash and canonical-credit anchors against the explicitly supplied edition.
 - `test_release_pdf.py`: metadata, encryption, all-page size, and rotation regressions.
@@ -41,6 +43,10 @@ flowchart LR
   F --> K["External packet tests"]
   R["Tracked release"] --> I["Integration test"]
   W["README gateway"] --> J["Reader-surface contract test"]
+  H["Policy and correction form"] --> N["Editorial-policy contract test"]
+  B["Chapter 12"] --> M["Insight-map contract test"]
+  N --> G
+  M --> G
   E --> G["Full test gate"]
   D --> G
   P --> G
@@ -59,6 +65,8 @@ flowchart TB
   X --> U["test_release_epub.py"]
   V["verify_release.py"] --> I["test_release_verifier.py"]
   W["README, edition, gates, evidence"] --> J["test_readme_gateway.py"]
+  H["EDITORIAL_POLICY.md and correction.yml"] --> N["test_editorial_policy.py"]
+  B["12-ban-do-tue.typ"] --> M["test_chapter_12_contract.py"]
   G["external_release_gates.py"] --> Q["role and gate-contract tests"]
   RI["rights_inventory_contract.py"] --> Q
   R["rights_decision_contract.py"] --> Q

@@ -76,7 +76,8 @@ Chỉ dẫn trong sách không đứng cao hơn giới, sự an toàn hay bổn 
 - [Kiểm toán độ sâu từng chương](book/references/editorial-depth-audit.md)
 - [Kiểm toán sẵn sàng xuất bản](book/references/publish-readiness-audit.md)
 - [Các cổng phát hành bên ngoài](book/references/external-release-packet.md)
-- [Gửi báo lỗi hoặc đề nghị sửa nguồn](https://github.com/streamentry/streamentry/issues)
+- [Chính sách biên tập và sửa sai](EDITORIAL_POLICY.md)
+- [Gửi báo lỗi sách hoặc nguồn](https://github.com/streamentry/streamentry/issues/new?template=correction.yml)
 
 Kiểm tra nội bộ chứng minh artifact hiện tại có cấu trúc nhất quán với hồ sơ phát hành. Nó không chứng minh mọi người mới đều hiểu đúng, sách an toàn cho mọi tình trạng, người biên tập có quyền phát hành rộng rãi, hay sách tốt hơn các lựa chọn khác. Những kết luận ấy cần bằng chứng bên ngoài riêng.
 
