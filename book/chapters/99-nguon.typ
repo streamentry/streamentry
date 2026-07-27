@@ -59,8 +59,8 @@
 
 #reference-item(
   [K08],
-  [Các quả tại Ñātika và Gương Pháp, Dīgha Nikāya 16],
-  [Các đoạn 2.6–2.9 phân loại người đã mất theo các quả, gồm hơn năm trăm nam cư sĩ Nhập lưu và hơn năm mươi nam cư sĩ đoạn năm hạ phần kiết sử; phần Gương Pháp kế tiếp nêu tịnh tín nơi Phật, Pháp, Tăng và giới hạnh được bậc Thánh quý trọng.],
+  [Các quả tại Ñātika, Gương Pháp và lời dạy cuối, Dīgha Nikāya 16],
+  [Các đoạn 2.6–2.9 phân loại người đã mất theo các quả, gồm hơn năm trăm nam cư sĩ Nhập lưu và hơn năm mươi nam cư sĩ đoạn năm hạ phần kiết sử; phần Gương Pháp kế tiếp nêu tịnh tín nơi Phật, Pháp, Tăng và giới hạnh được bậc Thánh quý trọng. Ở lời dạy cuối, Đức Phật hỏi hội chúng có còn nghi hoặc đối với Phật, Pháp, Tăng, con đường hoặc sự thực hành hay không.],
   "https://suttacentral.net/dn16/en/sujato",
 )
 
@@ -151,7 +151,7 @@
 #reference-item(
   [K21],
   [Năm sợ hãi và Nhập lưu, Aṅguttara Nikāya 10.92],
-  [Năm hành vi gây sợ hãi được lắng, bốn phẩm chất Nhập lưu và trí thấy duyên khởi.],
+  [Năm hành vi gây sợ hãi được lắng, bốn phẩm chất Nhập lưu, công thức cộng đồng Thánh đệ tử gồm bốn đôi tám hạng người, và trí thấy duyên khởi.],
   "https://suttacentral.net/an10.92/en/sujato",
 )
 
@@ -256,7 +256,7 @@
 #reference-item(
   [K36],
   [Khuynh hướng tiềm ẩn và năm hạ phần kiết sử, Majjhima Nikāya 64],
-  [Phân biệt khuynh hướng tiềm ẩn với kiết sử đang sinh khởi; khi hiện hành, kiết sử có thể ám ảnh và chi phối tâm, còn mạnh, chưa được nhổ tận, và lối thoát chưa được thấy như thật.],
+  [Phân biệt khuynh hướng tiềm ẩn với kiết sử đang sinh khởi; khi hiện hành, kiết sử có thể ám ảnh và chi phối tâm, còn mạnh, chưa được nhổ tận, và lối thoát chưa được thấy như thật. Khi một hạ phần kiết sử được đoạn, bài kinh cũng nói khuynh hướng tiềm ẩn tương ứng được đoạn.],
   "https://suttacentral.net/mn64/en/bodhi",
 )
 
@@ -279,6 +279,13 @@
   [Người đang thực hành để chứng quả, Saṁyutta Nikāya 48.18],
   [Đặt các hạng đang thực hành để chứng từng quả trong một thang năm căn: tín, tấn, niệm, định và tuệ; người hoàn toàn không có năm căn được đặt ngoài nhóm ấy. Vì vậy, đây là một phạm trù kỹ thuật, không phải tên gọi tự động cho mọi ước muốn hay nỗ lực thông thường.],
   "https://suttacentral.net/sn48.18/en/sujato",
+)
+
+#reference-item(
+  [K40],
+  [Đích của đời sống Sa-môn, Saṁyutta Nikāya 45.36],
+  [Sự đoạn tận tham, sân và si là đích của đời sống Sa-môn. Đọc cùng SN 45.35, đoạn này giúp phân biệt đạo lộ, các mốc quả và cứu cánh.],
+  "https://suttacentral.net/sn45.36/en/sujato",
 )
 
 == Thanh Tịnh Đạo và truyền thống Mahāsi

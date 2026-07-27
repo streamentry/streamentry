@@ -269,6 +269,40 @@ def evidence_counted_record_sha256s(
     return frozenset(matches)
 
 
+def evidence_generated_report_passed(markdown: str, role: str) -> bool | None:
+    """Return the machine-visible verdict for scorer-generated evidence roles."""
+    if role == "aggregate_report":
+        matches = re.findall(
+            r"^- Verdict:\s*\*\*(PASS|FAIL)\*\*\s*$",
+            markdown,
+            flags=re.MULTILINE,
+        )
+        require(
+            len(matches) == 1,
+            "aggregate report must contain exactly one machine-visible Verdict",
+        )
+        return matches[0] == "PASS"
+    if role == "reader_app_report":
+        statuses: list[str] = []
+        for field in (
+            "Repeated start-route status",
+            "Repeated section-finding status",
+            "Display criteria status",
+        ):
+            matches = re.findall(
+                rf"^- {re.escape(field)}:\s*`(PASSED|FAILED|NOT RECORDED)`\s*$",
+                markdown,
+                flags=re.MULTILINE,
+            )
+            require(
+                len(matches) == 1,
+                f"reader-app report must contain exactly one {field}",
+            )
+            statuses.append(matches[0])
+        return all(status == "PASSED" for status in statuses)
+    return None
+
+
 def reject_public_contact_data(markdown: str) -> None:
     searchable_lines = []
     for line in markdown.splitlines():

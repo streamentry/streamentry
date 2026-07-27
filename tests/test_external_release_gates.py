@@ -150,6 +150,27 @@ class ExternalReleaseGateTests(unittest.TestCase):
                     f"Counted record SHA-256: {digest}"
                     for digest in records_by_role.get(role, default_records)
                 )
+                if role == "aggregate_report":
+                    lines.extend(
+                        [
+                            "",
+                            "# Beginner validation cohort result",
+                            "",
+                            f"- Verdict: **{'PASS' if status == 'passed' else 'FAIL'}**",
+                        ]
+                    )
+                else:
+                    report_status = "PASSED" if status == "passed" else "FAILED"
+                    lines.extend(
+                        [
+                            "",
+                            "# Public EPUB reader-app report",
+                            "",
+                            f"- Repeated start-route status: `{report_status}`",
+                            f"- Repeated section-finding status: `{report_status}`",
+                            f"- Display criteria status: `{report_status}`",
+                        ]
+                    )
             lines.append("")
             evidence_path.write_text(
                 "\n".join(lines),
@@ -820,6 +841,85 @@ class ExternalReleaseGateTests(unittest.TestCase):
                 verified["gates"]["epub_reader_app"]["status"],
                 "passed",
             )
+
+    def test_rejects_passed_beginner_report_with_failed_body_verdict(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root, _release = self._fixture(directory)
+            registry = self._registry(root)
+            current_commit = "1" * 40
+            self._terminal_gate(
+                root,
+                registry,
+                gate_id="beginner_cohort",
+                status="passed",
+                candidate_commit=current_commit,
+            )
+            aggregate = registry["gates"]["beginner_cohort"]["evidence"][0]
+            path = root / aggregate["path"]
+            path.write_text(
+                path.read_text(encoding="utf-8").replace(
+                    "- Verdict: **PASS**",
+                    "- Verdict: **FAIL**",
+                    1,
+                ),
+                encoding="utf-8",
+            )
+            aggregate["sha256"] = _sha256(path)
+            self._write_registry(root, registry)
+            release = parse_release_evidence(
+                (root / RELEASE_EVIDENCE_PATH).read_text(encoding="utf-8")
+            )
+            with (
+                _verified_frozen_candidate(current_commit),
+                self.assertRaisesRegex(
+                    ReleaseVerificationError,
+                    "report verdict contradicts",
+                ),
+            ):
+                verify_external_release_gates(root, release)
+
+    def test_rejects_passed_epub_report_with_failed_body_status(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root, _release = self._fixture(directory)
+            registry = self._registry(root)
+            current_commit = "1" * 40
+            self._terminal_gate(
+                root,
+                registry,
+                gate_id="beginner_cohort",
+                status="passed",
+                candidate_commit=current_commit,
+            )
+            self._terminal_gate(
+                root,
+                registry,
+                gate_id="epub_reader_app",
+                status="passed",
+                candidate_commit=current_commit,
+            )
+            reader_app = registry["gates"]["epub_reader_app"]["evidence"][0]
+            path = root / reader_app["path"]
+            path.write_text(
+                path.read_text(encoding="utf-8").replace(
+                    "- Display criteria status: `PASSED`",
+                    "- Display criteria status: `FAILED`",
+                    1,
+                ),
+                encoding="utf-8",
+            )
+            reader_app["sha256"] = _sha256(path)
+            self._write_registry(root, registry)
+            release = parse_release_evidence(
+                (root / RELEASE_EVIDENCE_PATH).read_text(encoding="utf-8")
+            )
+            with (
+                _verified_frozen_candidate(current_commit),
+                self.assertRaisesRegex(
+                    ReleaseVerificationError,
+                    "report verdict contradicts",
+                ),
+            ):
+                verify_external_release_gates(root, release)
 
     def test_rejects_epub_report_from_another_beginner_manifest(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

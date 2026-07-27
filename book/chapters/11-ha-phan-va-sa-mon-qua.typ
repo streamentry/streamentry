@@ -3,9 +3,9 @@
 #chapter(
   [11],
   [Năm hạ phần kiết sử và bốn quả Sa-môn],
-  [Ba kiết sử đầu, năm hạ phần kiết sử và bốn quả là ba cách đếm có liên hệ, nhưng không đồng nghĩa. Chương này đặt chúng vào đúng vị trí để người mới không nhầm Nhập lưu với Bất lai, hay nhầm tên một bài kinh với bảng bốn quả.],
+  [Ba kiết sử đầu nằm trong năm hạ phần; bốn quả lại là trục kết quả của cùng Bát Thánh đạo. Chương này làm rõ hai quan hệ ấy để người mới không nhầm Nhập lưu với Bất lai, hay nhầm tên một bài kinh với bảng bốn quả.],
   provenance: [
-    #source-badge("KINH", refs: [K06; K08–K11; K21; K24; K32–K34; K36; K37; K39])
+    #source-badge("KINH", refs: [K06; K08–K11; K21; K24; K32–K34; K36; K37; K39; K40])
     #h(4pt)
     #source-badge("THANH TỊNH ĐẠO", refs: [V01])
     #h(4pt)
@@ -20,28 +20,33 @@ Nếu vừa đọc chương 10, bạn đã biết ba kiết sử đầu là thâ
 Có một lỗi rất dễ mắc: thấy cả ba con số 3, 5 và 4 rồi tưởng chúng là ba phiên bản của cùng một bảng. Không phải. *Ba* và *năm* đếm các trói buộc; *bốn* đếm các mốc kết quả trên đường giải thoát.
 
 #practice-card(
-  [Nếu bạn đang hướng đến Nhập lưu, trọng tâm vẫn là ba kiết sử đầu],
+  [Khung 3–5–4 trên một trang],
   [
-    Chương này *không* chuyển mục tiêu của người mới từ ba kiết sử đầu sang năm hạ phần hay bốn quả. Nó chỉ dựng bản đồ để bạn khỏi lẫn:
+    *Quan hệ tập hợp:*
 
-    + *Trọng tâm thực hành gần:* thấy rõ ba kiểu đọc sai đã được giải ở chương 10. Thân kiến đọc kinh nghiệm theo trục “tôi” và “của tôi”. Hoài nghi mắc kẹt ở chỗ không dám đặt lòng tin có căn cứ vào Pháp và không dám đi tiếp bằng thấy biết. Chấp thủ giới-tập tục tráo phương tiện thành cứu cánh.
-    + *Bản đồ rộng hơn:* hai trói buộc nữa là dục tham và sân cho biết vì sao một bậc Nhập lưu chưa phải Bất lai.
-    + *Bảng kết quả:* bốn quả cho biết các mốc được kinh mô tả, không cho bạn một thước tự chấm.
+    + *Ba kiết sử đầu* = thân kiến + hoài nghi + chấp thủ giới-tập tục.
+    + *Năm hạ phần kiết sử* = ba kiết sử đầu + dục tham + sân.
+    + Vì vậy: *ba kiết sử đầu nằm bên trong nhóm năm hạ phần*. Không có một bảng độc lập thứ ba phải học thêm.
 
-    Nếu ba tầng này bị trộn, người đọc rất dễ bỏ mất việc chính cần làm: học nhìn đúng ba kiết sử đầu trước, rồi mới học bảng năm và bảng bốn.
+    *Trục kết quả:*
+
+    + *Bốn quả* = Nhập lưu → Nhất lai → Bất lai → A-la-hán.
+    + Nhập lưu đoạn ba kiết sử đầu. Bất lai đoạn đủ năm hạ phần. Nhất lai nằm giữa hai mốc ấy bằng công thức riêng “làm mỏng tham, sân, si”. A-la-hán được kinh mô tả bằng tiêu chuẩn rộng hơn là đoạn tận lậu hoặc.
+
+    Nếu bạn đang hướng đến Nhập lưu, trọng tâm thực hành gần vẫn là chương 10 và toàn bộ Bát Thánh đạo. Nhóm năm và bảng bốn chỉ giữ bản đồ khỏi bị lẫn; chúng không biến thành thước tự chấm.
   ],
-  label: [TRỌNG TÂM CHO NGƯỜI MỚI · BIÊN SOẠN, ĐỐI CHIẾU K10; K11; K24; K32],
+  label: [BẢN ĐỒ KHÁI NIỆM · K10; K24; K32; BIÊN SOẠN PHẦN TRÌNH BÀY],
 )
 
 #practice-card(
   [“Sa-môn quả” nghĩa đơn giản là gì],
   [
-    *Sa-môn quả* nghĩa sát chữ là *kết quả của đời sống Sa-môn*. Cụm này cần được đọc theo ngữ cảnh:
+    Trong chương này, *Sa-môn quả* có nghĩa là *kết quả của đạo lộ tu tập hướng đến giải thoát*. SN 45.35 không để cụm “đời sống Sa-môn” mơ hồ: bài kinh xác định chính Bát Thánh đạo là đời sống ấy, rồi nêu bốn quả của nó.
 
     + SN 45.35 dùng số nhiều để nêu *bốn quả giải thoát*: quả Nhập lưu, quả Nhất lai, quả Bất lai và quả A-la-hán.
     + DN 2 hỏi rộng hơn về những kết quả có thể thấy của đời sống xuất gia, bắt đầu từ các lợi ích hiện tại rồi trình bày cả tiến trình huấn luyện đưa đến đoạn tận lậu hoặc.
 
-    Chương này dùng “bốn quả Sa-môn” theo nghĩa thứ nhất, trừ khi nói rõ đang bàn riêng DN 2. Bốn quả không phải tên chung cho mọi trải nghiệm thiền mạnh. Trong phạm vi nguồn được dẫn ở đây, DN 16 cho bằng chứng trực tiếp rằng cư sĩ không bị loại khỏi ba quả đầu; chương này không dùng đoạn ấy để suy rộng về quả A-la-hán của cư sĩ.
+    Chương này dùng “bốn quả Sa-môn” theo nghĩa thứ nhất, trừ khi nói rõ đang bàn riêng DN 2. Từ *Sa-môn* ở đây không biến bốn quả thành đặc quyền của một địa vị xã hội: DN 16 trực tiếp ghi nhận cư sĩ ở ba quả đầu. Chương này không dùng đoạn ấy để suy rộng về quả A-la-hán của cư sĩ.
 
     Giữ thêm hai câu: *kiết sử* trả lời tâm còn bị trói ở đâu; *quả* trả lời mốc giải thoát nào đã được thành tựu. Hai bảng liên hệ nhưng không dùng thay tên cho nhau.
   ],
@@ -50,46 +55,11 @@ Có một lỗi rất dễ mắc: thấy cả ba con số 3, 5 và 4 rồi tư�
 
 == Hai bản đồ, một quan hệ <khung-354>
 
-#practice-card(
-  [Khung 3–5–4, đọc từ trong ra ngoài],
-  [
-    1. *Ba kiết sử đầu:* thân kiến, hoài nghi, chấp thủ giới-tập tục.
-    2. *Năm hạ phần kiết sử:* lấy ba kiết sử đầu, cộng dục tham và sân.
-    3. *Bốn quả Sa-môn:* quả Nhập lưu (*sotāpattiphala*), quả Nhất lai (*sakadāgāmiphala*), quả Bất lai (*anāgāmiphala*) và quả A-la-hán (*arahattaphala*).
-
-    Quan hệ cần nhớ:
-
-    + *Nhập lưu* đoạn ba kiết sử đầu.
-    + *Nhất lai* đã đoạn ba kiết sử ấy và làm mỏng tham, sân, si.
-    + *Bất lai* đoạn đủ năm hạ phần kiết sử.
-    + *A-la-hán* đoạn tận các lậu hoặc; phần dưới sẽ giải nghĩa thuật ngữ này trước khi phân tích mốc ấy.
-
-    Ba kiết sử đầu nằm *bên trong* nhóm năm hạ phần. Bốn quả là một bảng khác, dùng để chỉ các mốc kết quả.
-
-    Tên Pāli của *người* thành tựu bốn quả lần lượt là *sotāpanna, sakadāgāmī, anāgāmī* và *arahant*. Đừng dùng tên người và tên quả như thể chúng là cùng một dạng từ.
-  ],
-  label: [BẢN ĐỒ KHÁI NIỆM · K10; K24; K32],
-)
-
 #caution(
-  [Đừng gọi chúng là một danh sách “ba hạ phần kiết sử” riêng],
+  [Khi gặp cụm “ba hạ phần kiết sử”],
   [
-    Cách nói chính xác hơn trong các nguồn sách đang dùng là *ba kiết sử đầu*. Cả ba đều thuộc nhóm năm hạ phần kiết sử, nhưng kinh được dẫn ở đây không đặt tên một danh mục độc lập là “ba hạ phần kiết sử”. Sửa cách gọi này không phải bắt bẻ chữ; nó ngăn người đọc tưởng còn một bảng ba kiết sử khác bên cạnh bảng năm.
+    Trong lời giảng, cụm này thường được dùng để chỉ ba cái đầu của nhóm năm. Các nguồn sách đang dùng gọi chúng đơn giản là *ba kiết sử* hoặc liệt kê chúng ở đầu *năm hạ phần kiết sử*. Sách dùng cách nói *ba kiết sử đầu* để người mới không tưởng còn một danh mục độc lập khác phải học.
   ],
-)
-
-#practice-card(
-  [Ba kiết sử đầu, nói thật gọn mà không sai],
-  [
-    Nếu phải nhắc lại chương 10 trong một phút, hãy giữ ba câu này:
-
-    + *Thân kiến:* lầm năm uẩn là tôi, của tôi, ở trong tôi hay tôi ở trong chúng.
-    + *Hoài nghi:* không phải mọi câu hỏi, mà là mắc kẹt đến mức chưa có tịnh tín được xác chứng và chưa đứng được trên thấy biết về Pháp để đi tiếp.
-    + *Chấp thủ giới-tập tục:* tưởng một giới điều, nghi thức, khổ hạnh hay kỹ thuật tự nó đủ thanh tịnh và giải thoát, nên quên mất nhân quả, quên mất việc phải giảm tham, sân, si.
-
-    Ba câu này chưa thay chương 10. Chúng chỉ giữ cho bản đồ 3–5–4 ở chương này không bị rỗng ruột.
-  ],
-  label: [TÓM TẮT CỐT LÕI · K20; K11; K03; K09; K38],
 )
 
 == Năm hạ phần kiết sử: ba cộng hai <nam-ha-phan>
@@ -98,25 +68,36 @@ Có một lỗi rất dễ mắc: thấy cả ba con số 3, 5 và 4 rồi tư�
   Năm hạ phần kiết sử là thân kiến, hoài nghi, chấp thủ giới và tập tục, dục tham, sân. Năm thượng phần kiết sử là tham đối với sắc giới, tham đối với vô sắc giới, ngã mạn, trạo cử, tức tâm dao động, và vô minh. Nhóm thứ hai được nêu ở đây để thấy đủ danh mục mười; chương này chỉ phân tích nhóm năm liên hệ đến các mốc đầu.
 ])
 
+#practice-card(
+  [Năm kiết sử trong cùng một khuôn],
+  [
+    Đọc mỗi mục theo ba phần: *mối trói là gì; điều nào không tự là mối trói; mốc quả nào liên hệ*.
+
+    1. *Thân kiến:* nắm một trong năm uẩn là tự ngã, tự ngã sở hữu uẩn, uẩn ở trong tự ngã hoặc tự ngã ở trong uẩn. Dùng đại từ “tôi”, nhớ tên mình hay chăm sóc thân không tự là thân kiến. Đây là một trong ba kiết sử được nói là đoạn ở Nhập lưu.
+    2. *Hoài nghi:* sự phân vân trên trục Phật, Pháp, Tăng, con đường và sự thực hành chưa được tháo bằng học, hành và thấy biết đã được xác chứng. Hỏi nguồn, so bản dịch hoặc từ chối một người dạy nguy hiểm không tự là kiết sử. Đây là kiết sử thứ hai được nói là đoạn ở Nhập lưu.
+    3. *Chấp thủ giới-tập tục:* nắm giới điều, nghi thức, khổ hạnh hay kỹ thuật như thể hình thức tự nó đủ thanh tịnh và giải thoát. Giữ giới vì hiểu tác dụng ngăn hại không phải chấp giới. Đây là kiết sử thứ ba được nói là đoạn ở Nhập lưu.
+    4. *Dục tham:* sự ham muốn và dính mắc vào khoái lạc giác quan như một mối trói. Chọn thức ăn phù hợp sức khỏe, nhận ra vẻ đẹp hay thích chỗ ngồi ít ồn không tự xác lập kiết sử đang chi phối. Dục tham thuộc nhóm năm nhưng chưa được nói là đoạn ở Nhập lưu; Bất lai là mốc đoạn đủ nhóm năm.
+    5. *Sân:* ác ý và xung lực chống đối thù nghịch. Cảm giác khó chịu, nhận ra nguy hiểm, rời nơi bị bạo hành hoặc đặt ranh giới không tự là sân. Sân cũng thuộc nhóm năm và được nói là đoạn cùng cả nhóm ở Bất lai.
+
+    Ba mục đầu giải thích ranh giới Nhập lưu. Hai mục sau giải thích vì sao Nhập lưu chưa đồng nghĩa Bất lai. Một phản ứng đơn lẻ chỉ là dữ kiện cần đọc trong bối cảnh; nó không xác nhận mối trói đang có hay đã bị nhổ tận.
+  ],
+  label: [BẢN ĐỒ ĐỦ NĂM · K10; K11; K20; K24; K36; K37; K38; BIÊN SOẠN PHẦN PHẢN VÍ DỤ],
+)
+
 AN 10.13 chia mười kiết sử thành hai nhóm và gọi nhóm này là *hạ phần*, nhưng bài kinh không giải thích thêm tên gọi ngay tại đây. Điều chắc chắn không thể suy ra từ chữ *hạ* là “nhẹ”, “sơ cấp” hay “dễ đoạn”. Người mới không có căn cứ để nghĩ vài buổi thiền có thể “xử lý xong năm cái thấp”.
-
-Ba kiết sử đầu liên hệ trực tiếp đến Nhập lưu đã được phân tích ở chương 10. Hai kiết sử hoàn tất nhóm năm là dục tham và sân. Chính hai mối trói còn lại giải thích vì sao bậc Nhập lưu chưa phải Bất lai.
-
-Có một biến thể từ vựng cần nói rõ mà không biến chương này thành bài học Pāli. AN 10.13 và phần liệt kê đầu MN 64 dùng *kāmacchanda* và *byāpāda*; khi MN 64 mô tả trạng thái đang chi phối tâm, bài kinh dùng *kāmarāga* và *byāpāda*. Sách dùng hai từ Việt ngắn là *dục tham* và *sân* cho mạch giải thích này. Dù gặp cách dịch nào, hãy giữ đúng phạm vi: cặp này nói riêng về sự trói buộc bởi dục giác quan và ác ý, không đồng nghĩa toàn bộ bộ ba tham, sân, si được AN 3.88 dùng khi nói về Nhất lai.
 
 #source-line("KINH", [K36 · MN 64; K37 · SN 41.1], [
   MN 64 phân biệt khuynh hướng tiềm ẩn với kiết sử đang sinh khởi: ngay cả trẻ nhỏ chưa có khái niệm rõ vẫn có khuynh hướng tiềm ẩn tương ứng; khi kiết sử hiện hành, nó có thể ám ảnh và chi phối tâm, còn mạnh, chưa được nhổ tận, và lối thoát chưa được thấy như thật. SN 41.1 phân biệt giác quan và đối tượng với mối trói: chính dục và tham sinh lên dựa vào cuộc gặp giữa chúng mới là kiết sử.
 ])
 
 #practice-card(
-  [Hai kiết sử còn lại không phải mọi sở thích và mọi khó chịu],
+  [Một ca về dục tham: thích, muốn và bị trói khác nhau],
   [
-    + *Dục tham* chỉ sự ham muốn và dính mắc vào khoái lạc giác quan như một mối trói. Thích thức ăn hợp sức khỏe hay chọn chỗ ngồi ít ồn hơn không tự nó chứng minh dục tham đang hiện hành, càng không cho biết kiết sử đã còn hay mất.
-    + *Sân* chỉ ác ý và xung lực chống đối thù nghịch, không phải bản thân cảm giác khó chịu hay khả năng nhận ra điều nguy hiểm. Nói một hành vi là sai, rời nơi bị bạo hành hoặc đặt ranh giới không tự động đồng nghĩa với sân. Ngược lại, một ý muốn làm nhục, trả đũa hay gây hại không trở thành vô hại chỉ vì người ấy gọi nó là “ranh giới”.
+    Bạn thấy một món đồ đẹp. Hình ảnh được thấy và thọ dễ chịu sinh lên chưa tự là kiết sử. Ý định cân nhắc mua cũng chưa đủ kết luận. Mạch bắt đầu đáng quan sát khi tâm liên tục dựng khoái lạc ấy thành điều “phải có”, quay lại nuôi tưởng tượng, bực bội vì bị cản và để sự dính mắc điều khiển lời nói, hành động hoặc tiền bạc.
 
-    Đây là nghĩa làm việc do sách biên soạn từ cách các kinh mô tả sự trói buộc và chi phối. Không có một mức cường độ cảm xúc đơn lẻ nào trong các đoạn dẫn ở đây cho phép người đọc tự chấm rằng kiết sử còn hay đã đoạn.
+    Ca này chỉ minh họa sự chuyển từ tiếp xúc và ưa thích sang bị dục và tham trói, dựa trên cách SN 41.1 phân biệt giác quan, đối tượng và mối trói sinh lên từ cuộc gặp ấy. Nó không đưa ra ngưỡng chẩn đoán dục tham, càng không cho biết kiết sử đã còn hay mất.
   ],
-  label: [GIẢI NGHĨA BIÊN SOẠN · ĐỐI CHIẾU K24; K36; K37],
+  label: [CA PHÂN BIỆT · BIÊN SOẠN THEO K37],
 )
 
 Điểm cần giữ thật chắc: bậc Nhập lưu vẫn có thể còn dục tham và sân. Một cơn tham hay giận, xét riêng, không cho biết ba kiết sử đầu còn hay đã đoạn; đồng thời, vài ngày tham và giận tạm lắng cũng không chứng minh hai kiết sử sau đã được nhổ tận. *Không xuất hiện lúc này* khác với *đã mất khả năng trói buộc và trở lại*.
@@ -125,8 +106,39 @@ Phân biệt ấy không phải giấy phép cho hành vi gây hại. Khi sân �
 
 == Bốn quả: bốn mốc kết quả <bon-qua>
 
+#practice-card(
+  [Bốn quả, bốn ranh giới],
+  [
+    Đọc bản đồ bằng tiếng Việt trước; tên Pāli nằm ở từng mục phía sau.
+
+    1. *Nhập lưu:* ba kiết sử đầu đã đoạn. Không được suy từ một lần thiền mạnh, một cảm giác “vào dòng” hay một lời xác nhận đơn lẻ.
+    2. *Nhất lai:* ba kiết sử đầu đã đoạn; tham, sân, si đã được làm mỏng. “Làm mỏng” không đồng nghĩa vài tuần tâm nhẹ hơn, cũng chưa đồng nghĩa dục tham và sân đã đoạn.
+    3. *Bất lai:* đủ năm hạ phần kiết sử đã đoạn. Dục tham hoặc sân tạm lắng trong định hay hoàn cảnh thuận lợi không chứng minh mốc này.
+    4. *A-la-hán:* các lậu hoặc đã đoạn tận và giải thoát được tự chứng. Mốc này rộng hơn việc chỉ đếm đủ năm hạ phần.
+
+    Đây là bốn mốc kết quả của cùng một Bát Thánh đạo, không phải bốn kỹ thuật thiền để chọn. “Quả” chỉ kết quả đã thành tựu; nó không phải tên trang trọng cho mọi tiến bộ có thật trên đường tu.
+  ],
+  label: [BẢN ĐỒ QUẢ CHO LẦN ĐỌC ĐẦU · K10; K11; K24; K32; K34; K40],
+)
+
+#practice-card(
+  [Đạo khác quả ở đâu, nói bằng tiếng thường],
+  [
+    + *Đạo* là con đường đang được sống và tu: thấy cho đúng hơn, nói và làm bớt sai hơn, rèn niệm, định và tuệ đúng hướng.
+    + *Quả* là mốc kết quả mà kinh nói đã thành tựu, với ranh giới riêng của từng quả.
+    + Vì vậy, *đang đi đúng đường* là điều rất quý nhưng chưa tự đồng nghĩa *đã đến một quả*. Nếu trộn hai vế này, người đọc sẽ biến mọi tiến bộ thật thành thánh quả, hoặc ngược lại coi như chưa có gì thay đổi nếu chưa dám gắn tên quả.
+
+    Cách giữ mình khỏi lẫn là: dùng chương 10 để chỉnh hướng thấy và học; dùng chương này để giữ ranh giới giáo lý; đừng lấy bảng quả làm đồng hồ tự phong cấp.
+  ],
+  label: [PHÂN BIỆT ĐẠO VÀ QUẢ · BIÊN SOẠN, ĐỐI CHIẾU K32; K40],
+)
+
 #source-line("KINH", [K32 · SN 45.35], [
   SN 45.35 gọi Bát Thánh đạo là đời sống Sa-môn và nêu bốn quả của đời sống ấy: quả Nhập lưu, quả Nhất lai, quả Bất lai và quả A-la-hán. “Quả” ở đây là kết quả giải thoát có tiêu chuẩn, không phải tên chung cho một cảm giác dễ chịu hay một lần thiền nổi bật.
+])
+
+#source-line("KINH", [K40 · SN 45.36], [
+  Bài kinh kế tiếp gọi sự đoạn tận tham, sân và si là đích của đời sống Sa-môn. Đọc cùng SN 45.35, hai đoạn cho một quan hệ rõ: Bát Thánh đạo là đường tu, bốn quả là các mốc thành tựu của đường ấy, và cứu cánh là hết tham, sân, si. Câu “cùng một đường, không phải bốn kỹ thuật” là cách sách trình bày quan hệ này, không phải một câu nguyên văn của kinh.
 ])
 
 #source-line("KINH", [K10 · AN 3.88; K24 · AN 10.13], [
@@ -138,19 +150,6 @@ Phân biệt ấy không phải giấy phép cho hành vi gây hại. Khi sân �
 ])
 
 *Lậu hoặc* (*āsava*) ở đây là tên kỹ thuật cho ba phạm vi nhiễm ô mà MN 2 vừa nêu, không phải tên chung cho mọi ý nghĩ lộn xộn. Vì đoạn tận lậu hoặc bao trùm dục, hữu và vô minh, mốc A-la-hán không thể được định nghĩa đơn giản là “đã hết năm hạ phần kiết sử”.
-
-#practice-card(
-  [Bốn quả, bốn tên người, bốn ranh giới],
-  [
-    Đọc mỗi dòng theo cùng một thứ tự: tên *quả*; tên *người* đã chứng quả; thay đổi được kinh nêu; điều không thể suy ra.
-
-    1. *Quả:* Nhập lưu, *sotāpattiphala*; *người:* *sotāpanna*; *thay đổi:* ba kiết sử đầu đã đoạn; *không được suy:* một lần thiền mạnh, một cảm giác “vào dòng” hay lời xác nhận đơn lẻ đủ chứng minh quả.
-    2. *Quả:* Nhất lai, *sakadāgāmiphala*; *người:* *sakadāgāmī*; *thay đổi:* ba kiết sử đầu đã đoạn, tham, sân, si đã mỏng; *không được suy:* vài tuần tâm nhẹ hơn đồng nghĩa mức làm mỏng được kinh nêu, hay dục tham và sân đã đoạn.
-    3. *Quả:* Bất lai, *anāgāmiphala*; *người:* *anāgāmī*; *thay đổi:* đủ năm hạ phần kiết sử đã đoạn; *không được suy:* dục tham hoặc sân tạm lắng trong định, trong khóa thiền hay trong một hoàn cảnh thuận lợi là bằng chứng đoạn tận.
-    4. *Quả:* A-la-hán, *arahattaphala*; *người:* *arahant*; *thay đổi:* các lậu hoặc đã đoạn tận và giải thoát được tự chứng; *không được suy:* chỉ cần đếm đủ năm hạ phần, đạt một tầng định hay có một kinh nghiệm diệt là đã hoàn tất công việc giải thoát.
-  ],
-  label: [SO SÁNH AN TOÀN CHO NGƯỜI MỚI · K10; K11; K24; K32; K34],
-)
 
 === Quả Nhập lưu, *sotāpattiphala*; người: *sotāpanna*
 
@@ -172,6 +171,19 @@ Tên quả là *anāgāmiphala*; người đã thành tựu quả ấy là *anā
 
 Khi dẫn riêng đoạn DN 16 đang dùng, câu hẹp và chắc là “không trở lại từ cảnh giới ấy”. Sách giữ đúng phạm vi đó thay vì mở rộng câu kinh thành một mệnh đề về toàn bộ vũ trụ quan.
 
+#practice-card(
+  [Nhất lai khác Bất lai chính ở đâu?],
+  [
+    Cả hai đã vượt ba kiết sử đầu. Điểm phân ranh không phải “ai thiền yên hơn”:
+
+    + *Nhất lai:* AN 3.88 nói tham, sân và si đã *được làm mỏng*. Bài kinh không biến sự thay đổi ấy thành một điểm số người đọc có thể tự tính.
+    + *Bất lai:* AN 3.88 nói *năm hạ phần kiết sử đã đoạn*. Vì nhóm năm gồm dục tham và sân, hai mối trói này không chỉ yếu đi hay tạm vắng.
+
+    Do đó, “tôi ít nổi nóng hơn trước” có thể là tiến bộ đạo đức đáng quý, nhưng chưa tự xác lập công thức của Nhất lai. “Tôi không thấy dục hay sân trong khóa thiền này” cũng chưa tự xác lập Bất lai. Một mô tả thay đổi theo thời gian không phải phép đo mức đoạn tận.
+  ],
+  label: [RANH GIỚI DỄ NHẦM · K10; K24; K36],
+)
+
 === Quả A-la-hán, *arahattaphala*; người: *arahant*
 
 Tên quả là *arahattaphala*; người đã thành tựu quả ấy là *arahant*. AN 3.88 nói các lậu hoặc đã tận và giải thoát được tự chứng ngay trong hiện tại. Công thức “việc cần làm đã làm” được dẫn ở đây từ đoạn kết DN 2, không gán cho AN 3.88. “Đoạn tận lậu hoặc” rộng hơn việc đếm xong năm hạ phần kiết sử. AN 10.13 còn đặt năm thượng phần kiết sử sau nhóm năm hạ phần, nên bảng bốn quả không chỉ khác nhau bằng số lần tái sinh.
@@ -187,35 +199,6 @@ Tên quả là *arahattaphala*; người đã thành tựu quả ấy là *araha
   label: [NHỚ CHÍNH XÁC · K10; K11; K24; K34],
 )
 
-== “Bốn quả Sa-môn” không đồng nghĩa “Kinh Sa-môn quả”
-
-Giữ hai câu riêng:
-
-1. *Bốn quả Sa-môn* là bốn mốc vừa học: Nhập lưu, Nhất lai, Bất lai và A-la-hán.
-2. *Kinh Sa-môn quả*, DN 2, là tên một bài kinh trả lời câu hỏi rộng hơn về những kết quả có thể thấy của đời sống xuất gia.
-
-Trong công thức của SN 45.35, đời sống Sa-môn chính là Bát Thánh đạo và bốn quả là kết quả của đạo lộ ấy. Công thức này không đặt ra điều kiện rằng chỉ người xuất gia mới có thể chứng quả. Đoạn Ñātika trong DN 16 xác nhận điều đó bằng các trường hợp và các tổng số cư sĩ ở ba quả đầu.
-
-#source-line("KINH", [K34 · DN 2], [
-  Vua Ajātasattu hỏi về quả của đời sống Sa-môn có thể thấy ngay trong hiện tại. DN 2 trả lời bằng nhiều kết quả và một tiến trình huấn luyện rộng, từ giới hạnh, phòng hộ giác quan, biết đủ và định tâm đến tri kiến rằng các lậu hoặc đã chấm dứt. Tựa bài kinh và cụm “bốn quả Sa-môn” có liên hệ về chữ, nhưng không phải hai tên gọi thay thế hoàn toàn cho nhau.
-])
-
-#source-line("KINH", [K08 · DN 16, đoạn Ñātika], [
-  DN 16 nói hơn năm trăm nam cư sĩ đã qua đời tại Ñātika là bậc Nhập lưu, hơn chín mươi là bậc Nhất lai và hơn năm mươi là bậc Bất lai. Các tổng số này đủ cho kết luận hẹp rằng địa vị cư sĩ không tự loại trừ ba quả ấy. Chúng không biến đời sống tại gia, một kỹ thuật hay một khóa thiền thành bảo đảm chứng quả.
-])
-
-== “Đang hướng đến” khác “đã chứng”
-
-#source-line("KINH", [K33 · Ud 5.5; K39 · SN 48.18; K21 · AN 10.92], [
-  Ud 5.5 phân biệt người đang thực hành để chứng từng quả với người đã thành tựu quả ấy. AN 10.92 gọi cộng đồng Thánh đệ tử là bốn đôi, tám hạng người. SN 48.18 đặt các hạng “đang thực hành để chứng quả” trong một phân loại kỹ thuật dựa trên mức thành tựu của năm căn: tín, tấn, niệm, định và tuệ.
-])
-
-“Bốn đôi, tám hạng” không thêm bốn quả mới. Mỗi đôi ghép *hai hạng người*: người đang thực hành để chứng một quả và người đã thành tựu quả ấy. Bản thân quả không có “hai phía”.
-
-“Đang thực hành để chứng quả” ở đây là một hạng kỹ thuật trong kinh, không phải cách gọi bất kỳ ai mong giác ngộ, đang ngồi thiền hay vừa bắt đầu theo một phương pháp. Phân biệt này chặn lối nói “tôi có ý hướng tới, vậy có thể xem như đã thuộc hạng đang thực hành để chứng”. Mong muốn, kinh nghiệm mạnh, lời xác nhận của người khác hay việc theo đúng một thời khóa không tự thiết lập hạng người hoặc quả.
-
-Phần mô tả đạo rồi quả như một chuỗi những khoảnh khắc tâm cực ngắn ở chương 12 thuộc hệ thống luận giải Theravāda và cách trình bày Mahāsi. Nó không nên được lén đưa vào miệng một bài kinh sớm, và cũng không biến một người biết tên các khoảnh khắc ấy thành người đã chứng quả.
-
 == Một tình huống, ba cách đọc sai
 
 #practice-card(
@@ -223,7 +206,7 @@ Phần mô tả đạo rồi quả như một chuỗi những khoảnh khắc t�
   [
     Hãy tách ba kết luận:
 
-    1. *Kết luận đúng trong phạm vi hẹp:* sân, được giải thích ở đây là ác ý, thuộc nhóm năm hạ phần kiết sử. Bất lai là mốc đầu tiên trong bảng này được nói là đã đoạn sân; A-la-hán dĩ nhiên cũng không còn kiết sử ấy.
+    1. *Kết luận đúng trong phạm vi hẹp:* sân, được giải thích ở đây là ác ý, thuộc nhóm năm hạ phần kiết sử. Bất lai là mốc đầu tiên trong bảng bốn quả được AN 3.88 nói là đã đoạn đủ nhóm năm. Ở mốc A-la-hán, cùng bài kinh dùng tiêu chuẩn rộng hơn: các lậu hoặc đã tận.
     2. *Kết luận không theo sau:* một cơn giận tự nó không đủ xác định kiết sử kỹ thuật nào đang hiện hành, càng không đủ bác bỏ Nhập lưu. Nhập lưu đoạn ba kiết sử đầu chứ chưa đoạn sân. *Điều này không miễn trách nhiệm:* nếu đang có ý muốn trả đũa hay gây hại, phải dừng hành vi, bảo vệ người có thể bị hại và sửa sai.
     3. *Kết luận ngược cũng không theo sau:* việc một thời gian không giận không đủ chứng minh Bất lai, vì sự tạm lắng không đồng nghĩa đoạn tận.
 
@@ -253,5 +236,42 @@ Phần mô tả đạo rồi quả như một chuỗi những khoảnh khắc t�
   ],
   label: [TỰ KIỂM CƠ BẢN · CÂU 4–6 TÙY CHỌN],
 )
+
+== Đọc sâu sau khi đã nắm khung
+
+Ba mục dưới đây giúp tra cứu chính xác. Người đọc lần đầu có thể dừng ở bài tự kiểm và quay lại sau.
+
+=== Vì sao bạn gặp nhiều từ Pāli?
+
+AN 10.13 và phần liệt kê đầu MN 64 dùng *kāmacchanda* và *byāpāda*; khi MN 64 mô tả trạng thái đang chi phối tâm, bài kinh dùng *kāmarāga* và *byāpāda*. Sách dùng hai từ Việt ngắn là *dục tham* và *sân* cho mạch giải thích này. Dù gặp cách dịch nào, hãy giữ đúng phạm vi: cặp này nói riêng về sự trói buộc bởi dục giác quan và ác ý, không đồng nghĩa toàn bộ bộ ba tham, sân, si được AN 3.88 dùng khi nói về Nhất lai.
+
+=== “Bốn quả Sa-môn” không đồng nghĩa “Kinh Sa-môn quả”
+
+Giữ hai câu riêng:
+
+1. *Bốn quả Sa-môn* là bốn mốc vừa học: Nhập lưu, Nhất lai, Bất lai và A-la-hán.
+2. *Kinh Sa-môn quả*, DN 2, là tên một bài kinh trả lời câu hỏi rộng hơn về những kết quả có thể thấy của đời sống xuất gia.
+
+Trong công thức của SN 45.35, đời sống Sa-môn chính là Bát Thánh đạo và bốn quả là kết quả của đạo lộ ấy. Công thức này không đặt ra điều kiện rằng chỉ người xuất gia mới có thể chứng quả. Đoạn Ñātika trong DN 16 xác nhận điều đó bằng các trường hợp và các tổng số cư sĩ ở ba quả đầu.
+
+#source-line("KINH", [K34 · DN 2], [
+  Vua Ajātasattu hỏi về quả của đời sống Sa-môn có thể thấy ngay trong hiện tại. DN 2 trả lời bằng nhiều kết quả và một tiến trình huấn luyện rộng, từ giới hạnh, phòng hộ giác quan, biết đủ và định tâm đến tri kiến rằng các lậu hoặc đã chấm dứt. Tựa bài kinh và cụm “bốn quả Sa-môn” có liên hệ về chữ, nhưng không phải hai tên gọi thay thế hoàn toàn cho nhau.
+])
+
+#source-line("KINH", [K08 · DN 16, đoạn Ñātika], [
+  DN 16 nói hơn năm trăm nam cư sĩ đã qua đời tại Ñātika là bậc Nhập lưu, hơn chín mươi là bậc Nhất lai và hơn năm mươi là bậc Bất lai. Các tổng số này đủ cho kết luận hẹp rằng địa vị cư sĩ không tự loại trừ ba quả ấy. Chúng không biến đời sống tại gia, một kỹ thuật hay một khóa thiền thành bảo đảm chứng quả.
+])
+
+=== “Đang hướng đến” khác “đã chứng”
+
+#source-line("KINH", [K33 · Ud 5.5; K39 · SN 48.18; K21 · AN 10.92], [
+  Ud 5.5 phân biệt người đang thực hành để chứng từng quả với người đã thành tựu quả ấy. AN 10.92 gọi cộng đồng Thánh đệ tử là bốn đôi, tám hạng người. SN 48.18 đặt các hạng “đang thực hành để chứng quả” trong một phân loại kỹ thuật dựa trên mức thành tựu của năm căn: tín, tấn, niệm, định và tuệ.
+])
+
+“Bốn đôi, tám hạng” không thêm bốn quả mới. Mỗi đôi ghép *hai hạng người*: người đang thực hành để chứng một quả và người đã thành tựu quả ấy. Bản thân quả không có “hai phía”.
+
+“Đang thực hành để chứng quả” ở đây là một hạng kỹ thuật trong kinh, không phải cách gọi bất kỳ ai mong giác ngộ, đang ngồi thiền hay vừa bắt đầu theo một phương pháp. Mong muốn, kinh nghiệm mạnh, lời xác nhận của người khác hay việc theo đúng một thời khóa không tự thiết lập hạng người hoặc quả.
+
+Phần mô tả đạo rồi quả như một chuỗi những khoảnh khắc tâm cực ngắn ở chương 12 thuộc hệ thống luận giải Theravāda và cách trình bày Mahāsi. Nó không nên được lén đưa vào miệng một bài kinh sớm, và cũng không biến một người biết tên các khoảnh khắc ấy thành người đã chứng quả.
 
 Khung 3–5–4 chỉ làm một việc: giữ các ranh giới giáo lý khỏi bị trộn. Nó không thay cho thấy Tứ Thánh Đế, sống giới hạnh hay tu tập Bát Thánh đạo. Một bảng được nhớ hoàn hảo vẫn chỉ là bảng; quả được kinh mô tả là sự chuyển đổi có tiêu chuẩn trong cách thấy và cách sống.

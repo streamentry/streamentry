@@ -203,8 +203,8 @@
   [
     Hãy tách hai bảng:
 
-    + *Bảng kiết sử:* cách nói chính xác hơn là *ba kiết sử đầu*, không phải một danh sách riêng tên “ba hạ phần”. Ba kiết sử ấy là thân kiến, hoài nghi và chấp thủ giới-tập tục. Cộng thêm dục tham và sân thì thành *năm hạ phần kiết sử*.
-    + *Bảng quả:* Nhập lưu, Nhất lai, Bất lai và A-la-hán là bốn quả Sa-môn.
+    + *Bảng kiết sử:* cách nói chính xác hơn là *ba kiết sử đầu*, không phải một danh sách riêng tên “ba hạ phần”. Ba kiết sử ấy là thân kiến, hoài nghi và chấp thủ giới-tập tục. Cộng thêm dục tham và sân thì thành *năm hạ phần kiết sử*. Nói bằng công thức: *3 nằm trong 5; 5 = 3 + 2*.
+    + *Bảng quả:* Nhập lưu, Nhất lai, Bất lai và A-la-hán là bốn quả Sa-môn, tức bốn mốc kết quả của cùng Bát Thánh đạo chứ không phải bốn phương pháp riêng.
 
     Quan hệ giữa hai bảng là: Nhập lưu đoạn ba kiết sử đầu nhưng chưa đoạn dục tham và sân, nên một bậc Nhập lưu vẫn có thể còn tham hoặc giận. Nhất lai đã đoạn ba kiết sử ấy và làm mỏng tham, sân, si. “Làm mỏng” không phải vài ngày tạm yên, nhưng cũng chưa phải đoạn dục tham và sân như ở Bất lai. Bất lai, còn gọi là Bất hoàn, đoạn đủ năm hạ phần kiết sử. A-la-hán đoạn tận các lậu hoặc. Trong MN 2 và DN 2, ba lậu hoặc được nêu ở đây là dục, hữu và vô minh; đây là một danh mục khác, rộng hơn việc chỉ đếm năm hạ phần kiết sử.
 
@@ -217,6 +217,6 @@
     Nếu đây là lần đầu bạn gặp các thuật ngữ này, hãy đọc #link(<ba-kiet-su>)[phần giải thích ba kiết sử đầu ở chương 10], rồi mới mở #link(<khung-354>)[khung 3–5–4] và #link(<bon-qua>)[bốn quả] ở chương 11. FAQ này dùng để tìm lại ranh giới, không thay phần giải thích sâu.
 
     #v(5pt)
-    #source-badge("KINH", refs: [K10; K11; K24; K32; K34])
+    #source-badge("KINH", refs: [K10; K11; K24; K32; K34; K40])
   ],
 )
