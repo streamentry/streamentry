@@ -313,7 +313,7 @@
 
 == Thanh Tịnh Đạo và truyền thống Mahāsi
 
-#source-line("THANH TỊNH ĐẠO", [V01], [Buddhaghosa, _The Path of Purification_, Bhikkhu Ñāṇamoli dịch, BPS Online Edition 2014. #link("https://www.bps.lk/olib/bp/bp207h_The-Path-of-Purification-%28Visuddhimagga%29.pdf")[Bản PDF V01 của nhà xuất bản].])
+#source-line("THANH TỊNH ĐẠO", [V01], [Buddhaghosa, _The Path of Purification_, Bhikkhu Ñāṇamoli dịch, Buddhist Publication Society (BPS) Online Edition 2014. #link("https://www.bps.lk/olib/bp/bp207h_The-Path-of-Purification-%28Visuddhimagga%29.pdf")[Bản PDF V01 của nhà xuất bản].])
 
 #v(7pt)
 
@@ -345,7 +345,7 @@
 
 #v(7pt)
 
-#source-line("Y TẾ & NGHIÊN CỨU", [R06], [National Health Service, _Treatment: Psychosis_. NHS dặn không ngừng thuốc đã được kê nếu chưa có chỉ dẫn của chuyên gia y tế đủ năng lực đang chịu trách nhiệm chăm sóc, vì ngừng đột ngột có thể làm triệu chứng trở lại. Các số 999 và địa chỉ A&E trên trang chỉ áp dụng tại Vương quốc Anh. #link("https://www.nhs.uk/mental-health/conditions/psychosis/treatment/")[Trang R06 chính thức của NHS].])
+#source-line("Y TẾ & NGHIÊN CỨU", [R06], [National Health Service, _Treatment: Psychosis_. NHS dặn không ngừng thuốc đã được kê nếu chưa có chỉ dẫn của chuyên gia y tế đủ năng lực đang chịu trách nhiệm chăm sóc, vì ngừng đột ngột có thể làm triệu chứng trở lại. Số 999 và địa chỉ khoa cấp cứu, được nguồn gọi là A&E (_Accident and Emergency_), chỉ áp dụng tại Vương quốc Anh. #link("https://www.nhs.uk/mental-health/conditions/psychosis/treatment/")[Trang R06 chính thức của NHS].])
 
 #v(7pt)
 
