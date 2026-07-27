@@ -123,11 +123,13 @@ Any distress attempt is a release veto for that candidate. Do not recruit a late
 
 ## Opening script
 
-Read this verbatim:
+Display this script in writing and read it verbatim:
 
-> Bạn hãy dùng cuốn sách để trả lời tám tình huống. Tôi sẽ không chỉ trang hoặc giải thích thuật ngữ trước khi câu trả lời đầu tiên được ghi lại. Sau mỗi câu, tôi sẽ hỏi câu hoặc mục nào trong sách đã dẫn bạn đến câu trả lời ấy. Chúng tôi đang tìm lỗi của sách, không chấm điểm bạn.
+> Bạn hãy dùng cuốn sách để trả lời tám tình huống. Mỗi đề sẽ được để trước mặt để bạn đọc lại bao nhiêu lần tùy ý; bạn có thể dùng sách và ghi nháp. Trừ câu đầu có giới hạn chín mươi giây, các câu khác không giới hạn thời gian. Tôi sẽ không chỉ trang, diễn giải lại đề, nhắc phần bạn bỏ sót hoặc giải thích thuật ngữ trước khi câu trả lời đầu tiên được ghi lại. Sau mỗi câu, tôi sẽ hỏi câu hoặc mục nào trong sách đã dẫn bạn đến câu trả lời ấy. Chúng tôi đang tìm lỗi của sách, không chấm điểm bạn.
 
-Start the timer only after the task is read. Record the first answer before any follow-up.
+Show each exact prompt in writing and keep it visible until the first answer is complete. Start the timer only after the written task is visible; enforce the 90-second limit only for task 1. The reader may reread and make scratch notes. The moderator may repeat the exact prompt but must not paraphrase, define terms, turn a compound prompt into easier oral steps, or remind the reader of an unanswered component. If any such cue occurs, set `moderator_followup_cues_used` to `true`; do not disguise it as ordinary source-locator follow-up.
+
+Record the complete first answer before asking the fixed source-locator question. Set `prompts_displayed_in_writing` and `prompt_rereading_allowed` from what actually happened, not from the intended procedure.
 
 ## Eight tasks and fixed rubric
 
@@ -205,7 +207,16 @@ Pass criteria:
 
 Prompt:
 
-> Trước hết, hãy nói bằng lời của bạn: “bản đồ tuệ” đang sắp xếp cái gì; độ liên tục, độ phân giải và quan hệ với kinh nghiệm khác nhau ra sao; và “một tuệ đã chín” khác một cảm giác lạ như thế nào khi nguồn không cho ngưỡng số? Hãy phân biệt bốn mức: một hiện tượng giống mô tả, một thoáng thấy cách biết đặc trưng, một vùng tuệ đang chi phối như giả thuyết làm việc, và một tuyên bố đạo quả. Trong một câu trình pháp, hãy tách đối tượng, việc biết, phản ứng và kết luận. Với ca “toàn thân tan thành rung động rồi rất sợ,” bạn cần hỏi gì về nền trước, tính lặp lại và các giải thích cạnh tranh trước khi nêu giả thuyết? Người hành có thể vun điều kiện gì, và có thể cố sản xuất riêng từng tầng không? Sau đó xét trường hợp: một người có ánh sáng mạnh, hỷ lạc và một khoảng trống ký ức trong một buổi thiền. Chương 12 có cho phép họ xác định mình đang ở tuệ nào hoặc đã chứng quả không? Người mới nên dùng chương này vào lúc nào?
+> Dùng Chương 12 để trả lời đủ các mục sau:
+>
+> 1. “Bản đồ tuệ” đang sắp xếp cái gì?
+> 2. Độ liên tục, độ phân giải và quan hệ với kinh nghiệm khác nhau ra sao?
+> 3. Phân biệt bốn mức: hiện tượng giống mô tả; thoáng thấy cách biết đặc trưng; vùng tuệ đang chi phối như giả thuyết; và tuyên bố đạo quả.
+> 4. Trong một câu trình pháp, đâu là đối tượng, việc biết, phản ứng và kết luận?
+> 5. Với câu “toàn thân tan thành rung động rồi rất sợ”, cần hỏi gì về nền trước, tính lặp lại và các giải thích cạnh tranh?
+> 6. “Một tuệ đã chín” có thể và không thể có nghĩa gì khi nguồn không cho ngưỡng số? Người hành vun được điều kiện nào, và có thể cố sản xuất riêng từng tầng không?
+> 7. Ánh sáng mạnh, hỷ lạc và một khoảng trống ký ức trong một buổi có đủ xác định tầng tuệ hay đạo quả không?
+> 8. Người mới nên dùng chương này vào lúc nào?
 
 Pass criteria:
 
@@ -241,7 +252,13 @@ Any acceptance fails the release-blocking retreat gate.
 
 Prompt:
 
-> “Ba kiết sử đầu”, “năm hạ phần kiết sử” và “bốn quả Sa-môn” khác nhau thế nào? Vì sao thấy vô ngã liên hệ trực tiếp với thân kiến, và chỉ đồng ý câu “vô ngã” có đủ chứng minh thân kiến đã đoạn không? Quả nào đoạn ba kiết sử đầu, quả nào đoạn đủ năm? Theo những trường hợp được DN 16 nêu, Nhập lưu có phải đặc quyền của người xuất gia hoặc nam giới không, và vì sao câu trả lời ấy không thành lời bảo đảm cho mọi người? *Kinh Sa-môn quả* DN 2 có chỉ là một bảng bốn tên ấy không?
+> Dùng Chương 10–11 để trả lời đủ các mục sau:
+>
+> 1. “Ba kiết sử đầu”, “năm hạ phần kiết sử” và “bốn quả Sa-môn” khác nhau thế nào?
+> 2. Vì sao thấy vô ngã liên hệ trực tiếp với thân kiến? Chỉ đồng ý câu “vô ngã” có chứng minh thân kiến đã đoạn không?
+> 3. Quả nào đoạn ba kiết sử đầu, quả nào đoạn đủ năm?
+> 4. Theo DN 16, Nhập lưu có phải đặc quyền của người xuất gia hoặc nam giới không? Vì sao câu trả lời không thành lời bảo đảm cho mọi người?
+> 5. *Kinh Sa-môn quả* DN 2 có chỉ là một bảng gồm bốn tên quả ấy không?
 
 Sau câu trả lời đầu tiên, đưa nguyên văn bốn tình huống này và hỏi mỗi tình huống cho thấy điều gì, không cho thấy điều gì:
 
@@ -276,6 +293,8 @@ For every task, record:
 - a short, non-identifying note.
 
 A hinted answer is not an unassisted pass. A correct answer without a source locator is not a full pass. Do not repair the first-answer field after discussion.
+
+Rereading the visible prompt or using scratch notes is not a hint. A moderator paraphrase, definition, decomposition into easier oral questions, or reminder of a missed component is a cue and must be recorded at session level as well as in the affected task's `hint_used` field.
 
 The counted cohort is not a handpicked set. It is the first five chronologically completed eligible attempts among no more than seven total starts. Do not start another attempt after the fifth eligible completion. A `skipped` or `not_reached` task prevents the all-tasks-answered release gate from passing; a sixth completion cannot rescue a miss among the first five.
 

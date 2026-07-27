@@ -6,6 +6,8 @@ The 80-item scoring is a static content review adapted from a web-oriented bench
 
 The PDF path now has a second, generator-independent machine gate: checksum-pinned veraPDF 1.30.2 is forced to PDF/UA-1, and the current JSON report binds the exact artifact and records 106 passed rules, 822,899 passed checks, and zero failures. The fail-closed contract requires exact component versions, one normal compliant job, positive pass counts, and zero rule, check, parse, encryption, memory, or exception failures. The separate validator closes the former internal evidence gap, but it does not close any human accessibility or external review gate.
 
+A validation-design audit found that the two densest novice tasks could be delivered as one-shot oral paragraphs, which would confound book comprehension with prompt memory and moderator behavior. The frozen reader kit now displays every task verbatim in writing, permits unlimited rereading and scratch notes, removes time pressure except from the explicitly timed start route, and forbids paraphrases, definitions, decomposition into easier oral questions or reminders of omitted components. Three session fields record actual delivery. The deterministic scorer fails the cohort unless all five counted readers received written prompts, could reread them and received no follow-up cue. This improves construct validity; it does not supply the still-missing human results.
+
 ## Overview
 
 - **Content**: *Hướng Đến Nhập Lưu*

@@ -22,7 +22,9 @@ Use `scripts/prepare-beginner-pilot.py` for the mechanical `init`, `new-attempt`
 
 ## Procedure
 
-Give no oral teaching and do not point to a page. Ask each reader to use the book to complete these eight tasks:
+Give no oral teaching and do not point to a page. Display each frozen prompt in writing and let the reader keep it visible, reread it, use the book, and make private scratch notes. This is an open-book navigation and comprehension test, not a prompt-memory test. Except for the explicitly timed start-route task, do not impose a time limit. The moderator may repeat the exact written prompt but must not paraphrase it, define a term, split it into easier oral questions, or remind the reader of an omitted component. Record those delivery facts in the session fields; any follow-up cue prevents the cohort from passing.
+
+Ask each reader to use the book to complete these eight tasks:
 
 1. Find where a complete beginner should start and describe the first seven days.
 2. Explain what to do during a sitting when abdominal movement remains unclear.
@@ -33,13 +35,15 @@ Give no oral teaching and do not point to a page. Ask each reader to use the boo
 7. Use Chapter 8 to reject or accept a fictional retreat whose organizer will not disclose its exit policy and pressures participants to stop medication.
 8. Explain the difference between the first three fetters, the full five lower fetters, and the four fruits; identify which fruit ends the first three and which ends all five; use the cited discourse examples to decide whether Stream-entry is restricted to monastics or men; then apply the distinctions to the four fixed scenarios in the reader kit.
 
-After each answer, ask: “Which sentence or section in the book led you there?” Record the first answer before prompting. A correct answer reached only after a hint is not an unassisted pass.
+After each answer, ask: “Which sentence or section in the book led you there?” This source-locator question is fixed and does not repair a missing answer criterion. Record the complete first answer before asking it. A correct answer reached only after a hint, a paraphrase, a reminder of an omitted subquestion, or a moderator-supplied definition is not an unassisted pass.
 
 For tasks 2 and 3, also record whether the reader independently opens Appendix E and whether the map leads to the correct detailed section. Do not name the appendix, point to it or count this observation as a substitute for any existing pass criterion. This exploratory field tests retrieval value without changing the preregistered comprehension thresholds.
 
 ## Release thresholds
 
 Every counted pass below must be unassisted: the first answer is recorded, no hint is used, and every listed criterion is true.
+
+All five counted sessions must also show the prompts in writing, allow rereading, and use no moderator follow-up cue. This cohort-level validity gate is separate from the content thresholds below.
 
 | Gate | Passing evidence | Failure action |
 |---|---|---|

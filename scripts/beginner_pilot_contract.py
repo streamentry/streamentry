@@ -105,6 +105,9 @@ ARTIFACT_FIELDS = {"git_commit", "pdf_sha256", "epub_sha256", "pdf_pages"}
 SESSION_FIELDS = {
     "primary_format",
     "moderator_is_editor",
+    "prompts_displayed_in_writing",
+    "prompt_rereading_allowed",
+    "moderator_followup_cues_used",
     "started_at",
     "completed_at",
     "stopped_early",

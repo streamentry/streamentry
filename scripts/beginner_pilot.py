@@ -61,6 +61,15 @@ def epub_smoke_passed(record: dict[str, Any]) -> bool:
     )
 
 
+def prompt_delivery_passed(record: dict[str, Any]) -> bool:
+    session = record["session"]
+    return (
+        session["prompts_displayed_in_writing"] is True
+        and session["prompt_rereading_allowed"] is True
+        and session["moderator_followup_cues_used"] is False
+    )
+
+
 def score(
     records: list[dict[str, Any]], distress_stops: int = 0
 ) -> tuple[list[tuple[str, int, int, bool]], bool]:
@@ -86,6 +95,15 @@ def score(
             complete_evidence,
             5,
             complete_evidence == 5,
+        )
+    )
+    prompt_delivery_count = sum(prompt_delivery_passed(record) for record in records)
+    rows.append(
+        (
+            "written_prompt_delivery_without_followup_cues",
+            prompt_delivery_count,
+            5,
+            prompt_delivery_count == 5,
         )
     )
     supplied_smoke = [
