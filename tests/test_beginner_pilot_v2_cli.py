@@ -402,6 +402,31 @@ class BeginnerPilotV2CliTests(unittest.TestCase):
             self.assertEqual(result.returncode, 1, result.stderr)
             self.assertIn("fetters_and_fruits", result.stdout)
 
+    def test_followup_cue_breaks_the_prompt_delivery_validity_gate(self) -> None:
+        with temp_artifact_repo() as ctx:
+            payloads = [
+                build_record(
+                    f"reader-{number:02d}",
+                    ctx["artifact"],
+                    attempt_number=number,
+                )
+                for number in range(1, 6)
+            ]
+            payloads[0]["session"]["moderator_followup_cues_used"] = True
+            manifest_path, _, _ = write_manifest_case(
+                ctx["repo_root"],
+                artifact=ctx["artifact"],
+                pdf_path=ctx["pdf_path"],
+                epub_path=ctx["epub_path"],
+                payloads=payloads,
+            )
+            result = run_cli(manifest_path)
+            self.assertEqual(result.returncode, 1, result.stderr)
+            self.assertIn(
+                "written_prompt_delivery_without_followup_cues",
+                result.stdout,
+            )
+
     def test_epub_smoke_requires_repeated_section_finding_evidence_to_pass(self) -> None:
         with temp_artifact_repo() as ctx:
             weak_smoke = {

@@ -126,6 +126,9 @@
       "required": [
         "primary_format",
         "moderator_is_editor",
+        "prompts_displayed_in_writing",
+        "prompt_rereading_allowed",
+        "moderator_followup_cues_used",
         "started_at",
         "completed_at",
         "stopped_early",
@@ -140,6 +143,9 @@
       "properties": {
         "primary_format": { "enum": ["pdf", "epub"] },
         "moderator_is_editor": { "type": "boolean" },
+        "prompts_displayed_in_writing": { "type": "boolean" },
+        "prompt_rereading_allowed": { "type": "boolean" },
+        "moderator_followup_cues_used": { "type": "boolean" },
         "started_at": { "type": "string", "format": "date-time" },
         "completed_at": { "type": "string", "format": "date-time" },
         "stopped_early": { "type": "boolean" },

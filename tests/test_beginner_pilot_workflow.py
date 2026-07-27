@@ -123,6 +123,9 @@ class BeginnerPilotWorkflowTests(unittest.TestCase):
             draft = json.loads(paths[0].read_text(encoding="utf-8"))
             self.assertIn("_draft_only", draft)
             self.assertIsNone(draft["tasks"]["insight_map"]["first_answer"])
+            self.assertIsNone(draft["session"]["prompts_displayed_in_writing"])
+            self.assertIsNone(draft["session"]["prompt_rereading_allowed"])
+            self.assertIsNone(draft["session"]["moderator_followup_cues_used"])
             self.assertIsNone(
                 draft["epub_smoke"]["criteria"]["vietnamese_diacritics"]
             )

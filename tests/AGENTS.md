@@ -16,6 +16,7 @@ each failure names one contract.
 - `test_editorial_policy.py`: public-policy, reader-surface, structured-correction-form, privacy-boundary, and honest T02/T05 audit regressions.
 - `test_chapter_12_contract.py`: all seventeen stage headings, the six-part stages 1–11 explanation, the front-loaded four-level conclusion distinction, three-axis/non-numeric maturation model, worked hypothesis interview, one-object walkthrough, and late-sequence evidential limits.
 - `test_chapter_10_contract.py`: the direct “who can attain?” answer, DN 16's monastic/lay and male/female examples, and the possibility-versus-guarantee boundary.
+- Beginner-pilot runtime and CLI tests require written visible prompts, allowed rereading, no moderator follow-up cues, and a scorer-level cohort failure when that delivery contract is violated.
 - `release_verifier_fixtures.py`: shared synthetic Markdown, PDFInfo, OPF, XHTML, and EPUB fixtures.
 - `test_release_evidence.py`: visible-table parsing plus immutable hash and canonical-credit anchors against the explicitly supplied edition.
 - `test_release_pdf.py`: metadata, encryption, all-page size, and rotation regressions.

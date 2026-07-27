@@ -173,6 +173,9 @@ def build_record(
     session = {
         "primary_format": primary_format,
         "moderator_is_editor": False,
+        "prompts_displayed_in_writing": True,
+        "prompt_rereading_allowed": True,
+        "moderator_followup_cues_used": False,
         "started_at": started_at,
         "completed_at": completed_at,
         "stopped_early": stopped,

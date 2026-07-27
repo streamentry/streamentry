@@ -131,6 +131,9 @@ def create_attempt_draft(
         "session": {
             "primary_format": registration["primary_format"],
             "moderator_is_editor": None,
+            "prompts_displayed_in_writing": None,
+            "prompt_rereading_allowed": None,
+            "moderator_followup_cues_used": None,
             "started_at": started_at,
             "completed_at": None,
             "stopped_early": None,

@@ -16,6 +16,7 @@ from beginner_pilot_contract import (  # noqa: E402
     ELIGIBILITY_FIELDS,
     EPUB_FIELDS,
     REPEAT_FIELDS,
+    SESSION_FIELDS,
     STOP_REASON_CODES,
     TASK_CRITERIA,
     TASK_FIELDS,
@@ -61,6 +62,16 @@ class BeginnerPilotV2SchemaParityTests(unittest.TestCase):
         required = set(self.record_schema["$defs"]["task"]["required"])
         self.assertIn("outcome", required)
         self.assertIn("outcome", TASK_FIELDS)
+
+    def test_session_contract_records_prompt_delivery_validity(self) -> None:
+        required = set(self.record_schema["$defs"]["session"]["required"])
+        expected = {
+            "prompts_displayed_in_writing",
+            "prompt_rereading_allowed",
+            "moderator_followup_cues_used",
+        }
+        self.assertTrue(expected <= required)
+        self.assertTrue(expected <= SESSION_FIELDS)
 
     def test_safety_contract_requires_the_vietnam_emergency_route(self) -> None:
         required = set(
