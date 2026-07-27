@@ -55,6 +55,7 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `scripts/verapdf_validation.py` and `scripts/verify-verapdf.py`: pinned veraPDF installer contract plus fail-closed JSON, version, artifact, profile, rule, check, and batch validation.
 - `ci/`: pinned Python and Node dependency contracts used only by publication CI.
 - `scripts/score-beginner-pilot.py`: manifest-only first-five gate scoring with artifact and contract binding.
+- `scripts/prepare-beginner-pilot.py`, `scripts/beginner_pilot_preparation.py`, and `scripts/beginner_pilot_workflow.py`: consent-gated `init` / intentionally invalid `new-attempt` / one-way `finalize` workflow. It freezes artifact and contract identity, computes retention and record hashes, and invokes both public reports without manufacturing participant data.
 - `tests/test_edition_contract.py`: regression coverage for strict loading and cross-field invariants.
 - `tests/test_epub_edition_contract.py` and `tests/test_release_identity.py`: alternate-locale XML/label escaping plus PDF/EPUB identity-drift regressions.
 - `dist/huong-den-nhap-luu.epub`: current internally verified reflowable candidate.
@@ -76,7 +77,7 @@ internal or external gates never transfers those results to a translation.
 
 Beginner readability is a publication contract, not a style preference. Define technical terms at first use, connect each conceptual section to the prior one, orient and synthesize dense lists, and keep appendices usable when opened directly. Close every explanatory chapter with either a short closed-book retrieval card or an explicit real-world decision block; test the central distinction and next action, not terminology recall or attainment status. In safety and decision passages, give each observable trigger or action its own list item. Treat sentence length as a review signal, not an automatic defect; preserve a long paragraph when its source-bound explanation is coherent and each inference remains visible. The first-sit route must expose its local stop conditions and label lookup without forcing a full safety-chapter detour; the full safety chapter remains mandatory before intensification. Keep one canonical restart protocol in Chapter 1 and link to it briefly elsewhere. Internal editorial review may mark these gates complete, but only `book/references/beginner-validation-protocol.md` can support a claim of novice validation.
 
-For running the novice test, start with `book/references/beginner-reader-kit.md` and use it together with the protocol. Freeze the artifacts and ten-file scoring contract before attempt one, enumerate every started attempt in one authoritative manifest, and count only the first five completed eligible attempts among at most seven starts. Raw records stay under ignored `build/beginner-pilot/`; only the privacy-coarsened aggregate and reader-app reports are publishable. A local manifest cannot independently prove its registration time or terminal-attempt completeness; use an external append-only registry for that stronger claim.
+For running the novice test, start with `book/references/beginner-reader-kit.md` and use it together with the protocol. Run the preparation CLI from a clean canonical-history candidate: `init` freezes the local registration header; `new-attempt` requires an explicit consent flag and creates a schema-invalid null draft; `finalize` strips the draft marker only after strict validation, computes retention and hashes, locks the manifest, and runs both reports. Freeze the artifacts and ten-file scoring contract before attempt one, enumerate every started attempt in one authoritative manifest, and count only the first five completed eligible attempts among at most seven starts. Raw records stay under ignored `build/beginner-pilot/`; only the privacy-coarsened aggregate and reader-app reports are publishable. The CLI cannot witness consent, authenticate people, validate an external registry, or prove terminal-attempt completeness. Use an external append-only registry for that stronger claim.
 
 For external release work, start with `book/references/external-release-packet.md`. Treat schema-v3 `external-release-gates.json` as the status source and let `scripts/verify_release.py` check protocol hashes, required gate-specific evidence roles, path reuse, role/header agreement, mandatory completion, public-confirmation and scope-limit fields, exact-once PDF and EPUB digest fields, candidate binding, cohort/report bindings, cross-document status, public contact-data rejection, and permitted claim enums. A passed `rights_decision` must also bind the current materials-inventory and immutable-source hashes, authorize both PDF and EPUB, state source/print/derivative scopes, territory, language, term, attribution and notices, and resolve contributor and third-party status with no open rights item. The frozen candidate commit may precede the evidence commit, but it must be an ancestor of it and contain the exact recorded PDF and EPUB bytes; `release-evidence.md` and public evidence may be committed later. Machine verification cannot establish a signer's identity or authority, the legal validity of a grant, a reviewer's competence, participant identity, custody completeness, or the honesty of a study. Keep every gate open until that human evidence exists.
 
@@ -140,7 +141,8 @@ flowchart TB
   EP["Public editorial policy"] --> R0
   CF["Privacy-bounded correction form"] --> EP
   M --> Q["Quality audits"]
-  N["Frozen manifest and attempt records"] --> G["Deterministic dual-output pilot scorer"]
+  O["Consent-gated pilot workflow"] --> N["Frozen manifest and attempt records"]
+  N --> G["Deterministic dual-output pilot scorer"]
   G --> Q
   X["External gate registry"] --> Q
   RI["Artifact-bound rights inventory"] --> RC["Rights scope contract"]
@@ -164,6 +166,7 @@ sequenceDiagram
   participant Q as PDF QA
   participant P as EPUB packager
   participant R as External reviewers
+  participant O as Pilot workflow
   participant S as Pilot scorer
   E->>D: Change one schema-v1 edition or locale value
   D-->>E: Strict loader accepts it or names the defect
@@ -175,7 +178,9 @@ sequenceDiagram
   P-->>E: Validate EPUB container, XML, manifest, and navigation
   Q-->>E: Report overflow, page rhythm, and text defects
   E->>R: Run novice comprehension and scoped expert review
-  R->>S: Submit frozen manifest and all ordered attempts
+  R->>O: Register candidate, open consented attempts, enter real observations
+  O->>O: Refuse null drafts, drift, invalid privacy or chronology
+  O->>S: Finalize frozen manifest and all ordered attempts
   S-->>E: Return aggregate and reader-app evidence
   R-->>E: Return scoped expert findings
   E->>T: Correct and recompile
@@ -192,6 +197,11 @@ stateDiagram-v2
   Rendered --> Audited: defect or unsupported claim found
   Rendered --> InternallyVerified: structural and visual QA pass
   InternallyVerified --> ReleasePacketReady: role-specific work orders frozen
+  InternallyVerified --> PilotRegistered: clean candidate and local header frozen
+  PilotRegistered --> PilotInProgress: explicit consent opens a null draft
+  PilotInProgress --> PilotRegistered: invalid or incomplete draft refused
+  PilotInProgress --> PilotFailed: finalized scorer gate fails
+  PilotInProgress --> ExternallyValidated: finalized scorer and all external gates pass
   ReleasePacketReady --> ExternallyValidated: rights, novice and expert gates pass
   InternallyVerified --> PilotFailed: novice gate fails
   PilotFailed --> Audited: correct wording and recruit a fresh cohort
@@ -220,7 +230,8 @@ flowchart LR
   EPUB --> V["XML, manifest, navigation, and reader QA"]
   PDF --> B["Beginner validation"]
   EPUB --> B
-  B --> R["Frozen manifest and pseudonymous attempt records"]
+  B --> O["Consent-gated draft workflow"]
+  O --> R["Frozen manifest and pseudonymous attempt records"]
   R --> SC["Deterministic gate scorer"]
   SC --> AE["Aggregate and reader-app evidence"]
   AE --> X["Typed external gate registry"]

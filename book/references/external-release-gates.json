@@ -3,7 +3,7 @@
   "candidate_binding": "frozen_artifact_commit_ancestor_plus_release_evidence",
   "release_evidence": {
     "path": "book/references/release-evidence.md",
-    "sha256": "9f7fe349b5b39ef653d773a75d007b015f5fc122f81b151bd69dfcf40f428a88"
+    "sha256": "152f7e9a10e169d90d770e657db92e6c68d8f222b2d567d3eedb0187111fb3cc"
   },
   "protocols": {
     "external_release_packet": {
@@ -24,11 +24,11 @@
     },
     "beginner_validation": {
       "path": "book/references/beginner-validation-protocol.md",
-      "sha256": "3a15bb4bf760a29dc3487eb9764562a876a889ffd378c6c30cebd08fa8456207"
+      "sha256": "41c562c7257463d6852268c81ff525b0700cb51759817c7cf4ce1bf6828322df"
     },
     "beginner_reader_kit": {
       "path": "book/references/beginner-reader-kit.md",
-      "sha256": "1058dc389e859ac7fee6e38d8fb214df46cd515f644456f66159f1a9e93bf2d9"
+      "sha256": "8518b55d3a1245f2ef60c67ab065359a233debaadfb76e9e52a1911af92d9c1e"
     },
     "comparative_beginner": {
       "path": "book/references/comparative-beginner-protocol.md",
