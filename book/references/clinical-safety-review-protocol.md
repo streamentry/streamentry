@@ -1,6 +1,6 @@
 # Independent clinical-safety review protocol
 
-Checked: 2026-07-26
+Checked: 2026-07-27
 
 This protocol defines what must exist before the edition may say that its clinical-safety material received independent review. It does not establish clinical efficacy, universal safety, diagnosis, treatment, or fitness for a particular reader.
 
@@ -69,8 +69,9 @@ At minimum inspect:
 - Chapter 12, map language, sleep, medication and loss-of-reality alternatives;
 - safety-related FAQ and glossary entries;
 - Appendix A if it is used in a real seven-day study;
+- Appendix E in full, especially its immediate-danger gate, somatic warning shorthand, restart boundary and reduction rule;
 - `beginner-validation-protocol.md`, `beginner-reader-kit.md`, both pilot schemas and the public aggregate-report output;
-- claim-ledger rows C17, C18, C46–C52, C72 and C73;
+- claim-ledger rows C17, C18, C46–C52 and C72–C74;
 - source-map entries R01–R09.
 
 The reviewer should check the exact cited editions and current wording rather than relying only on the book's summary.

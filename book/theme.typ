@@ -95,9 +95,18 @@
       .reference-item { margin: 0.8rem 0; padding-bottom: 0.65rem; border-bottom: 0.06rem solid var(--rule); }
       .reference-title { margin-bottom: 0.15rem; }
       .reference-detail { margin-top: 0.15rem; color: var(--muted); }
+      .decision-map { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.8rem; margin: 1.25rem 0; }
+      .decision-node { min-width: 0; padding: 0.9rem 1rem; border: 0.06rem solid var(--rule); border-radius: 0.35rem; background: var(--surface-light); overflow-wrap: anywhere; }
+      .decision-node:nth-child(1) { border-color: var(--clay); }
+      .decision-node:nth-child(2) { border-color: var(--forest); }
+      .decision-node:nth-child(3) { border-color: var(--indigo); }
+      .decision-node:nth-child(4) { border-color: var(--saffron); }
+      .decision-wide { grid-column: 1 / -1; }
       nav[role='doc-toc'] { margin: 1.5rem 0; padding: 0.75rem 1rem; background: var(--surface-light); }
       @media (max-width: 24rem) {
         .worksheet-fields { grid-template-columns: minmax(0, 1fr); }
+        .decision-map { grid-template-columns: minmax(0, 1fr); }
+        .decision-wide { grid-column: auto; }
       }
       @media (prefers-color-scheme: dark) {
         :root {

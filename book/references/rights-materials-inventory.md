@@ -17,9 +17,9 @@ quyền, tác phẩm phái sinh và phạm vi thương mại phải được đ�
 - bản thảo bất biến SHA-256
   `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440`;
 - PDF ứng viên hiện tại SHA-256
-  `f4155379dddb918d0a3869526ac0cd119f23967d457ff94914c2a7042704051e`;
+  `20792263d5a5d7043b9f85fddc2c94280400338f89db974cc5211cab3b87b9d8`;
 - EPUB ứng viên hiện tại SHA-256
-  `a6ed0f40e584c35843a5d9c81b4f2decbd1cbe501c21a135f54577c87121a8a6`.
+  `1ef7c99949fa562fa1dac3322c0d9e0ad096bc587d4ea58b920f1afb2ca289af`.
 
 Commit trên là mốc kiểm lịch sử quyền, không phải commit tự xác nhận quyền của
 artifact. Người ra quyết định phải lấy commit ứng viên từ gói điều phối, kiểm
@@ -41,8 +41,8 @@ có thể thay đổi sau ngày kiểm toán.
    tự xác lập chuỗi quyền giữa người dùng tài khoản, người sửa bản thảo, chủ thể
    đứng sau các Git identity và nhà phát hành.
 5. Không có ảnh, SVG, phông hay tài sản raster của bên thứ ba được theo dõi
-   trong cây Git. Bìa EPUB là ảnh được Typst tạo từ chính chữ, màu và bố cục của
-   dự án.
+   trong cây Git. Bìa EPUB và sơ đồ quyết định ở Phụ lục E đều được tạo từ
+   chính chữ, màu, CSS và bố cục của dự án.
 6. PDF nhúng các subset của Inter và Libertinus Serif. EPUB chỉ chứa XHTML,
    ảnh bìa được tạo, điều hướng, metadata và CSS; nó không nhúng tệp phông.
 7. Có bốn khối trình bày như lời kinh và đều được ghi là *phỏng dịch*: phần mở
@@ -70,7 +70,7 @@ có thể thay đổi sau ngày kiểm toán.
 | RM07 | P01, *Practical Insight Meditation* | Bản PDF BPS ghi `Copyright © Buddhist Publication Society 1971`; trang đầu không nêu giấy phép tái sử dụng. Sách hiện tóm tắt phương pháp và dẫn nguồn. | Cần đánh giá mức độ gần câu chữ, căn cứ trích dẫn hoặc diễn giải, và xin phép nếu phạm vi dự định vượt căn cứ hợp lệ. | **permission or legal basis unresolved** |
 | RM08 | P02, *The Progress of Insight* | [Trang Access to Insight](https://www.accesstoinsight.org/lib/authors/mahasi/progress.html) ghi ©1994 BPS. Giấy phép tại trang cho phép sao chép và tác phẩm phái sinh khi phát hành miễn phí, phải nêu nguồn và kèm toàn văn giấy phép; bản in lại bị giới hạn tối đa 50 bản. | Chương 12 diễn giải sâu cấu trúc P02. Cần quyết định liệu phần ấy là diễn giải độc lập, trích dẫn, hay tác phẩm phái sinh theo luật áp dụng. Không được suy từ quyền phát hành miễn phí sang quyền bán hoặc in không giới hạn. | **free-only source terms; commercial and print basis unresolved** |
 | RM09 | R01–R09, nguồn nghiên cứu và y tế | Sách dẫn bài nghiên cứu hoặc cơ quan chính thức, tóm tắt mệnh đề hẹp và không sao chép hình, bảng hay ảnh của họ. | Cần kiểm lần cuối để loại câu quá gần nguyên văn, ghi đúng nguồn và xem xét điều khoản của đúng tài liệu nếu phát hành thương mại hoặc dịch sang ngôn ngữ khác. | **citation use inventoried; legal review open** |
-| RM10 | Bố cục, bìa và ảnh bìa EPUB | Bố cục nằm trong Typst của dự án; ảnh bìa được sinh từ trang đầu. Không có ảnh minh họa nhập từ ngoài. | Quyền đối với mã và bố cục vẫn phụ thuộc RM02. Cần xác nhận bút danh, logo nếu thêm về sau, và phạm vi dùng bìa trong quảng bá. | **authority follows contributor chain** |
+| RM10 | Bố cục, bìa, ảnh bìa EPUB và sơ đồ quyết định | Bố cục cùng sơ đồ Phụ lục E nằm trong Typst và CSS của dự án; ảnh bìa được sinh từ trang đầu. Không có ảnh minh họa nhập từ ngoài. | Quyền đối với mã, bố cục và sơ đồ vẫn phụ thuộc RM02. Cần xác nhận bút danh, logo nếu thêm về sau, và phạm vi dùng bìa hoặc sơ đồ trong quảng bá. | **authority follows contributor chain** |
 | RM11 | Inter 4.0 trong PDF | PDF nhúng subset Inter. [Giấy phép Inter](https://github.com/rsms/inter/blob/master/LICENSE.txt) là SIL OFL 1.1; giấy phép cho phép dùng và nhúng phông, và nói giấy phép phông không áp vào tài liệu được tạo. | Lưu đúng phiên bản, nguồn, checksum và giấy phép trong hồ sơ phát hành. Không bán riêng phông hoặc dùng tên chủ thể quyền để ngụ ý chứng thực. | **license identified; release record still required** |
 | RM12 | Libertinus Serif trong PDF | PDF nhúng subset Libertinus Serif từ bộ phông tích hợp của Typst. [Dự án Libertinus](https://github.com/alerque/libertinus) phát hành phông theo SIL OFL 1.1; hướng dẫn OFL của SIL cho phép nhúng toàn bộ hoặc subset trong PDF. | Cần ghi phiên bản phông chính xác đi cùng Typst 0.15.0 hoặc lưu thông báo giấy phép từ gói nhị phân đã dùng. | **license family identified; exact bundled version unresolved** |
 | RM13 | DejaVu Sans Mono | Theme khai báo phông này, nhưng `pdffonts` không thấy nó trong PDF hiện tại và EPUB không nhúng phông. | Nếu nội dung mới khiến phông được nhúng hoặc phông được phân phối riêng, phải mở lại kiểm toán và lưu giấy phép DejaVu. | **not present in current artifacts** |

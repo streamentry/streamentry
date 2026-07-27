@@ -34,4 +34,5 @@
 #include "appendices/b-nhan-tham-chieu.typ"
 #include "appendices/c-faq.typ"
 #include "appendices/d-thuat-ngu.typ"
+#include "appendices/e-ban-do-quyet-dinh.typ"
 #include "chapters/99-nguon.typ"

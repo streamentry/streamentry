@@ -73,8 +73,8 @@ class EditionContractTests(unittest.TestCase):
                 ),
                 "file_stem": "huong-den-nhap-luu",
                 "identifier_seed": "https://streamentry.local/huong-den-nhap-luu",
-                "epub_modified": "2026-07-26T00:00:00Z",
-                "pdf_creation_timestamp": "1785024000",
+                "epub_modified": "2026-07-27T00:00:00Z",
+                "pdf_creation_timestamp": "1785110400",
                 "source_path": "con-duong-niem-xu-mahasi-hop-nhat.md",
                 "source_sha256": (
                     "ad7a886895cf8cd29b369fda89de5665"
@@ -107,6 +107,8 @@ class EditionContractTests(unittest.TestCase):
                     "Duyên khởi ngay nơi thọ và ái",
                     "Có phải thọ đến ái là mắt xích dễ cắt nhất?",
                     "Đọc bản đồ theo bốn vùng",
+                    "Bản đồ quyết định khi đang hành",
+                    "Có việc phải bảo vệ ngay không?",
                 ),
                 "validation_locale": "vi-VN",
                 "target_audience": (
@@ -277,7 +279,7 @@ class EditionContractTests(unittest.TestCase):
             ),
             (
                 lambda payload: payload["publication"].update(
-                    {"epub_modified": "2026-07-27T00:00:00Z"}
+                    {"epub_modified": "2026-07-28T00:00:00Z"}
                 ),
                 "must identify one instant",
             ),

@@ -83,6 +83,8 @@ Mỗi đoạn mang tính giáo lý hoặc kỹ thuật sẽ được đặt gầ
 
 Nếu chưa từng hành thiền, hãy dùng lộ trình ở trên thay vì đọc tuyến tính. Nếu đã hành lâu, hãy đọc phần nguồn và an toàn trước khi dùng bản đồ tuệ. Khi có trải nghiệm mạnh, kéo dài hoặc làm suy giảm giấc ngủ và sinh hoạt, đừng tự gắn tên một tầng tuệ. Giảm cường độ và tìm người hướng dẫn đủ năng lực; khi cần, tìm hỗ trợ y tế.
 
+Khi đang hành mà không nhớ nên giữ đối tượng, chuyển sang điều đang nổi bật, hành động ngay hay dừng, mở #link(<ban-do-quyet-dinh>)[Bản đồ quyết định ở Phụ lục E]. Đây là thẻ gợi nhớ; phần giải thích đầy đủ vẫn nằm trong các chương liên quan.
+
 Nếu bạn mới bắt đầu, hãy coi chương 12 là tài liệu tham khảo về sau, không phải nơi tự chẩn đoán trong những tuần đầu.
 
 #pagebreak()

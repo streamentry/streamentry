@@ -24,6 +24,7 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `book/chapters/11-ha-phan-va-sa-mon-qua.typ`: separate 3–5–4 map for the five lower fetters, four fruits, four pairs/eight persons, and DN 2.
 - `book/chapters/12-ban-do-tue.typ`: later-reference insight map; never use it as a beginner self-diagnostic ladder.
 - `book/appendices/`: reusable practice tools.
+- `book/appendices/e-ban-do-quyet-dinh.typ`: original safety-first retrieval map for stay, switch, act, repair, reduce and stop decisions; it remains an editorial synthesis under C74.
 - `book/references/claim-ledger.md`: claim-to-source audit trail.
 - `book/references/attainment-source-audit.md`: immutable segment-level audit for the attainment claims in Chapters 10–11.
 - `book/references/editorial-depth-audit.md`: chapter-by-chapter test for harmful compression.
