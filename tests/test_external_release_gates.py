@@ -29,6 +29,7 @@ from external_release_gates import (  # noqa: E402
 from edition_contract import EDITION  # noqa: E402
 from release_common import ReleaseVerificationError  # noqa: E402
 from release_evidence import parse_release_evidence  # noqa: E402
+from tests.rights_decision_fixtures import rights_decision_lines  # noqa: E402
 
 
 def _sha256(path: Path) -> str:
@@ -84,6 +85,7 @@ class ExternalReleaseGateTests(unittest.TestCase):
         evidence_path_by_role: dict[str, str] | None = None,
         cohort_binding_by_role: dict[str, tuple[str, str]] | None = None,
         counted_records_by_role: dict[str, list[str]] | None = None,
+        extra_lines_by_role: dict[str, list[str]] | None = None,
     ) -> None:
         release_path = root / RELEASE_EVIDENCE_PATH
         release_text = release_path.read_text(encoding="utf-8")
@@ -115,6 +117,7 @@ class ExternalReleaseGateTests(unittest.TestCase):
         path_by_role = evidence_path_by_role or {}
         binding_by_role = cohort_binding_by_role or {}
         records_by_role = counted_records_by_role or {}
+        extra_by_role = extra_lines_by_role or {}
         for index, role in enumerate(roles, start=1):
             filename = path_by_role.get(role, f"{gate_id}-{index}.md")
             evidence_path = (
@@ -133,6 +136,7 @@ class ExternalReleaseGateTests(unittest.TestCase):
                 "What this evidence does not establish: "
                 "No claim beyond this gate and frozen candidate.",
             ]
+            lines.extend(extra_by_role.get(role, []))
             if role in {"aggregate_report", "reader_app_report"}:
                 cohort_id, manifest_sha256 = binding_by_role.get(
                     role,
@@ -210,6 +214,65 @@ class ExternalReleaseGateTests(unittest.TestCase):
                 encoding="utf-8",
             )
             with self.assertRaisesRegex(ReleaseVerificationError, "stale"):
+                verify_external_release_gates(root, release)
+
+    def test_accepts_a_complete_candidate_bound_rights_decision(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root, release = self._fixture(directory)
+            registry = self._registry(root)
+            current_commit = "1" * 40
+            self._terminal_gate(
+                root,
+                registry,
+                gate_id="redistribution_rights",
+                status="passed",
+                candidate_commit=current_commit,
+                extra_lines_by_role={
+                    "rights_decision": rights_decision_lines(
+                        root,
+                        release.source_sha256,
+                        status="passed",
+                    )
+                },
+            )
+            self._write_registry(root, registry)
+            release = parse_release_evidence(
+                (root / RELEASE_EVIDENCE_PATH).read_text(encoding="utf-8")
+            )
+            with _verified_frozen_candidate(current_commit):
+                verified = verify_external_release_gates(root, release)
+            self.assertEqual(
+                verified["gates"]["redistribution_rights"]["status"],
+                "passed",
+            )
+            self.assertIn(
+                "public_redistribution_authorized",
+                verified["permitted_claims"],
+            )
+
+    def test_rejects_a_rights_decision_without_the_scope_contract(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root, _release = self._fixture(directory)
+            registry = self._registry(root)
+            current_commit = "1" * 40
+            self._terminal_gate(
+                root,
+                registry,
+                gate_id="redistribution_rights",
+                status="passed",
+                candidate_commit=current_commit,
+            )
+            self._write_registry(root, registry)
+            release = parse_release_evidence(
+                (root / RELEASE_EVIDENCE_PATH).read_text(encoding="utf-8")
+            )
+            with (
+                _verified_frozen_candidate(current_commit),
+                self.assertRaisesRegex(
+                    ReleaseVerificationError,
+                    "Rights decision schema",
+                ),
+            ):
                 verify_external_release_gates(root, release)
 
     def test_rejects_a_broken_local_protocol_link(self) -> None:

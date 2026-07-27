@@ -22,7 +22,10 @@ GATE_ORDER = (
 GATE_ASSIGNMENTS = {
     "redistribution_rights": (
         "Quyết định quyền phát hành",
-        "Xác định thẩm quyền và phạm vi cho phép đối với đúng PDF và EPUB.",
+        (
+            "Xác định thẩm quyền và phạm vi cho phép đối với đúng PDF và EPUB; "
+            "trả đủ phần tóm tắt máy đọc trong biểu mẫu quyền."
+        ),
         (
             "book/references/rights-decision-template.md",
             "book/references/rights-materials-inventory.md",
