@@ -10,21 +10,26 @@ chứng rằng người ký thật sự nắm quyền. Mọi kết luận về s
 quyền, tác phẩm phái sinh và phạm vi thương mại phải được đưa ra theo pháp luật
 áp dụng bởi người đủ thẩm quyền.
 
-Ảnh chụp lịch sử và vật liệu dùng:
+Ảnh chụp lịch sử dùng cho kiểm tra người đóng góp:
 
-- `main` tại commit
-  `95990864c3c9eb8a0595153fb2d1605a6221ee83`;
-- bản thảo bất biến SHA-256
-  `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440`;
-- PDF ứng viên hiện tại SHA-256
-  `856f397831607951dd6bd418380799c0d24ef6f60899f1130303c06434258eb5`;
-- EPUB ứng viên hiện tại SHA-256
-  `27b0447657b0cb8ca8eea61e97c13e8e4a692c27c6ade308ee640047b5f29407`.
+- `main` đến commit
+  `459e090872ae2a472faeca7b0f0d0e308827a264`.
 
-Commit trên là mốc kiểm lịch sử quyền, không phải commit tự xác nhận quyền của
-artifact. Người ra quyết định phải lấy commit ứng viên từ gói điều phối, kiểm
-lại hai mã băm, lịch sử và trạng thái bên ngoài ngay trước khi ký. Kho công khai
-có thể thay đổi sau ngày kiểm toán.
+Commit trên chỉ là mốc đã đọc lịch sử quyền, không phải commit tự xác nhận quyền
+của artifact. Danh tính byte dùng cho quyết định được ghi riêng dưới đây:
+
+```text
+Rights materials inventory schema: 1
+Immutable manuscript SHA-256: `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440`
+Candidate PDF SHA-256: `ebe9963d2721afb4bde149e6453c7596f58bab17a10eb893b2dc8be935ba79b6`
+Candidate EPUB SHA-256: `1da703b2615aae915fbc422e4bef835031b0f5c9f83c2929c82927ece6462866`
+```
+
+`scripts/verify_release.py` từ chối bảng kê nếu một trong ba mã băm trên lệch
+khỏi bản thảo bất biến hoặc hai artifact của hồ sơ phát hành. Kiểm tra này ngăn
+giao nhầm bản; nó không xác lập quyền. Người ra quyết định vẫn phải lấy commit
+ứng viên từ gói điều phối, kiểm lại mã băm, lịch sử và trạng thái bên ngoài ngay
+trước khi ký. Kho công khai có thể thay đổi sau ngày kiểm toán.
 
 ## Những gì đã xác minh
 

@@ -190,6 +190,12 @@ or retains unresolved contributor or third-party status. This closes a
 machine-verification gap only; it does not authenticate the signer or supply
 the missing rights decision.
 
+The materials inventory itself now carries one machine-readable schema-v1
+identity for the immutable manuscript and the exact current PDF and EPUB.
+Release verification rejects stale or duplicate identity fields before a
+coordinator packet can be treated as current. This prevents a wrong-candidate
+handoff; it still does not establish authorship, permission or legal authority.
+
 The coordinator ZIP is reproducible from a clean candidate and prevents manual
 commit or artifact-hash drift across the six work orders. That closes a
 handoff-control defect only. It does not improve the external score or change

@@ -20,6 +20,7 @@ each failure names one contract.
 - `test_release_epub.py`: active-rootfile, fixed manifest/spine, passive XHTML, TOC-target, broken-fragment, unlabelled-link, ambiguous external-label, and unsafe-scheme regressions.
 - `test_release_verifier.py`: integration check against the tracked release candidate.
 - `test_external_release_gates.py`: schema-v3 protocol-fingerprint, status, gate-specific evidence-role, contract-derived artifact-path, ancestor/exact-byte candidate binding, mandatory public fields, rights-scope and inventory binding, contact-data rejection, cohort/report hashes, path-reuse, and permitted-claim regressions.
+- `test_rights_inventory_contract.py`: exact schema-v1 source/PDF/EPUB binding plus stale, duplicate, and malformed inventory regressions.
 - `test_rights_decision_contract.py`: direct passed/failed rights-summary contract plus stale binding, unauthorized format, unresolved contributor/third-party, open-item, and contradictory-decision regressions.
 - `rights_decision_fixtures.py`: one shared complete rights-summary fixture for direct and external-gate integration tests.
 - `test_external_review_packet.py`: deterministic ZIP, candidate and assignment binding, required attainment-audit and rights-inventory handoffs, explicit non-evidence boundary, checksum tamper detection, duplicate-path rejection, clean-worktree enforcement, and repository-path containment.
@@ -59,6 +60,7 @@ flowchart TB
   V["verify_release.py"] --> I["test_release_verifier.py"]
   W["README, edition, gates, evidence"] --> J["test_readme_gateway.py"]
   G["external_release_gates.py"] --> Q["role and gate-contract tests"]
+  RI["rights_inventory_contract.py"] --> Q
   R["rights_decision_contract.py"] --> Q
 ```
 
