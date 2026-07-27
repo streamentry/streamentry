@@ -59,6 +59,7 @@ At minimum, review:
 - Chapter 3, the treatment of the four establishments of mindfulness;
 - Chapter 4, all twelve links and the feeling-to-craving intervention;
 - Chapter 5, the boundary between MN 10 and Mahāsi technique, the editorial operationalization of “salient,” and the accurate disclosure of P01's internally different pain instructions;
+- Chapter 7, the boundary between ordinary clear comprehension, lay duties, ethical restraint, and the book's editorial attention, collision, and repair loops;
 - Chapter 8, the seven-day passage and retreat claims;
 - Chapter 10, the first three fetters and mirror of Dhamma;
 - Chapter 11, the five lower fetters, four fruits, four-pairs/eight-persons formula, and DN 2 distinction;

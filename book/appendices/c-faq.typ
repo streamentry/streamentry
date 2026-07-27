@@ -155,7 +155,7 @@
   "faq-doi-song",
   [10\. Có thể hành trong công việc và gia đình không?],
   [
-    Có thể đem sự biết rõ vào đi, đứng, co duỗi, ăn uống và các hoạt động thường ngày như K01 mô tả.
+    Có thể đem sự biết rõ vào đi, đứng, co duỗi, ăn uống và các hoạt động thường ngày như K01 mô tả. #link(<vong-va-cham>)[Chương 7] còn cho một vòng xử lý khi phản ứng vừa dâng và một #link(<sua-sai>)[vòng sửa sai] khi khoảng dừng đến muộn; cả hai là công cụ biên soạn, không phải công thức nguyên văn của bài kinh.
 
     #v(5pt)
     #source-badge("KINH", refs: [K01])

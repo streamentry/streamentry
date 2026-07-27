@@ -3,7 +3,7 @@
   "candidate_binding": "frozen_artifact_commit_ancestor_plus_release_evidence",
   "release_evidence": {
     "path": "book/references/release-evidence.md",
-    "sha256": "9a217fec97622093db3384aef6d29e717af9dac5af35095e7b945494820784fe"
+    "sha256": "d715039a468fc3556a396ff95379e8022c0ce28698401ace8c605b28022f2c0a"
   },
   "protocols": {
     "external_release_packet": {
@@ -16,11 +16,11 @@
     },
     "doctrinal_review": {
       "path": "book/references/doctrinal-review-protocol.md",
-      "sha256": "0990ded3d3156f96565de145b9446e01fd1a8f7a28405cd6dfd5d8f46f53db0a"
+      "sha256": "ae2ca32ad4e86c7c0d3305d3aa3793e2e44e63a53c7c53a077973eb6ec643c77"
     },
     "clinical_safety_review": {
       "path": "book/references/clinical-safety-review-protocol.md",
-      "sha256": "1261e9f4074c83e91e68d7ad8dc62656ee4505b19fb9b894ab003d008858ff0e"
+      "sha256": "a264e83b43a8d9f60c95f5ad656769aab1d3193ab63508e7f1047e342fc7f07b"
     },
     "beginner_validation": {
       "path": "book/references/beginner-validation-protocol.md",
