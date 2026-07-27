@@ -1,6 +1,6 @@
 # Beginner reader test kit
 
-Checked: 2026-07-26
+Checked: 2026-07-27
 
 This kit operationalizes [`beginner-validation-protocol.md`](beginner-validation-protocol.md). It tests whether true beginners can find and correctly use the book without oral teaching. It does not test attainment, clinical efficacy, comparative market leadership, or whether every reader can practice safely.
 
@@ -11,11 +11,12 @@ Use the exact committed release files. One cohort tests one primary format so fo
 - Cohort-manifest schema: [`beginner-pilot-cohort-manifest.schema.json`](beginner-pilot-cohort-manifest.schema.json)
 - Attempt-record schema: [`beginner-pilot-record.schema.json`](beginner-pilot-record.schema.json)
 - Deterministic scorer: [`../../scripts/score-beginner-pilot.py`](../../scripts/score-beginner-pilot.py)
+- Fail-closed operator workflow: [`../../scripts/prepare-beginner-pilot.py`](../../scripts/prepare-beginner-pilot.py)
 - One cohort directory: `build/beginner-pilot/<cohort-id>/`, which is ignored by Git
 - Direct record children only: `build/beginner-pilot/<cohort-id>/records/*.json`
 - Final manifest: `build/beginner-pilot/<cohort-id>/manifest.json`
 
-All completed and stopped attempts go in the same `records/` directory and in one exact manifest order. Do not use separate optional folders or globs: that would reopen an omission path. Do not commit raw participant records. Publish only the scorer-produced aggregate and reader-app reports with artifact hashes, bounded cohort bindings, gate results, limitations, and privacy-coarsened environment evidence. Raw free text requires separate human privacy review before any narrative theme is published.
+All completed and stopped attempts go in the same `records/` directory and in one exact manifest order. Do not use separate optional folders or globs: that would reopen an omission path. Do not commit raw participant records. Keep `registration.json` and every raw record private to the local operator account; `finalize` refuses files readable by group or other users. Publish only the scorer-produced aggregate and reader-app reports with artifact hashes, bounded cohort bindings, gate results, limitations, and privacy-coarsened environment evidence. Raw free text requires separate human privacy review before any narrative theme is published.
 
 ## Roles and materials
 
@@ -46,6 +47,39 @@ Before recruitment:
 5. Do not start attempt one until the header is frozen.
 
 At closure, add every started attempt in chronological order with its record path and SHA-256, set `closed_at`, and retain the frozen header unchanged. A local JSON timestamp alone cannot prove that the header existed before recruitment or that the final attempt was not omitted. The scorer reports this limit; an external append-only registry is required for stronger custody evidence.
+
+### Ba lệnh vận hành
+
+Sau khi commit ứng viên đã vào lịch sử `origin/main` và worktree sạch, tạo hồ sơ đăng ký:
+
+```sh
+python3 scripts/prepare-beginner-pilot.py init \
+  --cohort-id <cohort-id> \
+  --primary-format pdf \
+  --external-registry-reference <receipt-or-public-reference>
+```
+
+Lệnh này tự lấy commit, đường dẫn artifact, hai mã băm, số trang PDF và mã băm của toàn bộ scoring contract. Nó tạo `registration.json` và in SHA-256 của tệp ấy để có thể ghi vào một registry nối thêm bên ngoài. Nếu không có `--external-registry-reference`, hồ sơ tự đánh dấu rằng thời gian chỉ do máy cục bộ khai báo. Có reference cũng không làm công cụ xác thực người đăng ký, tính bất biến hay thời điểm của dịch vụ bên ngoài.
+
+Chỉ sau khi người đọc đã nghe consent script và trả lời đồng ý, mở một lần thử:
+
+```sh
+python3 scripts/prepare-beginner-pilot.py new-attempt \
+  --cohort-id <cohort-id> \
+  --consent-confirmed
+```
+
+Thêm `--include-epub-smoke` cho người đọc sẽ thực hiện EPUB smoke test. Công cụ sinh mã ngẫu nhiên cho người đọc và lần thử, giữ sẵn identity của artifact, nhưng để mọi dữ liệu quan sát ở giá trị `null`. Tệp mang `_draft_only: NOT EVIDENCE`, nên scorer không thể nhận nó như hồ sơ thật. Người điều phối phải thay từng `null` bằng dữ liệu của chính phiên ấy. Không được sao chép một “bản ghi đạt” làm mẫu.
+
+Sau lần thử cuối, khóa cohort:
+
+```sh
+python3 scripts/prepare-beginner-pilot.py finalize \
+  --cohort-id <cohort-id> \
+  --closed-at <ISO-8601-with-UTC-offset>
+```
+
+`finalize` là thao tác một chiều. Nó tự tính `delete_by`, bỏ nhãn draft, xác thực schema và toàn bộ quy tắc ngữ nghĩa, hash từng bản ghi, dựng manifest đúng thứ tự, rồi chạy scorer để tạo `aggregate-report.md` và `reader-app-report.md`. Chỉ trạng thái `PASS` của bước này mới là kết quả cohort. Bản đăng ký, bản nháp, manifest chưa qua scorer hoặc dữ liệu do người biên tập tự điền không phải bằng chứng người mới.
 
 ## Eligibility
 

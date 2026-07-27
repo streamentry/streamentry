@@ -18,6 +18,8 @@ Five readers are enough to expose obvious onboarding failures. They are not enou
 
 Before attempt one, freeze the artifact and all ten contract files in one Git commit on canonical `streamentry/streamentry` history, fetch `origin/main`, record the fixed cohort rules and EPUB section-finding prompt, and set `registered_at`. Prefer an external append-only timestamped registry. At closure, enumerate every started attempt in order with its record hash. The local scorer can verify canonical origin configuration, ancestry against local `origin/main`, internal chronology and exact discovery, but it cannot prove that the remote ref was freshly fetched; a self-reported JSON timestamp also cannot independently prove preregistration or rule out omission of the terminal attempt.
 
+Use `scripts/prepare-beginner-pilot.py` for the mechanical `init`, `new-attempt`, and `finalize` steps described in the reader kit. Its generated attempt file is deliberately schema-invalid while any observation remains `null`; it cannot turn a template into participant evidence. The tool reduces transcription and hashing errors, but it cannot witness consent, authenticate a reader or moderator, verify an external registry, or prove that an unrecorded attempt never existed.
+
 ## Procedure
 
 Give no oral teaching and do not point to a page. Ask each reader to use the book to complete these eight tasks:
