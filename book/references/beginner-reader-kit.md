@@ -171,11 +171,12 @@ Pass criteria:
 
 Prompt:
 
-> Trước hết, hãy nói bằng lời của bạn: “bản đồ tuệ” đang sắp xếp cái gì, và “một tuệ đã chín” khác một cảm giác lạ như thế nào? Người hành có thể vun điều kiện gì, và có thể cố sản xuất riêng từng tầng không? Sau đó xét trường hợp: một người có ánh sáng mạnh, hỷ lạc và một khoảng trống ký ức trong một buổi thiền. Chương 12 có cho phép họ xác định mình đang ở tuệ nào hoặc đã chứng quả không? Người mới nên dùng chương này vào lúc nào?
+> Trước hết, hãy nói bằng lời của bạn: “bản đồ tuệ” đang sắp xếp cái gì, và “một tuệ đã chín” khác một cảm giác lạ như thế nào? Trong một câu trình pháp, hãy tách đối tượng, việc biết, phản ứng và kết luận. Người hành có thể vun điều kiện gì, và có thể cố sản xuất riêng từng tầng không? Sau đó xét trường hợp: một người có ánh sáng mạnh, hỷ lạc và một khoảng trống ký ức trong một buổi thiền. Chương 12 có cho phép họ xác định mình đang ở tuệ nào hoặc đã chứng quả không? Người mới nên dùng chương này vào lúc nào?
 
 Pass criteria:
 
 - explains the map as changes in the dominant way conditioned body-mind processes are directly known, not a ranking of intense sensations;
+- keeps the observed object, the knowing of it, the reaction, and the later stage conclusion distinct;
 - distinguishes conditional, repeated maturation from a fixed schedule or an exercise that mechanically produces a named stage;
 - rejects stage or attainment diagnosis from one event;
 - treats Chapter 12 as later reference material, not the beginner's first route;
