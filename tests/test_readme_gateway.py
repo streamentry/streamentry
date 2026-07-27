@@ -28,11 +28,17 @@ class ReadmeGatewayTests(unittest.TestCase):
     def test_reader_gateway_precedes_contributor_details(self) -> None:
         metadata = self.edition["metadata"]
         stem = self.edition["publication"]["file_stem"]
+        raw_base = (
+            "https://raw.githubusercontent.com/streamentry/streamentry/"
+            "main/dist"
+        )
 
         self.assertTrue(self.readme.startswith(f"# {metadata['title']}\n"))
         self.assertIn(metadata["author"], self.reader_section)
-        self.assertIn(f"](dist/{stem}.pdf)", self.reader_section)
-        self.assertIn(f"](dist/{stem}.epub)", self.reader_section)
+        self.assertIn(f"]({raw_base}/{stem}.pdf)", self.reader_section)
+        self.assertIn(f"]({raw_base}/{stem}.epub)", self.reader_section)
+        self.assertIn("Tải PDF trực tiếp", self.reader_section)
+        self.assertIn("Tải EPUB 3 trực tiếp", self.reader_section)
         self.assertIn("## Nếu bạn mới bắt đầu", self.reader_section)
         self.assertIn("## An toàn và phạm vi", self.reader_section)
 
