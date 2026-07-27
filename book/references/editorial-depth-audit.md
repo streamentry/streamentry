@@ -12,6 +12,9 @@ This audit tests whether a chapter is too compressed for a first-time reader. Wo
 4. A repeated warning stays only when it adds a new threshold, decision rule, or source-boundary correction.
 5. Canonical, commentarial, Mahāsi, health and research evidence, and editorial explanations must remain visibly distinct even when prose is simplified.
 6. When one real-time decision depends on rules distributed across several chapters, the book needs a single retrieval aid that points back to the full explanations without silently rewriting them.
+7. A source abbreviation or edition-specific code must be expanded on the
+   first-reading path; a back-of-book source entry cannot rescue an unexplained
+   AN, P01 or V01 encountered dozens of pages earlier.
 
 | Chapter | Approximate words | Finding | Action |
 |---|---:|---|---|
@@ -41,6 +44,16 @@ pre-answer rubric exposure as ineligible rather than allowing a contaminated
 pass or a silent replacement. This closes an evidence-contamination route. It
 still does not create a real reader result or prove that an operator told the
 truth.
+
+## Source-code retrieval boundary
+
+The source map has long spelled out individual titles, but that did not answer a
+beginner's earlier question: what do AN, SN, MN, DN, P01, P02 and V01 mean as
+systems of notation? The introduction now expands DN, MN, SN, AN and Ud, gives
+three concrete location examples, and distinguishes canonical collection
+addresses from the edition's K/P/V/R traceability codes. The source map repeats
+the legend under a stable target. This is a bibliographic clarification, not a
+new doctrinal claim or a ranking of sources.
 
 ## Result
 

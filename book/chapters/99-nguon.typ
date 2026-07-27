@@ -7,6 +7,28 @@
   [Các mã dưới đây cho biết một mệnh đề đang dựa trên văn bản nào. Liên kết được kiểm tra khi biên soạn ấn bản này vào tháng 7 năm 2026.],
 )
 
+== Bảng giải mã trước khi tra <ma-nguon-chi-tiet>
+
+#source-line("BIÊN SOẠN", [quy ước thư mục của ấn bản], [
+  *DN* = _Dīgha Nikāya_ (Trường Bộ); *MN* = _Majjhima Nikāya_ (Trung Bộ);
+  *SN* = _Saṃyutta Nikāya_ (Tương Ưng Bộ); *AN* = _Aṅguttara Nikāya_ (Tăng
+  Chi Bộ); *Ud* = _Udāna_ (Kinh Phật Tự Thuyết). Đây là các chữ viết tắt thư
+  mục thường dùng cho bộ sưu tập. Số đi sau xác định bài hoặc vị trí trong bộ:
+  MN 10 là bài 10 của Trung Bộ; SN 55.5 là bài 5 trong nhóm 55 của Tương Ưng
+  Bộ; AN 3.88 là bài 88 trong chương Ba pháp của Tăng Chi Bộ.
+])
+
+#v(7pt)
+
+#source-line("BIÊN SOẠN", [mã truy nguyên riêng của cuốn sách], [
+  *K01–K40* đánh số hồ sơ nguồn kinh; *P01–P02* đánh số hai tài liệu Mahāsi;
+  *V01* là ấn bản Thanh Tịnh Đạo; *R01–R11* đánh số nguồn nghiên cứu, y tế và
+  cơ quan chính thức. Các mã K, P, V và R là chỉ mục nội bộ để giữ đúng bản,
+  liên kết và giới hạn sử dụng; chúng không phải số phân loại truyền thống và
+  không tự xếp hạng độ mạnh của nguồn. Mỗi mục bên dưới mở đầy đủ tên tác phẩm,
+  bản dịch hoặc ấn bản và liên kết đã dùng.
+])
+
 == Kinh Nikāya
 
 #reference-item(

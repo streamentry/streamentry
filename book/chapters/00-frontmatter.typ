@@ -79,6 +79,24 @@ Mỗi đoạn mang tính giáo lý hoặc kỹ thuật sẽ được đặt gầ
 #v(7pt)
 #source-line("BIÊN SOẠN", [hiện đại], [Lịch thực hành, cách tạo thói quen, bảng tự kiểm và các nguyên tắc an toàn được biên soạn cho đời sống hôm nay.])
 
+== Đọc AN, SN, MN, DN và các mã P01, P02 thế nào? <doc-ma-nguon>
+
+#practice-card(
+  [Một phút để đọc mã nguồn],
+  [
+    + *DN* là *Dīgha Nikāya*, Trường Bộ; *MN* là *Majjhima Nikāya*, Trung Bộ.
+    + *SN* là *Saṃyutta Nikāya*, Tương Ưng Bộ; *AN* là *Aṅguttara Nikāya*, Tăng Chi Bộ.
+    + *Ud* là *Udāna*, thường gọi là Kinh Phật Tự Thuyết.
+    + Số sau chữ viết tắt chỉ vị trí bài kinh trong bộ sưu tập đang dùng. Chẳng hạn, *MN 10* là bài số 10 của Trung Bộ; *SN 55.5* là bài số 5 trong nhóm 55 của Tương Ưng Bộ; *AN 3.88* là bài số 88 trong chương Ba pháp của Tăng Chi Bộ.
+    + *K01, K02…* là số hồ sơ nguồn kinh do chính cuốn sách này đặt để nối một mệnh đề với đúng liên kết, bản dịch và ghi chú ở #link(<ma-nguon-chi-tiet>)[Bản đồ nguồn]. K01 không có nghĩa “kinh số 1” trong Tam tạng.
+    + *P01* và *P02* là hai tài liệu Mahāsi được sách khóa: _Practical Insight Meditation_ và _The Progress of Insight_. *V01* là ấn bản _The Path of Purification_, tức _Thanh Tịnh Đạo_, được dùng trong sách.
+    + *R01, R02…* là nguồn nghiên cứu, y tế hoặc cơ quan chính thức dùng cho các mệnh đề an toàn. Chữ R không biến một nghiên cứu thành giáo lý và cũng không có nghĩa mọi nguồn R mạnh như nhau.
+
+    Khi gặp hai mã cạnh nhau, chẳng hạn “K11 · MN 2”, hãy đọc thế này: K11 là hồ sơ truy nguyên của sách; MN 2 là địa chỉ bài kinh trong Trung Bộ. Mở Bản đồ nguồn để xem tên bài, bản dịch, liên kết và giới hạn của cách dùng.
+  ],
+  label: [TRA NHANH · QUY ƯỚC THƯ MỤC],
+)
+
 == Cách dùng cuốn sách
 
 Nếu chưa từng hành thiền, hãy dùng lộ trình ở trên thay vì đọc tuyến tính. Nếu đã hành lâu, hãy đọc phần nguồn và an toàn trước khi dùng bản đồ tuệ. Khi có trải nghiệm mạnh, kéo dài hoặc làm suy giảm giấc ngủ và sinh hoạt, đừng tự gắn tên một tầng tuệ. Giảm cường độ và tìm người hướng dẫn đủ năng lực; khi cần, tìm hỗ trợ y tế.
