@@ -205,7 +205,7 @@ Pass criteria:
 
 Prompt:
 
-> Trước hết, hãy nói bằng lời của bạn: “bản đồ tuệ” đang sắp xếp cái gì; độ liên tục, độ phân giải và quan hệ với kinh nghiệm khác nhau ra sao; và “một tuệ đã chín” khác một cảm giác lạ như thế nào khi nguồn không cho ngưỡng số? Trong một câu trình pháp, hãy tách đối tượng, việc biết, phản ứng và kết luận. Với ca “toàn thân tan thành rung động rồi rất sợ,” bạn cần hỏi gì về nền trước, tính lặp lại và các giải thích cạnh tranh trước khi nêu giả thuyết? Người hành có thể vun điều kiện gì, và có thể cố sản xuất riêng từng tầng không? Sau đó xét trường hợp: một người có ánh sáng mạnh, hỷ lạc và một khoảng trống ký ức trong một buổi thiền. Chương 12 có cho phép họ xác định mình đang ở tuệ nào hoặc đã chứng quả không? Người mới nên dùng chương này vào lúc nào?
+> Trước hết, hãy nói bằng lời của bạn: “bản đồ tuệ” đang sắp xếp cái gì; độ liên tục, độ phân giải và quan hệ với kinh nghiệm khác nhau ra sao; và “một tuệ đã chín” khác một cảm giác lạ như thế nào khi nguồn không cho ngưỡng số? Hãy phân biệt bốn mức: một hiện tượng giống mô tả, một thoáng thấy cách biết đặc trưng, một vùng tuệ đang chi phối như giả thuyết làm việc, và một tuyên bố đạo quả. Trong một câu trình pháp, hãy tách đối tượng, việc biết, phản ứng và kết luận. Với ca “toàn thân tan thành rung động rồi rất sợ,” bạn cần hỏi gì về nền trước, tính lặp lại và các giải thích cạnh tranh trước khi nêu giả thuyết? Người hành có thể vun điều kiện gì, và có thể cố sản xuất riêng từng tầng không? Sau đó xét trường hợp: một người có ánh sáng mạnh, hỷ lạc và một khoảng trống ký ức trong một buổi thiền. Chương 12 có cho phép họ xác định mình đang ở tuệ nào hoặc đã chứng quả không? Người mới nên dùng chương này vào lúc nào?
 
 Pass criteria:
 
@@ -215,11 +215,12 @@ Pass criteria:
 - distinguishes conditional, repeated maturation from a numeric cutoff, fixed schedule or exercise that mechanically produces a named stage;
 - asks for prior basis, longitudinal repetition and counterevidence before treating the dissolution-and-fear report as even a bounded hypothesis;
 - rejects stage or attainment diagnosis from one event;
+- distinguishes a lookalike phenomenon, a glimpse, a provisionally dominant region and a path-fruition claim without promoting one into the next;
 - treats Chapter 12 as later reference material, not the beginner's first route;
 - names at least one alternative explanation or the need for longitudinal context;
 - uses no hint.
 
-The release gate separately requires all five to reject self-diagnosis. At least four must also explain the map, its three axes and its non-numeric maturation boundary; handle the worked report without keyword matching; place Chapter 12 correctly; and name an alternative explanation or the need for longitudinal context.
+The release gate separately requires all five to reject self-diagnosis. At least four must also explain the map, its three axes, its four-level conclusion model and its non-numeric maturation boundary; handle the worked report without keyword matching; place Chapter 12 correctly; and name an alternative explanation or the need for longitudinal context.
 
 ### 7. Retreat decision
 
@@ -240,7 +241,7 @@ Any acceptance fails the release-blocking retreat gate.
 
 Prompt:
 
-> “Ba kiết sử đầu”, “năm hạ phần kiết sử” và “bốn quả Sa-môn” khác nhau thế nào? Vì sao thấy vô ngã liên hệ trực tiếp với thân kiến, và chỉ đồng ý câu “vô ngã” có đủ chứng minh thân kiến đã đoạn không? Quả nào đoạn ba kiết sử đầu, quả nào đoạn đủ năm? *Kinh Sa-môn quả* DN 2 có chỉ là một bảng bốn tên ấy không?
+> “Ba kiết sử đầu”, “năm hạ phần kiết sử” và “bốn quả Sa-môn” khác nhau thế nào? Vì sao thấy vô ngã liên hệ trực tiếp với thân kiến, và chỉ đồng ý câu “vô ngã” có đủ chứng minh thân kiến đã đoạn không? Quả nào đoạn ba kiết sử đầu, quả nào đoạn đủ năm? Theo những trường hợp được DN 16 nêu, Nhập lưu có phải đặc quyền của người xuất gia hoặc nam giới không, và vì sao câu trả lời ấy không thành lời bảo đảm cho mọi người? *Kinh Sa-môn quả* DN 2 có chỉ là một bảng bốn tên ấy không?
 
 Sau câu trả lời đầu tiên, đưa nguyên văn bốn tình huống này và hỏi mỗi tình huống cho thấy điều gì, không cho thấy điều gì:
 
@@ -256,6 +257,7 @@ Pass criteria:
 - distinguishes the three levels in its own words: what is appropriated as self, whether the path has a verified basis, and whether a means has been mistaken for a sufficient cause; rejects treating them as three surface habits or three sequential tricks;
 - explains that sensual desire and ill will complete the five lower fetters;
 - maps the first three to Stream-entry and all five to Non-returning;
+- rejects monastic-only and male-only restrictions using DN 16's cases while refusing to turn eligibility into a guarantee or prevalence claim;
 - distinguishes the four fruits from DN 2's broader discourse title and training sequence;
 - uses no hint.
 
