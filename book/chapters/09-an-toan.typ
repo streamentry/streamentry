@@ -27,7 +27,14 @@ An toàn không đồng nghĩa với sợ mọi cảm giác lạ. Nó cũng khô
 
 #source-line("Y TẾ & NGHIÊN CỨU", [R02], [Tổng quan hệ thống của Farias và cộng sự năm 2020 cho thấy các biến cố bất lợi đã được báo cáo trong nghiên cứu về thiền, đồng thời cách định nghĩa và theo dõi chúng rất không đồng nhất. Bằng chứng này bác bỏ giả định “thiền luôn vô hại”, nhưng không cho phép dự đoán chính xác rủi ro của một cá nhân.])
 
-Hai nguồn trên không phải kinh điển Phật giáo và không thay thế chẩn đoán y khoa. R01 không thể ước tính tỷ lệ biến cố trong toàn bộ người hành thiền; R02 bị giới hạn bởi sự không đồng nhất giữa các nghiên cứu. Cả hai nguồn không kiểm chứng toàn bộ quy trình ba mức dưới đây. Quy trình ấy là khung biên soạn thận trọng, được giới hạn thêm bằng hướng dẫn trực tiếp của WHO, NIMH, NHS và CDC về một số dấu hiệu cụ thể.
+Hai nguồn trên không phải kinh điển Phật giáo và không thay thế chẩn đoán y khoa. R01 không thể ước tính tỷ lệ biến cố trong toàn bộ người hành thiền; R02 bị giới hạn bởi sự không đồng nhất giữa các nghiên cứu. Cả hai nguồn không kiểm chứng toàn bộ quy trình ba mức dưới đây. Quy trình ấy là khung biên soạn thận trọng, được giới hạn thêm bằng hướng dẫn trực tiếp của bốn cơ quan:
+
+- *WHO* là _World Health Organization_, Tổ chức Y tế Thế giới.
+- *NIMH* là _National Institute of Mental Health_, Viện Sức khỏe Tâm thần Quốc gia Hoa Kỳ.
+- *NHS* là _National Health Service_, Dịch vụ Y tế Quốc gia của Vương quốc Anh.
+- *CDC* là _Centers for Disease Control and Prevention_, Trung tâm Kiểm soát và Phòng ngừa Dịch bệnh Hoa Kỳ.
+
+Tên cơ quan cho biết nguồn đến từ hệ thống nào, không biến mọi chỉ dẫn của họ thành quy tắc toàn cầu. Chương này nói rõ khi số điện thoại, tuyến cấp cứu hoặc phạm vi áp dụng chỉ thuộc một quốc gia.
 
 == Trước khi tăng cường độ <an-toan>
 
@@ -49,7 +56,7 @@ Bạn không cần tự chẩn đoán những thuật ngữ trên để dùng ch
 
 #v(8pt)
 
-#source-line("Y TẾ & NGHIÊN CỨU", [R06], [Trong hướng dẫn điều trị loạn thần, NHS dặn không ngừng thuốc đã được kê nếu chưa có chỉ dẫn của chuyên gia y tế đủ năng lực đang chịu trách nhiệm chăm sóc, vì ngừng đột ngột có thể làm triệu chứng trở lại. Các số 999 và địa chỉ A&E trên trang NHS chỉ áp dụng tại Vương quốc Anh.])
+#source-line("Y TẾ & NGHIÊN CỨU", [R06], [Trong hướng dẫn điều trị loạn thần, NHS dặn không ngừng thuốc đã được kê nếu chưa có chỉ dẫn của chuyên gia y tế đủ năng lực đang chịu trách nhiệm chăm sóc, vì ngừng đột ngột có thể làm triệu chứng trở lại. Số 999 và địa chỉ khoa cấp cứu, được nguồn gọi là A&E (_Accident and Emergency_), chỉ áp dụng tại Vương quốc Anh.])
 
 #v(8pt)
 

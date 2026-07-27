@@ -1,6 +1,6 @@
 # Bảng kê vật liệu và khoảng trống quyền phát hành
 
-Checked: 2026-07-27
+Checked: 2026-07-28
 
 ## Phạm vi
 
@@ -21,8 +21,8 @@ của artifact. Danh tính byte dùng cho quyết định được ghi riêng d�
 ```text
 Rights materials inventory schema: 1
 Immutable manuscript SHA-256: `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440`
-Candidate PDF SHA-256: `ca5a12089112ffbee00d26652f2a68e2ef5b3a6523d75db1ab15329a57b53c4b`
-Candidate EPUB SHA-256: `0b0783048d85d8c99d0560bddcc68189355ac555942c3ec1378683a6edce9b34`
+Candidate PDF SHA-256: `9251aa7a7206df57e33c7eaa0668f3556eec3da81b38b71bd76044887268f98f`
+Candidate EPUB SHA-256: `614a26a3afcf1354aa1429f43b165ead07f4e5dbead8f0fb29b0d29ca5a5ac9b`
 ```
 
 `scripts/verify_release.py` từ chối bảng kê nếu một trong ba mã băm trên lệch
