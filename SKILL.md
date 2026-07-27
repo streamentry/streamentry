@@ -42,9 +42,9 @@ shared components to keep the A5 PDF presentation separate from semantic HTML
 used by EPUB. Never package the print-oriented HTML fallback without
 target-aware components: ignored grids can silently remove content.
 
-The EPUB must be reflowable. Preserve heading hierarchy, source badges, cautions, practice cards, navigation, external links, Vietnamese diacritics, canonical metadata, and cover credit. Do not reproduce A5 page breaks or worksheet blank space as fixed-layout ebook pages.
+The EPUB must be reflowable. Preserve heading hierarchy, source badges, cautions, practice cards, navigation, external links, Vietnamese diacritics, canonical metadata, and cover credit. Every content link needs a usable label; local fragments must resolve; external sources must use absolute HTTPS URLs; source-map link text must include its K, P, V, or R code when repeated labels would otherwise be indistinguishable. Do not reproduce A5 page breaks or worksheet blank space as fixed-layout ebook pages.
 
-Under the pinned macOS 15 ARM64 publication tool and font environment, the builder compiles a byte-reproducible PDF/UA-1 candidate and fails on unexpected Typst HTML warnings, missing semantic body matter, heading jumps, broken navigation, lost dark-mode CSS, and non-reproducible ZIP metadata. Treat the operating system and architecture as part of that byte-reproducibility contract. A clean build, EPUBCheck result, and automated accessibility scan are necessary but do not prove behavior in Apple Books, Kindle, Kobo, or every assistive-technology stack.
+Under the pinned macOS 15 ARM64 publication tool and font environment, the builder compiles a byte-reproducible PDF/UA-1 candidate and fails on unexpected Typst HTML warnings, missing semantic body matter, heading jumps, broken navigation, broken or unlabelled content links, unsafe external-link schemes, lost dark-mode CSS, and non-reproducible ZIP metadata. Treat the operating system and architecture as part of that byte-reproducibility contract. A clean build, EPUBCheck result, and automated accessibility scan are necessary but do not prove behavior in Apple Books, Kindle, Kobo, or every assistive-technology stack.
 
 The Python builder and verifier must load `book/edition.json` through
 `scripts/edition_contract.py` before trusting any field. After building, run

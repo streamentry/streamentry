@@ -13,6 +13,7 @@ import zipfile
 from dataclasses import dataclass
 from html import escape as xml_escape
 from pathlib import Path
+from urllib.parse import unquote, urlsplit
 from xml.etree import ElementTree as ET
 
 from edition_contract import EDITION, EditionContract, load_edition_contract
@@ -299,6 +300,46 @@ def _validate_head_metadata(
             )
 
 
+def _validate_content_links(root: ET.Element) -> None:
+    """Require every reader-facing link to be labelled and resolvable."""
+    anchors = {
+        element.attrib["id"]
+        for element in root.iter()
+        if element.attrib.get("id")
+    }
+    external_labels: dict[str, str] = {}
+    for link in root.findall(f".//{_qname(XHTML_NS, 'a')}"):
+        href = link.attrib.get("href", "").strip()
+        label = _label(link) or link.attrib.get("aria-label", "").strip()
+        if not href:
+            raise ValueError("every XHTML link requires a non-empty href")
+        if not label:
+            raise ValueError(f"every XHTML link requires an accessible label: {href}")
+        if href.startswith("#"):
+            fragment = unquote(href[1:])
+            if not fragment or fragment not in anchors:
+                raise ValueError(f"XHTML link target does not resolve: {href}")
+            continue
+
+        target = urlsplit(href)
+        if (
+            target.scheme != "https"
+            or not target.netloc
+            or target.username is not None
+            or target.password is not None
+        ):
+            raise ValueError(
+                f"XHTML links must use a local fragment or absolute HTTPS URL: {href}"
+            )
+        label_key = label.casefold()
+        previous = external_labels.setdefault(label_key, href)
+        if previous != href:
+            raise ValueError(
+                "external XHTML links to different destinations require "
+                f"distinct labels: {label}"
+            )
+
+
 def _validate_semantics(
     root: ET.Element,
     edition: EditionContract = EDITION,
@@ -330,6 +371,7 @@ def _validate_semantics(
     ids = [element.attrib["id"] for element in root.iter() if "id" in element.attrib]
     if len(ids) != len(set(ids)):
         raise ValueError("all XHTML ids must be unique")
+    _validate_content_links(root)
 
     css = "\n".join("".join(style.itertext()) for style in head.findall(_qname(XHTML_NS, "style")))
     if "color-scheme" not in css or not re.search(
