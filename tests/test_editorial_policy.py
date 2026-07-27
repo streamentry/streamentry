@@ -8,6 +8,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 POLICY_PATH = ROOT / "EDITORIAL_POLICY.md"
 ISSUE_FORM_PATH = ROOT / ".github" / "ISSUE_TEMPLATE" / "correction.yml"
+REVIEW_INTEREST_FORM_PATH = (
+    ROOT / ".github" / "ISSUE_TEMPLATE" / "external-review-interest.yml"
+)
 README_PATH = ROOT / "README.md"
 SOURCE_CHAPTER_PATH = ROOT / "book" / "chapters" / "99-nguon.typ"
 AUDIT_PATH = ROOT / "book" / "references" / "publish-readiness-audit.md"
@@ -19,6 +22,10 @@ CORRECTION_URL = (
     "https://github.com/streamentry/streamentry/issues/new?"
     "template=correction.yml"
 )
+REVIEW_INTEREST_URL = (
+    "https://github.com/streamentry/streamentry/issues/new?"
+    "template=external-review-interest.yml"
+)
 
 
 class EditorialPolicyTests(unittest.TestCase):
@@ -26,6 +33,9 @@ class EditorialPolicyTests(unittest.TestCase):
     def setUpClass(cls) -> None:
         cls.policy = POLICY_PATH.read_text(encoding="utf-8")
         cls.issue_form = ISSUE_FORM_PATH.read_text(encoding="utf-8")
+        cls.review_interest_form = REVIEW_INTEREST_FORM_PATH.read_text(
+            encoding="utf-8"
+        )
         cls.readme = README_PATH.read_text(encoding="utf-8")
         cls.source_chapter = SOURCE_CHAPTER_PATH.read_text(encoding="utf-8")
         cls.audit = AUDIT_PATH.read_text(encoding="utf-8")
@@ -90,6 +100,45 @@ class EditorialPolicyTests(unittest.TestCase):
         self.assertIn("Issue này sẽ công khai", self.issue_form)
         self.assertIn("thông tin y tế riêng", self.issue_form)
         self.assertIn("required: true", self.issue_form)
+
+    def test_readme_exposes_bounded_external_review_entry_point(self) -> None:
+        self.assertIn("## Giúp đưa sách qua thẩm định độc lập", self.readme)
+        self.assertIn(REVIEW_INTEREST_URL, self.readme)
+        self.assertIn("không phải báo cáo thẩm định", self.readme)
+        self.assertIn("Không đăng ký làm người đọc thử", self.readme)
+
+    def test_review_interest_form_collects_scope_without_private_intake(self) -> None:
+        self.assertTrue(
+            self.review_interest_form.startswith(
+                "name: Đề nghị tham gia thẩm định độc lập\n"
+            )
+        )
+        for field_id in (
+            "role",
+            "public_qualifications",
+            "competence_scope",
+            "conflicts_and_compensation",
+            "proposed_contribution",
+            "public_boundary",
+        ):
+            with self.subTest(field_id=field_id):
+                self.assertEqual(
+                    self.review_interest_form.count(f"id: {field_id}\n"),
+                    1,
+                )
+
+        self.assertNotIn("id: contact", self.review_interest_form)
+        self.assertNotIn("id: participant", self.review_interest_form)
+        self.assertIn("Issue này công khai", self.review_interest_form)
+        self.assertIn("Không đăng email, số điện thoại", self.review_interest_form)
+        self.assertIn(
+            "Không dùng biểu mẫu này để đăng ký làm người đọc thử",
+            self.review_interest_form,
+        )
+        self.assertIn(
+            "chưa phải bằng chứng thẩm định",
+            self.review_interest_form,
+        )
 
     def test_audit_improves_policy_without_inventing_accountability(self) -> None:
         self.assertRegex(

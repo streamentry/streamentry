@@ -37,6 +37,16 @@ route and exposes the policy and correction links. This closes a disclosure
 placement defect; it does not supply credentials, rights, review or reader
 evidence.
 
+An external-truth workflow audit then found a different failure: the repository
+published six rigorous protocols but exposed no bounded public route for a
+qualified reviewer or study coordinator to offer help. README now links a
+structured expression-of-interest form that asks for one review role, public
+qualification evidence, competence scope, conflicts, compensation and proposed
+work. The form excludes novice-participant recruitment and private contact,
+medical or participant data. It also states that an issue is neither review
+evidence nor a passed gate. This improves intake; it does not authenticate an
+offeror or replace the candidate-bound work order.
+
 ## Overview
 
 - **Content**: *Hướng Đến Nhập Lưu*
