@@ -121,7 +121,7 @@ jobs:
             "$GITHUB_WORKSPACE/ci/verapdf-auto-install.xml" \
             > verapdf-auto-install.xml
           "verapdf-installer/verapdf-greenfield-$VERAPDF_VERSION/verapdf-install" \
-            verapdf-auto-install.xml
+            "$GITHUB_WORKSPACE/build/ci-tools/verapdf-auto-install.xml"
 
           printf '%s\n' \
             "$GITHUB_WORKSPACE/build/ci-tools/typst-aarch64-apple-darwin" \
