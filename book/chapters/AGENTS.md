@@ -8,7 +8,7 @@ Chapters carry the explanatory arc from a seven-day start and an explicit days 8
 
 - Begin with `chapter(...)`.
 - Frontmatter must give a short non-linear reading route: first practice, early safety, foundations, retreat screening, then the insight map as later reference.
-- Chapter 12 must be self-contained for a reader who has never opened the *Visuddhimagga*: define `tuệ`, `các hành`, conditional maturation and the practice boundary before the seven-purification taxonomy; separate object, knowing, reaction and conclusion; and offer a direct route to the four-region explanation. Stages 1–11 answer the same six questions; the frame and ordinary-sitting loop are editorial scaffolding over P02, not a canonical or validated classifier.
+- Chapter 12 must be self-contained for a reader who has never opened the *Visuddhimagga*: define `tuệ`, `các hành`, conditional maturation and the practice boundary before the seven-purification taxonomy; separate object, knowing, reaction and conclusion; and offer a direct route to the four-region explanation. Stages 1–11 each have a navigable heading and answer the same six questions; a one-object walkthrough makes the changing way of knowing concrete. Stages 12–17 are explained by function and evidential limit, not invented as separately memorable feelings. The frame, ordinary-sitting loop, walkthrough and retrieval exercise are editorial scaffolding over P02, not a canonical or validated classifier.
 - Attach `source-badge(...)` or `source-line(...)` to non-obvious doctrinal claims.
 - Use prose for argument and cards only for procedures, checks, or source boundaries.
 - Never make a schedule, a “feeling to craving” intervention, or a phenomenological map sound universal.
