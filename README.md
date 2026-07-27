@@ -111,7 +111,7 @@ python3 scripts/verify_release.py
 
 Verifier đối chiếu hồ sơ phát hành với hợp đồng edition, bản thảo bất biến và hai artifact. Nó thất bại khi mã băm, kích thước, metadata, trang PDF, package EPUB, manifest, spine, navigation hoặc các mục tiêu liên kết bị lệch.
 
-Publication CI chạy cho mọi pull request và lần push vào `main` có thể ảnh hưởng bản sách. Workflow dùng Typst 0.15.0 và các dependency được ghim phiên bản, build lại hai định dạng, yêu cầu artifact byte-identical, chạy bộ test Python, schema validation, EPUBCheck và DAISY Ace. CI tự động không thay thế việc đọc thử bằng ứng dụng EPUB thật, công nghệ hỗ trợ hay trình kiểm PDF/UA độc lập.
+Publication CI chạy cho mọi pull request và lần push vào `main` có thể ảnh hưởng bản sách. Workflow dùng Typst 0.15.0 và các dependency được ghim phiên bản, build lại hai định dạng, yêu cầu artifact byte-identical, chạy bộ test Python, schema validation, EPUBCheck, DAISY Ace và veraPDF 1.30.2 với profile PDF/UA-1. veraPDF chỉ kiểm các điều kiện PDF/UA có thể xác minh bằng máy; CI tự động không thay thế việc đọc thử bằng ứng dụng EPUB thật hoặc công nghệ hỗ trợ.
 
 ### Tạo gói làm việc cho đánh giá bên ngoài
 

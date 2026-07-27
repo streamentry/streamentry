@@ -16,6 +16,7 @@ each failure names one contract.
 - `release_verifier_fixtures.py`: shared synthetic Markdown, PDFInfo, OPF, XHTML, and EPUB fixtures.
 - `test_release_evidence.py`: visible-table parsing plus immutable hash and canonical-credit anchors against the explicitly supplied edition.
 - `test_release_pdf.py`: metadata, encryption, all-page size, and rotation regressions.
+- `test_verapdf_validation.py`: pinned component-version, exact artifact, forced PDF/UA-1 profile, compliance, zero-failure, and batch-summary report regressions.
 - `test_release_epub.py`: active-rootfile, fixed manifest/spine, passive XHTML, TOC-target, broken-fragment, unlabelled-link, ambiguous external-label, and unsafe-scheme regressions.
 - `test_release_verifier.py`: integration check against the tracked release candidate.
 - `test_external_release_gates.py`: schema-v3 protocol-fingerprint, status, gate-specific evidence-role, contract-derived artifact-path, ancestor/exact-byte candidate binding, mandatory public fields, rights-scope and inventory binding, contact-data rejection, cohort/report hashes, path-reuse, and permitted-claim regressions.
@@ -101,10 +102,12 @@ flowchart LR
   M["Markdown fixture"] --> E["Evidence parser"]
   P["pdfinfo fixtures"] --> D["PDF contract"]
   X["EPUB fixtures"] --> U["EPUB contract"]
+  J["veraPDF JSON fixture"] --> H["PDF/UA-1 report contract"]
   A["dist artifacts"] --> V["Release orchestrator"]
   E --> R["Test result"]
   D --> R
   U --> R
+  H --> R
   V --> R
   G["Gate registry"] --> R
   L --> R

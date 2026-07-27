@@ -8,6 +8,7 @@ This folder contains only pinned dependency contracts for the ephemeral publicat
 
 - `requirements.txt`: exact Python versions and reviewed Linux x86-64 plus macOS ARM64 wheel hashes for JSON Schema validation and Ruff. The macOS ARM64 wheels serve the canonical hosted builder; the Linux hashes retain a reviewed local verification path.
 - `package.json` and `package-lock.json`: DAISY Ace CLI 1.4.6 and its integrity-locked dependency graph.
+- `verapdf-auto-install.xml`: minimal unattended veraPDF CLI installation template. The workflow substitutes only the ephemeral runner path; `scripts/verapdf_validation.py` owns the exact stable version, archive URL, and SHA-256.
 - Use `npm ci`, never an unlocked install, in CI. The narrower `@daisy/ace-cli` package intentionally excludes the Ace HTTP server and Electron application.
 - Fail the hosted build on high or critical npm advisories. Moderate upstream advisories remain visible in the log and require a threat-model review rather than an unsafe forced downgrade.
 
@@ -18,8 +19,9 @@ This folder contains only pinned dependency contracts for the ephemeral publicat
 ```mermaid
 flowchart LR
   P["Pinned manifests"] --> I["Ephemeral install"]
-  I --> V["Publication validation"]
-  V --> X["Discard runner and reports"]
+  K["veraPDF version, URL, and SHA-256"] --> I
+  I --> G["Publication validation"]
+  G --> X["Discard runner and diagnostic reports"]
 ```
 
 ### Component Diagram
@@ -28,6 +30,7 @@ flowchart LR
 flowchart TB
   R["requirements.txt"] --> P["Python verifier and tests"]
   N["package-lock.json"] --> A["DAISY Ace CLI"]
+  X["verapdf-auto-install.xml"] --> V["veraPDF CLI"]
 ```
 
 ### Sequence Diagram
@@ -40,6 +43,7 @@ sequenceDiagram
   W->>M: Resolve exact versions
   M->>T: Verify package integrity
   T-->>W: Isolated validation tools
+  W->>T: Force veraPDF ua1 on the canonical PDF
 ```
 
 ### State Machine

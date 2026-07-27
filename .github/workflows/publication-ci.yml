@@ -65,6 +65,10 @@ jobs:
           cache: pip
           cache-dependency-path: ci/requirements.txt
 
+      - name: Load pinned veraPDF contract
+        run: |
+          PYTHONPATH=scripts python -c 'import os; from pathlib import Path; from verapdf_validation import VERAPDF_INSTALLER_SHA256, VERAPDF_INSTALLER_URL, VERAPDF_VERSION; print(f"VERAPDF_VERSION={VERAPDF_VERSION}"); print(f"VERAPDF_INSTALLER_URL={VERAPDF_INSTALLER_URL}"); print(f"VERAPDF_INSTALLER_SHA256={VERAPDF_INSTALLER_SHA256}"); print("VERAPDF_HOME=" + str(Path(os.environ["RUNNER_TEMP"]) / ("streamentry-verapdf-" + VERAPDF_VERSION)))' >> "$GITHUB_ENV"
+
       - name: Set up Node.js 22
         uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
         with:
@@ -108,6 +112,17 @@ jobs:
           printf '%s  %s\n' "$EPUBCHECK_SHA256" epubcheck.zip | shasum -a 256 --check
           unzip -q epubcheck.zip
 
+          curl --fail --silent --show-error --location \
+            "$VERAPDF_INSTALLER_URL" \
+            --output verapdf.zip
+          printf '%s  %s\n' "$VERAPDF_INSTALLER_SHA256" verapdf.zip | shasum -a 256 --check
+          unzip -q verapdf.zip -d verapdf-installer
+          sed "s|@INSTALL_PATH@|$VERAPDF_HOME|" \
+            "$GITHUB_WORKSPACE/ci/verapdf-auto-install.xml" \
+            > verapdf-auto-install.xml
+          "verapdf-installer/verapdf-greenfield-$VERAPDF_VERSION/verapdf-install" \
+            "$GITHUB_WORKSPACE/build/ci-tools/verapdf-auto-install.xml"
+
           printf '%s\n' \
             "$GITHUB_WORKSPACE/build/ci-tools/typst-aarch64-apple-darwin" \
             >> "$GITHUB_PATH"
@@ -131,6 +146,7 @@ jobs:
             *) exit 1 ;;
           esac
           test "$(ci/node_modules/.bin/ace-cli --version)" = "1.4.6"
+          "$VERAPDF_HOME/verapdf" --version
           java -version
           pdfinfo -v
           ruff --version
@@ -149,6 +165,12 @@ jobs:
         run: |
           python scripts/verify_release.py
           git diff --exit-code -- "$PDF_PATH" "$EPUB_PATH"
+
+      - name: Validate PDF/UA-1 with veraPDF 1.30.2
+        run: |
+          python scripts/verify-verapdf.py \
+            --verapdf "$VERAPDF_HOME/verapdf" \
+            --report-output build/verapdf-report.json
 
       - name: Run Python tests and static checks
         run: |
