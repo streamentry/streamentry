@@ -64,6 +64,7 @@ flowchart LR
   E --> V["Builder structural validation"]
   E --> W["Separate release-evidence verifier"]
   W --> Q["Typed external gate registry"]
+  A["Frozen attainment source audit"] --> Q
   Q --> R["Candidate-bound external-review packet"]
   R["Frozen manifest and ordered attempts"] --> S["Deterministic cohort scorer"]
   S --> G["Aggregate and reader-app reports"]

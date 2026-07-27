@@ -71,6 +71,7 @@ compatibility, or comparative superiority.
 ## Quality evidence and limits
 
 - [`book/references/editorial-depth-audit.md`](book/references/editorial-depth-audit.md) checks every chapter for under-explained mechanisms, procedures, and limits.
+- [`book/references/attainment-source-audit.md`](book/references/attainment-source-audit.md) freezes the passage-level evidence and interpretive limits behind Chapters 10–11 at one immutable SuttaCentral data commit.
 - [`book/references/publish-readiness-audit.md`](book/references/publish-readiness-audit.md) records the adapted 80-item publication scorecard.
 - [`book/references/release-evidence.md`](book/references/release-evidence.md) binds current hashes, tool versions, format checks, visual scope, and the exact external gates that remain open.
 - [`book/references/edition-contract.md`](book/references/edition-contract.md) defines schema-v1 edition and locale ownership, the canonical Vietnamese build line, and the non-transferable review and validation work required by any future locale.

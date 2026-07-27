@@ -66,6 +66,9 @@ At minimum, review:
 - Appendix C, because direct answers are likely to be quoted without surrounding caveats;
 - Appendix D, because glossary definitions can harden an editorial gloss into an apparent doctrine;
 - the complete claim ledger and source map.
+- the frozen passage matrix in `attainment-source-audit.md`, checking its
+  segment selections against the cited editions rather than treating the
+  internal verdicts as external findings.
 
 ## Finding record
 

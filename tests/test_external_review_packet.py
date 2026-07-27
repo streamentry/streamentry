@@ -24,6 +24,7 @@ from external_review_packet_archive import (  # noqa: E402
 )
 from external_review_packet_content import (  # noqa: E402
     GATE_ORDER,
+    STATIC_SOURCE_PATHS,
     PacketMember,
     PacketSnapshot,
     generated_members,
@@ -84,6 +85,21 @@ def _rewrite_member(source: Path, target: Path, name: str, payload: bytes) -> No
 
 
 class ExternalReviewPacketTests(unittest.TestCase):
+    def test_packet_includes_attainment_source_audit(self) -> None:
+        self.assertIn(
+            "book/references/attainment-source-audit.md",
+            STATIC_SOURCE_PATHS,
+        )
+        doctrinal_work_order = next(
+            member
+            for member in generated_members(_snapshot())
+            if member.archive_path.endswith("/doctrinal_review.md")
+        )
+        self.assertIn(
+            "repository/book/references/attainment-source-audit.md",
+            doctrinal_work_order.payload.decode("utf-8"),
+        )
+
     def test_build_is_byte_reproducible_and_self_validating(self) -> None:
         snapshot = _snapshot()
         with tempfile.TemporaryDirectory() as directory:
