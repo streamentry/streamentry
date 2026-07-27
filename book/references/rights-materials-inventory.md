@@ -17,9 +17,9 @@ quyền, tác phẩm phái sinh và phạm vi thương mại phải được đ�
 - bản thảo bất biến SHA-256
   `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440`;
 - PDF ứng viên hiện tại SHA-256
-  `6effe8031b8efe780e348e6681cd28a9a1e46b1a03d6ad91f2e7601fa30e0e86`;
+  `410554fbb18cb73446aaf109327df0ac3ae196e69b7bbe6450861f6bde3809d5`;
 - EPUB ứng viên hiện tại SHA-256
-  `786b2706065836222a3814dcbe1777663c4d2be2a6755a4a55460a6b2bcd5e04`.
+  `42069a3d386332ed5707349c0a1e636776a69db37b28245802d6dbff1cc00dfc`.
 
 Commit trên là mốc kiểm lịch sử quyền, không phải commit tự xác nhận quyền của
 artifact. Người ra quyết định phải lấy commit ứng viên từ gói điều phối, kiểm
@@ -49,6 +49,12 @@ có thể thay đổi sau ngày kiểm toán.
    đầu MN 10 xuất hiện hai lần, Tứ Thánh Đế từ SN 56.11, và công thức duyên khởi
    từ SN 12.2 cùng SN 12.44. Phần còn lại chủ yếu là diễn giải, tóm tắt, thuật
    ngữ ngắn và dẫn nguồn, không phải bản sao toàn văn.
+8. Chương 11 chép một công thức Pāli ngắn từ SN 22.59:7.1–10.1 theo đúng nguồn
+   Bilara K35 đã khóa ở commit
+   `3af91efb1099190c74998247177f8ba6a076b8c0`. Câu Việt đặt ngay dưới được
+   ghi rõ là bản dịch sát nghĩa do sách thực hiện, không phải câu chữ lấy từ
+   một bản dịch Việt hiện đại. Dữ kiện này làm rõ riêng khối mới; nó không tự
+   đóng các khoảng trống RM01–RM09.
 
 ## Bảng kê tài sản
 
@@ -58,6 +64,7 @@ có thể thay đổi sau ngày kiểm toán.
 | RM02 | Văn xuôi, cấu trúc và phụ lục Typst | Lịch sử Git ghi hai giá trị tên tác giả commit; bản hiện tại được biên tập sâu sau khi nhập bản thảo. | Cần bảng ánh xạ định danh Git sang người hoặc tổ chức chịu trách nhiệm, xác nhận phần đóng góp và văn bản cho phép xuất bản, sửa đổi, dịch và cấp phép lại. | **authority not established** |
 | RM03 | Đầu ra do ChatGPT hỗ trợ | Việc dùng ChatGPT được công bố trong sách. [Điều khoản OpenAI hiện hành](https://openai.com/policies/terms-of-use/) nói rằng giữa người dùng và OpenAI, trong phạm vi pháp luật cho phép, người dùng sở hữu đầu ra và OpenAI chuyển giao quyền của mình nếu có. | Phải xác định tài khoản và điều khoản thực sự áp dụng khi từng phần được tạo. Câu “trong phạm vi pháp luật cho phép” không giải quyết khả năng được bảo hộ, quyền của bên thứ ba, tính không duy nhất của đầu ra hoặc quyền của các cộng tác viên con người. | **contract provenance not recorded** |
 | RM04 | Bốn khối *phỏng dịch* lời kinh | Vị trí được xác định trong `00-frontmatter.typ`, `02-dich-den-va-nen-tang.typ`, `03-tu-niem-xu-trong-kinh.typ` và `04-duyen-khoi.typ`. | Cần ghi rõ mỗi câu được dịch độc lập từ Pāli công cộng, được phép từ một bản dịch, hay dựa vào ngoại lệ đã được đánh giá. Chỉ thay nhãn “phỏng dịch” không sửa được nguồn gốc câu chữ. | **source-expression basis unresolved** |
+| RM04A | Công thức vô ngã Pāli và câu Việt mới ở Chương 11 | Pāli được chép từ SN 22.59:7.1–10.1 trong K35 đã khóa; câu Việt được ghi tại chỗ là bản dịch sát nghĩa do sách thực hiện. | Cần lưu người chịu trách nhiệm cho bản dịch độc lập và đưa nó vào quyết định quyền cuối cùng. Hồ sơ rõ hơn không thay thế thẩm quyền pháp lý. | **expression path documented; authority still open** |
 | RM05 | K01–K40 và các diễn giải kinh Nikāya | [SuttaCentral](https://suttacentral.net/licensing) xác nhận văn bản gốc Pāli và các ngôn ngữ cổ thuộc phạm vi công cộng; nội dung do SuttaCentral tự tạo được hiến tặng theo CC0. Trang này cũng nói nhiều bản dịch cũ thuộc quyền của dịch giả hoặc nhà xuất bản và dùng giấy phép riêng. | Sổ nguồn dùng cả bản dịch SuttaCentral mới lẫn các bản của Minh Châu, Bodhi và Suddhaso. Cần phân biệt câu chữ nào dịch trực tiếp từ Pāli, câu nào dựa trên bản dịch hiện đại và điều khoản riêng của đúng ấn bản. | **mixed source terms; review required** |
 | RM06 | V01, *The Path of Purification* | BPS Online Edition 2014 ghi bản dịch © BPS, cho tái bản và tác phẩm phái sinh khi được phát hành miễn phí, không hạn chế, và được đánh dấu rõ là phái sinh. Sách hiện tóm tắt và dẫn đoạn, không đóng gói bản PDF nguồn. | Nếu phát hành có thu tiền, phải xác định các diễn giải hiện tại có dựa vào quyền được phép, ngoại lệ hợp lệ hay cần xin phép. Pháp luật và kênh thương mại chưa được chọn. | **free-distribution terms identified; commercial basis unresolved** |
 | RM07 | P01, *Practical Insight Meditation* | Bản PDF BPS ghi `Copyright © Buddhist Publication Society 1971`; trang đầu không nêu giấy phép tái sử dụng. Sách hiện tóm tắt phương pháp và dẫn nguồn. | Cần đánh giá mức độ gần câu chữ, căn cứ trích dẫn hoặc diễn giải, và xin phép nếu phạm vi dự định vượt căn cứ hợp lệ. | **permission or legal basis unresolved** |
