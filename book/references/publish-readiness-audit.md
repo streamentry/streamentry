@@ -2,7 +2,7 @@
 
 Checked: 2026-07-27
 
-The 80-item scoring is a static content review adapted from a web-oriented benchmark. The exact current checks are recorded in [`release-evidence.md`](release-evidence.md): the PDF has 149 A5 pages, the EPUB has 155 nested content entries plus one cover entry in its table of contents, EPUBCheck 5.3.0 reports 0 fatals, 0 errors, and 0 warnings, and DAISY Ace 1.4.6 reports no issue in the package or three XHTML documents. The 2026-07-27 content passes first deepened the first three fetters and clarified the 3–5–4 and four-fruit relation. The latest pass then shortened the route to a safe first sit, exposed Appendix B at first use, added one canonical restart path, moved the feeling-to-craving drill before the twelve-link taxonomy, and placed an immediate safety action before the research discussion. Those internal controls do not replace the human decisions and tests.
+The 80-item scoring is a static content review adapted from a web-oriented benchmark. The exact current checks are recorded in [`release-evidence.md`](release-evidence.md): the PDF has 149 A5 pages, the EPUB has 155 nested content entries plus one cover entry in its table of contents, EPUBCheck 5.3.0 reports 0 fatals, 0 errors, and 0 warnings, and DAISY Ace 1.4.6 reports no issue in the package or three XHTML documents. The 2026-07-27 content passes first deepened the first three fetters and clarified the 3–5–4 and four-fruit relation. A frozen segment-level source audit now makes those load-bearing claims and their limits independently checkable. The latest prose pass also shortened the route to a safe first sit, exposed Appendix B at first use, added one canonical restart path, moved the feeling-to-craving drill before the twelve-link taxonomy, and placed an immediate safety action before the research discussion. Those internal controls do not replace the human decisions and tests.
 
 ## Overview
 
@@ -84,7 +84,7 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 
 | ID | Status | Evidence | N/A reason |
 |---|---|---|---|
-| R01 | Pass | `book/references/claim-ledger.md` records exact claim IDs, source IDs, URLs, and caveats. | None |
+| R01 | Pass | `book/references/claim-ledger.md` records exact claim IDs, source IDs, URLs, and caveats; `book/references/attainment-source-audit.md` adds immutable segment-level checks for Chapters 10–11. | None |
 | R02 | Pass | The book cites sutta, commentary, Mahāsi, research, and editorial sources throughout, not just once in the back matter. | None |
 | R03 | Pass | `book/chapters/00-frontmatter.typ` and `book/references/claim-ledger.md` keep a clear source hierarchy. | None |
 | R04 | Pass | Claim-to-source mapping is explicit in the ledger and repeated in the chapter provenance badges. | None |

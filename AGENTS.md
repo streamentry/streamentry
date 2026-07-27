@@ -24,6 +24,7 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `book/chapters/12-ban-do-tue.typ`: later-reference insight map; never use it as a beginner self-diagnostic ladder.
 - `book/appendices/`: reusable practice tools.
 - `book/references/claim-ledger.md`: claim-to-source audit trail.
+- `book/references/attainment-source-audit.md`: immutable segment-level audit for the attainment claims in Chapters 10–11.
 - `book/references/editorial-depth-audit.md`: chapter-by-chapter test for harmful compression.
 - `book/references/publish-readiness-audit.md`: adapted 80-item publication scorecard.
 - `book/references/release-evidence.md`: exact candidate hashes, tool versions, verification scope, and open external gates.

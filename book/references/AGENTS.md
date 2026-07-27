@@ -7,6 +7,7 @@ This folder holds the audit trail behind doctrinal and safety claims. It is the 
 ## Key Components
 
 - `claim-ledger.md`: claim, tier, exact source, evidence strength, and caveat.
+- `attainment-source-audit.md`: frozen Bilara segment map for the first three fetters, five lower fetters, four fruits, and DN 2 boundary; internal evidence only, never a substitute for independent Theravāda review.
 - `edition-contract.md`: schema-v1 ownership, canonical Vietnamese publication line, future-locale requirements, build flow, and falsifiable boundaries. It documents `book/edition.json` but does not replace it as the sole authority.
 - `editorial-depth-audit.md`: chapter-level check for under-explained mechanisms, procedures, and limits.
 - `publish-readiness-audit.md`: 80-item adapted CORE-EEAT scorecard; it records quality evidence but cannot establish market leadership.
@@ -42,6 +43,7 @@ flowchart LR
   EC["edition.json change"] --> ER["Edition-contract rules"]
   ER --> BV["Contract build and verification"]
   C["Draft claim"] --> V["Verify exact source"] --> T["Assign tier"] --> L["Ledger entry"] --> B["Book prose"]
+  L --> A["Frozen attainment segment audit"]
   B --> U["Beginner validation"]
   U --> E["External evidence"]
   E --> T["Typed evidence-role check"]
@@ -60,6 +62,7 @@ flowchart TB
   P["P codes"] --> L
   R["R codes"] --> L
   L --> C["Chapters and appendices"]
+  L --> A["Attainment segment audit"]
   C --> Q["Publish readiness audit"]
   C --> U["Beginner validation protocol"]
   X["Rights and expert-review protocols"] --> G["External gate registry"]
@@ -81,6 +84,7 @@ sequenceDiagram
   E->>L: Look up claim code
   L->>S: Open exact edition or URL
   S-->>E: Confirm wording, speaker, and limit
+  E->>E: Cross-check frozen attainment segment map
   E->>E: Build PDF and EPUB
   E->>E: Run audit and internal gates
   E->>R: Issue candidate-bound external work orders

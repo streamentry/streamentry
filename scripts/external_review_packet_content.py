@@ -28,7 +28,10 @@ GATE_ASSIGNMENTS = {
     "doctrinal_review": (
         "Phản biện giáo lý độc lập",
         "Kiểm nguồn, tầng văn bản, giới hạn và các mệnh đề Theravāda chịu tải.",
-        ("book/references/doctrinal-review-protocol.md",),
+        (
+            "book/references/doctrinal-review-protocol.md",
+            "book/references/attainment-source-audit.md",
+        ),
     ),
     "clinical_safety_review": (
         "Phản biện an toàn lâm sàng độc lập",
@@ -65,6 +68,7 @@ STATIC_SOURCE_PATHS = (
     "book/references/edition-contract.md",
     "book/references/publish-readiness-audit.md",
     "book/references/claim-ledger.md",
+    "book/references/attainment-source-audit.md",
     "book/references/external-release-packet.md",
     "book/references/external-release-gates.json",
     "book/references/external-evidence/README.md",
