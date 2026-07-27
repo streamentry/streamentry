@@ -97,6 +97,7 @@ ELIGIBILITY_FIELDS = {
     "read_book_before",
     "participated_in_prior_book_pilot",
     "seen_tested_passages_before",
+    "rubric_seen_before_first_answers",
     "experienced_buddhist",
     "is_editor",
     "is_source_reviewer",

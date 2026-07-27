@@ -47,6 +47,7 @@ class BeginnerPilotV2SchemaParityTests(unittest.TestCase):
         self.assertIn("age_18_or_over", ELIGIBILITY_FIELDS)
         self.assertIn("participated_in_prior_book_pilot", ELIGIBILITY_FIELDS)
         self.assertIn("seen_tested_passages_before", ELIGIBILITY_FIELDS)
+        self.assertIn("rubric_seen_before_first_answers", ELIGIBILITY_FIELDS)
 
     def test_record_schema_requires_structured_stop_category(self) -> None:
         required = set(self.record_schema["$defs"]["session"]["required"])

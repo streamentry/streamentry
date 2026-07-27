@@ -136,6 +136,18 @@ class ExternalReviewPacketTests(unittest.TestCase):
             )
             self.assertIn("Không tải một scorer khác từ mạng", text)
 
+    def test_beginner_assignments_forbid_rubric_disclosure(self) -> None:
+        for gate in ("beginner_cohort", "epub_reader_app"):
+            work_order = next(
+                member
+                for member in generated_members(_snapshot())
+                if member.archive_path.endswith(f"/{gate}.md")
+            )
+            text = work_order.payload.decode("utf-8")
+            self.assertIn("không gửi toàn bộ", text)
+            self.assertIn("rubric hay tiêu chí đạt", text)
+            self.assertIn("tính lần thử ấy vào cohort", text)
+
     def test_build_is_byte_reproducible_and_self_validating(self) -> None:
         snapshot = _snapshot()
         with tempfile.TemporaryDirectory() as directory:
@@ -174,9 +186,16 @@ class ExternalReviewPacketTests(unittest.TestCase):
     def test_guide_denies_that_packet_construction_passes_a_gate(self) -> None:
         snapshot = _snapshot()
         guide = generated_members(snapshot)[0].payload.decode("utf-8")
-        self.assertIn("does not establish rights", guide)
-        self.assertIn("clinical safety", guide)
-        self.assertIn("comparative superiority", guide)
+        self.assertIn("không xác lập quyền phát hành", guide)
+        self.assertIn("an toàn lâm sàng", guide)
+        self.assertIn("ưu thế so sánh", guide)
+
+    def test_guide_is_vietnamese_and_forbids_participant_packet_access(self) -> None:
+        guide = generated_members(_snapshot())[0].payload.decode("utf-8")
+        self.assertIn("# Gói điều phối thẩm định bên ngoài", guide)
+        self.assertIn("Không gửi toàn bộ packet cho người tham gia", guide)
+        self.assertIn("rubric hoặc tiêu chí đạt", guide)
+        self.assertIn("không được tính", guide)
 
     def test_validator_rejects_tampered_payload(self) -> None:
         snapshot = _snapshot()

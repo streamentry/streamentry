@@ -127,6 +127,9 @@ class BeginnerPilotWorkflowTests(unittest.TestCase):
             self.assertIsNone(draft["session"]["prompt_rereading_allowed"])
             self.assertIsNone(draft["session"]["moderator_followup_cues_used"])
             self.assertIsNone(
+                draft["eligibility"]["rubric_seen_before_first_answers"]
+            )
+            self.assertIsNone(
                 draft["epub_smoke"]["criteria"]["vietnamese_diacritics"]
             )
             self.assertTrue(draft["consent_confirmed"])

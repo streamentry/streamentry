@@ -171,18 +171,28 @@ PDF pages: `{snapshot.release.pdf_pages}`
 
 ## Phần người điều phối phải điền ngoài kho công khai
 
-Reviewer or decision-maker:
-Public qualifications or authority evidence:
-Declared competence scope:
-Conflicts:
-Compensation and payer:
-Start date:
-Deadline:
-Private return route:
-Urgent escalation route:
-May publish name and qualifications: yes | no | conditional
-May publish findings or report: yes | no | conditional
-Out-of-scope topics:
+Người phản biện hoặc người ra quyết định:
+Bằng chứng công khai về năng lực hoặc thẩm quyền:
+Phạm vi năng lực đã khai báo:
+Xung đột lợi ích:
+Thù lao và bên chi trả:
+Ngày bắt đầu:
+Hạn hoàn thành:
+Kênh trả hồ sơ riêng tư:
+Kênh báo động khẩn:
+Được công bố tên và năng lực: có | không | có điều kiện
+Được công bố phát hiện hoặc báo cáo: có | không | có điều kiện
+Các chủ đề ngoài phạm vi:
+
+## Ranh giới bàn giao
+
+Packet đầy đủ chỉ dành cho người điều phối, người phản biện hoặc người ra quyết
+định của cổng này. Với cohort người mới và thử ứng dụng EPUB, không gửi toàn bộ
+ZIP, giao thức, schema, scorer, rubric hay tiêu chí đạt cho người tham gia trước
+khi họ hoàn tất câu trả lời đầu tiên. Người tham gia chỉ được nhận đúng PDF hoặc
+EPUB ứng viên, lời mời và đồng thuận, cùng từng câu hỏi nguyên văn được hiển thị
+theo bộ công cụ người đọc. Nếu một người đã xem rubric hoặc tiêu chí chấm, không
+tính lần thử ấy vào cohort đã đăng ký.
 
 Không ghi email, số điện thoại, địa chỉ hoặc dữ liệu người tham gia vào hồ sơ công
 khai. Packet này chỉ khóa ứng viên và yêu cầu công việc; nó không làm cổng được
@@ -195,31 +205,40 @@ def guide_text(snapshot: PacketSnapshot) -> str:
         f"- `{gate}`: **{status.upper()}**"
         for gate, status in snapshot.gate_statuses
     )
-    return f"""# External review coordinator packet
+    return f"""# Gói điều phối thẩm định bên ngoài
 
-Packet `{snapshot.packet_id}` binds all enclosed instructions and artifacts to
+Packet `{snapshot.packet_id}` khóa toàn bộ chỉ dẫn và artifact kèm theo vào
 commit `{snapshot.commit}`.
 
 - PDF: `{snapshot.release.pdf_sha256}` ({snapshot.release.pdf_pages} pages)
 - EPUB: `{snapshot.release.epub_sha256}`
-- Edition contract: `{snapshot.release.edition_contract_sha256}`
-- Release evidence: `{snapshot.release_evidence_sha256}`
+- Hợp đồng ấn bản: `{snapshot.release.edition_contract_sha256}`
+- Bằng chứng phát hành: `{snapshot.release_evidence_sha256}`
 
-## Gate status at build time
+## Trạng thái cổng khi tạo packet
 
 {statuses}
 
-## How to use
+## Cách dùng
 
-1. Verify every enclosed file with `shasum -a 256 -c SHA256SUMS.txt`.
-2. Open the assignment matching the requested gate.
-3. Keep private contacts, signatures and participant records outside public Git.
-4. Return only the bounded, sanitized evidence required by the named protocol.
-5. Rebuild this packet if the candidate commit, PDF or EPUB changes.
+1. Kiểm tra mọi tệp bằng `shasum -a 256 -c SHA256SUMS.txt`.
+2. Chọn đúng một phiếu trong `generated/assignments/` cho cổng đang xử lý.
+3. Giữ thông tin liên hệ, chữ ký và bản ghi người tham gia ngoài Git công khai.
+4. Chỉ trả lại bằng chứng đã giới hạn phạm vi và làm sạch theo đúng giao thức.
+5. Tạo packet mới nếu commit ứng viên, PDF hoặc EPUB thay đổi.
 
-This packet reduces copy and handoff errors. It does not establish rights,
-reviewer competence, independence, clinical safety, beginner comprehension,
-reader-app compatibility or comparative superiority.
+## Không gửi toàn bộ packet cho người tham gia
+
+Packet chứa rubric, tiêu chí chấm và scorer nên chỉ dành cho người điều phối và
+người có trách nhiệm thẩm định. Trong cohort người mới hoặc thử ứng dụng EPUB,
+người tham gia chỉ nhận PDF hoặc EPUB ứng viên, lời mời và đồng thuận, rồi từng
+câu hỏi nguyên văn được hiển thị theo bộ công cụ người đọc. Không cho họ xem
+giao thức, schema, scorer, rubric hoặc tiêu chí đạt trước khi hoàn tất câu trả
+lời đầu tiên. Một lần thử đã bị lộ các tài liệu ấy không được tính.
+
+Packet này chỉ giảm lỗi sao chép và bàn giao. Nó không xác lập quyền phát hành,
+năng lực hay tính độc lập của người phản biện, an toàn lâm sàng, mức hiểu của
+người mới, tính tương thích với ứng dụng đọc hoặc ưu thế so sánh.
 """
 
 

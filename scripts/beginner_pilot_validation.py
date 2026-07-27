@@ -101,6 +101,7 @@ def is_eligible(record: dict[str, Any]) -> bool:
         and item["read_book_before"] is False
         and item["participated_in_prior_book_pilot"] is False
         and item["seen_tested_passages_before"] is False
+        and item["rubric_seen_before_first_answers"] is False
         and item["experienced_buddhist"] is False
         and item["is_editor"] is False
         and item["is_source_reviewer"] is False

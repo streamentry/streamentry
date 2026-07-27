@@ -6,6 +6,17 @@ This is the cheapest test that can disconfirm the claim that the handbook is rea
 
 Pair this protocol with [`beginner-reader-kit.md`](beginner-reader-kit.md). The kit gives the consent script, fixed rubric, privacy and distress rules, manifest procedure, and EPUB smoke-test procedure. Record every started attempt against [`beginner-pilot-record.schema.json`](beginner-pilot-record.schema.json), enumerate it in a cohort manifest conforming to [`beginner-pilot-cohort-manifest.schema.json`](beginner-pilot-cohort-manifest.schema.json), and score only that manifest with [`../../scripts/score-beginner-pilot.py`](../../scripts/score-beginner-pilot.py).
 
+The coordinator packet, this protocol, schemas, scorer, rubric, criteria flags,
+and completed records are blinded operator materials. Before a reader completes
+the first answer to every task, give them only the exact candidate PDF or EPUB,
+the invitation and consent text, and the exact written prompt currently being
+administered. Do not send the full coordinator ZIP or let the reader inspect
+answer criteria, scoring code, model answers, prior records, or aggregate
+results. If a reader has seen any task's rubric or pass criteria before
+completing that task's first answer, the attempt is contaminated and cannot be
+counted in the registered cohort. Preserve the attempt as a non-countable start;
+do not silently replace it.
+
 ## Participants
 
 - Recruit up to 7 Vietnamese adults to obtain the first 5 completed eligible attempts. Do not handpick a better five after seeing results, and do not begin another attempt after the fifth eligible completion.
