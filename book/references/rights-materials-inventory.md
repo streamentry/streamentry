@@ -17,9 +17,9 @@ quyền, tác phẩm phái sinh và phạm vi thương mại phải được đ�
 - bản thảo bất biến SHA-256
   `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440`;
 - PDF ứng viên hiện tại SHA-256
-  `43387804f399b227cd6afe2f7870762aecc0252b2c7974d30ffb1a19a2400479`;
+  `856f397831607951dd6bd418380799c0d24ef6f60899f1130303c06434258eb5`;
 - EPUB ứng viên hiện tại SHA-256
-  `b9beb4ebdaaee42fae7fddd330edd5c8d0553ca52c47beda524328ddc8e00059`.
+  `27b0447657b0cb8ca8eea61e97c13e8e4a692c27c6ade308ee640047b5f29407`.
 
 Commit trên là mốc kiểm lịch sử quyền, không phải commit tự xác nhận quyền của
 artifact. Người ra quyết định phải lấy commit ứng viên từ gói điều phối, kiểm

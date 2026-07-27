@@ -188,3 +188,17 @@ Người dạy thiền có thể sửa kỹ thuật, điều chỉnh thời khó
 Trước một khóa dài, hãy bảo đảm trung tâm có cách liên lạc người thân, quy trình rời khóa, hỗ trợ y tế và quyền giảm thời khóa. Nơi an toàn không xem việc xin giúp là thất bại. Họ cũng không giữ người ở lại bằng lời dọa rằng rời khóa sẽ “phá tiến trình”.
 
 Mục tiêu của chương này không phải loại mọi khó chịu. Nó là giữ một khó khăn có thể xử lý khỏi trở thành khủng hoảng vì bí mật, kiêu hãnh hoặc một lời giải thích sai.
+
+#practice-card(
+  [Gấp sách lại: chọn mức trước khi giải thích],
+  [
+    1. Khó chịu thoáng qua, vẫn ngủ và sinh hoạt bình thường: điều chỉnh nhẹ, theo dõi và đừng vội gắn nhãn.
+
+    2. Mất ngủ tăng, hoảng sợ lặp lại, cảm giác xa lạ kéo dài hoặc chức năng giảm rõ nhưng chưa có nguy hiểm tức thời: giảm hay tạm dừng thực hành cường độ cao và tìm hỗ trợ sớm.
+
+    3. Có ý định, kế hoạch hay hành vi chuẩn bị tự sát; thôi thúc làm hại người khác; mất liên hệ với thực tế kèm hành vi nguy hiểm; hoặc không còn giữ được an toàn: dừng thực hành và xử lý như tình huống cấp cứu. Đừng để người có nguy cơ tự sát tức thời ở một mình.
+
+    Nếu bạn không thể chọn chắc giữa hai mức, hãy chọn mức an toàn hơn và để người có năng lực đánh giá. Tên một tầng tuệ không được dùng để hạ mức phản ứng.
+  ],
+  label: [GẤP SÁCH LẠI · AN TOÀN],
+)

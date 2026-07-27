@@ -146,3 +146,15 @@ Nếu điều chỉnh đề mục và cường độ không giúp, còn trạng 
     Nếu trạng thái kéo dài ngoài giờ thiền, làm mất ngủ, giảm khả năng làm việc hoặc làm bạn mất tiếp xúc với thực tại, hãy giảm hay dừng thực hành cường độ cao và tìm người hỗ trợ đủ năng lực. Đừng gọi mọi suy giảm chức năng là “thung lũng tuệ”.
   ],
 )
+
+#practice-card(
+  [Gấp sách lại: ba quyết định],
+  [
+    1. Khi một triền cái có mặt, đừng chỉ gọi tên. Hãy nói được nó đang biểu hiện thế nào, điều gì nuôi nó và điều gì làm nó yếu đi.
+
+    2. Khi tâm chìm, nhớ nhóm nâng tâm: trạch pháp, tinh tấn và hỷ. Khi tâm căng, nhớ nhóm làm dịu: khinh an, định và xả. Niệm giữ vai trò trong cả hai trường hợp.
+
+    3. Khi trạng thái kéo dài ngoài giờ hành, làm mất ngủ, giảm chức năng hoặc làm yếu khả năng phân biệt thực tại, hãy đổi từ câu hỏi “đây là pháp gì?” sang “mức nguy cơ là gì và cần hỗ trợ nào?”. Mở #link(<ba-muc>)[ba mức phản ứng ở chương 9] thay vì tự gắn một tên tuệ.
+  ],
+  label: [GẤP SÁCH LẠI · QUYẾT ĐỊNH],
+)
