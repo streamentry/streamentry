@@ -3,16 +3,16 @@
   "candidate_binding": "frozen_artifact_commit_ancestor_plus_release_evidence",
   "release_evidence": {
     "path": "book/references/release-evidence.md",
-    "sha256": "c61097f9ab9e47933a63aa907e4b6e9aff5d75e98f5e156e1f839debd8050409"
+    "sha256": "55dcddd8eeff327f2dd47fa3da4c2b7727dc48b7a513793fb885fe8844adddd1"
   },
   "protocols": {
     "external_release_packet": {
       "path": "book/references/external-release-packet.md",
-      "sha256": "f353e5c8aea30d64dad903fab131fcc6484468884f133dc3919d66d099905ed8"
+      "sha256": "871e2ea275a72698869dfb8bf4ed7eb944f938bac1e13874aa6ff02fefd11738"
     },
     "rights_decision": {
       "path": "book/references/rights-decision-template.md",
-      "sha256": "e465fa6cbeeee5fb986663000e16a99ee5b29f7da3511df00d05e5f8af3abe3d"
+      "sha256": "bddb90ae6d15834513a89544ee2cddde5d6ea3ba77637c38bad4eec4d8f5c0c1"
     },
     "doctrinal_review": {
       "path": "book/references/doctrinal-review-protocol.md",
@@ -36,7 +36,7 @@
     },
     "public_evidence_policy": {
       "path": "book/references/external-evidence/README.md",
-      "sha256": "022b85032d04db2020ec1c315df7cb3a82bf1e23493ee75ddad7ec2610c0fadb"
+      "sha256": "025823e19d62de5537fa871fce569150ecc90743cd29f5db83c11b63bec4cff7"
     }
   },
   "gates": {

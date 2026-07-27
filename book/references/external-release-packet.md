@@ -100,6 +100,13 @@ Dùng [`rights-decision-template.md`](rights-decision-template.md) để:
 4. ghi rõ lãnh thổ, thời hạn, tính độc quyền, ghi công, hạn chế và cách xử lý phiên bản mới;
 5. ký quyết định gắn với commit và mã băm của hai tệp phát hành.
 
+Hồ sơ công khai phải chép đủ phần “Tóm tắt máy đọc bắt buộc” của biểu mẫu. Gate
+từ chối một kết quả `passed` nếu thiếu phạm vi source, PDF, EPUB, bản in, bản
+phái sinh, lãnh thổ, ngôn ngữ, thời hạn, ghi công, thông báo bên thứ ba, trạng
+thái chuỗi đóng góp hoặc trạng thái vật liệu bên thứ ba. Việc máy chấp nhận các
+trường chỉ chứng minh hồ sơ đầy đủ và tự nhất quán, không chứng minh người ký
+thật sự có quyền.
+
 Nếu thẩm quyền, ngoại lệ trích dẫn hoặc điều kiện giấy phép không rõ, trạng thái vẫn là `open`. Biểu mẫu này là hồ sơ quyết định, không thay thế tư vấn pháp lý theo thẩm quyền áp dụng.
 
 ## 5. Phản biện giáo lý

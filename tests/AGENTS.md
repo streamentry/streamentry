@@ -17,7 +17,9 @@ each failure names one contract.
 - `test_release_pdf.py`: metadata, encryption, all-page size, and rotation regressions.
 - `test_release_epub.py`: active-rootfile, fixed manifest/spine, passive XHTML, and TOC-target regressions.
 - `test_release_verifier.py`: integration check against the tracked release candidate.
-- `test_external_release_gates.py`: schema-v3 protocol-fingerprint, status, gate-specific evidence-role, contract-derived artifact-path, ancestor/exact-byte candidate binding, mandatory public fields, contact-data rejection, cohort/report hashes, path-reuse, and permitted-claim regressions.
+- `test_external_release_gates.py`: schema-v3 protocol-fingerprint, status, gate-specific evidence-role, contract-derived artifact-path, ancestor/exact-byte candidate binding, mandatory public fields, rights-scope and inventory binding, contact-data rejection, cohort/report hashes, path-reuse, and permitted-claim regressions.
+- `test_rights_decision_contract.py`: direct passed/failed rights-summary contract plus stale binding, unauthorized format, unresolved contributor/third-party, open-item, and contradictory-decision regressions.
+- `rights_decision_fixtures.py`: one shared complete rights-summary fixture for direct and external-gate integration tests.
 - `test_external_review_packet.py`: deterministic ZIP, candidate and assignment binding, required attainment-audit and rights-inventory handoffs, explicit non-evidence boundary, checksum tamper detection, duplicate-path rejection, clean-worktree enforcement, and repository-path containment.
 - Existing `test_beginner_pilot*.py` files retain the novice-cohort privacy and scoring contract, including dual scorer output: five counted hashes in the aggregate report and one matching hash in the `--epub-evidence-output` reader-app report.
 - When an intentional chapter or layout change alters the tracked PDF extent, update the integration expectation only after rebuilding both artifacts and updating `release-evidence.md`; do not change synthetic parser fixtures merely to mirror the current book.
@@ -53,6 +55,7 @@ flowchart TB
   X --> U["test_release_epub.py"]
   V["verify_release.py"] --> I["test_release_verifier.py"]
   G["external_release_gates.py"] --> Q["role and gate-contract tests"]
+  R["rights_decision_contract.py"] --> Q
 ```
 
 ### Sequence Diagram

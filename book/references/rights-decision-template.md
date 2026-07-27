@@ -35,7 +35,53 @@ Publication credit:
 
 Một quyết định không xác định đúng tệp phát hành chỉ là ý định chung. Khi nội dung, hình ảnh, ghi công hoặc mã băm thay đổi, phạm vi quyền phải được đánh giá lại.
 
-## 3. Chuỗi quyền
+## 3. Tóm tắt máy đọc bắt buộc
+
+Hồ sơ công khai có vai trò `rights_decision` phải chứa đúng một dòng cho từng
+trường dưới đây. Đây là lớp kiểm tra tính đầy đủ và nhất quán, không phải bằng
+chứng rằng lời khai về quyền là đúng. Không giữ dấu ngoặc nhọn hoặc từ giữ chỗ
+trong hồ sơ thật.
+
+```text
+Rights decision schema: 1
+Decision record ID: <lowercase-stable-id>
+Decision maker public identity: <public identity authorized for publication>
+Decision maker capacity: author | rights_holder | assignee | publisher | authorized_officer
+Basis of authority: <specific ownership, assignment, licence or office>
+Public evidence of authority: <public confirmation mechanism>
+Applicable jurisdiction: <jurisdiction>
+Rights materials inventory SHA-256: <current inventory sha256>
+Immutable manuscript SHA-256: <current immutable source sha256>
+Repository source scope: PUBLIC_REUSE_AUTHORIZED | PUBLIC_READ_ONLY | NOT_AUTHORIZED
+PDF distribution scope: FREE_ONLY | FREE_AND_PAID | NOT_AUTHORIZED
+EPUB distribution scope: FREE_ONLY | FREE_AND_PAID | NOT_AUTHORIZED
+Print distribution scope: FREE_ONLY | FREE_AND_PAID | NOT_AUTHORIZED
+Derivative editions scope: AUTHORIZED | AUTHORIZED_WITH_CONDITIONS | NOT_AUTHORIZED
+Territory: <territory>
+Languages: vi
+Term: <term>
+Attribution: <required attribution>
+Required third-party notices: <notices or NONE>
+Contributor chain status: RESOLVED | UNRESOLVED
+Third-party materials status: RESOLVED | UNRESOLVED
+Unresolved rights items: NONE | <specific unresolved items>
+Overall rights decision: APPROVE | DECLINE | AUTHORITY_NOT_ESTABLISHED
+Exact permitted public wording: <one bounded sentence>
+```
+
+Một kết quả `PASSED` chỉ hợp lệ khi `Overall rights decision` là `APPROVE`, cả
+PDF và EPUB được cho phép, chuỗi người đóng góp và vật liệu bên thứ ba đều
+`RESOLVED`, và `Unresolved rights items` là `NONE`. Phạm vi `FREE_ONLY` không
+cho phép bán; quyền PDF không tự chuyển sang EPUB, bản in, bản dịch hoặc source.
+Một kết quả `FAILED` phải ghi `DECLINE` hoặc `AUTHORITY_NOT_ESTABLISHED`, không
+được vừa thất bại vừa ghi `APPROVE`.
+
+Trình kiểm tra còn buộc hai mã băm trên khớp với bảng kê và bản thảo hiện hành.
+Nó không xác minh danh tính, chữ ký, thẩm quyền pháp lý, hiệu lực chuyển giao,
+hay tính đúng của đánh giá ngoại lệ bản quyền. Người phụ trách phát hành phải
+kiểm các điểm đó bằng hồ sơ gốc.
+
+## 4. Chuỗi quyền
 
 Đọc `rights-materials-inventory.md` trước khi điền bảng. Kiểm tra lại từng dữ
 kiện theo commit và kênh phát hành thực tế; không kế thừa nhãn “đã xác minh” của
@@ -60,7 +106,7 @@ Tối thiểu phải xét:
 
 Dẫn URL trong sổ tuyên bố không tự trả lời cột “Căn cứ quyền”.
 
-## 4. Quyết định theo hành vi
+## 5. Quyết định theo hành vi
 
 Đánh dấu đúng một lựa chọn cho từng dòng: `authorized`, `authorized with conditions`, `not authorized`, hoặc `authority not established`.
 
@@ -80,7 +126,7 @@ Dẫn URL trong sổ tuyên bố không tự trả lời cột “Căn cứ quy�
 
 Quyền đối với mã nguồn, nội dung sách và các tệp đã biên dịch có thể khác nhau. Không gộp chúng vào một chữ `open`.
 
-## 5. Phạm vi
+## 6. Phạm vi
 
 ```text
 Territory:
@@ -99,7 +145,7 @@ Revocation or termination rule:
 Archive treatment after termination:
 ```
 
-## 6. Vật liệu bên thứ ba
+## 7. Vật liệu bên thứ ba
 
 Với mỗi asset bên thứ ba, lưu:
 
@@ -113,7 +159,7 @@ Với mỗi asset bên thứ ba, lưu:
 
 Nếu dựa vào quyền trích dẫn, `fair dealing`, `fair use` hoặc ngoại lệ khác, ghi rõ ai đã đánh giá, theo pháp luật của thẩm quyền nào và trong phạm vi nào. Kho mã không được tự suy ra ngoại lệ ấy.
 
-## 7. Kết luận
+## 8. Kết luận
 
 ```text
 Overall decision:
@@ -136,7 +182,7 @@ Cổng `redistribution_rights` chỉ được đánh dấu `passed` khi:
 4. lãnh thổ, thời hạn, cách ghi công và phạm vi thương mại không bị bỏ trống;
 5. quyết định gắn với commit và mã băm của các tệp phát hành.
 
-## 8. Xác nhận
+## 9. Xác nhận
 
 ```text
 Decision-maker:

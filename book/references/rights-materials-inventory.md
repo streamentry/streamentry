@@ -13,7 +13,7 @@ quyền, tác phẩm phái sinh và phạm vi thương mại phải được đ�
 Ảnh chụp lịch sử và vật liệu dùng:
 
 - `main` tại commit
-  `9d80f7d64c82cbd24454f17f2ec79dbf2dcba586`;
+  `95990864c3c9eb8a0595153fb2d1605a6221ee83`;
 - bản thảo bất biến SHA-256
   `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440`;
 - PDF ứng viên hiện tại SHA-256
@@ -32,8 +32,11 @@ có thể thay đổi sau ngày kiểm toán.
    `licenseInfo: null`, và cây Git không chứa `LICENSE`, `LICENSE.md` hay
    `LICENSE.txt`. Công khai không đồng nghĩa đã cấp một giấy phép tái sử dụng.
 2. Lịch sử Git hiển thị hai giá trị tên tác giả commit: `j` và `Stream Entry`.
-   Đây là hai định danh trong lịch sử, không phải bằng chứng rằng có đúng hai
-   con người, rằng họ nắm toàn bộ quyền, hoặc rằng quyền đã được chuyển giao.
+   Mọi commit một cha tạo hoặc sửa nội dung quan sát được đều mang định danh
+   `j`; các commit mang `Stream Entry` đều là merge commit hai cha do GitHub tạo
+   khi nhập pull request. Vì vậy, lịch sử hiện không cho thấy một người sáng tác
+   thứ hai đứng sau `Stream Entry`. Nó vẫn không xác định người hoặc pháp nhân
+   đứng sau `j`, quyền của họ, hay một chuyển giao quyền hợp lệ.
 3. Bản thảo Markdown bất biến xuất hiện từ commit đầu
    `1eded40` dưới định danh `j`. Kho không có tuyên bố nguồn gốc, hợp đồng,
    chuyển nhượng hay giấy phép riêng cho bản thảo ấy.
@@ -61,7 +64,7 @@ có thể thay đổi sau ngày kiểm toán.
 | Mã | Vật liệu | Dữ kiện hiện có | Khoảng trống phải đóng | Trạng thái trước quyết định |
 |---|---|---|---|---|
 | RM01 | `con-duong-niem-xu-mahasi-hop-nhat.md` | Bản thảo có SHA-256 cố định và xuất hiện ở commit đầu dưới Git identity `j`. | Danh tính pháp lý của tác giả hoặc chủ quyền, nguồn hình thành bản thảo, đóng góp có trước Git, chuyển nhượng và các cam kết đã cấp trước đây đều chưa có hồ sơ. | **authority not established** |
-| RM02 | Văn xuôi, cấu trúc và phụ lục Typst | Lịch sử Git ghi hai giá trị tên tác giả commit; bản hiện tại được biên tập sâu sau khi nhập bản thảo. | Cần bảng ánh xạ định danh Git sang người hoặc tổ chức chịu trách nhiệm, xác nhận phần đóng góp và văn bản cho phép xuất bản, sửa đổi, dịch và cấp phép lại. | **authority not established** |
+| RM02 | Văn xuôi, cấu trúc và phụ lục Typst | Mọi commit một cha tạo nội dung trong lịch sử hiện tại mang Git identity `j`; `Stream Entry` chỉ xuất hiện ở merge commit hai cha của GitHub. Bản hiện tại được biên tập sâu sau khi nhập bản thảo. | Cần ánh xạ `j` sang người hoặc tổ chức chịu trách nhiệm, xác nhận phạm vi đóng góp và văn bản cho phép xuất bản, sửa đổi, dịch và cấp phép lại. Không cần coi định danh merge `Stream Entry` là một tác giả thứ hai nếu lịch sử vẫn giữ cấu trúc này. | **authority not established** |
 | RM03 | Đầu ra do ChatGPT hỗ trợ | Việc dùng ChatGPT được công bố trong sách. [Điều khoản OpenAI hiện hành](https://openai.com/policies/terms-of-use/) nói rằng giữa người dùng và OpenAI, trong phạm vi pháp luật cho phép, người dùng sở hữu đầu ra và OpenAI chuyển giao quyền của mình nếu có. | Phải xác định tài khoản và điều khoản thực sự áp dụng khi từng phần được tạo. Câu “trong phạm vi pháp luật cho phép” không giải quyết khả năng được bảo hộ, quyền của bên thứ ba, tính không duy nhất của đầu ra hoặc quyền của các cộng tác viên con người. | **contract provenance not recorded** |
 | RM04 | Bốn khối *phỏng dịch* lời kinh | Vị trí được xác định trong `00-frontmatter.typ`, `02-dich-den-va-nen-tang.typ`, `03-tu-niem-xu-trong-kinh.typ` và `04-duyen-khoi.typ`. | Cần ghi rõ mỗi câu được dịch độc lập từ Pāli công cộng, được phép từ một bản dịch, hay dựa vào ngoại lệ đã được đánh giá. Chỉ thay nhãn “phỏng dịch” không sửa được nguồn gốc câu chữ. | **source-expression basis unresolved** |
 | RM04A | Công thức vô ngã Pāli và câu Việt mới ở Chương 11 | Pāli được chép từ SN 22.59:7.1–10.1 trong K35 đã khóa; câu Việt được ghi tại chỗ là bản dịch sát nghĩa do sách thực hiện. | Cần lưu người chịu trách nhiệm cho bản dịch độc lập và đưa nó vào quyết định quyền cuối cùng. Hồ sơ rõ hơn không thay thế thẩm quyền pháp lý. | **expression path documented; authority still open** |
@@ -101,8 +104,9 @@ Thứ tự này giảm chi phí kiểm tra sai hướng:
    định phát hành.
 2. Lấy tuyên bố nguồn gốc cùng quyền sở hữu hoặc văn bản chuyển giao cho bản
    thảo RM01.
-3. Ánh xạ hai Git identity sang người hoặc tổ chức thật; lấy xác nhận về đóng
-   góp, quyền sửa đổi, phát hành, dịch và cấp phép lại.
+3. Ánh xạ Git identity tạo nội dung `j` sang người hoặc tổ chức thật; xác nhận
+   các merge commit mang `Stream Entry` chỉ là thao tác nhập pull request; lấy
+   xác nhận về đóng góp, quyền sửa đổi, phát hành, dịch và cấp phép lại.
 4. Ghi loại tài khoản OpenAI và bản điều khoản áp dụng; không dùng tín dụng
    `ChatGPT` thay cho người chịu trách nhiệm pháp lý.
 5. Giải quyết bốn khối phỏng dịch trước. Phương án có thể là chứng minh bản dịch

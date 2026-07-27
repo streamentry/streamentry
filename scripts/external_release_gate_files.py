@@ -21,6 +21,8 @@ PUBLIC_EVIDENCE_HASH_FIELDS = {
     "Candidate commit",
     "PDF SHA-256",
     "EPUB SHA-256",
+    "Rights materials inventory SHA-256",
+    "Immutable manuscript SHA-256",
     "Manifest SHA-256",
     "Counted record SHA-256",
 }

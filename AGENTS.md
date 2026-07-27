@@ -33,7 +33,7 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `book/references/edition-contract.md`: field ownership, canonical Vietnamese line, future-locale rules, build flow, and falsifiable limits of the edition contract.
 - `book/references/external-release-packet.md`: single operational handoff for rights, expert review, novice testing, human EPUB evidence, and bounded comparison.
 - `book/references/external-release-gates.json`: machine-readable external-gate, typed-evidence, and permitted-claims registry.
-- `book/references/rights-decision-template.md`: authority, asset, format, channel, commercial-scope, and third-party-rights decision record.
+- `book/references/rights-decision-template.md`: authority, asset, format, channel, commercial-scope, and third-party-rights decision record with a mandatory machine-readable public summary.
 - `book/references/rights-materials-inventory.md`: decision-support inventory for manuscript, contributor, adapted passage, third-party work, font, source-code, and format rights; facts only, not clearance.
 - `book/references/clinical-safety-review-protocol.md`: independent clinical and research-safety reviewer contract.
 - `book/references/beginner-validation-protocol.md`: external novice and reader-app acceptance gates.
@@ -70,7 +70,7 @@ Beginner readability is a publication contract, not a style preference. Define t
 
 For running the novice test, start with `book/references/beginner-reader-kit.md` and use it together with the protocol. Freeze the artifacts and ten-file scoring contract before attempt one, enumerate every started attempt in one authoritative manifest, and count only the first five completed eligible attempts among at most seven starts. Raw records stay under ignored `build/beginner-pilot/`; only the privacy-coarsened aggregate and reader-app reports are publishable. A local manifest cannot independently prove its registration time or terminal-attempt completeness; use an external append-only registry for that stronger claim.
 
-For external release work, start with `book/references/external-release-packet.md`. Treat schema-v3 `external-release-gates.json` as the status source and let `scripts/verify_release.py` check protocol hashes, required gate-specific evidence roles, path reuse, role/header agreement, mandatory completion, public-confirmation and scope-limit fields, exact-once PDF and EPUB digest fields, candidate binding, cohort/report bindings, cross-document status, public contact-data rejection, and permitted claim enums. The frozen candidate commit may precede the evidence commit, but it must be an ancestor of it and contain the exact recorded PDF and EPUB bytes; `release-evidence.md` and public evidence may be committed later. Machine verification cannot establish a signer's authority, a reviewer's competence, participant identity, custody completeness, or the honesty of a study. Keep every gate open until that human evidence exists.
+For external release work, start with `book/references/external-release-packet.md`. Treat schema-v3 `external-release-gates.json` as the status source and let `scripts/verify_release.py` check protocol hashes, required gate-specific evidence roles, path reuse, role/header agreement, mandatory completion, public-confirmation and scope-limit fields, exact-once PDF and EPUB digest fields, candidate binding, cohort/report bindings, cross-document status, public contact-data rejection, and permitted claim enums. A passed `rights_decision` must also bind the current materials-inventory and immutable-source hashes, authorize both PDF and EPUB, state source/print/derivative scopes, territory, language, term, attribution and notices, and resolve contributor and third-party status with no open rights item. The frozen candidate commit may precede the evidence commit, but it must be an ancestor of it and contain the exact recorded PDF and EPUB bytes; `release-evidence.md` and public evidence may be committed later. Machine verification cannot establish a signer's identity or authority, the legal validity of a grant, a reviewer's competence, participant identity, custody completeness, or the honesty of a study. Keep every gate open until that human evidence exists.
 
 Run `python3 scripts/build-external-review-packet.py` only from a clean
 checkout when issuing work orders. The ignored ZIP binds its protocol copies
@@ -130,7 +130,8 @@ flowchart TB
   N["Frozen manifest and attempt records"] --> G["Deterministic dual-output pilot scorer"]
   G --> Q
   X["External gate registry"] --> Q
-  R["Role-labelled rights and review evidence"] --> X
+  R["Role-labelled rights and review evidence"] --> RC["Rights scope contract"]
+  RC --> X
   Q --> W["Deterministic external-review packet"]
   H --> C
   A --> C

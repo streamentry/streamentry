@@ -28,6 +28,7 @@ from external_release_gate_files import (
 )
 from release_common import ReleaseVerificationError, require
 from release_evidence import ReleaseEvidence
+from rights_decision_contract import validate_rights_decision
 
 
 REGISTRY_PATH = "book/references/external-release-gates.json"
@@ -286,6 +287,13 @@ def _validate_evidence(
         require(
             generated_report_passed == (status == "passed"),
             f"{label} machine-visible report verdict contradicts the registry",
+        )
+    if role == "rights_decision":
+        validate_rights_decision(
+            root,
+            markdown,
+            status,
+            release.source_sha256,
         )
     commit_matches = re.findall(
         r"^Candidate commit:\s*`?([0-9a-f]{40})`?\s*$",
