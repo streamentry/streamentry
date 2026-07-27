@@ -17,6 +17,8 @@ the contract and both binaries, and fails loudly on structural defects.
 - `verify_release.py`: orchestrates the release contract and compares the immutable source plus exact binary identities.
 - `release_evidence.py`: parses only the visible artifact table and anchors the immutable source hash and publication credit to the edition supplied by the release orchestrator.
 - `release_pdf.py`: verifies PDF metadata, tagging, security flags, file size, and every page's A5 geometry and rotation.
+- `verapdf_validation.py`: owns the stable veraPDF Greenfield version, archived installer URL, SHA-256, forced PDF/UA-1 profile, strict report parser, and subprocess boundary.
+- `verify-verapdf.py`: candidate-aware CLI that runs the pinned executable, binds its JSON report to the canonical PDF, and writes only an ignored diagnostic report.
 - `release_epub.py`: verifies the active package, exact manifest and spine, passive XHTML, metadata, resolved unique navigation, labelled content links, resolved local fragments, distinct external-destination labels, safe external-link schemes, and content/cover counts.
 - `external_release_gates.py`: verifies the schema-v3 registry, protocol fingerprints, six external-gate states, gate-specific required evidence roles, contract-derived artifact paths, ancestor-plus-exact-artifact candidate binding, cohort/report bindings, release-evidence status agreement, and claims derived from passed gates.
 - `external_release_gate_files.py`: contains the fail-closed JSON, repository-path, file-fingerprint, local-link, evidence-status, exact evidence-role, mandatory `Completed`, public-confirmation and scope-limit fields, public contact-data rejection, exact-once PDF/EPUB digest, cohort/manifest, and counted-record validators used by the external gate orchestrator.
@@ -56,6 +58,7 @@ flowchart LR
   L --> E
   L --> W
   T["book/main.typ"] --> P["Fresh PDF"]
+  P --> U1["Pinned veraPDF PDF/UA-1 gate"]
   T --> C["Typst page-1 PNG"]
   T --> H["Semantic HTML"]
   H --> X["Cover removal, h1-h5 outline, and bodymatter"]
@@ -63,6 +66,7 @@ flowchart LR
   N --> E["EPUB package"]
   C --> E
   E --> V["Builder structural validation"]
+  U1 --> V
   E --> W["Separate release-evidence verifier"]
   W --> Q["Typed external gate registry"]
   RD["Rights scope summary"] --> Q
