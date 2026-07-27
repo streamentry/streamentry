@@ -17,6 +17,10 @@ from release_evidence import (
     validate_evidence_contract,
 )
 from release_pdf import PdfFacts, read_pdf_facts, validate_pdf_contract
+from rights_inventory_contract import (
+    RIGHTS_INVENTORY_PATH,
+    validate_rights_inventory,
+)
 
 
 def validate_release_identity(
@@ -61,6 +65,13 @@ def verify_release(root: Path) -> ReleaseEvidence:
     require(
         sha256_file(epub_path) == evidence.epub_sha256,
         "EPUB SHA-256 does not match release evidence",
+    )
+    rights_inventory_path = root / RIGHTS_INVENTORY_PATH
+    validate_rights_inventory(
+        rights_inventory_path.read_text(encoding="utf-8"),
+        source_sha256=edition.source_sha256,
+        pdf_sha256=evidence.pdf_sha256,
+        epub_sha256=evidence.epub_sha256,
     )
     require(pdf.pages == evidence.pdf_pages, "PDF page count does not match evidence")
     require(

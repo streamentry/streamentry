@@ -16,7 +16,7 @@ description: Maintain and publish the Vietnamese Typst handbook Hướng Đến 
 7. Preserve the original Markdown unchanged.
 8. For beginner validation, use `book/references/beginner-reader-kit.md` together with `book/references/beginner-validation-protocol.md`; freeze the cohort with `book/references/beginner-pilot-cohort-manifest.schema.json`, record every ordered attempt with `book/references/beginner-pilot-record.schema.json`, and pass only the manifest to `scripts/score-beginner-pilot.py`.
 9. For independent doctrine review, use `book/references/doctrinal-review-protocol.md` together with the frozen segment map in `book/references/attainment-source-audit.md`; recheck the passages rather than inheriting the internal verdicts, and never convert an internal audit into external endorsement.
-10. For release rights and all external gates, start with `book/references/external-release-packet.md`; use `rights-materials-inventory.md` before completing `rights-decision-template.md`, including its exact machine-readable public summary, and use `clinical-safety-review-protocol.md` for its separate scope. Recheck the inventory facts instead of treating them as legal conclusions. Terminal gates require the canonical evidence roles and mandatory public fields documented in `book/references/external-evidence/README.md`; do not substitute one generic report for a required bundle.
+10. For release rights and all external gates, start with `book/references/external-release-packet.md`; use `rights-materials-inventory.md` before completing `rights-decision-template.md`, including its exact machine-readable public summary, and use `clinical-safety-review-protocol.md` for its separate scope. Recheck the inventory facts instead of treating them as legal conclusions. Its schema-v1 source/PDF/EPUB identity must pass `scripts/verify_release.py`; matching bytes prevent a wrong-candidate handoff but do not establish rights. Terminal gates require the canonical evidence roles and mandatory public fields documented in `book/references/external-evidence/README.md`; do not substitute one generic report for a required bundle.
 11. Build `scripts/build-external-review-packet.py` from a clean candidate when issuing work orders. Treat the resulting ignored ZIP as a deterministic handoff aid, never as evidence that a gate passed.
 
 ## Edition and Locale Contract
@@ -52,7 +52,8 @@ The Python builder and verifier must load `book/edition.json` through
 in `release-evidence.md`; do not hand-wave a stale edition-contract hash,
 artifact hash, byte size, page count, credit, PDF tagging, suspects, JavaScript,
 encryption, per-page size or rotation, active EPUB metadata, navigation target,
-or navigation count. The hosted publication workflow must remain read-only,
+navigation count, or rights-inventory source/PDF/EPUB identity. The hosted
+publication workflow must remain read-only,
 use `pull_request` rather than `pull_request_target`, pin actions and downloaded
 tools, disable system fonts, and never upload `build/` or raw pilot records.
 

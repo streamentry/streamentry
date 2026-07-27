@@ -35,7 +35,7 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `book/references/external-release-packet.md`: single operational handoff for rights, expert review, novice testing, human EPUB evidence, and bounded comparison.
 - `book/references/external-release-gates.json`: machine-readable external-gate, typed-evidence, and permitted-claims registry.
 - `book/references/rights-decision-template.md`: authority, asset, format, channel, commercial-scope, and third-party-rights decision record with a mandatory machine-readable public summary.
-- `book/references/rights-materials-inventory.md`: decision-support inventory for manuscript, contributor, adapted passage, third-party work, font, source-code, and format rights; facts only, not clearance.
+- `book/references/rights-materials-inventory.md`: decision-support inventory for manuscript, contributor, adapted passage, third-party work, font, source-code, and format rights. Its schema-v1 source/PDF/EPUB identity is machine-checked for freshness; facts and fresh hashes are not clearance.
 - `book/references/clinical-safety-review-protocol.md`: independent clinical and research-safety reviewer contract.
 - `book/references/beginner-validation-protocol.md`: external novice and reader-app acceptance gates.
 - `book/references/comparative-beginner-protocol.md`: bounded comparison protocol for a fixed Vietnamese beginner panel.
@@ -45,6 +45,7 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `dist/huong-den-nhap-luu.pdf`: current internally verified print candidate.
 - `scripts/build-epub.py`: deterministic EPUB 3 packaging and structural validation, including labelled content links, resolved local fragments, absolute HTTPS external sources, distinct labels for different external destinations, and resolved visible-title bindings for repeated cards.
 - `scripts/verify_release.py`: small release-verification orchestrator.
+- `scripts/rights_inventory_contract.py`: fail-closed schema-v1 binding between the rights inventory and the immutable manuscript plus exact current PDF/EPUB bytes.
 - `scripts/build-external-review-packet.py`: clean-checkout CLI that creates one deterministic, candidate-bound ZIP for all six external work orders.
 - `scripts/external_review_packet.py`, `scripts/external_review_packet_content.py`, and `scripts/external_review_packet_archive.py`: committed-source collection, canonical packet content, deterministic ZIP writing, and self-validation.
 - `scripts/release_evidence.py`, `scripts/release_pdf.py`, and `scripts/release_epub.py`: fail-closed evidence-table, per-page PDF, and fixed-publication EPUB contracts. The EPUB verifier independently rejects broken or unlabelled content links and unsafe external-link schemes.
@@ -138,7 +139,8 @@ flowchart TB
   N["Frozen manifest and attempt records"] --> G["Deterministic dual-output pilot scorer"]
   G --> Q
   X["External gate registry"] --> Q
-  R["Role-labelled rights and review evidence"] --> RC["Rights scope contract"]
+  RI["Artifact-bound rights inventory"] --> RC["Rights scope contract"]
+  R["Role-labelled rights and review evidence"] --> RC
   RC --> X
   Q --> W["Deterministic external-review packet"]
   H --> C

@@ -7,9 +7,9 @@ from pathlib import Path
 
 from external_release_gate_files import sha256_file
 from release_common import require
+from rights_inventory_contract import RIGHTS_INVENTORY_PATH
 
 
-RIGHTS_INVENTORY_PATH = Path("book/references/rights-materials-inventory.md")
 PLACEHOLDERS = {
     "",
     "-",

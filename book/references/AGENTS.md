@@ -15,7 +15,7 @@ This folder holds the audit trail behind doctrinal and safety claims. It is the 
 - `external-release-packet.md`: role-based handoff and change-control sequence for all external gates, including the clean-checkout command for the deterministic coordinator ZIP; building it does not pass any gate.
 - `external-release-gates.json`: schema-v3 machine-readable gate status, protocol fingerprints, typed evidence index, frozen-artifact ancestry binding, cohort/report bindings, and permitted claims.
 - `rights-decision-template.md`: decision record for authority, contributors, third-party material, formats, channels, and commercial scope, plus the exact machine-readable summary required in public evidence.
-- `rights-materials-inventory.md`: verified asset and license facts plus unresolved manuscript, contributor, adapted-passage, commercial-source, font, and channel decisions; it never passes the rights gate.
+- `rights-materials-inventory.md`: verified asset and license facts plus unresolved manuscript, contributor, adapted-passage, commercial-source, font, and channel decisions. Its schema-v1 identity must match the immutable manuscript and exact current PDF/EPUB; freshness does not pass the rights gate.
 - `doctrinal-review-protocol.md`: reviewer qualifications, conflicts, artifact identity, scope, severity, disposition, and signed report requirements.
 - `clinical-safety-review-protocol.md`: clinical and research-safety competence, mandatory checks, findings, and signed-report requirements.
 - `external-evidence/`: public, privacy-safe gate evidence only; never raw participant data.
@@ -66,7 +66,7 @@ flowchart TB
   L --> A["Attainment segment audit"]
   C --> Q["Publish readiness audit"]
   C --> U["Beginner validation protocol"]
-  I["Rights materials inventory"] --> X["Rights and expert-review protocols"]
+  RI["Artifact-bound rights inventory"] --> X["Rights and expert-review protocols"]
   X --> G["External gate registry"]
   E --> G
   U --> G

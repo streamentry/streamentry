@@ -22,6 +22,7 @@ the contract and both binaries, and fails loudly on structural defects.
 - `release_epub.py`: verifies the active package, exact manifest and spine, passive XHTML, metadata, resolved unique navigation, labelled content links, resolved local fragments, distinct external-destination labels, safe external-link schemes, and content/cover counts.
 - `external_release_gates.py`: verifies the schema-v3 registry, protocol fingerprints, six external-gate states, gate-specific required evidence roles, contract-derived artifact paths, ancestor-plus-exact-artifact candidate binding, cohort/report bindings, release-evidence status agreement, and claims derived from passed gates.
 - `external_release_gate_files.py`: contains the fail-closed JSON, repository-path, file-fingerprint, local-link, evidence-status, exact evidence-role, mandatory `Completed`, public-confirmation and scope-limit fields, public contact-data rejection, exact-once PDF/EPUB digest, cohort/manifest, and counted-record validators used by the external gate orchestrator.
+- `rights_inventory_contract.py`: parses the inventory's single schema-v1 source/PDF/EPUB identity and rejects stale, duplicate, or malformed release bindings.
 - `rights_decision_contract.py`: fail-closed parser for the public rights summary. It binds the current materials inventory and immutable source, enumerates distribution scopes, and rejects a passed record with unauthorized PDF/EPUB, unresolved contributors, unresolved third-party materials, or any open rights item. It cannot authenticate the signer or decide legal validity.
 - `build-external-review-packet.py`: clean-checkout CLI for the ignored coordinator ZIP.
 - `external_review_packet.py`: verifies the clean commit, exact committed source bytes, release candidate, edition contract, and gate registry before collection.
@@ -69,7 +70,8 @@ flowchart LR
   U1 --> V
   E --> W["Separate release-evidence verifier"]
   W --> Q["Typed external gate registry"]
-  RD["Rights scope summary"] --> Q
+  RI["Artifact-bound rights inventory"] --> RD["Rights scope summary"]
+  RD --> Q
   A["Frozen attainment source audit"] --> Q
   Q --> K["Candidate-bound external-review packet"]
   F["Frozen manifest and ordered attempts"] --> S["Deterministic cohort scorer"]
