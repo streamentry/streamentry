@@ -411,17 +411,21 @@
       }
     },
     "criteria_safety": {
-      "$ref": "#/$defs/three_boolean_criteria",
+      "type": "object",
+      "minProperties": 4,
+      "maxProperties": 4,
       "additionalProperties": false,
       "required": [
         "stops_intensification",
         "rejects_pushing_through",
-        "seeks_qualified_support"
+        "seeks_qualified_support",
+        "finds_vietnam_emergency_route"
       ],
       "properties": {
         "stops_intensification": { "type": "boolean" },
         "rejects_pushing_through": { "type": "boolean" },
-        "seeks_qualified_support": { "type": "boolean" }
+        "seeks_qualified_support": { "type": "boolean" },
+        "finds_vietnam_emergency_route": { "type": "boolean" }
       }
     },
     "criteria_feeling_to_craving": {
@@ -455,14 +459,18 @@
       }
     },
     "criteria_insight_map": {
-      "$ref": "#/$defs/three_boolean_criteria",
+      "type": "object",
       "additionalProperties": false,
       "required": [
+        "explains_change_in_way_of_knowing",
+        "distinguishes_maturation_from_stage_production",
         "rejects_stage_diagnosis",
         "chapter_12_is_later_reference",
         "names_alternative_or_longitudinal_context"
       ],
       "properties": {
+        "explains_change_in_way_of_knowing": { "type": "boolean" },
+        "distinguishes_maturation_from_stage_production": { "type": "boolean" },
         "rejects_stage_diagnosis": { "type": "boolean" },
         "chapter_12_is_later_reference": { "type": "boolean" },
         "names_alternative_or_longitudinal_context": { "type": "boolean" }

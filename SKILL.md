@@ -79,6 +79,8 @@ Never label modern schedules, percentages, diagnostic heuristics, or attainment 
 
 For attainment language, keep the first three fetters, the full five lower fetters, the four fruits, and DN 2's broader discourse title distinct. Use Chapter 10 for the first three fetters, Chapter 11 for the wider 3–5–4 classification, the glossary for direct lookup, claim codes C41–C45 as the canonical project anchors, C66 for the bounded object/basis/means teaching model, and `attainment-source-audit.md` for the immutable passage-level audit. Never present that teaching model or its meditation case as a canonical 1–2–3 sequence.
 
+For the insight map, Chapter 12 must define the map, `tuệ`, `các hành`, conditional maturation and the practice boundary before presenting the seven purifications or competing counts. Preserve the six-question explanation across stages 1–11: prior foundation, changed way of knowing, possible experience, appropriate practice, insufficient lookalikes and transition. This structure is editorial scaffolding bound by C69. It is not a canonical checklist, a validated stage classifier, a fixed calendar, or a set of exercises that mechanically produces named stages.
+
 For ordinary-life practice, Chapter 7 owns the transfer contract. Keep task-first
 attention, a brief response check, and formal practice distinct. Immediate
 protection and essential duties come before introspection. The collision loop,
@@ -88,9 +90,11 @@ DN 31, SN 55.7, or AN 6.63.
 
 Appendix E owns the single visual retrieval map. Preserve its safety gate,
 formal-practice and daily-life branches, and post-practice decision in that
-order across PDF and semantic HTML. It is bound by C74 and must never be
-presented as a canonical sequence, diagnostic instrument, new meditation
-method, or substitute for the linked chapters.
+order across PDF and semantic HTML. Its editorial structure is bound by C74;
+the Vietnam 112–115 route is bound separately by C75–C76 and must retain its
+country and checked-date limits. Never present the map as a canonical sequence,
+diagnostic instrument, new meditation method, or substitute for the linked
+chapters.
 
 ## Writing Contract
 

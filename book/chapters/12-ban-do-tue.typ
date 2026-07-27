@@ -17,10 +17,85 @@ Cụm từ “mười sáu tuệ” không phải một bảng nguyên xi nằm 
 
 Đọc chương này chậm hơn các chương trước. Mục tiêu không phải thuộc lòng một danh sách dài, mà là biết mỗi tên đang muốn chỉ vùng nào của kinh nghiệm và tại sao truyền thống lại cần đến nó.
 
+== Bản đồ tuệ là gì, nói thật giản dị? <ban-do-tue-la-gi>
+
+“Bản đồ tuệ” là cách một truyền thống Theravāda hậu kinh điển *sắp xếp những thay đổi trong cách các tiến trình thân-tâm được biết khi tuệ quán chín dần*. Nó không chủ yếu xếp các cảm giác theo độ mạnh. Nó cũng không nói rằng hôm nay người hành thấy đau, ngày mai thấy ánh sáng, ngày kia thấy sợ là đã leo ba nấc.
+
+Hai chữ cần được hiểu ngay:
+
++ *Tuệ* trong tên các tầng chỉ một cách biết trực tiếp đã trở nên nổi bật: chẳng hạn phân biệt đối tượng với việc biết, thấy điều kiện, thấy sinh-diệt, thấy mặt tan rã, hay biết các hành với quân bình. Nó không chỉ là hiểu đúng một câu trong sách.
++ *Các hành* trong chương này chỉ những hiện tượng thân-tâm do điều kiện mà hiện hành và được quan sát: chuyển động, cảm giác, hình ảnh tâm, ý định, suy nghĩ, việc nghe và cả tâm đang ghi nhận. Nó không chỉ có nghĩa “hành động” theo cách nói thông thường.
+
+Hãy hình dung cùng một tiếng xe ngoài đường. Ban đầu ta chỉ biết “một chiếc xe chạy qua”. Khi quan sát kỹ hơn, có thể nhận ra âm thanh là một việc, nghe là một việc; chúng có điều kiện; âm thanh đổi và chấm dứt; cả phản ứng thích hay khó chịu cũng không đứng yên. Đối tượng gần như không đổi, nhưng *mặt được biết nổi bật* đã đổi. Bản đồ tuệ cố đặt tên cho sự đổi ấy.
+
+#source-line("MAHĀSI", [P02 · lời tựa; phần dẫn nhập; mục 1–11], [
+  P02 nói các tuệ phát triển khi niệm và định mạnh dần, rồi mô tả chúng bằng sự trưởng thành có điều kiện của cách biết thân-tâm. Tác phẩm được viết chủ yếu cho người đã có kết quả rõ sau thực hành nghiêm mật, không phải cẩm nang nhập môn hay bảng triệu chứng cho mọi người tự chấm.
+])
+
+#practice-card(
+  [Sáu câu mà mỗi tầng phải trả lời],
+  [
+    + *Nền trước:* điều gì trong tiến trình phải tương đối chín?
+    + *Cách biết đổi:* hành giả đang trực tiếp nhận ra điều gì mà trước đó chưa nổi bật?
+    + *Có thể trải nghiệm ra sao:* những biểu hiện nào P02 thực sự mô tả?
+    + *Việc cần làm:* tiếp tục quan sát thế nào mà không diễn theo tên tầng?
+    + *Chưa đủ là gì:* hiện tượng nào giống bề ngoài nhưng không xác nhận tầng?
+    + *Dấu chuyển:* vì sao hệ thống đặt phần kế tiếp sau phần này?
+
+    Sáu câu là khung biên soạn để đọc P02 rõ hơn. P02 không cung cấp một phiếu chẩn đoán sáu mục, và sách này không biến khung ấy thành thang đo đã được kiểm định.
+  ],
+  label: [CHÚ GIẢI BẢN ĐỒ · BIÊN SOẠN THEO P02],
+)
+
+=== “Đạt một tuệ” nghĩa là gì?
+
+#source-line("BIÊN SOẠN", [C69 · đối chiếu P02 mục 1–11], [
+  Bốn điều dưới đây là khung thận trọng của sách để buộc kết luận đi sau dữ kiện. P02 dùng ngôn ngữ “trưởng thành” và trình bày quan hệ trước–sau, nhưng không ban hành một phép thử bốn điều hay tiêu chuẩn chẩn đoán đã được kiểm định.
+])
+
+Trong ngôn ngữ của bản đồ, một thoáng kinh nghiệm giống mô tả chưa đủ để nói “đã đạt”. Kết luận chỉ có cơ sở hơn khi bốn điều cùng hiện diện:
+
++ *Có nền trước đó.* Giới, cách quan sát và độ liên tục của tâm đủ vững; triền cái không liên tục cuốn mất việc ghi nhận.
++ *Cách biết mới trở thành khuynh hướng chi phối.* Nó lặp lại qua nhiều đối tượng hoặc nhiều lần quan sát, không chỉ xuất hiện trong một giây gây ấn tượng.
++ *Sự chuyển tiếp có logic.* Mặt được biết ở giai đoạn trước làm nền cho mặt kế tiếp; hành giả không phải tưởng tượng sẵn rồi tìm một cảm giác để khớp tên.
++ *Các giải thích cạnh tranh đã được giữ mở.* Định, thiếu ngủ, đau, thuốc, lo âu, phân ly, kỳ vọng và vấn đề sức khỏe chưa bị gạt bỏ chỉ vì nhãn tâm linh nghe hấp dẫn hơn.
+
+Ngay cả khi bốn điều ấy có vẻ khớp, “đang ở vùng này” vẫn chỉ là một giả thuyết trình pháp. Nó không phải phép đo khách quan và không đồng nghĩa với chứng đạo.
+
+#practice-card(
+  [Ba mức kết luận không được trộn],
+  [
+    *Thoáng thấy một nét:* một đặc điểm từng xuất hiện, như nhận ra đau và biết đau là hai tiến trình.
+
+    *Một vùng đang chi phối:* cùng cách biết lặp lại đủ rõ, có nền và chuyển tiếp tương hợp để người hướng dẫn dùng như giả thuyết điều chỉnh việc hành.
+
+    *Đã chứng đạo quả:* kết luận mạnh hơn hẳn, phải đối chiếu ba kiết sử đầu, dòng Thánh đạo và các tiêu chuẩn kinh điển ở chương 10–11. Một vị trí trong bản đồ tuệ không tự chứng minh điều này.
+  ],
+  label: [THOÁNG THẤY ≠ VÙNG TUỆ ≠ ĐẠO QUẢ],
+)
+
+=== “Làm sao đạt?”: vun điều kiện, không sản xuất trải nghiệm
+
+Không có thao tác riêng để “làm ra” sợ hãi, tan rã hay xả. Cố tạo đúng cảm giác là tập diễn theo bản đồ, không phải thấy điều đang xảy ra. Trong lộ trình P02, phần có thể chủ động là giữ giới và an toàn; chọn đối tượng chính đủ rõ; ghi nhận các hiện tượng thân-tâm nổi bật; trở về đối tượng chính; nuôi sự liên tục vừa sức; rồi để đặc tính của tiến trình tự lộ.
+
+Vì vậy, câu “làm sao đạt tuệ sinh-diệt?” được đổi thành câu thực dụng hơn: “tôi đang làm gì để thân-tâm được biết liên tục, trực tiếp và không bị ham thích hiện tượng phụ làm lệch?” Câu “làm sao đạt xả?” được đổi thành: “tôi có đang thêm lực, giữ trạng thái, hay tiếp tục biết dễ chịu và khó chịu với cùng một sự tỉnh táo?” Bản đồ chỉ đúng khi nó đưa người đọc trở về công việc quan sát; nó sai chức năng ngay khi biến thành kịch bản để tái tạo cảm giác.
+
+#practice-card(
+  [Đọc chương này theo ba lượt],
+  [
+    + *Lượt một:* đọc bốn vùng và các “hồ sơ tối thiểu”; chưa cần nhớ số.
+    + *Lượt hai:* đọc từng tuệ 1–11 để hiểu nền, trải nghiệm, cách hành và dấu chuyển.
+    + *Lượt ba, khi thật sự cần:* đọc thuận thứ, chuyển tộc, đạo, quả và phản khán như thuật ngữ của hệ thống luận giải, không như bài tập tự thực hiện.
+
+    Nếu bạn chỉ cần biết phải hành gì hôm nay, chương 1, 4, 5 và 9 quan trọng hơn việc thuộc lòng chương này.
+  ],
+  label: [LỐI ĐỌC CHO NGƯỜI CHƯA BIẾT THANH TỊNH ĐẠO],
+)
+
 #caution(
   [Người mới không dùng chương này để tự chẩn đoán],
   [
-    Nếu bạn mới vài tuần hoặc vài tháng thực hành, hãy đọc phần bảy thanh tịnh, định nghĩa “một tuệ” và lộ trình dẫn vào bản đồ để biết khung thuật ngữ rồi dừng ở biển báo dành cho người mới. Đừng dùng danh mục tuệ để gắn nhãn cho trải nghiệm của chính mình khi bạn chưa có dữ kiện trực tiếp đủ dày và chưa có người hướng dẫn đủ năng lực kiểm tra lại.
+    Nếu bạn mới vài tuần hoặc vài tháng thực hành, phần mở đầu vừa đọc đã đủ: bản đồ đang xếp điều gì, ba mức kết luận khác nhau ra sao, vì sao chỉ có thể vun điều kiện và nên đọc chương theo ba lượt thế nào. Hãy dừng ở đây trước phần bảy thanh tịnh và quay về chương 1–11. Chỉ đọc tiếp như tài liệu tham chiếu khi thực hành đã đủ đều, biết ngưỡng an toàn và có người hướng dẫn đủ năng lực kiểm tra lại.
   ],
 )
 
@@ -103,29 +178,7 @@ Tên Việt giữa các bản dịch không hoàn toàn giống nhau. “Phân b
 
 Vì vậy, hai người nói “tuệ 12” có thể đang chỉ hai mục khác nhau. Trước khi tranh luận, hãy hỏi họ dùng bảng nào. Khác số ở đây chủ yếu là khác quy ước phân loại, không phải bằng chứng rằng một bên đã phát hiện thêm một nấc tâm linh.
 
-== Một “tuệ” trong bản đồ này là gì?
-
-Ở đây, “tuệ” không có nghĩa là hiểu thêm một định nghĩa. Nó cũng không đồng nghĩa với mọi cảm giác lạ xuất hiện khi ngồi yên. Trong cách trình bày của P02, một tuệ được gọi tên khi *cách các tiến trình thân-tâm được biết trực tiếp đã đổi khác và đủ chín để làm nền cho phần kế tiếp*. Chữ “chín” rất quan trọng: P02 thường nói một tri kiến “trưởng thành”, rồi mô tả tri kiến sau hiện ra. Tác phẩm không đưa ra lịch chung như “ngày thứ mười đạt tuệ sinh diệt”.
-
-Có thể đọc tiêu chuẩn ấy qua năm lớp:
-
-+ *Có nền trước đó.* Giới được giữ; cách quan sát đã ổn định; triền cái không liên tục cuốn mất việc ghi nhận. Tầng sau không được suy ra từ một hiện tượng đứng riêng, tách khỏi nền ấy.
-+ *Có cái thấy trực tiếp.* Hành giả nhận ra một quan hệ ngay trong kinh nghiệm, chẳng hạn ý định rồi cử động, hoặc đối tượng và việc biết đối tượng. Chỉ suy nghĩ đúng về giáo lý chưa phải điều P02 đang mô tả.
-+ *Có một đặc tính chi phối.* Ở mỗi vùng, một mặt của các hành trở nên nổi bật: phân biệt, điều kiện, sinh diệt, tan rã, bất toại nguyện hay quân bình. Một tia sáng, một cơn hỷ hoặc một lần đau không tự nó là “tuệ”.
-+ *Có độ liên tục và lặp lại.* Kinh nghiệm phải đủ rõ để quan sát, mô tả và kiểm tra qua thời gian. P02 dùng quan hệ trưởng thành và chuyển tiếp, không dùng một bảng điểm triệu chứng. Sách này vì thế không đặt số phút hay số buổi làm ngưỡng chứng nhận.
-+ *Không mâu thuẫn với dữ kiện an toàn.* Mất ký ức, mất định hướng, mất ngủ tăng dần hoặc suy giảm chức năng không được biến thành bằng chứng tâm linh chỉ vì chúng xảy ra gần lúc thiền.
-
-#practice-card(
-  [“Đã thoáng thấy”, “đang ở vùng”, “đã chứng đạt” không đồng nghĩa],
-  [
-    *Đã thoáng thấy* chỉ nói một nét của bản đồ từng xuất hiện. *Đang ở vùng* là một giả thuyết trình pháp về khuynh hướng đang chi phối qua nhiều dữ kiện. *Đã chứng đạt* là kết luận mạnh hơn hẳn; với đạo quả, nó còn phải đối chiếu các tiêu chuẩn kinh điển ở chương 10 và 11.
-
-    Một lần thấy “đau và biết đau là hai việc” có thể minh họa hướng phân định danh-sắc. Nó chưa chứng minh kiến thanh tịnh đã thành tựu. Một lần thấy mọi thứ “rụng mất” có thể giống ngôn ngữ tan rã. Nó chưa loại trừ ngủ gật, choáng, phân ly hoặc kỳ vọng do đã đọc bản đồ.
-  ],
-  label: [PHÂN CẤP KẾT LUẬN · BIÊN SOẠN THEO P02],
-)
-
-=== “Khi nào đạt?” là câu hỏi về điều kiện, không phải lịch
+== “Khi nào đạt?” là câu hỏi về điều kiện, không phải lịch
 
 P02 có dùng những mô tả thời lượng ở vài chỗ, nhưng không biến chúng thành điều kiện cần và đủ áp dụng cho mọi người. Những câu như “sau một lúc”, “khi tri kiến trưởng thành” hay một thời lượng ngồi được mô tả trong dòng thực hành là *mô tả tiến trình của tác phẩm*, không phải công thức dự báo. Không có căn cứ trong các nguồn của chương này để hứa rằng một số ngày nhập thất, một số giờ ghi nhận hay một số lần trình pháp sẽ sản xuất một tuệ nhất định.
 
@@ -256,33 +309,79 @@ Một người có thể thấy ánh sáng do nhiều nguyên nhân không thu�
 
 === Vùng ba: mặt tan rã và tính bất toại nguyện nổi bật
 
+#source-line("MAHĀSI", [P02 · mục 5–10], [
+  P02 nối sáu tuệ trong vùng này bằng quan hệ trưởng thành: sinh-diệt chín thì mặt tan rã nổi bật; tan rã chín thì các hành hiện là đáng sợ; tiếp tục ghi nhận thì tính khổ lụy, nhàm chán, muốn giải thoát và quán xét lại lần lượt được mô tả. Đây là cấu trúc của P02, không phải kết quả nghiên cứu cho thấy mọi người đều đi qua sáu trạng thái cảm xúc theo cùng cường độ hoặc thời lượng.
+])
+
 *5. Tuệ tan rã.* P02 nói khi tuệ sinh diệt chín, mặt biến mất có thể nổi hơn mặt xuất hiện. Hình dáng liên tục của tay, chân hay chuyển động không còn là điều nổi bật; hành giả nhận ra đối tượng và cái biết đối tượng đều chấm dứt theo từng cặp. Người ấy có thể tưởng mình mất khả năng hành vì chỉ thấy đứt, mất hoặc rơi.
 
-Tên này không đồng nghĩa với mất trí nhớ, ngất, ngủ gật hay mất tiếp xúc thực tại. Câu “không thấy gì” quá mơ hồ. Cần hỏi: có còn biết rõ trước, trong và sau biến đổi không; thời gian có bị khuyết không; ngoài giờ ngồi có định hướng bình thường không?
+*Khi nào tên này có cơ sở theo P02.* Nền không phải một lần thấy rung hay mất. P02 đặt nó sau sinh-diệt đã “trưởng thành, sắc bén và mạnh”: việc ghi nhận vận hành dễ và liên tục; các tiến trình được nhận rõ; nhưng pha sinh, pha tồn tại và hình khối liên tục lùi khỏi tiền cảnh, trong khi pha chấm dứt chi phối. Quan trọng hơn, không chỉ đối tượng mất; việc biết đối tượng ấy cũng được nhận ra là chấm dứt.
 
-*Cách hành và dấu chuyển.* Không cố tìm pha sinh đã mờ, cũng không cố làm thân “biến mất”. Ghi nhận phần chấm dứt đang rõ, cùng thất vọng hay nghi ngờ “mình hành tệ”. Khi sự tan rã được thấy rộng và chín, chính các hành ấy hiện ra như không thể cung cấp chỗ đứng an toàn. P02 đặt tuệ đáng sợ sau đó.
+*Trải nghiệm có thể như thế nào.* Khi phồng bụng được ghi nhận, hành giả có thể không còn thấy rõ một đường chuyển động có đầu và giữa; điều nổi bật là từng phần vừa hiện đã hết. Với cử động tay hay chân, hình dáng nguyên khối có thể mờ hơn các điểm chấm dứt nối tiếp. Tâm có thể nghĩ “mình không bắt kịp” hoặc “tuệ đã mất” vì đối tượng dường như biến trước khi bị nắm. Đây là những nét P02 mô tả, không phải bộ triệu chứng bắt buộc.
+
+*Việc cần làm.* Không cố tìm lại pha sinh đã mờ, không cố nhìn mọi thứ vỡ nhỏ, và không làm thân “biến mất” bằng sức tưởng tượng. Ghi nhận phần chấm dứt đang rõ; nếu thất vọng hay nghi ngờ “mình hành tệ” xuất hiện, biết chính những tâm ấy rồi tiếp tục với đối tượng đang có.
+
+*Chưa đủ để gọi tên.* Mất trí nhớ, ngất, ngủ gật, choáng, tê do tư thế, cảm giác xa lạ với thân hay mất tiếp xúc thực tại không phải tuệ tan rã. Câu “không thấy gì” quá mơ hồ. Cần hỏi: có còn biết rõ tiến trình trước và sau phần chấm dứt không; thời gian có bị khuyết không; ngoài giờ ngồi có định hướng và sinh hoạt bình thường không?
+
+*Dấu chuyển.* Khi sự tan rã của cả đối tượng lẫn việc biết được nhận rộng và chín, các hành không còn hiện như chỗ nương an toàn. P02 gọi mặt nổi bật kế tiếp là đáng sợ.
 
 *6. Tuệ đáng sợ.* Theo P02, khi sự tan rã của mọi hành trở nên nổi bật, chúng hiện như không đáng nương tựa và mang khía cạnh đáng sợ. Đây là tri kiến về các hành trong bản đồ, không phải chỉ việc cơ thể có cảm giác sợ.
 
-*Trải nghiệm, việc làm, giới hạn.* “Đáng sợ” ở đây là phẩm chất được nhận ra nơi những gì liên tục tan, không nhất thiết là một cơn hoảng với tim đập nhanh. Tiếp tục biết đối tượng và phản ứng sợ nếu có, không dựng hình ảnh đáng sợ để tạo tầng. Một cơn hoảng đơn lẻ, ác mộng hoặc lo âu ngoài buổi hành không đủ; nếu mất ngủ hay suy giảm chức năng đi kèm, áp dụng chương 9 trước.
+*Khi nào tên này có cơ sở theo P02.* Tan rã không còn là một sự kiện lẻ. Trong lúc các tiến trình và tâm biết chúng liên tục chấm dứt, chính các hành hiện ra dưới mặt nguy hiểm, không phải vì hành giả lập luận “vô thường nên đáng sợ”, mà vì tính không thể giữ và không thể nương đang chi phối cách biết.
+
+*Trải nghiệm có thể như thế nào.* Có người cảm thấy sợ hoặc bất lực; cũng có khi điểm nổi bật không phải tim đập hay hoảng hốt mà là sự nhận rõ rằng bất cứ tiến trình nào vừa được nắm cũng đã mất. Vì vậy, “đáng sợ” vừa có thể chỉ phẩm chất được thấy nơi đối tượng, vừa có thể đi cùng phản ứng sợ trong tâm. Hai điều cần được trình bày tách nhau.
+
+*Việc cần làm.* Tiếp tục biết đối tượng đang tan và biết phản ứng sợ nếu có. Không dựng hình ảnh ghê rợn, không nuôi hoảng hốt để tạo tầng, và không dùng ý chí đè sợ. Nếu phản ứng mạnh đến mức việc quan sát mất, trở về neo an toàn của chương 9 thay vì cố chứng minh mình đang tiến bộ.
+
+*Chưa đủ để gọi tên.* Một cơn hoảng, ác mộng, tim đập nhanh, lo âu ngoài buổi hành hoặc cảm giác “có chuyện xấu sắp xảy ra” không tự xác nhận tuệ này. Nếu mất ngủ, mất định hướng hay suy giảm chức năng đi kèm, giả thuyết sức khỏe phải được xử lý độc lập.
+
+*Dấu chuyển.* Khi tiếp tục ghi nhận, điều đáng sợ được hiểu sâu hơn thành sự bất lợi và bất toại nguyện của chính các hành. P02 gọi góc nhìn ấy là tuệ khổ lụy.
 
 *7. Tuệ khổ lụy hay nguy hiểm.* Các hành được thấy là không thỏa mãn, không đem chỗ đứng bền. Điểm khác với tên trước nằm ở góc nhìn: “đáng sợ” nhấn tính không an toàn; “khổ lụy” nhấn bất lợi và sự không thể làm nơi nương lâu dài.
 
-*Trải nghiệm, việc làm, dấu chuyển.* Tâm không chỉ sợ mất mà nhận ra việc bám vào cái phải mất vốn không thể hoàn tất nhiệm vụ bảo đảm thỏa mãn. Việc cần làm vẫn là quan sát các hành và phản ứng đối với chúng, không chuyển sang phán xét đời sống là vô nghĩa. Khi sự không đáng nương tựa được thấy rõ, vị hấp dẫn quen thuộc giảm; bản đồ gọi mặt ấy là nhàm chán.
+*Khi nào tên này có cơ sở theo P02.* Sau khi mặt đáng sợ đã rõ và việc ghi nhận vẫn tiếp tục, các đối tượng được biết, tâm biết chúng và cả những kiểu hiện hữu được nghĩ tới đều có thể hiện như nhạt, không có phần cốt lõi đem lại thỏa mãn. Cái thấy chi phối không còn chỉ là “chúng sẽ mất”, mà là “chúng không thể làm xong nhiệm vụ mình đòi ở chúng”.
+
+*Trải nghiệm có thể như thế nào.* Một cảm giác dễ chịu vẫn có thể dễ chịu, nhưng việc biến nó thành chỗ dựa bền tỏ ra thất bại ngay khi nó đổi. Một ý nghĩ hứa hẹn giải thoát cũng bị thấy là một tiến trình sinh-diệt khác. Trong ngôn ngữ P02, toàn trường các hành có thể hiện như khô, nhạt và không thỏa mãn.
+
+*Việc cần làm.* Biết cụ thể hiện tượng nào đang có và mặt bất toại nguyện nào đang được nhận ra. Không biến tri kiến về hành thành kết luận “đời sống vô nghĩa”, không xem thường người khác và không bỏ trách nhiệm. Trí thấy giới hạn của cái bị điều kiện không phải giấy phép phá bỏ những điều kiện sống cần được chăm sóc.
+
+*Chưa đủ để gọi tên.* Một buổi chán thiền, thất vọng vì đau, kiệt sức, bi quan do thiếu ngủ hay ý nghĩ triết học “không gì đáng giá” đều không đủ. Cần có nền tan rã và đáng sợ trong logic P02, cùng cách biết trực tiếp đang chi phối khi ghi nhận.
+
+*Dấu chuyển.* Khi sự không thể nương tựa được thấy lặp lại, vị hấp dẫn quen thuộc đối với các hành giảm. Bản đồ gọi chuyển động ấy là nhàm chán.
 
 *8. Tuệ nhàm chán.* Tâm không còn tìm thấy vị hấp dẫn quen thuộc nơi các hành. *Nibbidā* ở đây gần với ly tham do thấy rõ, không đồng nghĩa với uể oải, mất mọi hứng thú vì trầm cảm hay thái độ khinh ghét cuộc sống.
 
-*Trải nghiệm, việc làm, giới hạn.* Đây không phải mệnh lệnh phải ghét thân, người khác, công việc hay thế giới. Hành giả biết cả sự không hứng thú mà không nuôi cay đắng. Nếu mất vui lan khắp ngày, tự chăm sóc giảm, tuyệt vọng hoặc ý muốn chết xuất hiện, không dùng chữ *nibbidā* để miễn kiểm tra sức khỏe.
+*Khi nào tên này có cơ sở theo P02.* Nó đi sau cái thấy về khổ lụy: tâm không còn tìm được vị ngon quen thuộc trong chính các hành đã được thấy là tan và không thỏa mãn, nhưng hành giả vẫn tiếp tục việc quan sát. Đây là điểm rất khác với việc đơn giản ghét buổi thiền rồi bỏ quan sát.
+
+*Trải nghiệm có thể như thế nào.* Những thứ từng làm tâm háo hức có thể không còn kéo mạnh trong lúc quán; ý nghĩ về hoàn cảnh dễ chịu nhất cũng không giải quyết được điều đã thấy về các hành. P02 mô tả tâm nghiêng về sự chấm dứt của các hành. Câu này thuộc hệ thống của tác phẩm, không cho phép suy ra rằng sự mất vui trong mọi hoạt động đời thường là dấu hiệu cao.
+
+*Việc cần làm.* Biết sự không còn thích, sự khô hay sự bực nếu chúng có mặt, mà không biến chúng thành thái độ cay đắng. Tiếp tục giữ giới, ăn ngủ và làm các trách nhiệm cần thiết. Không cố tỏ ra lạnh nhạt để giống mô tả.
+
+*Chưa đủ để gọi tên.* Uể oải, kiệt sức, mất hứng thú do trầm cảm, bất mãn với khóa thiền hoặc khinh ghét thân và thế giới không tự xác nhận *nibbidā*. Nếu mất vui lan khắp ngày, tự chăm sóc giảm, tuyệt vọng hoặc ý muốn chết xuất hiện, không dùng tên tầng để miễn kiểm tra sức khỏe.
+
+*Dấu chuyển.* Khi không còn muốn nắm các hành như chỗ thỏa mãn, một ước muốn thoát khỏi sự lệ thuộc ấy nổi lên. P02 đặt tuệ muốn giải thoát sau nhàm chán vì quan hệ này.
 
 *9. Tuệ muốn giải thoát.* Khi không còn thấy các hành là nơi thỏa mãn, ước muốn thoát khỏi chúng nổi lên. P02 mô tả cả khó chịu thân và không muốn giữ một tư thế lâu. Tên “muốn giải thoát” không biến mọi thôi thúc bỏ việc, rời gia đình hoặc chấm dứt sự sống thành tuệ.
 
-*Trải nghiệm, việc làm, dấu chuyển.* Ý hướng ở đây liên hệ đến thoát sự chấp vào các hành, không phải chạy khỏi một hoàn cảnh bằng hành động bốc đồng. Nhận ra muốn đổi tư thế, muốn dừng, muốn “ra khỏi” như các đối tượng. Điều chỉnh tư thế khi an toàn cần thiết; không lấy bất động làm bài thi. Theo P02, ước muốn giải thoát dẫn đến việc nhìn lại các hành quyết liệt hơn bằng ba đặc tính.
+*Khi nào tên này có cơ sở theo P02.* Nó nảy từ nhàm chán đối với các hành đang được ghi nhận. Ý hướng không chỉ là “tôi muốn buổi ngồi kết thúc”, mà là muốn thoát khỏi việc phải bám lấy những gì cứ sinh rồi diệt. P02 nói đau và không muốn giữ một tư thế lâu thường có thể đi kèm, nhưng cũng nói ngay rằng chúng không nhất thiết phải xuất hiện.
+
+*Trải nghiệm có thể như thế nào.* Tâm có thể co khỏi từng đối tượng, muốn ra khỏi vòng cứ phải nắm một tiến trình đã mất. Khó chịu thân hoặc ý muốn đổi tư thế có thể rõ. Điểm phân biệt nằm ở đối tượng của ước muốn: giải thoát khỏi sự ràng buộc với các hành, không phải một kế hoạch bốc đồng để trốn người, việc hay chính mạng sống.
+
+*Việc cần làm.* Nhận ra muốn đổi, muốn dừng và muốn “ra khỏi” như các tiến trình đang được biết. Nếu tư thế cần đổi vì an toàn, biết ý định và đổi có chánh niệm; không lấy bất động làm bài thi. Đưa mọi thôi thúc gây hại ra khỏi bản đồ và sang quy trình an toàn ngay.
+
+*Chưa đủ để gọi tên.* Bồn chồn, ghét đau, muốn rời khóa, bỏ việc, rời gia đình hoặc ý muốn chết không phải bằng chứng tuệ quán. Cùng một chữ “muốn thoát” có thể che các cơ chế hoàn toàn khác; phải mô tả đúng đối tượng, nền, thời gian và ảnh hưởng chức năng.
+
+*Dấu chuyển.* Trong P02, muốn giải thoát làm tinh tấn quan sát các hành mạnh hơn; ba đặc tính được nhìn lại rõ và mặt khổ có thể nổi bật. Đó là cầu nối sang tuệ quán xét lại.
 
 *10. Tuệ quán xét lại.* Hành giả tiếp tục quan sát mạnh hơn; ba đặc tính hiện rõ, khía cạnh khổ có thể nổi bật, đau và bồn chồn có thể tăng. P02 khuyên tiếp tục ghi nhận và không đổi tư thế quá dễ dàng trong bối cảnh hành trì của tác phẩm. Lời ấy không bãi bỏ giới hạn an toàn ở #link(<an-toan>)[chương 9]. Đau sắc, tê lan, yếu chi, chấn thương, mất ngủ hoặc suy giảm chức năng vẫn phải được xử lý theo nguy cơ.
 
 *Điều kiện và cách chín.* Đây không chỉ là suy nghĩ lại về buổi thiền. P02 mô tả một giai đoạn quan sát liên tục trong đó các hành được xem xét trở lại qua vô thường, khổ và vô ngã; sự khó chịu có thể khiến hành giả đổi tư thế nhiều lần mà vẫn không tìm thấy chỗ nương bền. Tác phẩm nói độ rõ có thể tăng sau phút, giờ hoặc ngày, nhưng không cho một lịch phổ quát.
 
+*Trải nghiệm có thể như thế nào.* Đau, khó chịu và bồn chồn có thể dồn dập; đổi tư thế không đem lại chỗ yên bền; việc ghi nhận có thể mạnh và nhanh hơn trong khi tâm vẫn nghĩ mình chưa thấy đủ rõ. Nếu tiếp tục đúng mức, P02 mô tả ba đặc tính trở nên hiển nhiên trong từng lần ghi nhận, không chỉ dưới dạng suy nghĩ sau buổi ngồi.
+
 *Việc cần làm.* Nhìn từng hiện tượng cụ thể, không cố làm khổ mạnh hơn. Cân bằng tinh tấn để việc biết không thành vật lộn. Nếu cường độ vượt ngưỡng an toàn, giảm hoặc dừng theo chương 9. “Cố chịu bằng mọi giá” không phải điều kiện được sách này dùng để xác nhận sự chín.
+
+*Chưa đủ để gọi tên.* Đau dữ dội, ngồi bất động lâu, đổi tư thế nhiều, bực bội với kỹ thuật hay lặp đúng ba chữ vô thường–khổ–vô ngã đều không đủ. Dấu trọng tâm là cách các hành được trực tiếp quán lại qua ba đặc tính trên nền tiến trình trước, không phải sức chịu đựng.
 
 *Dấu chuyển tiếp.* Trong logic P02, khi quán xét chín, việc ghi nhận thôi mang chất chống cự mạnh. Đối tượng dễ hay khó đều được biết tự nhiên hơn; xả đối với các hành bắt đầu nổi bật. Sự chuyển này nằm ở quan hệ với các hành, không chỉ ở việc hết đau hay tâm trở nên dễ chịu.
 

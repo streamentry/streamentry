@@ -106,9 +106,11 @@ class EditionContractTests(unittest.TestCase):
                 "semantic_required_text": (
                     "Duyên khởi ngay nơi thọ và ái",
                     "Có phải thọ đến ái là mắt xích dễ cắt nhất?",
+                    "Bản đồ tuệ là gì, nói thật giản dị?",
                     "Đọc bản đồ theo bốn vùng",
                     "Bản đồ quyết định khi đang hành",
                     "Có việc phải bảo vệ ngay không?",
+                    "Ở Việt Nam: gọi số nào?",
                 ),
                 "validation_locale": "vi-VN",
                 "target_audience": (

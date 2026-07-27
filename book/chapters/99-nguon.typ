@@ -337,7 +337,15 @@
 
 #source-line("Y TẾ & NGHIÊN CỨU", [R09], [Centers for Disease Control and Prevention, _First Aid for Seizures_. CDC nói không phải mọi cơn co giật đều cần cấp cứu, rồi nêu các ngưỡng như kéo dài quá năm phút, tái diễn ngay, khó thở hoặc khó tỉnh, bị thương, xảy ra trong nước, cơn đầu tiên, mang thai, hoặc đái tháo đường kèm mất ý thức; số 911 trên trang chỉ áp dụng tại Hoa Kỳ. #link("https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html")[Trang chính thức của CDC].])
 
-R01 và R02 xác nhận rằng trải nghiệm bất lợi liên quan đến thiền đã được ghi nhận. Chúng không thiết lập một tỷ lệ nguy cơ chung và không kiểm chứng toàn bộ quy trình ba mức của chương 9. R03 đến R09 chỉ hỗ trợ các hướng dẫn cụ thể được nêu cạnh từng mã; chúng không biến cuốn sách thành tài liệu chẩn đoán hay phác đồ điều trị.
+#v(7pt)
+
+#source-line("Y TẾ & NGHIÊN CỨU", [R10], [Chính phủ, Nghị định số 200/2025/NĐ-CP, Điều 3–4, và thông báo vận hành Tổng đài khẩn cấp quốc gia 112. Văn bản quy định 112 tiếp nhận thông tin về sự cố, thiên tai, thảm họa, nguy cơ và yêu cầu trợ giúp; liên thông với 113, 114, 115; hoạt động 24 giờ và miễn cước gọi từ thuê bao cố định, di động. Thông báo chính thức ngày 3 tháng 9 năm 2025 nói hệ thống đi vào hoạt động từ ngày 23 tháng 8 năm 2025 và tiếp nhận cả tai nạn cùng tình huống nguy cấp cần trợ giúp. #link("https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/7/45545/57679-1-2025959-960200-2025-nd-cp.pdf")[Nghị định trong Công báo]. #link("https://xaydungchinhsach.chinhphu.vn/tong-dai-so-112-tiep-nhan-24-7-cac-thong-tin-ve-su-co-thien-tai-tham-hoa-119250902150528929.htm")[Thông báo của Cổng Thông tin điện tử Chính phủ].])
+
+#v(7pt)
+
+#source-line("Y TẾ & NGHIÊN CỨU", [R11], [Bộ Thông tin và Truyền thông, Văn bản hợp nhất số 04/VBHN-BTTTT về quy hoạch kho số viễn thông. Phụ lục xác định 113 là số gọi công an, 114 là số gọi cứu hỏa và 115 là số gọi cấp cứu y tế; cả ba là số dùng chung toàn quốc cho dịch vụ khẩn cấp. #link("https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-04-vbhn-btttt-36965/40179.htm")[Trang Công báo và bản tải chính thức].])
+
+R01 và R02 xác nhận rằng trải nghiệm bất lợi liên quan đến thiền đã được ghi nhận. Chúng không thiết lập một tỷ lệ nguy cơ chung và không kiểm chứng toàn bộ quy trình ba mức của chương 9. R03 đến R09 chỉ hỗ trợ các hướng dẫn sức khỏe cụ thể được nêu cạnh từng mã; R10 và R11 chỉ xác lập chức năng các đầu số khẩn cấp tại Việt Nam. Các nguồn này không biến cuốn sách thành tài liệu chẩn đoán hay phác đồ điều trị.
 
 == Quy tắc đọc nguồn
 

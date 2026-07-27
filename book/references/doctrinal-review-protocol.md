@@ -45,7 +45,7 @@ The reviewer must mark each item `pass`, `needs correction`, `outside scope`, or
 5. Editorial schedules, examples, decision rules, and safety advice remain visibly editorial.
 6. Modern research is used only within the study design's evidential limits.
 7. The twelve links are not reduced without notice to a purely momentary psychological model.
-8. The insight map is not described as a numbered list spoken by the Buddha.
+8. The insight map is not described as a numbered list spoken by the Buddha; its six-question reading frame is kept editorial, P02's phenomenology is not turned into a symptom checklist, and no fixed schedule or deliberate stage-producing exercise is inferred.
 9. The first three fetters, five lower fetters, four fruits, and DN 2's broader title remain distinct.
 10. No isolated cessation, light, bliss, teacher verdict, or retreat duration is treated as sufficient evidence of Stream-entry.
 
@@ -63,7 +63,7 @@ At minimum, review:
 - Chapter 8, the seven-day passage and retreat claims;
 - Chapter 10, the first three fetters and mirror of Dhamma;
 - Chapter 11, the five lower fetters, four fruits, four-pairs/eight-persons formula, and DN 2 distinction;
-- Chapter 12, the seven purifications and progress-of-insight map;
+- Chapter 12, the opening definition of the map, the distinction between conditional maturation and stage production, the six-question editorial frame, stages 1–11, and the post-equanimity limits;
 - Appendix C, because direct answers are likely to be quoted without surrounding caveats;
 - Appendix D, because glossary definitions can harden an editorial gloss into an apparent doctrine;
 - Appendix E, because its visual compression must remain an editorial retrieval aid rather than an apparent canonical sequence or new path model;

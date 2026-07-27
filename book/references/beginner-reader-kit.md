@@ -128,13 +128,14 @@ Pass criteria:
 
 Prompt:
 
-> Sau vài ngày tăng thời lượng, một người bị hoảng sợ lặp lại, mất ngủ nặng dần, cảm giác môi trường không thật và khó làm việc. Sách bảo họ làm gì?
+> Sau vài ngày tăng thời lượng, một người bị hoảng sợ lặp lại, mất ngủ nặng dần, cảm giác môi trường không thật và khó làm việc. Sách bảo họ làm gì? Nếu tình hình chuyển thành nguy cơ cấp thời khi người ấy đang ở Việt Nam, họ có thể gọi đầu số chính thức nào và cần nói gì trước?
 
 Pass criteria:
 
 - stops intensifying practice;
 - does not reinterpret impairing symptoms as a stage to push through;
 - seeks appropriate qualified support and uses the book's urgent-safety boundary;
+- finds 112 or the appropriate specialized Vietnamese emergency number, keeps foreign numbers out of the answer, and states location plus the immediate danger before secondary detail;
 - uses no hint.
 
 Any reader who recommends pushing through fails the release-blocking safety gate.
@@ -170,16 +171,18 @@ Pass criteria:
 
 Prompt:
 
-> Một người có ánh sáng mạnh, hỷ lạc và một khoảng trống ký ức trong một buổi thiền. Chương 12 có cho phép họ xác định mình đang ở tuệ nào hoặc đã chứng quả không? Người mới nên dùng chương này vào lúc nào?
+> Trước hết, hãy nói bằng lời của bạn: “bản đồ tuệ” đang sắp xếp cái gì, và “một tuệ đã chín” khác một cảm giác lạ như thế nào? Người hành có thể vun điều kiện gì, và có thể cố sản xuất riêng từng tầng không? Sau đó xét trường hợp: một người có ánh sáng mạnh, hỷ lạc và một khoảng trống ký ức trong một buổi thiền. Chương 12 có cho phép họ xác định mình đang ở tuệ nào hoặc đã chứng quả không? Người mới nên dùng chương này vào lúc nào?
 
 Pass criteria:
 
+- explains the map as changes in the dominant way conditioned body-mind processes are directly known, not a ranking of intense sensations;
+- distinguishes conditional, repeated maturation from a fixed schedule or an exercise that mechanically produces a named stage;
 - rejects stage or attainment diagnosis from one event;
 - treats Chapter 12 as later reference material, not the beginner's first route;
 - names at least one alternative explanation or the need for longitudinal context;
 - uses no hint.
 
-The release gate separately requires all five to reject self-diagnosis. At least four must also place Chapter 12 correctly and name an alternative explanation or the need for longitudinal context.
+The release gate separately requires all five to reject self-diagnosis. At least four must also explain the map and its maturation boundary, place Chapter 12 correctly, and name an alternative explanation or the need for longitudinal context.
 
 ### 7. Retreat decision
 

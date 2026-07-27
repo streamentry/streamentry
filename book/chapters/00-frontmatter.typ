@@ -51,7 +51,7 @@ Phần này cố tình đọc chậm hơn phần thực hành. Người mới kh
 
     3. *Trước khi tăng mạnh thời lượng, tập một mình dài ngày hoặc đi khóa:* đọc chương 8 và đọc trọn #link(<an-toan>)[chương 9], kiểm tra sức khỏe, người hướng dẫn và quyền rời khóa.
 
-    4. *Chương 12 để về sau:* trong những tuần hoặc tháng đầu, chỉ đọc hai phần đầu để biết nguồn và cách đếm, rồi dừng trước phần “Đọc bản đồ theo bốn vùng”. Đừng dùng tên tầng tuệ để tự phong cấp cho một trải nghiệm.
+    4. *Chương 12 để về sau:* trong những tuần hoặc tháng đầu, chỉ đọc #link(<ban-do-tue-la-gi>)[phần “Bản đồ tuệ là gì?”], ba mức kết luận, ranh giới “làm sao đạt” và lối đọc ba lượt; rồi dừng trước phần bảy thanh tịnh. Khi cần tra cứu với người hướng dẫn, mới đọc tiếp từng vùng. Đừng dùng tên tầng tuệ để tự phong cấp cho một trải nghiệm.
 
     Phần còn lại của chương 12, #link(<faq>)[FAQ] và #link(<thuat-ngu>)[bảng thuật ngữ] là nơi tra cứu khi cần. Nếu một chỉ dẫn trong sách xung đột với an toàn, giới hoặc bổn phận thiết yếu, hãy dừng và kiểm tra lại thay vì cố hoàn thành lịch.
   ],
