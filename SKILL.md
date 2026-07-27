@@ -79,6 +79,13 @@ Never label modern schedules, percentages, diagnostic heuristics, or attainment 
 
 For attainment language, keep the first three fetters, the full five lower fetters, the four fruits, and DN 2's broader discourse title distinct. Use Chapter 10 for the first three fetters, Chapter 11 for the wider 3–5–4 classification, the glossary for direct lookup, claim codes C41–C45 as the canonical project anchors, C66 for the bounded object/basis/means teaching model, and `attainment-source-audit.md` for the immutable passage-level audit. Never present that teaching model or its meditation case as a canonical 1–2–3 sequence.
 
+For ordinary-life practice, Chapter 7 owns the transfer contract. Keep task-first
+attention, a brief response check, and formal practice distinct. Immediate
+protection and essential duties come before introspection. The collision loop,
+repair loop, timing labels, work case, and retrieval test are editorial tools
+bound by claim C73; never present them as numbered instructions from MN 10,
+DN 31, SN 55.7, or AN 6.63.
+
 ## Writing Contract
 
 Write contemporary Vietnamese that is precise, calm, and public-facing. Use full paragraphs, exact verbs, and varied cadence. Avoid em dashes, motivational fog, sectarian claims, and invented certainty. Define Pāli terms at first use and retain them only when translation would conceal a meaningful distinction.

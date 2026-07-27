@@ -16,6 +16,7 @@ Chapters carry the explanatory arc from a seven-day start and an explicit days 8
 - The month-one bridge is editorial, not a canonical dose. Change only one variable at a time, link directly to weekly/monthly review, and preserve explicit hold, increase, reduce, and stop routes.
 - Chapter 1 owns the canonical restart route after ordinary interruption. Later chapters and appendices should link to it in one line rather than restating the protocol. A stop caused by a warning sign routes to Chapter 9 instead of automatic resumption.
 - In Chapter 4, let the reader try the bounded feeling-to-craving exercise and one ordinary example before presenting all twelve links. Keep the exercise visibly editorial and immediately restore the full doctrinal scope.
+- Chapter 7 owns ordinary-life transfer. Distinguish task-first attention, a brief inner check, and formal practice; put immediate protection before introspection; provide both a collision loop and a post-error repair loop; keep their counts and timings explicitly editorial.
 - Give every technical or Pāli term a plain-language gloss in the same paragraph or immediately adjacent block on first use. A rear glossary reinforces but does not rescue an opaque chapter.
 - Open each chapter by carrying forward the minimum prior idea and naming the next problem. Before a dense list, orient the reader; after it, state the usable synthesis.
 - Keep repeated warnings only when they add a threshold, decision rule, or source-boundary correction. Otherwise point to the full treatment.
@@ -29,7 +30,7 @@ Chapters carry the explanatory arc from a seven-day start and an explicit days 8
 
 ```mermaid
 flowchart LR
-  A["Safe first sit"] --> M["Seven days and days 8–30"] --> B["Foundations"] --> C["Dependent origination"] --> D["Technique"] --> E["Integration"] --> F["Safety"] --> G["First three fetters"] --> H["Five lower fetters and four fruits"] --> I["Insight map as later reference"]
+  A["Safe first sit"] --> M["Seven days and days 8–30"] --> B["Foundations"] --> C["Dependent origination"] --> D["Technique"] --> E["Integration: task, collision, repair"] --> F["Safety"] --> G["First three fetters"] --> H["Five lower fetters and four fruits"] --> I["Insight map as later reference"]
   M --> R["Restart at last stable level"]
   R --> M
   R -. "warning sign" .-> F

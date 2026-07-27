@@ -18,7 +18,7 @@ Chương trước phân biệt thọ với toàn bộ cảm xúc. Chương này 
   [Phỏng dịch công thức duyên khởi trong K26 · SN 12.2 và K27 · SN 12.44.],
 )
 
-== Thử trước khi học bản đồ
+== Thử trước khi học bản đồ <tho-ai-nam-buoc>
 
 #practice-card(
   [Nhận, phân, thấy, không nuôi, chọn],

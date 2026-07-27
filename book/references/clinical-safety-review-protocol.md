@@ -62,6 +62,7 @@ At minimum inspect:
 - Chapter 4, feeling-to-craving intervention and the handling of pain, hunger, danger and medical needs;
 - Chapter 5, especially the explicit rejection of P01's broad no-harm assurance for unbearable pain and the stay–switch–act decision rule;
 - Chapter 6, sleep, persistence and object-switching safety;
+- Chapter 7, especially hazardous-task attention, the priority given to immediate protection, and the instruction not to remain in threatening or violent situations;
 - Chapter 8, retreat screening, medication pressure, exit rights and coercion;
 - Chapter 9 in full;
 - Chapter 10, depersonalization and attainment-diagnosis cautions;
@@ -69,7 +70,7 @@ At minimum inspect:
 - safety-related FAQ and glossary entries;
 - Appendix A if it is used in a real seven-day study;
 - `beginner-validation-protocol.md`, `beginner-reader-kit.md`, both pilot schemas and the public aggregate-report output;
-- claim-ledger rows C17, C18, C46–C52 and C72;
+- claim-ledger rows C17, C18, C46–C52, C72 and C73;
 - source-map entries R01–R09.
 
 The reviewer should check the exact cited editions and current wording rather than relying only on the book's summary.
