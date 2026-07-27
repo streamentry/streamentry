@@ -26,6 +26,17 @@ examples and separates canonical collection locations from the book's K/P/V/R
 traceability codes. The source map repeats the durable legend and explicitly
 denies that an internal code is a canonical number or evidence ranking.
 
+A standalone-artifact trust audit then found that the repository policy was
+more candid than the book's first-reading surface. A person receiving only the
+PDF or EPUB could proceed through the handbook without early notice that `CS
+Chánh Niệm` lacks a publicly verifiable biography or credential record, that
+ChatGPT has no practice experience or professional authority, that rights and
+all external validation gates remain open, and that public access is not a
+reuse license. The introduction now states those limits before the reading
+route and exposes the policy and correction links. This closes a disclosure
+placement defect; it does not supply credentials, rights, review or reader
+evidence.
+
 ## Overview
 
 - **Content**: *Hướng Đến Nhập Lưu*

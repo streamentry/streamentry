@@ -38,6 +38,21 @@ Tên sách dùng cụm từ *hướng đến nhập lưu*. Đây là giới hạ
   ],
 )
 
+== Ai chịu trách nhiệm và điều gì chưa được xác lập? <trach-nhiem-an-ban>
+
+#practice-card(
+  [Đọc giới hạn này trước khi dùng sách],
+  [
+    + Ấn bản ghi công *#(edition.metadata.author)*. *CS Chánh Niệm* là tên công bố trên sách; kho dự án chưa công bố tiểu sử, bằng cấp hay sự chuẩn nhận giảng dạy có thể kiểm chứng độc lập cho tên này.
+    + ChatGPT hỗ trợ cấu trúc, soạn thảo, rà soát và kiểm tra tính nhất quán. Nó không có kinh nghiệm hành thiền, không phải thẩm quyền tôn giáo, không phải bác sĩ và không thể xác nhận đạo quả.
+    + Tại ngày chốt ấn bản, chưa có quyết định quyền tái phân phối đủ thẩm quyền, phản biện Theravāda độc lập, phản biện an toàn lâm sàng, nhóm thử nghiệm năm người mới hoặc thử EPUB bằng người thật cho đúng cặp tệp của ấn bản này. Vì vậy, đây là ứng viên đã kiểm định nội bộ, chưa phải ấn bản được xác nhận độc lập hay “lựa chọn số một”.
+    + Kho công khai hiện không có giấy phép tái sử dụng. Việc đọc hoặc tải tệp không tự cấp quyền sao chép, in bán, dịch, làm sách nói hay phát hành lại.
+
+    Những giới hạn này không tự chứng minh một câu trong sách đúng hay sai. Chúng xác định mức bằng chứng mà người đọc được quyền gán cho toàn ấn bản. Xem #link("https://github.com/streamentry/streamentry/blob/main/EDITORIAL_POLICY.md")[chính sách biên tập] để biết phạm vi AI, nguồn, quyền và sửa sai; dùng #link("https://github.com/streamentry/streamentry/issues/new?template=correction.yml")[biểu mẫu công khai] để báo vị trí và câu cần kiểm tra, không kèm dữ liệu riêng tư hay hồ sơ y tế.
+  ],
+  label: [MINH BẠCH ẤN BẢN · BIÊN SOẠN],
+)
+
 == Lộ trình đọc cho người mới
 
 Phần này cố tình đọc chậm hơn phần thực hành. Người mới không cần hiểu hết ngay; chỉ cần biết phải đọc chương nào trước, chương nào sau, và đoạn nào nên để lại làm tài liệu tham chiếu.
