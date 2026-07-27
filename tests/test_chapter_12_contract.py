@@ -59,6 +59,7 @@ class Chapter12ContractTests(unittest.TestCase):
         self,
     ) -> None:
         required_sections = (
+            "=== Trước khi học tên: hãy nhìn một tiến trình từ bên trong",
             "=== Ba việc đổi song song, nhưng đừng nhập chúng làm một",
             "=== Nguồn không cho một vạch đích có thể đo",
             "=== Một ca giả định: từ dữ kiện thô đến giả thuyết",
@@ -78,6 +79,10 @@ class Chapter12ContractTests(unittest.TestCase):
             "*Trải nghiệm gì?*",
             "*Khi nào?*",
             "*Làm sao?*",
+            "*Có một hiện tượng giống mô tả:*",
+            "*Thoáng thấy cách biết đặc trưng:*",
+            "*Một vùng tuệ có cơ sở làm giả thuyết:*",
+            "*Đạo quả:*",
         )
         for distinction in required_distinctions:
             self.assertIn(distinction, self.chapter)
@@ -89,6 +94,10 @@ class Chapter12ContractTests(unittest.TestCase):
         self.assertIn(
             "Nếu chỉ có rung mạnh rồi hoảng, kết luận là "
             "*chưa đủ dữ kiện*",
+            self.chapter,
+        )
+        self.assertIn(
+            "câu “khi nào đạt?” phải đi kèm câu “đạt theo nghĩa nào?”",
             self.chapter,
         )
 
