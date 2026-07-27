@@ -1,6 +1,6 @@
 # Beginner validation protocol
 
-Checked: 2026-07-27
+Checked: 2026-07-26
 
 This is the cheapest test that can disconfirm the claim that the handbook is ready for a true beginner. It tests comprehension and navigation, not spiritual attainment, clinical safety, or market leadership.
 
@@ -50,7 +50,9 @@ Every counted pass below must be unassisted: the first answer is recorded, no hi
 
 Any failure in the safety, insight-map, or retreat gate is release-blocking for the tested version. Any distress stop is also a veto, not a replaceable missing reader. A content fix requires a new unassisted test with readers who did not see the failed wording.
 
-The deterministic scorer selects the first five completed eligible attempts, enforces the numeric thresholds and distress veto, recursively rejects hidden record additions, verifies the exact manifest discovery and chronology, binds both artifacts and ten contract files to one canonical-history commit, checks current and reachable-history Git privacy, scans free text for likely contact data, checks retention, eligibility, consent, and the no-hint rule, and reports de-identified stop counts. It refuses to let a sixth reader rescue a miss among the first five. It cannot detect every kind of personal data, judge whether a moderator coded a reader's answer honestly, prove that the local remote ref is fresh, or independently authenticate the asserted registration time, so require human privacy review, preserve the first answer and source locator for authorized audit, and use an external registry for stronger custody evidence.
+The deterministic scorer selects the first five completed eligible attempts, enforces the numeric thresholds and distress veto, recursively rejects hidden record additions, verifies the exact manifest discovery and chronology, binds both artifacts and ten contract files to one canonical-history commit, checks current and reachable-history Git privacy, scans free text for likely contact data, checks retention, eligibility, consent, and the no-hint rule, and reports de-identified stop counts. That frozen artifact commit must later be an ancestor of the public-evidence commit and must itself contain the exact tested PDF and EPUB bytes; the release-evidence record may be committed later.
+
+Run the scorer with both `--output` and `--epub-evidence-output`. The aggregate report binds `Completed`, the cohort ID, manifest SHA-256, and exactly five counted-record hashes. The reader-app report binds the same cohort and manifest plus exactly one of those five hashes. Both carry explicit public-confirmation and “does not establish” fields. These deterministic outputs do not authenticate the reader or moderator, prove that the local remote ref is fresh, independently authenticate preregistration time, or prove terminal-attempt completeness. The public gate also rejects likely private contact data, but bounded patterns cannot detect every identifier. Require human privacy review, preserve the first answer and source locator for authorized audit, and use an external registry for stronger custody evidence. A sixth reader cannot rescue a miss among the first five.
 
 ## EPUB-specific pass
 

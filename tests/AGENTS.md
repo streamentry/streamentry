@@ -11,8 +11,8 @@ This folder owns focused regression tests for the builder, pilot scorer, and rel
 - `test_release_pdf.py`: metadata, encryption, all-page size, and rotation regressions.
 - `test_release_epub.py`: active-rootfile, fixed manifest/spine, passive XHTML, and TOC-target regressions.
 - `test_release_verifier.py`: integration check against the tracked release candidate.
-- `test_external_release_gates.py`: protocol-fingerprint, status, gate-specific evidence-role, exact digest-field binding, path-reuse, and permitted-claim regressions for the external release packet.
-- Existing `test_beginner_pilot*.py` files retain the novice-cohort privacy and scoring contract.
+- `test_external_release_gates.py`: schema-v3 protocol-fingerprint, status, gate-specific evidence-role, ancestor/exact-byte candidate binding, mandatory public fields, contact-data rejection, cohort/report hashes, path-reuse, and permitted-claim regressions.
+- Existing `test_beginner_pilot*.py` files retain the novice-cohort privacy and scoring contract, including dual scorer output: five counted hashes in the aggregate report and one matching hash in the `--epub-evidence-output` reader-app report.
 - When an intentional chapter or layout change alters the tracked PDF extent, update the integration expectation only after rebuilding both artifacts and updating `release-evidence.md`; do not change synthetic parser fixtures merely to mirror the current book.
 
 ## Diagrams (Mermaid)

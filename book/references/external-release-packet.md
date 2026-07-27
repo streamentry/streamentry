@@ -1,10 +1,12 @@
 # Gói bàn giao phát hành và thẩm định bên ngoài
 
-Checked: 2026-07-27
+Checked: 2026-07-26
 
 Đây là điểm bắt đầu duy nhất cho người điều phối quyền phát hành, phản biện chuyên môn và thử nghiệm người đọc của *Hướng Đến Nhập Lưu*. Gói này gom các yêu cầu rải rác thành sáu quyết định có thể kiểm toán. Bản thân gói tài liệu không làm cho bất kỳ cổng nào được thông qua.
 
 Trạng thái chính thức nằm trong [`external-release-gates.json`](external-release-gates.json). Lệnh `python3 scripts/verify_release.py` kiểm tra sổ đăng ký, dấu vân tay của các giao thức, trạng thái tóm tắt trong `release-evidence.md` và hai tệp PDF/EPUB. Nếu ai đó đổi `open` thành `passed` mà không nộp bằng chứng gắn với đúng tệp phát hành, trình kiểm tra sẽ báo lỗi.
+
+Sổ đăng ký dùng schema v3. Commit khóa ứng viên có thể đứng trước commit nộp bằng chứng: nó phải là tổ tiên của commit bằng chứng và phải chứa đúng từng byte PDF và EPUB được ghi trong hồ sơ phát hành. `release-evidence.md` có thể được cập nhật ở commit sau; không được dùng việc đó để thay ứng viên đã thật sự đưa cho người phản biện hoặc người đọc.
 
 ## 1. Khóa đúng ứng viên trước khi giao việc
 
@@ -109,14 +111,25 @@ Người điều phối phải dùng đúng lời xin đồng thuận, tám tác
 
 Bằng chứng công khai chỉ gồm:
 
-- mã băm của tệp kê khai riêng và biên nhận từ sổ đăng ký bên ngoài;
-- báo cáo tổng hợp do chương trình chấm điểm tạo;
+- mã cohort, mã băm của tệp kê khai riêng và biên nhận từ sổ đăng ký bên ngoài;
+- báo cáo tổng hợp do chương trình chấm điểm tạo, chứa đúng năm mã băm bản ghi được tính;
+- báo cáo ứng dụng đọc riêng, chứa đúng một mã băm bản ghi thuộc cùng năm bản ghi;
 - xác nhận đã kiểm tra mới lịch sử chuẩn công khai;
 - xác nhận con người đã rà soát riêng tư;
 - môi trường EPUB đã làm sạch dữ liệu cá nhân: ứng dụng, phiên bản, loại thiết bị, cỡ chữ và chế độ tối;
 - danh sách lỗi không chứa ảnh chụp hay siêu dữ liệu nhận diện người đọc.
 
 Thử nghiệm EPUB dùng để xét cổng phải do một trong năm người đọc được tính thực hiện. Một chuyên gia EPUB riêng có thể tìm thêm lỗi, nhưng không thay thế tác vụ của người mới.
+
+Tạo đồng thời hai hồ sơ máy sinh bằng:
+
+```sh
+python3 scripts/score-beginner-pilot.py build/beginner-pilot/<cohort-id>/manifest.json \
+  --output build/beginner-pilot/<cohort-id>/aggregate-report.md \
+  --epub-evidence-output build/beginner-pilot/<cohort-id>/reader-app-report.md
+```
+
+Hai báo cáo phải có cùng `Cohort ID` và `Manifest SHA-256`. Báo cáo tổng hợp có đúng năm dòng `Counted record SHA-256`; báo cáo ứng dụng đọc có đúng một dòng và mã ấy phải thuộc bộ năm. Đây là kết quả biến đổi tất định từ dữ liệu đã nộp, không phải bằng chứng về danh tính người đọc, tính trung thực của người điều phối, thời điểm đăng ký trước hay việc không bỏ sót lần thử.
 
 ## 8. So sánh
 
@@ -139,6 +152,8 @@ Signer or verifiable public confirmation:
 What this evidence does not establish:
 ```
 
+`Completed:` phải là ngày ISO có thật. Hai trường xác nhận công khai và giới hạn phạm vi phải có nội dung. Không đặt email, số điện thoại hoặc kênh liên hệ riêng trong hồ sơ công khai; trình kiểm tra từ chối các mẫu dữ liệu liên hệ có thể nhận diện.
+
 Sau đó:
 
 1. thêm từng đường dẫn bằng chứng, `sha256` và `role` vào đúng cổng trong `external-release-gates.json`;
@@ -148,7 +163,7 @@ Sau đó:
 5. chạy `python3 scripts/verify_release.py`;
 6. đưa thay đổi qua Publication CI.
 
-Trình kiểm tra chỉ xác nhận tính toàn vẹn và việc bằng chứng gắn đúng tệp phát hành. Nó không xác thực chữ ký, thẩm quyền pháp lý, giấy phép hành nghề, năng lực chuyên môn hoặc sự trung thực của dữ liệu. Các điểm đó vẫn cần con người kiểm tra.
+Trình kiểm tra chỉ xác nhận tính toàn vẹn, quan hệ tổ tiên, byte của ứng viên, cấu trúc hồ sơ và việc bằng chứng gắn đúng tệp phát hành. Nó không xác thực chữ ký, thẩm quyền pháp lý, giấy phép hành nghề, năng lực chuyên môn, danh tính người tham gia hoặc sự trung thực và đầy đủ của dữ liệu. Các điểm đó vẫn cần con người kiểm tra. Cho đến khi các hồ sơ thật tồn tại và được xác minh, cả sáu cổng vẫn `open`.
 
 ## 10. Câu mô tả hiện tại
 

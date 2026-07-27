@@ -119,12 +119,27 @@
 == Nhập lưu, kiết sử và bốn quả <thuat-ngu-nhap-luu>
 
 #term-card(
-  [sotāpanna],
-  [bậc Nhập lưu, Dự lưu],
-  [K03; K06; K08; K10],
+  [saṃyojana],
+  [kiết sử, trói buộc],
+  [K11; K24],
   [
-    Người đã bước vào dòng Thánh đạo, đoạn tận ba kiết sử đầu và có những phẩm chất được kinh mô tả về tịnh tín cùng giới hạnh. Đây là một thành tựu xác định trong giáo pháp, không phải tên đẹp cho người mới hành thiền, người sống bình tĩnh hơn hay người vừa có một kinh nghiệm mạnh.
+    Mối trói buộc bền chặt giữ hữu tình trong khổ, không phải tên chung cho mọi thói quen xấu. Chương 10 tập trung vào ba kiết sử đầu gắn với Nhập lưu; K24 đặt chúng trong danh mục mười kiết sử rộng hơn.
   ],
+)
+
+#v(7pt)
+
+#practice-card(
+  [Ba kiết sử đầu],
+  [
+    Đây là cách gọi chính xác của ba kiết sử gắn trực tiếp với Nhập lưu: thân kiến, hoài nghi và chấp thủ giới-tập tục. Chúng là *ba cái đầu trong nhóm năm hạ phần*, không phải một bảng độc lập thứ hai tên “ba hạ phần kiết sử”.
+
+    Nếu chỉ nhớ một công thức: Nhập lưu đoạn ba kiết sử đầu; Bất lai mới đoạn đủ năm hạ phần. Đọc chương 10 để hiểu sâu từng kiết sử; đọc chương 11 để đặt chúng vào khung 3–5–4.
+
+    #v(6pt)
+    #source-badge("KINH", refs: [K10; K24])
+  ],
+  label: [BẢN ĐỒ THUẬT NGỮ],
 )
 
 #v(7pt)
@@ -172,22 +187,11 @@
 #v(7pt)
 
 #term-card(
-  [sīlabbata-parāmāsa],
+  [sīlabbataparāmāsa],
   [chấp thủ giới-tập tục],
   [K11; K08],
   [
     Cách nắm giới, tập tục hoặc phương thức thực hành như thể hình thức tự nó đủ thanh tịnh và giải thoát. MN 2 chỉ nêu tên kiết sử ở đoạn này, nên lời giải thích ngắn không phải định nghĩa đầy đủ. Đoạn kiết sử không có nghĩa bỏ giới; Gương Pháp vẫn nêu giới hạnh không rạn vỡ.
-  ],
-)
-
-#v(7pt)
-
-#term-card(
-  [saṃyojana],
-  [kiết sử, trói buộc],
-  [K11; K24],
-  [
-    Mối trói buộc bền chặt giữ hữu tình trong khổ, không phải tên chung cho mọi thói quen xấu. Chương 10 tập trung vào ba kiết sử đầu gắn với Nhập lưu; K24 đặt chúng trong danh mục mười kiết sử rộng hơn.
   ],
 )
 
@@ -199,6 +203,43 @@
   [K10; K24],
   [
     Năm trói buộc gồm ba kiết sử đầu cộng với dục tham và sân. Nhập lưu đoạn ba cái đầu; Nhất lai làm mỏng tham, sân, si; Bất lai đoạn trọn năm. “Hạ phần” không có nghĩa đây là năm lỗi nhẹ hoặc dễ bỏ.
+  ],
+)
+
+#v(7pt)
+
+#practice-card(
+  [Tên quả khác tên người thành tựu quả],
+  [
+    Bốn *quả* là quả Nhập lưu (*sotāpattiphala*), quả Nhất lai (*sakadāgāmiphala*), quả Bất lai (*anāgāmiphala*) và quả A-la-hán (*arahattaphala*).
+
+    Tên Pāli của *người* thành tựu các quả ấy lần lượt là *sotāpanna, sakadāgāmī, anāgāmī* và *arahant*. Vì vậy, *sotāpanna* chỉ người Nhập lưu, không phải tên Pāli của quả Nhập lưu. Phân biệt dạng từ giúp tra cứu chính xác; nó không tạo thêm bốn quả mới.
+
+    #v(6pt)
+    #source-badge("KINH", refs: [K32])
+  ],
+  label: [BẢN ĐỒ THUẬT NGỮ],
+)
+
+#v(7pt)
+
+#term-card(
+  [sāmaññaphala],
+  [Sa-môn quả, quả của đời sống Sa-môn],
+  [K32; K34],
+  [
+    Tùy ngữ cảnh, cụm này có hai phạm vi. Trong SN 45.35, nó chỉ bốn quả giải thoát: Nhập lưu, Nhất lai, Bất lai và A-la-hán. Trong DN 2, nó nằm trong tựa một bài kinh hỏi rộng hơn về các kết quả có thể thấy của đời sống xuất gia, rồi triển khai cả một lộ trình huấn luyện đi đến đoạn tận lậu hoặc. Vì vậy, “bốn quả Sa-môn” và “Kinh Sa-môn quả” có liên hệ nhưng không đồng nghĩa hoàn toàn.
+  ],
+)
+
+#v(7pt)
+
+#term-card(
+  [sotāpanna],
+  [bậc Nhập lưu, Dự lưu],
+  [K03; K06; K08; K10],
+  [
+    Người đã bước vào dòng Thánh đạo, đoạn tận ba kiết sử đầu và có những phẩm chất được kinh mô tả về tịnh tín cùng giới hạnh. Đây là một thành tựu xác định trong giáo pháp, không phải tên đẹp cho người mới hành thiền, người sống bình tĩnh hơn hay người vừa có một kinh nghiệm mạnh.
   ],
 )
 
@@ -220,7 +261,18 @@
   [Bất lai, Bất hoàn],
   [K08; K10; K24; K32],
   [
-    Bậc đã đoạn năm hạ phần kiết sử. Đoạn Nādika của DN 16 nói vị ấy hóa sinh, đạt giải thoát hoàn toàn tại cảnh giới ấy và không trở lại từ đó. Cách nói rộng hơn “không trở lại cõi dục” thuộc lối giải thích vũ trụ quan Theravāda, không phải nguyên văn của đoạn kinh này. Sự tạm lắng của dục hay sân trong định không đủ để xác nhận quả.
+    Bậc đã đoạn năm hạ phần kiết sử. Đoạn Ñātika của DN 16 nói vị ấy hóa sinh, đạt giải thoát hoàn toàn tại cảnh giới ấy và không trở lại từ đó. Sách giữ câu hẹp ấy thay vì mở rộng thành một mệnh đề về toàn bộ vũ trụ quan. Sự tạm lắng của dục hay sân trong định không đủ để xác nhận quả.
+  ],
+)
+
+#v(7pt)
+
+#term-card(
+  [āsava],
+  [lậu hoặc],
+  [K11; K34],
+  [
+    Thuật ngữ chỉ nhóm ô nhiễm mà các bài kinh nói cần được đoạn tận. MN 2 nêu lậu hoặc của dục, hữu và vô minh, rồi tổ chức việc đoạn chúng theo bảy cách: thấy, phòng hộ, thọ dụng, kham nhẫn, tránh né, trừ bỏ và tu tập. DN 2 cũng nêu ba lậu hoặc ấy và kết thúc tiến trình huấn luyện bằng tri kiến rằng chúng đã chấm dứt. Trong sách này, “đoạn tận lậu hoặc” là tiêu chuẩn kinh dùng khi nói về A-la-hán; nó rộng hơn việc chỉ đếm đủ năm hạ phần kiết sử, và hai danh mục không được xem là một.
   ],
 )
 
@@ -229,7 +281,7 @@
 #term-card(
   [arahant],
   [A-la-hán],
-  [K10; K32],
+  [K10; K11; K32; K34],
   [
     Bậc đã đoạn tận các lậu hoặc và hoàn tất công việc giải thoát trong khung giáo lý của kinh. Đây là quả cuối trong bốn quả Sa-môn, không phải nhãn chung cho người ngồi thiền lâu năm.
   ],

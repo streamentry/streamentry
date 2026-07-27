@@ -11,12 +11,12 @@ This folder holds the audit trail behind doctrinal and safety claims. It is the 
 - `publish-readiness-audit.md`: 80-item adapted CORE-EEAT scorecard; it records quality evidence but cannot establish market leadership.
 - `release-evidence.md`: exact candidate hashes, tool versions, structural and visual checks, and still-open external gates.
 - `external-release-packet.md`: role-based handoff and change-control sequence for all external gates.
-- `external-release-gates.json`: machine-readable gate status, protocol fingerprints, typed evidence index, and permitted claims.
+- `external-release-gates.json`: schema-v3 machine-readable gate status, protocol fingerprints, typed evidence index, frozen-artifact ancestry binding, cohort/report bindings, and permitted claims.
 - `rights-decision-template.md`: decision record for authority, contributors, third-party material, formats, channels, and commercial scope.
 - `doctrinal-review-protocol.md`: reviewer qualifications, conflicts, artifact identity, scope, severity, disposition, and signed report requirements.
 - `clinical-safety-review-protocol.md`: clinical and research-safety competence, mandatory checks, findings, and signed-report requirements.
 - `external-evidence/`: public, privacy-safe gate evidence only; never raw participant data.
-- Every terminal evidence item must declare a canonical gate-specific `role`, and its Markdown must contain exactly one matching `Evidence role:`, `PDF SHA-256:`, and `EPUB SHA-256:` line. Required singleton roles cannot be combined in one generic file; the clinical gate may carry multiple separately bound reports of its one allowed role.
+- Every terminal evidence item must declare a canonical gate-specific `role`, and its Markdown must contain exactly one matching `Evidence role:`, `PDF SHA-256:`, and `EPUB SHA-256:` line plus non-empty `Completed:`, `Signer or verifiable public confirmation:`, and `What this evidence does not establish:` fields. Required singleton roles cannot be combined in one generic file; the clinical gate may carry multiple separately bound reports of its one allowed role. Public evidence containing likely private email addresses or phone numbers is rejected.
 - `beginner-validation-protocol.md`: unassisted comprehension, safety, navigation, and EPUB-reader gates for true beginners.
 - `comparative-beginner-protocol.md`: preregistration draft for a rights-safe comparison against a fixed Vietnamese beginner panel.
 - `beginner-reader-kit.md`: consent and moderator scripts, privacy and distress rules, fixed eight-task rubric, scenario-level fetter discrimination, and EPUB smoke-test procedure.
@@ -25,6 +25,7 @@ This folder holds the audit trail behind doctrinal and safety claims. It is the 
 - If the chapter explains fetters or fruits, the ledger should keep the first three fetters, the full five lower fetters, and the four fruits on separate lines with separate source codes. Do not reuse one citation to imply a larger doctrinal bundle than the source states.
 - The novice fetter gate must test application, not recall alone: healthy inquiry is not automatically fetter-doubt, keeping precepts is not automatically ritual clinging, and non-aversive boundary setting is not automatically ill will.
 - Never commit raw participant records. Keep them under ignored `build/beginner-pilot/`; publish only the scorer's privacy-coarsened aggregate evidence and fixed-criterion failure themes. Do not publish free-text answers or notes.
+- The aggregate novice report must bind one cohort ID, one manifest SHA-256, and exactly five unique counted-record hashes. The EPUB reader-app report must bind the same cohort and manifest plus exactly one of those five hashes. These reports are deterministic transformations, not proof of reader identity, moderator honesty, preregistration timing, or omission-free custody.
 - K codes: Nikāya discourses.
 - V codes: *Visuddhimagga*.
 - P codes: Mahāsi works.

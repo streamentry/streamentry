@@ -1,18 +1,18 @@
 {
-  "schema_version": 2,
-  "candidate_binding": "enclosing_clean_git_commit_plus_release_evidence",
+  "schema_version": 3,
+  "candidate_binding": "frozen_artifact_commit_ancestor_plus_release_evidence",
   "release_evidence": {
     "path": "book/references/release-evidence.md",
-    "sha256": "e37fdd87965b06014b26109590b8a52cdb943c031080013f9a9d9b178f4eb3b6"
+    "sha256": "97186a72ec081ef430f282121d4399f63b6e8cf8b5511a11f272a47f7deb66e1"
   },
   "protocols": {
     "external_release_packet": {
       "path": "book/references/external-release-packet.md",
-      "sha256": "71f296105c1b3b471444abcc2523d91ece2be88c7ba5574ca5659b1fc5488c4a"
+      "sha256": "8bedfa56dd84978c5d448982fef37e52e65a57df8ea19384e53173f88a3db4cf"
     },
     "rights_decision": {
       "path": "book/references/rights-decision-template.md",
-      "sha256": "c586875cc43d8a06fcbb6e2bb2cd0b7432eacd49e00890369e2805b7a9e134ca"
+      "sha256": "7d00da5ff92a0bb932bbeb13c6509da530deea81e99efeacea2d3a654f440df9"
     },
     "doctrinal_review": {
       "path": "book/references/doctrinal-review-protocol.md",
@@ -20,15 +20,15 @@
     },
     "clinical_safety_review": {
       "path": "book/references/clinical-safety-review-protocol.md",
-      "sha256": "473ed2e71eb1561a6378571f18507f743da5dedfd2e7b3177ef09bb661099e01"
+      "sha256": "c76d3a71202a78f10f0502ccd6e31e21c710d941b5af2ff75cdb43da8a0026fa"
     },
     "beginner_validation": {
       "path": "book/references/beginner-validation-protocol.md",
-      "sha256": "7625126c6aee98439c7f9e20c7603cf6b33f84ae140b8f44c8b17bb6b2e1d256"
+      "sha256": "5b3326ae299e0340019140c073b44f8a0511866ccf5de3c16cf086ae99ba82bb"
     },
     "beginner_reader_kit": {
       "path": "book/references/beginner-reader-kit.md",
-      "sha256": "308b5d54ff04c9796a25b95cf5875be8aadc9889e7cff5dae39281c085fed121"
+      "sha256": "4fcbe7488897a1557a3c7b325bfd8d7e17b1e4288c52adb7425036a3c14952b6"
     },
     "comparative_beginner": {
       "path": "book/references/comparative-beginner-protocol.md",
@@ -36,7 +36,7 @@
     },
     "public_evidence_policy": {
       "path": "book/references/external-evidence/README.md",
-      "sha256": "825eb6d46ce6d961d7690f19efe50374842ce1f4bb1a16413b99f29febda6a21"
+      "sha256": "022b85032d04db2020ec1c315df7cb3a82bf1e23493ee75ddad7ec2610c0fadb"
     }
   },
   "gates": {

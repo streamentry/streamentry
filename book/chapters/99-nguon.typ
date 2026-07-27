@@ -59,8 +59,8 @@
 
 #reference-item(
   [K08],
-  [Các quả tại Nādika và Gương Pháp, Dīgha Nikāya 16],
-  [Đoạn Nādika phân loại người đã mất theo bốn quả, gồm hơn năm trăm cư sĩ Nhập lưu và hơn năm mươi cư sĩ đoạn năm hạ phần kiết sử; phần kế tiếp nêu tịnh tín nơi Phật, Pháp, Tăng và giới hạnh được bậc Thánh quý trọng.],
+  [Các quả tại Ñātika và Gương Pháp, Dīgha Nikāya 16],
+  [Các đoạn 2.6–2.9 phân loại người đã mất theo các quả, gồm hơn năm trăm nam cư sĩ Nhập lưu và hơn năm mươi nam cư sĩ đoạn năm hạ phần kiết sử; phần Gương Pháp kế tiếp nêu tịnh tín nơi Phật, Pháp, Tăng và giới hạnh được bậc Thánh quý trọng.],
   "https://suttacentral.net/dn16/en/sujato",
 )
 
@@ -74,14 +74,14 @@
 #reference-item(
   [K10],
   [Các bậc hữu học và ba học, Aṅguttara Nikāya 3.88],
-  [Phân biệt các hạng Nhập lưu, Nhất lai, năm hạng Bất lai và sự đoạn tận lậu hoặc ở A-la-hán.],
+  [Các đoạn 2.6–2.15 phân biệt sự đoạn tận lậu hoặc, năm hạng đoạn năm hạ phần kiết sử, Nhất lai, và ba hạng đoạn ba kiết sử: nhất chủng, gia gia và tối đa bảy lần tái sinh.],
   "https://suttacentral.net/an3.88/en/sujato",
 )
 
 #reference-item(
   [K11],
   [Kinh Tất cả lậu hoặc, Majjhima Nikāya 2],
-  [Bảy cách đoạn trừ lậu hoặc gồm thấy, phòng hộ, thọ dụng, kham nhẫn, tránh né, trừ bỏ và tu tập; trong phần đoạn trừ bằng thấy, kinh cũng nêu ba kiết sử được đoạn.],
+  [Nêu lậu hoặc của dục, hữu và vô minh; trình bày bảy cách đoạn trừ gồm thấy, phòng hộ, thọ dụng, kham nhẫn, tránh né, trừ bỏ và tu tập; trong phần đoạn trừ bằng thấy, kinh cũng nêu ba kiết sử được đoạn.],
   "https://suttacentral.net/mn2/en/sujato",
 )
 
@@ -234,7 +234,7 @@
 
 #reference-item(
   [K33],
-  [Bốn cặp, tám hạng Thánh đệ tử, Udāna 5.5],
+  [Người đang thực hành để chứng quả và người đã chứng quả, Udāna 5.5],
   [Phân biệt người đang thực hành để chứng mỗi quả với người đã thành tựu quả ấy.],
   "https://suttacentral.net/ud5.5/en/sujato",
 )
@@ -242,7 +242,7 @@
 #reference-item(
   [K34],
   [Kinh Sa-môn quả, Dīgha Nikāya 2],
-  [Câu hỏi về quả có thể thấy của đời sống Sa-môn và tiến trình huấn luyện rộng đi đến đoạn tận lậu hoặc.],
+  [Câu hỏi về quả có thể thấy của đời sống Sa-môn và tiến trình huấn luyện rộng đi đến tri kiến ba lậu hoặc đã đoạn, tự biết tâm giải thoát và biết việc cần làm đã hoàn tất.],
   "https://suttacentral.net/dn2/en/sujato",
 )
 
@@ -255,7 +255,7 @@
 
 #reference-item(
   [K36],
-  [Con đường đoạn năm hạ phần kiết sử, Majjhima Nikāya 64],
+  [Khuynh hướng tiềm ẩn và năm hạ phần kiết sử, Majjhima Nikāya 64],
   [Phân biệt khuynh hướng tiềm ẩn với kiết sử đang sinh khởi; khi hiện hành, kiết sử có thể ám ảnh và chi phối tâm, còn mạnh, chưa được nhổ tận, và lối thoát chưa được thấy như thật.],
   "https://suttacentral.net/mn64/en/bodhi",
 )
@@ -265,6 +265,20 @@
   [Kiết sử và điều làm kiết sử sinh, Saṁyutta Nikāya 41.1],
   [Giác quan và đối tượng không tự là kiết sử; dục và tham sinh lên dựa vào cuộc gặp giữa chúng mới là mối trói.],
   "https://suttacentral.net/sn41.1/en/sujato",
+)
+
+#reference-item(
+  [K38],
+  [Giới, tập tục và tà kiến trong hạnh chó, hạnh bò, Majjhima Nikāya 57],
+  [Bài kinh phê phán hai khổ hạnh bắt chước chó và bò, đồng thời gọi kỳ vọng đạt một cảnh giới nhờ riêng giới điều, tập tục, khổ hạnh hay phạm hạnh ấy là tà kiến. Đây là minh họa có giới hạn về một hình thức tu sai nhân quả, không phải định nghĩa đầy đủ của *sīlabbataparāmāsa*.],
+  "https://suttacentral.net/mn57/en/sujato",
+)
+
+#reference-item(
+  [K39],
+  [Người đang thực hành để chứng quả, Saṁyutta Nikāya 48.18],
+  [Đặt các hạng đang thực hành để chứng từng quả trong một thang năm căn: tín, tấn, niệm, định và tuệ; người hoàn toàn không có năm căn được đặt ngoài nhóm ấy. Vì vậy, đây là một phạm trù kỹ thuật, không phải tên gọi tự động cho mọi ước muốn hay nỗ lực thông thường.],
+  "https://suttacentral.net/sn48.18/en/sujato",
 )
 
 == Thanh Tịnh Đạo và truyền thống Mahāsi

@@ -20,6 +20,43 @@ from _beginner_pilot_v2_fixtures import (
 
 
 class BeginnerPilotV2CliTests(unittest.TestCase):
+    def test_aggregate_output_starts_with_external_headers_and_exact_manifest_hash(self) -> None:
+        with temp_artifact_repo() as ctx:
+            payloads = [
+                build_record(f"reader-0{index}", ctx["artifact"], attempt_number=index)
+                for index in range(1, 6)
+            ]
+            manifest_path, _, _ = write_manifest_case(
+                ctx["repo_root"],
+                artifact=ctx["artifact"],
+                pdf_path=ctx["pdf_path"],
+                epub_path=ctx["epub_path"],
+                payloads=payloads,
+            )
+            expected_manifest_sha = hashlib.sha256(manifest_path.read_bytes()).hexdigest()
+            result = run_cli(manifest_path)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            header_lines = result.stdout.splitlines()[:10]
+            self.assertEqual(
+                header_lines,
+                [
+                    "Gate status: PASSED",
+                    "Evidence role: aggregate_report",
+                    f"Candidate commit: {ctx['artifact']['git_commit']}",
+                    f"PDF SHA-256: {ctx['artifact']['pdf_sha256']}",
+                    f"EPUB SHA-256: {ctx['artifact']['epub_sha256']}",
+                    "Completed: 2026-07-06",
+                    "Signer or verifiable public confirmation: Deterministic scorer output bound to the frozen manifest and artifacts.",
+                    "What this evidence does not establish: It does not prove moderator identity, omitted-attempt completeness, or population-wide novice validation beyond this frozen cohort.",
+                    f"Cohort ID: {COHORT_ID}",
+                    f"Manifest SHA-256: {expected_manifest_sha}",
+                ],
+            )
+            self.assertEqual(
+                result.stdout.count("Counted record SHA-256:"),
+                5,
+            )
+
     def test_exits_zero_for_authoritative_manifest_with_first_five_eligible_completed(self) -> None:
         with temp_artifact_repo() as ctx:
             payloads = [
@@ -48,6 +85,46 @@ class BeginnerPilotV2CliTests(unittest.TestCase):
             self.assertIn("iOS/iPadOS device", result.stdout)
             self.assertNotIn("reader-01", result.stdout)
 
+    def test_epub_evidence_output_is_separate_and_omits_reader_ids_and_answers(self) -> None:
+        with temp_artifact_repo() as ctx:
+            payloads = [
+                build_record(f"reader-0{index}", ctx["artifact"], attempt_number=index)
+                for index in range(1, 6)
+            ]
+            manifest_path, attempt_paths, _ = write_manifest_case(
+                ctx["repo_root"],
+                artifact=ctx["artifact"],
+                pdf_path=ctx["pdf_path"],
+                epub_path=ctx["epub_path"],
+                payloads=payloads,
+            )
+            epub_report_path = manifest_path.parent / "public-reader-app-report.md"
+            expected_manifest_sha = hashlib.sha256(manifest_path.read_bytes()).hexdigest()
+            expected_record_sha = hashlib.sha256(attempt_paths[0].read_bytes()).hexdigest()
+            result = run_cli(
+                manifest_path,
+                "--epub-evidence-output",
+                str(epub_report_path),
+            )
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertTrue(epub_report_path.is_file())
+            report = epub_report_path.read_text(encoding="utf-8")
+            self.assertIn("Gate status: PASSED", report)
+            self.assertIn("Evidence role: reader_app_report", report)
+            self.assertIn(f"Cohort ID: {COHORT_ID}", report)
+            self.assertIn(f"Manifest SHA-256: {expected_manifest_sha}", report)
+            self.assertIn(f"Counted record SHA-256: {expected_record_sha}", report)
+            self.assertIn("- Reader app class: `Books-family reader`", report)
+            self.assertIn("- Device class: `iOS/iPadOS device`", report)
+            self.assertIn("- Text scale percent: `150%`", report)
+            self.assertIn("- Dark mode: `on`", report)
+            self.assertIn("- Repeated start-route status: `PASSED`", report)
+            self.assertIn("- Repeated section-finding status: `PASSED`", report)
+            self.assertIn("- Display criteria status: `PASSED`", report)
+            self.assertNotIn("reader-01", report)
+            self.assertNotIn("first answer", report)
+            self.assertNotIn("source locator", report)
+
     def test_output_write_failure_exits_two(self) -> None:
         with temp_artifact_repo() as ctx:
             payloads = [
@@ -70,6 +147,52 @@ class BeginnerPilotV2CliTests(unittest.TestCase):
             )
             self.assertEqual(result.returncode, 2)
             self.assertIn("invalid beginner-pilot data", result.stderr.lower())
+
+    def test_epub_evidence_write_failure_exits_two(self) -> None:
+        with temp_artifact_repo() as ctx:
+            payloads = [
+                build_record(f"reader-0{index}", ctx["artifact"], attempt_number=index)
+                for index in range(1, 6)
+            ]
+            manifest_path, _, _ = write_manifest_case(
+                ctx["repo_root"],
+                artifact=ctx["artifact"],
+                pdf_path=ctx["pdf_path"],
+                epub_path=ctx["epub_path"],
+                payloads=payloads,
+            )
+            result = run_cli(
+                manifest_path,
+                "--epub-evidence-output",
+                str(manifest_path.parent),
+            )
+            self.assertEqual(result.returncode, 2)
+            self.assertIn("invalid beginner-pilot data", result.stderr.lower())
+
+    def test_rejects_colliding_aggregate_and_epub_output_paths(self) -> None:
+        with temp_artifact_repo() as ctx:
+            payloads = [
+                build_record(f"reader-0{index}", ctx["artifact"], attempt_number=index)
+                for index in range(1, 6)
+            ]
+            manifest_path, _, _ = write_manifest_case(
+                ctx["repo_root"],
+                artifact=ctx["artifact"],
+                pdf_path=ctx["pdf_path"],
+                epub_path=ctx["epub_path"],
+                payloads=payloads,
+            )
+            shared_output = manifest_path.parent / "public-report.md"
+            result = run_cli(
+                manifest_path,
+                "--output",
+                str(shared_output),
+                "--epub-evidence-output",
+                str(shared_output.parent / "." / shared_output.name),
+            )
+            self.assertEqual(result.returncode, 2)
+            self.assertIn("must use different paths", result.stderr)
+            self.assertFalse(shared_output.exists())
 
     def test_exits_one_when_the_sixth_completed_record_would_rescue_the_first_five(self) -> None:
         with temp_artifact_repo() as ctx:
@@ -343,6 +466,122 @@ class BeginnerPilotV2CliTests(unittest.TestCase):
             result = run_cli(manifest_path)
             self.assertEqual(result.returncode, 1, result.stderr)
             self.assertIn("epub", (result.stdout + result.stderr).lower())
+
+    def test_epub_public_report_marks_failed_when_no_counted_smoke_record_passes(self) -> None:
+        with temp_artifact_repo() as ctx:
+            weak_smoke = {
+                "device": "iPhone 15, iOS 19",
+                "reader_app": "Books",
+                "reader_app_version": "19.0",
+                "text_scale_percent": 150,
+                "dark_mode": True,
+                "repeated_tasks": {
+                    "start_route": {
+                        "outcome": "answered",
+                        "first_answer_recorded": True,
+                        "first_answer": "start route repeated answer",
+                        "source_locator": "chapter 1",
+                        "elapsed_seconds": 20,
+                        "hint_used": False,
+                        "passed": True,
+                        "notes": "",
+                    },
+                    "section_finding": {
+                        "outcome": "answered",
+                        "first_answer_recorded": True,
+                        "first_answer": "wrong section",
+                        "source_locator": "none",
+                        "elapsed_seconds": 45,
+                        "hint_used": False,
+                        "passed": False,
+                        "notes": "",
+                    },
+                },
+                "criteria": {
+                    "reading_order": True,
+                    "nested_toc": True,
+                    "source_badges": True,
+                    "cautions": True,
+                    "links": True,
+                    "vietnamese_diacritics": True,
+                    "no_overlap_or_loss": True,
+                    "no_color_only_meaning": True,
+                },
+                "notes": "",
+            }
+            payloads = [
+                build_record(
+                    f"reader-0{index}",
+                    ctx["artifact"],
+                    attempt_number=index,
+                    epub_smoke=weak_smoke,
+                )
+                for index in range(1, 6)
+            ]
+            manifest_path, attempt_paths, _ = write_manifest_case(
+                ctx["repo_root"],
+                artifact=ctx["artifact"],
+                pdf_path=ctx["pdf_path"],
+                epub_path=ctx["epub_path"],
+                payloads=payloads,
+            )
+            epub_report_path = manifest_path.parent / "public-reader-app-report.md"
+            result = run_cli(
+                manifest_path,
+                "--epub-evidence-output",
+                str(epub_report_path),
+            )
+            self.assertEqual(result.returncode, 1, result.stderr)
+            report = epub_report_path.read_text(encoding="utf-8")
+            self.assertIn("Gate status: FAILED", report)
+            self.assertIn(
+                "Counted record SHA-256: "
+                f"{hashlib.sha256(attempt_paths[0].read_bytes()).hexdigest()}",
+                report,
+            )
+            self.assertIn("- Repeated section-finding status: `FAILED`", report)
+
+    def test_epub_public_report_marks_unrecorded_when_counted_smoke_is_absent(
+        self,
+    ) -> None:
+        with temp_artifact_repo() as ctx:
+            payloads = [
+                build_record(
+                    f"reader-0{index}",
+                    ctx["artifact"],
+                    attempt_number=index,
+                )
+                for index in range(1, 6)
+            ]
+            for payload in payloads:
+                payload["epub_smoke"] = None
+            manifest_path, attempt_paths, _ = write_manifest_case(
+                ctx["repo_root"],
+                artifact=ctx["artifact"],
+                pdf_path=ctx["pdf_path"],
+                epub_path=ctx["epub_path"],
+                payloads=payloads,
+            )
+            epub_report_path = manifest_path.parent / "public-reader-app-report.md"
+            result = run_cli(
+                manifest_path,
+                "--epub-evidence-output",
+                str(epub_report_path),
+            )
+            self.assertEqual(result.returncode, 1, result.stderr)
+            report = epub_report_path.read_text(encoding="utf-8")
+            self.assertIn("Gate status: FAILED", report)
+            self.assertIn(
+                "Counted record SHA-256: "
+                f"{hashlib.sha256(attempt_paths[0].read_bytes()).hexdigest()}",
+                report,
+            )
+            self.assertIn("- Reader app class: `not recorded`", report)
+            self.assertIn(
+                "- Repeated start-route status: `NOT RECORDED`",
+                report,
+            )
+            self.assertNotIn("reader-01", report)
 
     def test_rejects_non_zip_epub_even_when_hashes_match_metadata(self) -> None:
         with temp_artifact_repo() as ctx:

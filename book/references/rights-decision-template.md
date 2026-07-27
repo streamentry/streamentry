@@ -1,6 +1,6 @@
 # Biểu mẫu quyết định quyền phát hành
 
-Checked: 2026-07-27
+Checked: 2026-07-26
 
 Biểu mẫu này buộc người ra quyết định nói rõ họ kiểm soát quyền nào và cho phép hành vi nào đối với *Hướng Đến Nhập Lưu*. Nó không phải giấy phép mặc định và không tự xác lập quyền. Nếu thẩm quyền hoặc luật áp dụng chưa rõ, dùng trạng thái `authority not established` và tìm tư vấn phù hợp.
 

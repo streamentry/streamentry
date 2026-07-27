@@ -1,6 +1,6 @@
 # Beginner reader test kit
 
-Checked: 2026-07-27
+Checked: 2026-07-26
 
 This kit operationalizes [`beginner-validation-protocol.md`](beginner-validation-protocol.md). It tests whether true beginners can find and correctly use the book without oral teaching. It does not test attainment, clinical efficacy, comparative market leadership, or whether every reader can practice safely.
 
@@ -15,7 +15,7 @@ Use the exact committed release files. One cohort tests one primary format so fo
 - Direct record children only: `build/beginner-pilot/<cohort-id>/records/*.json`
 - Final manifest: `build/beginner-pilot/<cohort-id>/manifest.json`
 
-All completed and stopped attempts go in the same `records/` directory and in one exact manifest order. Do not use separate optional folders or globs: that would reopen an omission path. Do not commit raw participant records. Publish only the scorer-produced aggregate report with artifact hashes, coarsened environment counts, gate results, limitations, and de-identified fixed-criterion misses. Raw free text requires separate human privacy review before any narrative theme is published.
+All completed and stopped attempts go in the same `records/` directory and in one exact manifest order. Do not use separate optional folders or globs: that would reopen an omission path. Do not commit raw participant records. Publish only the scorer-produced aggregate and reader-app reports with artifact hashes, bounded cohort bindings, gate results, limitations, and privacy-coarsened environment evidence. Raw free text requires separate human privacy review before any narrative theme is published.
 
 ## Roles and materials
 
@@ -36,7 +36,7 @@ The moderator must not explain Buddhist terms, point to pages, complete an answe
 
 Before recruitment:
 
-1. Commit the exact source, PDF, EPUB, both schemas, protocol, reader kit, scorer, and scoring modules to the canonical `streamentry/streamentry` repository. Fetch `origin/main`; the scorer requires the artifact commit to be in that local canonical history and rejects another `repo_root`.
+1. Commit the exact source, PDF, EPUB, both schemas, protocol, reader kit, scorer, and scoring modules to the canonical `streamentry/streamentry` repository. Fetch `origin/main`; the scorer requires the artifact commit to be in that local canonical history and rejects another `repo_root`. The later public-evidence commit may differ, but this frozen artifact commit must remain its ancestor and must itself contain the exact tested PDF and EPUB bytes.
 2. Choose a cohort ID, one primary format, `target_completed: 5`, `max_started_attempts: 7`, and `selection_rule: first_five_completed_eligible`.
 3. Freeze this EPUB section-finding prompt in the manifest header:
 
@@ -71,7 +71,7 @@ Read this before collecting data:
 
 Record only an explicit yes. Refusal before collection is not a started attempt and creates no record. After a consenting reader starts, any stop creates a minimal attempt record so the cohort cannot silently erase a failure. If the person requests full deletion rather than answer erasure, comply; the missing attempt invalidates that cohort, and a fresh cohort must use a new manifest.
 
-Use a random reader code. Do not put names, contact details, health histories, workplace names, exact addresses, or account identifiers in answers or notes. The validator rejects likely email addresses and phone numbers, but that bounded pattern check cannot detect every name, address or sensitive disclosure; the moderator must still review raw text before closure. Delete each raw pseudonymous record within 90 days of collection or 30 days after the final aggregate report, whichever comes first. Keep only the aggregate report and artifact hashes.
+Use a random reader code. Do not put names, contact details, health histories, workplace names, exact addresses, or account identifiers in answers or notes. The validator rejects likely email addresses and phone numbers, but that bounded pattern check cannot detect every name, address or sensitive disclosure; the moderator must still review raw text before closure. Delete each raw pseudonymous record within 90 days of collection or 30 days after the final aggregate report, whichever comes first. Keep only the two public scorer reports and artifact hashes.
 
 ## Stop categories and task states
 
@@ -255,10 +255,13 @@ After closure, set each record's `delete_by` to the earlier of 90 days after tha
 
 ```sh
 python3 scripts/score-beginner-pilot.py build/beginner-pilot/<cohort-id>/manifest.json \
-  --output build/beginner-pilot/<cohort-id>/aggregate-report.md
+  --output build/beginner-pilot/<cohort-id>/aggregate-report.md \
+  --epub-evidence-output build/beginner-pilot/<cohort-id>/reader-app-report.md
 ```
 
-The scorer refuses a drifting contract, an unexpected repository or origin, an artifact commit outside local `origin/main` history, uncommitted or mismatched artifacts, record additions or omissions, nested record directories, raw pilot data found in current Git tracking or reachable Git history, contradictory order, more than seven starts, a start after the fifth eligible completion, duplicate readers, overdue raw records, likely contact data, ineligible counted readers, missing consent, malformed EPUB structure, or invalid task states. It exits `0` for a valid PASS, `1` for a valid but failed cohort, and `2` for invalid evidence. The public report suppresses environment cells smaller than two and never includes first answers or free-text notes.
+The aggregate output records `Completed`, a scope-limit statement, the cohort ID, manifest SHA-256, and exactly five unique counted-record hashes. The `--epub-evidence-output` file carries the same cohort and manifest binding plus exactly one of those five record hashes. Both include a deterministic public-confirmation line, but neither authenticates a human signer.
+
+The scorer refuses a drifting contract, an unexpected repository or origin, an artifact commit outside local `origin/main` history, uncommitted or mismatched artifacts, record additions or omissions, nested record directories, raw pilot data found in current Git tracking or reachable Git history, contradictory order, more than seven starts, a start after the fifth eligible completion, duplicate readers, overdue raw records, likely contact data, ineligible counted readers, missing consent, malformed EPUB structure, or invalid task states. It exits `0` for a valid PASS, `1` for a valid but failed cohort, and `2` for invalid evidence. Public gate verification also rejects likely private email addresses or phone numbers in submitted evidence. The public reports never include first answers or free-text notes; the aggregate report suppresses environment cells smaller than two.
 
 Passing this cohort supports only: “This exact committed artifact passed the defined first-five beginner gate under the recorded local manifest.” The local origin and ancestry checks do not prove that `origin/main` was freshly fetched; verify the reported commit against public canonical history. Without an external append-only registry, the result also does not independently prove preregistration time or terminal-attempt completeness. It does not support “safe for everyone,” “clinically validated,” “best book,” or “number one.” A content fix invalidates the tested hashes and requires a fresh cohort whose readers did not see the failed wording.
 
