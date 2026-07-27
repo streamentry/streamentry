@@ -3,7 +3,7 @@
   "candidate_binding": "frozen_artifact_commit_ancestor_plus_release_evidence",
   "release_evidence": {
     "path": "book/references/release-evidence.md",
-    "sha256": "55dcddd8eeff327f2dd47fa3da4c2b7727dc48b7a513793fb885fe8844adddd1"
+    "sha256": "5ef8eccd47ef7f544a30cf8c78b910a27c72b0673515c4e14c160f405285884d"
   },
   "protocols": {
     "external_release_packet": {
@@ -16,7 +16,7 @@
     },
     "doctrinal_review": {
       "path": "book/references/doctrinal-review-protocol.md",
-      "sha256": "8df9fadc5d423f585e8695c77a85b96f17958f8c01fab302e527db89654ef3e4"
+      "sha256": "f591b53b68b5de7eafe8ee8d9744ba95c879f86e53a455fae07d5fb6570d6e05"
     },
     "clinical_safety_review": {
       "path": "book/references/clinical-safety-review-protocol.md",
@@ -28,7 +28,7 @@
     },
     "beginner_reader_kit": {
       "path": "book/references/beginner-reader-kit.md",
-      "sha256": "bb7ca2200488069ff44ce797e4b3bfb80d886f63c7fc8099b1efd8d46af83273"
+      "sha256": "059526b822bcf66d2d7c71133535b50fc9e8d807ec08d9b4379e7f4bae921b9d"
     },
     "comparative_beginner": {
       "path": "book/references/comparative-beginner-protocol.md",
