@@ -325,7 +325,9 @@ MN 2 nêu *vicikicchā* là kiết sử nhưng không cho một định nghĩa t
 
 Người đã vượt kiết sử này vẫn có thể hỏi bản dịch nào sát hơn, một vị thầy có đáng tin không, hoặc lời khuyên nào trái giới. Cấm hỏi và đòi phục tùng không phải bằng chứng của tịnh tín. Không tin một người dạy thiếu an toàn hay một lời trái giới có thể là phán đoán đúng, không phải chướng ngại phải ép bỏ.
 
-Người mới cũng không thể đoạn hoài nghi bằng cách cố cảm thấy chắc chắn. Hướng tu thực tế là bốn yếu tố ở K02: gần người chân chánh, nghe Chánh pháp, như lý tác ý và hành pháp thuận pháp. Hãy biến điều chưa rõ thành câu hỏi có thể kiểm chứng: nguồn nói gì; cách hiểu này có khớp Tứ Thánh Đế không; thực hành có giúp giảm tham, sân, si không; nó có gây hại không; điểm nào cần một người có năng lực sửa lại. Đây là cách học đúng hướng, không phải mô tả đầy đủ về sự đoạn kiết sử và không cho phép tự cấp quả.
+Người mới cũng không thể đoạn hoài nghi bằng cách cố cảm thấy chắc chắn. Hướng tu thực tế là bốn yếu tố ở K02: gần người chân chánh, nghe Chánh pháp, như lý tác ý và hành pháp thuận pháp.
+
+Thay vì ép mình tin, hãy đưa điều chưa rõ qua năm phép thử ở thẻ dưới: nguồn, Tứ Thánh Đế, tác động lên tham–sân–si, giới hạn an toàn và khả năng được người có năng lực sửa lại. Đây là hướng học có căn cứ, không phải mô tả đầy đủ về sự đoạn kiết sử và không cho phép tự cấp quả.
 
 Hoài nghi còn xuất hiện trong danh sách năm triền cái ở chương 6. Nghi sinh rồi diệt trong một buổi ngồi có thể được quan sát như một trạng thái đang che tâm; sự có mặt hay vắng mặt nhất thời ấy không đủ xác định hoài nghi như kiết sử đã còn hay đã đoạn.
 

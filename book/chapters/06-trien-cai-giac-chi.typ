@@ -101,7 +101,15 @@
   Bảy giác chi là niệm, trạch pháp, tinh tấn, hỷ, khinh an, định và xả. MN 10 yêu cầu biết mỗi chi khi có, khi không, nó sinh thế nào và được tu tập đến viên mãn thế nào. Đây là các phẩm chất cần nuôi lớn, không chỉ là trạng thái để dán nhãn.
 ])
 
-Nói gần nghĩa: *niệm* giữ việc cần biết trong tâm; *trạch pháp* xem xét hiện tượng theo Pháp; *tinh tấn* cung cấp năng lượng; *hỷ* làm tâm hứng khởi; *khinh an* làm thân tâm lắng dịu; *định* quy tụ tâm; *xả* giữ quân bình trước dễ chịu và khó chịu. Các nghĩa này đủ để dùng bảng cân bằng dưới đây, không thay cho phân tích đầy đủ trong luận giải.
+Nói gần nghĩa:
+
+- *Niệm* giữ việc cần biết trong tâm.
+- *Trạch pháp* xem xét hiện tượng theo Pháp.
+- *Tinh tấn* cung cấp năng lượng; *hỷ* làm tâm hứng khởi.
+- *Khinh an* làm thân tâm lắng dịu; *định* quy tụ tâm.
+- *Xả* giữ quân bình trước dễ chịu và khó chịu.
+
+Các nghĩa này đủ để dùng bảng cân bằng dưới đây, không thay cho phân tích đầy đủ trong luận giải.
 
 #source-line("KINH", [K13 · SN 46.53], [
   Khi tâm trì trệ, SN 46.53 khuyên phát triển trạch pháp, tinh tấn và hỷ; khinh an, định và xả không phải nhóm thích hợp để nâng một tâm đang lịm. Khi tâm chao động, quan hệ đảo lại: khinh an, định và xả giúp làm lắng, còn tăng khảo sát và năng lượng có thể khiến tâm động hơn. Niệm được nói là hữu ích trong mọi trường hợp.
@@ -128,6 +136,13 @@ Nếu điều chỉnh đề mục và cường độ không giúp, còn trạng 
   [
     #source-badge("BIÊN SOẠN", refs: [an toàn sức khỏe tâm thần])
     #v(5pt)
-    Buồn ngủ có thể do thiếu ngủ hoặc bệnh; bồn chồn có thể đi cùng hoảng sợ hay hưng cảm; cảm giác xa lạ với thân có thể là phân ly; tiếng nói và niềm tin bất thường có thể cần hỗ trợ chuyên môn. Nếu trạng thái kéo dài ngoài giờ thiền, làm mất ngủ, giảm khả năng làm việc hoặc làm bạn mất tiếp xúc với thực tại, hãy giảm hay dừng thực hành cường độ cao và tìm người hỗ trợ đủ năng lực. Đừng gọi mọi suy giảm chức năng là “thung lũng tuệ”.
+    Một tên pháp có thể che khuất những cách giải thích khác:
+
+    - Buồn ngủ có thể do thiếu ngủ hoặc bệnh.
+    - Bồn chồn có thể đi cùng hoảng sợ hay hưng cảm.
+    - Cảm giác xa lạ với thân có thể là phân ly.
+    - Tiếng nói hoặc niềm tin bất thường có thể cần hỗ trợ chuyên môn.
+
+    Nếu trạng thái kéo dài ngoài giờ thiền, làm mất ngủ, giảm khả năng làm việc hoặc làm bạn mất tiếp xúc với thực tại, hãy giảm hay dừng thực hành cường độ cao và tìm người hỗ trợ đủ năng lực. Đừng gọi mọi suy giảm chức năng là “thung lũng tuệ”.
   ],
 )

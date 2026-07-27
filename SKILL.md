@@ -100,12 +100,13 @@ chapters.
 
 Write contemporary Vietnamese that is precise, calm, and public-facing. Use full paragraphs, exact verbs, and varied cadence. Avoid em dashes, motivational fog, sectarian claims, and invented certainty. Define Pāli terms at first use and retain them only when translation would conceal a meaningful distinction.
 
-For beginner-facing prose, apply three gates before building:
+For beginner-facing prose, apply these gates before building:
 
 1. No technical term survives more than one sentence without a plain-language gloss or an explicit local pointer.
 2. Every chapter and major conceptual pivot says what it carries forward and why the next section follows.
 3. Every dense list has an orientation before it and a synthesis, example, or action after it.
 4. A first-use route must expose the next physical action, its local stop condition, and one direct fallback without forcing the reader through a distant chapter. Keep one canonical restart protocol and use short pointers elsewhere.
+5. In safety and decision passages, give each observable trigger or action its own list item. Treat sentence length as a review signal, not an automatic defect; preserve a long paragraph when its source-bound explanation is coherent and each inference remains visible.
 
 The glossary is a reference aid, not permission to leave the main reading path opaque.
 

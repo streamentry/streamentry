@@ -31,7 +31,13 @@ Hai nguồn trên không phải kinh điển Phật giáo và không thay thế 
 
 == Trước khi tăng cường độ <an-toan>
 
-Đừng tự đưa mình vào thời khóa khắc nghiệt nếu bạn đang khó phân biệt điều có thật với điều không thật; nghe hoặc thấy những điều người khác không thấy; suy giảm rõ việc ngủ, tự chăm sóc, học tập hay làm việc; đang nghĩ đến tự sát; hoặc đang được điều trị vì một bệnh tâm thần nghiêm trọng.
+Đừng tự tăng lên thời khóa cường độ cao nếu một trong các điều sau đang xảy ra:
+
+- Bạn khó phân biệt điều có thật với điều không thật.
+- Bạn nghe hoặc thấy những điều người khác không nghe hay thấy.
+- Giấc ngủ, việc tự chăm sóc, học tập hoặc làm việc suy giảm rõ.
+- Bạn đang nghĩ đến tự sát.
+- Bạn đang được điều trị vì một bệnh tâm thần nghiêm trọng.
 
 Cũng cần thận trọng nếu bạn có tiền sử sang chấn dễ bị khơi lại, cơn hoảng loạn, trạng thái phân ly hay cảm giác tách rời mình và thực tại, hoặc mất ngủ kéo dài từng làm sinh hoạt mất ổn định.
 
@@ -80,7 +86,14 @@ Liên hệ sớm với chuyên gia sức khỏe tâm thần hoặc cơ sở y t�
 
 #v(8pt)
 
-Ngừng thực hành và tìm trợ giúp khẩn cấp nếu có ý định, kế hoạch hoặc hành vi chuẩn bị tự sát; thôi thúc làm hại người khác; mất liên hệ với thực tế kèm hành vi nguy hiểm; hoặc không còn giữ được an toàn cho bản thân. Đừng để người đang có nguy cơ tự sát tức thời ở một mình. Liên hệ dịch vụ cấp cứu tại nơi đang sống hoặc đưa họ đến cơ sở cấp cứu gần nhất nếu có thể làm vậy một cách an toàn.
+Ngừng thực hành và tìm trợ giúp khẩn cấp khi có một trong các tình huống sau:
+
+- Có ý định, kế hoạch hoặc hành vi chuẩn bị tự sát.
+- Có thôi thúc làm hại người khác.
+- Mất liên hệ với thực tế và đang có hành vi nguy hiểm.
+- Không còn giữ được an toàn cho bản thân.
+
+Đừng để người đang có nguy cơ tự sát tức thời ở một mình. Liên hệ dịch vụ cấp cứu tại nơi đang sống, hoặc đưa họ đến cơ sở cấp cứu gần nhất nếu có thể làm vậy một cách an toàn.
 
 #source-line("Y TẾ & NGHIÊN CỨU", [R10], [Nghị định 200/2025/NĐ-CP quy định Tổng đài 112 tiếp nhận thông tin về sự cố, thiên tai, thảm họa, nguy cơ và yêu cầu trợ giúp; hoạt động liên tục 24 giờ, miễn cước gọi từ thuê bao cố định và di động, đồng thời liên thông với 113, 114 và 115. Cổng Thông tin điện tử Chính phủ thông báo hệ thống chính thức hoạt động từ ngày 23 tháng 8 năm 2025 và tiếp nhận cả tai nạn cùng tình huống nguy cấp cần trợ giúp.])
 

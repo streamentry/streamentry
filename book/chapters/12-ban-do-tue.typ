@@ -99,7 +99,9 @@ Ngay cả khi bốn điều ấy có vẻ khớp, “đang ở vùng này” v�
 
 Không có thao tác riêng để “làm ra” sợ hãi, tan rã hay xả. Cố tạo đúng cảm giác là tập diễn theo bản đồ, không phải thấy điều đang xảy ra. Trong lộ trình P02, phần có thể chủ động là giữ giới và an toàn; chọn đối tượng chính đủ rõ; ghi nhận các hiện tượng thân-tâm nổi bật; trở về đối tượng chính; nuôi sự liên tục vừa sức; rồi để đặc tính của tiến trình tự lộ.
 
-Vì vậy, câu “làm sao đạt tuệ sinh-diệt?” được đổi thành câu thực dụng hơn: “tôi đang làm gì để thân-tâm được biết liên tục, trực tiếp và không bị ham thích hiện tượng phụ làm lệch?” Câu “làm sao đạt xả?” được đổi thành: “tôi có đang thêm lực, giữ trạng thái, hay tiếp tục biết dễ chịu và khó chịu với cùng một sự tỉnh táo?” Bản đồ chỉ đúng khi nó đưa người đọc trở về công việc quan sát; nó sai chức năng ngay khi biến thành kịch bản để tái tạo cảm giác.
+Với tuệ sinh-diệt, hãy đổi câu “làm sao đạt?” thành: “tôi đang làm gì để thân-tâm được biết liên tục, trực tiếp và không bị ham thích hiện tượng phụ làm lệch?” Với xả, hãy hỏi: “tôi có đang thêm lực, giữ trạng thái, hay tiếp tục biết dễ chịu và khó chịu với cùng một sự tỉnh táo?”
+
+Bản đồ chỉ đúng khi nó đưa người đọc trở về việc quan sát. Nó sai chức năng ngay khi biến thành kịch bản để tái tạo cảm giác.
 
 #practice-card(
   [Đọc chương này theo ba lượt],
