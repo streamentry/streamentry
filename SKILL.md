@@ -16,7 +16,7 @@ description: Maintain and publish the Vietnamese Typst handbook Hướng Đến 
 7. Preserve the original Markdown unchanged.
 8. For beginner validation, use `book/references/beginner-reader-kit.md` together with `book/references/beginner-validation-protocol.md`; freeze the cohort with `book/references/beginner-pilot-cohort-manifest.schema.json`, record every ordered attempt with `book/references/beginner-pilot-record.schema.json`, and pass only the manifest to `scripts/score-beginner-pilot.py`.
 9. For independent doctrine review, use `book/references/doctrinal-review-protocol.md` together with the frozen segment map in `book/references/attainment-source-audit.md`; recheck the passages rather than inheriting the internal verdicts, and never convert an internal audit into external endorsement.
-10. For release rights and all external gates, start with `book/references/external-release-packet.md`; use `rights-decision-template.md` and `clinical-safety-review-protocol.md` for their separate scopes. Terminal gates require the canonical evidence roles and mandatory public fields documented in `book/references/external-evidence/README.md`; do not substitute one generic report for a required bundle.
+10. For release rights and all external gates, start with `book/references/external-release-packet.md`; use `rights-materials-inventory.md` before completing `rights-decision-template.md`, and use `clinical-safety-review-protocol.md` for its separate scope. Recheck the inventory facts instead of treating them as legal conclusions. Terminal gates require the canonical evidence roles and mandatory public fields documented in `book/references/external-evidence/README.md`; do not substitute one generic report for a required bundle.
 11. Build `scripts/build-external-review-packet.py` from a clean candidate when issuing work orders. Treat the resulting ignored ZIP as a deterministic handoff aid, never as evidence that a gate passed.
 
 ## Edition and Locale Contract
@@ -77,7 +77,7 @@ Use one of six visible source classes:
 
 Never label modern schedules, percentages, diagnostic heuristics, or attainment promises as `KINH`. “The Pāli discourses state” is different from “empirical fact.” Keep that distinction explicit.
 
-For attainment language, keep the first three fetters, the full five lower fetters, the four fruits, and DN 2's broader discourse title distinct. Use Chapter 10 for the first three fetters, Chapter 11 for the wider 3–5–4 classification, the glossary for direct lookup, claim codes C41–C45 as the canonical project anchors, and `attainment-source-audit.md` for the immutable passage-level audit.
+For attainment language, keep the first three fetters, the full five lower fetters, the four fruits, and DN 2's broader discourse title distinct. Use Chapter 10 for the first three fetters, Chapter 11 for the wider 3–5–4 classification, the glossary for direct lookup, claim codes C41–C45 as the canonical project anchors, C66 for the bounded object/basis/means teaching model, and `attainment-source-audit.md` for the immutable passage-level audit. Never present that teaching model or its meditation case as a canonical 1–2–3 sequence.
 
 ## Writing Contract
 
