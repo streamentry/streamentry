@@ -10,8 +10,8 @@ The 80-item scoring is a static content review adapted from a web-oriented bench
 - **Artifact**: standalone Vietnamese handbook, not a website
 - **Audit scope**: book prose, references, frontmatter, chapter structure, appendices, and repo-level publication contract
 - **Artifact gate**: **PASS as an internally verified candidate**
-- **Commit binding**: **Bound by the enclosing clean Git commit and artifact hashes; do not copy this audit out of that tree**
-- **External beginner, doctrinal, and clinical-safety gate**: **BLOCKED until the defined tests and reviews are actually run**
+- **Commit binding**: **Bound to the frozen ancestor commit that contains the exact PDF and EPUB bytes; later evidence may live in a descendant commit**
+- **External beginner, doctrinal, and clinical-safety gate**: **OPEN and not passed until the defined tests and reviews are actually run**
 - **Market-leadership claim**: **NOT ESTABLISHED**
 - **Book-applicable score**: **88.4/100**
 - **GEO analogue**: **93.8/100**
@@ -90,7 +90,7 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 | R04 | Pass | Claim-to-source mapping is explicit in the ledger and repeated in the chapter provenance badges. | None |
 | R05 | Pass | The claim ledger includes a strength scale and caveat column, so methodology is visible. | None |
 | R06 | Pass | `book/references/claim-ledger.md`, `book/references/editorial-depth-audit.md`, and `book/chapters/99-nguon.typ` are date-checked. | None |
-| R07 | Pass | The book uses precise entity codes K01–K37, P01–P02, V01, and R01–R09 instead of vague source language; every used code resolves in the source map. | None |
+| R07 | Pass | The book uses precise entity codes K01–K39, P01–P02, V01, and R01–R09 instead of vague source language; every used code resolves in the source map. | None |
 | R08 | Pass | Cross-references connect chapters, appendices, claim ledger, and source map. | None |
 | R09 | Pass | `book/theme.typ` uses semantic HTML elements and bookmarks rather than decorative-only structure. | None |
 | R10 | Pass | The manuscript keeps its own internal claims consistent, especially around stream-entry, safety, and source-tier boundaries. | None |
@@ -180,4 +180,4 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 
 ## Conclusion
 
-This is internally verified as a handbook and dual-format candidate bound by its enclosing clean commit and exact artifact hashes. Its external work is now packaged and machine-indexed, but no external gate has been completed. It is not independently validated or top-1 proven. The strongest remaining work is executing rights clearance and external evidence, not more unsourced prose.
+This is internally verified as a handbook and dual-format candidate bound to a frozen ancestor commit containing the exact artifact bytes. Its external work is now packaged and machine-indexed, but no external gate has been completed. It is not independently validated or top-1 proven. The strongest remaining work is executing rights clearance and external evidence, not more unsourced prose.
