@@ -2,7 +2,7 @@
 
 Checked: 2026-07-27
 
-The 80-item scoring is a static content review adapted from a web-oriented benchmark. The exact current checks are recorded in [`release-evidence.md`](release-evidence.md): the PDF has 148 A5 pages, the EPUB has 153 nested content entries plus one cover entry in its table of contents, and EPUBCheck 5.3.0 reports 0 fatals, 0 errors, and 0 warnings. The current local rerun could not relaunch the cached Chrome process for DAISY Ace, so Ace for this exact artifact remains pending the pinned CI browser environment rather than being claimed as locally reconfirmed. The 2026-07-27 content pass deepened the first three fetters, clarified the 3–5–4 relation, expanded the four-fruit bridge, added glossary rescue entries for sensual desire, ill will, and path-versus-fruit terminology, and refreshed the release contract to the new artifact identity. Those internal controls do not replace the human decisions and tests.
+The 80-item scoring is a static content review adapted from a web-oriented benchmark. The exact current checks are recorded in [`release-evidence.md`](release-evidence.md): the PDF has 148 A5 pages, the EPUB has 153 nested content entries plus one cover entry in its table of contents, EPUBCheck 5.3.0 reports 0 fatals, 0 errors, and 0 warnings, and DAISY Ace 1.4.6 reports no issue in the package or three XHTML documents. The 2026-07-27 content pass deepened the first three fetters, clarified the 3–5–4 relation, expanded the four-fruit bridge, added glossary rescue entries for sensual desire, ill will, and path-versus-fruit terminology, and refreshed the release contract to the new artifact identity. Those internal controls do not replace the human decisions and tests.
 
 ## Overview
 
@@ -90,7 +90,7 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 | R04 | Pass | Claim-to-source mapping is explicit in the ledger and repeated in the chapter provenance badges. | None |
 | R05 | Pass | The claim ledger includes a strength scale and caveat column, so methodology is visible. | None |
 | R06 | Pass | `book/references/claim-ledger.md`, `book/references/editorial-depth-audit.md`, and `book/chapters/99-nguon.typ` are date-checked. | None |
-| R07 | Pass | The book uses precise entity codes K01–K39, P01–P02, V01, and R01–R09 instead of vague source language; every used code resolves in the source map. | None |
+| R07 | Pass | The book uses precise entity codes K01–K40, P01–P02, V01, and R01–R09 instead of vague source language; every used code resolves in the source map. | None |
 | R08 | Pass | Cross-references connect chapters, appendices, claim ledger, and source map. | None |
 | R09 | Pass | `book/theme.typ` uses semantic HTML elements and bookmarks rather than decorative-only structure. | None |
 | R10 | Pass | The manuscript keeps its own internal claims consistent, especially around stream-entry, safety, and source-tier boundaries. | None |
