@@ -61,7 +61,7 @@
 #reference-item(
   [K08],
   [Các quả tại Ñātika, Gương Pháp và lời dạy cuối, Dīgha Nikāya 16],
-  [Các đoạn 2.6–2.9 phân loại người đã mất theo các quả, gồm hơn năm trăm nam cư sĩ Nhập lưu và hơn năm mươi nam cư sĩ đoạn năm hạ phần kiết sử; phần Gương Pháp kế tiếp nêu tịnh tín nơi Phật, Pháp, Tăng và giới hạnh được bậc Thánh quý trọng. Ở lời dạy cuối, Đức Phật hỏi hội chúng có còn nghi hoặc đối với Phật, Pháp, Tăng, con đường hoặc sự thực hành hay không.],
+  [Các đoạn 2.6–2.9 nêu nữ cư sĩ Sujātā là bậc Nhập lưu, nam cư sĩ Sudatta là bậc Nhất lai, tỳ-kheo-ni Nandā và các nam cư sĩ khác ở quả Bất lai; tổng số gồm hơn năm trăm nam cư sĩ Nhập lưu và hơn năm mươi nam cư sĩ đoạn năm hạ phần kiết sử. Phần Gương Pháp kế tiếp nêu tịnh tín nơi Phật, Pháp, Tăng và giới hạnh được bậc Thánh quý trọng. Ở lời dạy cuối, Đức Phật hỏi hội chúng có còn nghi hoặc đối với Phật, Pháp, Tăng, con đường hoặc sự thực hành hay không, rồi nói người thấp nhất trong năm trăm tỳ-kheo cũng là bậc Nhập lưu.],
   "https://suttacentral.net/dn16/en/sujato",
 )
 

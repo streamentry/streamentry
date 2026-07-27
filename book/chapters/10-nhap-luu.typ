@@ -513,6 +513,33 @@ Những việc này có thể có ý nghĩa trong bối cảnh riêng, nhưng t�
 
 Các phát biểu về tái sinh và đọa xứ là khẳng định tôn giáo của kinh tạng. Cuốn sách này không đưa ra bằng chứng thực nghiệm hiện đại để xác lập chúng như dữ kiện khoa học. Ranh giới trung thực là trình bày đúng điều kinh tuyên bố, không lén đổi loại bằng chứng.
 
+== Ai có thể đạt Nhập lưu theo lời kinh? <ai-co-the-nhap-luu>
+
+Câu trả lời chặt nhất của kinh không bắt đầu bằng giới tính, nghề nghiệp hay địa vị xuất gia. SN 55.5 gọi người thành tựu Bát Thánh đạo là bậc Nhập lưu. MN 2 đặt ranh giới quả này ở việc ba kiết sử đầu được đoạn. Vì vậy, tiêu chuẩn nằm ở đạo lộ và sự chuyển hóa được kinh nêu, không nằm ở nhãn xã hội của người ấy.
+
+DN 16 cho thấy phạm vi này bằng những trường hợp cụ thể:
+
++ *Tỳ-kheo:* trong lời dạy cuối, Đức Phật nói người có mức chứng thấp nhất trong hội chúng năm trăm tỳ-kheo cũng là bậc Nhập lưu.
++ *Nam cư sĩ:* tại Ñātika, bài kinh nói hơn năm trăm nam cư sĩ đã qua đời là bậc Nhập lưu.
++ *Nữ cư sĩ:* Sujātā được nêu đích danh là bậc Nhập lưu.
++ *Tỳ-kheo-ni:* Nandā được nêu là bậc Bất lai, một mốc cao hơn Nhập lưu trong cùng hệ thống bốn quả.
+
+#source-line("KINH", [K08 · DN 16, đoạn Ñātika và lời dạy cuối], [
+  DN 16 nêu người xuất gia và tại gia, nam và nữ, trong các phân loại Thánh quả. Riêng ở mốc Nhập lưu, bài kinh trực tiếp nêu năm trăm tỳ-kheo, hơn năm trăm nam cư sĩ và nữ cư sĩ Sujātā; tỳ-kheo-ni Nandā được nêu ở quả Bất lai. Các ví dụ đủ bác bỏ ý nghĩ rằng Nhập lưu là đặc quyền của nam giới hoặc người xuất gia.
+])
+
+Kết luận được nguồn gánh là: *đời sống tại gia và giới tính nữ không tự loại trừ khả năng chứng Thánh quả*. Kết luận nguồn không gánh là: mọi người chắc chắn sẽ chứng trong đời này, một nhóm có tỉ lệ chứng bao nhiêu, hoặc chỉ cần mang một danh phận trên là đủ. DN 16 kể các trường hợp đã được phân loại; nó không cung cấp thống kê hiện đại, lịch chứng đắc hay công thức bảo đảm.
+
+#practice-card(
+  [Đừng trả lời “ai có thể?” bằng căn cước],
+  [
+    Nếu câu trả lời là “chỉ người xuất gia”, DN 16 phản bác bằng các cư sĩ. Nếu câu trả lời là “chỉ nam giới”, Sujātā và Nandā phản bác. Nếu câu trả lời là “bất kỳ ai cũng chắc chắn đạt được”, kinh không cho lời bảo đảm ấy.
+
+    Câu trả lời có giới hạn hơn là: kinh không dành Thánh quả riêng cho một giới tính hay địa vị xuất gia; người được gọi là Nhập lưu phải được hiểu bằng Bát Thánh đạo, ba kiết sử đầu và các phẩm chất đã giải thích trong chương này.
+  ],
+  label: [KHẢ NĂNG KHÔNG PHẢI BẢO ĐẢM · K06; K08; K11],
+)
+
 == Đi về phía dòng mà không hứa ngày đến
 
 #source-line("KINH", [K02 · SN 55.50; K06 · SN 55.5], [Các điều kiện đưa đến Nhập lưu là thân cận người chân chánh, nghe Chánh pháp, như lý tác ý và thực hành đúng theo Pháp. Dòng mà các điều kiện ấy hướng tới là Bát Thánh đạo.])
@@ -544,8 +571,9 @@ Người tại gia có thể làm phần việc trước mắt: giữ giới, s�
     3. Một câu hỏi tìm chứng cứ khác hoài nghi như kiết sử ở điểm nào?
     4. Giữ giới đúng chức năng khác chấp thủ giới-tập tục như bùa bảo chứng ra sao?
     5. Nêu một trải nghiệm có thể quan trọng nhưng tự nó không đủ chứng minh Nhập lưu.
+    6. Kinh bác bỏ hai giới hạn căn cước nào đối với Nhập lưu, và vì sao điều đó vẫn không thành lời bảo đảm cho mọi cá nhân?
 
-    Sau khi trả lời, mở lại #link(<ba-kiet-su>)[phần ba kiết sử] và #link(<khong-du-ket-luan>)[danh sách giới hạn]. Nếu câu trả lời đổi sau khi xem lại, hãy ghi đúng chỗ đã nhầm thay vì tự chấm điểm. Khung năm hạ phần và bốn quả được tự kiểm riêng ở chương 11.
+    Sau khi trả lời, mở lại #link(<ba-kiet-su>)[phần ba kiết sử], #link(<khong-du-ket-luan>)[danh sách giới hạn] và #link(<ai-co-the-nhap-luu>)[phần “ai có thể?”]. Nếu câu trả lời đổi sau khi xem lại, hãy ghi đúng chỗ đã nhầm thay vì tự chấm điểm. Khung năm hạ phần và bốn quả được tự kiểm riêng ở chương 11.
   ],
   label: [TỰ KIỂM KHÔNG NHÌN SÁCH],
 )

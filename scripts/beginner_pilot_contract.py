@@ -33,6 +33,7 @@ TASK_CRITERIA = {
     "insight_map": (
         "explains_change_in_way_of_knowing",
         "distinguishes_maturation_from_stage_production",
+        "distinguishes_phenomenon_glimpse_region_and_attainment",
         "rejects_stage_diagnosis",
         "chapter_12_is_later_reference",
         "names_alternative_or_longitudinal_context",
@@ -46,6 +47,7 @@ TASK_CRITERIA = {
         "names_first_three_fetters",
         "distinguishes_first_three_from_five_lower",
         "maps_stream_entry_and_non_returning",
+        "rejects_monastic_or_male_only_restriction",
         "distinguishes_four_fruits_from_dn2_title",
     ),
 }

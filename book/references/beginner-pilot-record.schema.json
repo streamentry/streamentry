@@ -464,6 +464,7 @@
       "required": [
         "explains_change_in_way_of_knowing",
         "distinguishes_maturation_from_stage_production",
+        "distinguishes_phenomenon_glimpse_region_and_attainment",
         "rejects_stage_diagnosis",
         "chapter_12_is_later_reference",
         "names_alternative_or_longitudinal_context"
@@ -471,6 +472,7 @@
       "properties": {
         "explains_change_in_way_of_knowing": { "type": "boolean" },
         "distinguishes_maturation_from_stage_production": { "type": "boolean" },
+        "distinguishes_phenomenon_glimpse_region_and_attainment": { "type": "boolean" },
         "rejects_stage_diagnosis": { "type": "boolean" },
         "chapter_12_is_later_reference": { "type": "boolean" },
         "names_alternative_or_longitudinal_context": { "type": "boolean" }
@@ -497,12 +499,14 @@
         "names_first_three_fetters",
         "distinguishes_first_three_from_five_lower",
         "maps_stream_entry_and_non_returning",
+        "rejects_monastic_or_male_only_restriction",
         "distinguishes_four_fruits_from_dn2_title"
       ],
       "properties": {
         "names_first_three_fetters": { "type": "boolean" },
         "distinguishes_first_three_from_five_lower": { "type": "boolean" },
         "maps_stream_entry_and_non_returning": { "type": "boolean" },
+        "rejects_monastic_or_male_only_restriction": { "type": "boolean" },
         "distinguishes_four_fruits_from_dn2_title": { "type": "boolean" }
       }
     },

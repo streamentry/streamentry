@@ -79,9 +79,18 @@ class BeginnerPilotV2SchemaParityTests(unittest.TestCase):
         expected = {
             "explains_change_in_way_of_knowing",
             "distinguishes_maturation_from_stage_production",
+            "distinguishes_phenomenon_glimpse_region_and_attainment",
         }
         self.assertTrue(expected <= required)
         self.assertTrue(expected <= set(TASK_CRITERIA["insight_map"]))
+
+    def test_fetter_contract_rejects_status_and_gender_exclusivity(self) -> None:
+        required = set(
+            self.record_schema["$defs"]["criteria_fetters_and_fruits"]["required"]
+        )
+        criterion = "rejects_monastic_or_male_only_restriction"
+        self.assertIn(criterion, required)
+        self.assertIn(criterion, TASK_CRITERIA["fetters_and_fruits"])
 
     def test_epub_smoke_contract_includes_repeated_task_evidence_objects(self) -> None:
         required = set(self.record_schema["$defs"]["epub_smoke"]["required"])
