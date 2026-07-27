@@ -63,6 +63,89 @@ GATE_ASSIGNMENTS = {
         ("book/references/comparative-beginner-protocol.md",),
     ),
 }
+GATE_START_STEPS = {
+    "redistribution_rights": (
+        "Đối chiếu commit, hai mã băm và số trang ở đầu phiếu với các artifact "
+        "đã nhận.",
+        "Đọc biểu mẫu quyết định cùng bảng kê vật liệu; xác minh ai có thẩm quyền "
+        "đối với từng quyền và ghi rõ mọi điểm còn mở.",
+        "Hoàn tất, ký và trả quyết định gắn đúng ứng viên, gồm nguyên phần tóm tắt "
+        "máy đọc bắt buộc.",
+    ),
+    "doctrinal_review": (
+        "Đối chiếu commit, hai mã băm và số trang ở đầu phiếu với các artifact "
+        "đã nhận.",
+        "Khai phạm vi, năng lực và xung đột trước khi đọc; sau đó hoàn tất toàn bộ "
+        "kiểm tra bắt buộc và các đoạn ưu tiên trong protocol.",
+        "Trả báo cáo có từng phát hiện, mức độ, căn cứ và kết quả kiểm tra lại sau "
+        "sửa; không dùng một nhận xét chung thay báo cáo.",
+    ),
+    "clinical_safety_review": (
+        "Đối chiếu commit, hai mã băm và số trang ở đầu phiếu với các artifact "
+        "đã nhận.",
+        "Khai miền chuyên môn nhận kiểm và phần ngoài năng lực; phân công thêm "
+        "người nếu một chuyên gia không bao phủ đủ phạm vi bắt buộc.",
+        "Trả từng báo cáo có cơ chế nguy hại, căn cứ, mức độ, đề nghị sửa và kết "
+        "quả kiểm tra lại đối với đúng ứng viên.",
+    ),
+    "beginner_cohort": (
+        "Giải nén packet, vào `repository`, kiểm môi trường bằng "
+        "`python3 scripts/prepare-beginner-pilot.py --help`; chưa tuyển người.",
+        "Chạy lệnh `init` để khóa ứng viên và hợp đồng, rồi ghi biên nhận đăng ký "
+        "trước vào sổ nối thêm bên ngoài trước lần thử đầu.",
+        "Dùng đúng lời đồng thuận và thứ tự lần thử; chỉ chạy `finalize` sau khi "
+        "mọi lần bắt đầu đã được ghi đủ.",
+    ),
+    "epub_reader_app": (
+        "Chọn một người thuộc năm bản ghi được tính và bật EPUB smoke test ngay "
+        "khi mở lần thử của người ấy.",
+        "Ghi đúng ứng dụng, phiên bản, loại thiết bị, cỡ chữ 150%, chế độ tối, hai "
+        "tác vụ lặp lại và tám kiểm tra hiển thị.",
+        "Dùng `finalize` để sinh báo cáo ứng dụng đọc; không viết tay một báo cáo "
+        "thay cho đầu ra đã khóa.",
+    ),
+    "comparative_evidence": (
+        "Kiểm lại khả năng mua hợp pháp đúng các ấn bản trong panel và khóa mọi "
+        "thay thế trước khi tuyển người.",
+        "Đăng ký trước Phase A, tiêu chí tương đương, phân nhóm, outcome, phân tích "
+        "và quy tắc dừng; chưa dùng dữ liệu kết quả để sửa đăng ký.",
+        "Chạy pilot chẩn đoán trước; chỉ mở nghiên cứu xác nhận sau khi công bố "
+        "simulation cỡ mẫu và toàn bộ thay đổi đã khóa.",
+    ),
+}
+GATE_OUTPUTS = {
+    "redistribution_rights": (
+        "Một hồ sơ công khai riêng có `Evidence role: rights_decision`, dùng đúng "
+        "biểu mẫu quyền, ký và gắn với commit cùng hai mã băm."
+    ),
+    "doctrinal_review": (
+        "Một hồ sơ công khai riêng có `Evidence role: doctrinal_review_report`, "
+        "không còn phát hiện blocking hoặc major chưa xử lý."
+    ),
+    "clinical_safety_review": (
+        "Một hoặc nhiều hồ sơ công khai, mỗi hồ sơ có "
+        "`Evidence role: clinical_safety_review_report`, bao phủ đủ miền chuyên "
+        "môn mà không làm mờ phần ngoài phạm vi."
+    ),
+    "beginner_cohort": (
+        "Bốn hồ sơ công khai riêng: `aggregate_report`, "
+        "`preregistration_receipt`, `public_history_confirmation` và "
+        "`privacy_review_confirmation`."
+    ),
+    "epub_reader_app": (
+        "Một hồ sơ công khai có `Evidence role: reader_app_report`, do `finalize` "
+        "sinh và gắn với một trong năm bản ghi được tính."
+    ),
+    "comparative_evidence": (
+        "Hai hồ sơ công khai riêng: `preregistration_receipt` và "
+        "`comparative_results`, cùng chỉ hỗ trợ kết luận hẹp đã đăng ký."
+    ),
+}
+PARTICIPANT_GATES = {
+    "beginner_cohort",
+    "epub_reader_app",
+    "comparative_evidence",
+}
 PILOT_RUNTIME_PATHS = (
     "scripts/beginner_pilot.py",
     "scripts/beginner_pilot_artifact.py",
@@ -139,15 +222,29 @@ def assignment_text(gate_id: str, snapshot: PacketSnapshot) -> str:
     status = dict(snapshot.gate_statuses)[gate_id]
     protocol_lines = "\n".join(f"- `repository/{path}`" for path in protocols)
     runtime_paths = GATE_RUNTIME_PATHS.get(gate_id, ())
+    start_steps = "\n".join(
+        f"{index}. {step}"
+        for index, step in enumerate(GATE_START_STEPS[gate_id], start=1)
+    )
+    output = GATE_OUTPUTS[gate_id]
     runtime_section = (
         "\n## Runtime kèm theo\n\n"
         + "\n".join(f"- `repository/{path}`" for path in runtime_paths)
         + (
-            "\n\nGiải nén packet, vào thư mục `repository`, rồi dùng "
-            "`python3 scripts/prepare-beginner-pilot.py --help`. "
-            "Không tải một scorer khác từ mạng cho cohort đã khóa.\n"
+            "\n\nKhông tải một scorer khác từ mạng cho cohort đã khóa.\n"
         )
         if runtime_paths
+        else ""
+    )
+    participant_boundary = (
+        """
+Với công việc có người tham gia, không gửi toàn bộ ZIP, giao thức, schema,
+scorer, rubric hay tiêu chí đạt cho họ trước khi hoàn tất câu trả lời đầu tiên.
+Người tham gia chỉ nhận đúng artifact và vật liệu mà protocol cho phép. Nếu một
+người đã xem rubric hoặc tiêu chí chấm, xử lý lần thử đúng quy tắc của protocol;
+không che giấu việc lộ tiêu chí.
+"""
+        if gate_id in PARTICIPANT_GATES
         else ""
     )
     return f"""# Phiếu phân công: {title}
@@ -163,6 +260,14 @@ PDF pages: `{snapshot.release.pdf_pages}`
 ## Quyết định được yêu cầu
 
 {decision}
+
+## Bắt đầu trong 10 phút
+
+{start_steps}
+
+## Đầu ra phải trả
+
+{output}
 
 ## Tài liệu điều khiển
 
@@ -187,12 +292,7 @@ Các chủ đề ngoài phạm vi:
 ## Ranh giới bàn giao
 
 Packet đầy đủ chỉ dành cho người điều phối, người phản biện hoặc người ra quyết
-định của cổng này. Với cohort người mới và thử ứng dụng EPUB, không gửi toàn bộ
-ZIP, giao thức, schema, scorer, rubric hay tiêu chí đạt cho người tham gia trước
-khi họ hoàn tất câu trả lời đầu tiên. Người tham gia chỉ được nhận đúng PDF hoặc
-EPUB ứng viên, lời mời và đồng thuận, cùng từng câu hỏi nguyên văn được hiển thị
-theo bộ công cụ người đọc. Nếu một người đã xem rubric hoặc tiêu chí chấm, không
-tính lần thử ấy vào cohort đã đăng ký.
+định của cổng này.{participant_boundary}
 
 Không ghi email, số điện thoại, địa chỉ hoặc dữ liệu người tham gia vào hồ sơ công
 khai. Packet này chỉ khóa ứng viên và yêu cầu công việc; nó không làm cổng được

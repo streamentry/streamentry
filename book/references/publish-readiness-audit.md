@@ -55,6 +55,15 @@ that an offer is not review evidence. The call appears at the point where an
 expert is most likely to inspect source responsibility rather than interrupting
 the novice's first practice route.
 
+A first-contact audit of the generated coordinator packet then found that a
+complete archive still required each recipient to infer how to start and what
+file to return. Every role assignment now gives exactly three ordered startup
+actions and names its required public evidence role or roles. The long
+rubric-disclosure warning now appears only on participant gates rather than on
+rights, doctrinal and clinical work orders. This reduces reviewer startup
+friction without weakening candidate hashes, competence checks, privacy or the
+rule that packet construction is not evidence.
+
 ## Overview
 
 - **Content**: *Hướng Đến Nhập Lưu*
