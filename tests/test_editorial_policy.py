@@ -40,7 +40,7 @@ class EditorialPolicyTests(unittest.TestCase):
         cls.source_chapter = SOURCE_CHAPTER_PATH.read_text(encoding="utf-8")
         cls.audit = AUDIT_PATH.read_text(encoding="utf-8")
 
-    def test_reader_surfaces_link_the_policy_and_correction_form(self) -> None:
+    def test_reader_surfaces_link_policy_correction_and_review_intake(self) -> None:
         self.assertIn(
             "[Chính sách biên tập và sửa sai](EDITORIAL_POLICY.md)",
             self.readme,
@@ -48,6 +48,9 @@ class EditorialPolicyTests(unittest.TestCase):
         self.assertIn(CORRECTION_URL, self.readme)
         self.assertIn(POLICY_URL, self.source_chapter)
         self.assertIn(CORRECTION_URL, self.source_chapter)
+        self.assertIn(REVIEW_INTEREST_URL, self.source_chapter)
+        self.assertIn("Một đề nghị chưa phải báo cáo thẩm định", self.source_chapter)
+        self.assertIn("không đăng email, số điện thoại", self.source_chapter)
 
     def test_policy_exposes_required_boundaries(self) -> None:
         headings = {
