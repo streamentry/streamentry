@@ -1,6 +1,6 @@
 # Independent doctrinal review protocol
 
-Checked: 2026-07-26
+Checked: 2026-07-27
 
 This protocol turns “reviewed by a Theravāda expert” into a claim that can be audited. It does not manufacture endorsement. Until a named reviewer completes and signs the report for exact artifact hashes, the book must continue to say that no independent doctrinal review has been established.
 
@@ -66,6 +66,7 @@ At minimum, review:
 - Chapter 12, the seven purifications and progress-of-insight map;
 - Appendix C, because direct answers are likely to be quoted without surrounding caveats;
 - Appendix D, because glossary definitions can harden an editorial gloss into an apparent doctrine;
+- Appendix E, because its visual compression must remain an editorial retrieval aid rather than an apparent canonical sequence or new path model;
 - the complete claim ledger and source map.
 - the frozen passage matrix in `attainment-source-audit.md`, checking its
   segment selections against the cited editions rather than treating the

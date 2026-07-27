@@ -2,7 +2,7 @@
 
 Checked: 2026-07-27
 
-The 80-item scoring is a static content review adapted from a web-oriented benchmark. The exact current checks are recorded in [`release-evidence.md`](release-evidence.md): the current artifact counts and hashes are regenerated after every content change, EPUBCheck and DAISY Ace must pass, and the candidate remains below every external gate until the named evidence exists. The 2026-07-27 content passes deepened the first three fetters, clarified the 3–5–4 and four-fruit relation, supplied a source-bounded explanation of why seeing not-self directly opposes identity view, and rebuilt Chapter 12 so a reader need not know the *Visuddhimagga* before understanding the insight map. Chapter 5 now turns “salient object” into a stay–switch–act decision, supplies a complete worked noting loop, and makes P01's historical pain instruction conflict visible rather than silently replacing it. Chapter 7 now distinguishes task-first attention, a brief response check, and formal practice; places immediate protection before introspection; and gives separate collision and post-error repair loops. Those additions are bound to K01, K15, K18, and K19 while their counts, timings, cases, and safety applications remain editorial. A frozen segment-level source audit makes the Chapter 10–11 claims checkable, while the Chapter 5, 7, and 12 ledger rows bind new explanations to exact source ranges and label their editorial scaffolding. A separate materials inventory identifies the repository's missing license, unresolved contributor and manuscript chain, adapted passages, third-party works, and embedded font licenses; it does not close the rights gate. The action-path pass also shortened the route to a safe first sit, exposed Appendix B at first use, added one canonical restart path, moved the feeling-to-craving drill before the twelve-link taxonomy, and placed an immediate safety action before the research discussion. Those internal controls do not replace the human decisions and tests.
+The 80-item scoring is a static content review adapted from a web-oriented benchmark. The exact current checks are recorded in [`release-evidence.md`](release-evidence.md): the current artifact counts and hashes are regenerated after every content change, EPUBCheck and DAISY Ace must pass, and the candidate remains below every external gate until the named evidence exists. The 2026-07-27 content passes deepened the first three fetters, clarified the 3–5–4 and four-fruit relation, supplied a source-bounded explanation of why seeing not-self directly opposes identity view, and rebuilt Chapter 12 so a reader need not know the *Visuddhimagga* before understanding the insight map. Chapter 5 now turns “salient object” into a stay–switch–act decision, supplies a complete worked noting loop, and makes P01's historical pain instruction conflict visible rather than silently replacing it. Chapter 7 now distinguishes task-first attention, a brief response check, and formal practice; places immediate protection before introspection; and gives separate collision and post-error repair loops. Appendix E now turns the distributed safety, formal-practice, ordinary-life and post-practice choices into one original dual-target decision map, with the entire synthesis labelled editorial and linked back to full explanations. Those additions are bound to K01, K15, K18, and K19 while their counts, timings, cases, and safety applications remain editorial. A frozen segment-level source audit makes the Chapter 10–11 claims checkable, while the Chapter 5, 7, 12 and Appendix E ledger rows bind new explanations to exact source ranges and label their editorial scaffolding. A separate materials inventory identifies the repository's missing license, unresolved contributor and manuscript chain, adapted passages, third-party works, and embedded font licenses; it does not close the rights gate. The action-path pass also shortened the route to a safe first sit, exposed Appendix B at first use, added one canonical restart path, moved the feeling-to-craving drill before the twelve-link taxonomy, and placed an immediate safety action before the research discussion. Those internal controls do not replace the human decisions and tests.
 
 ## Overview
 
@@ -13,8 +13,8 @@ The 80-item scoring is a static content review adapted from a web-oriented bench
 - **Commit binding**: **Bound to the frozen ancestor commit that contains the exact PDF and EPUB bytes; later evidence may live in a descendant commit**
 - **External beginner, doctrinal, and clinical-safety gate**: **OPEN and not passed until the defined tests and reviews are actually run**
 - **Market-leadership claim**: **NOT ESTABLISHED**
-- **Book-applicable score**: **86.2/100**
-- **GEO analogue**: **93.8/100**
+- **Book-applicable score**: **86.7/100**
+- **GEO analogue**: **96.3/100**
 - **Observable EEAT score**: **63.7/100**; Authority is excluded because it lacks enough applicable artifact-level data
 - **Veto status**: **No internal content veto; external evidence gates remain open**
 
@@ -35,14 +35,14 @@ Applied as a How-to Guide / handbook. Authority is excluded from the weighted to
 | C -- Contextual Clarity | 100 | 21.1% | 21.1 |
 | O -- Organization | 100 | 21.1% | 21.1 |
 | R -- Referenceability | 100 | 10.5% | 10.5 |
-| E -- Exclusivity | 75 | 5.3% | 3.9 |
+| E -- Exclusivity | 85 | 5.3% | 4.5 |
 | Exp -- Experience | 45 | 5.3% | 2.4 |
 | Ept -- Expertise | 80 | 21.1% | 16.8 |
 | T -- Trust | 66 | 15.8% | 10.4 |
 | A -- Authority | N/A | excluded | excluded |
-| **Weighted total** |  |  | **86.2/100** |
+| **Weighted total** |  |  | **86.7/100** |
 
-Weights are the How-to Guide weights renormalized after excluding Authority, whose 10 items are all unavailable from the standalone artifact. The score is diagnostic, not a claim that the book is 86.2% “true” or 86.2% likely to be the best choice.
+Weights are the How-to Guide weights renormalized after excluding Authority, whose 10 items are all unavailable from the standalone artifact. The score is diagnostic, not a claim that the book is 86.7% “true” or 86.7% likely to be the best choice.
 
 ## Do not optimize blindly for 100
 
@@ -103,7 +103,7 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 | E02 | Pass | The frontmatter creates a distinctive frame: handbook, not guarantee, with separate source tiers. | None |
 | E03 | Fail | The book cites primary texts but reports no original primary research of its own. Using primary sources is not the same as conducting primary research. | None |
 | E04 | Pass | Chapter 4 rejects the unsupported "easiest link" ranking and similar simplifications. | None |
-| E05 | Fail | The publication is mostly text and tables; there are no proprietary visuals in the book artifact itself. | None |
+| E05 | Pass | Appendix E adds an original, source-bounded decision map whose A5 flowchart and semantic HTML grid preserve the same safety-first choices across PDF and EPUB. | None |
 | E06 | Pass | The book fills gaps with an action-first feeling-to-craving bridge, an ordinary-interruption restart route, immediate safety guidance, and reader-facing FAQ answers. | None |
 | E07 | Pass | Practice cards, checklists, the safe first-sit route, seven-day starter path, and canonical restart card are practical tools, not abstract doctrine. | None |
 | E08 | Pass | The claim ledger and Chapters 10–11 give source-bounded depth on the first three fetters, full five lower fetters, and four fruits that most generic meditation handbooks lack. | None |

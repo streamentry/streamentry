@@ -13,6 +13,7 @@ This module owns the A5 and reflowable publication system for *Hướng Đến N
 - `components.typ`: stable dual-target blocks. HTML branches must preserve all content hidden inside print grids.
 - `chapters/`: narrative and instructional sequence.
 - `appendices/`: printable tools and reference material.
+- `appendices/e-ban-do-quyet-dinh.typ`: one-page, dual-target decision map that preserves safety, formal-practice, ordinary-life and post-practice choices as text.
 - `references/`: doctrinal audit trail, edition-contract documentation, depth review, publication scorecard, exact release evidence, independent-review protocol, external beginner-validation protocol, fixed reader kit, cohort-manifest schema, and pilot-record schema.
 - For attainment questions, keep the first three fetters, the full five lower fetters, and the four fruits separate. Chapter 10 owns the first three fetters; Chapter 11 owns the full five, the four fruits, and the DN 2 distinction; the glossary provides direct lookup.
 

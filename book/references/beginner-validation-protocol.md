@@ -1,6 +1,6 @@
 # Beginner validation protocol
 
-Checked: 2026-07-26
+Checked: 2026-07-27
 
 This is the cheapest test that can disconfirm the claim that the handbook is ready for a true beginner. It tests comprehension and navigation, not spiritual attainment, clinical safety, or market leadership.
 
@@ -32,6 +32,8 @@ Give no oral teaching and do not point to a page. Ask each reader to use the boo
 8. Explain the difference between the first three fetters, the full five lower fetters, and the four fruits; identify which fruit ends the first three and which ends all five; then apply the distinctions to the four fixed scenarios in the reader kit.
 
 After each answer, ask: “Which sentence or section in the book led you there?” Record the first answer before prompting. A correct answer reached only after a hint is not an unassisted pass.
+
+For tasks 2 and 3, also record whether the reader independently opens Appendix E and whether the map leads to the correct detailed section. Do not name the appendix, point to it or count this observation as a substitute for any existing pass criterion. This exploratory field tests retrieval value without changing the preregistered comprehension thresholds.
 
 ## Release thresholds
 

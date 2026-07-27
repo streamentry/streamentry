@@ -86,6 +86,12 @@ repair loop, timing labels, work case, and retrieval test are editorial tools
 bound by claim C73; never present them as numbered instructions from MN 10,
 DN 31, SN 55.7, or AN 6.63.
 
+Appendix E owns the single visual retrieval map. Preserve its safety gate,
+formal-practice and daily-life branches, and post-practice decision in that
+order across PDF and semantic HTML. It is bound by C74 and must never be
+presented as a canonical sequence, diagnostic instrument, new meditation
+method, or substitute for the linked chapters.
+
 ## Writing Contract
 
 Write contemporary Vietnamese that is precise, calm, and public-facing. Use full paragraphs, exact verbs, and varied cadence. Avoid em dashes, motivational fog, sectarian claims, and invented certainty. Define Pāli terms at first use and retain them only when translation would conceal a meaningful distinction.
