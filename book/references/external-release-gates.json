@@ -3,7 +3,7 @@
   "candidate_binding": "frozen_artifact_commit_ancestor_plus_release_evidence",
   "release_evidence": {
     "path": "book/references/release-evidence.md",
-    "sha256": "665f1145e6b796e065b8dafd22c6667d1e9ade5e4fc61e3eda6e60785f030efe"
+    "sha256": "5aeed6cf89c37df3376308326c197657a6b694566d9718c203853d90cf721261"
   },
   "protocols": {
     "external_release_packet": {
@@ -12,7 +12,7 @@
     },
     "rights_decision": {
       "path": "book/references/rights-decision-template.md",
-      "sha256": "7d00da5ff92a0bb932bbeb13c6509da530deea81e99efeacea2d3a654f440df9"
+      "sha256": "e465fa6cbeeee5fb986663000e16a99ee5b29f7da3511df00d05e5f8af3abe3d"
     },
     "doctrinal_review": {
       "path": "book/references/doctrinal-review-protocol.md",
@@ -28,7 +28,7 @@
     },
     "beginner_reader_kit": {
       "path": "book/references/beginner-reader-kit.md",
-      "sha256": "4fcbe7488897a1557a3c7b325bfd8d7e17b1e4288c52adb7425036a3c14952b6"
+      "sha256": "df6a7b81508bfbab48559e2198c61f6cb4b3806f709783765741394a79e13e7c"
     },
     "comparative_beginner": {
       "path": "book/references/comparative-beginner-protocol.md",

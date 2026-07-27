@@ -85,6 +85,21 @@ def _rewrite_member(source: Path, target: Path, name: str, payload: bytes) -> No
 
 
 class ExternalReviewPacketTests(unittest.TestCase):
+    def test_packet_includes_rights_materials_inventory(self) -> None:
+        self.assertIn(
+            "book/references/rights-materials-inventory.md",
+            STATIC_SOURCE_PATHS,
+        )
+        rights_work_order = next(
+            member
+            for member in generated_members(_snapshot())
+            if member.archive_path.endswith("/redistribution_rights.md")
+        )
+        self.assertIn(
+            "repository/book/references/rights-materials-inventory.md",
+            rights_work_order.payload.decode("utf-8"),
+        )
+
     def test_packet_includes_attainment_source_audit(self) -> None:
         self.assertIn(
             "book/references/attainment-source-audit.md",

@@ -37,6 +37,10 @@ Một quyết định không xác định đúng tệp phát hành chỉ là ý 
 
 ## 3. Chuỗi quyền
 
+Đọc `rights-materials-inventory.md` trước khi điền bảng. Kiểm tra lại từng dữ
+kiện theo commit và kênh phát hành thực tế; không kế thừa nhãn “đã xác minh” của
+kiểm toán nội bộ như một kết luận pháp lý.
+
 Lập một dòng cho mỗi tác phẩm hoặc phần đóng góp:
 
 | Mã tài sản | Đường dẫn hoặc vị trí | Vật liệu chính xác | Nguồn gốc | Người giữ quyền | Căn cứ quyền | Bằng chứng | Hạn chế hoặc xung đột | Quyết định |

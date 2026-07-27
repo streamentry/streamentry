@@ -19,7 +19,7 @@ Chapters carry the explanatory arc from a seven-day start and an explicit days 8
 - Give every technical or Pāli term a plain-language gloss in the same paragraph or immediately adjacent block on first use. A rear glossary reinforces but does not rescue an opaque chapter.
 - Open each chapter by carrying forward the minimum prior idea and naming the next problem. Before a dense list, orient the reader; after it, state the usable synthesis.
 - Keep repeated warnings only when they add a threshold, decision rule, or source-boundary correction. Otherwise point to the full treatment.
-- When explaining attainment, keep the first three fetters, the full five lower fetters, and the four fruits distinct. Chapter 10 explains the first three; Chapter 11 places them inside the full five and maps the four fruits; Chapter 12 remains a later lineage-map reference. Stream-entry cuts the first three fetters; non-returning concerns the full five lower fetters; “sa-môn quả” names the four fruits, not one vague success state.
+- When explaining attainment, keep the first three fetters, the full five lower fetters, and the four fruits distinct. Chapter 10 explains the first three through the stable `object / verified basis / means` frame and applies it to both ordinary life and a meditation case; this is an editorial teaching model, not a canonical sequence. Chapter 11 places the subset inside the full five and maps the four fruits; Chapter 12 remains a later lineage-map reference. Stream-entry cuts the first three fetters; non-returning concerns the full five lower fetters; “sa-môn quả” names the four fruits, not one vague success state.
 - Keep temporary quiet, attenuation, and eradication visibly distinct. Exercises may expose a manifestation or train against its conditions, but they never diagnose that a fetter has been eradicated.
 - Preserve the source distinctions between `sakkāya` and `sakkāya-diṭṭhi`, latent tendency and an arisen fetter, and exact early-discourse wording versus later Theravāda cosmological glosses.
 
@@ -40,9 +40,13 @@ flowchart LR
 ```mermaid
 flowchart TB
   S["Source claim"] --> P["Prose paragraph"]
+  S --> B["Source-bounded definition"]
+  B --> M["Editorial teaching model"]
+  M --> X["Ordinary-life and meditation cases"]
   E["Exercise"] --> C["Practice card"]
   R["Risk"] --> W["Caution block"]
   P --> H["Chapter"]
+  X --> H
   C --> H
   W --> H
 ```

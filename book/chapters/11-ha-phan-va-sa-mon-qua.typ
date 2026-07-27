@@ -109,14 +109,14 @@ Phân biệt ấy không phải giấy phép cho hành vi gây hại. Khi sân �
 #practice-card(
   [Bốn quả, bốn ranh giới],
   [
-    Đọc bản đồ bằng tiếng Việt trước; tên Pāli nằm ở từng mục phía sau.
+    Đừng đọc bốn quả như bốn mức “thiền yên dần”. Hãy đọc bằng *điều kinh nói đã chuyển*, đồng thời giữ rõ *điều chưa được phép suy ra*. Tên Pāli nằm ở từng mục phía sau.
 
-    1. *Nhập lưu:* ba kiết sử đầu đã đoạn. Không được suy từ một lần thiền mạnh, một cảm giác “vào dòng” hay một lời xác nhận đơn lẻ.
-    2. *Nhất lai:* ba kiết sử đầu đã đoạn; tham, sân, si đã được làm mỏng. “Làm mỏng” không đồng nghĩa vài tuần tâm nhẹ hơn, cũng chưa đồng nghĩa dục tham và sân đã đoạn.
-    3. *Bất lai:* đủ năm hạ phần kiết sử đã đoạn. Dục tham hoặc sân tạm lắng trong định hay hoàn cảnh thuận lợi không chứng minh mốc này.
-    4. *A-la-hán:* các lậu hoặc đã đoạn tận và giải thoát được tự chứng. Mốc này rộng hơn việc chỉ đếm đủ năm hạ phần.
+    1. *Nhập lưu:* ba kiết sử đầu đã đoạn. Kinh chưa nói dục tham và sân đã đoạn ở mốc này. Vì vậy, một lần tham hoặc giận không tự bác bỏ Nhập lưu; một lần thiền mạnh, cảm giác “vào dòng” hay lời xác nhận đơn lẻ cũng không chứng minh quả.
+    2. *Nhất lai:* ba kiết sử đầu đã đoạn; tham, sân, si đã được làm mỏng. “Làm mỏng” không phải tên khác của vài tuần tâm nhẹ hơn, và chưa đồng nghĩa dục tham cùng sân đã đoạn như ở Bất lai.
+    3. *Bất lai:* đủ năm hạ phần kiết sử đã đoạn, tức ba cái đầu cộng dục tham và sân. AN 10.13 vẫn còn nêu năm thượng phần kiết sử, nên Bất lai không đồng nghĩa A-la-hán. Dục tham hoặc sân tạm lắng trong định hay hoàn cảnh thuận lợi không chứng minh mốc này.
+    4. *A-la-hán:* các lậu hoặc đã đoạn tận và giải thoát được tự chứng. Mốc này rộng hơn việc chỉ đếm đủ năm hạ phần, nên không thể định nghĩa bằng câu “Bất lai cộng thêm một trải nghiệm”.
 
-    Đây là bốn mốc kết quả của cùng một Bát Thánh đạo, không phải bốn kỹ thuật thiền để chọn. “Quả” chỉ kết quả đã thành tựu; nó không phải tên trang trọng cho mọi tiến bộ có thật trên đường tu.
+    Đây là bốn mốc kết quả của cùng một Bát Thánh đạo, không phải bốn kỹ thuật thiền để chọn. “Quả” chỉ kết quả đã thành tựu; nó không phải tên trang trọng cho mọi tiến bộ có thật trên đường tu. Các nguồn trên cho ranh giới giáo lý, không cung cấp thang điểm tự chấm từ hành vi bề mặt.
   ],
   label: [BẢN ĐỒ QUẢ CHO LẦN ĐỌC ĐẦU · K10; K11; K24; K32; K34; K40],
 )

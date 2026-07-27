@@ -19,7 +19,7 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `book/chapters/`: editorial chapters.
 - `book/chapters/01-bay-ngay.typ`: safe first-sit route, seven-day start, explicitly editorial days 8–30 bridge, and the canonical restart path after ordinary interruption.
 - `book/chapters/04-duyen-khoi.typ`: action-first feeling-to-craving drill followed by the source-bounded full twelve-link map; never collapse the latter into the former.
-- `book/chapters/10-nhap-luu.typ`: focused beginner explanation of the first three fetters and the canonical criteria surrounding Stream-entry.
+- `book/chapters/10-nhap-luu.typ`: focused beginner explanation of the first three fetters through separate source claims, a visibly editorial object/basis/means model, ordinary-life and meditation cases, and the canonical criteria surrounding Stream-entry.
 - `book/chapters/11-ha-phan-va-sa-mon-qua.typ`: separate 3–5–4 map for the five lower fetters, four fruits, four pairs/eight persons, and DN 2.
 - `book/chapters/12-ban-do-tue.typ`: later-reference insight map; never use it as a beginner self-diagnostic ladder.
 - `book/appendices/`: reusable practice tools.
@@ -32,6 +32,7 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `book/references/external-release-packet.md`: single operational handoff for rights, expert review, novice testing, human EPUB evidence, and bounded comparison.
 - `book/references/external-release-gates.json`: machine-readable external-gate, typed-evidence, and permitted-claims registry.
 - `book/references/rights-decision-template.md`: authority, asset, format, channel, commercial-scope, and third-party-rights decision record.
+- `book/references/rights-materials-inventory.md`: decision-support inventory for manuscript, contributor, adapted passage, third-party work, font, source-code, and format rights; facts only, not clearance.
 - `book/references/clinical-safety-review-protocol.md`: independent clinical and research-safety reviewer contract.
 - `book/references/beginner-validation-protocol.md`: external novice and reader-app acceptance gates.
 - `book/references/comparative-beginner-protocol.md`: bounded comparison protocol for a fixed Vietnamese beginner panel.
@@ -74,7 +75,7 @@ checkout when issuing work orders. The ignored ZIP binds its protocol copies
 and assignment sheets to the exact commit and artifact hashes. Packet creation
 is logistics, not external evidence, and never changes a gate status.
 
-When discussing attainment, use *the first three fetters*, not an invented standalone canonical list called “three lower fetters.” Keep that subset distinct from the full five lower fetters, the four fruits, and DN 2's broader discourse title. Chapter 10 explains the subset deeply; Chapter 11 supplies the wider classification.
+When discussing attainment, use *the first three fetters*, not an invented standalone canonical list called “three lower fetters.” Keep that subset distinct from the full five lower fetters, the four fruits, and DN 2's broader discourse title. Chapter 10 explains the subset through the object, verified-basis, and means frame, explicitly labelled as editorial rather than a canonical 1–2–3 sequence. Chapter 11 supplies the wider classification.
 
 Build from the workspace root:
 

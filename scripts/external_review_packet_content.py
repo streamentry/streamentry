@@ -23,7 +23,10 @@ GATE_ASSIGNMENTS = {
     "redistribution_rights": (
         "Quyết định quyền phát hành",
         "Xác định thẩm quyền và phạm vi cho phép đối với đúng PDF và EPUB.",
-        ("book/references/rights-decision-template.md",),
+        (
+            "book/references/rights-decision-template.md",
+            "book/references/rights-materials-inventory.md",
+        ),
     ),
     "doctrinal_review": (
         "Phản biện giáo lý độc lập",
@@ -73,6 +76,7 @@ STATIC_SOURCE_PATHS = (
     "book/references/external-release-gates.json",
     "book/references/external-evidence/README.md",
     "book/references/rights-decision-template.md",
+    "book/references/rights-materials-inventory.md",
     "book/references/doctrinal-review-protocol.md",
     "book/references/clinical-safety-review-protocol.md",
     "book/references/beginner-validation-protocol.md",

@@ -2,7 +2,7 @@
 
 Checked: 2026-07-27
 
-The 80-item scoring is a static content review adapted from a web-oriented benchmark. The exact current checks are recorded in [`release-evidence.md`](release-evidence.md): the PDF has 149 A5 pages, the EPUB has 155 nested content entries plus one cover entry in its table of contents, EPUBCheck 5.3.0 reports 0 fatals, 0 errors, and 0 warnings, and DAISY Ace 1.4.6 reports no issue in the package or three XHTML documents. The 2026-07-27 content passes first deepened the first three fetters and clarified the 3–5–4 and four-fruit relation. A frozen segment-level source audit now makes those load-bearing claims and their limits independently checkable. The latest prose pass also shortened the route to a safe first sit, exposed Appendix B at first use, added one canonical restart path, moved the feeling-to-craving drill before the twelve-link taxonomy, and placed an immediate safety action before the research discussion. Those internal controls do not replace the human decisions and tests.
+The 80-item scoring is a static content review adapted from a web-oriented benchmark. The exact current checks are recorded in [`release-evidence.md`](release-evidence.md): the PDF has 153 A5 pages, the EPUB has 155 nested content entries plus one cover entry in its table of contents, EPUBCheck 5.3.0 reports 0 fatals, 0 errors, and 0 warnings, and DAISY Ace 1.4.6 reports no issue in the package or three XHTML documents. The 2026-07-27 content passes deepened the first three fetters, added a bounded meditation case, and clarified the 3–5–4 and four-fruit relation. A frozen segment-level source audit makes those load-bearing claims and their limits independently checkable. A separate materials inventory identifies the repository's missing license, unresolved contributor and manuscript chain, adapted passages, third-party works, and embedded font licenses; it does not close the rights gate. The latest prose pass also shortened the route to a safe first sit, exposed Appendix B at first use, added one canonical restart path, moved the feeling-to-craving drill before the twelve-link taxonomy, and placed an immediate safety action before the research discussion. Those internal controls do not replace the human decisions and tests.
 
 ## Overview
 
@@ -13,9 +13,9 @@ The 80-item scoring is a static content review adapted from a web-oriented bench
 - **Commit binding**: **Bound to the frozen ancestor commit that contains the exact PDF and EPUB bytes; later evidence may live in a descendant commit**
 - **External beginner, doctrinal, and clinical-safety gate**: **OPEN and not passed until the defined tests and reviews are actually run**
 - **Market-leadership claim**: **NOT ESTABLISHED**
-- **Book-applicable score**: **88.4/100**
+- **Book-applicable score**: **86.2/100**
 - **GEO analogue**: **93.8/100**
-- **Observable EEAT score**: **68.3/100**; Authority is excluded because it lacks enough applicable artifact-level data
+- **Observable EEAT score**: **63.7/100**; Authority is excluded because it lacks enough applicable artifact-level data
 - **Veto status**: **No internal content veto; external evidence gates remain open**
 
 ## Veto Audit
@@ -38,11 +38,11 @@ Applied as a How-to Guide / handbook. Authority is excluded from the weighted to
 | E -- Exclusivity | 75 | 5.3% | 3.9 |
 | Exp -- Experience | 45 | 5.3% | 2.4 |
 | Ept -- Expertise | 80 | 21.1% | 16.8 |
-| T -- Trust | 80 | 15.8% | 12.6 |
+| T -- Trust | 66 | 15.8% | 10.4 |
 | A -- Authority | N/A | excluded | excluded |
-| **Weighted total** |  |  | **88.4/100** |
+| **Weighted total** |  |  | **86.2/100** |
 
-Weights are the How-to Guide weights renormalized after excluding Authority, whose 10 items are all unavailable from the standalone artifact. The score is diagnostic, not a claim that the book is 88.4% “true” or 88.4% likely to be the best choice.
+Weights are the How-to Guide weights renormalized after excluding Authority, whose 10 items are all unavailable from the standalone artifact. The score is diagnostic, not a claim that the book is 86.2% “true” or 86.2% likely to be the best choice.
 
 ## Do not optimize blindly for 100
 
@@ -159,7 +159,7 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 
 | ID | Status | Evidence | N/A reason |
 |---|---|---|---|
-| T01 | N/A | Legal-compliance surface such as privacy or terms does not exist in a static book. | Not a service site. |
+| T01 | Fail | `rights-materials-inventory.md` verifies that the public repository has no license and that manuscript, contributor, adapted-passage, commercial-source, and candidate-bound authority remain unresolved. A static book still has copyright and distribution obligations. | None |
 | T02 | Partial | The source chapter and README link a public correction channel, but no named contact or response commitment is supplied. | None |
 | T03 | N/A | Security standards are not auditable for an offline handbook artifact. | Not a service site. |
 | T04 | Pass | No affiliate or sponsored commerce is present; disclosure is handled through source provenance instead. | None |
@@ -172,7 +172,7 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 
 ## Top five improvements by evidential value
 
-1. Complete and sign `rights-decision-template.md`; the existence of the template and public repository does not establish authority or permission.
+1. Resolve the blockers recorded in `rights-materials-inventory.md`, then complete and sign `rights-decision-template.md`; the inventory, template and public repository do not establish authority or permission.
 2. Obtain a named, scoped doctrinal review under `doctrinal-review-protocol.md` and the separately qualified coverage defined in `clinical-safety-review-protocol.md`; publish what each reviewer checked, did not check, and disputed.
 3. Run `beginner-validation-protocol.md` with five unassisted true beginners, using the fixed eight-task rubric, two JSON schemas, deterministic scorer, a fresh public-history check, and an external append-only preregistration and attempt registry. Treat any safety, retreat, or insight-map failure as release-blocking.
 4. Complete the counted EPUB test in a standards-based reader at 150% text size and dark mode; the aggregate report now exposes privacy-safe app, version, device class, scale and result evidence.

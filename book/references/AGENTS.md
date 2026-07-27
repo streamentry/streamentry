@@ -15,6 +15,7 @@ This folder holds the audit trail behind doctrinal and safety claims. It is the 
 - `external-release-packet.md`: role-based handoff and change-control sequence for all external gates, including the clean-checkout command for the deterministic coordinator ZIP; building it does not pass any gate.
 - `external-release-gates.json`: schema-v3 machine-readable gate status, protocol fingerprints, typed evidence index, frozen-artifact ancestry binding, cohort/report bindings, and permitted claims.
 - `rights-decision-template.md`: decision record for authority, contributors, third-party material, formats, channels, and commercial scope.
+- `rights-materials-inventory.md`: verified asset and license facts plus unresolved manuscript, contributor, adapted-passage, commercial-source, font, and channel decisions; it never passes the rights gate.
 - `doctrinal-review-protocol.md`: reviewer qualifications, conflicts, artifact identity, scope, severity, disposition, and signed report requirements.
 - `clinical-safety-review-protocol.md`: clinical and research-safety competence, mandatory checks, findings, and signed-report requirements.
 - `external-evidence/`: public, privacy-safe gate evidence only; never raw participant data.
@@ -25,7 +26,7 @@ This folder holds the audit trail behind doctrinal and safety claims. It is the 
 - `beginner-pilot-cohort-manifest.schema.json`: exact artifact and contract identity plus the ordered five-to-seven-attempt cohort ledger.
 - `beginner-pilot-record.schema.json`: privacy-bounded raw-attempt structure for the eight fixed tasks and EPUB repeats.
 - If the chapter explains fetters or fruits, the ledger should keep the first three fetters, the full five lower fetters, and the four fruits on separate lines with separate source codes. Do not reuse one citation to imply a larger doctrinal bundle than the source states.
-- The novice fetter gate must test application, not recall alone: healthy inquiry is not automatically fetter-doubt, keeping precepts is not automatically ritual clinging, and non-aversive boundary setting is not automatically ill will.
+- The novice fetter gate must test application, not recall alone: healthy inquiry is not automatically fetter-doubt, keeping precepts is not automatically ritual clinging, and non-aversive boundary setting is not automatically ill will. It must also test whether the reader can distinguish appropriation of experience, verified basis for the path, and misuse of a means without turning that editorial frame into three canonical stages.
 - Never commit raw participant records. Keep them under ignored `build/beginner-pilot/`; publish only the scorer's privacy-coarsened aggregate evidence and fixed-criterion failure themes. Do not publish free-text answers or notes.
 - The aggregate novice report must bind one cohort ID, one manifest SHA-256, and exactly five unique counted-record hashes. The EPUB reader-app report must bind the same cohort and manifest plus exactly one of those five hashes. These reports are deterministic transformations, not proof of reader identity, moderator honesty, preregistration timing, or omission-free custody.
 - K codes: Nikāya discourses.
@@ -65,7 +66,8 @@ flowchart TB
   L --> A["Attainment segment audit"]
   C --> Q["Publish readiness audit"]
   C --> U["Beginner validation protocol"]
-  X["Rights and expert-review protocols"] --> G["External gate registry"]
+  I["Rights materials inventory"] --> X["Rights and expert-review protocols"]
+  X --> G["External gate registry"]
   E --> G
   U --> G
 ```

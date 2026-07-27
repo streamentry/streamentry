@@ -212,6 +212,7 @@ Sau câu trả lời đầu tiên, đưa nguyên văn bốn tình huống này v
 Pass criteria:
 
 - names identity view, doubt, and clinging to precepts-observances as the first three fetters, explains each in plain language, and correctly handles at least 3 of the 4 fixed scenarios;
+- distinguishes the three levels in its own words: what is appropriated as self, whether the path has a verified basis, and whether a means has been mistaken for a sufficient cause; rejects treating them as three surface habits or three sequential tricks;
 - explains that sensual desire and ill will complete the five lower fetters;
 - maps the first three to Stream-entry and all five to Non-returning;
 - distinguishes the four fruits from DN 2's broader discourse title and training sequence;

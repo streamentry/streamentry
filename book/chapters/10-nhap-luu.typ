@@ -31,33 +31,35 @@ Chương này chỉ giữ một trục: *ba kiết sử đầu*. Đây là ba c�
 )
 
 #practice-card(
-  [Ba câu hỏi, ba mối trói],
+  [Bản đồ sâu trong một phút: đối tượng, căn cứ, phương tiện],
   [
-    Dùng cùng một khuôn để khỏi phải ghép ba định nghĩa rời:
+    Ba kiết sử đầu không phải ba cảm xúc xấu đứng cạnh nhau. Chúng làm lệch ba tầng khác nhau của việc thấy và đi trên con đường:
 
-    1. *Kinh nghiệm này đang bị nắm là gì?* Thân kiến đặt một trong năm uẩn vào quan hệ “tôi”, “của tôi”, “ở trong tôi” hoặc “chứa tôi”.
-    2. *Con đường này có đáng để đặt lòng tin đã được kiểm chứng và đi tiếp không?* Hoài nghi như kiết sử là sự phân vân trên trục Phật, Pháp, Tăng, con đường và sự thực hành chưa được tháo bằng học, hành và thấy biết. Nó không đồng nghĩa mọi câu hỏi cẩn trọng.
-    3. *Phương tiện này thật sự làm việc gì?* Chấp thủ giới-tập tục nâng giới điều, nghi thức, khổ hạnh hay kỹ thuật thành nguyên nhân đủ hoặc bảo chứng giải thoát, thay vì thấy chức năng của nó trong toàn bộ con đường.
+    1. *Sai về đối tượng đang bị nắm:* thân kiến đặt sắc, thọ, tưởng, hành hoặc thức vào quan hệ “đây là tôi”, “đây là của tôi”, “uẩn này ở trong một tự ngã” hoặc “một tự ngã ở trong uẩn này”. Vấn đề không nằm ở đại từ “tôi”, mà ở kiến chấp lấy kinh nghiệm có điều kiện làm một lõi tự ngã.
+    2. *Chưa có căn cứ đủ vững về đường đi:* hoài nghi như kiết sử là sự phân vân trên trục Phật, Pháp, Tăng, con đường và sự thực hành chưa được tháo bằng học, hành và thấy biết đã được xác chứng. Vấn đề không nằm ở quyền hỏi, mà ở chỗ đường ra khỏi khổ chưa được thấy đủ để tâm đứng vững trên đó.
+    3. *Sai về chức năng của phương tiện:* chấp thủ giới-tập tục nâng giới điều, nghi thức, khổ hạnh hay kỹ thuật thành nguyên nhân đủ hoặc bảo chứng giải thoát. Vấn đề không nằm ở việc có phương pháp, mà ở chỗ phương pháp bị thay vào vị trí của toàn bộ Bát Thánh đạo.
 
-    Nói gọn: *nắm sai kinh nghiệm; chưa đứng vững trên thấy biết về đường đi; nắm sai quan hệ giữa phương tiện và cứu cánh*. Đây là bản đồ học do sách biên soạn từ các nguồn được nêu, không phải ba câu định nghĩa nguyên văn và không phải phép tự chẩn đoán.
+    Nói gọn: *nắm sai cái đang được kinh nghiệm; chưa đứng vững trên con đường đã được kiểm chứng; nắm sai quan hệ giữa phương tiện và cứu cánh*. Ba lỗi có thể nâng đỡ nhau, nhưng MN 2 không trình bày chúng như ba nấc phải đoạn theo thứ tự 1–2–3. Bài kinh đặt sự đoạn cả ba sau như lý tác ý đến Tứ Thánh Đế. Vì vậy, hướng tu là làm chín một cái thấy đúng về khổ, nguồn gốc, sự chấm dứt và con đường, chứ không săn ba mẹo riêng.
+
+    Đây là bản đồ học do sách biên soạn từ các nguồn được nêu. Nó không phải ba câu định nghĩa nguyên văn, một chuỗi nhân quả được kinh tuyên bố, hay phép tự chẩn đoán.
   ],
   label: [BẢN ĐỒ MỞ ĐẦU · BIÊN SOẠN, ĐỐI CHIẾU K03; K08; K09; K11; K20; K38],
 )
 
 #practice-card(
-  [Vì sao chính ba kiết sử này đứng ở cửa Nhập lưu?],
+  [Vì sao đây không phải chuyện “bớt cái tôi, bớt nghi, bớt nghi thức”?],
   [
-    Điểm khó của người mới là thế này: nghe chữ *kiết sử* rồi tưởng phải hết phần lớn tham sân si thì mới nói đến Nhập lưu. Kinh không đặt mốc đầu như vậy. Mốc đầu được nêu bằng *ba kiết sử đầu*.
+    Nghe chữ *đoạn*, người mới dễ tưởng chỉ cần làm cho ba biểu hiện ít xuất hiện hơn. Nhưng một biểu hiện tạm vắng không đồng nghĩa gốc trói đã mất:
 
-    Có thể đọc chúng như ba lỗi gốc làm người tu đi sai ngay từ nền:
+    + Ít nói “tôi” không cho biết hai mươi cách chấp quanh năm uẩn đã rơi.
+    + Một giai đoạn đầy cảm hứng không cho biết hoài nghi đã được thay bằng tịnh tín và thấy biết có căn cứ.
+    + Linh hoạt đổi tư thế hoặc nghi thức không cho biết sự chấp thủ phương tiện đã được nhổ tận.
 
-    + *Thân kiến* làm lệch đối tượng phải thấy. Thay vì thấy năm uẩn và khổ theo điều kiện, tâm dựng một lõi “tôi” để bảo vệ.
-    + *Hoài nghi* làm lệch quan hệ với con đường. Người học chưa đứng vững trên Phật, Pháp, Tăng, đường tu và sự thực hành bằng một thấy biết đã được xác chứng.
-    + *Chấp thủ giới-tập tục* làm lệch quan hệ với phương tiện. Giới điều, nghi thức, khổ hạnh hay kỹ thuật bị nâng thành nguyên nhân đủ của giải thoát.
+    Ngược lại, dùng chữ “tôi”, đặt một câu hỏi khó, giữ giới nghiêm hoặc trung thành với một thời khóa cũng không tự chứng minh kiết sử còn nguyên. Cần phân biệt *biểu hiện có thể quan sát*, *kiến chấp hoặc sự trói buộc nằm dưới biểu hiện*, và *sự đoạn tận được kinh gắn với quả*. Chương này chỉ giúp đọc đúng hai mức đầu; nó không xác nhận mức thứ ba.
 
-    Nói gọn hơn: *thấy sai cái đang là; chưa vững với đường đi; dùng sai phương tiện*. Vì ba chỗ lệch này nằm ngay nơi cách thấy và cách học đường tu, chúng được nói như ranh giới của Nhập lưu. Dục tham và sân vẫn là kiết sử thật, nhưng chương 11 sẽ chỉ ra vì sao chúng chưa phải mốc phân ranh đầu tiên.
+    Chính vì ba kiết sử nằm ở tầng thấy, căn cứ và quan hệ nhân quả, việc hướng đến Nhập lưu không thể rút thành “làm ba hành vi ngược lại”. Nền đúng vẫn là bốn yếu tố đưa đến Nhập lưu, Tứ Thánh Đế và toàn bộ Bát Thánh đạo. Dục tham và sân vẫn là kiết sử thật, nhưng chương 11 sẽ chỉ ra vì sao chúng chưa phải ranh giới của quả đầu.
   ],
-  label: [GIẢI THÍCH TRỌNG TÂM · BIÊN SOẠN THEO K06; K10; K11; K24],
+  label: [PHÂN BIỆT GỐC VÀ BIỂU HIỆN · BIÊN SOẠN THEO K02; K06; K10; K11; K24; K36],
 )
 
 == Một lời chê, ba cách đọc sai
@@ -76,6 +78,22 @@ Chương này chỉ giữ một trục: *ba kiết sử đầu*. Đây là ba c�
     Một sự việc có thể bộc lộ một, hai, cả ba hoặc không mối nào theo cách vừa kể. Ca này chỉ minh họa ba lăng kính. Nó không xác định một kiết sử đang hiện hành, càng không xác định kiết sử đã đoạn.
   ],
   label: [CA MỞ ĐẦU · BIÊN SOẠN THEO K05; K11; K20; K26–K31; K35],
+)
+
+#practice-card(
+  [Một buổi ngồi: đau gối, nghi đường, rồi bấu vào luật],
+  [
+    Giả sử đầu gối đau trong lúc ngồi. Ba kiết sử không phải ba bước chắc chắn sẽ xảy ra, nhưng ca này cho thấy ba tầng có thể bị trộn ra sao:
+
+    1. *Dữ kiện trước tiên:* có áp lực nơi gối, thọ khó chịu, ý muốn đổi tư thế và các ý nghĩ về buổi ngồi. Chưa dữ kiện nào tự nó là một kiết sử.
+    2. *Chỗ thân kiến có thể bấu:* “Thân tôi hỏng rồi”, “tôi là người tu thất bại”, hoặc “phải có một người điều khiển khiến cảm giác biến mất”. Sự quan sát đúng hướng là phân biệt sắc, thọ, tưởng, hành và thức, rồi thấy chúng nương điều kiện và đổi thay. Không cần phủ nhận trách nhiệm chăm sóc thân.
+    3. *Chỗ hoài nghi có thể bị xử lý sai:* từ một cơn đau, tâm nhảy sang “toàn bộ Pháp này sai”, nhưng không kiểm chỉ dẫn, nguyên nhân thân thể, ngưỡng an toàn hay mục đích của bài tập. Cực kia cũng sai: ép mình tin phương pháp tuyệt đối đúng để khỏi phải thừa nhận điều chưa biết.
+    4. *Chỗ chấp thủ giới-tập tục có thể bấu:* “Người tu thật không bao giờ đổi tư thế; nếu cử động thì chắc chắn mất cơ hội chứng quả.” Một quy ước hữu ích bị biến thành bảo chứng giải thoát, thậm chí được đặt cao hơn an toàn và chánh kiến.
+    5. *Cách đi đúng chiều:* nhận biết kinh nghiệm đang có; phân biệt cảm giác với câu chuyện về “tôi”; kiểm hướng dẫn và ngưỡng an toàn; đổi tư thế có chủ ý khi cần; rồi nhìn xem cách xử lý ấy có nuôi giới, niệm, định và tuệ hay không.
+
+    Ca này không nói đau gối tạo ra ba kiết sử, cũng không dạy rằng xử lý tốt một lần sẽ đoạn chúng. Nó chỉ cho người mới một cách nhìn: *đừng lấy một cảm giác làm tự ngã; đừng giải quyết phần chưa biết bằng tin mù hoặc nghi quay vòng; đừng biến quy ước thành bùa bảo chứng*.
+  ],
+  label: [CA HÀNH TRÌ · BIÊN SOẠN THEO K02; K05; K06; K11; K20; K35; K38],
 )
 
 == Dòng là Bát Thánh đạo <dong-bat-thanh-dao>
