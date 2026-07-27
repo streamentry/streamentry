@@ -6,8 +6,8 @@ Tên sách chỉ một hướng tu. Nó không hứa người đọc sẽ chứn
 
 ## Đọc bản hiện tại
 
-- [PDF với bố cục A5 cố định](dist/huong-den-nhap-luu.pdf)
-- [EPUB 3, chữ có thể co giãn theo màn hình](dist/huong-den-nhap-luu.epub)
+- [Tải PDF trực tiếp, bố cục A5 cố định](https://raw.githubusercontent.com/streamentry/streamentry/main/dist/huong-den-nhap-luu.pdf)
+- [Tải EPUB 3 trực tiếp, chữ tự dàn theo màn hình](https://raw.githubusercontent.com/streamentry/streamentry/main/dist/huong-den-nhap-luu.epub)
 - [Bằng chứng build và mã băm của đúng ứng viên hiện tại](book/references/release-evidence.md)
 
 **Trạng thái:** đây là ứng viên đã vượt kiểm tra nội bộ, chưa phải bản được xác nhận độc lập. PDF và EPUB đã được build đồng bộ, kiểm tra cấu trúc, khả năng tiếp cận tự động và dàn trang. Quyền tái phân phối, phản biện giáo lý, phản biện an toàn lâm sàng, thử nghiệm với năm độc giả mới, thử EPUB trên ứng dụng đọc thật và so sánh thị trường vẫn còn mở.
