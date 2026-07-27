@@ -111,6 +111,16 @@ For beginner-facing prose, apply these gates before building:
 
 The glossary is a reference aid, not permission to leave the main reading path opaque.
 
+## README Contract
+
+Keep `README.md` reader-first and Vietnamese-first. Before contributor build
+details, it must expose the current PDF/EPUB choice, intended audience,
+non-linear reading route, source-tier model, safety boundary, correction path,
+candidate status, and the missing-rights warning. Public file access is not a
+license. Read identity from `book/edition.json`, artifact status from
+`release-evidence.md`, and external status from
+`external-release-gates.json`; do not copy counts or claims that can drift.
+
 ## Build and Verify
 
 ```sh

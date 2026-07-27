@@ -1,110 +1,146 @@
-# streamentry
+# Hướng Đến Nhập Lưu
 
-Source and publication files for *Hướng Đến Nhập Lưu*, an A5 Vietnamese mindfulness handbook for lay readers. The book distinguishes early Pāli discourses, later Theravāda commentary, the *Visuddhimagga*, Mahāsi instructions, health and research evidence, and editorial guidance.
+*Hướng Đến Nhập Lưu* là sổ tay thực hành tiếng Việt dành cho người tại gia muốn bắt đầu Niệm xứ theo hướng Mahāsi mà vẫn biết rõ mỗi chỉ dẫn đến từ đâu. Sách đi từ một buổi ngồi đầu tiên, bảy ngày khởi đầu và đời sống hằng ngày đến duyên khởi, ba kiết sử đầu, bốn quả Sa-môn và bản đồ tuệ.
 
-The title describes a direction of practice, not a guarantee of spiritual attainment.
+Tên sách chỉ một hướng tu. Nó không hứa người đọc sẽ chứng Nhập lưu, không trao cách tự chấm thánh quả và không biến một khóa thiền hay trải nghiệm lạ thành bằng chứng thành tựu.
 
-**Current Vietnamese edition author:** CS Chánh Niệm + ChatGPT
+## Đọc bản hiện tại
 
-[`book/edition.json`](book/edition.json) is the sole canonical authority for
-the active edition's title, author, language, output identity, cover strings,
-navigation labels, accessibility copy, and validation locale.
-[`book/edition.typ`](book/edition.typ) is its thin Typst leaf, while
-[`scripts/edition_contract.py`](scripts/edition_contract.py) loads and rejects
-invalid contracts for the Python build and verification path. Do not maintain
-parallel metadata constants in Typst, Python, or release documentation. The
-schema-v1 field ownership, translation rules, and limits are documented in
-[`book/references/edition-contract.md`](book/references/edition-contract.md).
+- [PDF với bố cục A5 cố định](dist/huong-den-nhap-luu.pdf)
+- [EPUB 3, chữ có thể co giãn theo màn hình](dist/huong-den-nhap-luu.epub)
+- [Bằng chứng build và mã băm của đúng ứng viên hiện tại](book/references/release-evidence.md)
 
-## Build synchronized PDF and EPUB
+**Trạng thái:** đây là ứng viên đã vượt kiểm tra nội bộ, chưa phải bản được xác nhận độc lập. PDF và EPUB đã được build đồng bộ, kiểm tra cấu trúc, khả năng tiếp cận tự động và dàn trang. Quyền tái phân phối, phản biện giáo lý, phản biện an toàn lâm sàng, thử nghiệm với năm độc giả mới, thử EPUB trên ứng dụng đọc thật và so sánh thị trường vẫn còn mở.
+
+Kho này chưa có giấy phép công khai. Việc tệp có thể tải xuống không tự tạo quyền sao chép, tái phân phối, in bán, dịch hay làm tác phẩm phái sinh. Xem [bảng kê vật liệu và khoảng trống quyền](book/references/rights-materials-inventory.md) trước mọi quyết định phát hành.
+
+## Nếu bạn mới bắt đầu
+
+Đừng đọc tuần tự từ đầu đến cuối như một giáo trình phải hoàn thành.
+
+1. Đọc phần “Bắt đầu ở đây” rồi làm theo Chương 1. Buổi đầu tiên có mức sàn, điểm tựa thay thế và điều kiện dừng ngay tại chỗ.
+2. Trong tuần đầu, dùng Phụ lục B để tra nhãn và Phụ lục A để ghi ngắn. Không cần học bản đồ tuệ.
+3. Trước khi tăng thời lượng, hành một mình kéo dài hoặc đi khóa, đọc Chương 9 về an toàn rồi Chương 8 về lộ trình, người hướng dẫn và khóa thiền.
+4. Đọc Chương 2–7 để hiểu nền giáo lý, Tứ Niệm Xứ, đoạn thọ–ái, phương pháp Mahāsi, triền cái–giác chi và cách đưa niệm vào đời sống.
+5. Chỉ sau khi khung trên đã vững, đọc Chương 10–11 về ba kiết sử đầu, năm hạ phần kiết sử và bốn quả.
+6. Dùng Chương 12 như tài liệu tham khảo về sau. Bản đồ tuệ giúp đặt câu hỏi tốt hơn; nó không phải bảng tự chẩn đoán.
+
+Khi đang hành mà không nhớ nên giữ đối tượng, chuyển sang điều nổi bật, hành động ngay hay dừng, hãy mở Bản đồ quyết định ở Phụ lục E. Khi có dấu hiệu nguy cơ hoặc suy giảm sinh hoạt, ưu tiên Chương 9 thay vì cố hoàn thành lịch.
+
+## Cuốn sách này làm khác điều gì?
+
+### Tách nguồn thay vì trộn thành một giọng
+
+Các đoạn giáo lý và kỹ thuật mang một trong sáu dấu:
+
+- `KINH`: các bài kinh Nikāya Pāli, với mã nguồn và ngữ cảnh người nói;
+- `LUẬN GIẢI`: A-tỳ-đàm và truyền thống chú giải Theravāda về sau;
+- `THANH TỊNH ĐẠO`: hệ thống của *Visuddhimagga*, không giả làm lời Phật trực tiếp;
+- `MAHĀSI`: chỉ dẫn thực hành thuộc dòng Mahāsi thế kỷ XX;
+- `Y TẾ & NGHIÊN CỨU`: nguồn hiện đại, chỉ dùng cho câu hỏi sức khỏe và an toàn;
+- `BIÊN SOẠN`: lịch, thẻ thực hành, tình huống và khung giải thích do sách tổng hợp.
+
+Dấu nguồn không xếp hạng giá trị tinh thần. Nó giữ cho một lời dạy về sau, một đề nghị biên tập hay một chỉ dẫn y tế không bị gán nhầm cho Đức Phật.
+
+### Cho người đọc một việc để làm, không chỉ một khái niệm để nhớ
+
+Mỗi chương kết thúc bằng phép truy hồi hoặc quyết định thực tế. Người đọc phải áp dụng phân biệt trung tâm của chương vào một sự việc, một buổi ngồi, một lựa chọn khóa thiền hay một tình huống an toàn. Những thẻ này kiểm tra cách hiểu và bước kế tiếp, không chấm tầng tuệ hay thánh quả.
+
+### Giữ giới hạn ở nơi dễ bị nói quá
+
+Sách không gọi thọ–ái là “mắt xích luôn dễ cắt nhất”, không bảo đảm Nhập lưu sau bảy ngày, không đồng nhất ánh sáng hay hỷ với tuệ chứng, không xem lời xác nhận của một vị thầy là máy đo khách quan, và không dùng bản đồ tuệ để phủ nhận vấn đề sức khỏe.
+
+## Nội dung chính
+
+- Một buổi ngồi an toàn, bảy ngày đầu, ngày 8–30 và cách khởi động lại sau khi nhịp bị gãy.
+- Tứ Thánh Đế, Bát Thánh đạo, Tứ Niệm Xứ và mười hai chi duyên khởi.
+- Bài tập quan sát từ xúc đến thọ, ái và thủ, với ba trường hợp dễ chịu, khó chịu và trung tính.
+- Phồng xẹp, ghi nhận, đối tượng nổi bật, đổi tư thế và thiền hành theo hướng Mahāsi.
+- Năm triền cái, bảy giác chi và ranh giới giữa tên pháp với vấn đề sức khỏe.
+- Thực hành trong gia đình, công việc, va chạm và sửa sai sau khi đã phản ứng.
+- Lộ trình dài hạn, tiêu chí từ chối khóa thiền hoặc người hướng dẫn thiếu an toàn.
+- Ba mức phản ứng an toàn và tuyến đầu số khẩn cấp chính thức tại Việt Nam, kèm giới hạn quốc gia và thời điểm kiểm tra.
+- Ba kiết sử đầu, quan hệ giữa vô ngã và thân kiến, năm hạ phần kiết sử cùng bốn quả Sa-môn.
+- Bản đồ tuệ được giải thích từ đầu cho người chưa đọc *Thanh Tịnh Đạo*, gồm điều kiện chín, trải nghiệm có thể có, việc nên làm và những dấu hiệu chưa đủ để gọi tên một tầng.
+
+## An toàn và phạm vi
+
+Thiền có thể nâng đỡ đời sống, nhưng không vô hại trong mọi liều lượng và mọi hoàn cảnh. Sách không chẩn đoán, không điều trị và không thay thế chăm sóc y tế. Khi mất ngủ tăng, hoảng sợ lặp lại, cảm giác xa lạ kéo dài, khó phân biệt thực tại hoặc khả năng sinh hoạt giảm rõ, hãy giảm hay dừng thực hành cường độ cao và tìm hỗ trợ đủ năng lực. Khi có nguy hiểm tức thời, ưu tiên dịch vụ cấp cứu nơi đang sống; đừng tiếp tục ngồi để thử “xuyên qua”.
+
+Chỉ dẫn trong sách không đứng cao hơn giới, sự an toàn hay bổn phận thiết yếu. Một người hướng dẫn yêu cầu che giấu triệu chứng, chịu đau, nhịn ngủ, ngừng thuốc hoặc phục tùng cá nhân đang vượt khỏi phạm vi có thể chấp nhận.
+
+## Căn cứ, sửa sai và giới hạn bằng chứng
+
+- [Bảng đối chiếu từng tuyên bố với nguồn](book/references/claim-ledger.md)
+- [Kiểm toán nguồn cho Chương 10–11](book/references/attainment-source-audit.md)
+- [Kiểm toán độ sâu từng chương](book/references/editorial-depth-audit.md)
+- [Kiểm toán sẵn sàng xuất bản](book/references/publish-readiness-audit.md)
+- [Các cổng phát hành bên ngoài](book/references/external-release-packet.md)
+- [Gửi báo lỗi hoặc đề nghị sửa nguồn](https://github.com/streamentry/streamentry/issues)
+
+Kiểm tra nội bộ chứng minh artifact hiện tại có cấu trúc nhất quán với hồ sơ phát hành. Nó không chứng minh mọi người mới đều hiểu đúng, sách an toàn cho mọi tình trạng, người biên tập có quyền phát hành rộng rãi, hay sách tốt hơn các lựa chọn khác. Những kết luận ấy cần bằng chứng bên ngoài riêng.
+
+Tín dụng xuất bản hiện tại là `CS Chánh Niệm + ChatGPT`. [`book/edition.json`](book/edition.json) là nguồn duy nhất có thẩm quyền trong kho đối với tên sách, tín dụng, ngôn ngữ, tên tệp, nhãn giao diện và phạm vi kiểm định của edition.
+
+---
+
+## Dành cho người biên tập và kiểm định
+
+### Build đồng bộ PDF và EPUB
 
 ```sh
+source venv/bin/activate
 python3 scripts/build-epub.py
 ```
 
-The canonical builder first validates `book/edition.json`, then creates both
-deliverables from the same Typst entry point. It also resolves the
-contract-owned creation timestamp and output filename. A direct `typst compile`
-is useful for local layout inspection, but it bypasses the strict contract gate
-and does not produce a release candidate.
+Builder kiểm tra `book/edition.json`, build PDF từ `book/main.typ`, render cùng trang bìa cho EPUB, tạo HTML ngữ nghĩa rồi đóng gói EPUB 3. Build phát hành không dùng `typst compile` trực tiếp vì lệnh đó bỏ qua hợp đồng edition và không tạo đủ hai artifact.
 
-The builder recompiles the PDF, asks Typst to render the same first page as the EPUB cover, compiles Typst's semantic HTML target, packages a reflowable EPUB 3 publication, and runs contract, structural, XML, manifest, navigation, manuscript-hash, and required-content checks. Publication CI release builds use Typst 0.15.0, its embedded Libertinus Serif and DejaVu Sans Mono families, and the official Inter 4.0 OTF files with system-font discovery disabled.
-
-The current internally verified candidate files are:
+Các tệp được theo dõi:
 
 - [`dist/huong-den-nhap-luu.pdf`](dist/huong-den-nhap-luu.pdf)
 - [`dist/huong-den-nhap-luu.epub`](dist/huong-den-nhap-luu.epub)
 
-Source provenance is documented in [`book/references/claim-ledger.md`](book/references/claim-ledger.md). The EPUB is reflowable: it preserves source labels, cautions, practice cards, navigation, links, and Vietnamese text while intentionally omitting A5 page geometry.
+EPUB là bản reflowable: nó giữ nhãn nguồn, cảnh báo, thẻ thực hành, điều hướng, liên kết và tiếng Việt nhưng không giữ hình học trang A5.
 
-The PDF uses an A5 print-safe white page background. Small neutral surfaces preserve hierarchy in grayscale without printing a full-page tint.
-
-## Verify the release candidate
+### Xác minh ứng viên
 
 ```sh
+source venv/bin/activate
 python3 scripts/verify_release.py
 ```
 
-The verifier compares the human-facing release record against the canonical
-edition contract, actual immutable manuscript, PDF, and EPUB. It fails on an
-invalid or stale contract hash, stale artifact hashes or sizes, wrong PDF title
-or credit, missing tags, suspect, encrypted, JavaScript-bearing, rotated, or
-non-A5 PDF pages, wrong active EPUB package, manifest, spine, or navigation
-document, active base or script elements, wrong EPUB title, creator or
-language, unresolved or duplicate TOC targets, and navigation-count drift.
+Verifier đối chiếu hồ sơ phát hành với hợp đồng edition, bản thảo bất biến và hai artifact. Nó thất bại khi mã băm, kích thước, metadata, trang PDF, package EPUB, manifest, spine, navigation hoặc các mục tiêu liên kết bị lệch.
 
-Every pull request and push to `main` that can affect publication runs `.github/workflows/publication-ci.yml`. The workflow uses the canonical macOS 15 ARM64 builder with only a read-only ephemeral `GITHUB_TOKEN` and no repository or environment secrets. It pins GitHub Actions by commit, downloads the checksum-pinned official macOS ARM64 build of Typst 0.15.0 plus Inter 4.0 and EPUBCheck 5.3.0, installs hash-locked Python wheels and locked DAISY Ace 1.4.6 dependencies, rebuilds both formats with system fonts disabled, requires byte-identical tracked artifacts, and runs the complete automated Python, schema, EPUBCheck, and accessibility gates. It never uploads raw pilot records. Human reader-app, assistive-technology, and independent PDF/UA checks remain separate external evidence.
+Publication CI chạy cho mọi pull request và lần push vào `main` có thể ảnh hưởng bản sách. Workflow dùng Typst 0.15.0 và các dependency được ghim phiên bản, build lại hai định dạng, yêu cầu artifact byte-identical, chạy bộ test Python, schema validation, EPUBCheck và DAISY Ace. CI tự động không thay thế việc đọc thử bằng ứng dụng EPUB thật, công nghệ hỗ trợ hay trình kiểm PDF/UA độc lập.
 
-Build the candidate-bound coordinator packet only from a clean checkout:
+### Tạo gói làm việc cho đánh giá bên ngoài
+
+Chỉ chạy từ checkout sạch:
 
 ```sh
+source venv/bin/activate
 python3 scripts/build-external-review-packet.py
 ```
 
-The ignored ZIP under `build/external-review-packet/` contains the exact
-committed PDF and EPUB, source and protocol files, six prefilled assignment
-sheets, a machine-readable manifest, and `SHA256SUMS.txt`. Rebuild it after any
-candidate change. Creating or validating the packet does not pass an external
-gate, authenticate a reviewer, or establish rights, safety, comprehension, app
-compatibility, or comparative superiority.
+ZIP bị bỏ qua dưới `build/external-review-packet/` chứa đúng PDF, EPUB, nguồn, protocol, sáu phiếu giao việc, manifest và `SHA256SUMS.txt` gắn với commit ứng viên. Tạo được gói chỉ là chuẩn bị hậu cần; nó không tự đóng bất kỳ cổng bên ngoài nào.
 
-## Quality evidence and limits
+### Sáu cổng còn mở
 
-- [`book/references/editorial-depth-audit.md`](book/references/editorial-depth-audit.md) checks every chapter for under-explained mechanisms, procedures, and limits.
-- [`book/references/attainment-source-audit.md`](book/references/attainment-source-audit.md) freezes the passage-level evidence and interpretive limits behind Chapters 10–11 at one immutable SuttaCentral data commit.
-- [`book/references/publish-readiness-audit.md`](book/references/publish-readiness-audit.md) records the adapted 80-item publication scorecard.
-- [`book/references/release-evidence.md`](book/references/release-evidence.md) binds current hashes, tool versions, format checks, visual scope, and the exact external gates that remain open.
-- [`book/references/edition-contract.md`](book/references/edition-contract.md) defines schema-v1 edition and locale ownership, the canonical Vietnamese build line, and the non-transferable review and validation work required by any future locale.
-- [`book/references/external-release-packet.md`](book/references/external-release-packet.md) is the single operational handoff for rights, expert review, novice testing, human EPUB evidence, and bounded comparison.
-- [`book/references/external-release-gates.json`](book/references/external-release-gates.json) is the machine-verified status, typed-evidence, and permitted-claims registry; terminal gates fail closed unless every required gate-specific evidence role is present and candidate-bound.
-- [`book/references/rights-decision-template.md`](book/references/rights-decision-template.md) separates authority, third-party material, formats, channels, commercial scope, and allowed distribution; its machine-readable summary is mandatory for terminal rights evidence.
-- [`book/references/rights-materials-inventory.md`](book/references/rights-materials-inventory.md) records the verified asset and license facts, the absent repository license, and every unresolved decision that must be closed before distribution authority can be claimed.
-- [`book/references/doctrinal-review-protocol.md`](book/references/doctrinal-review-protocol.md) defines the qualifications, scope, evidence record, and finding format for an independent Theravāda review.
-- [`book/references/clinical-safety-review-protocol.md`](book/references/clinical-safety-review-protocol.md) defines the separate competence, scope, finding, and sign-off rules for safety and research claims.
-- [`book/references/beginner-validation-protocol.md`](book/references/beginner-validation-protocol.md) defines unassisted comprehension, safety, navigation, and EPUB-reader gates.
-- [`book/references/comparative-beginner-protocol.md`](book/references/comparative-beginner-protocol.md) records a preregistration draft for a fair, rights-safe comparison against a fixed panel of Vietnamese beginner books; it is not yet an external registration receipt.
-- [`book/references/beginner-reader-kit.md`](book/references/beginner-reader-kit.md) gives the consent script, eight-task rubric, privacy rules, and EPUB smoke-test procedure.
-- [`book/references/beginner-pilot-cohort-manifest.schema.json`](book/references/beginner-pilot-cohort-manifest.schema.json), [`book/references/beginner-pilot-record.schema.json`](book/references/beginner-pilot-record.schema.json), and [`scripts/score-beginner-pilot.py`](scripts/score-beginner-pilot.py) bind one ordered five-to-seven-attempt cohort to exact committed artifacts and a frozen scoring contract.
-- Corrections can be reported through the [public issue tracker](https://github.com/streamentry/streamentry/issues).
+1. Quyết định quyền phát hành có thẩm quyền cho nguồn, PDF, EPUB, in và tác phẩm phái sinh.
+2. Phản biện độc lập của người đủ năng lực về Theravāda.
+3. Phản biện độc lập về an toàn lâm sàng và cách dùng nghiên cứu.
+4. Thử nghiệm không trợ giúp với năm độc giả mới theo protocol đã đóng băng.
+5. Thử EPUB bằng người thật trên ứng dụng đọc chuẩn, cỡ chữ 150% và chế độ tối.
+6. So sánh đăng ký trước với các sách nhập môn được nêu tên trước mọi tuyên bố “tốt nhất” hoặc “số một”.
 
-The pilot scorer requires Python's `jsonschema` package and accepts only the authoritative manifest. Generate both public, privacy-coarsened evidence roles in the same scoring run:
+Trạng thái máy đọc được nằm ở [`book/references/external-release-gates.json`](book/references/external-release-gates.json). Hồ sơ quyền phải gắn với [bảng kê vật liệu](book/references/rights-materials-inventory.md), giải quyết chuỗi người đóng góp và vật liệu bên thứ ba, đồng thời nêu rõ phạm vi định dạng, kênh, lãnh thổ, ngôn ngữ và thời hạn. Một bản ghi đúng schema vẫn không tự chứng minh danh tính, thẩm quyền hay hiệu lực pháp lý của người ký.
 
-```sh
-python3 scripts/score-beginner-pilot.py build/beginner-pilot/<cohort-id>/manifest.json \
-  --output build/beginner-pilot/<cohort-id>/aggregate-report.md \
-  --epub-evidence-output build/beginner-pilot/<cohort-id>/reader-app-report.md
-```
+### Hợp đồng edition và bản thảo
 
-The aggregate report binds the cohort ID, manifest SHA-256, and exactly five counted-record SHA-256 values. The reader-app report binds the same cohort and manifest plus exactly one of those five record hashes. These deterministic reports establish consistency with the supplied private files; they do not authenticate participants or moderators, prove preregistration custody, or replace the required public-history, privacy-review, and external-registration evidence.
+- [`book/edition.json`](book/edition.json): nguồn duy nhất cho identity và locale của edition.
+- [`book/edition.typ`](book/edition.typ): lớp Typst mỏng đọc hợp đồng.
+- [`scripts/edition_contract.py`](scripts/edition_contract.py): loader Python fail-closed.
+- [`book/references/edition-contract.md`](book/references/edition-contract.md): quyền sở hữu từng trường và quy tắc edition tương lai.
+- [`con-duong-niem-xu-mahasi-hop-nhat.md`](con-duong-niem-xu-mahasi-hop-nhat.md): bản thảo nguồn bất biến; không sửa trực tiếp.
 
-The current candidate is rebuilt and remeasured whenever the content changes; exact counts and hashes belong in the release evidence rather than this overview. The first-month route now continues explicitly from the safe first sit through days 8–30 and includes one canonical restart path after ordinary interruptions. Chapter 9 and Appendix E expose the official Vietnam 112–115 emergency route with country, date, coverage, and response-time limits. Those schedules, reset decisions, and scenario-specific routing choices are visibly editorial and have not yet been validated for adherence. Structural checks establish source traceability and format validity. They do not establish spiritual attainment, clinical safety for every reader, proprietary-reader interoperability, independent expert endorsement, or a “number-one” market position. External reviews and reader tests target the frozen ancestor commit that contains the exact PDF and EPUB bytes; `release-evidence.md` and public evidence may be committed later without changing that tested identity.
-
-A terminal rights record is rejected unless it binds the current rights
-inventory and immutable source, states separate source, PDF, EPUB, print and
-derivative scopes, and resolves both the contributor chain and third-party
-materials. Passing that structural check still does not authenticate the
-signer or prove the legal validity of the asserted grant.
-
-Chapters 10 and 11 now give the first three fetters a stable beginner frame: appropriation of experience as self, the verified basis of the path, and the proper function of a means. The book marks that frame and its meditation case as editorial, not as a canonical sequence. The next chapter keeps the first three inside the full five lower fetters and reads the four fruits by what the discourses say has changed, not by subjective calm or a self-awarded level.
-
-Chapter 12 is self-contained for a reader who has never opened the *Visuddhimagga*. It defines what the insight map classifies, separates a glimpse, a region hypothesis and attainment, explains conditional maturation without promising a schedule, and applies the same six-question structure to stages 1–11. That teaching structure is editorial scaffolding over P02, not a canonical checklist or a method for manufacturing named experiences.
+Một ngôn ngữ mới là một ứng viên xuất bản riêng. Kết quả kiểm định của bản tiếng Việt không tự chuyển sang bản dịch.

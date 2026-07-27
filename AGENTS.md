@@ -9,6 +9,7 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 ## Key Components
 
 - `con-duong-niem-xu-mahasi-hop-nhat.md`: immutable source manuscript. Recorded SHA-256: `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440`.
+- `README.md`: public reader gateway. Put the Vietnamese reader's download choice, intended use, reading route, safety boundary, source model, correction path, candidate status, and missing-rights warning before contributor build details. Never let public file access imply a redistribution license or external validation.
 - `book/edition.json`: sole canonical edition and locale authority for publication identity, output names, source binding, cover copy, interface labels, accessibility copy, semantic smoke text, and validation scope.
 - `book/edition.typ`: thin Typst leaf that exposes `edition.json`; it must not introduce independent metadata or locale policy.
 - `scripts/edition_contract.py`: strict schema-v1 Python loader used by build and verification. Unknown, missing, malformed, unsafe, or internally inconsistent values fail closed.
@@ -58,7 +59,10 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 all other edition or locale values. The current Vietnamese contract declares
 `CS Chánh Niệm + ChatGPT`; consume it through `book/edition.typ` or
 `scripts/edition_contract.py` rather than copying it into production code.
-README may describe the current value, but it is not an authority.
+README may describe the current value, but it is not an authority. It must read
+edition identity from the contract, artifact identity from release evidence,
+and external status from the gate registry rather than copying drift-prone
+counts or claiming that public access grants redistribution rights.
 
 Schema v1 has one canonical Vietnamese build line. A future locale is a separate
 publication candidate with its own identity, localized labels, rights decision,
@@ -126,6 +130,9 @@ flowchart TB
   Z --> P
   Z --> Q
   P --> U["EPUB 3"]
+  R0["README reader gateway"] --> U
+  R0 --> V["Tracked PDF"]
+  R0 --> X
   M --> Q["Quality audits"]
   N["Frozen manifest and attempt records"] --> G["Deterministic dual-output pilot scorer"]
   G --> Q
