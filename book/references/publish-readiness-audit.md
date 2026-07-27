@@ -181,3 +181,8 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 ## Conclusion
 
 This is internally verified as a handbook and dual-format candidate bound to a frozen ancestor commit containing the exact artifact bytes. Its external work is now packaged and machine-indexed, but no external gate has been completed. It is not independently validated or top-1 proven. The strongest remaining work is executing rights clearance and external evidence, not more unsourced prose.
+
+The coordinator ZIP is reproducible from a clean candidate and prevents manual
+commit or artifact-hash drift across the six work orders. That closes a
+handoff-control defect only. It does not improve the external score or change
+any gate from `open`.

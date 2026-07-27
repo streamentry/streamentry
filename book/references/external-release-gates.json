@@ -3,12 +3,12 @@
   "candidate_binding": "frozen_artifact_commit_ancestor_plus_release_evidence",
   "release_evidence": {
     "path": "book/references/release-evidence.md",
-    "sha256": "c0852691611c2bd755beaa222c0f8f9898f2708f32395974462019a60a46da04"
+    "sha256": "3f0e8a636d4ccdfd08ba45f831d525ed98d862ec5521ef9399d32b25c841ffc4"
   },
   "protocols": {
     "external_release_packet": {
       "path": "book/references/external-release-packet.md",
-      "sha256": "8bedfa56dd84978c5d448982fef37e52e65a57df8ea19384e53173f88a3db4cf"
+      "sha256": "f353e5c8aea30d64dad903fab131fcc6484468884f133dc3919d66d099905ed8"
     },
     "rights_decision": {
       "path": "book/references/rights-decision-template.md",

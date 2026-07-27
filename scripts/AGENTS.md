@@ -20,6 +20,10 @@ the contract and both binaries, and fails loudly on structural defects.
 - `release_epub.py`: verifies the active package, exact manifest and spine, passive XHTML, metadata, resolved unique navigation, and content/cover counts.
 - `external_release_gates.py`: verifies the schema-v3 registry, protocol fingerprints, six external-gate states, gate-specific required evidence roles, contract-derived artifact paths, ancestor-plus-exact-artifact candidate binding, cohort/report bindings, release-evidence status agreement, and claims derived from passed gates.
 - `external_release_gate_files.py`: contains the fail-closed JSON, repository-path, file-fingerprint, local-link, evidence-status, exact evidence-role, mandatory `Completed`, public-confirmation and scope-limit fields, public contact-data rejection, exact-once PDF/EPUB digest, cohort/manifest, and counted-record validators used by the external gate orchestrator.
+- `build-external-review-packet.py`: clean-checkout CLI for the ignored coordinator ZIP.
+- `external_review_packet.py`: verifies the clean commit, exact committed source bytes, release candidate, edition contract, and gate registry before collection.
+- `external_review_packet_content.py`: canonical gate order, assignment text, guide, manifest, and immutable packet data structures.
+- `external_review_packet_archive.py`: deterministic ZIP writer and checksum, manifest, timestamp, assignment, and candidate validator.
 - `beginner_pilot_contract.py`: fixed task ids, criteria, thresholds, allowed fields, cohort rules, and the exact ten-file scoring contract. The insight-map criterion points to Chapter 12; the fetter criterion is coded true only under the scenario-level rubric in the reader kit.
 - `beginner_pilot_validation.py`: strict JSON, schema, consent, eligibility, task-state, fixed stop-reason, bounded contact-data detection, and retention validation.
 - `beginner_pilot_artifact.py`: verifies hashes and page count against real files and committed Git blobs, plus a bounded EPUB container check.
@@ -60,6 +64,7 @@ flowchart LR
   E --> V["Builder structural validation"]
   E --> W["Separate release-evidence verifier"]
   W --> Q["Typed external gate registry"]
+  Q --> R["Candidate-bound external-review packet"]
   R["Frozen manifest and ordered attempts"] --> S["Deterministic cohort scorer"]
   S --> G["Aggregate and reader-app reports"]
 ```

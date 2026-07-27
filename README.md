@@ -55,6 +55,19 @@ language, unresolved or duplicate TOC targets, and navigation-count drift.
 
 Every pull request and push to `main` that can affect publication runs `.github/workflows/publication-ci.yml`. The workflow uses the canonical macOS 15 ARM64 builder with only a read-only ephemeral `GITHUB_TOKEN` and no repository or environment secrets. It pins GitHub Actions by commit, downloads the checksum-pinned official macOS ARM64 build of Typst 0.15.0 plus Inter 4.0 and EPUBCheck 5.3.0, installs hash-locked Python wheels and locked DAISY Ace 1.4.6 dependencies, rebuilds both formats with system fonts disabled, requires byte-identical tracked artifacts, and runs the complete automated Python, schema, EPUBCheck, and accessibility gates. It never uploads raw pilot records. Human reader-app, assistive-technology, and independent PDF/UA checks remain separate external evidence.
 
+Build the candidate-bound coordinator packet only from a clean checkout:
+
+```sh
+python3 scripts/build-external-review-packet.py
+```
+
+The ignored ZIP under `build/external-review-packet/` contains the exact
+committed PDF and EPUB, source and protocol files, six prefilled assignment
+sheets, a machine-readable manifest, and `SHA256SUMS.txt`. Rebuild it after any
+candidate change. Creating or validating the packet does not pass an external
+gate, authenticate a reviewer, or establish rights, safety, comprehension, app
+compatibility, or comparative superiority.
+
 ## Quality evidence and limits
 
 - [`book/references/editorial-depth-audit.md`](book/references/editorial-depth-audit.md) checks every chapter for under-explained mechanisms, procedures, and limits.

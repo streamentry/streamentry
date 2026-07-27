@@ -18,6 +18,7 @@ each failure names one contract.
 - `test_release_epub.py`: active-rootfile, fixed manifest/spine, passive XHTML, and TOC-target regressions.
 - `test_release_verifier.py`: integration check against the tracked release candidate.
 - `test_external_release_gates.py`: schema-v3 protocol-fingerprint, status, gate-specific evidence-role, contract-derived artifact-path, ancestor/exact-byte candidate binding, mandatory public fields, contact-data rejection, cohort/report hashes, path-reuse, and permitted-claim regressions.
+- `test_external_review_packet.py`: deterministic ZIP, candidate and assignment binding, explicit non-evidence boundary, checksum tamper detection, duplicate-path rejection, clean-worktree enforcement, and repository-path containment.
 - Existing `test_beginner_pilot*.py` files retain the novice-cohort privacy and scoring contract, including dual scorer output: five counted hashes in the aggregate report and one matching hash in the `--epub-evidence-output` reader-app report.
 - When an intentional chapter or layout change alters the tracked PDF extent, update the integration expectation only after rebuilding both artifacts and updating `release-evidence.md`; do not change synthetic parser fixtures merely to mirror the current book.
 
@@ -32,6 +33,7 @@ flowchart LR
   F --> P["PDF tests"]
   F --> U["EPUB tests"]
   F --> X["External gate tests"]
+  F --> K["External packet tests"]
   R["Tracked release"] --> I["Integration test"]
   E --> G["Full test gate"]
   D --> G

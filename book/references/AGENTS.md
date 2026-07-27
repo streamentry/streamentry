@@ -11,7 +11,7 @@ This folder holds the audit trail behind doctrinal and safety claims. It is the 
 - `editorial-depth-audit.md`: chapter-level check for under-explained mechanisms, procedures, and limits.
 - `publish-readiness-audit.md`: 80-item adapted CORE-EEAT scorecard; it records quality evidence but cannot establish market leadership.
 - `release-evidence.md`: exact candidate hashes, tool versions, structural and visual checks, and still-open external gates.
-- `external-release-packet.md`: role-based handoff and change-control sequence for all external gates.
+- `external-release-packet.md`: role-based handoff and change-control sequence for all external gates, including the clean-checkout command for the deterministic coordinator ZIP; building it does not pass any gate.
 - `external-release-gates.json`: schema-v3 machine-readable gate status, protocol fingerprints, typed evidence index, frozen-artifact ancestry binding, cohort/report bindings, and permitted claims.
 - `rights-decision-template.md`: decision record for authority, contributors, third-party material, formats, channels, and commercial scope.
 - `doctrinal-review-protocol.md`: reviewer qualifications, conflicts, artifact identity, scope, severity, disposition, and signed report requirements.
