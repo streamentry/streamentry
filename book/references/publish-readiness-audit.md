@@ -47,6 +47,14 @@ medical or participant data. It also states that an issue is neither review
 evidence nor a passed gate. This improves intake; it does not authenticate an
 offeror or replace the candidate-bound work order.
 
+The intake originally existed only on the repository gateway. That still failed
+the standalone-artifact test for a qualified reader who received only the PDF
+or EPUB. Chapter 99 now exposes the same role-bounded route beside the explicit
+independent-review gap, repeats the public and private-data boundary, and states
+that an offer is not review evidence. The call appears at the point where an
+expert is most likely to inspect source responsibility rather than interrupting
+the novice's first practice route.
+
 ## Overview
 
 - **Content**: *Hướng Đến Nhập Lưu*
