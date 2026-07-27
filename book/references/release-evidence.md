@@ -19,16 +19,17 @@ Checked: 2026-07-27
 
 | Item | Evidence |
 |---|---|
+| Edition contract SHA-256 | `c3786a74678316e5f2a16e3f21c03ada40c347d717b5ee6f57df62cd24d8ebf9` |
 | Immutable source SHA-256 | `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440` |
 | PDF SHA-256 | `abdaeb8dd9a36edf365c7726e734e8a47ce6ad33ba8bd7b1af2062c579230305` |
-| EPUB SHA-256 | `17cf98b80940c3835b428bcf9e0ca3c90b94e6f8d227eea509848a9855405ca7` |
+| EPUB SHA-256 | `5d6142b7d46a9bcc7a32cd6634ec8023b9d5af3a4dd46b55bd111af351127ad6` |
 | PDF extent | 149 A5 pages |
 | PDF file size | 1,239,646 bytes |
 | EPUB navigation | 155 nested content entries plus 1 cover entry |
-| EPUB archive size | 162,416 bytes |
+| EPUB archive size | 162,398 bytes |
 | Publication credit | `CS Chánh Niệm + ChatGPT` |
 
-Any content, theme, component, builder, or metadata change invalidates these hashes and requires this record to be regenerated.
+Any content, theme, component, builder, metadata, or edition-contract change invalidates these hashes and requires this record to be regenerated.
 
 ## Build environment
 
@@ -45,22 +46,22 @@ Any content, theme, component, builder, or metadata change invalidates these has
 | Ruff | 0.15.20 |
 | JSON Schema validator | `jsonschema` 4.26.0 |
 
-The builder acknowledged 197 allowlisted Typst HTML-export warnings and rejected unexpected warning classes. The print build now names only the exact embedded families plus Inter, and release CI supplies the official Inter 4.0 files while disabling system fonts. Typst renders the EPUB cover directly instead of delegating rasterization to Poppler. Two consecutive canonical builds under that isolated macOS ARM64 environment were byte-identical for both PDF and EPUB. The platform is part of the byte-reproducibility contract; structurally valid builds on another operating system are not assumed to have the same hashes. Hosted CI obtains Poppler from Homebrew on macOS 15 ARM64 only for inspection, never artifact generation; the verifier fails closed unless the required stable fields and every page's geometry are present.
+The builder acknowledged 197 allowlisted Typst HTML-export warnings and rejected unexpected warning classes. The print build names only the exact embedded families plus Inter, and release CI supplies the official Inter 4.0 files while disabling system fonts. Typst renders the EPUB cover directly instead of delegating rasterization to Poppler. Two consecutive canonical builds on the current macOS ARM64 host were byte-identical for both PDF and EPUB. Publication CI independently repeats the pinned build and rejects any byte drift. The platform is part of the reproducibility contract; structurally valid builds on another operating system are not assumed to have the same hashes. Hosted CI obtains Poppler from Homebrew only for inspection, never artifact generation; the verifier fails closed unless the required stable fields and every page's geometry are present.
 
 ## Verification results
 
 | Gate | Result | Exact boundary |
 |---|---|---|
 | Immutable manuscript hash | Pass | Matches the recorded source contract. |
-| Builder structural checks | Pass | XML, manifest, resources, navigation, internal anchors, manuscript hash, required content, ZIP order, timestamp, and uncompressed mimetype. |
-| Release-evidence verifier | Pass | Exact hashes and byte sizes; canonical source hash and credit; PDF tagging, suspects, JavaScript, encryption, metadata, and every page's size and rotation; the EPUB's single active package, fixed manifest and cover-then-book spine, passive XHTML, metadata, unique resolved TOC targets, and separate content/cover counts reproduce from the committed files. |
+| Builder structural checks | Pass | Strict edition schema, XML, manifest, resources, contract-derived language and labels, accessibility metadata, navigation, internal anchors, manuscript hash, required content, ZIP order, timestamp, and uncompressed mimetype. |
+| Release-evidence verifier | Pass | Exact edition-contract, artifact, and source hashes plus byte sizes; contract-derived title, credit, and language; PDF tagging, suspects, JavaScript, encryption, metadata, and every page's size and rotation; the EPUB's single active package, fixed manifest and cover-then-book spine, passive XHTML, metadata, unique resolved TOC targets, and separate content/cover counts reproduce from the committed files. |
 | EPUBCheck 5.3.0 | Pass | 0 fatals, 0 errors, 0 warnings. |
-| DAISY Ace 1.4.6 | Pass | The pinned CLI completed with `--exiterror2`; no issues were found in `cover.xhtml`, `nav.xhtml`, `book.xhtml`, or `package.opf`. Its cached headless Chrome required an unsandboxed local launch; Publication CI repeated the same pinned check successfully in its isolated runner. |
+| DAISY Ace 1.4.6 | Pass | The pinned CLI completed with `--exiterror2`; no issues were found in `cover.xhtml`, `nav.xhtml`, `book.xhtml`, or `package.opf`. Its cached headless Chrome required an unsandboxed local launch; Publication CI is configured to repeat the same pinned check in its isolated runner. |
 | Narrow-screen reflow | Pass | Headless viewport 320 × 568 CSS px, root font 24 px, dark mode on: root and body `scrollWidth` both 320; no rendered box crossed the viewport. |
 | Dark-mode automated contrast | Pass | Minimum tested text contrast was 7.443:1. |
 | PDF metadata and tagging | Pass | `pdfinfo` reports Vietnamese title metadata, canonical author, tagged structure, 149 unrotated A5 pages, no encryption, no JavaScript, and no suspects; embedded text extraction preserves the safe first-sit anchor, canonical restart route, action-first feeling-to-craving drill, immediate safety shortcut, deep first-three-fetter explanation, 3–5–4 map, and optional insight-map handoff. |
 | PDF visual QA | Pass internally | All 149 pages were inspected in six contact sheets. Full-size checks covered the frontmatter route, first-sit safety boxes, days 8–30 bridge, restart card, action-first feeling-to-craving exercise, Chapter 7 and 8 restart pointers, immediate safety shortcut, weekly review pointer, and Appendix B direct lookup. The unchanged attainment and insight-map spreads were also reviewed in the full contact set. The final render has no clipping, overlap, truncated badges, accidental blanks, duplicate glossary entry, missing glyphs, or broken hierarchy. |
-| Pilot schema, scorer, and release verifier | Pass internally | Both JSON Schema 2020-12 contracts meta-validate; all 102 focused tests pass; Ruff, Python compilation, and `git diff --check` pass. The scorer enforces the first five eligible completions among at most seven starts, terminal stopped-session sequencing, fixed stop reasons, distress-note erasure and vetoes, exact artifact and contract hashes, canonical-origin ancestry, recursive record discovery, reachable-history privacy, bounded likely-contact-data rejection, and strict retention bounds. External gate evidence must declare one typed role, exactly one current PDF and EPUB digest field, and machine-visible generated-report results consistent with a passed registry status; contradictory report bodies fail closed. |
+| Pilot schema, scorer, and release verifier | Pass internally | Both JSON Schema 2020-12 contracts meta-validate; all 123 focused tests pass; Ruff, Python compilation, and `git diff --check` pass. The edition tests reject malformed or ambiguous contracts, bind HTML head metadata and frozen artifact paths to the supplied edition, and prove alternate-locale EPUB labels and XML escaping. The scorer enforces the first five eligible completions among at most seven starts, terminal stopped-session sequencing, fixed stop reasons, distress-note erasure and vetoes, exact artifact and contract hashes, canonical-origin ancestry, recursive record discovery, reachable-history privacy, bounded likely-contact-data rejection, and strict retention bounds. External gate evidence must declare one typed role, exactly one current PDF and EPUB digest field, and machine-visible generated-report results consistent with a passed registry status; contradictory report bodies fail closed. |
 | Source-integrity re-audit | Pass internally | Every used K01–K40, P01–P02, V01, and R01–R09 code resolves in the source map. The new restart and navigation language is locally marked as editorial; no new doctrinal source claim was introduced. Independent internal passes on onboarding friction, habit re-entry, pacing, prose, and acute-risk wording found no remaining material defect after corrections. These are internal reviews, not a named external Theravāda or clinical-safety sign-off. |
 
 The PDF was compiled with Typst's PDF/UA-1 enforcement and exposes the expected metadata, but no independent PDF/UA validator such as veraPDF was available. Therefore this record does **not** claim independent PDF/UA conformance.

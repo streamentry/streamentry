@@ -4,7 +4,17 @@ Source and publication files for *Hướng Đến Nhập Lưu*, an A5 Vietnamese
 
 The title describes a direction of practice, not a guarantee of spiritual attainment.
 
-**Author:** CS Chánh Niệm + ChatGPT
+**Current Vietnamese edition author:** CS Chánh Niệm + ChatGPT
+
+[`book/edition.json`](book/edition.json) is the sole canonical authority for
+the active edition's title, author, language, output identity, cover strings,
+navigation labels, accessibility copy, and validation locale.
+[`book/edition.typ`](book/edition.typ) is its thin Typst leaf, while
+[`scripts/edition_contract.py`](scripts/edition_contract.py) loads and rejects
+invalid contracts for the Python build and verification path. Do not maintain
+parallel metadata constants in Typst, Python, or release documentation. The
+schema-v1 field ownership, translation rules, and limits are documented in
+[`book/references/edition-contract.md`](book/references/edition-contract.md).
 
 ## Build synchronized PDF and EPUB
 
@@ -12,13 +22,13 @@ The title describes a direction of practice, not a guarantee of spiritual attain
 python3 scripts/build-epub.py
 ```
 
-The canonical builder creates both deliverables from the same Typst entry point. To compile only the PDF with the same deterministic PDF/UA-1 settings:
+The canonical builder first validates `book/edition.json`, then creates both
+deliverables from the same Typst entry point. It also resolves the
+contract-owned creation timestamp and output filename. A direct `typst compile`
+is useful for local layout inspection, but it bypasses the strict contract gate
+and does not produce a release candidate.
 
-```sh
-typst compile --root . --creation-timestamp 1785024000 --pdf-standard ua-1 book/main.typ dist/huong-den-nhap-luu.pdf
-```
-
-The builder recompiles the PDF, asks Typst to render the same first page as the EPUB cover, compiles Typst's semantic HTML target, packages a reflowable EPUB 3 publication, and runs structural, XML, manifest, navigation, manuscript-hash, and required-content checks. Publication CI release builds use Typst 0.15.0, its embedded Libertinus Serif and DejaVu Sans Mono families, and the official Inter 4.0 OTF files with system-font discovery disabled.
+The builder recompiles the PDF, asks Typst to render the same first page as the EPUB cover, compiles Typst's semantic HTML target, packages a reflowable EPUB 3 publication, and runs contract, structural, XML, manifest, navigation, manuscript-hash, and required-content checks. Publication CI release builds use Typst 0.15.0, its embedded Libertinus Serif and DejaVu Sans Mono families, and the official Inter 4.0 OTF files with system-font discovery disabled.
 
 The current internally verified candidate files are:
 
@@ -35,7 +45,13 @@ The PDF uses an A5 print-safe white page background. Small neutral surfaces pres
 python3 scripts/verify_release.py
 ```
 
-The verifier compares the human-facing release record against the actual immutable manuscript, PDF, and EPUB. It fails on stale hashes or sizes, wrong PDF title or credit, missing tags, suspect, encrypted, JavaScript-bearing, rotated, or non-A5 PDF pages, wrong active EPUB package, manifest, spine, or navigation document, active base or script elements, wrong EPUB title, creator or language, unresolved or duplicate TOC targets, and navigation-count drift.
+The verifier compares the human-facing release record against the canonical
+edition contract, actual immutable manuscript, PDF, and EPUB. It fails on an
+invalid or stale contract hash, stale artifact hashes or sizes, wrong PDF title
+or credit, missing tags, suspect, encrypted, JavaScript-bearing, rotated, or
+non-A5 PDF pages, wrong active EPUB package, manifest, spine, or navigation
+document, active base or script elements, wrong EPUB title, creator or
+language, unresolved or duplicate TOC targets, and navigation-count drift.
 
 Every pull request and push to `main` that can affect publication runs `.github/workflows/publication-ci.yml`. The workflow uses the canonical macOS 15 ARM64 builder with only a read-only ephemeral `GITHUB_TOKEN` and no repository or environment secrets. It pins GitHub Actions by commit, downloads the checksum-pinned official macOS ARM64 build of Typst 0.15.0 plus Inter 4.0 and EPUBCheck 5.3.0, installs hash-locked Python wheels and locked DAISY Ace 1.4.6 dependencies, rebuilds both formats with system fonts disabled, requires byte-identical tracked artifacts, and runs the complete automated Python, schema, EPUBCheck, and accessibility gates. It never uploads raw pilot records. Human reader-app, assistive-technology, and independent PDF/UA checks remain separate external evidence.
 
@@ -44,6 +60,7 @@ Every pull request and push to `main` that can affect publication runs `.github/
 - [`book/references/editorial-depth-audit.md`](book/references/editorial-depth-audit.md) checks every chapter for under-explained mechanisms, procedures, and limits.
 - [`book/references/publish-readiness-audit.md`](book/references/publish-readiness-audit.md) records the adapted 80-item publication scorecard.
 - [`book/references/release-evidence.md`](book/references/release-evidence.md) binds current hashes, tool versions, format checks, visual scope, and the exact external gates that remain open.
+- [`book/references/edition-contract.md`](book/references/edition-contract.md) defines schema-v1 edition and locale ownership, the canonical Vietnamese build line, and the non-transferable review and validation work required by any future locale.
 - [`book/references/external-release-packet.md`](book/references/external-release-packet.md) is the single operational handoff for rights, expert review, novice testing, human EPUB evidence, and bounded comparison.
 - [`book/references/external-release-gates.json`](book/references/external-release-gates.json) is the machine-verified status, typed-evidence, and permitted-claims registry; terminal gates fail closed unless every required gate-specific evidence role is present and candidate-bound.
 - [`book/references/rights-decision-template.md`](book/references/rights-decision-template.md) separates authority, third-party material, formats, channels, commercial scope, and allowed distribution.

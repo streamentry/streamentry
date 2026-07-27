@@ -7,6 +7,7 @@ import sys
 import tempfile
 import unittest
 from contextlib import contextmanager
+from dataclasses import replace
 from pathlib import Path
 from unittest.mock import patch
 
@@ -25,6 +26,7 @@ from external_release_gates import (  # noqa: E402
     _validate_frozen_candidate,
     verify_external_release_gates,
 )
+from edition_contract import EDITION  # noqa: E402
 from release_common import ReleaseVerificationError  # noqa: E402
 from release_evidence import parse_release_evidence  # noqa: E402
 
@@ -52,6 +54,7 @@ class ExternalReleaseGateTests(unittest.TestCase):
             ROOT / "book" / "references",
             root / "book" / "references",
         )
+        shutil.copy2(ROOT / "book" / "edition.json", root / "book" / "edition.json")
         shutil.copytree(ROOT / "scripts", root / "scripts")
         release = parse_release_evidence(
             (root / RELEASE_EVIDENCE_PATH).read_text(encoding="utf-8")
@@ -320,6 +323,7 @@ class ExternalReleaseGateTests(unittest.TestCase):
                     "2" * 40,
                     "1" * 40,
                     release,
+                    EDITION,
                 )
 
     def test_rejects_frozen_candidate_with_other_artifact_bytes(self) -> None:
@@ -344,6 +348,7 @@ class ExternalReleaseGateTests(unittest.TestCase):
                     "2" * 40,
                     "1" * 40,
                     release,
+                    EDITION,
                 )
 
     def test_accepts_frozen_ancestor_with_recorded_artifacts(self) -> None:
@@ -376,7 +381,52 @@ class ExternalReleaseGateTests(unittest.TestCase):
                     "2" * 40,
                     "1" * 40,
                     release,
+                    EDITION,
                 )
+
+    def test_frozen_candidate_uses_paths_from_the_supplied_contract(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root, release = self._fixture(directory)
+            edition = replace(EDITION, file_stem="sentinel-edition")
+            seen: list[str] = []
+
+            def artifact_digest(
+                _root: Path,
+                _commit: str,
+                relative: str,
+            ) -> str:
+                seen.append(relative)
+                return (
+                    release.pdf_sha256
+                    if relative.endswith(".pdf")
+                    else release.epub_sha256
+                )
+
+            with (
+                patch(
+                    "external_release_gates._is_git_ancestor",
+                    return_value=True,
+                ),
+                patch(
+                    "external_release_gates._git_blob_sha256",
+                    side_effect=artifact_digest,
+                ),
+            ):
+                _validate_frozen_candidate(
+                    root,
+                    "2" * 40,
+                    "1" * 40,
+                    release,
+                    edition,
+                )
+
+            self.assertEqual(
+                seen,
+                [
+                    "dist/sentinel-edition.pdf",
+                    "dist/sentinel-edition.epub",
+                ],
+            )
 
     def test_rejects_conflicting_evidence_status_lines(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

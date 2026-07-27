@@ -7,35 +7,51 @@ import sys
 from pathlib import Path
 
 from beginner_pilot_artifact import sha256_file
+from edition_contract import EditionContract, load_edition_contract
 from external_release_gates import verify_external_release_gates
 from release_common import ReleaseVerificationError, require
-from release_epub import read_epub_facts
+from release_epub import EpubFacts, read_epub_facts
 from release_evidence import (
-    IMMUTABLE_SOURCE_SHA256,
-    PUBLICATION_CREDIT,
     ReleaseEvidence,
     parse_release_evidence,
     validate_evidence_contract,
 )
-from release_pdf import read_pdf_facts, validate_pdf_contract
+from release_pdf import PdfFacts, read_pdf_facts, validate_pdf_contract
 
 
-TITLE = "Hướng Đến Nhập Lưu"
-LANGUAGE = "vi"
+def validate_release_identity(
+    pdf: PdfFacts,
+    epub: EpubFacts,
+    edition: EditionContract,
+) -> None:
+    require(pdf.title == edition.title, "PDF title metadata is incorrect")
+    require(pdf.author == edition.author, "PDF author credit is incorrect")
+    require(epub.title == edition.title, "EPUB title metadata is incorrect")
+    require(epub.author == edition.author, "EPUB creator credit is incorrect")
+    require(
+        epub.language == edition.language,
+        f"EPUB language metadata must be {edition.language}",
+    )
 
 
 def verify_release(root: Path) -> ReleaseEvidence:
+    edition_path = root / "book" / "edition.json"
+    edition = load_edition_contract(edition_path)
     evidence_path = root / "book" / "references" / "release-evidence.md"
-    source_path = root / "con-duong-niem-xu-mahasi-hop-nhat.md"
-    pdf_path = root / "dist" / "huong-den-nhap-luu.pdf"
-    epub_path = root / "dist" / "huong-den-nhap-luu.epub"
+    source_path = root / edition.source_path
+    pdf_path = root / edition.pdf_relative_path
+    epub_path = root / edition.epub_relative_path
     evidence = parse_release_evidence(evidence_path.read_text(encoding="utf-8"))
-    validate_evidence_contract(evidence)
+    validate_evidence_contract(evidence, edition)
     pdf = read_pdf_facts(pdf_path, root)
     epub = read_epub_facts(epub_path)
 
     require(
-        sha256_file(source_path) == IMMUTABLE_SOURCE_SHA256,
+        sha256_file(edition_path) == evidence.edition_contract_sha256,
+        "edition contract SHA-256 does not match release evidence",
+    )
+    require(
+        sha256_file(source_path) == edition.source_sha256,
         "immutable source SHA-256 does not match the source contract",
     )
     require(
@@ -55,12 +71,8 @@ def verify_release(root: Path) -> ReleaseEvidence:
         epub_path.stat().st_size == evidence.epub_size,
         "EPUB file size does not match evidence",
     )
-    require(pdf.title == TITLE, "PDF title metadata is incorrect")
-    require(pdf.author == PUBLICATION_CREDIT, "PDF author credit is incorrect")
+    validate_release_identity(pdf, epub, edition)
     validate_pdf_contract(pdf)
-    require(epub.title == TITLE, "EPUB title metadata is incorrect")
-    require(epub.author == PUBLICATION_CREDIT, "EPUB creator credit is incorrect")
-    require(epub.language == LANGUAGE, "EPUB language metadata must be vi")
     require(
         epub.content_entries == evidence.epub_content_entries,
         "EPUB content navigation count does not match evidence",
@@ -69,7 +81,7 @@ def verify_release(root: Path) -> ReleaseEvidence:
         epub.cover_entries == evidence.epub_cover_entries == 1,
         "EPUB must expose exactly one cover navigation entry",
     )
-    verify_external_release_gates(root, evidence)
+    verify_external_release_gates(root, evidence, edition)
     return evidence
 
 

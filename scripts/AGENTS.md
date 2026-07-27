@@ -2,16 +2,23 @@
 
 ## Overview
 
-This folder owns deterministic PDF and EPUB publication checks. It converts the target-aware Typst HTML output into XML-conformant XHTML, generates navigation and package metadata, renders the synchronized cover directly through Typst, creates the EPUB container, verifies the release record against both binaries, and fails loudly on structural defects.
+This folder owns deterministic PDF and EPUB publication checks. It loads the
+sole canonical edition and locale authority from `book/edition.json`, converts
+the target-aware Typst HTML output into XML-conformant XHTML, generates
+navigation and package metadata, renders the synchronized cover directly
+through Typst, creates the EPUB container, verifies the release record against
+the contract and both binaries, and fails loudly on structural defects.
 
 ## Key Components
 
-- `build-epub.py`: recompiles PDF and HTML, renders page 1 directly to the EPUB cover PNG, verifies the immutable manuscript hash, removes the duplicate HTML cover, promotes Typst body headings from h2-h6 to h1-h5, creates namespaced XHTML and nested navigation, and checks semantics, accessibility metadata, manifest resources, anchors, warning classes, fixed ZIP timestamps, entry order, and uncompressed mimetype.
+- `edition_contract.py`: strict schema-v1 loader and immutable Python view of `book/edition.json`. It rejects duplicate or unknown keys, missing or malformed fields, unsafe paths, invalid identifiers and tags, and broken cross-field invariants.
+- `edition_contract_validation.py`: small strict-JSON primitives for duplicate keys, exact object shapes, NFC single-line text, unique non-empty text arrays, absolute HTTPS identifier seeds, and one shared UTC release instant.
+- `build-epub.py`: recompiles PDF and HTML, renders page 1 directly to the EPUB cover PNG, verifies the immutable manuscript hash, removes the duplicate HTML cover, promotes Typst body headings from h2-h6 to h1-h5, creates namespaced XHTML and nested navigation, and checks contract-bound HTML head metadata, semantics, accessibility metadata, manifest resources, anchors, warning classes, fixed ZIP timestamps, entry order, and uncompressed mimetype.
 - `verify_release.py`: orchestrates the release contract and compares the immutable source plus exact binary identities.
-- `release_evidence.py`: parses only the visible artifact table and anchors the immutable source hash and publication credit.
+- `release_evidence.py`: parses only the visible artifact table and anchors the immutable source hash and publication credit to the edition supplied by the release orchestrator.
 - `release_pdf.py`: verifies PDF metadata, tagging, security flags, file size, and every page's A5 geometry and rotation.
 - `release_epub.py`: verifies the active package, exact manifest and spine, passive XHTML, metadata, resolved unique navigation, and content/cover counts.
-- `external_release_gates.py`: verifies the schema-v3 registry, protocol fingerprints, six external-gate states, gate-specific required evidence roles, ancestor-plus-exact-artifact candidate binding, cohort/report bindings, release-evidence status agreement, and claims derived from passed gates.
+- `external_release_gates.py`: verifies the schema-v3 registry, protocol fingerprints, six external-gate states, gate-specific required evidence roles, contract-derived artifact paths, ancestor-plus-exact-artifact candidate binding, cohort/report bindings, release-evidence status agreement, and claims derived from passed gates.
 - `external_release_gate_files.py`: contains the fail-closed JSON, repository-path, file-fingerprint, local-link, evidence-status, exact evidence-role, mandatory `Completed`, public-confirmation and scope-limit fields, public contact-data rejection, exact-once PDF/EPUB digest, cohort/manifest, and counted-record validators used by the external gate orchestrator.
 - `beginner_pilot_contract.py`: fixed task ids, criteria, thresholds, allowed fields, cohort rules, and the exact ten-file scoring contract. The insight-map criterion points to Chapter 12; the fetter criterion is coded true only under the scenario-level rubric in the reader kit.
 - `beginner_pilot_validation.py`: strict JSON, schema, consent, eligibility, task-state, fixed stop-reason, bounded contact-data detection, and retention validation.
@@ -24,12 +31,25 @@ This folder owns deterministic PDF and EPUB publication checks. It converts the 
 - `build/epub/`: ignored intermediate output.
 - `dist/huong-den-nhap-luu.epub`: final artifact.
 
+Do not reintroduce title, author, language, labels, accessibility copy, output
+names, source identity, or release timestamps as independent Python constants.
+Consumers may expose compatibility aliases only when their values come directly
+from the loaded contract. A future locale requires a distinct edition identity
+and separate rights, review, novice, and reader-app evidence; Vietnamese results
+do not transfer.
+
 ## Diagrams (Mermaid)
 
 ### Flowchart
 
 ```mermaid
 flowchart LR
+  D["book/edition.json"] --> L["Strict edition loader"]
+  D --> Y["book/edition.typ"]
+  Y --> T
+  L --> N
+  L --> E
+  L --> W
   T["book/main.typ"] --> P["Fresh PDF"]
   T --> C["Typst page-1 PNG"]
   T --> H["Semantic HTML"]
@@ -48,6 +68,8 @@ flowchart LR
 
 ```mermaid
 flowchart TB
+  D["Canonical edition contract"] --> L["Strict loader"]
+  L --> B["Builder"]
   B["Builder"] --> M["mimetype and container"]
   B --> O["OPF metadata and manifest"]
   B --> N["Validated nested navigation"]
@@ -69,11 +91,14 @@ flowchart TB
 ```mermaid
 sequenceDiagram
   participant U as Editor
+  participant D as Edition loader
   participant T as Typst
   participant B as EPUB builder
   participant V as Validator
   participant S as Pilot scorer
   U->>B: Run build
+  B->>D: Load and validate edition.json
+  D-->>B: Immutable contract or exact error
   B->>T: Compile PDF and semantic HTML
   T-->>B: Current content and cover
   B->>B: Normalize namespaces, bodymatter, outline, and OPF
@@ -108,6 +133,10 @@ stateDiagram-v2
 
 ```mermaid
 flowchart LR
+  D["book/edition.json"] --> L["Strict Python loader"]
+  L --> H
+  L --> P
+  L --> Z
   T["Typst source"] --> H["HTML"]
   T --> P["PDF"]
   H --> X["namespaced book.xhtml"]
@@ -116,7 +145,6 @@ flowchart LR
   X --> Z["EPUB"]
   N --> Z
   I --> Z
-  D["Metadata constants"] --> Z
   R["Manifest and pseudonymous attempt JSON"] --> C["Cohort scorer"]
   C --> A["Aggregate and reader-app reports"]
   A --> G["External gate registry"]

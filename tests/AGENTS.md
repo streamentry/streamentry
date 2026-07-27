@@ -2,16 +2,22 @@
 
 ## Overview
 
-This folder owns focused regression tests for the builder, pilot scorer, and release gate. Release-verifier tests are split by evidence, PDF, EPUB, and end-to-end integration so each module stays small and each failure names one contract.
+This folder owns focused regression tests for the canonical edition loader,
+builder, pilot scorer, and release gate. Release-verifier tests are split by
+evidence, PDF, EPUB, and end-to-end integration so each module stays small and
+each failure names one contract.
 
 ## Key Components
 
+- `test_edition_contract.py`: schema-v1 strict-loading tests for duplicate, unknown, missing, malformed, unsafe, out-of-range, and cross-field-inconsistent edition data, plus the tracked Vietnamese contract.
+- `test_epub_edition_contract.py`: alternate-locale HTML head metadata, navigation, cover, OPF, language, accessibility, and XML-escaping proof with no Vietnamese-label fallback.
+- `test_release_identity.py`: table-driven PDF and EPUB title, credit, and language drift rejection against the loaded contract.
 - `release_verifier_fixtures.py`: shared synthetic Markdown, PDFInfo, OPF, XHTML, and EPUB fixtures.
-- `test_release_evidence.py`: visible-table parsing plus immutable hash and canonical-credit anchors.
+- `test_release_evidence.py`: visible-table parsing plus immutable hash and canonical-credit anchors against the explicitly supplied edition.
 - `test_release_pdf.py`: metadata, encryption, all-page size, and rotation regressions.
 - `test_release_epub.py`: active-rootfile, fixed manifest/spine, passive XHTML, and TOC-target regressions.
 - `test_release_verifier.py`: integration check against the tracked release candidate.
-- `test_external_release_gates.py`: schema-v3 protocol-fingerprint, status, gate-specific evidence-role, ancestor/exact-byte candidate binding, mandatory public fields, contact-data rejection, cohort/report hashes, path-reuse, and permitted-claim regressions.
+- `test_external_release_gates.py`: schema-v3 protocol-fingerprint, status, gate-specific evidence-role, contract-derived artifact-path, ancestor/exact-byte candidate binding, mandatory public fields, contact-data rejection, cohort/report hashes, path-reuse, and permitted-claim regressions.
 - Existing `test_beginner_pilot*.py` files retain the novice-cohort privacy and scoring contract, including dual scorer output: five counted hashes in the aggregate report and one matching hash in the `--epub-evidence-output` reader-app report.
 - When an intentional chapter or layout change alters the tracked PDF extent, update the integration expectation only after rebuilding both artifacts and updating `release-evidence.md`; do not change synthetic parser fixtures merely to mirror the current book.
 
@@ -21,12 +27,14 @@ This folder owns focused regression tests for the builder, pilot scorer, and rel
 
 ```mermaid
 flowchart LR
+  C["Edition contract fixtures"] --> D["Strict loader tests"]
   F["Synthetic fixtures"] --> E["Evidence tests"]
   F --> P["PDF tests"]
   F --> U["EPUB tests"]
   F --> X["External gate tests"]
   R["Tracked release"] --> I["Integration test"]
   E --> G["Full test gate"]
+  D --> G
   P --> G
   U --> G
   I --> G
@@ -36,6 +44,8 @@ flowchart LR
 
 ```mermaid
 flowchart TB
+  C["book/edition.json"] --> D["test_edition_contract.py"]
+  D --> L["edition_contract.py"]
   X["release_verifier_fixtures.py"] --> E["test_release_evidence.py"]
   X --> P["test_release_pdf.py"]
   X --> U["test_release_epub.py"]
@@ -48,9 +58,12 @@ flowchart TB
 ```mermaid
 sequenceDiagram
   participant T as Test runner
+  participant C as Edition contract
   participant F as Fixtures
   participant M as Release modules
   participant A as Tracked artifacts
+  T->>C: Mutate one schema or cross-field condition
+  C-->>T: Exact rejection or immutable contract
   T->>F: Create bounded adversarial input
   T->>M: Parse or validate input
   M-->>T: Exact rejection or facts
@@ -76,6 +89,7 @@ stateDiagram-v2
 
 ```mermaid
 flowchart LR
+  C["Edition JSON variants"] --> L["Strict edition loader"]
   M["Markdown fixture"] --> E["Evidence parser"]
   P["pdfinfo fixtures"] --> D["PDF contract"]
   X["EPUB fixtures"] --> U["EPUB contract"]
@@ -85,4 +99,5 @@ flowchart LR
   U --> R
   V --> R
   G["Gate registry"] --> R
+  L --> R
 ```

@@ -13,6 +13,7 @@ EVIDENCE = """\
 
 | Item | Evidence |
 |---|---|
+| Edition contract SHA-256 | `dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd` |
 | Immutable source SHA-256 | `aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa` |
 | PDF SHA-256 | `bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb` |
 | EPUB SHA-256 | `cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc` |

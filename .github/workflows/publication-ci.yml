@@ -12,7 +12,7 @@ on:
       - "scripts/**"
       - "tests/**"
       - "dist/**"
-      - "con-duong-niem-xu-mahasi-hop-nhat.md"
+      - "**/*.md"
       - "README.md"
       - "AGENTS.md"
       - "SKILL.md"
@@ -27,7 +27,7 @@ on:
       - "scripts/**"
       - "tests/**"
       - "dist/**"
-      - "con-duong-niem-xu-mahasi-hop-nhat.md"
+      - "**/*.md"
       - "README.md"
       - "AGENTS.md"
       - "SKILL.md"
@@ -138,13 +138,17 @@ jobs:
       - name: Verify committed release evidence
         run: python scripts/verify_release.py
 
+      - name: Load canonical artifact paths
+        run: |
+          PYTHONPATH=scripts python -c 'from edition_contract import EDITION; print(f"PDF_PATH={EDITION.pdf_relative_path.as_posix()}"); print(f"EPUB_PATH={EDITION.epub_relative_path.as_posix()}")' >> "$GITHUB_ENV"
+
       - name: Rebuild synchronized PDF and EPUB
         run: python scripts/build-epub.py
 
       - name: Verify reproducible artifacts
         run: |
           python scripts/verify_release.py
-          git diff --exit-code -- dist/huong-den-nhap-luu.pdf dist/huong-den-nhap-luu.epub
+          git diff --exit-code -- "$PDF_PATH" "$EPUB_PATH"
 
       - name: Run Python tests and static checks
         run: |
@@ -156,14 +160,14 @@ jobs:
       - name: Run EPUBCheck 5.3.0
         run: |
           java -jar build/ci-tools/epubcheck-5.3.0/epubcheck.jar \
-            dist/huong-den-nhap-luu.epub
+            "$EPUB_PATH"
 
       - name: Run DAISY Ace 1.4.6
         run: |
           ci/node_modules/.bin/ace-cli \
             --exiterror2 \
             --outdir build/ace-report \
-            dist/huong-den-nhap-luu.epub
+            "$EPUB_PATH"
 
       - name: Reject whitespace errors
         run: git diff --check

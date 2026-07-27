@@ -11,25 +11,49 @@ description: Maintain and publish the Vietnamese Typst handbook Hướng Đến 
 2. Read `book/references/claim-ledger.md` before changing doctrinal prose.
 3. Read `book/references/editorial-depth-audit.md` before expanding or compressing a chapter.
 4. Read `book/references/release-evidence.md` before repeating or changing any verification claim.
-5. Read the immediate chapter, its source codes, `book/components.typ`, and `book/theme.typ` before editing.
-6. Preserve the original Markdown unchanged.
-7. For beginner validation, use `book/references/beginner-reader-kit.md` together with `book/references/beginner-validation-protocol.md`; freeze the cohort with `book/references/beginner-pilot-cohort-manifest.schema.json`, record every ordered attempt with `book/references/beginner-pilot-record.schema.json`, and pass only the manifest to `scripts/score-beginner-pilot.py`.
-8. For independent doctrine review, use `book/references/doctrinal-review-protocol.md`; never convert an internal audit into external endorsement.
-9. For release rights and all external gates, start with `book/references/external-release-packet.md`; use `rights-decision-template.md` and `clinical-safety-review-protocol.md` for their separate scopes. Terminal gates require the canonical evidence roles and mandatory public fields documented in `book/references/external-evidence/README.md`; do not substitute one generic report for a required bundle.
+5. Read `book/references/edition-contract.md` before changing any title, credit, language, output identity, cover string, navigation label, accessibility copy, semantic smoke text, or validation locale.
+6. Read the immediate chapter, its source codes, `book/components.typ`, and `book/theme.typ` before editing.
+7. Preserve the original Markdown unchanged.
+8. For beginner validation, use `book/references/beginner-reader-kit.md` together with `book/references/beginner-validation-protocol.md`; freeze the cohort with `book/references/beginner-pilot-cohort-manifest.schema.json`, record every ordered attempt with `book/references/beginner-pilot-record.schema.json`, and pass only the manifest to `scripts/score-beginner-pilot.py`.
+9. For independent doctrine review, use `book/references/doctrinal-review-protocol.md`; never convert an internal audit into external endorsement.
+10. For release rights and all external gates, start with `book/references/external-release-packet.md`; use `rights-decision-template.md` and `clinical-safety-review-protocol.md` for their separate scopes. Terminal gates require the canonical evidence roles and mandatory public fields documented in `book/references/external-evidence/README.md`; do not substitute one generic report for a required bundle.
 
-## Publication Credit
+## Edition and Locale Contract
 
-The canonical author string is `CS Chánh Niệm + ChatGPT`. Keep it synchronized across `book/main.typ`, the rendered cover, PDF metadata, and `README.md`.
+`book/edition.json` is the sole canonical authority for the active publication's
+identity and locale. The current Vietnamese contract declares the author string
+`CS Chánh Niệm + ChatGPT`. `book/edition.typ` is only the Typst access leaf;
+`scripts/edition_contract.py` is the strict Python loader. Do not add fallback
+or parallel constants to consumers.
+
+Schema v1 supports the canonical Vietnamese line. Treat a future locale as a
+separate publication, not a string substitution: assign a distinct edition and
+output identity, localize every reader-facing field, make a locale-specific
+rights decision, repeat independent doctrinal and safety review as applicable,
+and run fresh novice and reader-app validation. Vietnamese evidence does not
+validate translated wording.
 
 ## Dual-output Contract
 
-`book/main.typ` is the single content entry point. Use `target()` in theme and shared components to keep the A5 PDF presentation separate from semantic HTML used by EPUB. Never package the print-oriented HTML fallback without target-aware components: ignored grids can silently remove content.
+`book/main.typ` is the single content entry point. It and the theme/components
+consume locale data through `book/edition.typ`. Use `target()` in theme and
+shared components to keep the A5 PDF presentation separate from semantic HTML
+used by EPUB. Never package the print-oriented HTML fallback without
+target-aware components: ignored grids can silently remove content.
 
 The EPUB must be reflowable. Preserve heading hierarchy, source badges, cautions, practice cards, navigation, external links, Vietnamese diacritics, canonical metadata, and cover credit. Do not reproduce A5 page breaks or worksheet blank space as fixed-layout ebook pages.
 
 Under the pinned macOS 15 ARM64 publication tool and font environment, the builder compiles a byte-reproducible PDF/UA-1 candidate and fails on unexpected Typst HTML warnings, missing semantic body matter, heading jumps, broken navigation, lost dark-mode CSS, and non-reproducible ZIP metadata. Treat the operating system and architecture as part of that byte-reproducibility contract. A clean build, EPUBCheck result, and automated accessibility scan are necessary but do not prove behavior in Apple Books, Kindle, Kobo, or every assistive-technology stack.
 
-After building, run `python3 scripts/verify_release.py`. It is the machine gate for the exact facts in `release-evidence.md`; do not hand-wave a stale hash, byte size, page count, credit, PDF tagging, suspects, JavaScript, encryption, per-page size or rotation, active EPUB metadata, navigation target, or navigation count. The hosted publication workflow must remain read-only, use `pull_request` rather than `pull_request_target`, pin actions and downloaded tools, disable system fonts, and never upload `build/` or raw pilot records.
+The Python builder and verifier must load `book/edition.json` through
+`scripts/edition_contract.py` before trusting any field. After building, run
+`python3 scripts/verify_release.py`. It is the machine gate for the exact facts
+in `release-evidence.md`; do not hand-wave a stale edition-contract hash,
+artifact hash, byte size, page count, credit, PDF tagging, suspects, JavaScript,
+encryption, per-page size or rotation, active EPUB metadata, navigation target,
+or navigation count. The hosted publication workflow must remain read-only,
+use `pull_request` rather than `pull_request_target`, pin actions and downloaded
+tools, disable system fonts, and never upload `build/` or raw pilot records.
 
 ## Print Contract
 

@@ -7,6 +7,7 @@ This folder holds the audit trail behind doctrinal and safety claims. It is the 
 ## Key Components
 
 - `claim-ledger.md`: claim, tier, exact source, evidence strength, and caveat.
+- `edition-contract.md`: schema-v1 ownership, canonical Vietnamese publication line, future-locale requirements, build flow, and falsifiable boundaries. It documents `book/edition.json` but does not replace it as the sole authority.
 - `editorial-depth-audit.md`: chapter-level check for under-explained mechanisms, procedures, and limits.
 - `publish-readiness-audit.md`: 80-item adapted CORE-EEAT scorecard; it records quality evidence but cannot establish market leadership.
 - `release-evidence.md`: exact candidate hashes, tool versions, structural and visual checks, and still-open external gates.
@@ -38,11 +39,14 @@ This folder holds the audit trail behind doctrinal and safety claims. It is the 
 
 ```mermaid
 flowchart LR
+  EC["edition.json change"] --> ER["Edition-contract rules"]
+  ER --> BV["Contract build and verification"]
   C["Draft claim"] --> V["Verify exact source"] --> T["Assign tier"] --> L["Ledger entry"] --> B["Book prose"]
   B --> U["Beginner validation"]
   U --> E["External evidence"]
   E --> T["Typed evidence-role check"]
   T --> G["Machine gate registry"]
+  BV --> R
   G --> R["Release decision"]
 ```
 
@@ -50,6 +54,7 @@ flowchart LR
 
 ```mermaid
 flowchart TB
+  D["edition-contract.md"] --> E["Edition and locale change control"]
   K["K codes"] --> L["Claim ledger"]
   V["V codes"] --> L
   P["P codes"] --> L
@@ -58,6 +63,7 @@ flowchart TB
   C --> Q["Publish readiness audit"]
   C --> U["Beginner validation protocol"]
   X["Rights and expert-review protocols"] --> G["External gate registry"]
+  E --> G
   U --> G
 ```
 
@@ -66,9 +72,12 @@ flowchart TB
 ```mermaid
 sequenceDiagram
   participant E as Editor
+  participant C as Edition contract
   participant L as Ledger
   participant S as Source edition
   participant R as External reviewer
+  E->>C: Verify field ownership and locale scope
+  C-->>E: Require one canonical value and separate locale evidence
   E->>L: Look up claim code
   L->>S: Open exact edition or URL
   S-->>E: Confirm wording, speaker, and limit

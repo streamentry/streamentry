@@ -1,3 +1,4 @@
+#import "edition.typ": edition, stack-lines
 #import "theme.typ": palette, fonts, space
 
 #let eyebrow(label, fill: palette.muted) = text(
@@ -14,16 +15,16 @@
   fill: fill,
 )
 
-#let cover(title, subtitle, author: none, edition: [Ấn bản thực hành 2026]) = context {
+#let cover(title, subtitle, author: none) = context {
   if target() == "html" {
     html.elem("section", attrs: (class: "cover"))[
-      #html.elem("p", attrs: (class: "cover-kicker"))[Sổ tay Niệm xứ cho người tại gia]
+      #html.elem("p", attrs: (class: "cover-kicker"))[#edition.cover.kicker]
       #html.elem("h1")[#title]
       #html.elem("p", attrs: (class: "cover-subtitle"))[#subtitle]
       #if author != none {
-        html.elem("p", attrs: (class: "cover-author"))[Tác giả: #author]
+        html.elem("p", attrs: (class: "cover-author"))[#(edition.labels.author): #author]
       }
-      #html.elem("p", attrs: (class: "cover-edition"))[#edition]
+      #html.elem("p", attrs: (class: "cover-edition"))[#edition.cover.edition_label]
     ]
   } else {
     set page(
@@ -42,7 +43,7 @@
     #set par(justify: false, first-line-indent: 0em)
     #rect(width: 34mm, height: 3pt, fill: palette.saffron)
     #v(24mm)
-    #eyebrow([SỔ TAY NIỆM XỨ CHO NGƯỜI TẠI GIA], fill: palette.forest)
+    #eyebrow(edition.cover.kicker, fill: palette.forest)
     #v(8mm)
     #set par(leading: 0.95em)
     #text(
@@ -62,7 +63,7 @@
     )[#subtitle]
     #if author != none [
       #v(8mm)
-      #eyebrow([TÁC GIẢ], fill: palette.saffron)
+      #eyebrow(edition.labels.author, fill: palette.saffron)
       #v(2.5mm)
       #text(
         font: fonts.sans,
@@ -82,12 +83,9 @@
           font: fonts.sans,
           size: 7.4pt,
           fill: palette.muted,
-        )[
-          Kinh tạng Pāli · Thanh Tịnh Đạo\
-          Chỉ dẫn thực hành Mahāsi
-        ]
+        )[#stack-lines(edition.cover.provenance_lines)]
       ],
-      [#eyebrow(edition)],
+      [#eyebrow(edition.cover.edition_label)],
     )
   ]
 
@@ -99,7 +97,7 @@
 #let chapter(number, title, deck, provenance: none) = context {
   if target() == "html" {
     html.elem("header", attrs: (class: "chapter-opener"))[
-      #html.elem("p", attrs: (class: "chapter-number"))[Chương #number]
+      #html.elem("p", attrs: (class: "chapter-number"))[#(edition.labels.chapter) #number]
       #heading(level: 1, outlined: true)[#title]
       #html.elem("p", attrs: (class: "chapter-deck"))[#deck]
       #if provenance != none {
@@ -109,7 +107,7 @@
   } else {
     pagebreak(weak: true)
     v(7mm)
-    eyebrow([CHƯƠNG #number], fill: palette.saffron)
+    eyebrow([#(edition.labels.chapter) #number], fill: palette.saffron)
     v(4mm)
     heading(level: 1, outlined: true)[#title]
     v(4mm)
@@ -216,7 +214,7 @@
   }
 }
 
-#let practice-card(title, body, label: [THỰC HÀNH]) = context {
+#let practice-card(title, body, label: edition.labels.practice) = context {
   if target() == "html" {
     html.elem("aside", attrs: (class: "practice-card", role: "note"))[
       #html.elem("p", attrs: (class: "eyebrow"))[#label]
@@ -245,7 +243,7 @@
 #let faq-card(anchor, question, body) = context {
   if target() == "html" {
     html.elem("section", attrs: (class: "faq-card practice-card"))[
-      #html.elem("p", attrs: (class: "eyebrow"))[GIẢI ĐÁP]
+      #html.elem("p", attrs: (class: "eyebrow"))[#edition.labels.faq]
       #html.elem("h2", attrs: (class: "card-title"))[#question]
       #label(anchor)
       #body
@@ -260,7 +258,7 @@
       stroke: 0.7pt + palette.rule,
     )[
       #set par(first-line-indent: 0em)
-      #eyebrow([GIẢI ĐÁP], fill: palette.forest)
+      #eyebrow(edition.labels.faq, fill: palette.forest)
       #v(4pt)
       #text(font: fonts.display, size: 13pt, weight: 600)[#question]
       #label(anchor)
@@ -273,7 +271,7 @@
 #let caution(title, body) = context {
   if target() == "html" {
     html.elem("aside", attrs: (class: "caution", role: "note"))[
-      #html.elem("p", attrs: (class: "eyebrow"))[Giới hạn cần nhớ]
+      #html.elem("p", attrs: (class: "eyebrow"))[#edition.labels.caution]
       #html.elem("p", attrs: (class: "card-title"))[#title]
       #body
     ]
@@ -287,7 +285,7 @@
       stroke: 0.7pt + palette.clay.lighten(48%),
     )[
       #set par(first-line-indent: 0em)
-      #eyebrow([GIỚI HẠN CẦN NHỚ], fill: palette.clay)
+      #eyebrow(edition.labels.caution, fill: palette.clay)
       #v(4pt)
       #text(font: fonts.display, size: 13pt, weight: 600)[#title]
       #v(7pt)
@@ -381,7 +379,7 @@
       #source-badge("KINH", refs: code)
       #html.elem("p", attrs: (class: "reference-title"))[*#title*]
       #html.elem("p", attrs: (class: "reference-detail"))[#detail]
-      #html.elem("p")[#link(url)[Mở bản nguồn trực tuyến]]
+      #html.elem("p")[#link(url)[#edition.labels.source_link]]
     ]
   } else {
     block(
@@ -397,7 +395,7 @@
         [
           *#title*\
           #text(size: 8.5pt, fill: palette.muted)[#detail]\
-          #link(url)[#text(font: fonts.sans, size: 7pt)[Mở bản nguồn trực tuyến]]
+          #link(url)[#text(font: fonts.sans, size: 7pt)[#edition.labels.source_link]]
         ],
       )
     ]
