@@ -63,6 +63,7 @@ For beginner-facing prose, apply three gates before building:
 1. No technical term survives more than one sentence without a plain-language gloss or an explicit local pointer.
 2. Every chapter and major conceptual pivot says what it carries forward and why the next section follows.
 3. Every dense list has an orientation before it and a synthesis, example, or action after it.
+4. A first-use route must expose the next physical action, its local stop condition, and one direct fallback without forcing the reader through a distant chapter. Keep one canonical restart protocol and use short pointers elsewhere.
 
 The glossary is a reference aid, not permission to leave the main reading path opaque.
 

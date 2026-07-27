@@ -44,11 +44,11 @@ Phần này cố tình đọc chậm hơn phần thực hành. Người mới kh
 #practice-card(
   [Đọc theo nhu cầu, không cần nuốt trọn từ đầu đến cuối],
   [
-    1. *Trước buổi đầu:* đọc chương 1, rồi đọc #link(<an-toan>)[các ngưỡng dừng ở chương 9]. Thực hành lịch bảy ngày ở mức vừa sức.
+    1. *Trước buổi đầu:* mở #link(<buoi-dau>)[“Trước buổi đầu tiên”] ở chương 1. Đọc hai hộp an toàn và thẻ Ngày 1; để #link(<nhan-tham-chieu>)[bảng nhãn ở Phụ lục B] bên cạnh nếu các từ ghi nhận còn lạ. Nếu hai hộp không nêu điều đang xảy ra với bạn, hãy bắt đầu buổi ngồi ngắn. Nếu một dấu hiệu cảnh báo áp dụng, dừng ở đó và đọc #link(<an-toan>)[chương 9] trước khi tiếp tục.
 
     2. *Sau tuần đầu:* dùng #link(<ngay-8-30>)[cầu nối ngày 8 đến ngày 30] trong chương 1, đồng thời đọc xong chương 2 đến chương 7 để đặt kỹ thuật vào giới, Bát Chánh Đạo, Tứ Niệm Xứ, duyên khởi và đời sống tại gia. Sau đó đọc chương 10 theo thẻ “Đường đọc lần đầu”. Nếu ba kiết sử đầu còn lẫn vào nhau, hãy dừng ở chương 10 và dùng phần thuật ngữ hoặc FAQ để đọc lại. Chương 11 chỉ mở rộng bản đồ sang năm hạ phần kiết sử và bốn quả; nó không phải kỳ thi, cũng không phải bảng tự phong cấp.
 
-    3. *Trước khi tăng mạnh thời lượng hoặc đi khóa:* đọc chương 8 và #link(<an-toan>)[chương 9], kiểm tra sức khỏe, người hướng dẫn và quyền rời khóa.
+    3. *Trước khi tăng mạnh thời lượng, tập một mình dài ngày hoặc đi khóa:* đọc chương 8 và đọc trọn #link(<an-toan>)[chương 9], kiểm tra sức khỏe, người hướng dẫn và quyền rời khóa.
 
     4. *Chương 12 để về sau:* trong những tuần hoặc tháng đầu, chỉ đọc hai phần đầu để biết nguồn và cách đếm, rồi dừng trước phần “Đọc bản đồ theo bốn vùng”. Đừng dùng tên tầng tuệ để tự phong cấp cho một trải nghiệm.
 

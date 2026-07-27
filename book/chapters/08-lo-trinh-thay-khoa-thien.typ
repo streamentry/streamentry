@@ -13,6 +13,8 @@
 
 Một lộ trình đáng tin phải làm được ba việc: vừa sức để duy trì, đủ rõ để tự kiểm và đủ linh hoạt để điều chỉnh khi thân tâm hoặc hoàn cảnh thay đổi. Mốc tháng dưới đây là kế hoạch biên soạn cho người tại gia. Kinh không ấn định lịch mười hai tháng, số phút mỗi ngày hay số khóa thiền mỗi năm. Nói ngắn lại, phần sau là một cách sắp xếp thứ tự, không phải bài kiểm tra trình độ.
 
+Nhịp vừa gián đoạn? Quay về #link(<khoi-dong-lai>)[lối khởi động lại ở chương 1] trước khi dùng các mốc thời lượng dưới đây.
+
 == Hai nhóm bốn yếu tố thường bị lẫn
 
 #source-line("KINH", [K02], [SN 55.50 nêu bốn yếu tố đưa đến Nhập lưu: thân cận người chân chánh, nghe Chánh pháp, như lý tác ý và thực hành đúng theo Pháp. Đây là những điều kiện nuôi đạo lộ.])

@@ -2,7 +2,7 @@
 
 Checked: 2026-07-27
 
-The 80-item scoring is a static content review adapted from a web-oriented benchmark. The exact current checks are recorded in [`release-evidence.md`](release-evidence.md): the PDF has 148 A5 pages, the EPUB has 153 nested content entries plus one cover entry in its table of contents, EPUBCheck 5.3.0 reports 0 fatals, 0 errors, and 0 warnings, and DAISY Ace 1.4.6 reports no issue in the package or three XHTML documents. The 2026-07-27 content pass deepened the first three fetters, clarified the 3–5–4 relation, expanded the four-fruit bridge, added glossary rescue entries for sensual desire, ill will, and path-versus-fruit terminology, and refreshed the release contract to the new artifact identity. Those internal controls do not replace the human decisions and tests.
+The 80-item scoring is a static content review adapted from a web-oriented benchmark. The exact current checks are recorded in [`release-evidence.md`](release-evidence.md): the PDF has 149 A5 pages, the EPUB has 155 nested content entries plus one cover entry in its table of contents, EPUBCheck 5.3.0 reports 0 fatals, 0 errors, and 0 warnings, and DAISY Ace 1.4.6 reports no issue in the package or three XHTML documents. The 2026-07-27 content passes first deepened the first three fetters and clarified the 3–5–4 and four-fruit relation. The latest pass then shortened the route to a safe first sit, exposed Appendix B at first use, added one canonical restart path, moved the feeling-to-craving drill before the twelve-link taxonomy, and placed an immediate safety action before the research discussion. Those internal controls do not replace the human decisions and tests.
 
 ## Overview
 
@@ -61,7 +61,7 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 | C05 | Pass | `book/references/claim-ledger.md` separates sutta, commentary, Mahāsi, research, and editorial claims. | None |
 | C06 | Pass | The frontmatter targets lay readers and repeats that the book is for ordinary household life. | None |
 | C07 | Pass | Chapter sequence is coherent: basics, path, sutta frame, dependent origination, method, safety, the first three fetters, the five-lower-fetters/four-fruits map, the later insight map, then appendices. | None |
-| C08 | Pass | `book/chapters/00-frontmatter.typ` includes a reading path for first-time readers and later-stage readers. | None |
+| C08 | Pass | `book/chapters/00-frontmatter.typ` gives a direct first-sit route, local warning fork, Appendix B lookup, month-one sequence, intensification gate, and later-reference route. | None |
 | C09 | Pass | Appendix C is a dedicated FAQ with 13 direct questions and answers. | None |
 | C10 | Pass | Chapter 10 closes by rejecting attainment guarantees and returning to direction, practice, and verification. | None |
 
@@ -70,11 +70,11 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 | ID | Status | Evidence | N/A reason |
 |---|---|---|---|
 | O01 | Pass | `book/theme.typ` defines chapter openers, headings, and target-aware layout rules. | None |
-| O02 | Pass | `book/chapters/00-frontmatter.typ` provides a top-level orientation block and reading path card. | None |
+| O02 | Pass | `book/chapters/00-frontmatter.typ` provides a top-level orientation block and a first-sit reading card with direct internal targets. | None |
 | O03 | Pass | `book/references/claim-ledger.md` and the appendix tables use clear tabular structure. | None |
 | O04 | Pass | The book uses headings, lists, check cards, caution boxes, and FAQ blocks consistently. | None |
 | O05 | N/A | The artifact is a book, not a site; there is no schema/JSON-LD layer in the publication pipeline. | No web schema layer to audit. |
-| O06 | Pass | Chapters are chunked into focused units; the formerly overloaded attainment chapter is now split between deep first-fetter explanation and the wider 3–5–4 classification, with appendices reserved for reference material. | None |
+| O06 | Pass | Chapters are chunked into focused units; the first-sit and restart decisions live in Chapter 1, the feeling-to-craving action precedes its dense taxonomy, and the attainment material remains split between deep first-fetter explanation and the wider 3–5–4 classification. | None |
 | O07 | Pass | `book/theme.typ` and `book/components.typ` create a strong visual hierarchy for cover, chapters, cards, and citations. | None |
 | O08 | Pass | The frontmatter includes an outline, and HTML target support preserves navigable structure. | None |
 | O09 | Pass | The manuscript is dense without becoming unreadable; reference and safety material is separated from running prose. | None |
@@ -104,8 +104,8 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 | E03 | Fail | The book cites primary texts but reports no original primary research of its own. Using primary sources is not the same as conducting primary research. | None |
 | E04 | Pass | Chapter 4 rejects the unsupported "easiest link" ranking and similar simplifications. | None |
 | E05 | Fail | The publication is mostly text and tables; there are no proprietary visuals in the book artifact itself. | None |
-| E06 | Pass | The book fills gaps with a felt-to-craving bridge, safety guidance, and reader-facing FAQ answers. | None |
-| E07 | Pass | Practice cards, checklists, and the seven-day starter path are practical tools, not abstract doctrine. | None |
+| E06 | Pass | The book fills gaps with an action-first feeling-to-craving bridge, an ordinary-interruption restart route, immediate safety guidance, and reader-facing FAQ answers. | None |
+| E07 | Pass | Practice cards, checklists, the safe first-sit route, seven-day starter path, and canonical restart card are practical tools, not abstract doctrine. | None |
 | E08 | Pass | The claim ledger and Chapters 10–11 give source-bounded depth on the first three fetters, full five lower fetters, and four fruits that most generic meditation handbooks lack. | None |
 | E09 | Pass | The book synthesizes early discourses, commentarial material, Mahāsi teaching, research, and editorial guidance. | None |
 | E10 | Pass | Later chapters point forward to safety, self-checking, and reuse rather than ending in vague inspiration. | None |
@@ -119,7 +119,7 @@ Several lost points are not defects that prose can honestly erase. Adding invent
 | Exp03 | Pass | The frontmatter and appendices document step-by-step practice, not just principles. | None |
 | Exp04 | Fail | There are no photos, screenshots, timestamped logs, or other tangible proof artifacts. | None |
 | Exp05 | Fail | The schedule states recommended duration but gives no verified record of how long the authors or test readers used this exact edition. | None |
-| Exp06 | Partial | Chapter 9 and Chapter 10 name pain, sleep disruption, self-misreading, and overreach as real failure modes. | None |
+| Exp06 | Partial | Chapters 1, 9, and 10 name broken routines, pain, sleep disruption, self-misreading, and overreach as real failure modes, but the artifact still contains no external field record. | None |
 | Exp07 | Partial | The text contrasts before/after in practice logic, but not with lived case studies. | None |
 | Exp08 | Partial | The book uses numbers and thresholds, but not outcome metrics from repeated field use. | None |
 | Exp09 | Fail | There is no evidence of repeated user testing or longitudinal practice logging inside the artifact. | None |

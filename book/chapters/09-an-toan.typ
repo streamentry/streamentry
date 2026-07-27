@@ -13,6 +13,14 @@
 
 An toàn không đồng nghĩa với sợ mọi cảm giác lạ. Nó cũng không cho phép ta gọi mọi khủng hoảng là “tiến bộ tâm linh”. Cách nghiêm túc hơn là mô tả điều đang xảy ra, xem mức độ kéo dài và ảnh hưởng đến sinh hoạt, rồi chọn mức hỗ trợ tương xứng.
 
+#practice-card(
+  [Nếu đang quá tải, làm ngay],
+  [
+    Dừng việc ghi nhận dồn dập, mở mắt và đặt chân vững trên sàn. Nhìn quanh, gọi tên vài điều đang thấy, nghe hoặc chạm được, rồi báo cho một người đáng tin. Đây là cách ổn định tạm thời; xem #link(<ha-cuong-do>)[quy trình đầy đủ] bên dưới. Nếu có nguy cơ tự hại cấp thời, bỏ bài tập này, xử lý theo #link(<ba-muc>)[mức ba] và đừng ở một mình. Nếu có thôi thúc làm hại người khác, hoặc mất liên hệ với thực tế và hành vi trở nên nguy hiểm, gọi trợ giúp khẩn cấp và ưu tiên an toàn của mọi người; đừng dựa vào một người không được huấn luyện ở cạnh nếu việc đó có thể đặt họ vào nguy hiểm.
+  ],
+  label: [LÀM NGAY · BIÊN SOẠN],
+)
+
 #source-line("Y TẾ & NGHIÊN CỨU", [R01], [Nghiên cứu đa phương pháp của Lindahl và cộng sự năm 2017 dùng phỏng vấn định tính để ghi nhận nhiều loại trải nghiệm liên quan đến thiền, từ thay đổi nhận thức và cảm xúc đến khó khăn trong sinh hoạt. Mẫu nghiên cứu được tuyển có chủ đích để khảo sát phạm vi trải nghiệm, nên không dùng được để ước tính bao nhiêu phần trăm người hành thiền sẽ gặp tác dụng bất lợi.])
 
 #v(8pt)
@@ -46,7 +54,7 @@ Bạn không cần tự chẩn đoán những thuật ngữ trên để dùng ch
   ],
 )
 
-== Ba mức phản ứng
+== Ba mức phản ứng <ba-muc>
 
 === Mức một: quan sát và điều chỉnh nhẹ
 
@@ -64,7 +72,7 @@ Hãy giảm thời lượng, bỏ khóa im lặng hoặc tạm dừng pháp hàn
 - Lo âu, khí sắc hoặc hành vi thay đổi đến mức cản trở sinh hoạt.
 - Người thân đáng tin nhận thấy những thay đổi trên đang tăng lên hoặc không biến mất.
 
-Liên hệ sớm với chuyên gia sức khỏe tâm thần. Nếu người hướng dẫn có năng lực, báo cho họ biết, nhưng đừng để một lời giải thích bằng “bản đồ tuệ” trì hoãn chăm sóc lâm sàng.
+Liên hệ sớm với chuyên gia sức khỏe tâm thần hoặc cơ sở y tế phù hợp. Nếu khả năng phân biệt thực tại, lời nói, tự chăm sóc hay chức năng hằng ngày đang xấu đi nhanh, ưu tiên được đánh giá y tế khẩn thay vì chờ buổi hẹn thiền. Nếu người hướng dẫn có năng lực, báo cho họ biết, nhưng đừng để một lời giải thích bằng “bản đồ tuệ” trì hoãn chăm sóc lâm sàng.
 
 === Mức ba: xử lý như tình huống cấp cứu
 
@@ -101,7 +109,7 @@ Nếu có những dấu hiệu trên, đừng ngồi tiếp để thử “xuyê
 
 #source-line("Y TẾ & NGHIÊN CỨU", [R09], [CDC lưu ý rằng không phải mọi cơn co giật đều cần cấp cứu. Cần gọi trợ giúp khẩn cấp khi cơn kéo dài quá năm phút, cơn khác xảy ra ngay sau đó, người bệnh khó thở hoặc khó tỉnh, bị thương, co giật trong nước, đang mang thai, bị đái tháo đường và mất ý thức, hoặc đây là cơn đầu tiên được biết. Số 911 trên trang CDC chỉ áp dụng tại Hoa Kỳ.])
 
-== Một quy trình hạ cường độ
+== Một quy trình hạ cường độ <ha-cuong-do>
 
 #source-line("Y TẾ & NGHIÊN CỨU", [R03], [Hướng dẫn tự trợ giúp về căng thẳng của WHO mô tả “grounding” bằng ba động tác: nhận ra ý nghĩ và cảm xúc đang có; chậm lại và kết nối với thân, chẳng hạn ấn chân xuống sàn; rồi chuyển chú ý về những gì đang thấy, nghe và chạm quanh mình. WHO nói rõ kỹ thuật này không nhằm xóa cảm xúc khó chịu. Nó giúp người thực hành kết nối lại với đời sống và không thay thế chăm sóc khẩn cấp hay điều trị.])
 

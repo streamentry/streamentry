@@ -96,6 +96,8 @@
   label: [RÀ SOÁT TUẦN],
 )
 
+Tuần bị đứt? Ghi quyết định theo #link(<khoi-dong-lai>)[lối khởi động lại ở chương 1], không lập lịch bù. Nếu đã dừng vì dấu hiệu nguy cơ, dùng #link(<an-toan>)[chương 9] trước khi quyết định tiếp tục.
+
 == Nhìn lại cuối tháng <ra-soat-thang>
 
 #practice-card(
