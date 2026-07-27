@@ -340,6 +340,68 @@ def _validate_content_links(root: ET.Element) -> None:
             )
 
 
+def _validate_titled_regions(root: ET.Element) -> None:
+    """Bind each repeated visual card to its visible title without adding landmarks."""
+    ids = {
+        element.attrib["id"]: element
+        for element in root.iter()
+        if element.attrib.get("id")
+    }
+    contracts = {
+        "practice-card": ("note", "card-title"),
+        "caution": ("note", "card-title"),
+        "day-card": ("group", "day-title"),
+        "reference-item": ("group", "reference-title"),
+        "decision-node": ("group", "card-title"),
+    }
+    counts = dict.fromkeys(contracts, 0)
+
+    for region in root.iter():
+        classes = _classes(region)
+        for region_class, (expected_role, title_class) in contracts.items():
+            if region_class not in classes:
+                continue
+            if region_class == "practice-card" and "faq-card" in classes:
+                continue
+            counts[region_class] += 1
+            if region.attrib.get("role") != expected_role:
+                raise ValueError(
+                    f".{region_class} must use role={expected_role}"
+                )
+            references = region.attrib.get("aria-labelledby", "").split()
+            if len(references) != 1:
+                raise ValueError(
+                    f".{region_class} requires exactly one aria-labelledby target"
+                )
+            title = ids.get(references[0])
+            if title is None:
+                raise ValueError(
+                    f".{region_class} aria-labelledby target does not resolve"
+                )
+            if title not in region.iter():
+                raise ValueError(
+                    f".{region_class} accessible title must be its descendant"
+                )
+            if title_class not in _classes(title) or not _label(title):
+                raise ValueError(
+                    f".{region_class} accessible title must be a non-empty .{title_class}"
+                )
+
+    missing = [region_class for region_class, count in counts.items() if count == 0]
+    if missing:
+        raise ValueError(f"semantic XHTML is missing titled regions: {missing}")
+
+    for decision_map in (
+        element
+        for element in root.iter()
+        if "decision-map" in _classes(element)
+    ):
+        if decision_map.attrib.get("role"):
+            raise ValueError(
+                ".decision-map is a layout wrapper and must not add a landmark or note role"
+            )
+
+
 def _validate_semantics(
     root: ET.Element,
     edition: EditionContract = EDITION,
@@ -372,6 +434,7 @@ def _validate_semantics(
     if len(ids) != len(set(ids)):
         raise ValueError("all XHTML ids must be unique")
     _validate_content_links(root)
+    _validate_titled_regions(root)
 
     css = "\n".join("".join(style.itertext()) for style in head.findall(_qname(XHTML_NS, "style")))
     if "color-scheme" not in css or not re.search(

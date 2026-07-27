@@ -16,7 +16,7 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `scripts/edition_contract_validation.py`: focused duplicate-key, exact-object, Unicode, and string-array validation primitives for the loader.
 - `book/main.typ`: only Typst content entry point for both paged and HTML targets.
 - `book/theme.typ`: A5 print rules plus reflowable HTML CSS selected through `target()`. Use left binding with mirrored 22 mm inside and 14 mm outside margins for the perfect-bound edition.
-- `book/components.typ`: target-aware source badges, chapter openers, practice cards, cautions, and reference blocks. Keep source badges above, not inline with, cited prose; preserve a quiet gap below provenance blocks.
+- `book/components.typ`: target-aware source badges, chapter openers, practice cards, cautions, and reference blocks. In semantic HTML, every repeated titled card must bind its visible title with a unique deterministic `aria-labelledby`; use `note` for practice/caution callouts and `group` for non-landmark collections. Keep source badges above, not inline with, cited prose; preserve a quiet gap below provenance blocks.
 - `book/chapters/`: editorial chapters.
 - `book/chapters/01-bay-ngay.typ`: safe first-sit route, seven-day start, explicitly editorial days 8–30 bridge, and the canonical restart path after ordinary interruption.
 - `book/chapters/04-duyen-khoi.typ`: action-first feeling-to-craving drill followed by the source-bounded full twelve-link map; never collapse the latter into the former.
@@ -43,7 +43,7 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `book/references/beginner-pilot-record.schema.json`: structured, privacy-bounded novice-attempt record.
 - `book/references/doctrinal-review-protocol.md`: operational contract for independent Theravāda review.
 - `dist/huong-den-nhap-luu.pdf`: current internally verified print candidate.
-- `scripts/build-epub.py`: deterministic EPUB 3 packaging and structural validation, including labelled content links, resolved local fragments, absolute HTTPS external sources, and distinct labels for different external destinations.
+- `scripts/build-epub.py`: deterministic EPUB 3 packaging and structural validation, including labelled content links, resolved local fragments, absolute HTTPS external sources, distinct labels for different external destinations, and resolved visible-title bindings for repeated cards.
 - `scripts/verify_release.py`: small release-verification orchestrator.
 - `scripts/build-external-review-packet.py`: clean-checkout CLI that creates one deterministic, candidate-bound ZIP for all six external work orders.
 - `scripts/external_review_packet.py`, `scripts/external_review_packet_content.py`, and `scripts/external_review_packet_archive.py`: committed-source collection, canonical packet content, deterministic ZIP writing, and self-validation.
@@ -91,7 +91,7 @@ python3 scripts/verify_release.py
 python3 scripts/build-external-review-packet.py
 ```
 
-Under the pinned macOS 15 ARM64 publication CI tool and font environment, the canonical builder emits a byte-reproducible PDF/UA-1 candidate and synchronized reflowable EPUB. The platform is part of the reproducibility contract because official Typst builds on different operating systems need not emit identical bytes. Publication CI disables system-font discovery and supplies the official checksum-pinned Inter 4.0 files so a missing or substituted local font cannot silently change the release. Treat PDF/UA metadata, EPUBCheck, and DAISY Ace as internal evidence; actual assistive-technology and reader-app use remain external gates.
+Under the pinned macOS 15 ARM64 publication CI tool and font environment, the canonical builder emits a byte-reproducible PDF/UA-1 candidate and synchronized reflowable EPUB. The platform is part of the reproducibility contract because official Typst builds on different operating systems need not emit identical bytes. Publication CI disables system-font discovery and supplies the official checksum-pinned Inter 4.0 files so a missing or substituted local font cannot silently change the release. Repeated visual cards must expose their visible titles as machine-readable names without inflating the heading outline or landmark list. Treat PDF/UA metadata, EPUBCheck, DAISY Ace, and browser accessibility-tree inspection as internal evidence; actual assistive-technology and reader-app use remain external gates.
 
 Do not impersonate the Buddha, fabricate quotations, or turn a retreat schedule, noting technique, cessation experience, or teacher verdict into a canonical guarantee of stream-entry.
 
