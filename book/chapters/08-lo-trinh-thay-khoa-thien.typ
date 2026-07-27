@@ -31,6 +31,8 @@ Sau #link(<ngay-8-30>)[cầu nối tháng đầu] của chương 1, có thể gi
 
 Mốc này chỉ dùng sau khi mức năm đến mười lăm phút của chương 1 đã đứng được trong đời sống. Nếu hai mươi phút làm mất ngủ, đau tăng hoặc khiến bạn bỏ liên tục, hãy giữ mức thấp hơn; lịch tháng không có quyền bắt thân tâm chạy trước nền thực tế.
 
+Nếu sau ngày 30, mức năm đến mười lăm phút vẫn là mức bền vững, cứ giữ mức ấy thêm trọn một tháng. Đây không phải thất bại hay chậm tiến; mốc tháng là lịch biên soạn, không phải chỉ tiêu phải vượt.
+
 === Tháng 3 và 4: tăng độ liên tục
 
 Nâng dần thời tọa đến ba mươi hoặc bốn mươi phút nếu giấc ngủ, công việc và quan hệ vẫn ổn. Thêm thiền hành trước lúc ngồi. Học cách *trình pháp*, tức báo cáo một buổi hành bằng sự kiện cụ thể: đối tượng chính, lúc tâm rời đi, cảm giác mạnh, thái độ đối với chúng. Đừng kể một câu chuyện đã được ép vào bản đồ tuệ.

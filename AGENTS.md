@@ -44,9 +44,9 @@ The canonical publication credit is `CS Chánh Niệm + ChatGPT`. Keep the cover
 
 Beginner readability is a publication contract, not a style preference. Define technical terms at first use, connect each conceptual section to the prior one, orient and synthesize dense lists, and keep appendices usable when opened directly. Internal editorial review may mark these gates complete, but only `book/references/beginner-validation-protocol.md` can support a claim of novice validation.
 
-For running the novice test, start with `book/references/beginner-reader-kit.md` and use it together with the protocol. Freeze the artifacts and ten-file scoring contract before attempt one, enumerate every started attempt in one authoritative manifest, and count only the first five completed eligible attempts among at most seven starts. Raw records stay under ignored `build/beginner-pilot/`; only the privacy-coarsened aggregate report is publishable. A local manifest cannot independently prove its registration time or terminal-attempt completeness; use an external append-only registry for that stronger claim.
+For running the novice test, start with `book/references/beginner-reader-kit.md` and use it together with the protocol. Freeze the artifacts and ten-file scoring contract before attempt one, enumerate every started attempt in one authoritative manifest, and count only the first five completed eligible attempts among at most seven starts. Raw records stay under ignored `build/beginner-pilot/`; only the privacy-coarsened aggregate and reader-app reports are publishable. A local manifest cannot independently prove its registration time or terminal-attempt completeness; use an external append-only registry for that stronger claim.
 
-For external release work, start with `book/references/external-release-packet.md`. Treat `external-release-gates.json` as the status source and let `scripts/verify_release.py` check protocol hashes, required gate-specific evidence roles, path reuse, role/header agreement, exact-once PDF and EPUB digest fields, candidate binding, cross-document status, and permitted claim enums. Machine verification cannot establish a signer's authority, a reviewer's competence, or the honesty of a study. Keep every gate open until that human evidence exists.
+For external release work, start with `book/references/external-release-packet.md`. Treat schema-v3 `external-release-gates.json` as the status source and let `scripts/verify_release.py` check protocol hashes, required gate-specific evidence roles, path reuse, role/header agreement, mandatory completion, public-confirmation and scope-limit fields, exact-once PDF and EPUB digest fields, candidate binding, cohort/report bindings, cross-document status, public contact-data rejection, and permitted claim enums. The frozen candidate commit may precede the evidence commit, but it must be an ancestor of it and contain the exact recorded PDF and EPUB bytes; `release-evidence.md` and public evidence may be committed later. Machine verification cannot establish a signer's authority, a reviewer's competence, participant identity, custody completeness, or the honesty of a study. Keep every gate open until that human evidence exists.
 
 When discussing attainment, use *the first three fetters*, not an invented standalone canonical list called “three lower fetters.” Keep that subset distinct from the full five lower fetters, the four fruits, and DN 2's broader discourse title. Chapter 10 explains the subset deeply; Chapter 11 supplies the wider classification.
 
@@ -92,7 +92,7 @@ flowchart TB
   E --> P["scripts/build-epub.py"]
   P --> U["EPUB 3"]
   M --> Q["Quality audits"]
-  N["Frozen manifest and attempt records"] --> G["Deterministic pilot scorer"]
+  N["Frozen manifest and attempt records"] --> G["Deterministic dual-output pilot scorer"]
   G --> Q
   X["External gate registry"] --> Q
   R["Role-labelled rights and review evidence"] --> X
@@ -122,7 +122,7 @@ sequenceDiagram
   Q-->>E: Report overflow, page rhythm, and text defects
   E->>R: Run novice comprehension and scoped expert review
   R->>S: Submit frozen manifest and all ordered attempts
-  S-->>E: Return fixed gate failures or aggregate pass evidence
+  S-->>E: Return aggregate and reader-app evidence
   R-->>E: Return scoped expert findings
   E->>T: Correct and recompile
 ```
@@ -165,7 +165,7 @@ flowchart LR
   U --> B
   B --> R["Frozen manifest and pseudonymous attempt records"]
   R --> SC["Deterministic gate scorer"]
-  SC --> AE["Aggregate evidence"]
+  SC --> AE["Aggregate and reader-app evidence"]
   AE --> X["Typed external gate registry"]
   ER["Role-labelled rights and signed reviews"] --> X
   Q -. "corrections" .-> E

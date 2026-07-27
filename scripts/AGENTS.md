@@ -11,14 +11,14 @@ This folder owns deterministic PDF and EPUB publication checks. It converts the 
 - `release_evidence.py`: parses only the visible artifact table and anchors the immutable source hash and publication credit.
 - `release_pdf.py`: verifies PDF metadata, tagging, security flags, file size, and every page's A5 geometry and rotation.
 - `release_epub.py`: verifies the active package, exact manifest and spine, passive XHTML, metadata, resolved unique navigation, and content/cover counts.
-- `external_release_gates.py`: verifies protocol fingerprints, six external-gate states, gate-specific required evidence roles, public evidence paths and artifact binding, release-evidence status agreement, and claims derived from passed gates.
-- `external_release_gate_files.py`: contains the fail-closed JSON, repository-path, file-fingerprint, local-link, evidence-status, exact evidence-role, and exact-once PDF/EPUB digest-field validators used by the external gate orchestrator.
+- `external_release_gates.py`: verifies the schema-v3 registry, protocol fingerprints, six external-gate states, gate-specific required evidence roles, ancestor-plus-exact-artifact candidate binding, cohort/report bindings, release-evidence status agreement, and claims derived from passed gates.
+- `external_release_gate_files.py`: contains the fail-closed JSON, repository-path, file-fingerprint, local-link, evidence-status, exact evidence-role, mandatory `Completed`, public-confirmation and scope-limit fields, public contact-data rejection, exact-once PDF/EPUB digest, cohort/manifest, and counted-record validators used by the external gate orchestrator.
 - `beginner_pilot_contract.py`: fixed task ids, criteria, thresholds, allowed fields, cohort rules, and the exact ten-file scoring contract. The insight-map criterion points to Chapter 12; the fetter criterion is coded true only under the scenario-level rubric in the reader kit.
 - `beginner_pilot_validation.py`: strict JSON, schema, consent, eligibility, task-state, fixed stop-reason, bounded contact-data detection, and retention validation.
 - `beginner_pilot_artifact.py`: verifies hashes and page count against real files and committed Git blobs, plus a bounded EPUB container check.
 - `beginner_pilot_manifest.py`: loads the only authoritative manifest, rejects direct or nested record additions and reachable Git-history exposure, enforces chronological first-five selection among at most seven starts, verifies canonical origin/main ancestry, and binds the running scorer to the committed contract.
 - `beginner_pilot.py`: reusable scoring rules for one validated five-reader novice cohort.
-- `score-beginner-pilot.py`: manifest-only CLI that applies fixed comprehension, EPUB, completeness, and distress-veto gates and emits a privacy-coarsened aggregate report without first answers or notes.
+- `score-beginner-pilot.py`: manifest-only CLI that applies fixed comprehension, EPUB, completeness, and distress-veto gates. `--output` emits an aggregate report bound to one cohort, one manifest hash, and five counted-record hashes; `--epub-evidence-output` emits a separate reader-app report bound to the same cohort and manifest plus one of those records. Neither output proves human identity or external custody.
 - The pilot runtime requires Python's `jsonschema` package. A local manifest cannot independently prove its asserted registration time or that the moderator did not omit the terminal attempt; stronger custody needs an external append-only timestamped registry.
 - Keep the OPF `dcterms:modified` value fixed within a release for reproducibility, but advance it when the published content changes to a new release date.
 - `build/epub/`: ignored intermediate output.
@@ -41,7 +41,7 @@ flowchart LR
   E --> W["Separate release-evidence verifier"]
   W --> Q["Typed external gate registry"]
   R["Frozen manifest and ordered attempts"] --> S["Deterministic cohort scorer"]
-  S --> G["Aggregate gate report"]
+  S --> G["Aggregate and reader-app reports"]
 ```
 
 ### Component Diagram
@@ -61,6 +61,7 @@ flowchart TB
   Q["External gate registry"] --> E["Candidate-bound public evidence"]
   R --> A["Aggregate report"]
   G --> A
+  S --> E["Reader-app report"]
 ```
 
 ### Sequence Diagram
@@ -80,7 +81,7 @@ sequenceDiagram
   V-->>U: Verified EPUB or exact failure
   U->>V: Verify protocol hashes and external gate claims
   U->>S: Score one manifest with all ordered attempts
-  S-->>U: Aggregate gate report or exact invalid-data error
+  S-->>U: Aggregate and reader-app reports or exact invalid-data error
 ```
 
 ### State Machine
@@ -117,6 +118,6 @@ flowchart LR
   I --> Z
   D["Metadata constants"] --> Z
   R["Manifest and pseudonymous attempt JSON"] --> C["Cohort scorer"]
-  C --> A["Aggregate report"]
+  C --> A["Aggregate and reader-app reports"]
   A --> G["External gate registry"]
 ```

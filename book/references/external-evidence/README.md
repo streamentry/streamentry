@@ -6,7 +6,7 @@ Allowed:
 
 - signed rights decisions with private contact details removed;
 - doctrinal and clinical-safety reports;
-- scorer-produced beginner aggregate reports;
+- scorer-produced beginner aggregate and reader-app reports;
 - external preregistration or timestamp receipts;
 - privacy-safe EPUB environment and defect summaries;
 - comparative preregistration and aggregate results.
@@ -32,6 +32,12 @@ Signer or verifiable public confirmation:
 What this evidence does not establish:
 ```
 
-The `Evidence role:`, `PDF SHA-256:`, and `EPUB SHA-256:` lines must each appear exactly once. The role and both digests must match the registry and current candidate record. Canonical roles are gate-specific: `rights_decision`; `doctrinal_review_report`; `clinical_safety_review_report`; `aggregate_report`; `preregistration_receipt`; `public_history_confirmation`; `privacy_review_confirmation`; `reader_app_report`; `comparative_results`.
+`Completed:` must contain one real ISO date. `Signer or verifiable public confirmation:` must identify the public confirmation mechanism without exposing a private contact route. `What this evidence does not establish:` must state the scope limit. The `Evidence role:`, `PDF SHA-256:`, and `EPUB SHA-256:` lines must each appear exactly once. The role and both digests must match the registry and current candidate record. Public evidence containing a likely private email address or phone number is rejected.
+
+The frozen `Candidate commit` need not be the commit that later adds this evidence or updates `release-evidence.md`. It must be a 40-character ancestor of the evidence commit and must itself contain the exact PDF and EPUB bytes named by the current release record.
+
+For `aggregate_report`, also require exactly one `Cohort ID:`, one `Manifest SHA-256:`, and exactly five distinct `Counted record SHA-256:` lines. For `reader_app_report`, require the same cohort ID and manifest hash plus exactly one counted-record hash drawn from those five. Generate these two role-specific files with the scorer's `--output` and `--epub-evidence-output` options. Their deterministic bindings do not authenticate the reader or moderator and do not independently prove preregistration time, public-history freshness, or that no attempt was omitted.
+
+Canonical roles are gate-specific: `rights_decision`; `doctrinal_review_report`; `clinical_safety_review_report`; `aggregate_report`; `preregistration_receipt`; `public_history_confirmation`; `privacy_review_confirmation`; `reader_app_report`; `comparative_results`.
 
 Use one descriptive filename per evidence role such as `doctrinal-review-2026-07-15.md`. A passed or failed gate must list every public evidence file in the registry with its `path`, `sha256`, and `role`. Unsupported roles, duplicate singleton roles, reused file paths, stale hashes, or one generic file pretending to close multiple roles are rejected. The machine verifier checks paths, hashes, candidate binding, role lines, and required-role coverage. A human steward still verifies identity, qualifications, authority, signature, confidentiality and substantive findings.

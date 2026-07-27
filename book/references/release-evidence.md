@@ -1,12 +1,12 @@
 # Internal release evidence
 
-Checked: 2026-07-27
+Checked: 2026-07-26
 
 ## Status
 
-**Internally verified release candidate.** This record is valid only when read from the clean Git commit that contains it and when the artifact hashes below reproduce. The enclosing commit SHA is external metadata and is intentionally not embedded in this self-referential record.
+**Internally verified release candidate.** This record identifies the candidate by the exact artifact hashes below. Any terminal external evidence must name a frozen ancestor commit that contains those exact PDF and EPUB bytes; the evidence and an updated copy of this record may live in a later descendant commit without changing the tested artifact identity.
 
-- Candidate binding: **the enclosing clean Git commit plus the exact artifact hashes below**
+- Candidate binding: **a frozen artifact commit containing the exact PDF and EPUB bytes below, plus any later descendant evidence commit**
 - Machine-readable external gate registry: [`external-release-gates.json`](external-release-gates.json)
 - Public redistribution rights: **OPEN** — no explicit grant or rights statement is documented.
 - Independent Theravāda review: **OPEN** — no signed report for this candidate exists.
@@ -20,12 +20,12 @@ Checked: 2026-07-27
 | Item | Evidence |
 |---|---|
 | Immutable source SHA-256 | `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440` |
-| PDF SHA-256 | `734c7aa26b9b67f8ea8c2ed626a76bbc46529f45c9336d3f50f7f4cd1974ef07` |
-| EPUB SHA-256 | `4552abecb62e58c4c9caf9790b733c9c5ca01a45b5631190a01fd61f72669c01` |
-| PDF extent | 132 A5 pages |
-| PDF file size | 1,108,026 bytes |
-| EPUB navigation | 148 nested content entries plus 1 cover entry |
-| EPUB archive size | 152,086 bytes |
+| PDF SHA-256 | `c5ee93ad6b565d5c4d029cbc1ee6485592451ef7d7d6e5a1e5e7e2f22cf3bb69` |
+| EPUB SHA-256 | `401a1ea4ddcccb1797d5516f7023cdc34da7828f8b1af69ddfff873ccf7c253b` |
+| PDF extent | 144 A5 pages |
+| PDF file size | 1,184,927 bytes |
+| EPUB navigation | 149 nested content entries plus 1 cover entry |
+| EPUB archive size | 157,666 bytes |
 | Publication credit | `CS Chánh Niệm + ChatGPT` |
 
 Any content, theme, component, builder, or metadata change invalidates these hashes and requires this record to be regenerated.
@@ -45,7 +45,7 @@ Any content, theme, component, builder, or metadata change invalidates these has
 | Ruff | 0.15.20 |
 | JSON Schema validator | `jsonschema` 4.26.0 |
 
-The builder acknowledged 186 allowlisted Typst HTML-export warnings and rejected unexpected warning classes. The print build now names only the exact embedded families plus Inter, and release CI supplies the official Inter 4.0 files while disabling system fonts. Typst renders the EPUB cover directly instead of delegating rasterization to Poppler. Two consecutive canonical builds under that isolated macOS ARM64 environment were byte-identical for both PDF and EPUB. The platform is part of the byte-reproducibility contract; structurally valid builds on another operating system are not assumed to have the same hashes. Hosted CI obtains Poppler from Homebrew on macOS 15 ARM64 only for inspection, never artifact generation; the verifier fails closed unless the required stable fields and every page's geometry are present.
+The builder acknowledged 195 allowlisted Typst HTML-export warnings and rejected unexpected warning classes. The print build now names only the exact embedded families plus Inter, and release CI supplies the official Inter 4.0 files while disabling system fonts. Typst renders the EPUB cover directly instead of delegating rasterization to Poppler. Two consecutive canonical builds under that isolated macOS ARM64 environment were byte-identical for both PDF and EPUB. The platform is part of the byte-reproducibility contract; structurally valid builds on another operating system are not assumed to have the same hashes. Hosted CI obtains Poppler from Homebrew on macOS 15 ARM64 only for inspection, never artifact generation; the verifier fails closed unless the required stable fields and every page's geometry are present.
 
 ## Verification results
 
@@ -58,10 +58,10 @@ The builder acknowledged 186 allowlisted Typst HTML-export warnings and rejected
 | DAISY Ace 1.4.6 | Pass | No issues in `cover.xhtml`, `nav.xhtml`, `book.xhtml`, or `package.opf`. |
 | Narrow-screen reflow | Pass | Headless viewport 320 × 568 CSS px, root font 24 px, dark mode on: root and body `scrollWidth` both 320; no rendered box crossed the viewport. |
 | Dark-mode automated contrast | Pass | Minimum tested text contrast was 7.443:1. |
-| PDF metadata and tagging | Pass | `pdfinfo` reports Vietnamese title metadata, canonical author, tagged structure, 132 unrotated A5 pages, no encryption, no JavaScript, and no suspects; embedded text extraction preserves the month-one bridge, the expanded Chapter 10 beginner bridges, the clarified Sa-môn quả bridge in Chapter 11, and the renumbered Chapter 12 headings. |
-| PDF visual QA | Pass internally | All 132 pages were inspected in six contact sheets, with full-size checks on the month-one bridge, the new Chapter 10 beginner bridge cards, the Chapter 11 opener and Sa-môn quả bridge, the 3–5–4 card, MN 64 distinction, DN 16 example, and the Chapter 12 handoff. The final render has no clipping, overlap, truncated badges, accidental blanks, duplicates, missing glyphs, or broken hierarchy. |
-| Pilot schema, scorer, and release verifier | Pass internally | Both JSON Schema 2020-12 contracts meta-validate; all 81 focused tests pass; Ruff, Python compilation, and `git diff --check` pass. The scorer enforces the first five eligible completions among at most seven starts, terminal stopped-session sequencing, fixed stop reasons, distress-note erasure and vetoes, exact artifact and contract hashes, canonical-origin ancestry, recursive record discovery, reachable-history privacy, bounded likely-contact-data rejection, and strict retention bounds. External gate evidence must declare one typed role and exactly one current PDF and EPUB digest field; an incidental digest elsewhere cannot hide a stale binding. |
-| Source-integrity re-audit | Pass internally | Every used K01–K37, P01–P02, V01, and R01–R09 code resolves in the source map. Independent sub-agent adversarial reviews of doctrine, provenance, beginner clarity, code, and pilot privacy found no remaining material internal defect after corrections. These are internal reviews, not a named external Theravāda or clinical-safety sign-off. |
+| PDF metadata and tagging | Pass | `pdfinfo` reports Vietnamese title metadata, canonical author, tagged structure, 144 unrotated A5 pages, no encryption, no JavaScript, and no suspects; embedded text extraction preserves the month-one bridge, the expanded Chapter 10 beginner bridges, the stronger Chapter 11 beginner focus on the first three fetters, and the renumbered Chapter 12 headings. |
+| PDF visual QA | Pass internally | All 144 pages were inspected in six contact sheets, with full-size checks on the month-one bridge, the new Chapter 10 beginner bridge cards, the Chapter 11 opener, the new “trọng tâm vẫn là ba kiết sử đầu” card, the 3–5–4 card, the glossary additions, and the Chapter 12 handoff. The final render has no clipping, overlap, truncated badges, accidental blanks, duplicates, missing glyphs, or broken hierarchy. |
+| Pilot schema, scorer, and release verifier | Pass internally | Both JSON Schema 2020-12 contracts meta-validate; all 99 focused tests pass; Ruff, Python compilation, and `git diff --check` pass. The scorer enforces the first five eligible completions among at most seven starts, terminal stopped-session sequencing, fixed stop reasons, distress-note erasure and vetoes, exact artifact and contract hashes, canonical-origin ancestry, recursive record discovery, reachable-history privacy, bounded likely-contact-data rejection, and strict retention bounds. External gate evidence must declare one typed role and exactly one current PDF and EPUB digest field; an incidental digest elsewhere cannot hide a stale binding. |
+| Source-integrity re-audit | Pass internally | Every used K01–K39, P01–P02, V01, and R01–R09 code resolves in the source map. Independent sub-agent adversarial reviews of doctrine, provenance, beginner clarity, code, and pilot privacy found no remaining material internal defect after corrections. These are internal reviews, not a named external Theravāda or clinical-safety sign-off. |
 
 The PDF was compiled with Typst's PDF/UA-1 enforcement and exposes the expected metadata, but no independent PDF/UA validator such as veraPDF was available. Therefore this record does **not** claim independent PDF/UA conformance.
 
@@ -72,8 +72,8 @@ The pilot scorer proves consistency of the files it receives. Its canonical-orig
 Use [`external-release-packet.md`](external-release-packet.md) as the operational handoff. The JSON registry is the machine-readable status source; this list explains the work.
 
 1. Obtain the rights holder's explicit decision under `rights-decision-template.md` on copyright, licensing, source-text permissions, and allowed PDF/EPUB distribution. Do not infer a public redistribution grant from repository visibility.
-2. Run the independent doctrinal review defined in `doctrinal-review-protocol.md` and the separately scoped review defined in `clinical-safety-review-protocol.md` against the enclosing commit and both hashes.
-3. Run one five-reader unassisted beginner cohort using `beginner-validation-protocol.md`; verify the enclosing commit against fresh public canonical history, preregister through an external append-only registry, enumerate every started attempt, and publish only aggregate evidence.
+2. Run the independent doctrinal review defined in `doctrinal-review-protocol.md` and the separately scoped review defined in `clinical-safety-review-protocol.md` against the frozen artifact commit and both hashes.
+3. Run one five-reader unassisted beginner cohort using `beginner-validation-protocol.md`; verify the frozen artifact commit against fresh public canonical history, preregister through an external append-only registry, enumerate every started attempt, and publish only aggregate evidence in a descendant commit.
 4. Run the required EPUB smoke test in a named standards-based reader at 150% text and dark mode. Automated Chromium reflow is useful evidence, not a substitute for this human reader-app gate.
 5. Repeat failed reader gates with a fresh cohort after corrections.
 6. Freeze and externally register `comparative-beginner-protocol.md`, then run it against the named panel before making even the narrower named-panel first-use outperformance claim. The current draft does not authorize “top choice,” “best,” or “number one.”

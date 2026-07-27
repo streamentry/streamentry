@@ -55,11 +55,14 @@ Every pull request and push to `main` that can affect publication runs `.github/
 - [`book/references/beginner-pilot-cohort-manifest.schema.json`](book/references/beginner-pilot-cohort-manifest.schema.json), [`book/references/beginner-pilot-record.schema.json`](book/references/beginner-pilot-record.schema.json), and [`scripts/score-beginner-pilot.py`](scripts/score-beginner-pilot.py) bind one ordered five-to-seven-attempt cohort to exact committed artifacts and a frozen scoring contract.
 - Corrections can be reported through the [public issue tracker](https://github.com/streamentry/streamentry/issues).
 
-The pilot scorer requires Python's `jsonschema` package and accepts only the authoritative manifest:
+The pilot scorer requires Python's `jsonschema` package and accepts only the authoritative manifest. Generate both public, privacy-coarsened evidence roles in the same scoring run:
 
 ```sh
 python3 scripts/score-beginner-pilot.py build/beginner-pilot/<cohort-id>/manifest.json \
-  --output build/beginner-pilot/<cohort-id>/aggregate-report.md
+  --output build/beginner-pilot/<cohort-id>/aggregate-report.md \
+  --epub-evidence-output build/beginner-pilot/<cohort-id>/reader-app-report.md
 ```
 
-The current candidate is rebuilt and remeasured whenever the content changes; exact counts and hashes belong in the release evidence rather than this overview. The first-month route now continues explicitly from the seven-day start through days 8–30, but that bridge is visibly editorial and has not yet been validated for adherence. Structural checks establish source traceability and format validity. They do not establish spiritual attainment, clinical safety for every reader, proprietary-reader interoperability, independent expert endorsement, or a “number-one” market position. The release candidate is identified by the enclosing Git commit plus the hashes in `release-evidence.md`; external reviews and reader tests must target that exact commit.
+The aggregate report binds the cohort ID, manifest SHA-256, and exactly five counted-record SHA-256 values. The reader-app report binds the same cohort and manifest plus exactly one of those five record hashes. These deterministic reports establish consistency with the supplied private files; they do not authenticate participants or moderators, prove preregistration custody, or replace the required public-history, privacy-review, and external-registration evidence.
+
+The current candidate is rebuilt and remeasured whenever the content changes; exact counts and hashes belong in the release evidence rather than this overview. The first-month route now continues explicitly from the seven-day start through days 8–30, but that bridge is visibly editorial and has not yet been validated for adherence. Structural checks establish source traceability and format validity. They do not establish spiritual attainment, clinical safety for every reader, proprietary-reader interoperability, independent expert endorsement, or a “number-one” market position. External reviews and reader tests target the frozen ancestor commit that contains the exact PDF and EPUB bytes; `release-evidence.md` and public evidence may be committed later without changing that tested identity.

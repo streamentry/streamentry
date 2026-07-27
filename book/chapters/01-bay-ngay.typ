@@ -22,7 +22,7 @@
 #caution(
   [Nếu chuyển động bụng không rõ],
   [
-    Giữ bụng là điểm tựa mặc định trong tuần đầu, nhưng không ép nó phải hiện ra bằng sức căng. Thả lỏng thân và thử lại trong khoảng hai đến ba phút. Nếu chuyển động vẫn rất mờ, dùng cảm giác hơi thở ở mũi cho phần còn lại của buổi đó. Giữ nguyên một điểm tựa đến hết buổi thay vì đổi qua đổi lại. Mốc hai đến ba phút và cách chuyển điểm tựa là quy tắc biên soạn để người mới khỏi mắc kẹt; P01 không ấn định mốc này.
+    Giữ bụng là điểm tựa mặc định trong tuần đầu, nhưng không ép nó phải hiện ra bằng sức căng. Thả lỏng thân và thử lại trong khoảng hai đến ba phút. Nếu chuyển động vẫn rất mờ, dùng cảm giác hơi thở ở mũi cho phần còn lại của buổi đó. Giữ nguyên một điểm tựa đến hết buổi thay vì đổi qua đổi lại. Nếu chú ý hơi thở ở mũi làm tăng hoảng sợ, tức ngực, chóng mặt hoặc cảm giác xa lạ với bản thân hay thực tại, đừng cố giữ điểm tựa ấy. Hãy dừng buổi ngồi và dùng bài tiếp đất ở #link(<an-toan>)[chương 9]. Quy tắc giữ một điểm tựa không bao giờ cao hơn an toàn. Mốc hai đến ba phút và cách chuyển điểm tựa là quy tắc biên soạn để người mới khỏi mắc kẹt; P01 không ấn định mốc này.
   ],
 )
 

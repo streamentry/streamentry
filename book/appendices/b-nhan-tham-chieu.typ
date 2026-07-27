@@ -23,7 +23,7 @@
 
     Chọn một điểm trở về trong buổi tập. Khi đối tượng khác hết nổi bật, trở lại đó.
 
-    Trong tuần đầu, bụng là điểm mặc định. Nếu sau hai đến ba phút thả lỏng mà chuyển động vẫn không rõ, đổi sang hơi thở ở mũi cho phần còn lại của buổi đó và đừng qua lại giữa hai điểm trong cùng một lần ngồi.
+    Trong tuần đầu, bụng là điểm mặc định. Nếu sau hai đến ba phút thả lỏng mà chuyển động vẫn không rõ, đổi sang hơi thở ở mũi cho phần còn lại của buổi đó và đừng qua lại giữa hai điểm trong cùng một lần ngồi. Ngoại lệ an toàn: nếu chú ý hơi thở làm tăng hoảng sợ, tức ngực, chóng mặt hoặc cảm giác xa lạ với bản thân hay thực tại, dừng buổi và dùng bài tiếp đất ở #link(<an-toan>)[chương 9]. Quy tắc giữ nguyên điểm tựa không bao giờ cao hơn an toàn.
 
     Hơi thở ở mũi là phương án biên soạn theo K12, không phải đề mục căn bản của P01.
 

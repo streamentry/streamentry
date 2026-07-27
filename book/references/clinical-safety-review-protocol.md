@@ -1,6 +1,6 @@
 # Independent clinical-safety review protocol
 
-Checked: 2026-07-27
+Checked: 2026-07-26
 
 This protocol defines what must exist before the edition may say that its clinical-safety material received independent review. It does not establish clinical efficacy, universal safety, diagnosis, treatment, or fitness for a particular reader.
 
