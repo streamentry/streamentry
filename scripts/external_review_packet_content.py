@@ -63,6 +63,23 @@ GATE_ASSIGNMENTS = {
         ("book/references/comparative-beginner-protocol.md",),
     ),
 }
+PILOT_RUNTIME_PATHS = (
+    "scripts/beginner_pilot.py",
+    "scripts/beginner_pilot_artifact.py",
+    "scripts/beginner_pilot_contract.py",
+    "scripts/beginner_pilot_manifest.py",
+    "scripts/beginner_pilot_preparation.py",
+    "scripts/beginner_pilot_validation.py",
+    "scripts/beginner_pilot_workflow.py",
+    "scripts/edition_contract.py",
+    "scripts/edition_contract_validation.py",
+    "scripts/prepare-beginner-pilot.py",
+    "scripts/score-beginner-pilot.py",
+)
+GATE_RUNTIME_PATHS = {
+    "beginner_cohort": PILOT_RUNTIME_PATHS,
+    "epub_reader_app": PILOT_RUNTIME_PATHS,
+}
 STATIC_SOURCE_PATHS = (
     "README.md",
     "book/main.typ",
@@ -87,6 +104,7 @@ STATIC_SOURCE_PATHS = (
     "book/references/comparative-beginner-protocol.md",
     "book/references/beginner-pilot-record.schema.json",
     "book/references/beginner-pilot-cohort-manifest.schema.json",
+    *PILOT_RUNTIME_PATHS,
 )
 
 
@@ -120,6 +138,18 @@ def assignment_text(gate_id: str, snapshot: PacketSnapshot) -> str:
     title, decision, protocols = GATE_ASSIGNMENTS[gate_id]
     status = dict(snapshot.gate_statuses)[gate_id]
     protocol_lines = "\n".join(f"- `repository/{path}`" for path in protocols)
+    runtime_paths = GATE_RUNTIME_PATHS.get(gate_id, ())
+    runtime_section = (
+        "\n## Runtime kèm theo\n\n"
+        + "\n".join(f"- `repository/{path}`" for path in runtime_paths)
+        + (
+            "\n\nGiải nén packet, vào thư mục `repository`, rồi dùng "
+            "`python3 scripts/prepare-beginner-pilot.py --help`. "
+            "Không tải một scorer khác từ mạng cho cohort đã khóa.\n"
+        )
+        if runtime_paths
+        else ""
+    )
     return f"""# Phiếu phân công: {title}
 
 Packet ID: `{snapshot.packet_id}`
@@ -137,6 +167,7 @@ PDF pages: `{snapshot.release.pdf_pages}`
 ## Tài liệu điều khiển
 
 {protocol_lines}
+{runtime_section}
 
 ## Phần người điều phối phải điền ngoài kho công khai
 

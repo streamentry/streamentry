@@ -24,6 +24,7 @@ from external_review_packet_archive import (  # noqa: E402
 )
 from external_review_packet_content import (  # noqa: E402
     GATE_ORDER,
+    PILOT_RUNTIME_PATHS,
     STATIC_SOURCE_PATHS,
     PacketMember,
     PacketSnapshot,
@@ -114,6 +115,26 @@ class ExternalReviewPacketTests(unittest.TestCase):
             "repository/book/references/attainment-source-audit.md",
             doctrinal_work_order.payload.decode("utf-8"),
         )
+
+    def test_beginner_assignments_include_the_frozen_operator_runtime(self) -> None:
+        for path in PILOT_RUNTIME_PATHS:
+            self.assertIn(path, STATIC_SOURCE_PATHS)
+        for gate in ("beginner_cohort", "epub_reader_app"):
+            work_order = next(
+                member
+                for member in generated_members(_snapshot())
+                if member.archive_path.endswith(f"/{gate}.md")
+            )
+            text = work_order.payload.decode("utf-8")
+            self.assertIn(
+                "repository/scripts/prepare-beginner-pilot.py",
+                text,
+            )
+            self.assertIn(
+                "repository/scripts/score-beginner-pilot.py",
+                text,
+            )
+            self.assertIn("Không tải một scorer khác từ mạng", text)
 
     def test_build_is_byte_reproducible_and_self_validating(self) -> None:
         snapshot = _snapshot()

@@ -32,6 +32,37 @@ Hãy hình dung cùng một tiếng xe ngoài đường. Ban đầu ta chỉ bi�
   P02 nói các tuệ phát triển khi niệm và định mạnh dần, rồi mô tả chúng bằng sự trưởng thành có điều kiện của cách biết thân-tâm. Tác phẩm được viết chủ yếu cho người đã có kết quả rõ sau thực hành nghiêm mật, không phải cẩm nang nhập môn hay bảng triệu chứng cho mọi người tự chấm.
 ])
 
+=== Trước khi học tên: hãy nhìn một tiến trình từ bên trong
+
+Một người mới ngồi xuống và theo dõi chuyển động phồng–xẹp. Trong những buổi đầu, phần lớn thời gian họ chỉ nhớ ra mình đã suy nghĩ sau khi câu chuyện trong đầu kéo dài. Việc cần làm lúc ấy rất bình thường: nhận ra “nghĩ”, trở về cảm giác chuyển động, rồi lặp lại. Đây là đang dựng nền, chưa có lý do để gọi tên một tầng tuệ.
+
+Sau một thời gian thực hành đều và vừa sức, người ấy có thể nhận ra sớm hơn: chuyển động là một việc, biết chuyển động là một việc; ý muốn đổi chân xuất hiện trước khi chân chuyển; khó chịu vừa sinh thì tâm đã muốn đẩy nó đi. Điều mới không nhất thiết là cảm giác lạ. Điều mới là *cấu trúc của kinh nghiệm được thấy rõ hơn*. Trong ngôn ngữ của P02, những thay đổi như vậy mở vào vùng phân định danh–sắc và điều kiện. Một lần nhận ra vẫn chỉ là một thoáng phù hợp, chưa đủ nói “đã đạt”.
+
+Khi tính liên tục và độ rõ chín hơn, cảm giác có thể không còn hiện như vật đứng yên. Nó khởi, đổi rồi mất; việc biết nó cũng đổi. Có lúc tiến trình rất sáng, nhanh và trôi chảy; hỷ, nhẹ, ánh sáng hoặc niềm tin có thể đi kèm. Việc hành đúng không phải giữ những trạng thái ấy, mà biết luôn chúng và sự ưa thích chúng. Trong bản đồ, đây là vùng sinh-diệt. Ánh sáng hay sung sướng đứng riêng không xác nhận vùng ấy.
+
+Nếu mặt chấm dứt trở nên chi phối, người ấy có thể thấy rõ việc các cảm giác và lần biết liên tục tan. Các hành vì thế hiện như không có chỗ nương chắc; sợ, khổ lụy, bớt say mê hoặc muốn thoát có thể nổi lên. Nhưng cùng những chữ ấy cũng có thể mô tả hoảng loạn, trầm cảm, phân ly hoặc thiếu ngủ. Chỉ khi cách biết có nền trước, lặp lại qua nhiều đối tượng, đi theo một chuyển tiếp có logic và không bị giải thích an toàn tốt hơn, “vùng tan rã và bất toại nguyện” mới là một giả thuyết trình pháp có cơ sở hơn.
+
+P02 tiếp tục mô tả rằng khi việc quán chín, sự chống cự có thể lắng và các hành được biết quân bình hơn. Người hành không làm ra xả bằng cách ép mình vô cảm. Họ tiếp tục biết dễ chịu, khó chịu, ý muốn giữ trạng thái và ý chờ một bước nhảy. Nếu quân bình chỉ là buồn ngủ, tê cảm xúc hoặc tách rời, đó không phải điều bản đồ muốn chỉ.
+
+Toàn câu chuyện trên có thể kéo dài, dao động, lặp lại hoặc không hiện theo một đường thẳng mà người đọc nhận ra được. Nguồn không cho số buổi hay số giờ bảo đảm từng vùng. Nó cũng không cho phép suy từ một khoảng trống, một cơn hỷ hay lời xác nhận của người khác sang Nhập lưu. Phần người hành thật sự làm được là vun giới, an toàn, niệm, định và tinh tấn cân bằng; quan sát điều đang có; rồi báo cáo dữ kiện trước khi gắn tên.
+
+#practice-card(
+  [“Đạt” trong chương này không có một nghĩa duy nhất],
+  [
+    + *Có một hiện tượng giống mô tả:* ánh sáng, rung, sợ, yên hoặc một lần thấy cảm giác mất. Mức này không xác nhận tầng.
+    + *Thoáng thấy cách biết đặc trưng:* chẳng hạn trực tiếp phân biệt đau với việc biết đau. Đây là dữ kiện có giá trị, nhưng chưa phải một vùng đã chín.
+    + *Một vùng tuệ có cơ sở làm giả thuyết:* cách biết ấy trở nên chi phối, lặp lại trên nền phù hợp, có dấu chuyển hợp logic và vẫn đứng vững khi xét các giải thích cạnh tranh.
+    + *Đạo quả:* là kết luận khác hẳn. Bản đồ hiện tượng không tự chứng minh ba kiết sử đầu đã được đoạn trừ.
+
+    Vì vậy, câu “khi nào đạt?” phải đi kèm câu “đạt theo nghĩa nào?”. Nếu không tách bốn nghĩa này, một trải nghiệm mạnh rất dễ bị nâng thành một tuyên bố mà dữ kiện không gánh nổi.
+  ],
+  label: [HIỆN TƯỢNG ≠ THOÁNG THẤY ≠ VÙNG CHI PHỐI ≠ ĐẠO QUẢ],
+)
+
+#source-line("BIÊN SOẠN", [C69 · đối chiếu P02 mục 1–11], [
+  Trình tự minh họa trên giúp người mới thấy quan hệ giữa nền thực hành, thay đổi trong cách biết, biểu hiện có thể đi kèm và giới hạn kết luận. Đây không phải tiểu sử một hành giả, lịch phát triển bắt buộc, tiêu chuẩn chẩn đoán hay bằng chứng rằng đủ các dấu hiệu sẽ tạo ra một tầng.
+])
+
 === Ba việc đổi song song, nhưng đừng nhập chúng làm một
 
 Khi pháp hành phát triển, ít nhất ba trục có thể đổi cùng lúc:

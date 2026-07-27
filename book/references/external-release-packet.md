@@ -132,6 +132,14 @@ Không mặc định một người đủ năng lực bao phủ mọi miền. N�
 
 Người điều phối phải dùng đúng lời xin đồng thuận, tám tác vụ, hai JSON Schema và chương trình chấm điểm hiện có. Tệp kê khai và bản ghi từng lần thử nguyên gốc nằm trong thư mục bị Git bỏ qua `build/beginner-pilot/`; không đưa chúng vào gói công khai.
 
+Packet đã sinh kèm toàn bộ runtime cần cho cohort dưới `repository/scripts/`, gồm CLI `prepare-beginner-pilot.py`, scorer và các module mà chúng nhập. Sau khi giải nén, vào thư mục `repository` và chạy:
+
+```sh
+python3 scripts/prepare-beginner-pilot.py --help
+```
+
+Không tải một bản scorer khác từ mạng rồi dùng nó cho cohort đã khóa. Mã chạy, protocol, schema, PDF và EPUB trong cùng packet phải giữ cùng candidate commit và checksum index.
+
 Bằng chứng công khai chỉ gồm:
 
 - mã cohort, mã băm của tệp kê khai riêng và biên nhận từ sổ đăng ký bên ngoài;
@@ -147,9 +155,9 @@ Thử nghiệm EPUB dùng để xét cổng phải do một trong năm người 
 Tạo đồng thời hai hồ sơ máy sinh bằng:
 
 ```sh
-python3 scripts/score-beginner-pilot.py build/beginner-pilot/<cohort-id>/manifest.json \
-  --output build/beginner-pilot/<cohort-id>/aggregate-report.md \
-  --epub-evidence-output build/beginner-pilot/<cohort-id>/reader-app-report.md
+python3 scripts/prepare-beginner-pilot.py finalize \
+  --cohort-id <cohort-id> \
+  --closed-at <ISO-8601-with-UTC-offset>
 ```
 
 Hai báo cáo phải có cùng `Cohort ID` và `Manifest SHA-256`. Báo cáo tổng hợp có đúng năm dòng `Counted record SHA-256`; báo cáo ứng dụng đọc có đúng một dòng và mã ấy phải thuộc bộ năm. Đây là kết quả biến đổi tất định từ dữ liệu đã nộp, không phải bằng chứng về danh tính người đọc, tính trung thực của người điều phối, thời điểm đăng ký trước hay việc không bỏ sót lần thử.

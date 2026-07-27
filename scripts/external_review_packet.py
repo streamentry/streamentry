@@ -13,6 +13,7 @@ from external_review_packet_archive import write_packet
 from external_review_packet_content import (
     GATE_ASSIGNMENTS,
     GATE_ORDER,
+    PILOT_RUNTIME_PATHS,
     STATIC_SOURCE_PATHS,
     PacketMember,
     PacketSnapshot,
@@ -142,6 +143,7 @@ def source_members(
         for values in GATE_ASSIGNMENTS.values()
         for path in values[2]
     }
+    runtime_paths = set(PILOT_RUNTIME_PATHS)
     return tuple(
         _committed_member(
             root,
@@ -152,6 +154,8 @@ def source_members(
                 if path in artifact_paths
                 else "protocol"
                 if path in protocol_paths
+                else "operator-runtime"
+                if path in runtime_paths
                 else "publication-source"
             ),
         )

@@ -48,7 +48,7 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `scripts/build-epub.py`: deterministic EPUB 3 packaging and structural validation, including labelled content links, resolved local fragments, absolute HTTPS external sources, distinct labels for different external destinations, and resolved visible-title bindings for repeated cards.
 - `scripts/verify_release.py`: small release-verification orchestrator.
 - `scripts/rights_inventory_contract.py`: fail-closed schema-v1 binding between the rights inventory and the immutable manuscript plus exact current PDF/EPUB bytes.
-- `scripts/build-external-review-packet.py`: clean-checkout CLI that creates one deterministic, candidate-bound ZIP for all six external work orders.
+- `scripts/build-external-review-packet.py`: clean-checkout CLI that creates one deterministic, candidate-bound ZIP for all six external work orders. The packet must carry the complete frozen beginner-pilot preparation and scoring runtime, not only its prose protocols and schemas.
 - `scripts/external_review_packet.py`, `scripts/external_review_packet_content.py`, and `scripts/external_review_packet_archive.py`: committed-source collection, canonical packet content, deterministic ZIP writing, and self-validation.
 - `scripts/release_evidence.py`, `scripts/release_pdf.py`, and `scripts/release_epub.py`: fail-closed evidence-table, per-page PDF, and fixed-publication EPUB contracts. The EPUB verifier independently rejects broken or unlabelled content links and unsafe external-link schemes.
 - `.github/workflows/publication-ci.yml`: read-only publication CI with SHA-pinned actions and checksum-pinned downloaded tools for deterministic rebuilds, tests, EPUBCheck, DAISY Ace, and forced-profile veraPDF PDF/UA-1 validation.
@@ -82,9 +82,11 @@ For running the novice test, start with `book/references/beginner-reader-kit.md`
 For external release work, start with `book/references/external-release-packet.md`. Treat schema-v3 `external-release-gates.json` as the status source and let `scripts/verify_release.py` check protocol hashes, required gate-specific evidence roles, path reuse, role/header agreement, mandatory completion, public-confirmation and scope-limit fields, exact-once PDF and EPUB digest fields, candidate binding, cohort/report bindings, cross-document status, public contact-data rejection, and permitted claim enums. A passed `rights_decision` must also bind the current materials-inventory and immutable-source hashes, authorize both PDF and EPUB, state source/print/derivative scopes, territory, language, term, attribution and notices, and resolve contributor and third-party status with no open rights item. The frozen candidate commit may precede the evidence commit, but it must be an ancestor of it and contain the exact recorded PDF and EPUB bytes; `release-evidence.md` and public evidence may be committed later. Machine verification cannot establish a signer's identity or authority, the legal validity of a grant, a reviewer's competence, participant identity, custody completeness, or the honesty of a study. Keep every gate open until that human evidence exists.
 
 Run `python3 scripts/build-external-review-packet.py` only from a clean
-checkout when issuing work orders. The ignored ZIP binds its protocol copies
-and assignment sheets to the exact commit and artifact hashes. Packet creation
-is logistics, not external evidence, and never changes a gate status.
+checkout when issuing work orders. The ignored ZIP binds its protocol copies,
+assignment sheets and self-contained beginner-pilot runtime to the exact commit
+and artifact hashes. A cohort operator must use the enclosed runtime rather than
+fetching a drifting scorer. Packet creation is logistics, not external evidence,
+and never changes a gate status.
 
 When discussing attainment, use *the first three fetters*, not an invented standalone canonical list called “three lower fetters.” Keep that subset distinct from the full five lower fetters, the four fruits, and DN 2's broader discourse title. Chapter 10 explains the subset through the object, verified-basis, and means frame, explicitly labelled as editorial rather than a canonical 1–2–3 sequence. Chapter 11 supplies the wider classification.
 

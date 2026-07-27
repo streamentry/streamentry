@@ -26,7 +26,7 @@ the contract and both binaries, and fails loudly on structural defects.
 - `rights_decision_contract.py`: fail-closed parser for the public rights summary. It binds the current materials inventory and immutable source, enumerates distribution scopes, and rejects a passed record with unauthorized PDF/EPUB, unresolved contributors, unresolved third-party materials, or any open rights item. It cannot authenticate the signer or decide legal validity.
 - `build-external-review-packet.py`: clean-checkout CLI for the ignored coordinator ZIP.
 - `external_review_packet.py`: verifies the clean commit, exact committed source bytes, release candidate, edition contract, and gate registry before collection.
-- `external_review_packet_content.py`: canonical gate order, assignment text, guide, manifest, and immutable packet data structures.
+- `external_review_packet_content.py`: canonical gate order, assignment text, guide, manifest, immutable packet data structures, and the complete beginner-pilot runtime path set. The packet must let a coordinator run the frozen preparation CLI and scorer without fetching code from the network.
 - `external_review_packet_archive.py`: deterministic ZIP writer and checksum, manifest, timestamp, assignment, and candidate validator.
 - `beginner_pilot_contract.py`: fixed task ids, criteria, thresholds, allowed fields, cohort rules, and the exact ten-file scoring contract. The insight-map criterion points to Chapter 12; the fetter criterion is coded true only under the scenario-level rubric in the reader kit.
 - `beginner_pilot_validation.py`: strict JSON, schema, consent, eligibility, task-state, fixed stop-reason, bounded contact-data detection, and retention validation.
