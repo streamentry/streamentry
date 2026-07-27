@@ -17,6 +17,7 @@ description: Maintain and publish the Vietnamese Typst handbook Hướng Đến 
 8. For beginner validation, use `book/references/beginner-reader-kit.md` together with `book/references/beginner-validation-protocol.md`; freeze the cohort with `book/references/beginner-pilot-cohort-manifest.schema.json`, record every ordered attempt with `book/references/beginner-pilot-record.schema.json`, and pass only the manifest to `scripts/score-beginner-pilot.py`.
 9. For independent doctrine review, use `book/references/doctrinal-review-protocol.md`; never convert an internal audit into external endorsement.
 10. For release rights and all external gates, start with `book/references/external-release-packet.md`; use `rights-decision-template.md` and `clinical-safety-review-protocol.md` for their separate scopes. Terminal gates require the canonical evidence roles and mandatory public fields documented in `book/references/external-evidence/README.md`; do not substitute one generic report for a required bundle.
+11. Build `scripts/build-external-review-packet.py` from a clean candidate when issuing work orders. Treat the resulting ignored ZIP as a deterministic handoff aid, never as evidence that a gate passed.
 
 ## Edition and Locale Contract
 
@@ -105,6 +106,12 @@ Inspect the cover, contents, every chapter opener, dense appendix pages, source 
 For EPUB, run the packaging script, EPUBCheck, and DAISY Ace when available. Inspect metadata, cover, table of contents, internal anchors, external links, font resizing, dark mode, and reading order in at least one standards-based reader. For PDF, confirm the PDF/UA metadata and tagged structure, but do not call it independently validated without a separate PDF/UA validator. Structural checks are not proof of reader interoperability.
 
 Before describing the book as validated for beginners, run `book/references/beginner-validation-protocol.md` with unassisted novice readers and preserve scorer-produced aggregate and reader-app reports tied to exact committed artifacts, contract hashes, and an ordered attempt manifest. A self-reported manifest timestamp is not independent preregistration evidence; use an external append-only registry when that claim matters. Before making a comparative market claim, run a preregistered test against named alternatives. Internal editorial review is not independent expert endorsement.
+
+For external assignments, run
+`python3 scripts/build-external-review-packet.py` after the candidate commit is
+clean. The packet must carry the exact committed artifacts, protocol copies,
+assignment sheets, manifest, and checksum index. Its construction does not
+authenticate people, close gates, or permit stronger claims.
 
 After the final build, update `book/references/release-evidence.md` with exact hashes and results. A dirty candidate record is not a release manifest and cannot be used as the artifact identity for human testing.
 

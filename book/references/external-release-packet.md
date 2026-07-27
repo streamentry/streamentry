@@ -6,6 +6,22 @@ Checked: 2026-07-26
 
 Trạng thái chính thức nằm trong [`external-release-gates.json`](external-release-gates.json). Lệnh `python3 scripts/verify_release.py` kiểm tra sổ đăng ký, dấu vân tay của các giao thức, trạng thái tóm tắt trong `release-evidence.md` và hai tệp PDF/EPUB. Nếu ai đó đổi `open` thành `passed` mà không nộp bằng chứng gắn với đúng tệp phát hành, trình kiểm tra sẽ báo lỗi.
 
+Từ một checkout sạch của commit ứng viên, tạo gói điều phối bằng:
+
+```sh
+python3 scripts/build-external-review-packet.py
+```
+
+Tệp ZIP bị Git bỏ qua dưới `build/external-review-packet/` chứa đúng PDF, EPUB,
+nguồn xuất bản, các giao thức, sáu phiếu phân công đã điền sẵn commit và hash,
+`manifest.json` cùng `SHA256SUMS.txt`. Gửi cả ZIP cho người điều phối và yêu cầu
+họ kiểm checksum trước khi giao việc. Nếu commit, PDF hoặc EPUB đổi, phải tạo
+gói mới.
+
+Gói này chỉ giảm lỗi sao chép và bàn giao. Việc tạo gói không xác thực danh
+tính, thẩm quyền, năng lực, tính độc lập hoặc chữ ký; không chứng minh dữ liệu
+đầy đủ; không làm bất kỳ cổng nào được thông qua.
+
 Sổ đăng ký dùng schema v3. Commit khóa ứng viên có thể đứng trước commit nộp bằng chứng: nó phải là tổ tiên của commit bằng chứng và phải chứa đúng từng byte PDF và EPUB được ghi trong hồ sơ phát hành. `release-evidence.md` có thể được cập nhật ở commit sau; không được dùng việc đó để thay ứng viên đã thật sự đưa cho người phản biện hoặc người đọc.
 
 ## 1. Khóa đúng ứng viên trước khi giao việc

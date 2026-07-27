@@ -157,6 +157,9 @@ jobs:
           python -m compileall -q scripts tests
           python -c "import json; from pathlib import Path; from jsonschema.validators import validator_for; files=['book/references/beginner-pilot-record.schema.json','book/references/beginner-pilot-cohort-manifest.schema.json']; [(lambda schema: validator_for(schema).check_schema(schema))(json.loads(Path(path).read_text())) for path in files]; print('2 schemas meta-validated')"
 
+      - name: Build external review coordinator packet
+        run: python scripts/build-external-review-packet.py --output build/external-review-packet.zip
+
       - name: Run EPUBCheck 5.3.0
         run: |
           java -jar build/ci-tools/epubcheck-5.3.0/epubcheck.jar \

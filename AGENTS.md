@@ -40,6 +40,8 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `dist/huong-den-nhap-luu.pdf`: current internally verified print candidate.
 - `scripts/build-epub.py`: deterministic EPUB 3 packaging and structural validation.
 - `scripts/verify_release.py`: small release-verification orchestrator.
+- `scripts/build-external-review-packet.py`: clean-checkout CLI that creates one deterministic, candidate-bound ZIP for all six external work orders.
+- `scripts/external_review_packet.py`, `scripts/external_review_packet_content.py`, and `scripts/external_review_packet_archive.py`: committed-source collection, canonical packet content, deterministic ZIP writing, and self-validation.
 - `scripts/release_evidence.py`, `scripts/release_pdf.py`, and `scripts/release_epub.py`: fail-closed evidence-table, per-page PDF, and fixed-publication EPUB contracts.
 - `.github/workflows/publication-ci.yml`: read-only publication CI with SHA-pinned actions and checksum-pinned downloaded tools for deterministic rebuilds, tests, EPUBCheck, and DAISY Ace.
 - `ci/`: pinned Python and Node dependency contracts used only by publication CI.
@@ -66,6 +68,11 @@ For running the novice test, start with `book/references/beginner-reader-kit.md`
 
 For external release work, start with `book/references/external-release-packet.md`. Treat schema-v3 `external-release-gates.json` as the status source and let `scripts/verify_release.py` check protocol hashes, required gate-specific evidence roles, path reuse, role/header agreement, mandatory completion, public-confirmation and scope-limit fields, exact-once PDF and EPUB digest fields, candidate binding, cohort/report bindings, cross-document status, public contact-data rejection, and permitted claim enums. The frozen candidate commit may precede the evidence commit, but it must be an ancestor of it and contain the exact recorded PDF and EPUB bytes; `release-evidence.md` and public evidence may be committed later. Machine verification cannot establish a signer's authority, a reviewer's competence, participant identity, custody completeness, or the honesty of a study. Keep every gate open until that human evidence exists.
 
+Run `python3 scripts/build-external-review-packet.py` only from a clean
+checkout when issuing work orders. The ignored ZIP binds its protocol copies
+and assignment sheets to the exact commit and artifact hashes. Packet creation
+is logistics, not external evidence, and never changes a gate status.
+
 When discussing attainment, use *the first three fetters*, not an invented standalone canonical list called “three lower fetters.” Keep that subset distinct from the full five lower fetters, the four fruits, and DN 2's broader discourse title. Chapter 10 explains the subset deeply; Chapter 11 supplies the wider classification.
 
 Build from the workspace root:
@@ -73,6 +80,7 @@ Build from the workspace root:
 ```sh
 python3 scripts/build-epub.py
 python3 scripts/verify_release.py
+python3 scripts/build-external-review-packet.py
 ```
 
 Under the pinned macOS 15 ARM64 publication CI tool and font environment, the canonical builder emits a byte-reproducible PDF/UA-1 candidate and synchronized reflowable EPUB. The platform is part of the reproducibility contract because official Typst builds on different operating systems need not emit identical bytes. Publication CI disables system-font discovery and supplies the official checksum-pinned Inter 4.0 files so a missing or substituted local font cannot silently change the release. Treat PDF/UA metadata, EPUBCheck, and DAISY Ace as internal evidence; actual assistive-technology and reader-app use remain external gates.
@@ -119,6 +127,7 @@ flowchart TB
   G --> Q
   X["External gate registry"] --> Q
   R["Role-labelled rights and review evidence"] --> X
+  Q --> W["Deterministic external-review packet"]
   H --> C
   A --> C
   H -. "claim codes" .-> L["references/claim-ledger.md"]
