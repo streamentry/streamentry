@@ -122,6 +122,14 @@ class VeraPdfValidationTests(unittest.TestCase):
         )
         self.assertRegex(VERAPDF_INSTALLER_SHA256, r"\A[0-9a-f]{64}\Z")
 
+        workflow = (
+            ROOT / ".github" / "workflows" / "publication-ci.yml"
+        ).read_text(encoding="utf-8")
+        self.assertIn(
+            '"$GITHUB_WORKSPACE/build/ci-tools/verapdf-auto-install.xml"',
+            workflow,
+        )
+
     def test_rejects_noncompliance_profile_drift_and_failed_checks(self) -> None:
         defects = {
             "not PDF/UA-1 compliant": (
