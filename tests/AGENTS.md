@@ -12,6 +12,7 @@ each failure names one contract.
 - `test_edition_contract.py`: schema-v1 strict-loading tests for duplicate, unknown, missing, malformed, unsafe, out-of-range, and cross-field-inconsistent edition data, plus the tracked Vietnamese contract.
 - `test_epub_edition_contract.py`: alternate-locale HTML head metadata, navigation, cover, OPF, language, accessibility, and XML-escaping proof with no Vietnamese-label fallback.
 - `test_release_identity.py`: table-driven PDF and EPUB title, credit, and language drift rejection against the loaded contract.
+- `test_readme_gateway.py`: reader-first ordering, contract-derived download identity, relative-link integrity, missing-rights and open-gate boundaries, and rejection of drift-prone artifact counts in the public README.
 - `release_verifier_fixtures.py`: shared synthetic Markdown, PDFInfo, OPF, XHTML, and EPUB fixtures.
 - `test_release_evidence.py`: visible-table parsing plus immutable hash and canonical-credit anchors against the explicitly supplied edition.
 - `test_release_pdf.py`: metadata, encryption, all-page size, and rotation regressions.
@@ -37,6 +38,7 @@ flowchart LR
   F --> X["External gate tests"]
   F --> K["External packet tests"]
   R["Tracked release"] --> I["Integration test"]
+  W["README gateway"] --> J["Reader-surface contract test"]
   E --> G["Full test gate"]
   D --> G
   P --> G
@@ -54,6 +56,7 @@ flowchart TB
   X --> P["test_release_pdf.py"]
   X --> U["test_release_epub.py"]
   V["verify_release.py"] --> I["test_release_verifier.py"]
+  W["README, edition, gates, evidence"] --> J["test_readme_gateway.py"]
   G["external_release_gates.py"] --> Q["role and gate-contract tests"]
   R["rights_decision_contract.py"] --> Q
 ```
