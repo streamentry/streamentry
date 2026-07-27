@@ -5,7 +5,7 @@
   [Năm hạ phần kiết sử và bốn quả Sa-môn],
   [Ba kiết sử đầu nằm trong năm hạ phần; bốn quả lại là trục kết quả của cùng Bát Thánh đạo. Chương này làm rõ hai quan hệ ấy để người mới không nhầm Nhập lưu với Bất lai, hay nhầm tên một bài kinh với bảng bốn quả.],
   provenance: [
-    #source-badge("KINH", refs: [K06; K08–K11; K21; K24; K32–K34; K36; K37; K39; K40])
+    #source-badge("KINH", refs: [K06; K08–K11; K20; K21; K24; K32–K40])
     #h(4pt)
     #source-badge("THANH TỊNH ĐẠO", refs: [V01])
     #h(4pt)
@@ -62,6 +62,42 @@ Có một lỗi rất dễ mắc: thấy cả ba con số 3, 5 và 4 rồi tư�
   ],
 )
 
+== Vì sao thấy vô ngã trực tiếp nhắm vào thân kiến? <vo-nga-than-kien>
+
+*Thân kiến* không phải tên khác của mọi ý nghĩ có chữ “tôi”. MN 44 định nghĩa nó bằng một cấu trúc rất cụ thể quanh năm uẩn: xem một uẩn là tự ngã, xem tự ngã sở hữu uẩn, xem uẩn nằm trong tự ngã, hoặc xem tự ngã nằm trong uẩn. Lặp bốn cách ấy cho sắc, thọ, tưởng, hành và thức thành hai mươi cách chấp. Cùng bài kinh nói thân kiến không có mặt khi cả bốn cách nhìn ấy không được đặt lên bất kỳ uẩn nào.
+
+#source-line("KINH", [K20 · MN 44:7.1–8.8], [
+  Người trả lời trong đoạn này là Tỳ-kheo-ni Dhammadinnā. Bà định nghĩa thân kiến và trường hợp thân kiến không có mặt bằng bốn quan hệ đối với từng uẩn. Vì vậy, mối liên hệ giữa vô ngã và thân kiến không do sách tự ghép: một bên là không còn đặt năm uẩn vào các quan hệ tự ngã; bên kia chính là thấy năm uẩn không đáng bị nắm theo các quan hệ ấy.
+])
+
+SN 22.59 ghi Đức Phật nói với nhóm năm vị Tỳ-kheo. Lập luận của bài kinh đi qua hai phép thử dễ hiểu:
+
++ *Không ở trọn dưới quyền sai khiến:* nếu một uẩn là tự ngã theo nghĩa đang xét, ta phải có thể ra lệnh cho nó “hãy thế này, đừng thế kia”. Nhưng sắc, thọ, tưởng, hành và thức không thuận hoàn toàn theo lệnh ấy và có thể dẫn đến khổ não.
++ *Không bền để làm lõi:* cả năm uẩn đều vô thường, chịu đổi khác và vì thế không thích hợp để xem là “của tôi”, “tôi là cái này” hay “đây là tự ngã của tôi”.
+
+#scripture-quote(
+  [
+    *Netaṁ mama, nesohamasmi, na meso attā.*
+
+    “Cái này không phải của tôi; tôi không phải là cái này; cái này không phải tự ngã của tôi.”
+  ],
+  [SN 22.59:7.1–10.1. Dòng Pāli được chép từ bản K35 đã khóa phiên bản; câu Việt là bản dịch sát nghĩa do sách thực hiện, không chép từ một bản dịch Việt hiện đại. Bài kinh áp dụng công thức này lần lượt cho đủ năm uẩn.],
+)
+
+#practice-card(
+  [Vậy có phải thấy vô ngã mới đoạn được thân kiến?],
+  [
+    *Có, nếu “thấy vô ngã” được dùng đúng nghĩa hẹp đang bàn:* thấy như thật bằng chánh tuệ rằng năm uẩn không phải của tôi, không phải là tôi và không phải tự ngã của tôi. Cái thấy ấy trực tiếp bất tương hợp với thân kiến vừa được MN 44 định nghĩa. Khi vẫn nắm một uẩn theo một trong bốn quan hệ tự ngã, thân kiến chưa thể được xem là đã tháo ở chính điểm ấy.
+
+    *Không, nếu “vô ngã” chỉ có nghĩa là đồng ý bằng trí nhớ, lặp câu “không có tôi”, có một lúc mất cảm giác về mình, hoặc dùng từ “vô ngã” để phủ nhận trách nhiệm.* Những việc ấy không chứng minh một kiết sử đã bị nhổ tận. Đoạn thân kiến cũng chưa đồng nghĩa đã hết ngã mạn “tôi là”; đó là một mối trói khác trong nhóm thượng phần.
+
+    *Và không được tách việc này khỏi toàn con đường.* MN 2 không dạy ba mẹo riêng, mỗi mẹo cắt một kiết sử. Bài kinh nói tác ý như lý đối với khổ, nguồn gốc khổ, sự chấm dứt khổ và con đường đưa đến chấm dứt khổ, rồi ba kiết sử thân kiến, hoài nghi và chấp thủ giới-tập tục được đoạn. Vì vậy, quán vô ngã là mũi nhọn trực tiếp đối với nội dung của thân kiến, nhưng Nhập lưu không được rút gọn thành việc tin một mệnh đề hay hoàn tất một bài quán đơn lẻ.
+
+    Muốn xem đủ hai mươi cách chấp, phản ví dụ và bài thực hành có giới hạn an toàn, hãy trở lại #link(<ba-kiet-su>)[chương 10].
+  ],
+  label: [CÂU TRẢ LỜI CÓ RANH GIỚI · K11; K20; K35; BIÊN SOẠN PHẦN KẾT NỐI],
+)
+
 == Năm hạ phần kiết sử: ba cộng hai <nam-ha-phan>
 
 #source-line("KINH", [K24 · AN 10.13], [
@@ -69,19 +105,26 @@ Có một lỗi rất dễ mắc: thấy cả ba con số 3, 5 và 4 rồi tư�
 ])
 
 #practice-card(
-  [Năm kiết sử trong cùng một khuôn],
+  [Ba kiết sử đầu trong cùng một khuôn],
   [
-    Đọc mỗi mục theo ba phần: *mối trói là gì; điều nào không tự là mối trói; mốc quả nào liên hệ*.
+    Đọc mỗi mục theo ba phần: *mối trói là gì; điều nào không tự là mối trói; mốc quả nào liên hệ*. Ba mục đầu cùng đánh dấu ranh giới Nhập lưu:
 
     1. *Thân kiến:* nắm một trong năm uẩn là tự ngã, tự ngã sở hữu uẩn, uẩn ở trong tự ngã hoặc tự ngã ở trong uẩn. Dùng đại từ “tôi”, nhớ tên mình hay chăm sóc thân không tự là thân kiến. Đây là một trong ba kiết sử được nói là đoạn ở Nhập lưu.
     2. *Hoài nghi:* sự phân vân trên trục Phật, Pháp, Tăng, con đường và sự thực hành chưa được tháo bằng học, hành và thấy biết đã được xác chứng. Hỏi nguồn, so bản dịch hoặc từ chối một người dạy nguy hiểm không tự là kiết sử. Đây là kiết sử thứ hai được nói là đoạn ở Nhập lưu.
     3. *Chấp thủ giới-tập tục:* nắm giới điều, nghi thức, khổ hạnh hay kỹ thuật như thể hình thức tự nó đủ thanh tịnh và giải thoát. Giữ giới vì hiểu tác dụng ngăn hại không phải chấp giới. Đây là kiết sử thứ ba được nói là đoạn ở Nhập lưu.
+  ],
+  label: [BA KIẾT SỬ ĐẦU · K10; K11; K20; K24; K38; BIÊN SOẠN PHẦN PHẢN VÍ DỤ],
+)
+
+#practice-card(
+  [Hai kiết sử cộng thêm để thành năm],
+  [
     4. *Dục tham:* sự ham muốn và dính mắc vào khoái lạc giác quan như một mối trói. Chọn thức ăn phù hợp sức khỏe, nhận ra vẻ đẹp hay thích chỗ ngồi ít ồn không tự xác lập kiết sử đang chi phối. Dục tham thuộc nhóm năm nhưng chưa được nói là đoạn ở Nhập lưu; Bất lai là mốc đoạn đủ nhóm năm.
     5. *Sân:* ác ý và xung lực chống đối thù nghịch. Cảm giác khó chịu, nhận ra nguy hiểm, rời nơi bị bạo hành hoặc đặt ranh giới không tự là sân. Sân cũng thuộc nhóm năm và được nói là đoạn cùng cả nhóm ở Bất lai.
 
     Ba mục đầu giải thích ranh giới Nhập lưu. Hai mục sau giải thích vì sao Nhập lưu chưa đồng nghĩa Bất lai. Một phản ứng đơn lẻ chỉ là dữ kiện cần đọc trong bối cảnh; nó không xác nhận mối trói đang có hay đã bị nhổ tận.
   ],
-  label: [BẢN ĐỒ ĐỦ NĂM · K10; K11; K20; K24; K36; K37; K38; BIÊN SOẠN PHẦN PHẢN VÍ DỤ],
+  label: [HAI KIẾT SỬ CÒN LẠI · K10; K24; K36; K37; BIÊN SOẠN PHẦN PHẢN VÍ DỤ],
 )
 
 AN 10.13 chia mười kiết sử thành hai nhóm và gọi nhóm này là *hạ phần*, nhưng bài kinh không giải thích thêm tên gọi ngay tại đây. Điều chắc chắn không thể suy ra từ chữ *hạ* là “nhẹ”, “sơ cấp” hay “dễ đoạn”. Người mới không có căn cứ để nghĩ vài buổi thiền có thể “xử lý xong năm cái thấp”.

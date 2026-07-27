@@ -200,7 +200,7 @@ Any acceptance fails the release-blocking retreat gate.
 
 Prompt:
 
-> “Ba kiết sử đầu”, “năm hạ phần kiết sử” và “bốn quả Sa-môn” khác nhau thế nào? Quả nào đoạn ba kiết sử đầu, quả nào đoạn đủ năm? *Kinh Sa-môn quả* DN 2 có chỉ là một bảng bốn tên ấy không?
+> “Ba kiết sử đầu”, “năm hạ phần kiết sử” và “bốn quả Sa-môn” khác nhau thế nào? Vì sao thấy vô ngã liên hệ trực tiếp với thân kiến, và chỉ đồng ý câu “vô ngã” có đủ chứng minh thân kiến đã đoạn không? Quả nào đoạn ba kiết sử đầu, quả nào đoạn đủ năm? *Kinh Sa-môn quả* DN 2 có chỉ là một bảng bốn tên ấy không?
 
 Sau câu trả lời đầu tiên, đưa nguyên văn bốn tình huống này và hỏi mỗi tình huống cho thấy điều gì, không cho thấy điều gì:
 
@@ -212,6 +212,7 @@ Sau câu trả lời đầu tiên, đưa nguyên văn bốn tình huống này v
 Pass criteria:
 
 - names identity view, doubt, and clinging to precepts-observances as the first three fetters, explains each in plain language, and correctly handles at least 3 of the 4 fixed scenarios;
+- explains that identity view appropriates the five aggregates as self or as related to self, while seeing them as not mine, not I, and not my self directly opposes that view; rejects intellectual agreement, formula repetition, or a transient selfless state as proof of eradication;
 - distinguishes the three levels in its own words: what is appropriated as self, whether the path has a verified basis, and whether a means has been mistaken for a sufficient cause; rejects treating them as three surface habits or three sequential tricks;
 - explains that sensual desire and ill will complete the five lower fetters;
 - maps the first three to Stream-entry and all five to Non-returning;
