@@ -1,0 +1,73 @@
+name: Đề nghị tham gia thẩm định độc lập
+description: Dành cho người phản biện chuyên môn hoặc điều phối viên muốn xem xét đúng ứng viên PDF/EPUB
+title: "[Thẩm định độc lập]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issue này công khai và chỉ ghi nhận đề nghị tham gia. Nó không phải báo cáo thẩm định, không đóng bất kỳ cổng phát hành nào và không xác nhận năng lực hay tính độc lập của người gửi.
+
+        Không đăng email, số điện thoại, địa chỉ, hồ sơ y tế, dữ liệu người tham gia hoặc kênh liên lạc riêng. Không dùng biểu mẫu này để đăng ký làm người đọc thử: việc tuyển người mới phải diễn ra riêng theo quy trình đồng thuận và bảo vệ dữ liệu.
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: Vai trò bạn đề nghị đảm nhận
+      options:
+        - Phản biện giáo lý Theravāda
+        - Phản biện an toàn sức khỏe tâm thần
+        - Phản biện an toàn y khoa hoặc cơ thể
+        - Phản biện phương pháp nghiên cứu
+        - Kiểm thử EPUB hoặc khả năng tiếp cận
+        - Điều phối cohort người mới
+        - Điều phối hoặc chấm mù nghiên cứu so sánh
+        - Hỗ trợ quyết định quyền và cấp phép
+    validations:
+      required: true
+
+  - type: input
+    id: public_qualifications
+    attributes:
+      label: Bằng chứng năng lực công khai
+      description: Đưa một URL HTTPS đến hồ sơ nghề nghiệp, trang tổ chức, danh mục công bố hoặc bằng chứng công khai tương đương. Không ghi thông tin liên lạc.
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: competence_scope
+    attributes:
+      label: Phạm vi năng lực bạn nhận kiểm
+      description: Nêu cụ thể phần bạn đủ năng lực đánh giá và phần bạn không nhận đánh giá.
+      placeholder: "Tôi có thể kiểm... Tôi không nhận kiểm..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: conflicts_and_compensation
+    attributes:
+      label: Xung đột lợi ích và thù lao
+      description: Nêu quan hệ với tác giả, người biên tập, nhà xuất bản, các sách so sánh và bên trả thù lao. Ghi “không có” nếu không có.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_contribution
+    attributes:
+      label: Công việc bạn đề nghị thực hiện
+      description: Nêu cổng, chương, định dạng, ứng dụng đọc hoặc vai trò nghiên cứu bạn muốn nhận. Không cần bắt đầu phản biện trong issue này.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: public_boundary
+    attributes:
+      label: Xác nhận trước khi gửi
+      options:
+        - label: Tôi hiểu issue này công khai và đã bỏ mọi thông tin liên lạc riêng, dữ liệu y tế và dữ liệu người tham gia.
+          required: true
+        - label: Tôi hiểu đề nghị này chưa phải bằng chứng thẩm định; năng lực, phạm vi, xung đột và đúng artifact vẫn phải được kiểm tra theo gói bàn giao.
+          required: true
+        - label: Tôi chưa đăng ký hoặc tuyển người đọc thử qua biểu mẫu công khai này.
+          required: true

@@ -83,6 +83,14 @@ Kiểm tra nội bộ chứng minh artifact hiện tại có cấu trúc nhất 
 
 Tín dụng xuất bản hiện tại là `CS Chánh Niệm + ChatGPT`. [`book/edition.json`](book/edition.json) là nguồn duy nhất có thẩm quyền trong kho đối với tên sách, tín dụng, ngôn ngữ, tên tệp, nhãn giao diện và phạm vi kiểm định của edition.
 
+## Giúp đưa sách qua thẩm định độc lập
+
+Nếu bạn có năng lực công khai phù hợp về Theravāda, an toàn sức khỏe tâm thần, y khoa, phương pháp nghiên cứu, khả năng tiếp cận EPUB, điều phối nghiên cứu người mới hoặc quyền xuất bản, bạn có thể [gửi đề nghị tham gia thẩm định](https://github.com/streamentry/streamentry/issues/new?template=external-review-interest.yml).
+
+Biểu mẫu này chỉ ghi nhận đề nghị công khai. Nó không xác nhận năng lực, không phải báo cáo thẩm định và không làm một cổng chuyển sang trạng thái đạt. Mọi công việc chính thức vẫn phải dùng đúng PDF/EPUB, commit, mã băm, phạm vi, khai báo xung đột và giao thức trong [gói bàn giao bên ngoài](book/references/external-release-packet.md).
+
+Không đăng ký làm người đọc thử và không tuyển người tham gia qua issue công khai. Cohort người mới cần lời đồng thuận, dữ liệu riêng được bảo vệ và quy trình điều phối riêng. Đừng đăng email, số điện thoại, hồ sơ y tế hoặc dữ liệu người tham gia trong kho.
+
 ---
 
 ## Dành cho người biên tập và kiểm định

@@ -13,7 +13,7 @@ each failure names one contract.
 - `test_epub_edition_contract.py`: alternate-locale HTML head metadata, navigation, cover, OPF, language, accessibility, XML-escaping, content-link, and repeated-card visible-title binding contract proof with no Vietnamese-label fallback.
 - `test_release_identity.py`: table-driven PDF and EPUB title, credit, and language drift rejection against the loaded contract.
 - `test_readme_gateway.py`: reader-first ordering, contract-derived download identity, relative-link integrity, missing-rights and open-gate boundaries, and rejection of drift-prone artifact counts in the public README.
-- `test_editorial_policy.py`: public-policy, reader-surface, structured-correction-form, privacy-boundary, and honest T02/T05 audit regressions.
+- `test_editorial_policy.py`: public-policy, reader-surface, structured correction and external-review-interest forms, privacy boundaries, participant-intake exclusion, and honest T02/T05 audit regressions.
 - `test_chapter_12_contract.py`: all seventeen stage headings, the six-part stages 1–11 explanation, the front-loaded four-level conclusion distinction, three-axis/non-numeric maturation model, worked hypothesis interview, one-object walkthrough, and late-sequence evidential limits.
 - `test_chapter_10_contract.py`: the direct “who can attain?” answer, DN 16's monastic/lay and male/female examples, and the possibility-versus-guarantee boundary.
 - `test_source_code_legend.py`: first-read expansion of DN/MN/SN/AN/Ud, separation of canonical locations from the book's K/P/V/R traceability codes, and the linked durable legend in the source map.
