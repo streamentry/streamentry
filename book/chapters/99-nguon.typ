@@ -295,7 +295,7 @@
 
 #v(7pt)
 
-#source-line("MAHĀSI", [P01], [Mahāsi Sayadaw, _Practical Insight Meditation_, Buddhist Publication Society. #link("https://bps.lk/olib/bp/bp503s_Mahasi_Practical-Insight-Meditation.pdf")[Bản PDF của nhà xuất bản].])
+#source-line("MAHĀSI", [P01], [Mahāsi Sayadaw, _Practical Insight Meditation_, Buddhist Publication Society. #link("https://bps.lk/olib/bp/bp503s_Mahasi_Practical-Insight-Meditation.pdf")[Bản PDF của nhà xuất bản]. Basic Exercise III có chỉ dẫn khác nhau đối với đau và cứng không chịu nổi, rồi đưa ra một bảo đảm không gây hại mà cuốn sách này không dùng làm hướng dẫn an toàn chung; xem chương 5 và 9.])
 
 #v(7pt)
 
