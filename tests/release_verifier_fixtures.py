@@ -102,6 +102,7 @@ def write_test_epub(
     *,
     package: bytes = FULL_PACKAGE,
     nav: bytes = NAV,
+    book: bytes = BOOK,
 ) -> None:
     container = b"""\
 <?xml version="1.0" encoding="utf-8"?>
@@ -122,5 +123,5 @@ def write_test_epub(
         archive.writestr("EPUB/package.opf", package)
         archive.writestr("EPUB/nav.xhtml", nav)
         archive.writestr("EPUB/cover.xhtml", COVER)
-        archive.writestr("EPUB/book.xhtml", BOOK)
+        archive.writestr("EPUB/book.xhtml", book)
         archive.writestr("EPUB/cover.png", b"not inspected by the release verifier")

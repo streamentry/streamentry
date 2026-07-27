@@ -43,11 +43,11 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `book/references/beginner-pilot-record.schema.json`: structured, privacy-bounded novice-attempt record.
 - `book/references/doctrinal-review-protocol.md`: operational contract for independent Theravāda review.
 - `dist/huong-den-nhap-luu.pdf`: current internally verified print candidate.
-- `scripts/build-epub.py`: deterministic EPUB 3 packaging and structural validation.
+- `scripts/build-epub.py`: deterministic EPUB 3 packaging and structural validation, including labelled content links, resolved local fragments, absolute HTTPS external sources, and distinct labels for different external destinations.
 - `scripts/verify_release.py`: small release-verification orchestrator.
 - `scripts/build-external-review-packet.py`: clean-checkout CLI that creates one deterministic, candidate-bound ZIP for all six external work orders.
 - `scripts/external_review_packet.py`, `scripts/external_review_packet_content.py`, and `scripts/external_review_packet_archive.py`: committed-source collection, canonical packet content, deterministic ZIP writing, and self-validation.
-- `scripts/release_evidence.py`, `scripts/release_pdf.py`, and `scripts/release_epub.py`: fail-closed evidence-table, per-page PDF, and fixed-publication EPUB contracts.
+- `scripts/release_evidence.py`, `scripts/release_pdf.py`, and `scripts/release_epub.py`: fail-closed evidence-table, per-page PDF, and fixed-publication EPUB contracts. The EPUB verifier independently rejects broken or unlabelled content links and unsafe external-link schemes.
 - `.github/workflows/publication-ci.yml`: read-only publication CI with SHA-pinned actions and checksum-pinned downloaded tools for deterministic rebuilds, tests, EPUBCheck, and DAISY Ace.
 - `ci/`: pinned Python and Node dependency contracts used only by publication CI.
 - `scripts/score-beginner-pilot.py`: manifest-only first-five gate scoring with artifact and contract binding.

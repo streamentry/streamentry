@@ -194,6 +194,44 @@ class EpubEditionContractTests(unittest.TestCase):
             document,
         )
 
+    def test_content_links_require_labels_resolved_fragments_and_https(self) -> None:
+        root = ET.fromstring(
+            f"""\
+<html xmlns="{EPUB.XHTML_NS}">
+  <body>
+    <main id="bodymatter">
+      <p id="target">Target</p>
+      <a href="#target">Local target</a>
+      <a href="https://example.test/source">External source</a>
+    </main>
+  </body>
+</html>
+"""
+        )
+        EPUB._validate_content_links(root)
+
+        defects = {
+            "does not resolve": '<a href="#missing">Missing</a>',
+            "accessible label": '<a href="https://example.test/source"></a>',
+            "absolute HTTPS": '<a href="http://example.test/source">Source</a>',
+            "non-empty href": "<a>Missing href</a>",
+            "distinct labels": (
+                '<a href="https://example.test/one">Same source</a>'
+                '<a href="https://example.test/two">Same source</a>'
+            ),
+        }
+        for message, link in defects.items():
+            with self.subTest(message=message):
+                broken = ET.fromstring(
+                    f"""\
+<html xmlns="{EPUB.XHTML_NS}">
+  <body><main id="bodymatter"><p id="target">Target</p>{link}</main></body>
+</html>
+"""
+                )
+                with self.assertRaisesRegex(ValueError, message):
+                    EPUB._validate_content_links(broken)
+
     def test_opf_uses_supplied_metadata_subjects_and_accessibility_summary(self) -> None:
         document = EPUB.package_opf(SENTINEL)
         root = _parse(document)

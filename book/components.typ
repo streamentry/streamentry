@@ -379,7 +379,7 @@
       #source-badge("KINH", refs: code)
       #html.elem("p", attrs: (class: "reference-title"))[*#title*]
       #html.elem("p", attrs: (class: "reference-detail"))[#detail]
-      #html.elem("p")[#link(url)[#edition.labels.source_link]]
+      #html.elem("p")[#link(url)[#edition.labels.source_link (#code)]]
     ]
   } else {
     block(
@@ -395,7 +395,7 @@
         [
           *#title*\
           #text(size: 8.5pt, fill: palette.muted)[#detail]\
-          #link(url)[#text(font: fonts.sans, size: 7pt)[#edition.labels.source_link]]
+          #link(url)[#text(font: fonts.sans, size: 7pt)[#edition.labels.source_link (#code)]]
         ],
       )
     ]

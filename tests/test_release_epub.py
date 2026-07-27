@@ -17,6 +17,7 @@ for directory in (SCRIPTS_DIR, TESTS_DIR):
 from release_common import ReleaseVerificationError  # noqa: E402
 from release_epub import parse_epub_documents, read_epub_facts  # noqa: E402
 from release_verifier_fixtures import (  # noqa: E402
+    BOOK,
     FULL_PACKAGE,
     NAV,
     PACKAGE,
@@ -109,6 +110,51 @@ class ReleaseEpubTests(unittest.TestCase):
             path = Path(directory) / "redirected-nav.epub"
             write_test_epub(path, nav=redirected_nav)
             with self.assertRaisesRegex(ReleaseVerificationError, "base"):
+                read_epub_facts(path)
+
+    def test_rejects_broken_content_fragment(self) -> None:
+        broken = BOOK.replace(
+            b"</body>",
+            b'<p><a href="#missing">Broken destination</a></p></body>',
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "broken-content-link.epub"
+            write_test_epub(path, book=broken)
+            with self.assertRaisesRegex(ReleaseVerificationError, "does not resolve"):
+                read_epub_facts(path)
+
+    def test_rejects_unlabelled_content_link(self) -> None:
+        unlabelled = BOOK.replace(
+            b"</body>",
+            b'<p><a href="https://example.test/source"></a></p></body>',
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "unlabelled-content-link.epub"
+            write_test_epub(path, book=unlabelled)
+            with self.assertRaisesRegex(ReleaseVerificationError, "unlabelled"):
+                read_epub_facts(path)
+
+    def test_rejects_non_https_content_link(self) -> None:
+        insecure = BOOK.replace(
+            b"</body>",
+            b'<p><a href="http://example.test/source">Source</a></p></body>',
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "insecure-content-link.epub"
+            write_test_epub(path, book=insecure)
+            with self.assertRaisesRegex(ReleaseVerificationError, "HTTPS"):
+                read_epub_facts(path)
+
+    def test_rejects_duplicate_external_labels_for_different_targets(self) -> None:
+        ambiguous = BOOK.replace(
+            b"</body>",
+            b'<p><a href="https://example.test/one">Same source</a>'
+            b'<a href="https://example.test/two">Same source</a></p></body>',
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "ambiguous-content-links.epub"
+            write_test_epub(path, book=ambiguous)
+            with self.assertRaisesRegex(ReleaseVerificationError, "distinct labels"):
                 read_epub_facts(path)
 
 

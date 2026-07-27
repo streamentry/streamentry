@@ -291,59 +291,59 @@
 
 == Thanh Tịnh Đạo và truyền thống Mahāsi
 
-#source-line("THANH TỊNH ĐẠO", [V01], [Buddhaghosa, _The Path of Purification_, Bhikkhu Ñāṇamoli dịch, BPS Online Edition 2014. #link("https://www.bps.lk/olib/bp/bp207h_The-Path-of-Purification-%28Visuddhimagga%29.pdf")[Bản PDF của nhà xuất bản].])
+#source-line("THANH TỊNH ĐẠO", [V01], [Buddhaghosa, _The Path of Purification_, Bhikkhu Ñāṇamoli dịch, BPS Online Edition 2014. #link("https://www.bps.lk/olib/bp/bp207h_The-Path-of-Purification-%28Visuddhimagga%29.pdf")[Bản PDF V01 của nhà xuất bản].])
 
 #v(7pt)
 
-#source-line("MAHĀSI", [P01], [Mahāsi Sayadaw, _Practical Insight Meditation_, Buddhist Publication Society. #link("https://bps.lk/olib/bp/bp503s_Mahasi_Practical-Insight-Meditation.pdf")[Bản PDF của nhà xuất bản]. Basic Exercise III có chỉ dẫn khác nhau đối với đau và cứng không chịu nổi, rồi đưa ra một bảo đảm không gây hại mà cuốn sách này không dùng làm hướng dẫn an toàn chung; xem chương 5 và 9.])
+#source-line("MAHĀSI", [P01], [Mahāsi Sayadaw, _Practical Insight Meditation_, Buddhist Publication Society. #link("https://bps.lk/olib/bp/bp503s_Mahasi_Practical-Insight-Meditation.pdf")[Bản PDF P01 của nhà xuất bản]. Basic Exercise III có chỉ dẫn khác nhau đối với đau và cứng không chịu nổi, rồi đưa ra một bảo đảm không gây hại mà cuốn sách này không dùng làm hướng dẫn an toàn chung; xem chương 5 và 9.])
 
 #v(7pt)
 
-#source-line("MAHĀSI", [P02], [Mahāsi Sayadaw, _The Progress of Insight_, bản dịch Nyanaponika Thera. #link("https://www.accesstoinsight.org/lib/authors/mahasi/progress.html")[Bản trực tuyến].])
+#source-line("MAHĀSI", [P02], [Mahāsi Sayadaw, _The Progress of Insight_, bản dịch Nyanaponika Thera. #link("https://www.accesstoinsight.org/lib/authors/mahasi/progress.html")[Bản P02 trực tuyến].])
 
 == Nguồn an toàn thực hành
 
-#source-line("Y TẾ & NGHIÊN CỨU", [R01], [Lindahl và cộng sự, “The Varieties of Contemplative Experience”, _PLOS ONE_ 12(5), 2017. #link("https://pmc.ncbi.nlm.nih.gov/articles/PMC5443484/")[Toàn văn].])
+#source-line("Y TẾ & NGHIÊN CỨU", [R01], [Lindahl và cộng sự, “The Varieties of Contemplative Experience”, _PLOS ONE_ 12(5), 2017. #link("https://pmc.ncbi.nlm.nih.gov/articles/PMC5443484/")[Toàn văn R01].])
 
 #v(7pt)
 
-#source-line("Y TẾ & NGHIÊN CỨU", [R02], [Farias và cộng sự, tổng quan hệ thống về biến cố bất lợi khi hành thiền, _Acta Psychiatrica Scandinavica_, 2020. #link("https://pubmed.ncbi.nlm.nih.gov/32820538/")[Tóm tắt PubMed].])
+#source-line("Y TẾ & NGHIÊN CỨU", [R02], [Farias và cộng sự, tổng quan hệ thống về biến cố bất lợi khi hành thiền, _Acta Psychiatrica Scandinavica_, 2020. #link("https://pubmed.ncbi.nlm.nih.gov/32820538/")[Tóm tắt PubMed R02].])
 
 #v(7pt)
 
-#source-line("Y TẾ & NGHIÊN CỨU", [R03], [World Health Organization, _Doing What Matters in Times of Stress: An Illustrated Guide_, 2020. Phần “grounding” hướng dẫn nhận ra ý nghĩ và cảm xúc, kết nối lại với thân và chuyển chú ý về thế giới quanh mình; sách nói rõ kỹ thuật không nhằm xóa cảm xúc khó chịu. #link("https://www.who.int/publications/i/item/9789240003927")[Trang xuất bản chính thức của WHO].])
+#source-line("Y TẾ & NGHIÊN CỨU", [R03], [World Health Organization, _Doing What Matters in Times of Stress: An Illustrated Guide_, 2020. Phần “grounding” hướng dẫn nhận ra ý nghĩ và cảm xúc, kết nối lại với thân và chuyển chú ý về thế giới quanh mình; sách nói rõ kỹ thuật không nhằm xóa cảm xúc khó chịu. #link("https://www.who.int/publications/i/item/9789240003927")[Trang R03 chính thức của WHO].])
 
 #v(7pt)
 
-#source-line("Y TẾ & NGHIÊN CỨU", [R04], [World Health Organization, _Do you know someone who may be considering suicide?_, tài liệu một trang cho người thân và bạn bè, 2021. WHO khuyên không để người có nguy cơ tức thời ở một mình và liên hệ dịch vụ cấp cứu, đường dây khủng hoảng, nhân viên y tế hoặc người thân. #link("https://cdn.who.int/media/docs/default-source/campaigns-and-initiatives/world-mental-health-day/2021/4_suicide_for_friend_family_members_2021.pdf?sfvrsn=ec5c0d68_17")[Bản PDF chính thức của WHO].])
+#source-line("Y TẾ & NGHIÊN CỨU", [R04], [World Health Organization, _Do you know someone who may be considering suicide?_, tài liệu một trang cho người thân và bạn bè, 2021. WHO khuyên không để người có nguy cơ tức thời ở một mình và liên hệ dịch vụ cấp cứu, đường dây khủng hoảng, nhân viên y tế hoặc người thân. #link("https://cdn.who.int/media/docs/default-source/campaigns-and-initiatives/world-mental-health-day/2021/4_suicide_for_friend_family_members_2021.pdf?sfvrsn=ec5c0d68_17")[Bản PDF R04 chính thức của WHO].])
 
 #v(7pt)
 
-#source-line("Y TẾ & NGHIÊN CỨU", [R05], [National Institute of Mental Health, _Understanding Psychosis_. Trang nêu các dấu hiệu như khó phân biệt thực tế với tưởng tượng, rối loạn giấc ngủ, lời nói khó hiểu, suy giảm tự chăm sóc, học tập, công việc và chức năng chung; khi dấu hiệu tăng lên hoặc không biến mất, cần liên hệ người cung cấp chăm sóc sức khỏe. #link("https://www.nimh.nih.gov/health/publications/understanding-psychosis")[Trang chính thức của NIMH].])
+#source-line("Y TẾ & NGHIÊN CỨU", [R05], [National Institute of Mental Health, _Understanding Psychosis_. Trang nêu các dấu hiệu như khó phân biệt thực tế với tưởng tượng, rối loạn giấc ngủ, lời nói khó hiểu, suy giảm tự chăm sóc, học tập, công việc và chức năng chung; khi dấu hiệu tăng lên hoặc không biến mất, cần liên hệ người cung cấp chăm sóc sức khỏe. #link("https://www.nimh.nih.gov/health/publications/understanding-psychosis")[Trang R05 chính thức của NIMH].])
 
 #v(7pt)
 
-#source-line("Y TẾ & NGHIÊN CỨU", [R06], [National Health Service, _Treatment: Psychosis_. NHS dặn không ngừng thuốc đã được kê nếu chưa có chỉ dẫn của chuyên gia y tế đủ năng lực đang chịu trách nhiệm chăm sóc, vì ngừng đột ngột có thể làm triệu chứng trở lại. Các số 999 và địa chỉ A&E trên trang chỉ áp dụng tại Vương quốc Anh. #link("https://www.nhs.uk/mental-health/conditions/psychosis/treatment/")[Trang chính thức của NHS].])
+#source-line("Y TẾ & NGHIÊN CỨU", [R06], [National Health Service, _Treatment: Psychosis_. NHS dặn không ngừng thuốc đã được kê nếu chưa có chỉ dẫn của chuyên gia y tế đủ năng lực đang chịu trách nhiệm chăm sóc, vì ngừng đột ngột có thể làm triệu chứng trở lại. Các số 999 và địa chỉ A&E trên trang chỉ áp dụng tại Vương quốc Anh. #link("https://www.nhs.uk/mental-health/conditions/psychosis/treatment/")[Trang R06 chính thức của NHS].])
 
 #v(7pt)
 
-#source-line("Y TẾ & NGHIÊN CỨU", [R07], [Centers for Disease Control and Prevention, _Signs and Symptoms of Stroke_. CDC liệt kê các dấu hiệu thần kinh khởi phát đột ngột và yêu cầu gọi cấp cứu ngay; số 911 trên trang chỉ áp dụng tại Hoa Kỳ. #link("https://www.cdc.gov/stroke/signs-symptoms/index.html")[Trang chính thức của CDC].])
+#source-line("Y TẾ & NGHIÊN CỨU", [R07], [Centers for Disease Control and Prevention, _Signs and Symptoms of Stroke_. CDC liệt kê các dấu hiệu thần kinh khởi phát đột ngột và yêu cầu gọi cấp cứu ngay; số 911 trên trang chỉ áp dụng tại Hoa Kỳ. #link("https://www.cdc.gov/stroke/signs-symptoms/index.html")[Trang R07 chính thức của CDC].])
 
 #v(7pt)
 
-#source-line("Y TẾ & NGHIÊN CỨU", [R08], [Centers for Disease Control and Prevention, _About Heart Attack Symptoms, Risk, and Recovery_. CDC nêu đau hay khó chịu ở ngực, khó thở, choáng hoặc ngất và đau ở hàm, cổ, lưng, tay hay vai là các dấu hiệu chính cần gọi cấp cứu ngay; số 911 trên trang chỉ áp dụng tại Hoa Kỳ. #link("https://www.cdc.gov/heart-disease/about/heart-attack.html")[Trang chính thức của CDC].])
+#source-line("Y TẾ & NGHIÊN CỨU", [R08], [Centers for Disease Control and Prevention, _About Heart Attack Symptoms, Risk, and Recovery_. CDC nêu đau hay khó chịu ở ngực, khó thở, choáng hoặc ngất và đau ở hàm, cổ, lưng, tay hay vai là các dấu hiệu chính cần gọi cấp cứu ngay; số 911 trên trang chỉ áp dụng tại Hoa Kỳ. #link("https://www.cdc.gov/heart-disease/about/heart-attack.html")[Trang R08 chính thức của CDC].])
 
 #v(7pt)
 
-#source-line("Y TẾ & NGHIÊN CỨU", [R09], [Centers for Disease Control and Prevention, _First Aid for Seizures_. CDC nói không phải mọi cơn co giật đều cần cấp cứu, rồi nêu các ngưỡng như kéo dài quá năm phút, tái diễn ngay, khó thở hoặc khó tỉnh, bị thương, xảy ra trong nước, cơn đầu tiên, mang thai, hoặc đái tháo đường kèm mất ý thức; số 911 trên trang chỉ áp dụng tại Hoa Kỳ. #link("https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html")[Trang chính thức của CDC].])
+#source-line("Y TẾ & NGHIÊN CỨU", [R09], [Centers for Disease Control and Prevention, _First Aid for Seizures_. CDC nói không phải mọi cơn co giật đều cần cấp cứu, rồi nêu các ngưỡng như kéo dài quá năm phút, tái diễn ngay, khó thở hoặc khó tỉnh, bị thương, xảy ra trong nước, cơn đầu tiên, mang thai, hoặc đái tháo đường kèm mất ý thức; số 911 trên trang chỉ áp dụng tại Hoa Kỳ. #link("https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html")[Trang R09 chính thức của CDC].])
 
 #v(7pt)
 
-#source-line("Y TẾ & NGHIÊN CỨU", [R10], [Chính phủ, Nghị định số 200/2025/NĐ-CP, Điều 3–4, và thông báo vận hành Tổng đài khẩn cấp quốc gia 112. Văn bản quy định 112 tiếp nhận thông tin về sự cố, thiên tai, thảm họa, nguy cơ và yêu cầu trợ giúp; liên thông với 113, 114, 115; hoạt động 24 giờ và miễn cước gọi từ thuê bao cố định, di động. Thông báo chính thức ngày 3 tháng 9 năm 2025 nói hệ thống đi vào hoạt động từ ngày 23 tháng 8 năm 2025 và tiếp nhận cả tai nạn cùng tình huống nguy cấp cần trợ giúp. #link("https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/7/45545/57679-1-2025959-960200-2025-nd-cp.pdf")[Nghị định trong Công báo]. #link("https://xaydungchinhsach.chinhphu.vn/tong-dai-so-112-tiep-nhan-24-7-cac-thong-tin-ve-su-co-thien-tai-tham-hoa-119250902150528929.htm")[Thông báo của Cổng Thông tin điện tử Chính phủ].])
+#source-line("Y TẾ & NGHIÊN CỨU", [R10], [Chính phủ, Nghị định số 200/2025/NĐ-CP, Điều 3–4, và thông báo vận hành Tổng đài khẩn cấp quốc gia 112. Văn bản quy định 112 tiếp nhận thông tin về sự cố, thiên tai, thảm họa, nguy cơ và yêu cầu trợ giúp; liên thông với 113, 114, 115; hoạt động 24 giờ và miễn cước gọi từ thuê bao cố định, di động. Thông báo chính thức ngày 3 tháng 9 năm 2025 nói hệ thống đi vào hoạt động từ ngày 23 tháng 8 năm 2025 và tiếp nhận cả tai nạn cùng tình huống nguy cấp cần trợ giúp. #link("https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/7/45545/57679-1-2025959-960200-2025-nd-cp.pdf")[Nghị định R10 trong Công báo]. #link("https://xaydungchinhsach.chinhphu.vn/tong-dai-so-112-tiep-nhan-24-7-cac-thong-tin-ve-su-co-thien-tai-tham-hoa-119250902150528929.htm")[Thông báo R10 của Cổng Thông tin điện tử Chính phủ].])
 
 #v(7pt)
 
-#source-line("Y TẾ & NGHIÊN CỨU", [R11], [Bộ Thông tin và Truyền thông, Văn bản hợp nhất số 04/VBHN-BTTTT về quy hoạch kho số viễn thông. Phụ lục xác định 113 là số gọi công an, 114 là số gọi cứu hỏa và 115 là số gọi cấp cứu y tế; cả ba là số dùng chung toàn quốc cho dịch vụ khẩn cấp. #link("https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-04-vbhn-btttt-36965/40179.htm")[Trang Công báo và bản tải chính thức].])
+#source-line("Y TẾ & NGHIÊN CỨU", [R11], [Bộ Thông tin và Truyền thông, Văn bản hợp nhất số 04/VBHN-BTTTT về quy hoạch kho số viễn thông. Phụ lục xác định 113 là số gọi công an, 114 là số gọi cứu hỏa và 115 là số gọi cấp cứu y tế; cả ba là số dùng chung toàn quốc cho dịch vụ khẩn cấp. #link("https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-04-vbhn-btttt-36965/40179.htm")[Trang R11 Công báo và bản tải chính thức].])
 
 R01 và R02 xác nhận rằng trải nghiệm bất lợi liên quan đến thiền đã được ghi nhận. Chúng không thiết lập một tỷ lệ nguy cơ chung và không kiểm chứng toàn bộ quy trình ba mức của chương 9. R03 đến R09 chỉ hỗ trợ các hướng dẫn sức khỏe cụ thể được nêu cạnh từng mã; R10 và R11 chỉ xác lập chức năng các đầu số khẩn cấp tại Việt Nam. Các nguồn này không biến cuốn sách thành tài liệu chẩn đoán hay phác đồ điều trị.
 

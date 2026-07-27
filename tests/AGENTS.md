@@ -10,13 +10,13 @@ each failure names one contract.
 ## Key Components
 
 - `test_edition_contract.py`: schema-v1 strict-loading tests for duplicate, unknown, missing, malformed, unsafe, out-of-range, and cross-field-inconsistent edition data, plus the tracked Vietnamese contract.
-- `test_epub_edition_contract.py`: alternate-locale HTML head metadata, navigation, cover, OPF, language, accessibility, and XML-escaping proof with no Vietnamese-label fallback.
+- `test_epub_edition_contract.py`: alternate-locale HTML head metadata, navigation, cover, OPF, language, accessibility, XML-escaping, and content-link contract proof with no Vietnamese-label fallback.
 - `test_release_identity.py`: table-driven PDF and EPUB title, credit, and language drift rejection against the loaded contract.
 - `test_readme_gateway.py`: reader-first ordering, contract-derived download identity, relative-link integrity, missing-rights and open-gate boundaries, and rejection of drift-prone artifact counts in the public README.
 - `release_verifier_fixtures.py`: shared synthetic Markdown, PDFInfo, OPF, XHTML, and EPUB fixtures.
 - `test_release_evidence.py`: visible-table parsing plus immutable hash and canonical-credit anchors against the explicitly supplied edition.
 - `test_release_pdf.py`: metadata, encryption, all-page size, and rotation regressions.
-- `test_release_epub.py`: active-rootfile, fixed manifest/spine, passive XHTML, and TOC-target regressions.
+- `test_release_epub.py`: active-rootfile, fixed manifest/spine, passive XHTML, TOC-target, broken-fragment, unlabelled-link, ambiguous external-label, and unsafe-scheme regressions.
 - `test_release_verifier.py`: integration check against the tracked release candidate.
 - `test_external_release_gates.py`: schema-v3 protocol-fingerprint, status, gate-specific evidence-role, contract-derived artifact-path, ancestor/exact-byte candidate binding, mandatory public fields, rights-scope and inventory binding, contact-data rejection, cohort/report hashes, path-reuse, and permitted-claim regressions.
 - `test_rights_decision_contract.py`: direct passed/failed rights-summary contract plus stale binding, unauthorized format, unresolved contributor/third-party, open-item, and contradictory-decision regressions.

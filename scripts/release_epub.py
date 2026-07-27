@@ -5,6 +5,7 @@ from __future__ import annotations
 import zipfile
 from dataclasses import dataclass
 from pathlib import Path
+from urllib.parse import unquote, urlsplit
 from xml.etree import ElementTree as ET
 
 from beginner_pilot_artifact import verify_epub_structure
@@ -59,6 +60,57 @@ def _reject_base_or_script(root: ET.Element, label: str, *, xhtml: bool) -> None
             )
 
 
+def _link_label(link: ET.Element) -> str:
+    return " ".join("".join(link.itertext()).split()) or link.get(
+        "aria-label", ""
+    ).strip()
+
+
+def _validate_content_links(
+    name: str,
+    root: ET.Element,
+    document_ids: dict[str, set[str]],
+) -> None:
+    external_labels: dict[str, str] = {}
+    for link in root.findall(f".//{{{XHTML_NS}}}a"):
+        href = link.get("href", "").strip()
+        if not href:
+            raise ReleaseVerificationError(
+                f"EPUB content {name} contains a link without a target"
+            )
+        label = _link_label(link)
+        if not label:
+            raise ReleaseVerificationError(
+                f"EPUB content {name} contains an unlabelled link: {href}"
+            )
+        if href.startswith("#"):
+            fragment = unquote(href[1:])
+            if not fragment or fragment not in document_ids[name]:
+                raise ReleaseVerificationError(
+                    f"EPUB content link does not resolve in {name}: {href}"
+                )
+            continue
+
+        target = urlsplit(href)
+        if (
+            target.scheme != "https"
+            or not target.netloc
+            or target.username is not None
+            or target.password is not None
+        ):
+            raise ReleaseVerificationError(
+                "EPUB content links must use a local fragment or absolute "
+                f"HTTPS URL: {href}"
+            )
+        label_key = label.casefold()
+        previous = external_labels.setdefault(label_key, href)
+        if previous != href:
+            raise ReleaseVerificationError(
+                "EPUB external links to different destinations require "
+                f"distinct labels: {label}"
+            )
+
+
 def parse_epub_documents(
     nav_document: bytes,
     package_document: bytes,
@@ -87,10 +139,12 @@ def parse_epub_documents(
 
     document_ids: dict[str, set[str]] = {}
     if content_documents is not None:
+        roots: dict[str, ET.Element] = {}
         try:
             for name, document in content_documents.items():
                 root = ET.fromstring(document)
                 _reject_base_or_script(root, f"EPUB content {name}", xhtml=True)
+                roots[name] = root
                 document_ids[name] = {
                     element_id
                     for element in root.iter()
@@ -100,6 +154,9 @@ def parse_epub_documents(
             raise ReleaseVerificationError(
                 f"EPUB content document is malformed: {error}"
             ) from error
+
+        for name, root in roots.items():
+            _validate_content_links(name, root, document_ids)
 
         for href in hrefs:
             path, separator, fragment = href.partition("#")
