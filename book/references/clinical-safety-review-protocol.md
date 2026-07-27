@@ -42,14 +42,14 @@ Mark each item `pass`, `needs correction`, `outside scope`, or `disputed`. Items
 1. R01 and R02 are described within their sampling, heterogeneity, prevalence and causal limits.
 2. The book does not present meditation as harmless, as treatment, or as a substitute for clinical care.
 3. Panic, insomnia, derealization, impaired function, psychosis-like warning signs and altered-state language do not become self-diagnosis or proof of an insight stage.
-4. Suicide and immediate-danger wording gives an appropriate urgent response without inventing a universal hotline or replacing a full risk assessment.
+4. Suicide and immediate-danger wording gives an appropriate urgent response, routes readers in Vietnam to current official emergency numbers, does not import a foreign hotline, and does not replace a full risk assessment.
 5. Medication wording does not instruct readers to stop, taper or change prescribed treatment outside qualified care.
-6. Stroke, myocardial-infarction and seizure first-aid claims match the cited authoritative guidance and retain country-specific emergency-number limits.
+6. Stroke, myocardial-infarction and seizure first-aid claims match the cited authoritative guidance; the 112–115 functions match R10–R11; and all emergency-number limits remain country-specific.
 7. Grounding and breath instructions are bounded, do not promise treatment, and provide a non-breath fallback when breath attention worsens distress.
 8. Pain, posture and retreat advice do not reward endurance of injury, sleep deprivation, coercion or delayed care.
 9. Role boundaries between meditation teachers and health professionals are accurate and usable.
 10. The beginner study's consent, distress stop, privacy, withdrawal, retention and escalation rules do not create avoidable participant harm.
-11. Local emergency planning tells readers to verify current official services rather than supplying an unverified universal contact.
+11. Local emergency planning gives the verified Vietnam route with its checked date, tells readers elsewhere to verify current official services, and does not imply that a number guarantees coverage, transport, clinical triage or response time.
 12. Clinical and empirical statements remain distinct from Buddhist doctrine and editorial judgment.
 
 If the research-method portion is outside every clinician's competence, obtain a separate methods review for items 1 and 12. Describe the resulting claim as a combined scoped review, not as one person's expertise.
@@ -69,10 +69,10 @@ At minimum inspect:
 - Chapter 12, map language, sleep, medication and loss-of-reality alternatives;
 - safety-related FAQ and glossary entries;
 - Appendix A if it is used in a real seven-day study;
-- Appendix E in full, especially its immediate-danger gate, somatic warning shorthand, restart boundary and reduction rule;
+- Appendix E in full, especially its immediate-danger gate, Vietnam emergency-number shorthand, somatic warning shorthand, restart boundary and reduction rule;
 - `beginner-validation-protocol.md`, `beginner-reader-kit.md`, both pilot schemas and the public aggregate-report output;
-- claim-ledger rows C17, C18, C46–C52 and C72–C74;
-- source-map entries R01–R09.
+- claim-ledger rows C17, C18, C46–C52 and C72–C76;
+- source-map entries R01–R11.
 
 The reviewer should check the exact cited editions and current wording rather than relying only on the book's summary.
 

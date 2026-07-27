@@ -12,7 +12,7 @@
 
 #v(7mm)
 
-#source-line("BIÊN SOẠN", [C74; dựa trên C46–C52 và C71–C73], [
+#source-line("BIÊN SOẠN", [C74–C76; dựa trên C46–C52 và C71–C73], [
   Sơ đồ dưới đây gom các quyết định đã giải thích trong chương 1, 5, 7 và 9. Nó không phải một bài kinh, một trình tự tâm, một cách chẩn đoán hay một đường tắt đi qua các tầng tuệ.
 ])
 
@@ -47,7 +47,7 @@
       #html.elem("section", attrs: (class: "decision-node decision-wide"))[
         #html.elem("p", attrs: (class: "eyebrow"))[1 · CỔNG AN TOÀN]
         #html.elem("h3", attrs: (class: "card-title"))[Có việc phải bảo vệ ngay không?]
-        Có nguy hiểm cấp thời, thôi thúc tự hại hoặc hại người, mất liên hệ với thực tại, đau sắc, tê lan hay yếu chi? Nếu *có*, bỏ kỹ thuật, làm điều an toàn cần làm và dùng #link(<an-toan>)[chương 9]. Nếu *không*, chọn đúng bối cảnh ở hàng kế tiếp.
+        Có nguy hiểm cấp thời, thôi thúc tự hại hoặc hại người, mất liên hệ với thực tại, đau sắc, tê lan hay yếu chi? Nếu *có*, bỏ kỹ thuật, làm điều an toàn cần làm và dùng #link(<an-toan>)[chương 9]. Ở Việt Nam: *112* khi chưa rõ đầu mối, *115* cấp cứu y tế, *113* công an, *114* cứu hỏa. Nếu *không*, chọn đúng bối cảnh ở hàng kế tiếp.
       ]
 
       #html.elem("section", attrs: (class: "decision-node"))[
@@ -79,7 +79,7 @@
         [1 · CỔNG AN TOÀN],
         [Có việc phải bảo vệ ngay không?],
         [
-          Có nguy hiểm cấp thời, thôi thúc tự hại hoặc hại người, mất liên hệ với thực tại, đau sắc, tê lan hay yếu chi? Nếu *có*, bỏ kỹ thuật, làm điều an toàn cần làm và dùng #link(<an-toan>)[chương 9]. Nếu *không*, chọn đúng bối cảnh ở hàng kế tiếp.
+          Có nguy hiểm cấp thời, thôi thúc tự hại hoặc hại người, mất liên hệ với thực tại, đau sắc, tê lan hay yếu chi? Nếu *có*, bỏ kỹ thuật, làm điều an toàn cần làm và dùng #link(<an-toan>)[chương 9]. Ở Việt Nam: *112* khi chưa rõ đầu mối, *115* cấp cứu y tế, *113* công an, *114* cứu hỏa. Nếu *không*, chọn đúng bối cảnh ở hàng kế tiếp.
         ],
         accent: palette.clay,
       )

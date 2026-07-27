@@ -17,6 +17,7 @@ from beginner_pilot_contract import (  # noqa: E402
     EPUB_FIELDS,
     REPEAT_FIELDS,
     STOP_REASON_CODES,
+    TASK_CRITERIA,
     TASK_FIELDS,
     TOP_LEVEL_FIELDS,
 )
@@ -60,6 +61,27 @@ class BeginnerPilotV2SchemaParityTests(unittest.TestCase):
         required = set(self.record_schema["$defs"]["task"]["required"])
         self.assertIn("outcome", required)
         self.assertIn("outcome", TASK_FIELDS)
+
+    def test_safety_contract_requires_the_vietnam_emergency_route(self) -> None:
+        required = set(
+            self.record_schema["$defs"]["criteria_safety"]["required"]
+        )
+        self.assertIn("finds_vietnam_emergency_route", required)
+        self.assertIn(
+            "finds_vietnam_emergency_route",
+            TASK_CRITERIA["safety"],
+        )
+
+    def test_insight_map_contract_tests_definition_and_maturation(self) -> None:
+        required = set(
+            self.record_schema["$defs"]["criteria_insight_map"]["required"]
+        )
+        expected = {
+            "explains_change_in_way_of_knowing",
+            "distinguishes_maturation_from_stage_production",
+        }
+        self.assertTrue(expected <= required)
+        self.assertTrue(expected <= set(TASK_CRITERIA["insight_map"]))
 
     def test_epub_smoke_contract_includes_repeated_task_evidence_objects(self) -> None:
         required = set(self.record_schema["$defs"]["epub_smoke"]["required"])

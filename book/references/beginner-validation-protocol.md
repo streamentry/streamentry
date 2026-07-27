@@ -24,10 +24,10 @@ Give no oral teaching and do not point to a page. Ask each reader to use the boo
 
 1. Find where a complete beginner should start and describe the first seven days.
 2. Explain what to do during a sitting when abdominal movement remains unclear.
-3. Explain what to do if practice is followed by repeated panic, increasing insomnia, derealization, or impaired daily function.
+3. Explain what to do if practice is followed by repeated panic, increasing insomnia, derealization, or impaired daily function; then identify the official emergency route if the situation becomes immediately dangerous while the person is in Vietnam.
 4. Explain the difference between *thọ* and a complex emotion, then describe the transition from *thọ* to *ái* in one ordinary example.
 5. Decide whether “thọ to ái is always the easiest link to cut” is a canonical claim and identify the source badge that settles the boundary.
-6. Explain how a beginner should use Chapter 12 and whether one unusual event identifies an insight stage.
+6. Explain in plain language what the Chapter 12 insight map is, what “a knowledge has matured” means, how practice can cultivate its conditions without manufacturing a stage, and whether one unusual event identifies a stage.
 7. Use Chapter 8 to reject or accept a fictional retreat whose organizer will not disclose its exit policy and pressures participants to stop medication.
 8. Explain the difference between the first three fetters, the full five lower fetters, and the four fruits; identify which fruit ends the first three and which ends all five; then apply the distinctions to the four fixed scenarios in the reader kit.
 
@@ -43,10 +43,10 @@ Every counted pass below must be unassisted: the first answer is recorded, no hi
 |---|---|---|
 | Start route | At least 4 of 5 find Chapter 1, describe the seven-day route, find the early safety instruction, and finish within 90 seconds. | Rewrite navigation and the opening route. |
 | Anchor fallback | At least 4 of 5 choose an allowed fallback, keep one anchor, and reject needless object-cycling. | Rewrite the decision rule. |
-| Safety | All 5 stop intensification, reject pushing through, and seek qualified support. | Block release until the wording is repaired and retested. |
+| Safety | All 5 stop intensification, reject pushing through, seek qualified support, and find an appropriate Vietnam emergency route for the immediate-danger add-on without inventing a foreign hotline. | Block release until the wording is repaired and retested. |
 | Feeling to craving | At least 4 of 5 distinguish hedonic tone from complex emotion, give a plausible contact-feeling-craving sequence, and keep feeling distinct from craving. | Simplify Chapter 4 and retest. |
 | Evidential limit | At least 4 of 5 reject the universal “easiest” claim, identify the intervention as editorial, find the Chapter 4 caveat, and use the source badge to explain the boundary. | Move the caveat earlier or make it more explicit. |
-| Insight map | All 5 reject self-diagnosis from one event; at least 4 of 5 also place Chapter 12 as later reference material and name an alternative explanation or the need for longitudinal context. | Strengthen the gate and frontmatter route. |
+| Insight map | All 5 reject self-diagnosis from one event; at least 4 of 5 also explain the map as a change in the dominant way conditioned body-mind is directly known, distinguish conditional maturation from a fixed schedule or stage-producing exercise, place Chapter 12 as later reference material, and name an alternative explanation or the need for longitudinal context. | Rebuild the definition, maturation model, practice boundary, or frontmatter route and retest. |
 | Retreat decision | All 5 reject the retreat, identify the missing exit policy, and identify medication pressure and coercive authority. | Strengthen the no-go rule. |
 | Fetters and fruits | At least 4 of 5 name and explain the first three fetters, distinguish them from the full five lower fetters, map the sets to Stream-entry and Non-returning, keep the four fruits distinct from DN 2's broader title, and correctly handle at least 3 of the 4 fixed scenarios. | Repair Chapters 10–11 and their reading-route handoff, then retest. |
 

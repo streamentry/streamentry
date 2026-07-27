@@ -5,7 +5,7 @@
   [An toàn khi thực hành],
   [Thiền có thể nâng đỡ đời sống, nhưng không vô hại trong mọi liều lượng và mọi hoàn cảnh. Biết khi nào nên giảm, dừng và tìm trợ giúp là một phần của trí tuệ thực hành.],
   provenance: [
-    #source-badge("Y TẾ & NGHIÊN CỨU", refs: [R01; R02; R03–R09])
+    #source-badge("Y TẾ & NGHIÊN CỨU", refs: [R01; R02; R03–R11])
     #h(4pt)
     #source-badge("BIÊN SOẠN")
   ],
@@ -82,7 +82,28 @@ Liên hệ sớm với chuyên gia sức khỏe tâm thần hoặc cơ sở y t�
 
 Ngừng thực hành và tìm trợ giúp khẩn cấp nếu có ý định, kế hoạch hoặc hành vi chuẩn bị tự sát; thôi thúc làm hại người khác; mất liên hệ với thực tế kèm hành vi nguy hiểm; hoặc không còn giữ được an toàn cho bản thân. Đừng để người đang có nguy cơ tự sát tức thời ở một mình. Liên hệ dịch vụ cấp cứu tại nơi đang sống hoặc đưa họ đến cơ sở cấp cứu gần nhất nếu có thể làm vậy một cách an toàn.
 
-WHO nêu nguyên tắc toàn cầu, không ấn định một số điện thoại dùng cho mọi nước. Các số 911, 988 và 999 xuất hiện trong nguồn của Hoa Kỳ hoặc Vương quốc Anh chỉ dùng tại những hệ thống đó. Khi ở Việt Nam hoặc một nước khác, hãy dùng số cấp cứu và dịch vụ khủng hoảng chính thức của nơi mình đang có mặt.
+#source-line("Y TẾ & NGHIÊN CỨU", [R10], [Nghị định 200/2025/NĐ-CP quy định Tổng đài 112 tiếp nhận thông tin về sự cố, thiên tai, thảm họa, nguy cơ và yêu cầu trợ giúp; hoạt động liên tục 24 giờ, miễn cước gọi từ thuê bao cố định và di động, đồng thời liên thông với 113, 114 và 115. Cổng Thông tin điện tử Chính phủ thông báo hệ thống chính thức hoạt động từ ngày 23 tháng 8 năm 2025 và tiếp nhận cả tai nạn cùng tình huống nguy cấp cần trợ giúp.])
+
+#v(8pt)
+
+#source-line("Y TẾ & NGHIÊN CỨU", [R11], [Quy hoạch kho số viễn thông quốc gia xác định 113 là số gọi công an, 114 là số gọi cứu hỏa và 115 là số gọi cấp cứu y tế. Đây là chức năng của đầu số, không phải bảo đảm về thời gian đáp ứng tại mọi địa phương.])
+
+#practice-card(
+  [Ở Việt Nam: gọi số nào?],
+  [
+    + *112:* tình huống khẩn cấp cần trợ giúp khi chưa rõ đầu mối; tổng đài có thể chuyển thông tin thuộc phạm vi của 113, 114 hoặc 115.
+    + *113:* công an; dùng khi có bạo lực, đe dọa hoặc nguy hiểm cần lực lượng công an.
+    + *114:* cứu hỏa.
+    + *115:* cấp cứu y tế.
+
+    Nếu có nguy cơ tự sát tức thời, gọi *112 hoặc 115*, nói rõ đây là nguy cơ cấp thời và đừng ở một mình. Nếu có nguy cơ làm hại người khác hoặc hành vi nguy hiểm do mất liên hệ với thực tế, gọi *112 hoặc 113* và ưu tiên đưa những người xung quanh ra khỏi nguy hiểm. Đừng mất thời gian tự phân loại hoàn hảo rồi mới gọi.
+
+    Khi kết nối được, nói trước *địa điểm chính xác*, *điều đang xảy ra*, *nguy cơ trước mắt* và *trợ giúp cần có*; trả lời câu hỏi của người trực tổng đài. Nếu một đầu số không kết nối được, thử 112 hoặc đưa người cần giúp đến cơ sở cấp cứu gần nhất khi có thể làm vậy an toàn.
+  ],
+  label: [HÀNH ĐỘNG KHẨN CẤP · R10; R11; BIÊN SOẠN],
+)
+
+WHO nêu nguyên tắc toàn cầu, không ấn định một số điện thoại dùng cho mọi nước. Các số 911, 988 và 999 xuất hiện trong nguồn của Hoa Kỳ hoặc Vương quốc Anh chỉ dùng tại những hệ thống đó. Các số 112–115 ở trên chỉ áp dụng tại Việt Nam và được kiểm tra theo nguồn chính thức ngày 27 tháng 7 năm 2026. Khi ở nước khác, dùng số cấp cứu chính thức tại nơi mình đang có mặt.
 
 #practice-card(
   [Điền kế hoạch trước khi tăng cường độ],

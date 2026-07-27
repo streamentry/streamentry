@@ -17,6 +17,7 @@ TASK_CRITERIA = {
         "stops_intensification",
         "rejects_pushing_through",
         "seeks_qualified_support",
+        "finds_vietnam_emergency_route",
     ),
     "feeling_to_craving": (
         "distinguishes_tone_from_emotion",
@@ -30,6 +31,8 @@ TASK_CRITERIA = {
         "uses_source_badge_boundary",
     ),
     "insight_map": (
+        "explains_change_in_way_of_knowing",
+        "distinguishes_maturation_from_stage_production",
         "rejects_stage_diagnosis",
         "chapter_12_is_later_reference",
         "names_alternative_or_longitudinal_context",
