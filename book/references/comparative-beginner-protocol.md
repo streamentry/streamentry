@@ -1,7 +1,7 @@
 # Vietnamese beginner-book comparison protocol
 
 Status: preregistration draft
-Comparator availability checked: 2026-07-26
+Comparator availability checked: 2026-07-28
 Applies to: the exact PDF and EPUB hashes frozen in the cohort manifest
 
 ## What this protocol can and cannot establish
@@ -21,16 +21,30 @@ The panel represents three distinct beginner-facing positions in the current Vie
 1. **Everyday Vietnamese mindfulness**
    - Thích Nhất Hạnh, *Thiền tập cho người bận rộn*, 14th reprint, Nhà xuất bản Thế Giới, 2024, 125 pages.
    - Evidence: [National Library of Vietnam, May 2024 bibliography](https://nlv.gov.vn/dmdocuments/tmqg-05-2024.pdf); [Phương Nam product record](https://nhasachphuongnam.com/products/thien-tap-cho-nguoi-ban-ron-tai-ban-nam-2024).
+   - Current identity check: both records identify the 2024 edition, and the National Library record states 125 pages. The retailer currently marks the title in stock. Confirm the acquired copy's title page, edition statement, publisher, year, pagination and product identifier before assigning it.
 
 2. **Lay Vipassanā instruction**
    - Joseph Goldstein, Nguyễn Duy Nhiên trans., *Hướng dẫn thiền quán trong đời sống hằng ngày*, Nhà xuất bản Hà Nội, 2024, ISBN 978-604-442-422-4.
-   - Evidence: [publisher product record](https://thaihabooks.com/products/huong-dan-thien-quan-trong-doi-song-hang-ngay-tai-ban-2024).
+   - Evidence: [publisher product record](https://thaihabooks.com/products/huong-dan-thien-quan-trong-doi-song-hang-ngay-tai-ban-2024); [National Library of Vietnam, February 2025 bibliography](https://nlv.gov.vn/dmdocuments/tmqg-02-2025.pdf).
+   - Open identity discrepancy: the publisher product record states 275 pages, while the National Library record for the 2024 third printing states 294 pages. Do not silently select either count. The acquired copy must match the named author, translator, title, publisher, year and ISBN, and its edition statement and physical pagination must be recorded before recruitment.
 
 3. **Theravāda doctrine and practice from a monastic teacher**
    - Ayya Khema, Diệu Liên Lý Thu Linh trans., *Vô ngã vô ưu: Thiền quán về Phật đạo*, Nhà xuất bản Lao Động, 2024, ISBN 978-604-492-558-5.
    - Evidence: [National Library of Vietnam, March 2025 bibliography](https://nlv.gov.vn/dmdocuments/tmqg-03-2025.pdf); [publisher product record](https://thaihabooks.com/products/vo-nga-vo-uu-tai-ban-2024).
+   - Open identity discrepancy: the publisher product record states 303 pages, while the National Library record states 333 pages. Do not silently select either count. The acquired copy must match the named author, translator, title, publisher, year and ISBN, and its edition statement and physical pagination must be recorded before recruitment.
 
 The panel is fixed before participant 1 starts. A title may be replaced only if it cannot be lawfully obtained. Replacement must use the same stratum, be documented before recruitment, and trigger a new preregistration version.
+
+Availability on a product page is not proof that the delivered copy matches the
+named edition. Before preregistration, lawfully acquire one complete copy of
+each comparator and create a private acquisition ledger containing the purchase
+date, seller, receipt reference, title-page identity, copyright-page identity,
+edition or printing statement, ISBN or product identifier, and physical
+pagination. Preserve the assigned copies through both study phases. Do not
+publish receipts, purchaser details, scans, photographs or comparator text.
+Record only a privacy-bounded edition summary in the preregistration. Any
+unresolved identity conflict blocks recruitment; it is not a reason to choose
+the more convenient metadata.
 
 ## Eligibility and exclusions
 
