@@ -1,6 +1,8 @@
 #import "edition.typ": edition, stack-lines
 #import "theme.typ": palette, fonts, space
 
+#let semantic-region-counter = counter("semantic-region")
+
 #let eyebrow(label, fill: palette.muted) = text(
   font: fonts.sans,
   size: 7.4pt,
@@ -216,9 +218,18 @@
 
 #let practice-card(title, body, label: edition.labels.practice) = context {
   if target() == "html" {
-    html.elem("aside", attrs: (class: "practice-card", role: "note"))[
+    semantic-region-counter.step()
+    let title-id = "practice-card-title-" + str(semantic-region-counter.get().first())
+    html.elem(
+      "aside",
+      attrs: (
+        class: "practice-card",
+        role: "note",
+        aria-labelledby: title-id,
+      ),
+    )[
       #html.elem("p", attrs: (class: "eyebrow"))[#label]
-      #html.elem("div", attrs: (class: "card-title"))[#title]
+      #html.elem("div", attrs: (class: "card-title", id: title-id))[#title]
       #body
     ]
   } else {
@@ -270,9 +281,18 @@
 
 #let caution(title, body) = context {
   if target() == "html" {
-    html.elem("aside", attrs: (class: "caution", role: "note"))[
+    semantic-region-counter.step()
+    let title-id = "caution-title-" + str(semantic-region-counter.get().first())
+    html.elem(
+      "aside",
+      attrs: (
+        class: "caution",
+        role: "note",
+        aria-labelledby: title-id,
+      ),
+    )[
       #html.elem("p", attrs: (class: "eyebrow"))[#edition.labels.caution]
-      #html.elem("p", attrs: (class: "card-title"))[#title]
+      #html.elem("p", attrs: (class: "card-title", id: title-id))[#title]
       #body
     ]
   } else {
@@ -318,9 +338,18 @@
 
 #let day-card(day, title, duration, body) = context {
   if target() == "html" {
-    html.elem("section", attrs: (class: "day-card"))[
+    semantic-region-counter.step()
+    let title-id = "day-card-title-" + str(semantic-region-counter.get().first())
+    html.elem(
+      "section",
+      attrs: (
+        class: "day-card",
+        role: "group",
+        aria-labelledby: title-id,
+      ),
+    )[
       #html.elem("span", attrs: (class: "day-number"))[#day]
-      #html.elem("span", attrs: (class: "day-title"))[#title]
+      #html.elem("span", attrs: (class: "day-title", id: title-id))[#title]
       #html.elem("span", attrs: (class: "day-duration"))[#duration]
       #body
     ]
@@ -375,9 +404,18 @@
 
 #let reference-item(code, title, detail, url) = context {
   if target() == "html" {
-    html.elem("section", attrs: (class: "reference-item"))[
+    semantic-region-counter.step()
+    let title-id = "reference-title-" + str(semantic-region-counter.get().first())
+    html.elem(
+      "section",
+      attrs: (
+        class: "reference-item",
+        role: "group",
+        aria-labelledby: title-id,
+      ),
+    )[
       #source-badge("KINH", refs: code)
-      #html.elem("p", attrs: (class: "reference-title"))[*#title*]
+      #html.elem("p", attrs: (class: "reference-title", id: title-id))[*#title*]
       #html.elem("p", attrs: (class: "reference-detail"))[#detail]
       #html.elem("p")[#link(url)[#edition.labels.source_link (#code)]]
     ]

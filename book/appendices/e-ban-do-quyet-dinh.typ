@@ -43,33 +43,61 @@
 
 #context {
   if target() == "html" {
-    html.elem("section", attrs: (class: "decision-map", role: "note"))[
-      #html.elem("section", attrs: (class: "decision-node decision-wide"))[
+    html.elem("div", attrs: (class: "decision-map"))[
+      #html.elem(
+        "section",
+        attrs: (
+          class: "decision-node decision-wide",
+          role: "group",
+          aria-labelledby: "decision-safety-title",
+        ),
+      )[
         #html.elem("p", attrs: (class: "eyebrow"))[1 · CỔNG AN TOÀN]
-        #html.elem("h3", attrs: (class: "card-title"))[Có việc phải bảo vệ ngay không?]
+        #html.elem("h3", attrs: (class: "card-title", id: "decision-safety-title"))[Có việc phải bảo vệ ngay không?]
         Có nguy hiểm cấp thời, thôi thúc tự hại hoặc hại người, mất liên hệ với thực tại, đau sắc, tê lan hay yếu chi? Nếu *có*, bỏ kỹ thuật, làm điều an toàn cần làm và dùng #link(<an-toan>)[chương 9]. Ở Việt Nam: *112* khi chưa rõ đầu mối, *115* cấp cứu y tế, *113* công an, *114* cứu hỏa. Nếu *không*, chọn đúng bối cảnh ở hàng kế tiếp.
       ]
 
-      #html.elem("section", attrs: (class: "decision-node"))[
+      #html.elem(
+        "section",
+        attrs: (
+          class: "decision-node",
+          role: "group",
+          aria-labelledby: "decision-formal-title",
+        ),
+      )[
         #html.elem("p", attrs: (class: "eyebrow"))[2A · BUỔI TẬP CÓ CẤU TRÚC]
-        #html.elem("h3", attrs: (class: "card-title"))[Giữ, chuyển hay hành động?]
+        #html.elem("h3", attrs: (class: "card-title", id: "decision-formal-title"))[Giữ, chuyển hay hành động?]
         + Sự việc còn ở nền: giữ điểm tựa.
         + Sự việc đã chi phối chú ý: biết nó.
         + Nó lắng hoặc hết nổi bật: trở về điểm tựa.
         + Có nguy cơ hay bổn phận cấp thời: hành động trước.
       ]
 
-      #html.elem("section", attrs: (class: "decision-node"))[
+      #html.elem(
+        "section",
+        attrs: (
+          class: "decision-node",
+          role: "group",
+          aria-labelledby: "decision-daily-life-title",
+        ),
+      )[
         #html.elem("p", attrs: (class: "eyebrow"))[2B · ĐỜI SỐNG]
-        #html.elem("h3", attrs: (class: "card-title"))[Đặt chú ý ở đâu?]
+        #html.elem("h3", attrs: (class: "card-title", id: "decision-daily-life-title"))[Đặt chú ý ở đâu?]
         + Việc có rủi ro hoặc cần độ chính xác: chú ý trọn việc.
         + Phản ứng vừa dâng: biết thân, thọ và lực kéo; chọn hành động nhỏ nhất đủ đúng rồi trở lại hoàn cảnh.
         + Đã gây hại: dừng, gọi đúng việc, nhận trách nhiệm, sửa và đặt một chốt cho lần sau.
       ]
 
-      #html.elem("section", attrs: (class: "decision-node decision-wide"))[
+      #html.elem(
+        "section",
+        attrs: (
+          class: "decision-node decision-wide",
+          role: "group",
+          aria-labelledby: "decision-after-practice-title",
+        ),
+      )[
         #html.elem("p", attrs: (class: "eyebrow"))[3 · SAU BUỔI TẬP]
-        #html.elem("h3", attrs: (class: "card-title"))[Giữ, giảm hay dừng?]
+        #html.elem("h3", attrs: (class: "card-title", id: "decision-after-practice-title"))[Giữ, giảm hay dừng?]
         Giấc ngủ, thân thể và sinh hoạt vẫn ổn: giữ nhịp. Chúng xấu đi: giảm về mức gần nhất từng ổn. Dấu hiệu cảnh báo mạnh, lặp lại hoặc kéo dài: dừng tăng cường độ và tìm hỗ trợ phù hợp. Không bù giờ, không dùng một hiện tượng lạ để tự chấm tầng tuệ. *Câu nhớ:* an toàn trước, đúng bối cảnh sau, rồi mới xét tiếp tục hay giảm.
       ]
     ]

@@ -10,7 +10,7 @@ each failure names one contract.
 ## Key Components
 
 - `test_edition_contract.py`: schema-v1 strict-loading tests for duplicate, unknown, missing, malformed, unsafe, out-of-range, and cross-field-inconsistent edition data, plus the tracked Vietnamese contract.
-- `test_epub_edition_contract.py`: alternate-locale HTML head metadata, navigation, cover, OPF, language, accessibility, XML-escaping, and content-link contract proof with no Vietnamese-label fallback.
+- `test_epub_edition_contract.py`: alternate-locale HTML head metadata, navigation, cover, OPF, language, accessibility, XML-escaping, content-link, and repeated-card visible-title binding contract proof with no Vietnamese-label fallback.
 - `test_release_identity.py`: table-driven PDF and EPUB title, credit, and language drift rejection against the loaded contract.
 - `test_readme_gateway.py`: reader-first ordering, contract-derived download identity, relative-link integrity, missing-rights and open-gate boundaries, and rejection of drift-prone artifact counts in the public README.
 - `release_verifier_fixtures.py`: shared synthetic Markdown, PDFInfo, OPF, XHTML, and EPUB fixtures.

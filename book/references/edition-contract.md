@@ -67,6 +67,15 @@ release verifier, and release-evidence parser consume its immutable contract
 view. Compatibility aliases in a consumer are acceptable only when they are
 derived directly from that loaded view.
 
+The semantic HTML layer has a separate component contract: repeated practice
+cards and cautions expose their visible titles as named `note` objects; day
+cards, reference entries, and decision nodes expose their visible titles as
+named `group` objects. Each uses one unique deterministic `aria-labelledby`
+target. FAQ questions remain real headings. The builder rejects a missing,
+empty, external, or unresolved title target and rejects a layout-only decision
+map that adds a role. This improves machine-readable structure without turning
+hundreds of cards into headings or landmarks.
+
 Schema v1 fails closed on:
 
 - duplicate, unknown, or missing JSON keys;

@@ -232,6 +232,67 @@ class EpubEditionContractTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, message):
                     EPUB._validate_content_links(broken)
 
+    def test_repeated_visual_cards_require_resolved_visible_titles(self) -> None:
+        root = ET.fromstring(
+            f"""\
+<main xmlns="{EPUB.XHTML_NS}">
+  <aside class="practice-card" role="note" aria-labelledby="practice-title">
+    <div class="card-title" id="practice-title">Practice title</div>
+  </aside>
+  <section class="faq-card practice-card"><h2>FAQ heading</h2></section>
+  <aside class="caution" role="note" aria-labelledby="caution-title">
+    <p class="card-title" id="caution-title">Caution title</p>
+  </aside>
+  <section class="day-card" role="group" aria-labelledby="day-title">
+    <span class="day-title" id="day-title">Day title</span>
+  </section>
+  <section class="reference-item" role="group" aria-labelledby="reference-title">
+    <p class="reference-title" id="reference-title">Reference title</p>
+  </section>
+  <div class="decision-map">
+    <section class="decision-node" role="group" aria-labelledby="decision-title">
+      <h3 class="card-title" id="decision-title">Decision title</h3>
+    </section>
+  </div>
+</main>
+"""
+        )
+        EPUB._validate_titled_regions(root)
+
+        defects = {
+            "role=note": (".practice-card", "role", "group"),
+            "exactly one aria-labelledby": (
+                ".caution",
+                "aria-labelledby",
+                "",
+            ),
+            "target does not resolve": (
+                ".day-card",
+                "aria-labelledby",
+                "missing",
+            ),
+            "non-empty .reference-title": (
+                ".reference-title",
+                "text",
+                "",
+            ),
+            "layout wrapper": (".decision-map", "role", "note"),
+        }
+        for message, (selector, attribute, value) in defects.items():
+            with self.subTest(message=message):
+                broken = ET.fromstring(ET.tostring(root))
+                target = next(
+                    element
+                    for element in broken.iter()
+                    if selector[1:] in element.attrib.get("class", "").split()
+                )
+                if attribute == "text":
+                    target.text = value
+                else:
+                    target.set(attribute, value)
+                with self.assertRaisesRegex(ValueError, message):
+                    EPUB._validate_titled_regions(broken)
+
     def test_opf_uses_supplied_metadata_subjects_and_accessibility_summary(self) -> None:
         document = EPUB.package_opf(SENTINEL)
         root = _parse(document)
