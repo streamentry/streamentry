@@ -7,13 +7,20 @@
   provenance: [
     #source-badge("KINH", refs: [K02; K05; K06; K08; K09; K10; K11; K17])
     #h(4pt)
-    #source-badge("KINH", refs: [K20; K21; K24; K35; K36; K38])
+    #source-badge("KINH", refs: [K20; K21; K24; K35; K36; K38; K41])
     #h(4pt)
     #source-badge("BIÊN SOẠN")
   ],
 )
 
 Từ “dòng” dễ gợi một luồng năng lượng hay một khoảnh khắc ý thức đứt đoạn. Kinh định nghĩa khác. Nhập lưu không chỉ là một trạng thái đã xảy ra trên tọa cụ. Điều cần nhìn là đạo lộ người ấy đã đi vào, ba mối trói nào đã rơi, và các phẩm chất nào đã đứng vững trong cách thấy cùng cách sống.
+
+#scripture-quote(
+  [Quả Dự lưu vượt hơn ngôi vua độc tôn trên toàn cõi đất, vượt hơn việc đi đến cõi trời, vượt hơn cả quyền làm chủ mọi thế giới.],
+  [“Pathabyā ekarajjena, saggassa gamanena vā; sabbalokādhipaccena, sotāpattiphalaṁ varaṁ.” Pháp Cú 178, Phẩm Thế Gian. Bản dịch sát nghĩa của sách từ Pāli; xem K41.],
+)
+
+Đây là câu kệ thuộc Kinh Pháp Cú, văn bản kinh điển được truyền thống Theravāda quy về Đức Phật. Câu chuyện thường được kể để dẫn vào kệ nằm trong chú giải về sau, nên sách không dùng câu chuyện ấy làm bằng chứng cho hoàn cảnh thuyết giảng. Bản thân câu kệ cũng không hứa rằng ham muốn chứng quả sẽ đưa một người đến quả ấy. Nó đặt một thước đo dứt khoát hơn: ngay cả quyền lực lớn nhất và phước báo cõi trời cũng không sánh bằng bước vào dòng giải thoát. Vì giá trị được nói mạnh đến thế, tiêu chuẩn càng phải được giữ nghiêm. Cuốn sách sẽ không lấy cảm giác lạ, ánh sáng, hỷ lạc, thời lượng khóa thiền hay lời xác nhận đơn lẻ thay cho các tiêu chuẩn kinh nêu.
 
 Chương này chỉ giữ một trục: *ba kiết sử đầu*. Đây là ba cái đầu trong nhóm năm hạ phần kiết sử, thường được gọi gọn trong lời giảng là “ba hạ phần kiết sử”. Chương 11 mới đặt chúng vào toàn bộ nhóm năm và bốn quả Sa-môn. Tách hai việc ra giúp người mới hiểu từng mối trói trước khi học bảng phân loại.
 

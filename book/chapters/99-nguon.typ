@@ -21,7 +21,7 @@
 #v(7pt)
 
 #source-line("BIÊN SOẠN", [mã truy nguyên riêng của cuốn sách], [
-  *K01–K40* đánh số hồ sơ nguồn kinh; *P01–P02* đánh số hai tài liệu Mahāsi;
+  *K01–K41* đánh số hồ sơ nguồn kinh; *P01–P02* đánh số hai tài liệu Mahāsi;
   *V01* là ấn bản Thanh Tịnh Đạo; *R01–R11* đánh số nguồn nghiên cứu, y tế và
   cơ quan chính thức. Các mã K, P, V và R là chỉ mục nội bộ để giữ đúng bản,
   liên kết và giới hạn sử dụng; chúng không phải số phân loại truyền thống và
@@ -309,6 +309,13 @@
   [Đích của đời sống Sa-môn, Saṁyutta Nikāya 45.36],
   [Sự đoạn tận tham, sân và si là đích của đời sống Sa-môn. Đọc cùng SN 45.35, đoạn này giúp phân biệt đạo lộ, các mốc quả và cứu cánh.],
   "https://suttacentral.net/sn45.36/en/sujato",
+)
+
+#reference-item(
+  [K41],
+  [Quả Dự lưu vượt hơn mọi quyền lực thế gian, Pháp Cú 178],
+  [Câu kệ Pāli đặt quả Dự lưu cao hơn ngôi vua độc tôn trên toàn cõi đất, việc đi đến cõi trời và quyền làm chủ mọi thế giới. Pháp Cú là văn bản kinh điển được truyền thống Theravāda quy về Đức Phật; câu chuyện nền thường đi kèm kệ thuộc chú giải về sau và không được dùng làm bằng chứng ở đây. Bản dịch Việt trong chương 10 do sách dịch sát nghĩa từ Pāli, có đối chiếu bản Pāli Mahāsaṅgīti và bản dịch tiếng Anh của Ācariya Buddharakkhita do Buddhist Publication Society ấn hành.],
+  "https://suttacentral.net/dhp167-178/pli/ms",
 )
 
 == Thanh Tịnh Đạo và truyền thống Mahāsi
