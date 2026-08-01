@@ -16,8 +16,8 @@ from verify_release import verify_release  # noqa: E402
 class CurrentReleaseIntegrationTests(unittest.TestCase):
     def test_current_release_evidence_matches_dist_artifacts(self) -> None:
         evidence = verify_release(ROOT)
-        self.assertEqual(evidence.pdf_pages, 197)
-        self.assertEqual(evidence.epub_content_entries, 204)
+        self.assertEqual(evidence.pdf_pages, 210)
+        self.assertEqual(evidence.epub_content_entries, 231)
         self.assertEqual(evidence.epub_cover_entries, 1)
 
 

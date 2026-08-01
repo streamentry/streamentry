@@ -10,7 +10,7 @@ This module owns the A5 and reflowable publication system for *Hướng Đến N
 - `edition.typ`: leaf that exposes `edition.json` and presentation-only helpers to Typst consumers. Do not add fallback metadata or locale policy here.
 - `main.typ`: contract-derived metadata, cover, and include order.
 - `theme.typ`: print type system and A5 perfect-binding margins plus semantic HTML CSS for EPUB.
-- `components.typ`: stable dual-target blocks. HTML branches must preserve all content hidden inside print grids. Source-map link text must retain its source code so assistive-technology link lists distinguish K01–K41.
+- `components.typ`: stable dual-target blocks. HTML branches must preserve all content hidden inside print grids. Source-map link text must retain its source code so assistive-technology link lists distinguish K01–K42.
 - `chapters/`: narrative and instructional sequence.
 - `appendices/`: printable tools and reference material.
 - `appendices/e-ban-do-quyet-dinh.typ`: one-page, dual-target decision map that preserves safety, formal-practice, ordinary-life and post-practice choices as text.

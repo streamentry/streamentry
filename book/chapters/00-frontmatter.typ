@@ -62,7 +62,7 @@ Phần này cố tình đọc chậm hơn phần thực hành. Người mới kh
   [
     1. *Trước buổi đầu:* mở #link(<buoi-dau>)[“Trước buổi đầu tiên”] ở chương 1. Đọc hai hộp an toàn và thẻ Ngày 1; để #link(<nhan-tham-chieu>)[bảng nhãn ở Phụ lục B] bên cạnh nếu các từ ghi nhận còn lạ. Nếu hai hộp không nêu điều đang xảy ra với bạn, hãy bắt đầu buổi ngồi ngắn. Nếu một dấu hiệu cảnh báo áp dụng, dừng ở đó và đọc #link(<an-toan>)[chương 9] trước khi tiếp tục.
 
-    2. *Sau tuần đầu:* dùng #link(<ngay-8-30>)[cầu nối ngày 8 đến ngày 30] trong chương 1, đồng thời đọc xong chương 2 đến chương 7 để đặt kỹ thuật vào giới, Bát Chánh Đạo, Tứ Niệm Xứ, duyên khởi và đời sống tại gia. Sau đó đọc chương 10 theo thẻ “Đường đọc lần đầu”. Nếu ba kiết sử đầu còn lẫn vào nhau, hãy dừng ở chương 10 và dùng phần thuật ngữ hoặc FAQ để đọc lại. Chương 11 chỉ mở rộng bản đồ sang năm hạ phần kiết sử và bốn quả; nó không phải kỳ thi, cũng không phải bảng tự phong cấp.
+    2. *Sau tuần đầu:* dùng #link(<ngay-8-30>)[cầu nối ngày 8 đến ngày 30] trong chương 1, đồng thời đọc xong chương 2 đến chương 7 để đặt kỹ thuật vào giới, Bát Chánh Đạo, Tứ Niệm Xứ, duyên khởi và đời sống tại gia. Khi cần gom các phần ấy vào một phản ứng thật, đọc Chương 13; đây là bản đồ truy hồi, không phải một phương pháp mới. Sau đó đọc chương 10 theo thẻ “Đường đọc lần đầu”. Nếu ba kiết sử đầu còn lẫn vào nhau, hãy dừng ở chương 10 và dùng phần thuật ngữ hoặc FAQ để đọc lại. Chương 11 chỉ mở rộng bản đồ sang năm hạ phần kiết sử và bốn quả; nó không phải kỳ thi, cũng không phải bảng tự phong cấp.
 
     3. *Trước khi tăng mạnh thời lượng, tập một mình dài ngày hoặc đi khóa:* đọc chương 8 và đọc trọn #link(<an-toan>)[chương 9], kiểm tra sức khỏe, người hướng dẫn và quyền rời khóa.
 

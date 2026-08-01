@@ -21,7 +21,7 @@ Kho này chưa có giấy phép công khai. Việc tệp có thể tải xuống
 1. Đọc phần “Bắt đầu ở đây” rồi làm theo Chương 1. Buổi đầu tiên có mức sàn, điểm tựa thay thế và điều kiện dừng ngay tại chỗ.
 2. Trong tuần đầu, dùng Phụ lục B để tra nhãn và Phụ lục A để ghi ngắn. Không cần học bản đồ tuệ.
 3. Trước khi tăng thời lượng, hành một mình kéo dài hoặc đi khóa, đọc Chương 9 về an toàn rồi Chương 8 về lộ trình, người hướng dẫn và khóa thiền.
-4. Đọc Chương 2–7 để hiểu nền giáo lý, Tứ Niệm Xứ, đoạn thọ–ái, phương pháp Mahāsi, triền cái–giác chi và cách đưa niệm vào đời sống.
+4. Đọc Chương 2–7 để hiểu nền giáo lý, Tứ Niệm Xứ, đoạn thọ–ái, phương pháp Mahāsi, triền cái–giác chi và cách đưa niệm vào đời sống. Sau đó dùng Chương 13 như bản tổng hợp vận hành khi cần nối Tứ Đế với một phản ứng thật.
 5. Chỉ sau khi khung trên đã vững, đọc Chương 10–11 về ba kiết sử đầu, năm hạ phần kiết sử và bốn quả.
 6. Dùng Chương 12 như tài liệu tham khảo về sau. Bản đồ tuệ giúp đặt câu hỏi tốt hơn; nó không phải bảng tự chẩn đoán.
 
@@ -54,6 +54,7 @@ Sách không gọi thọ–ái là “mắt xích luôn dễ cắt nhất”, kh
 
 - Một buổi ngồi an toàn, bảy ngày đầu, ngày 8–30 và cách khởi động lại sau khi nhịp bị gãy.
 - Tứ Thánh Đế, Bát Thánh đạo, Tứ Niệm Xứ và mười hai chi duyên khởi.
+- Chương 13 nối Tứ Diệu Đế với đoạn xúc–thọ–ái–thủ, toàn bộ Bát Chánh Đạo và một thẻ hành động ngắn; đây là bản đồ biên soạn, không phải bài tự chấm quả.
 - Bài tập quan sát từ xúc đến thọ, ái và thủ, với ba trường hợp dễ chịu, khó chịu và trung tính.
 - Phồng xẹp, ghi nhận, đối tượng nổi bật, đổi tư thế và thiền hành theo hướng Mahāsi.
 - Năm triền cái, bảy giác chi và ranh giới giữa tên pháp với vấn đề sức khỏe.

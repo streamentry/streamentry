@@ -34,7 +34,7 @@ class SourceCodeLegendTests(unittest.TestCase):
     def test_source_map_repeats_the_durable_lookup_contract(self) -> None:
         text = SOURCE_MAP.read_text(encoding="utf-8")
         self.assertIn("<ma-nguon-chi-tiet>", text)
-        self.assertIn("*K01–K41*", text)
+        self.assertIn("*K01–K42*", text)
         self.assertIn("*P01–P02*", text)
         self.assertIn("*R01–R11*", text)
         self.assertIn("không phải số phân loại truyền thống", text)

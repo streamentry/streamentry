@@ -30,6 +30,7 @@
 #include "chapters/10-nhap-luu.typ"
 #include "chapters/11-ha-phan-va-sa-mon-qua.typ"
 #include "chapters/12-ban-do-tue.typ"
+#include "chapters/13-tu-dieu-de-van-hanh.typ"
 #include "appendices/a-nhat-ky.typ"
 #include "appendices/b-nhan-tham-chieu.typ"
 #include "appendices/c-faq.typ"
