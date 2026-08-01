@@ -21,7 +21,7 @@
 #v(7pt)
 
 #source-line("BIÊN SOẠN", [mã truy nguyên riêng của cuốn sách], [
-  *K01–K42* đánh số hồ sơ nguồn kinh; *P01–P02* đánh số hai tài liệu Mahāsi;
+  *K01–K43* đánh số hồ sơ nguồn kinh; *P01–P02* đánh số hai tài liệu Mahāsi;
   *V01* là ấn bản Thanh Tịnh Đạo; *R01–R11* đánh số nguồn nghiên cứu, y tế và
   cơ quan chính thức. Các mã K, P, V và R là chỉ mục nội bộ để giữ đúng bản,
   liên kết và giới hạn sử dụng; chúng không phải số phân loại truyền thống và
@@ -244,7 +244,7 @@
 #reference-item(
   [K31],
   [Chánh tri kiến, Majjhima Nikāya 9],
-  [Tôn giả Sāriputta phân tích thọ, ái và xác định Bát Chánh Đạo là đường đưa đến đoạn diệt.],
+  [Tôn giả Sāriputta phân tích ba gốc bất thiện gồm tham, sân, si; định nghĩa vô minh qua việc không biết bốn sự thật; đồng thời phân tích thọ, ái và con đường đoạn diệt.],
   "https://suttacentral.net/mn9/en/bodhi",
 )
 
@@ -323,6 +323,13 @@
   [Năm loại buôn bán cư sĩ nên tránh, Aṅguttara Nikāya 5.177],
   [Bài kinh nêu buôn bán vũ khí, sinh vật, thịt, chất say và chất độc. Đây là danh sách trực tiếp của AN 5.177; các ứng dụng vào mô hình kinh doanh hiện đại cần được ghi là diễn giải biên soạn.],
   "https://suttacentral.net/an5.177/en/sujato",
+)
+
+#reference-item(
+  [K43],
+  [Câu hỏi về Niết-bàn, Saṁyutta Nikāya 38.1],
+  [Tôn giả Sāriputta gọi sự chấm dứt tham, sân và si là Niết-bàn, rồi nêu Bát Chánh Đạo là đường thực chứng. Bản dịch tiếng Anh của Ṭhānissaro Bhikkhu được dùng để đối chiếu; câu Việt trong chương 13 là phỏng dịch của sách.],
+  "https://www.dhammatalks.org/suttas/SN/SN38_1.html",
 )
 
 == Thanh Tịnh Đạo và truyền thống Mahāsi

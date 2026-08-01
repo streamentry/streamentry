@@ -35,22 +35,67 @@ class Chapter13ContractTests(unittest.TestCase):
 
     def test_dependent_origination_has_both_scales_and_a_limit(self) -> None:
         for phrase in (
-            "Vô minh → Hành → Thức → Danh sắc → Sáu xứ → Xúc → Thọ",
-            "Ái → Thủ → Hữu → Sinh",
             "Năm nhịp nhìn một phản ứng",
             "không phải toàn bộ mười hai chi",
             "không phải “mắt xích dễ cắt nhất cho mọi người”",
         ):
             self.assertIn(phrase, self.chapter)
+        full_chain = tuple(
+            f"[{term}]"
+            for term in (
+                "Vô minh",
+                "Hành",
+                "Thức",
+                "Danh sắc",
+                "Sáu xứ",
+                "Xúc",
+                "Thọ",
+                "Ái",
+                "Thủ",
+                "Hữu",
+                "Sinh",
+                "Già–chết + khối khổ",
+            )
+        )
+        positions = [self.chapter.index(term) for term in full_chain]
+        self.assertEqual(positions, sorted(positions))
         self.assertIn("K26 · SN 12.2", self.chapter)
 
     def test_nearby_terms_are_distinguished_without_becoming_diagnoses(self) -> None:
         for phrase in (
-            "Đừng nhập ái, tham, sân và si thành một nhãn",
+            "Vô minh có phải là si?",
+            "MN 9 dùng *moha* trong bộ ba gốc bất thiện",
+            "cùng thuộc vùng mê mờ",
             "*Ái và tham:*",
-            "*Vô minh và si:*",
             "*Sân và chấp thủ:*",
             "không biến một nhãn tâm lý thành kết luận về quả vị",
+        ):
+            self.assertIn(phrase, self.chapter)
+
+    def test_visual_maps_are_reflowable_and_keep_the_source_boundaries(self) -> None:
+        for phrase in (
+            "Bản đồ một trang",
+            "#concept-map(",
+            "#flow-ribbon(",
+            "bản đồ chức năng để học",
+            "Vị trí trên trang giúp trí nhớ",
+            "TUỆ · 2 CHI",
+            "GIỚI · 3 CHI",
+            "ĐỊNH · 3 CHI",
+            "THẤY · HƯỚNG",
+            "NÓI · LÀM · NUÔI",
+            "RÈN · NHỚ-BIẾT · VỮNG",
+        ):
+            self.assertIn(phrase, self.chapter)
+
+    def test_cessation_truth_is_named_as_nibbana_without_overclaiming(self) -> None:
+        for phrase in (
+            "Diệt đế có phải là Niết-bàn không?",
+            "*Câu trả lời ngắn: có.*",
+            "K43 · SN 38.1",
+            "Một cứu cánh, hai góc nhìn",
+            "một lần ái không được tiếp sức",
+            "chưa phải đoạn tận",
         ):
             self.assertIn(phrase, self.chapter)
 

@@ -26,6 +26,43 @@ Các câu trong thẻ trích dẫn của chương là *phỏng dịch để đ�
   SN 56.11 trình bày Tứ Đế trong ba vòng và mười hai phương diện: nhận ra sự thật, nhận ra nhiệm vụ tương ứng, rồi biết nhiệm vụ đã hoàn tất. Ở lớp đầu tiên, Khổ là điều cần được hiểu; Tập, được bài kinh nêu là ái, cần được đoạn; Diệt cần được trực chứng; Đạo là Bát Thánh Đạo và cần được tu tập. Đây là cấu trúc trực tiếp của bài kinh, không phải một mẹo ghi nhớ do sách đặt ra.
 ])
 
+=== Bản đồ một trang
+
+#concept-map(
+  concept-node(
+    [1 · KHỔ · K05],
+    [HIỂU điều đang chịu sức ép],
+    [*Mặt cần thấy:* sinh, già, bệnh, chết, bất như ý; gọn nhất là năm uẩn bị chấp thủ.\
+    *Câu hỏi:* Điều gì đang xảy ra, đổi thay hoặc bị nắm thành “tôi”?],
+    accent: palette.clay,
+  ),
+  concept-node(
+    [2 · TẬP · K05; K26],
+    [ĐOẠN nguồn đang nuôi khổ],
+    [*Lõi của đế:* dục ái, hữu ái, phi hữu ái. Vô minh đứng trước; thủ đứng sau trong duyên khởi.\
+    *Câu hỏi:* Tâm đang đòi có, đòi là hay đòi xóa điều gì?],
+    accent: palette.saffron,
+  ),
+  concept-node(
+    [3 · DIỆT · K05; K43],
+    [CHỨNG sự chấm dứt],
+    [*Cứu cánh:* chính ái ấy được đoạn; Niết-bàn được gọi là sự chấm dứt tham, sân và si.\
+    *Ranh giới:* một lần nhẹ đi chưa phải đoạn tận.],
+    accent: palette.forest,
+  ),
+  concept-node(
+    [4 · ĐẠO · K25],
+    [TU cả con đường],
+    [*Bát Chánh Đạo:* tuệ 2 chi, giới 3 chi, định 3 chi; các chi nâng đỡ nhau.\
+    *Câu hỏi:* Thấy, hướng, nói, làm và rèn thế nào cho đúng?],
+    accent: palette.indigo,
+  ),
+)
+
+#modern-note([
+  Đây là *bản đồ chức năng để học*, không phải bốn chiếc hộp kín. Ngũ uẩn làm rõ Khổ đế nhưng cũng được quán theo sinh diệt; duyên khởi soi cả sự sinh khởi lẫn đoạn diệt; Bát Chánh Đạo là Đạo đế đồng thời là phương tiện để hiểu, đoạn và chứng ba đế kia. Vị trí trên trang giúp trí nhớ, không thu hẹp phạm vi của giáo lý.
+])
+
 Sách dùng bốn câu hỏi sau như một *khung vận hành biên soạn*:
 
 + *Khổ:* Điều gì đang gây sức ép, bất ổn hoặc bị nắm thành “tôi” và “của tôi”?
@@ -112,16 +149,38 @@ Bốn kiểu thủ có thể đọc như bốn cách biến một thứ thành c
 
 Đây là các câu diễn giải để nhận mặt, không phải bốn định nghĩa Việt nguyên văn. Chúng giúp thấy vì sao một thọ khó chịu có thể nhanh chóng trở thành cuộc chiến về danh dự, một quy tắc hay một căn tính.
 
-=== Đừng nhập ái, tham, sân và si thành một nhãn
+=== Vô minh có phải là si?
+
+#source-line("KINH", [K31 · MN 9; K26 · SN 12.2], [
+  MN 9 dùng *moha* trong bộ ba gốc bất thiện — tham, sân, si — rồi ở phần duyên khởi lại dùng *avijjā* cho sự không biết khổ, nguồn sinh khổ, sự chấm dứt khổ và con đường. SN 12.2 cũng định nghĩa *avijjā* theo bốn sự thật và đặt nó làm điều kiện cho hành. Chính các bài kinh vì thế cho hai từ những vai trò kỹ thuật khác nhau, dù vùng nghĩa chồng lấp mạnh.
+])
+
+#concept-map(
+  concept-node(
+    [MOHA · SI · K31],
+    [Khung ba gốc bất thiện],
+    [Đi cùng tham và sân để chỉ gốc mê mờ của tâm bất thiện. Đây là một lăng kính về phẩm chất đang nhuộm tâm.],
+    accent: palette.clay,
+  ),
+  concept-node(
+    [AVIJJĀ · VÔ MINH · K26; K31],
+    [Khung Tứ Đế và duyên khởi],
+    [Không biết khổ, nguồn sinh, sự chấm dứt và con đường; trong chuỗi mười hai chi, vô minh làm duyên cho hành.],
+    accent: palette.indigo,
+  ),
+)
+
+*Vô minh và si:* cùng thuộc vùng mê mờ, nên không phải hai vật hoàn toàn tách biệt; nhưng chúng cũng không phải hai nhãn có thể thay thế máy móc trong mọi công thức. Khi cần nhớ để thực hành, có thể gom cả hai dưới câu “tâm không thấy rõ”. Khi giải thích giáo lý, hãy giữ đúng từ Pāli và đúng vai trò: *moha* trong bộ ba gốc bất thiện; *avijjā* trong công thức Tứ Đế–duyên khởi. Vì thế, câu “vô minh chính là si” chỉ đúng ở mức nói gọn về vùng mê mờ; nó quá thô nếu dùng như một định nghĩa thuật ngữ.
+
+=== Ái, tham, sân và thủ cũng không phải một nhãn
 
 #source-line("KINH", [K05 · SN 56.11; K26 · SN 12.2; K40 · SN 45.36], [
-  K05 dùng *taṇhā* để nêu lõi của Tập đế; K26 đặt vô minh, ái và thủ ở những vị trí khác nhau trong duyên khởi; K40 gọi sự đoạn tận tham, sân và si là mục tiêu của đời sống Sa-môn. Các phân biệt dưới đây là giải thích để đọc cho đúng cơ chế, không phải một bảng từ điển Pāli tuyệt đối.
+  K05 dùng *taṇhā* để nêu lõi của Tập đế; K26 đặt ái và thủ ở những vị trí khác nhau trong duyên khởi; K40 gọi sự đoạn tận tham, sân và si là mục tiêu của đời sống Sa-môn. Các phân biệt dưới đây là giải thích để đọc cho đúng cơ chế, không phải một bảng từ điển Pāli tuyệt đối.
 ])
 
 Trong tiếng Việt, ba độc thường được gom thành “tham–sân–si”. Cách gom này hữu ích để nhớ hướng kéo, đẩy và mê mờ, nhưng không đủ để thay thế mọi thuật ngữ:
 
 + *Ái và tham:* *taṇhā* là từ giữ vai trò trung tâm trong Tập đế; *lobha* hay *rāga* gần với tham, say đắm và chiếm hữu trong những ngữ cảnh rộng hơn. Chúng cùng một họ, nhưng không nên dùng một từ để xóa mọi khác biệt.
-+ *Vô minh và si:* trong SN 12.2, *avijjā* được định nghĩa hẹp qua việc không biết bốn sự thật. *Moha* là cách gọi rộng hơn cho sự mê mờ. Không phải mọi điều ta chưa biết đều là một chẩn đoán về vô minh.
 + *Sân và chấp thủ:* sân nghiêng về chống đối và đẩy ra; thủ là nắm chặt, đồng hóa hoặc dựa căn tính vào một đối tượng, quan điểm hay quy tắc. Chúng thường nuôi nhau nhưng không phải một. Từ chối một hành vi gây hại cũng không tự nó là sân.
 
 Một cơn giận có thể đồng thời chứa mong muốn được công nhận, lực chống đối và sự không thấy rõ dữ kiện. Nhìn các lớp ấy giúp ta chọn đúng việc cần làm; không biến một nhãn tâm lý thành kết luận về quả vị.
@@ -150,14 +209,26 @@ Phân biệt này làm bài tập sắc hơn. Với một tin nhắn:
   Công thức đầy đủ trong SN 12.2 đi từ vô minh đến hành, thức, danh sắc, sáu xứ, xúc, thọ, ái, thủ, hữu, sinh, rồi già chết cùng sầu, bi, khổ, ưu và não. SN 12.44 lặp quan hệ từ sáu cửa giác quan đến xúc, thọ, ái và các chi tiếp theo. Các định nghĩa của kinh có phạm vi rộng hơn một mô tả tâm lý tức thời.
 ])
 
-```text
-Vô minh → Hành → Thức → Danh sắc → Sáu xứ → Xúc → Thọ
-        → Ái → Thủ → Hữu → Sinh → Già–chết và toàn bộ khối khổ
-```
+#flow-ribbon(
+  [Vô minh],
+  [Hành],
+  [Thức],
+  [Danh sắc],
+  [Sáu xứ],
+  [Xúc],
+  [Thọ],
+  [Ái],
+  [Thủ],
+  [Hữu],
+  [Sinh],
+  [Già–chết + khối khổ],
+)
 
 Đừng đọc mũi tên như một nguyên nhân độc nhất, cơ học và tất định. *Duyên* là điều kiện nương nhau; các truyền thống còn tranh luận về thang thời gian và phạm vi của chuỗi. Cuốn sách dùng đoạn xúc–thọ–ái–thủ để quan sát trong hiện tại, nhưng không lấy cách đọc ấy để phủ nhận chiều rộng của duyên khởi.
 
 === Bản đồ gần tay để can thiệp
+
+#flow-ribbon([Xúc], [Thọ], [Ái], [Thủ], [Hữu], [Khổ hệ quả])
 
 #practice-card(
   [Năm nhịp nhìn một phản ứng],
@@ -179,17 +250,34 @@ Vô minh → Hành → Thức → Danh sắc → Sáu xứ → Xúc → Thọ
 
 Thọ đến ái là một điểm quan sát thuận lợi, không phải “mắt xích dễ cắt nhất cho mọi người”. Không có nguồn nào được dẫn ở đây xếp hạng như vậy. Chương 4 đã trình bày phần này với ba trường hợp dễ chịu, khó chịu và trung tính; hãy quay lại đó nếu bạn đang cần một bài tập ngắn hơn. Khi nguy hiểm, bổn phận hoặc người khác cần được bảo vệ, hành động an toàn đi trước việc nhìn vào trong; Chương 7 giữ ranh giới ấy.
 
-== 4. Diệt đế: thấy điều gì xảy ra khi không nuôi
+== 4. Diệt đế: Niết-bàn, không phải một phút nhẹ lòng
 
-=== Diệt không phải một trạng thái dễ chịu
+=== Diệt đế có phải là Niết-bàn không?
 
-#source-line("KINH", [K05 · SN 56.11], [
-  SN 56.11 mô tả Diệt đế là sự phai lắng và chấm dứt không dư sót của chính tham ái ấy: từ bỏ, buông ra, giải thoát và không nương bám. Đối tượng cần đoạn không phải mọi cảm giác, mọi suy nghĩ hay mọi trách nhiệm; đó là lực ái làm chúng thành nhiên liệu cho khổ.
+#source-line("KINH", [K05 · SN 56.11; K43 · SN 38.1], [
+  SN 56.11 mô tả Diệt đế là sự phai lắng và chấm dứt không dư sót của chính tham ái ấy: từ bỏ, buông ra, giải thoát và không nương bám. SN 38.1 gọi sự chấm dứt tham, sân và si là Niết-bàn, rồi nêu Bát Chánh Đạo là đường thực chứng Niết-bàn ấy. Đọc cùng nhau, hai bài kinh không đặt ra hai đích khác nhau; chúng soi cùng một cứu cánh từ hai phía.
 ])
 
-#source-line("KINH", [K40 · SN 45.36], [
-  SN 45.36 gọi Bát Chánh Đạo là đời sống Sa-môn và gọi mục tiêu của đời sống ấy là sự đoạn tận tham, sân và si. Đọc cùng SN 56.11, đoạn này cho thấy “Diệt” không nên bị thu nhỏ thành vài phút thư giãn hay một lần không phản ứng.
-])
+*Câu trả lời ngắn: có.* Trong khung Tứ Đế, Diệt đế chính là Niết-bàn xét như sự chấm dứt khổ. “Diệt” nhấn vào điều chấm dứt; “Niết-bàn” là tên cứu cánh được thực chứng. Câu chữ của SN 56.11 lấy ái làm điểm cắt vì Tập đế vừa xác định ái là nguồn sinh khổ; SN 38.1 nhìn rộng hơn qua sự chấm dứt tham, sân và si.
+
+#concept-map(
+  concept-node(
+    [DIỆT ĐẾ · SN 56.11],
+    [Chính ái ấy chấm dứt],
+    [Phai lắng, từ bỏ, buông ra, giải thoát, không còn nương bám. Công thức trả lời: *nguồn sinh khổ kết thúc thế nào?*],
+    accent: palette.forest,
+  ),
+  concept-node(
+    [NIẾT-BÀN · SN 38.1],
+    [Tham, sân và si chấm dứt],
+    [Bài kinh gọi đó là Niết-bàn và đặt Bát Chánh Đạo làm đường thực chứng. Công thức trả lời: *cứu cánh giải thoát được gọi là gì?*],
+    accent: palette.indigo,
+  ),
+)
+
+Một cứu cánh, hai góc nhìn. Nhưng một lần ái không được tiếp sức, một cơn giận hạ nhiệt hay vài phút tâm yên mới chỉ cho thấy phản ứng phụ thuộc điều kiện. Đừng lấy một lát cắt tạm thời làm bằng chứng rằng Diệt đế đã được trực chứng hay gốc tham, sân, si đã đoạn tận.
+
+=== Bốn mức rất dễ lẫn
 
 Trong thực hành, có thể gặp những mức gần nhau nhưng không đồng nhất:
 
@@ -227,6 +315,34 @@ Trong thực hành, có thể gặp những mức gần nhau nhưng không đồ
 ])
 
 Để dùng trong đời sống, có thể nhớ tám công việc bằng những từ ngắn sau. Đây là cách nhóm và diễn đạt của sách, không phải tên gọi mới trong kinh:
+
+#concept-map(
+  columns: (0.85fr, 1.15fr, 1.15fr),
+  kind: "concept-map-three",
+  concept-node(
+    [TUỆ · 2 CHI],
+    [THẤY · HƯỚNG],
+    [Chánh kiến\
+    Chánh tư duy],
+    accent: palette.indigo,
+  ),
+  concept-node(
+    [GIỚI · 3 CHI],
+    [NÓI · LÀM · NUÔI],
+    [Chánh ngữ\
+    Chánh nghiệp\
+    Chánh mạng],
+    accent: palette.clay,
+  ),
+  concept-node(
+    [ĐỊNH · 3 CHI],
+    [RÈN · NHỚ-BIẾT · VỮNG],
+    [Chánh tinh tấn\
+    Chánh niệm\
+    Chánh định],
+    accent: palette.forest,
+  ),
+)
 
 + *Thấy — chánh kiến:* nhận ra khổ, điều kiện của khổ, sự chấm dứt và con đường; không vội biến câu chuyện thành sự thật.
 + *Hướng — chánh tư duy:* nghiêng về xuất ly, thiện ý và không gây hại; không đồng nghĩa với bỏ hết trách nhiệm.
@@ -298,6 +414,8 @@ Nhập lưu vì thế không phải một trải nghiệm đặc biệt được
 )
 
 == Vòng Tứ Đế trong sáu mươi giây
+
+#flow-ribbon([KHỔ · hiểu], [TẬP · đoạn], [DIỆT · chứng], [ĐẠO · tu])
 
 #practice-card(
   [Bốn câu, một hành động],

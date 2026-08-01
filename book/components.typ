@@ -314,6 +314,104 @@
   }
 }
 
+#let concept-node(label, title, body, accent: palette.forest) = context {
+  if target() == "html" {
+    semantic-region-counter.step()
+    let title-id = "concept-node-title-" + str(semantic-region-counter.get().first())
+    html.elem(
+      "section",
+      attrs: (
+        class: "concept-node",
+        role: "group",
+        aria-labelledby: title-id,
+      ),
+    )[
+      #html.elem("p", attrs: (class: "eyebrow"))[#label]
+      #html.elem("h3", attrs: (class: "card-title", id: title-id))[#title]
+      #body
+    ]
+  } else {
+    block(
+      width: 100%,
+      breakable: false,
+      fill: palette.surface-light,
+      inset: 9pt,
+      radius: 4pt,
+      stroke: (
+        top: 2pt + accent,
+        right: 0.65pt + palette.rule,
+        bottom: 0.65pt + palette.rule,
+        left: 0.65pt + palette.rule,
+      ),
+    )[
+      #set par(first-line-indent: 0em, justify: false, leading: 0.62em)
+      #text(
+        font: fonts.sans,
+        size: 6.8pt,
+        weight: 700,
+        tracking: 0.07em,
+        fill: accent,
+      )[#upper(label)]
+      #v(3pt)
+      #text(font: fonts.display, size: 11.2pt, weight: 650)[#title]
+      #v(4pt)
+      #text(size: 8.25pt)[#body]
+    ]
+  }
+}
+
+#let concept-map(columns: (1fr, 1fr), kind: none, ..nodes) = context {
+  let cells = nodes.pos()
+  if target() == "html" {
+    let classes = if kind == none { "concept-map" } else { "concept-map " + kind }
+    html.elem("div", attrs: (class: classes))[
+      #for node in cells { node }
+    ]
+  } else {
+    grid(
+      columns: columns,
+      column-gutter: 7pt,
+      row-gutter: 7pt,
+      align: top,
+      ..cells,
+    )
+  }
+}
+
+#let flow-ribbon(..items) = context {
+  let entries = items.pos()
+  if target() == "html" {
+    html.elem("ol", attrs: (class: "flow-ribbon"))[
+      #for item in entries {
+        html.elem("li")[#item]
+      }
+    ]
+  } else {
+    block(
+      width: 100%,
+      fill: palette.surface,
+      inset: 8pt,
+      radius: 4pt,
+      stroke: 0.6pt + palette.rule,
+    )[
+      #set par(first-line-indent: 0em, justify: false, leading: 0.6em)
+      #for (index, item) in entries.enumerate() {
+        box(
+          fill: palette.surface-light,
+          inset: (x: 5pt, y: 3pt),
+          radius: 3pt,
+          stroke: 0.55pt + palette.rule,
+        )[#text(font: fonts.sans, size: 7.2pt, weight: 600)[#item]]
+        if index < entries.len() - 1 {
+          h(3pt)
+          text(font: fonts.sans, size: 8pt, weight: 700, fill: palette.saffron)[→]
+          h(3pt)
+        }
+      }
+    ]
+  }
+}
+
 #let modern-note(body) = context {
   if target() == "html" {
     html.elem("aside", attrs: (class: "modern-note", role: "note"))[

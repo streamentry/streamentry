@@ -353,6 +353,7 @@ def _validate_titled_regions(root: ET.Element) -> None:
         "day-card": ("group", "day-title"),
         "reference-item": ("group", "reference-title"),
         "decision-node": ("group", "card-title"),
+        "concept-node": ("group", "card-title"),
     }
     counts = dict.fromkeys(contracts, 0)
 
@@ -399,6 +400,16 @@ def _validate_titled_regions(root: ET.Element) -> None:
         if decision_map.attrib.get("role"):
             raise ValueError(
                 ".decision-map is a layout wrapper and must not add a landmark or note role"
+            )
+
+    for concept_map in (
+        element
+        for element in root.iter()
+        if "concept-map" in _classes(element)
+    ):
+        if concept_map.attrib.get("role"):
+            raise ValueError(
+                ".concept-map is a layout wrapper and must not add a landmark or note role"
             )
 
 

@@ -102,11 +102,24 @@
       .decision-node:nth-child(3) { border-color: var(--indigo); }
       .decision-node:nth-child(4) { border-color: var(--saffron); }
       .decision-wide { grid-column: 1 / -1; }
+      .concept-map { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.8rem; margin: 1.25rem 0; }
+      .concept-map-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .concept-node { min-width: 0; padding: 0.85rem 0.95rem; border: 0.06rem solid var(--rule); border-top-width: 0.22rem; border-radius: 0.35rem; background: var(--surface-light); overflow-wrap: anywhere; }
+      .concept-node:nth-child(4n + 1) { border-top-color: var(--clay); }
+      .concept-node:nth-child(4n + 2) { border-top-color: var(--saffron); }
+      .concept-node:nth-child(4n + 3) { border-top-color: var(--forest); }
+      .concept-node:nth-child(4n) { border-top-color: var(--indigo); }
+      .concept-node .eyebrow { margin: 0 0 0.3rem; color: var(--muted); }
+      .concept-node .card-title { margin-top: 0; }
+      .flow-ribbon { display: flex; flex-wrap: wrap; align-items: center; gap: 0.45rem; margin: 1.1rem 0; padding: 0.75rem; border: 0.06rem solid var(--rule); border-radius: 0.35rem; background: var(--surface); list-style: none; }
+      .flow-ribbon li { display: flex; min-width: 0; align-items: center; margin: 0; padding: 0.32rem 0.5rem; border: 0.06rem solid var(--rule); border-radius: 0.28rem; background: var(--surface-light); font-family: Arial, sans-serif; font-size: 0.82rem; font-weight: 700; overflow-wrap: anywhere; }
+      .flow-ribbon li:not(:last-child)::after { content: '→'; margin-left: 0.55rem; color: var(--saffron); }
       nav[role='doc-toc'] { margin: 1.5rem 0; padding: 0.75rem 1rem; background: var(--surface-light); }
-      @media (max-width: 24rem) {
+      @media (max-width: 30rem) {
         .worksheet-fields { grid-template-columns: minmax(0, 1fr); }
         .decision-map { grid-template-columns: minmax(0, 1fr); }
         .decision-wide { grid-column: auto; }
+        .concept-map, .concept-map-three { grid-template-columns: minmax(0, 1fr); }
       }
       @media (prefers-color-scheme: dark) {
         :root {

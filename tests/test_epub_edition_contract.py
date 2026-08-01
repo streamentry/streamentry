@@ -254,6 +254,11 @@ class EpubEditionContractTests(unittest.TestCase):
       <h3 class="card-title" id="decision-title">Decision title</h3>
     </section>
   </div>
+  <div class="concept-map">
+    <section class="concept-node" role="group" aria-labelledby="concept-title">
+      <h3 class="card-title" id="concept-title">Concept title</h3>
+    </section>
+  </div>
 </main>
 """
         )
@@ -277,6 +282,7 @@ class EpubEditionContractTests(unittest.TestCase):
                 "",
             ),
             "layout wrapper": (".decision-map", "role", "note"),
+            "concept-map is a layout wrapper": (".concept-map", "role", "note"),
         }
         for message, (selector, attribute, value) in defects.items():
             with self.subTest(message=message):
