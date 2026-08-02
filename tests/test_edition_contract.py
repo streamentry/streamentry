@@ -73,8 +73,8 @@ class EditionContractTests(unittest.TestCase):
                 ),
                 "file_stem": "huong-den-nhap-luu",
                 "identifier_seed": "https://streamentry.local/huong-den-nhap-luu",
-                "epub_modified": "2026-07-27T00:00:00Z",
-                "pdf_creation_timestamp": "1785110400",
+                "epub_modified": "2026-08-02T00:00:00Z",
+                "pdf_creation_timestamp": "1785628800",
                 "source_path": "con-duong-niem-xu-mahasi-hop-nhat.md",
                 "source_sha256": (
                     "ad7a886895cf8cd29b369fda89de5665"
@@ -83,6 +83,15 @@ class EditionContractTests(unittest.TestCase):
                 "cover_title_lines": ("Hướng Đến", "Nhập Lưu"),
                 "cover_kicker": "Sổ tay Niệm xứ cho người tại gia",
                 "cover_edition_label": "Ấn bản thực hành 2026",
+                "cover_epigraph_lines": (
+                    "Hơn thống lãnh cõi đất,",
+                    "Hơn được sanh cõi trời,",
+                    "Hơn chủ trì vũ trụ,",
+                    "Quả Dự Lưu tối thắng.",
+                ),
+                "cover_epigraph_source": (
+                    "Pháp Cú 178 · K41 · Hòa thượng Thích Minh Châu dịch"
+                ),
                 "cover_provenance_lines": (
                     "Kinh tạng Pāli · Thanh Tịnh Đạo",
                     "Chỉ dẫn thực hành Mahāsi",
@@ -98,7 +107,12 @@ class EditionContractTests(unittest.TestCase):
                 "cover_label": "Bìa",
                 "content_label": "Nội dung",
                 "landmarks_label": "Các điểm mốc",
-                "cover_alt": "Bìa sách Hướng Đến Nhập Lưu",
+                "cover_alt": (
+                    "Bìa sách Hướng Đến Nhập Lưu. Pháp Cú 178 · K41 · "
+                    "Hòa thượng Thích Minh Châu dịch: Hơn thống lãnh cõi đất, "
+                    "Hơn được sanh cõi trời, Hơn chủ trì vũ trụ, "
+                    "Quả Dự Lưu tối thắng."
+                ),
                 "accessibility_summary": (
                     "Ấn bản có mục lục điều hướng phân cấp, văn bản reflowable "
                     "và nhãn thay thế cho ảnh bìa."
@@ -174,6 +188,10 @@ class EditionContractTests(unittest.TestCase):
             (
                 lambda payload: payload["labels"].update({"shadow": "Hidden"}),
                 r"edition\.labels has unknown keys: \['shadow'\]",
+            ),
+            (
+                lambda payload: payload["cover"].pop("epigraph_source"),
+                r"edition\.cover is missing keys: \['epigraph_source'\]",
             ),
         )
         for mutate, message in cases:
@@ -301,6 +319,29 @@ class EditionContractTests(unittest.TestCase):
         for mutate, message in cases:
             with self.subTest(message=message):
                 self._assert_invalid(mutate, message)
+
+    def test_rejects_cover_alt_that_drops_the_epigraph_or_source(self) -> None:
+        cases = (
+            (
+                "Bìa sách Hướng Đến Nhập Lưu. "
+                "Pháp Cú 178 · K41 · Hòa thượng Thích Minh Châu dịch.",
+                "cover_alt must preserve every cover epigraph line",
+            ),
+            (
+                "Bìa sách Hướng Đến Nhập Lưu. "
+                "Hơn thống lãnh cõi đất, Hơn được sanh cõi trời, "
+                "Hơn chủ trì vũ trụ, Quả Dự Lưu tối thắng.",
+                "cover_alt must preserve the cover epigraph source",
+            ),
+        )
+        for value, message in cases:
+            with self.subTest(message=message):
+                self._assert_invalid(
+                    lambda payload, value=value: payload["accessibility"].update(
+                        {"cover_alt": value}
+                    ),
+                    message,
+                )
 
     def test_rejects_an_epoch_outside_the_supported_datetime_range(self) -> None:
         self._assert_invalid(

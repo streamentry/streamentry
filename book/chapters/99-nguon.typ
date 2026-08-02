@@ -4,7 +4,7 @@
 #chapter(
   [NGUỒN],
   [Bản đồ nguồn],
-  [Các mã dưới đây cho biết một mệnh đề đang dựa trên văn bản nào. Liên kết được kiểm tra khi biên soạn ấn bản này vào tháng 7 năm 2026.],
+  [Các mã dưới đây cho biết một mệnh đề đang dựa trên văn bản nào. Bản đồ nguồn được cập nhật ngày 2 tháng 8 năm 2026; ngày kiểm tra riêng của các nguồn an toàn được ghi tại Chương 9.],
 )
 
 == Bảng giải mã trước khi tra <ma-nguon-chi-tiet>
@@ -314,7 +314,7 @@
 #reference-item(
   [K41],
   [Quả Dự lưu vượt hơn mọi quyền lực thế gian, Pháp Cú 178],
-  [Câu kệ Pāli đặt quả Dự lưu cao hơn ngôi vua độc tôn trên toàn cõi đất, việc đi đến cõi trời và quyền làm chủ mọi thế giới. Pháp Cú là văn bản kinh điển được truyền thống Theravāda quy về Đức Phật; câu chuyện nền thường đi kèm kệ thuộc chú giải về sau và không được dùng làm bằng chứng ở đây. Bản dịch Việt trong chương 10 do sách dịch sát nghĩa từ Pāli, có đối chiếu bản Pāli Mahāsaṅgīti và bản dịch tiếng Anh của Ācariya Buddharakkhita do Buddhist Publication Society ấn hành.],
+  [Câu kệ Pāli đặt quả Dự lưu cao hơn ngôi vua độc tôn trên toàn cõi đất, việc đi đến cõi trời và quyền làm chủ mọi thế giới. Pháp Cú là văn bản kinh điển được truyền thống Theravāda quy về Đức Phật; câu chuyện nền thường đi kèm kệ thuộc chú giải về sau và không được dùng làm bằng chứng ở đây. Bản dịch Việt trong chương 10 do sách dịch sát nghĩa từ Pāli, có đối chiếu bản Pāli Mahāsaṅgīti và bản dịch tiếng Anh của Ācariya Buddharakkhita do Buddhist Publication Society ấn hành. Bìa dùng nguyên bốn câu trong bản dịch của Hòa thượng Thích Minh Châu, được ghi công ngay dưới bài kệ; xem #link("https://theravadan.org/canon/vi/pli/ms/sutta/kn/dhp/dhp0167-0178")[bản Việt K41].],
   "https://suttacentral.net/dhp167-178/pli/ms",
 )
 
@@ -410,4 +410,4 @@ Kho mã nguồn chưa có phản biện độc lập toàn bộ bản thảo b�
 
 Nếu bạn có năng lực công khai phù hợp về Theravāda, an toàn sức khỏe tâm thần, y khoa, phương pháp nghiên cứu, khả năng tiếp cận EPUB, điều phối nghiên cứu hoặc quyền xuất bản, có thể dùng #link("https://github.com/streamentry/streamentry/issues/new?template=external-review-interest.yml")[biểu mẫu đề nghị tham gia thẩm định]. Issue này công khai; không đăng email, số điện thoại, hồ sơ y tế hay dữ liệu người tham gia. Một đề nghị chưa phải báo cáo thẩm định và không làm bất kỳ cổng nào tự động đạt.
 
-Nội dung được kiểm tra ngày 27 tháng 7 năm 2026. #link("https://github.com/streamentry/streamentry/blob/main/EDITORIAL_POLICY.md")[Chính sách biên tập và sửa sai] công bố cách phân loại nguồn, xử lý bất đồng, lưu dấu thay đổi và giới hạn trách nhiệm. Báo sai nguồn, câu chữ dễ gây hại hoặc lỗi hiển thị bằng #link("https://github.com/streamentry/streamentry/issues/new?template=correction.yml")[biểu mẫu sửa sai công khai]. Không đưa dữ liệu liên lạc hay thông tin y tế riêng vào báo cáo. Mỗi lần sửa giáo lý phải cập nhật sổ kiểm chứng, ngày kiểm tra và cả hai bản PDF, EPUB.
+Nội dung và bản đồ nguồn được cập nhật ngày 2 tháng 8 năm 2026. #link("https://github.com/streamentry/streamentry/blob/main/EDITORIAL_POLICY.md")[Chính sách biên tập và sửa sai] công bố cách phân loại nguồn, xử lý bất đồng, lưu dấu thay đổi và giới hạn trách nhiệm. Báo sai nguồn, câu chữ dễ gây hại hoặc lỗi hiển thị bằng #link("https://github.com/streamentry/streamentry/issues/new?template=correction.yml")[biểu mẫu sửa sai công khai]. Không đưa dữ liệu liên lạc hay thông tin y tế riêng vào báo cáo. Mỗi lần sửa giáo lý phải cập nhật sổ kiểm chứng, ngày kiểm tra và cả hai bản PDF, EPUB.

@@ -26,6 +26,10 @@
       #if author != none {
         html.elem("p", attrs: (class: "cover-author"))[#(edition.labels.author): #author]
       }
+      #html.elem("blockquote", attrs: (class: "cover-epigraph"))[
+        #html.elem("p")[#stack-lines(edition.cover.epigraph_lines)]
+        #html.elem("cite")[#edition.cover.epigraph_source]
+      ]
       #html.elem("p", attrs: (class: "cover-edition"))[#edition.cover.edition_label]
     ]
   } else {
@@ -44,9 +48,9 @@
   )[
     #set par(justify: false, first-line-indent: 0em)
     #rect(width: 34mm, height: 3pt, fill: palette.saffron)
-    #v(24mm)
+    #v(17mm)
     #eyebrow(edition.cover.kicker, fill: palette.forest)
-    #v(8mm)
+    #v(6mm)
     #set par(leading: 0.95em)
     #text(
       font: fonts.display,
@@ -56,7 +60,7 @@
     )[#title]
     #v(7mm)
     #divider()
-    #v(6mm)
+    #v(5mm)
     #set par(leading: 1.35em)
     #text(
       font: fonts.sans,
@@ -64,7 +68,7 @@
       fill: palette.muted,
     )[#subtitle]
     #if author != none [
-      #v(8mm)
+      #v(6mm)
       #eyebrow(edition.labels.author, fill: palette.saffron)
       #v(2.5mm)
       #text(
@@ -74,6 +78,28 @@
         fill: palette.forest,
       )[#author]
     ]
+    #v(7mm)
+    #block(
+      width: 84%,
+      inset: (left: 5mm),
+      stroke: (left: 0.8pt + palette.forest.lighten(28%)),
+    )[
+      #set par(leading: 1.12em)
+      #text(
+        font: fonts.display,
+        size: 10.5pt,
+        style: "italic",
+        fill: palette.ink,
+      )[#stack-lines(edition.cover.epigraph_lines)]
+      #v(2.5mm)
+      #text(
+        font: fonts.sans,
+        size: 6.6pt,
+        weight: 600,
+        fill: palette.muted,
+      )[#edition.cover.epigraph_source]
+    ]
+    #v(5mm)
     #v(1fr)
     #grid(
       columns: (1fr, auto),

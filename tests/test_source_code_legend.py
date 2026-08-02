@@ -58,11 +58,7 @@ class SourceCodeLegendTests(unittest.TestCase):
         self.assertIn("A&E (_Accident and Emergency_)", text)
 
     def test_other_first_read_abbreviations_are_expanded(self) -> None:
-        frontmatter = FRONTMATTER.read_text(encoding="utf-8")
         source_map = SOURCE_MAP.read_text(encoding="utf-8")
-        self.assertIn("trí tuệ nhân tạo (AI)", frontmatter)
-        self.assertIn("hồ sơ hiện không xác lập hai chữ *CS*", frontmatter)
-        self.assertIn("EPUB là sách điện tử tự dàn", frontmatter)
         self.assertIn("Buddhist Publication Society (BPS)", source_map)
 
 

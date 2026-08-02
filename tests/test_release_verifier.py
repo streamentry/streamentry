@@ -17,7 +17,7 @@ class CurrentReleaseIntegrationTests(unittest.TestCase):
     def test_current_release_evidence_matches_dist_artifacts(self) -> None:
         evidence = verify_release(ROOT)
         self.assertEqual(evidence.pdf_pages, 213)
-        self.assertEqual(evidence.epub_content_entries, 245)
+        self.assertEqual(evidence.epub_content_entries, 244)
         self.assertEqual(evidence.epub_cover_entries, 1)
 
 

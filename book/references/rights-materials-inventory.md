@@ -1,6 +1,6 @@
 # Bảng kê vật liệu và khoảng trống quyền phát hành
 
-Checked: 2026-08-01
+Checked: 2026-08-03
 
 ## Phạm vi
 
@@ -21,8 +21,8 @@ của artifact. Danh tính byte dùng cho quyết định được ghi riêng d�
 ```text
 Rights materials inventory schema: 1
 Immutable manuscript SHA-256: `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440`
-Candidate PDF SHA-256: `5f22540c90862de74de011e8541bebb1a657e7d9c2ef352331d88dd73b95809f`
-Candidate EPUB SHA-256: `f318121c6ae72ada960c2b04019354e57874a4ef1873509d2f0c60006f19f91b`
+Candidate PDF SHA-256: `86cffaf0fd21ee0ff57c85bbf0fc882a9947cf90807355e82cf854a244484741`
+Candidate EPUB SHA-256: `3c41131babf1f067f373ff96c446439b7b80451428790bf11647b77fd8fe1121`
 ```
 
 `scripts/verify_release.py` từ chối bảng kê nếu một trong ba mã băm trên lệch
@@ -57,7 +57,10 @@ trước khi ký. Kho công khai có thể thay đổi sau ngày kiểm toán.
    đầu MN 10 xuất hiện hai lần, Tứ Thánh Đế từ SN 56.11, và công thức duyên khởi
    từ SN 12.2 cùng SN 12.44. Phần còn lại chủ yếu là diễn giải, tóm tắt, thuật
    ngữ ngắn và dẫn nguồn, không phải bản sao toàn văn.
-8. Chương 11 chép một công thức Pāli ngắn từ SN 22.59:7.1–10.1 theo đúng nguồn
+8. Bìa chép nguyên bốn dòng tiếng Việt của Pháp Cú 178 và ghi Hòa thượng Thích
+   Minh Châu là dịch giả ngay dưới bài kệ. Văn bản đã được đối chiếu với bản
+   Việt K41 trên Theravadan; việc ghi nguồn không tự xác lập quyền tái bản.
+9. Chương 11 chép một công thức Pāli ngắn từ SN 22.59:7.1–10.1 theo đúng nguồn
    Bilara K35 đã khóa ở commit
    `3af91efb1099190c74998247177f8ba6a076b8c0`. Câu Việt đặt ngay dưới được
    ghi rõ là bản dịch sát nghĩa do sách thực hiện, không phải câu chữ lấy từ
@@ -73,6 +76,7 @@ trước khi ký. Kho công khai có thể thay đổi sau ngày kiểm toán.
 | RM03 | Đầu ra do ChatGPT hỗ trợ | Việc dùng ChatGPT được công bố trong sách. [Điều khoản OpenAI hiện hành](https://openai.com/policies/terms-of-use/) nói rằng giữa người dùng và OpenAI, trong phạm vi pháp luật cho phép, người dùng sở hữu đầu ra và OpenAI chuyển giao quyền của mình nếu có. | Phải xác định tài khoản và điều khoản thực sự áp dụng khi từng phần được tạo. Câu “trong phạm vi pháp luật cho phép” không giải quyết khả năng được bảo hộ, quyền của bên thứ ba, tính không duy nhất của đầu ra hoặc quyền của các cộng tác viên con người. | **contract provenance not recorded** |
 | RM04 | Bốn khối *phỏng dịch* lời kinh | Vị trí được xác định trong `00-frontmatter.typ`, `02-dich-den-va-nen-tang.typ`, `03-tu-niem-xu-trong-kinh.typ` và `04-duyen-khoi.typ`. | Cần ghi rõ mỗi câu được dịch độc lập từ Pāli công cộng, được phép từ một bản dịch, hay dựa vào ngoại lệ đã được đánh giá. Chỉ thay nhãn “phỏng dịch” không sửa được nguồn gốc câu chữ. | **source-expression basis unresolved** |
 | RM04A | Công thức vô ngã Pāli và câu Việt mới ở Chương 11 | Pāli được chép từ SN 22.59:7.1–10.1 trong K35 đã khóa; câu Việt được ghi tại chỗ là bản dịch sát nghĩa do sách thực hiện. | Cần lưu người chịu trách nhiệm cho bản dịch độc lập và đưa nó vào quyết định quyền cuối cùng. Hồ sơ rõ hơn không thay thế thẩm quyền pháp lý. | **expression path documented; authority still open** |
+| RM04B | Bốn dòng Pháp Cú 178 trên bìa | Bìa chép nguyên bản Việt “Hơn thống lãnh cõi đất…” và ghi Hòa thượng Thích Minh Châu là dịch giả; K41 nối tới Pāli cùng bản Việt đã đối chiếu. | Cần xác định căn cứ tái bản đúng bốn dòng này trên PDF, EPUB, bìa in và hình quảng bá. Ghi công và độ ngắn của trích dẫn không tự tạo giấy phép. | **exact published translation; republication basis unresolved** |
 | RM05 | K01–K43 và các diễn giải kinh Nikāya | [SuttaCentral](https://suttacentral.net/licensing) xác nhận văn bản gốc Pāli và các ngôn ngữ cổ thuộc phạm vi công cộng; nội dung do SuttaCentral tự tạo được hiến tặng theo CC0. Trang này cũng nói nhiều bản dịch cũ thuộc quyền của dịch giả hoặc nhà xuất bản và dùng giấy phép riêng. | Sổ nguồn dùng cả bản dịch SuttaCentral mới lẫn các bản của Minh Châu, Bodhi và Suddhaso, cùng bản Ṭhānissaro của SN 38.1 trên dhammatalks.org. Cần phân biệt câu chữ nào dịch trực tiếp từ Pāli, câu nào dựa trên bản dịch hiện đại và điều khoản riêng của đúng ấn bản. Câu K41 trong chương 10 được sách dịch trực tiếp từ Pāli; bản Buddharakkhita chỉ dùng để đối chiếu. Chương 13 dùng K42 cho AN 5.177 và K43 để đối chiếu công thức Niết-bàn; các câu Việt vẫn là diễn giải hoặc phỏng dịch được ghi rõ, không chép nguyên văn bản dịch tiếng Anh. | **mixed source terms; review required** |
 | RM06 | V01, *The Path of Purification* | BPS Online Edition 2014 ghi bản dịch © BPS, cho tái bản và tác phẩm phái sinh khi được phát hành miễn phí, không hạn chế, và được đánh dấu rõ là phái sinh. Sách hiện tóm tắt và dẫn đoạn, không đóng gói bản PDF nguồn. | Nếu phát hành có thu tiền, phải xác định các diễn giải hiện tại có dựa vào quyền được phép, ngoại lệ hợp lệ hay cần xin phép. Pháp luật và kênh thương mại chưa được chọn. | **free-distribution terms identified; commercial basis unresolved** |
 | RM07 | P01, *Practical Insight Meditation* | Bản PDF BPS ghi `Copyright © Buddhist Publication Society 1971`; trang đầu không nêu giấy phép tái sử dụng. Sách hiện tóm tắt phương pháp và dẫn nguồn. | Cần đánh giá mức độ gần câu chữ, căn cứ trích dẫn hoặc diễn giải, và xin phép nếu phạm vi dự định vượt căn cứ hợp lệ. | **permission or legal basis unresolved** |
