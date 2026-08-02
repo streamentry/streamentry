@@ -37,7 +37,7 @@ has passed.
 | `metadata` | Title, author credit, BCP 47 publication language, description, keywords, and subjects. |
 | `publication` | Output filename stem, identifier seed, EPUB modification time, and deterministic PDF creation timestamp. |
 | `source` | Safe repository-relative manuscript path and its lowercase SHA-256. |
-| `cover` | Title lines, kicker, edition label, and provenance lines rendered on the cover. |
+| `cover` | Title lines, kicker, edition label, source-bound epigraph lines and attribution, and provenance lines rendered on the cover. |
 | `labels` | Reader-facing author, chapter, practice, FAQ, caution, source-link, navigation, and landmark labels. |
 | `accessibility` | Cover alternative text and the EPUB accessibility summary. |
 | `quality` | Locale-specific semantic text that must survive the HTML and EPUB path. |

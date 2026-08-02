@@ -63,6 +63,9 @@
       .cover h1 { margin: 1rem 0; font-size: 2.6rem; }
       .cover-subtitle, .chapter-deck { color: var(--muted); }
       .cover-author { margin-top: 1.8rem; color: var(--forest); font-weight: 700; }
+      .cover-epigraph { max-width: 24rem; margin: 2rem auto 0.8rem; padding: 0.15rem 0 0.15rem 1rem; border-left: 0.12rem solid var(--forest); text-align: left; }
+      .cover-epigraph p { margin: 0; font-style: italic; line-height: 1.65; }
+      .cover-epigraph cite { display: block; margin-top: 0.75rem; color: var(--muted); font-family: Arial, sans-serif; font-size: 0.76rem; font-style: normal; font-weight: 600; }
       .cover-edition { margin-top: 0.7rem; color: var(--muted); font-family: Arial, sans-serif; font-size: 0.8rem; }
       .introduction-opener { margin: 2.7rem 0 1.3rem; text-align: center; }
       .introduction-opener h1, .introduction-opener h2 { margin-top: 0.45rem; font-size: 1.8rem; }

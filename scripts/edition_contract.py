@@ -40,6 +40,8 @@ class EditionContract:
     cover_title_lines: tuple[str, ...]
     cover_kicker: str
     cover_edition_label: str
+    cover_epigraph_lines: tuple[str, ...]
+    cover_epigraph_source: str
     cover_provenance_lines: tuple[str, ...]
     author_label: str
     chapter_label: str
@@ -110,7 +112,14 @@ def load_edition_contract(path: Path = DEFAULT_EDITION_PATH) -> EditionContract:
     cover = exact_object(
         root["cover"],
         "edition.cover",
-        {"title_lines", "kicker", "edition_label", "provenance_lines"},
+        {
+            "title_lines",
+            "kicker",
+            "edition_label",
+            "epigraph_lines",
+            "epigraph_source",
+            "provenance_lines",
+        },
     )
     labels = exact_object(
         root["labels"],
@@ -189,6 +198,14 @@ def load_edition_contract(path: Path = DEFAULT_EDITION_PATH) -> EditionContract:
         cover_edition_label=nonempty_text(
             cover["edition_label"],
             "edition.cover.edition_label",
+        ),
+        cover_epigraph_lines=nonempty_text_array(
+            cover["epigraph_lines"],
+            "edition.cover.epigraph_lines",
+        ),
+        cover_epigraph_source=nonempty_text(
+            cover["epigraph_source"],
+            "edition.cover.epigraph_source",
         ),
         cover_provenance_lines=nonempty_text_array(
             cover["provenance_lines"],
@@ -291,6 +308,15 @@ def _validate_contract(contract: EditionContract) -> None:
     if contract.title not in contract.cover_alt:
         raise EditionContractError(
             "edition.accessibility.cover_alt must identify the edition title"
+        )
+    for line in contract.cover_epigraph_lines:
+        if line not in contract.cover_alt:
+            raise EditionContractError(
+                "edition.accessibility.cover_alt must preserve every cover epigraph line"
+            )
+    if contract.cover_epigraph_source not in contract.cover_alt:
+        raise EditionContractError(
+            "edition.accessibility.cover_alt must preserve the cover epigraph source"
         )
 
 

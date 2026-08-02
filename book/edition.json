@@ -22,8 +22,8 @@
   "publication": {
     "file_stem": "huong-den-nhap-luu",
     "identifier_seed": "https://streamentry.local/huong-den-nhap-luu",
-    "epub_modified": "2026-07-27T00:00:00Z",
-    "pdf_creation_timestamp": "1785110400"
+    "epub_modified": "2026-08-02T00:00:00Z",
+    "pdf_creation_timestamp": "1785628800"
   },
   "source": {
     "path": "con-duong-niem-xu-mahasi-hop-nhat.md",
@@ -36,6 +36,13 @@
     ],
     "kicker": "Sổ tay Niệm xứ cho người tại gia",
     "edition_label": "Ấn bản thực hành 2026",
+    "epigraph_lines": [
+      "Hơn thống lãnh cõi đất,",
+      "Hơn được sanh cõi trời,",
+      "Hơn chủ trì vũ trụ,",
+      "Quả Dự Lưu tối thắng."
+    ],
+    "epigraph_source": "Pháp Cú 178 · K41 · Hòa thượng Thích Minh Châu dịch",
     "provenance_lines": [
       "Kinh tạng Pāli · Thanh Tịnh Đạo",
       "Chỉ dẫn thực hành Mahāsi"
@@ -55,7 +62,7 @@
     "landmarks": "Các điểm mốc"
   },
   "accessibility": {
-    "cover_alt": "Bìa sách Hướng Đến Nhập Lưu",
+    "cover_alt": "Bìa sách Hướng Đến Nhập Lưu. Pháp Cú 178 · K41 · Hòa thượng Thích Minh Châu dịch: Hơn thống lãnh cõi đất, Hơn được sanh cõi trời, Hơn chủ trì vũ trụ, Quả Dự Lưu tối thắng.",
     "summary": "Ấn bản có mục lục điều hướng phân cấp, văn bản reflowable và nhãn thay thế cho ảnh bìa."
   },
   "quality": {

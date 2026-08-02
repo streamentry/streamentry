@@ -1,6 +1,6 @@
 # Editorial depth audit
 
-Checked: 2026-08-01
+Checked: 2026-08-03
 
 This audit tests whether a chapter is too compressed for a first-time reader. Word count is a signal, not the decision rule. A chapter is adequate when it states its scope, separates source tiers, explains its central mechanism, gives a usable example or procedure where appropriate, and names the main failure mode or evidential limit.
 
@@ -62,16 +62,14 @@ new doctrinal claim or a ranking of sources.
 
 ## Reader-trust boundary
 
-The full editorial policy already disclosed the publication credit, the absence
-of verifiable credentials for `CS Chánh Niệm`, ChatGPT's bounded role, missing
-rights clearance and open external evidence. The book itself mentioned AI and
-independent-review limits only near the end of the source chapter. That failed
-the standalone-artifact test: a reader could use almost the entire handbook
-before seeing facts that determine how much authority to assign it. The
-introduction now carries a compact trust statement before the reading route,
-links to the full policy and correction form, and explicitly refuses
-independent-validation or market-leadership language. This changes disclosure
-placement, not the underlying evidence status.
+The full editorial policy discloses the publication credit, the absence of
+verifiable credentials for `CS Chánh Niệm`, ChatGPT's bounded role, missing
+rights clearance and open external evidence. A compact trust statement was
+previously placed in the introduction, but the current edition removes that
+block at the editor's request. The full policy and correction routes remain in
+the repository and Chapter 99; the standalone-artifact disclosure gate is
+therefore open again for the current PDF/EPUB. This is a change in reader-facing
+placement, not a change in the underlying evidence status.
 
 ## Result
 
