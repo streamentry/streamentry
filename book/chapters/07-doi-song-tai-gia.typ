@@ -82,6 +82,22 @@ Trong giờ thiền, đi chậm giúp nhận ra các pha của chuyển động.
 
 Bốn điểm neo chỉ có giá trị khi chúng đổi được lần phản ứng kế tiếp. Nơi dễ kiểm nhất không phải một buổi ngồi yên, mà là lúc người gần mình cần được lắng nghe hoặc đang làm ta khó chịu.
 
+#practice-card(
+  [Thẻ bỏ túi: bốn điểm neo trong một ngày],
+  [
+    #source-badge("BIÊN SOẠN")
+    #v(5pt)
+
+    + *Lúc thức dậy:* biết thân nằm, biết ý muốn ngồi dậy; nhắc năm giới bằng lời ngắn.
+    + *Trong bữa ăn:* ba miếng đầu biết động tác, mùi vị và thích hay không thích.
+    + *Khi chuyển việc:* một hơi thở; hỏi thầm “Tâm đang có gì?”.
+    + *Trước khi phản hồi:* cảm nhận hàm, ngực, hơi thở trước khi lời bật ra.
+
+    Thẻ này gom lại đúng bốn điểm neo vừa nêu để bạn tiện tra nhanh. Có thể chép ra giấy nhỏ hoặc lưu màn hình điện thoại; nó không thay thế phần giải thích đầy đủ ở trên và không phải thời khóa được kinh quy định.
+  ],
+  label: [THẺ TRA NHANH · BIÊN SOẠN],
+)
+
 == Một vòng ba mươi giây giữa va chạm <vong-va-cham>
 
 Vòng #link(<tho-ai-nam-buoc>)[thọ đến ái ở chương 4] giúp thấy phản ứng từ lúc còn nhỏ. Nhưng giữa đời sống, không phải lúc nào cũng nên bắt đầu bằng nhìn vào trong. Nguy hiểm, bổn phận và nhu cầu của người đối diện có thể đi trước. “Ba mươi giây” chỉ là tên dễ nhớ; một tình huống nhanh có thể chỉ cho hai giây, một quyết định khó có thể cần lâu hơn.
@@ -163,6 +179,44 @@ Một cách thực tế là đặt ba lần dừng trong ngày: trước công v
     Mục tiêu không phải chưa từng bị gián đoạn. Mục tiêu là biết mình đã rời việc nào, vì sao phải rời, và có một đường quay về.
   ],
   label: [TÌNH HUỐNG LÀM VIỆC · BIÊN SOẠN],
+)
+
+== Bài tập vi mô cho ngày quá bận
+
+Ngày nào cũng có những khe hở ngắn không cần lịch, không cần chỗ ngồi và không ai nhận ra. Vài bài dưới đây chỉ mất từ ba mươi giây đến hai phút; chúng là cách biên soạn giúp nuôi tính liên tục giữa việc, không phải bổn phận hay thước đo tiến bộ.
+
+#practice-card(
+  [Bốn bài tập vi mô dễ nhớ],
+  [
+    #source-badge("BIÊN SOẠN")
+    #v(5pt)
+
+    + *Ba mươi giây trước khi gõ phím:* dừng lại một nhịp trước khi trả lời một tin nhắn gây tranh cãi; cảm nhận hơi thở vào ra một lần.
+    + *Ba hơi thở khi đèn đỏ:* chân chạm sàn xe, vai thả lỏng, biết đang ngồi; đèn xanh thì tiếp tục lái.
+    + *Một phút ở bàn chân:* bước ra khỏi thang máy hoặc cửa công ty, đứng lại cảm nhận bàn chân tiếp đất trong vài bước đầu.
+    + *Ba miếng ăn đầu tiên:* trong bữa cơm gia đình, để điện thoại xa tay và biết mùi vị cùng người đối diện.
+
+    Nếu ngày quá căng, một bài duy nhất đã đủ. Đừng bù bài bị lỡ; chọn lại bài dễ làm nhất vào hôm sau.
+  ],
+  label: [VI MÔ · BIÊN SOẠN],
+)
+
+== Lo âu về tài chính và việc bất ổn
+
+Nỗi lo tiền bạc, bảo hiểm hay công việc có thể kéo dài cả ngày và dễ bị gọi là “thiếu buông bỏ”. Thực tế, nhiều lo âu như vậy bắt nguồn từ trách nhiệm thật, cần được giải quyết bằng kế hoạch chứ không phải bằng cố nhìn nội tâm thêm. Chánh niệm ở đây có ba việc nhỏ: biết thọ khó chịu đang có mặt thay vì cãi nó; biết lực kéo sang tìm tin xấu hoặc né tránh nhìn hóa đơn; rồi quay về một hành động cụ thể nằm trong tay — ghi rõ khoản cần kiểm tra, đặt lịch hỏi bảo hiểm, hoặc nói với người thân một kế hoạch. Việc hành chính vẫn là việc hành chính; niệm chỉ giữ cho phản ứng khỏi lái thêm.
+
+#practice-card(
+  [Khi nỗi lo tài chính nổi lên],
+  [
+    #source-badge("BIÊN SOẠN")
+    #v(5pt)
+
+    + *Đặt tên ngắn:* “đang lo”, “đang sợ thiếu”.
+    + *Hỏi một câu:* việc nhỏ nhất nằm trong tay mình hôm nay là gì?
+    + *Làm đúng việc ấy* hoặc ghi vào danh sách nếu chưa thể làm ngay.
+    + *Nếu lo âu làm mất ngủ, mất ăn hoặc kéo dài hàng tuần:* đó là lúc dùng #link(<an-toan>)[các mức phản ứng ở chương 9] và tìm hỗ trợ sức khỏe tâm thần; đó không phải thất bại trong tu tập.
+  ],
+  label: [QUYẾT ĐỊNH THỰC · BIÊN SOẠN],
 )
 
 == Cuối ngày: nhìn lại hành vi, không chấm tầng tuệ

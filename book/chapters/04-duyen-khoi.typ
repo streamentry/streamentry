@@ -32,6 +32,8 @@ Chương trước phân biệt thọ với toàn bộ cảm xúc. Chương này 
     *4. Không tiếp nhiên liệu trong một nhịp.* Không lặp câu chuyện, không vội nhấn gửi, không cố ép thọ biến mất. Cảm nhận thọ và phản ứng như hai dữ kiện có điều kiện.
 
     *5. Chọn hành động hợp Pháp.* Im lặng, nói rõ nhưng không gây hại, rời tình huống, đổi tư thế, hoàn thành bổn phận hoặc tìm trợ giúp. “Không ái” không đồng nghĩa bất động.
+
+    Nơi làm việc thật của bài này nằm giữa bước 2 và bước 3: một khoảng dừng tỉnh thức ngắn ngay sau khi thọ được nhận ra và trước khi ái kịp kéo tâm. Thọ là điều đã sinh từ duyên, như vị của một lời nói vừa chạm tai; còn ái là hướng đi kế tiếp, vẫn có thể chọn khác. Khoảng dừng ấy không cần dài — một nhịp biết là đủ.
   ],
   label: [BÀI TẬP · BIÊN SOẠN THEO K01; K28; K29; K30],
 )
@@ -223,7 +225,7 @@ Trong khuôn khổ ấy, có thể ghi nhận “dễ chịu”, “khó chịu�
 - Ta có thể cảm nhận dễ chịu mà không lập tức đòi thêm không?
 - Với thọ trung tính, ta có bớt tìm kích thích một cách máy móc không?
 
-Đây là chỉ dấu thực hành do sách biên soạn, không phải tiêu chuẩn chứng thánh. Duyên khởi được hiểu đúng không làm ta tự hào vì đã tìm thấy một mắt xích để “cắt”. Nó làm rõ một việc giản dị hơn và khó hơn: khi xúc đã thành thọ, khổ không nhất thiết phải được tiếp tục bằng cùng một phản ứng cũ.
+Đây là chỉ dấu thực hành do sách đề xuất, không phải tiêu chuẩn chứng thánh. Duyên khởi được hiểu đúng không làm ta tự hào vì đã tìm thấy một mắt xích để “cắt”. Nó làm rõ một việc giản dị hơn và khó hơn: khi xúc đã thành thọ, khổ không nhất thiết phải được tiếp tục bằng cùng một phản ứng cũ.
 
 #practice-card(
   [Gấp sách lại: ba câu để tự nhớ],

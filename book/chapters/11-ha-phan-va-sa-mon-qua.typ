@@ -3,7 +3,7 @@
 #chapter(
   [11],
   [Năm hạ phần kiết sử và bốn quả Sa-môn],
-  [Ba kiết sử đầu nằm trong năm hạ phần; bốn quả lại là trục kết quả của cùng Bát Thánh đạo. Chương này làm rõ hai quan hệ ấy để người mới không nhầm Nhập lưu với Bất lai, hay nhầm tên một bài kinh với bảng bốn quả.],
+  [Ba kiết sử đầu nằm trong năm hạ phần; bốn quả lại là trục kết quả của cùng Bát Chánh Đạo. Chương này làm rõ hai quan hệ ấy để người mới không nhầm Nhập lưu với Bất lai, hay nhầm tên một bài kinh với bảng bốn quả.],
   provenance: [
     #source-badge("KINH", refs: [K06; K08–K11; K20; K21; K24; K32–K40])
     #h(4pt)
@@ -33,7 +33,7 @@ Có một lỗi rất dễ mắc: thấy cả ba con số 3, 5 và 4 rồi tư�
     + *Bốn quả* = Nhập lưu → Nhất lai → Bất lai → A-la-hán.
     + Nhập lưu đoạn ba kiết sử đầu. Bất lai đoạn đủ năm hạ phần. Nhất lai nằm giữa hai mốc ấy bằng công thức riêng “làm mỏng tham, sân, si”. A-la-hán được kinh mô tả bằng tiêu chuẩn rộng hơn là đoạn tận lậu hoặc.
 
-    Nếu bạn đang hướng đến Nhập lưu, trọng tâm thực hành gần vẫn là chương 10 và toàn bộ Bát Thánh đạo. Nhóm năm và bảng bốn chỉ giữ bản đồ khỏi bị lẫn; chúng không biến thành thước tự chấm.
+    Nếu bạn đang hướng đến Nhập lưu, trọng tâm thực hành gần vẫn là chương 10 và toàn bộ Bát Chánh Đạo. Nhóm năm và bảng bốn chỉ giữ bản đồ khỏi bị lẫn; chúng không biến thành thước tự chấm.
   ],
   label: [BẢN ĐỒ KHÁI NIỆM · K10; K24; K32; BIÊN SOẠN PHẦN TRÌNH BÀY],
 )
@@ -41,7 +41,7 @@ Có một lỗi rất dễ mắc: thấy cả ba con số 3, 5 và 4 rồi tư�
 #practice-card(
   [“Sa-môn quả” nghĩa đơn giản là gì],
   [
-    Trong chương này, *Sa-môn quả* có nghĩa là *kết quả của đạo lộ tu tập hướng đến giải thoát*. SN 45.35 không để cụm “đời sống Sa-môn” mơ hồ: bài kinh xác định chính Bát Thánh đạo là đời sống ấy, rồi nêu bốn quả của nó.
+    Trong chương này, *Sa-môn quả* có nghĩa là *kết quả của đạo lộ tu tập hướng đến giải thoát*. SN 45.35 không để cụm “đời sống Sa-môn” mơ hồ: bài kinh xác định chính Bát Chánh Đạo là đời sống ấy, rồi nêu bốn quả của nó.
 
     + SN 45.35 dùng số nhiều để nêu *bốn quả giải thoát*: quả Nhập lưu, quả Nhất lai, quả Bất lai và quả A-la-hán.
     + DN 2 hỏi rộng hơn về những kết quả có thể thấy của đời sống xuất gia, bắt đầu từ các lợi ích hiện tại rồi trình bày cả tiến trình huấn luyện đưa đến đoạn tận lậu hoặc.
@@ -159,7 +159,7 @@ Phân biệt ấy không phải giấy phép cho hành vi gây hại. Khi sân �
     3. *Bất lai:* đủ năm hạ phần kiết sử đã đoạn, tức ba cái đầu cộng dục tham và sân. AN 10.13 vẫn còn nêu năm thượng phần kiết sử, nên Bất lai không đồng nghĩa A-la-hán. Dục tham hoặc sân tạm lắng trong định hay hoàn cảnh thuận lợi không chứng minh mốc này.
     4. *A-la-hán:* các lậu hoặc đã đoạn tận và giải thoát được tự chứng. Mốc này rộng hơn việc chỉ đếm đủ năm hạ phần, nên không thể định nghĩa bằng câu “Bất lai cộng thêm một trải nghiệm”.
 
-    Đây là bốn mốc kết quả của cùng một Bát Thánh đạo, không phải bốn kỹ thuật thiền để chọn. “Quả” chỉ kết quả đã thành tựu; nó không phải tên trang trọng cho mọi tiến bộ có thật trên đường tu. Các nguồn trên cho ranh giới giáo lý, không cung cấp thang điểm tự chấm từ hành vi bề mặt.
+    Đây là bốn mốc kết quả của cùng một Bát Chánh Đạo, không phải bốn kỹ thuật thiền để chọn. “Quả” chỉ kết quả đã thành tựu; nó không phải tên trang trọng cho mọi tiến bộ có thật trên đường tu. Các nguồn trên cho ranh giới giáo lý, không cung cấp thang điểm tự chấm từ hành vi bề mặt.
   ],
   label: [BẢN ĐỒ QUẢ CHO LẦN ĐỌC ĐẦU · K10; K11; K24; K32; K34; K40],
 )
@@ -177,11 +177,11 @@ Phân biệt ấy không phải giấy phép cho hành vi gây hại. Khi sân �
 )
 
 #source-line("KINH", [K32 · SN 45.35], [
-  SN 45.35 gọi Bát Thánh đạo là đời sống Sa-môn và nêu bốn quả của đời sống ấy: quả Nhập lưu, quả Nhất lai, quả Bất lai và quả A-la-hán. “Quả” ở đây là kết quả giải thoát có tiêu chuẩn, không phải tên chung cho một cảm giác dễ chịu hay một lần thiền nổi bật.
+  SN 45.35 gọi Bát Chánh Đạo là đời sống Sa-môn và nêu bốn quả của đời sống ấy: quả Nhập lưu, quả Nhất lai, quả Bất lai và quả A-la-hán. “Quả” ở đây là kết quả giải thoát có tiêu chuẩn, không phải tên chung cho một cảm giác dễ chịu hay một lần thiền nổi bật.
 ])
 
 #source-line("KINH", [K40 · SN 45.36], [
-  Bài kinh kế tiếp gọi sự đoạn tận tham, sân và si là đích của đời sống Sa-môn. Đọc cùng SN 45.35, hai đoạn cho một quan hệ rõ: Bát Thánh đạo là đường tu, bốn quả là các mốc thành tựu của đường ấy, và cứu cánh là hết tham, sân, si. Câu “cùng một đường, không phải bốn kỹ thuật” là cách sách trình bày quan hệ này, không phải một câu nguyên văn của kinh.
+  Bài kinh kế tiếp gọi sự đoạn tận tham, sân và si là đích của đời sống Sa-môn. Đọc cùng SN 45.35, hai đoạn cho một quan hệ rõ: Bát Chánh Đạo là đường tu, bốn quả là các mốc thành tựu của đường ấy, và cứu cánh là hết tham, sân, si. Câu “cùng một đường, không phải bốn kỹ thuật” là cách sách trình bày quan hệ này, không phải một câu nguyên văn của kinh.
 ])
 
 #source-line("KINH", [K10 · AN 3.88; K24 · AN 10.13], [
@@ -196,7 +196,7 @@ Phân biệt ấy không phải giấy phép cho hành vi gây hại. Khi sân �
 
 === Quả Nhập lưu, *sotāpattiphala*; người: *sotāpanna*
 
-Tên quả là *sotāpattiphala*; người đã thành tựu quả ấy là *sotāpanna*. Đây là mốc đoạn ba kiết sử đầu. “Nhập” là đi vào; “lưu” là dòng. SN 55.5 xác định dòng ấy là Bát Thánh đạo, nên Nhập lưu không chỉ nói một biến cố trong thiền.
+Tên quả là *sotāpattiphala*; người đã thành tựu quả ấy là *sotāpanna*. Đây là mốc đoạn ba kiết sử đầu. “Nhập” là đi vào; “lưu” là dòng. SN 55.5 xác định dòng ấy là Bát Chánh Đạo, nên Nhập lưu không chỉ nói một biến cố trong thiền.
 
 Chương 10 dùng hai đoạn kinh bổ sung nhau, không trộn chúng thành một danh sách duy nhất. Gương Pháp trong DN 16 nêu tịnh tín đã được xác chứng nơi Phật, Pháp, Tăng cùng giới được bậc Thánh quý trọng. SN 12.41 đặt bốn phẩm chất ấy bên cạnh trí thấy rõ nguyên lý duyên khởi. Vì vậy, “Gương Pháp” thuộc DN 16; phần duyên khởi trong phép đối chiếu này đến từ SN 12.41.
 
@@ -295,7 +295,7 @@ Giữ hai câu riêng:
 1. *Bốn quả Sa-môn* là bốn mốc vừa học: Nhập lưu, Nhất lai, Bất lai và A-la-hán.
 2. *Kinh Sa-môn quả*, DN 2, là tên một bài kinh trả lời câu hỏi rộng hơn về những kết quả có thể thấy của đời sống xuất gia.
 
-Trong công thức của SN 45.35, đời sống Sa-môn chính là Bát Thánh đạo và bốn quả là kết quả của đạo lộ ấy. Công thức này không đặt ra điều kiện rằng chỉ người xuất gia mới có thể chứng quả. Đoạn Ñātika trong DN 16 xác nhận điều đó bằng các trường hợp và các tổng số cư sĩ ở ba quả đầu.
+Trong công thức của SN 45.35, đời sống Sa-môn chính là Bát Chánh Đạo và bốn quả là kết quả của đạo lộ ấy. Công thức này không đặt ra điều kiện rằng chỉ người xuất gia mới có thể chứng quả. Đoạn Ñātika trong DN 16 xác nhận điều đó bằng các trường hợp và các tổng số cư sĩ ở ba quả đầu.
 
 #source-line("KINH", [K34 · DN 2], [
   Vua Ajātasattu hỏi về quả của đời sống Sa-môn có thể thấy ngay trong hiện tại. DN 2 trả lời bằng nhiều kết quả và một tiến trình huấn luyện rộng, từ giới hạnh, phòng hộ giác quan, biết đủ và định tâm đến tri kiến rằng các lậu hoặc đã chấm dứt. Tựa bài kinh và cụm “bốn quả Sa-môn” có liên hệ về chữ, nhưng không phải hai tên gọi thay thế hoàn toàn cho nhau.
@@ -315,6 +315,6 @@ Trong công thức của SN 45.35, đời sống Sa-môn chính là Bát Thánh 
 
 “Đang thực hành để chứng quả” ở đây là một hạng kỹ thuật trong kinh, không phải cách gọi bất kỳ ai mong giác ngộ, đang ngồi thiền hay vừa bắt đầu theo một phương pháp. Mong muốn, kinh nghiệm mạnh, lời xác nhận của người khác hay việc theo đúng một thời khóa không tự thiết lập hạng người hoặc quả.
 
-Phần mô tả đạo rồi quả như một chuỗi những khoảnh khắc tâm cực ngắn ở chương 12 thuộc hệ thống luận giải Theravāda và cách trình bày Mahāsi. Nó không nên được lén đưa vào miệng một bài kinh sớm, và cũng không biến một người biết tên các khoảnh khắc ấy thành người đã chứng quả.
+Phần mô tả đạo rồi quả như một chuỗi những khoảnh khắc tâm cực ngắn ở chương 13 thuộc hệ thống luận giải Theravāda và cách trình bày Mahāsi. Nó không nên được lén gán cho một bài kinh Nikāya điều kinh không nói, và cũng không biến một người biết tên các khoảnh khắc ấy thành người đã chứng quả.
 
-Khung 3–5–4 chỉ làm một việc: giữ các ranh giới giáo lý khỏi bị trộn. Nó không thay cho thấy Tứ Thánh Đế, sống giới hạnh hay tu tập Bát Thánh đạo. Một bảng được nhớ hoàn hảo vẫn chỉ là bảng; quả được kinh mô tả là sự chuyển đổi có tiêu chuẩn trong cách thấy và cách sống.
+Khung 3–5–4 chỉ làm một việc: giữ các ranh giới giáo lý khỏi bị trộn. Nó không thay cho thấy Tứ Thánh Đế, sống giới hạnh hay tu tập Bát Chánh Đạo. Một bảng được nhớ hoàn hảo vẫn chỉ là bảng; quả được kinh mô tả là sự chuyển đổi có tiêu chuẩn trong cách thấy và cách sống.

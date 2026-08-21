@@ -69,13 +69,15 @@ Bạn không cần tự chẩn đoán những thuật ngữ trên để dùng ch
 
 == Ba mức phản ứng <ba-muc>
 
-=== Mức một: quan sát và điều chỉnh nhẹ
+Để nhớ nhanh, hãy hình dung ba màu: *xanh* là điều chỉnh nhẹ ngay tại chỗ, *vàng* là giảm hoặc tạm dừng rồi tìm hỗ trợ sớm, và *đỏ* là tình huống cấp cứu cần hành động ngay. Khi đang bối rối, màu cho bạn câu trả lời đầu tiên: tôi đang ở mức nào và việc kế tiếp là gì?
+
+=== Mức xanh: quan sát và điều chỉnh nhẹ
 
 Phóng tâm, buồn ngủ, bồn chồn, đau mỏi nhẹ do tư thế, cảm xúc nổi lên rồi lắng, hoặc những thay đổi thoáng qua về ánh sáng và âm thanh có thể xuất hiện trong lúc hành. Chúng không tự động là bệnh, cũng không tự động là dấu hiệu của một tầng tuệ.
 
 Nếu bạn vẫn ngủ, ăn, làm việc và quan hệ bình thường, hãy ghi nhận ngắn gọn, đổi tư thế khi cần và trao đổi trong buổi hướng dẫn kế tiếp. Đừng săn tìm sự lặp lại của một hiện tượng dễ chịu.
 
-=== Mức hai: giảm hoặc tạm dừng, tìm hỗ trợ sớm
+=== Mức vàng: giảm hoặc tạm dừng, tìm hỗ trợ sớm
 
 Hãy giảm thời lượng, bỏ khóa im lặng hoặc tạm dừng pháp hành cường độ cao khi có một trong các dấu hiệu sau:
 
@@ -87,7 +89,7 @@ Hãy giảm thời lượng, bỏ khóa im lặng hoặc tạm dừng pháp hàn
 
 Liên hệ sớm với chuyên gia sức khỏe tâm thần hoặc cơ sở y tế phù hợp. Nếu khả năng phân biệt thực tại, lời nói, tự chăm sóc hay chức năng hằng ngày đang xấu đi nhanh, ưu tiên được đánh giá y tế khẩn thay vì chờ buổi hẹn thiền. Nếu người hướng dẫn có năng lực, báo cho họ biết, nhưng đừng để một lời giải thích bằng “bản đồ tuệ” trì hoãn chăm sóc lâm sàng.
 
-=== Mức ba: xử lý như tình huống cấp cứu
+=== Mức đỏ: xử lý như tình huống cấp cứu
 
 #source-line("Y TẾ & NGHIÊN CỨU", [R04], [WHO khuyên không để một người ở một mình khi họ có nguy cơ tự sát tức thời; cần liên hệ dịch vụ cấp cứu, đường dây khủng hoảng, nhân viên y tế hoặc người thân, đồng thời hạn chế khả năng tiếp cận phương tiện tự hại. Đây là nguyên tắc an toàn tức thời, không phải bản đánh giá nguy cơ đầy đủ.])
 

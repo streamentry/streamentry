@@ -11,7 +11,7 @@
   ],
 )
 
-Một lộ trình đáng tin phải làm được ba việc: vừa sức để duy trì, đủ rõ để tự kiểm và đủ linh hoạt để điều chỉnh khi thân tâm hoặc hoàn cảnh thay đổi. Mốc tháng dưới đây là kế hoạch biên soạn cho người tại gia. Kinh không ấn định lịch mười hai tháng, số phút mỗi ngày hay số khóa thiền mỗi năm. Nói ngắn lại, phần sau là một cách sắp xếp thứ tự, không phải bài kiểm tra trình độ.
+Một lộ trình đáng tin phải làm được ba việc: vừa sức để duy trì, đủ rõ để tự kiểm và đủ linh hoạt để điều chỉnh khi thân tâm hoặc hoàn cảnh thay đổi. Mốc tháng dưới đây là *gợi ý thực hành do người biên soạn đề xuất* để bạn có điểm tựa sắp xếp đời bận rộn; kinh điển không ấn định lịch mười hai tháng, số phút mỗi ngày hay số khóa thiền mỗi năm. Hãy điều chỉnh theo hoàn cảnh thật của mình — đây là bản đồ hỗ trợ, không phải bài kiểm tra trình độ.
 
 Nhịp vừa gián đoạn? Quay về #link(<khoi-dong-lai>)[lối khởi động lại ở chương 1] trước khi dùng các mốc thời lượng dưới đây.
 
@@ -70,14 +70,16 @@ Chọn thời lượng có thể sống cùng nhiều năm. Tiếp tục giữ g
 
 Khóa thiền đáng cân nhắc khi việc hành ở nhà đã tương đối ổn, sức khỏe cho phép và bạn hiểu rõ thời khóa. Người mới không cần chờ “đủ giỏi”, nhưng cần biết mình sẽ ngủ bao nhiêu, ăn thế nào, có thể xin đổi tư thế hay rời khóa ra sao, và ai xử lý tình huống y tế.
 
-Trước khi đăng ký, hãy hỏi thẳng:
+Trước khi đăng ký, hãy hỏi thẳng tám câu:
 
 - Mỗi ngày có bao nhiêu giờ tọa, hành và nghỉ?
 - Có trình pháp riêng không, ai là người hướng dẫn?
 - Trung tâm sàng lọc tiền sử tâm thần, chấn thương và bệnh thân thế nào?
 - Khi mất ngủ hoặc hoảng sợ, hành giả được giảm thời khóa không?
+- Người đang điều trị y tế có được tiếp tục thuốc và liệu trình mà không bị gây áp lực ngừng không?
 - Có quy trình cấp cứu, liên lạc gia đình và rời khóa an toàn không?
 - Chi phí, hoàn tiền và cúng dường được công bố ra sao?
+- Người hướng dẫn có chịu trách nhiệm trước một tổ chức hoặc quy tắc kiểm soát quyền lực nào ngoài cá nhân họ không?
 
 #caution(
   [Ba điều kiện đủ để không đăng ký],
@@ -109,7 +111,7 @@ Giữ một thời khóa hằng ngày vừa sức, sinh hoạt với thiện h�
 #practice-card(
   [Gấp sách lại: ba quyết định trước khi tăng],
   [
-    1. Nếu nhịp tháng đầu vừa gãy, đừng nhảy vào lịch mười hai tháng. Trở về #link(<khoi-dong-lai>)[mức gần nhất từng ổn] hoặc mức sàn năm phút, rồi giữ nguyên đến lần rà soát kế tiếp.
+    1. Nếu nhịp tháng đầu vừa gãy, đừng nhảy vào lịch mười hai tháng. Trở về #link(<khoi-dong-lai>)[mức gần nhất từng ổn] hoặc mức tối thiểu năm phút, rồi giữ nguyên đến lần rà soát kế tiếp.
 
     2. Nếu một khóa không nói rõ quy trình cấp cứu, quyền giảm thời khóa và quyền rời khóa, hoặc bảo đảm đạo quả, đừng đăng ký. Một lịch dày không bù được một cấu trúc thiếu an toàn.
 

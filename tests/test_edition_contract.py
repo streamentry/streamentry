@@ -53,7 +53,7 @@ class EditionContractTests(unittest.TestCase):
                 "schema_version": 1,
                 "edition_id": "vi-2026",
                 "title": "Hướng Đến Nhập Lưu",
-                "author": "CS Chánh Niệm + ChatGPT",
+                "author": "CS Chánh Niệm (với sự hỗ trợ tổng hợp tư liệu từ AI)",
                 "language": "vi",
                 "description": (
                     "Sổ tay Niệm xứ cho người tại gia theo truyền thống Mahāsi, "
@@ -73,8 +73,8 @@ class EditionContractTests(unittest.TestCase):
                 ),
                 "file_stem": "huong-den-nhap-luu",
                 "identifier_seed": "https://streamentry.local/huong-den-nhap-luu",
-                "epub_modified": "2026-08-02T00:00:00Z",
-                "pdf_creation_timestamp": "1785628800",
+                "epub_modified": "2026-08-21T00:00:00Z",
+                "pdf_creation_timestamp": "1787270400",
                 "source_path": "con-duong-niem-xu-mahasi-hop-nhat.md",
                 "source_sha256": (
                     "ad7a886895cf8cd29b369fda89de5665"

@@ -17,7 +17,7 @@ Chương này đi chậm hơn một nhịp: trước khi nói đến kỹ thuậ
 == Đích đến bắt đầu bằng một chẩn đoán đúng
 
 #source-line("KINH", [K05 · SN 56.11], [
-  Tứ Thánh Đế không dạy phủ nhận niềm vui của đời sống. Bài kinh xác định một sự thật hẹp và sắc hơn: sinh, già và chết là khổ; sầu, bi, đau, ưu, não là khổ; gặp điều không ưa, xa điều yêu và không được điều mình muốn là khổ; tóm lại, năm thủ uẩn là khổ. Nguồn gốc được nêu là ái dẫn đến hữu tiếp theo, đi cùng thích thú và đắm trước: ái dục, ái hữu và ái phi hữu. Sự chấm dứt là ly tham, từ bỏ, buông ra và không còn bám vào chính ái ấy. Con đường là Bát Chánh Đạo.
+  Tứ Thánh Đế (nhiều người quen gọi là Tứ Diệu Đế — hai tên chỉ một điều) không dạy phủ nhận niềm vui của đời sống. Bài kinh xác định một sự thật hẹp và sắc hơn: sinh, già và chết là khổ; sầu, bi, đau, ưu, não là khổ; gặp điều không ưa, xa điều yêu và không được điều mình muốn là khổ; tóm lại, năm thủ uẩn là khổ. Nguồn gốc được nêu là ái dẫn đến hữu tiếp theo, đi cùng thích thú và đắm trước: ái dục, ái hữu và ái phi hữu. Sự chấm dứt là ly tham, từ bỏ, buông ra và không còn bám vào chính ái ấy. Con đường là Bát Chánh Đạo.
 ])
 
 #source-line("KINH", [K05 · SN 56.11, ba vòng và mười hai phần], [
@@ -73,9 +73,26 @@ Bốn sự thật cũng đặt giới hạn cho cuốn sách. Quan sát một c�
 
     *Chánh tinh tấn* ngừng nuôi câu chuyện trả đũa và làm mạnh sự kiên nhẫn. *Chánh niệm* nhớ điều đang cần quan sát, biết thọ và tâm có sân trước khi lời bật ra. *Chánh định* là phần huấn luyện làm tâm quy tụ; sự đứng lại được vài giây trong ví dụ chỉ cho thấy hướng hỗ trợ của định, không chứng minh đã thành tựu bốn tầng thiền hay đầy đủ chánh định theo K25.
 
-    Tám chi không nhất thiết xếp hàng thành tám khoảnh khắc. Ví dụ này là cầu nối chức năng do sách biên soạn, không phải một bài kinh kể lại tình huống công sở.
+    Tám chi không nhất thiết xếp hàng thành tám khoảnh khắc. Câu chuyện công sở ở đây là minh họa giúp bạn thấy tám chi hiện diện ngay trong một ngày làm việc thường; kinh không kể lại tình huống này.
   ],
   label: [MINH HỌA · BIÊN SOẠN THEO K25],
+)
+
+Để tra nhanh, bảng dưới đây gom tám chi thành ba cột: tên chi, dấu hiệu thường gặp khi chi ấy thiếu, và một cách áp dụng cụ thể trong đời sống cư sĩ. Đây là bảng biên soạn để tự soi; nó không phải phân loại trong kinh và không dùng để chấm điểm mình hay người khác.
+
+#table(
+  columns: (auto, 1fr, 1fr),
+  inset: 7pt,
+  align: (left, left, left),
+  table.header([*Chi đạo*], [*Biểu hiện khi thiếu*], [*Ứng dụng của cư sĩ*]),
+  [*Chánh kiến*], [tin rằng chỉ cần chú ý là đủ con đường], [học lại Tứ Thánh Đế khi thấy mình tự an tâm bằng cảm giác],
+  [*Chánh tư duy*], [nghĩ tưởng trả đũa, ganh đua, muốn thắng], [đổi hướng nghĩ sang không sân, không hại trước một cuộc bất đồng],
+  [*Chánh ngữ*], [nói dối, chia rẽ, thô ác, phù phiếm], [dừng một nhịp trước khi trả lời tin nhắn gây tranh cãi],
+  [*Chánh nghiệp*], [hành động gây hại khi mất bình tĩnh], [giữ ranh giới an toàn cho mọi người cả lúc đang giận],
+  [*Chánh mạng*], [nuôi sống bằng lừa dối hoặc gây hại], [rà soát nghề nghiệp có xung đột giới nào rồi sửa dần],
+  [*Chánh tinh tấn*], [bỏ mặc phiền não hoặc ép mình quá sức], [làm một việc thiện nhỏ nhất trong tầm tay hôm nay, không bù giờ],
+  [*Chánh niệm*], [sống trên chế độ tự động, quên đối tượng], [giữ bốn điểm neo hằng ngày ở #link(<bon-diem-neo>)[chương 7]],
+  [*Chánh định*], [tâm tán loạn, không quy tụ được], [ngồi thời lượng vừa sức đều đặn theo #link(<khoi-dong-lai>)[chương 1]],
 )
 
 Đạo lộ cho biết người ấy đã đi vào đâu. Phần kế tiếp nhìn từ phía ngược lại: những trói buộc nào đã rơi và những phẩm chất nào đã trở nên vững.

@@ -99,7 +99,7 @@
   [định, tâm thu nhiếp],
   [K05; K12; K25],
   [
-    Sự ổn định và quy tụ của tâm. Trong công thức phân tích Bát Thánh đạo, K25 định nghĩa chánh định bằng bốn tầng thiền. Một phút dễ chịu hay không có ý nghĩ chưa đủ để gọi là chánh định; định còn phải đứng trong chánh kiến, giới và các chi đạo khác.
+    Sự ổn định và quy tụ của tâm. Trong công thức phân tích Bát Chánh Đạo, K25 định nghĩa chánh định bằng bốn tầng thiền. Một phút dễ chịu hay không có ý nghĩ chưa đủ để gọi là chánh định; định còn phải đứng trong chánh kiến, giới và các chi đạo khác.
   ],
 )
 
@@ -235,7 +235,7 @@
   [đạo · quả],
   [K32; K33; K39],
   [
-    Trong nghĩa căn bản của chương 11, *đạo* là đường tu và *quả* là kết quả đã thành tựu. SN 45.35 xác định Bát Thánh đạo là đời sống Sa-môn rồi nêu bốn quả. Ud 5.5 và SN 48.18 còn phân biệt người đang thực hành để chứng một quả với người đã thành tựu quả ấy. Cách phân tích đạo-quả theo chuỗi sát-na ở chương 12 thuộc hệ thống luận giải Theravāda; không được tự động gán cho mọi cách dùng hai từ trong kinh sớm.
+    Trong nghĩa căn bản của chương 11, *đạo* là đường tu và *quả* là kết quả đã thành tựu. SN 45.35 xác định Bát Chánh Đạo là đời sống Sa-môn rồi nêu bốn quả. Ud 5.5 và SN 48.18 còn phân biệt người đang thực hành để chứng một quả với người đã thành tựu quả ấy. Cách phân tích đạo-quả theo chuỗi sát-na ở chương 13 thuộc hệ thống luận giải Theravāda; không được tự động gán cho mọi cách dùng hai từ trong các bài kinh Nikāya.
   ],
 )
 
@@ -261,7 +261,7 @@
   [Sa-môn quả, quả của đời sống Sa-môn],
   [K32; K34; K40],
   [
-    Tùy ngữ cảnh, cụm này có hai phạm vi. SN 45.35 xác định Bát Thánh đạo là đời sống Sa-môn rồi nêu bốn quả giải thoát: Nhập lưu, Nhất lai, Bất lai và A-la-hán; SN 45.36 gọi đoạn tận tham, sân, si là đích của đời sống ấy. Trong DN 2, cụm này nằm trong tựa một bài kinh hỏi rộng hơn về các kết quả có thể thấy của đời sống xuất gia, rồi triển khai cả một lộ trình huấn luyện đi đến đoạn tận lậu hoặc. Vì vậy, “bốn quả Sa-môn” và “Kinh Sa-môn quả” có liên hệ nhưng không đồng nghĩa hoàn toàn.
+    Tùy ngữ cảnh, cụm này có hai phạm vi. SN 45.35 xác định Bát Chánh Đạo là đời sống Sa-môn rồi nêu bốn quả giải thoát: Nhập lưu, Nhất lai, Bất lai và A-la-hán; SN 45.36 gọi đoạn tận tham, sân, si là đích của đời sống ấy. Trong DN 2, cụm này nằm trong tựa một bài kinh hỏi rộng hơn về các kết quả có thể thấy của đời sống xuất gia, rồi triển khai cả một lộ trình huấn luyện đi đến đoạn tận lậu hoặc. Vì vậy, “bốn quả Sa-môn” và “Kinh Sa-môn quả” có liên hệ nhưng không đồng nghĩa hoàn toàn.
   ],
 )
 

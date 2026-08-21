@@ -53,7 +53,7 @@ Nhãn là một động tác nhận biết ngắn, không phải lời bình lu�
     + *Đúng tầm:* một từ ngắn là đủ. “Lo” gần kinh nghiệm hơn cả câu “tôi lại là người lúc nào cũng lo”.
     + *Biết bỏ xuống:* khi hiện tượng đã được nhận ra hoặc đã mất, thôi nhãn ấy và trở về đối tượng chính. Không kéo chữ qua phần kinh nghiệm kế tiếp.
 
-    Nếu không tìm được từ chính xác, biết trực tiếp cảm giác vẫn tốt hơn dừng lại để tra từ. Nhãn phục vụ cái biết; cái biết không phục vụ nhãn.
+    Nếu không tìm được từ chính xác, biết trực tiếp cảm giác vẫn tốt hơn dừng lại để tra từ. Nhãn phục vụ cái biết; cái biết không phục vụ nhãn. Có thể gom cả ba phép thử thành một câu dễ nhớ: *cái biết đi trước, nhãn dán theo sau; khi cái biết đã vững, buông luôn nhãn dán*.
   ],
   label: [TIÊU CHUẨN THỰC HÀNH · BIÊN SOẠN THEO P01],
 )

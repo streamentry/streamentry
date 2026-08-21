@@ -1,9 +1,9 @@
 #import "../components.typ": *
 
 #chapter(
-  [13],
-  [Tứ Diệu Đế: Bản đồ vận hành của khổ và con đường nhập lưu],
-  [Chương 2 đã đặt bốn sự thật vào đúng đạo lộ; Chương 4 đã phóng gần đoạn xúc, thọ, ái và thủ. Chương này nối hai độ phóng đại ấy thành một bản đồ dùng được trong một phản ứng thật, nhưng không biến một bài tập biên soạn thành công thức chứng quả.],
+  [12],
+  [Tứ Thánh Đế: Bản đồ vận hành của khổ và con đường nhập lưu],
+  [Chương 2 đã đặt bốn sự thật vào đúng đạo lộ; Chương 4 đã phóng gần đoạn xúc, thọ, ái và thủ. Chương này nối hai mức nhìn ấy thành một khung dùng được trong một tình huống thật, nhưng không biến một bài tập biên soạn thành công thức chứng quả.],
   provenance: [
     #source-badge("KINH", refs: [K05 · K25 · K26 · K31])
     #h(4pt)
@@ -11,14 +11,14 @@
   ],
 )
 
-Chương 2 đã trả lời câu hỏi: *Tứ Thánh Đế nằm ở đâu trong con đường?* Chương 4 hỏi tiếp: *khi một cảnh chạm vào giác quan, thọ và ái nối nhau ra sao?* Ở đây, hai câu hỏi gặp nhau. Tứ Diệu Đế không phải bốn nhãn để dán lên một trải nghiệm sau khi nó đã qua; đó là bốn nhiệm vụ giúp nhìn đúng, không tiếp sức cho khổ và chọn việc cần làm kế tiếp.
+Chương 2 đã trả lời câu hỏi: *Tứ Thánh Đế nằm ở đâu trong con đường?* Chương 4 hỏi tiếp: *khi một cảnh chạm vào giác quan, thọ và ái nối nhau ra sao?* Ở đây, hai câu hỏi gặp nhau. Tứ Thánh Đế không phải bốn nhãn để dán lên một trải nghiệm sau khi nó đã qua; đó là bốn nhiệm vụ giúp nhìn đúng, không tiếp sức cho khổ và chọn việc cần làm kế tiếp.
 
 #scripture-quote(
   [Khổ cần được hiểu; nguồn sinh khổ cần được đoạn; sự chấm dứt khổ cần được chứng; con đường đưa đến sự chấm dứt khổ cần được tu tập.],
   [Phỏng dịch SN 56.11, K05 · Dhammacakkappavattana Sutta.],
 )
 
-Các câu trong thẻ trích dẫn của chương là *phỏng dịch để đọc*, không phải bản dịch Việt xuất bản hay lời trích nguyên văn. Với mỗi mệnh đề chịu lực, mã K đi ngay cạnh đoạn văn để người đọc có thể mở *Bản đồ nguồn* và kiểm tra bài kinh, bản dịch cùng giới hạn của cách dùng.
+Các câu trong thẻ trích dẫn của chương là *phỏng dịch để đọc*, không phải bản dịch Việt xuất bản hay lời trích nguyên văn. Với mỗi mệnh đề cốt lõi, mã K đi ngay cạnh đoạn văn để người đọc có thể mở *Bản đồ nguồn* và kiểm tra bài kinh, bản dịch cùng giới hạn của cách dùng.
 
 == Bốn sự thật, bốn việc phải làm <bon-de-bon-viec>
 
@@ -390,7 +390,7 @@ Thọ trung tính hoặc buồn chán có thể đi cùng dục ái muốn kích
 
 Không dùng bản đồ này để trì hoãn hành động. Nếu trẻ sắp ngã, xe đang lao tới, người khác cần được bảo vệ hoặc có nguy cơ y tế, hãy làm điều an toàn trước rồi mới soi lại phản ứng. Không có bài tự quan sát nào quan trọng hơn mạng sống, bổn phận thiết yếu hay sự thật của hoàn cảnh. Phần nguyên tắc và vòng va chạm đầy đủ nằm ở Chương 7; các ngưỡng nguy cơ nằm ở Chương 9 và Bản đồ quyết định ở Phụ lục E.
 
-== 7. Tứ Diệu Đế và hướng vào Nhập lưu
+== 7. Tứ Thánh Đế và hướng vào Nhập lưu
 
 === Vì sao bản đồ này có trọng lượng đặc biệt?
 
@@ -409,7 +409,7 @@ Nhập lưu vì thế không phải một trải nghiệm đặc biệt được
   [
     #source-badge("BIÊN SOẠN", refs: [đối chiếu K02; K11; Chương 10])
     #v(5pt)
-    “Tôi hiểu Tứ Diệu Đế”, “tôi đã cắt ái” hay “tôi thuộc dòng” đều có thể trở thành một dạng hữu ái. Một lần bình tĩnh, một khoảng trống, ánh sáng, hỷ lạc, cảm giác không có cái tôi, lời xác nhận của người dạy hoặc một lịch thực hành không đủ làm chứng cứ cho quả vị. Khi cần hỏi về Nhập lưu, hãy quay về tiêu chuẩn và giới hạn được trình bày ở Chương 10, không tự cấp chứng nhận bằng cảm giác chắc chắn.
+    “Tôi hiểu Tứ Thánh Đế”, “tôi đã cắt ái” hay “tôi thuộc dòng” đều có thể trở thành một dạng hữu ái. Một lần bình tĩnh, một khoảng trống, ánh sáng, hỷ lạc, cảm giác không có cái tôi, lời xác nhận của người dạy hoặc một lịch thực hành không đủ làm chứng cứ cho quả vị. Khi cần hỏi về Nhập lưu, hãy quay về tiêu chuẩn và giới hạn được trình bày ở Chương 10, không tự cấp chứng nhận bằng cảm giác chắc chắn.
   ],
 )
 
