@@ -1,5 +1,77 @@
 # Streamentry Typst Book
 
+## Mission
+
+This project exists to bring *Dự Lưu* (Stream Entry, sotāpatti) out of obscurity
+and into ordinary Vietnamese lay life. Two goals drive every decision, in this
+order:
+
+1. **Craft: make the book insanely great.** Not merely correct — the book a
+   busy, skeptical, middle-aged reader finishes, trusts, and acts on. A true
+   beginner goes from opening the file to a safe first sit within minutes, and
+   any claim can be traced to its source in seconds.
+2. **Reach: help as many people as possible genuinely understand what Stream
+   Entry is** — what the early discourses actually say, what it is not, and how
+   a householder could plausibly walk toward it. Reach is measured in informed
+   readers, not downloads.
+
+Reach never outruns truth. Growth tactics that require exaggerating certainty,
+promising attainment, hiding AI involvement, or bypassing the rights and
+external-evidence gates are forbidden even when they would work. An honest book
+that reaches ten thousand people beats a hyped one that reaches a million.
+
+### What "insanely great" means here (testable bar)
+
+- **Fast start:** a newcomer reaches a safe first sit within the first three
+  pages after the front matter, with local stop conditions visible immediately.
+- **No opaque terms:** every technical or Pāli term carries a plain-language
+  gloss at first use, in the same paragraph or adjacent block.
+- **Every chapter lands:** each explanatory chapter ends with a closed-book
+  retrieval card or an explicit real-world decision block testing the central
+  distinction, not vocabulary recall.
+- **Traceable trust:** any doctrinal or safety claim resolves to its source
+  through the source map without leaving the book; provenance stays visible but
+  never blocks the reading flow.
+- **Production quality:** byte-reproducible builds; clean EPUBCheck, DAISY Ace,
+  and forced-profile veraPDF runs; metadata small enough to stay quiet yet
+  large enough for middle-aged eyes in print.
+- **Validated, not assumed:** beginner comprehension is proven only through
+  `beginner-validation-protocol.md`; internal review can never substitute for
+  it.
+
+### Honest reach playbook
+
+Prefer these levers, in rough order of leverage:
+
+- **Translations.** The single biggest multiplier. Each locale is a separate
+  schema-v1 candidate with its own identity, labels, rights decision, and full
+  evidence chain — budget for that pipeline instead of hacking strings into the
+  Vietnamese contract. An English edition unlocks the global mindfulness
+  audience.
+- **Web-first readability.** The semantic HTML target is the linkable surface.
+  Keep it excellent (navigation, landmarks, card bindings) because every shared
+  link lands there, not in the ZIP.
+- **Shareable one-page artifacts.** The decision map, the 3–5–4 map, the
+  four-region insight summary, and the Tứ Thánh Đế action loop are designed to
+  survive screenshots: title, attribution, and safety boundary travel with the
+  image. Improve them as standalone teaching objects.
+- **Answer-engine clarity.** README opens with a direct plain-language answer
+  to "what is Dự Lưu / Stream Entry?" using both Vietnamese and English terms
+  naturally, so search and AI assistants quote it correctly. Never stuff
+  keywords at the cost of doctrinal precision.
+- **Teacher and center channels.** Qualified teachers receive the bounded
+  external-review packet path; their scoped findings become evidence, and their
+  endorsements only after gates pass. Never recruit novices through public
+  issues.
+- **Free-at-the-core posture.** Digital access stays free; any pricing waits
+  for the rights decision and never gates the core teaching behind paywalls or
+  email capture dark patterns.
+
+Forbidden reach tactics: fabricated testimonials, countdown urgency,
+attainment-timeframe promises, unattributed quote graphics, claiming external
+validation before gates close, or letting public repository access imply a
+redistribution license.
+
 ## Overview
 
 This workspace turns `con-duong-niem-xu-mahasi-hop-nhat.md` into an A5 Vietnamese practice handbook. The source Markdown is preserved unchanged. The publication title is *Hướng Đến Nhập Lưu*, not a promise of attainment.
@@ -17,7 +89,7 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `book/edition.typ`: thin Typst leaf that exposes `edition.json`; it must not introduce independent metadata or locale policy.
 - `scripts/edition_contract.py`: strict schema-v1 Python loader used by build and verification. Unknown, missing, malformed, unsafe, or internally inconsistent values fail closed.
 - `scripts/edition_contract_validation.py`: focused duplicate-key, exact-object, Unicode, and string-array validation primitives for the loader.
-- `book/main.typ`: only Typst content entry point for both paged and HTML targets.
+- `book/main.typ`: only Typst content entry point for both paged and HTML targets. It also inserts the four `part()` divider pages (Phần I–IV) between chapter includes; keep divider copy short and never turn a divider into a content-bearing page.
 - `book/theme.typ`: A5 print rules plus reflowable HTML CSS selected through `target()`. Use left binding with mirrored 22 mm inside and 14 mm outside margins for the perfect-bound edition.
 - `book/components.typ`: target-aware source badges, chapter openers, practice cards, cautions, and reference blocks. In semantic HTML, every repeated titled card must bind its visible title with a unique deterministic `aria-labelledby`; use `note` for practice/caution callouts and `group` for non-landmark collections. Keep source badges above, not inline with, cited prose; preserve a quiet gap below provenance blocks.
 - `book/chapters/`: editorial chapters.
@@ -26,9 +98,9 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `book/chapters/07-doi-song-tai-gia.typ`: ordinary-life transfer through task-first attention, brief response checks, formal-practice boundaries, an immediate collision loop, and a post-error repair loop. Their counts and timings are editorial; immediate protection and essential duties outrank introspection.
 - `book/chapters/10-nhap-luu.typ`: focused beginner explanation of the first three fetters through separate source claims, a visibly editorial object/basis/means model, ordinary-life and meditation cases, and the canonical criteria surrounding Stream-entry.
 - `book/chapters/11-ha-phan-va-sa-mon-qua.typ`: separate 3–5–4 map for the five lower fetters, four fruits, four pairs/eight persons, and DN 2.
-- `book/chapters/12-ban-do-tue.typ`: later-reference insight map. Define the map before taxonomy; separate continuity, experiential resolution, and relation-to-experience; separate object/knowing/reaction/conclusion; state that the sources supply no validated numeric maturity threshold; and preserve the direct beginner route to the four-region explanation. Keep the five-part evidence interview, a navigable subheading and the six-question explanation (foundation, changed knowing, possible experience, practice, insufficient lookalikes, transition) consistent across stages 1–11, plus the one-object walkthrough that makes the changing way of knowing concrete. Explain stages 12–17 by system function and evidential limit, not as separately reproducible feelings. Never turn its editorial teaching aids into a self-diagnostic ladder or stage-production recipe.
+- `book/chapters/12-ban-do-tue.typ`: later-reference insight map, printed as Chương 13 and placed last under Phần IV — Đọc sâu. The Tứ Thánh Đế integration chapter (`13-tu-dieu-de-van-hanh.typ`, printed as Chương 12) deliberately precedes it so the path foundation arrives before the taxonomy. Define the map before taxonomy; separate continuity, experiential resolution, and relation-to-experience; separate object/knowing/reaction/conclusion; state that the sources supply no validated numeric maturity threshold; and preserve the direct beginner route to the four-region explanation. Keep the five-part evidence interview, a navigable subheading and the six-question explanation (foundation, changed knowing, possible experience, practice, insufficient lookalikes, transition) consistent across stages 1–11, plus the one-object walkthrough that makes the changing way of knowing concrete. Explain stages 12–17 by system function and evidential limit, not as separately reproducible feelings. Never turn its editorial teaching aids into a self-diagnostic ladder or stage-production recipe.
 - `book/appendices/`: reusable practice tools.
-- `book/appendices/e-ban-do-quyet-dinh.typ`: original safety-first retrieval map for stay, switch, act, repair, reduce and stop decisions; its editorial synthesis is C74 and its current Vietnamese emergency-number route is bounded by C75–C76.
+- `book/appendices/e-ban-do-quyet-dinh.typ`: original safety-first retrieval map for stay, switch, act, repair, reduce and stop decisions; its editorial synthesis is claim C74 in the internal ledger, bounded by C75–C76 for the Vietnamese emergency-number route. Ledger `Cxx` codes are internal traceability only — they must never appear in reader-facing text.
 - `book/references/claim-ledger.md`: claim-to-source audit trail.
 - `book/references/attainment-source-audit.md`: immutable segment-level audit for the attainment claims in Chapters 10–11.
 - `book/references/editorial-depth-audit.md`: chapter-by-chapter test for harmful compression.
