@@ -13,12 +13,14 @@ riêng, không suy ra từ việc kho mã có thể truy cập công khai.
 
 ## Ai chịu trách nhiệm cho ấn bản
 
-Tín dụng xuất bản hiện tại là `CS Chánh Niệm + ChatGPT`. `CS Chánh Niệm` là tên
+Tín dụng xuất bản hiện tại là `CS Chánh Niệm (với sự hỗ trợ tổng hợp tư liệu từ
+AI)`. `CS Chánh Niệm` là tên
 được công bố trên ấn bản, không phải một hồ sơ học thuật hoặc giấy xác nhận tư
 cách giảng sư. Kho hiện chưa công bố một tiểu sử, bằng cấp hay sự chuẩn nhận có
 thể kiểm chứng độc lập cho tên này.
 
-ChatGPT được dùng để hỗ trợ cấu trúc, soạn thảo, rà soát và kiểm tra tính nhất
+Trí tuệ nhân tạo tạo sinh (cụ thể là ChatGPT) được dùng để hỗ trợ cấu trúc,
+soạn thảo, rà soát và kiểm tra tính nhất
 quán. Nó không có trải nghiệm hành thiền, không phải thẩm quyền tôn giáo, không
 phải bác sĩ và không thể xác nhận đạo quả. Mọi thay đổi chỉ trở thành nội dung
 của ấn bản sau khi được người duy trì kho chấp nhận và vượt các cổng kiểm định

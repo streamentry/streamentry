@@ -34,7 +34,7 @@ class Chapter12ContractTests(unittest.TestCase):
     ) -> None:
         required_labels = (
             "*Cách biết đổi.*",
-            "*Nền trước và khi nào tên này có cơ sở.*",
+            "*Nền đất và khi nào tên này có cơ sở.*",
             "*Trải nghiệm có thể như thế nào.*",
             "*Cách vun điều kiện và tiếp tục hành.*",
             "*Điều chưa đủ để kết luận.*",
@@ -53,7 +53,7 @@ class Chapter12ContractTests(unittest.TestCase):
         )[1].split("== Tóm tắt đường đi", maxsplit=1)[0]
         for number in range(1, 12):
             self.assertRegex(section, rf"(?m)^\+ \*{number} · ")
-        self.assertIn("C69 · minh họa đối chiếu P02 mục 1–11", section)
+        self.assertIn("minh họa đối chiếu P02 mục 1–11", section)
 
     def test_beginner_model_explains_maturation_without_fake_thresholds(
         self,

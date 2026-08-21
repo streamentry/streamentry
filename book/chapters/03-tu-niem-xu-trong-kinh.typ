@@ -101,6 +101,26 @@ Cuối cùng, MN 10 không dừng ở cảm giác rời rạc mà đặt kinh ng
   Với triền cái, kinh yêu cầu biết khi có, khi không, nó sinh bằng cách nào, được đoạn bằng cách nào và làm sao để không sinh lại. Với sáu xứ, kinh yêu cầu biết căn, cảnh và kiết sử nương vào hai bên mà sinh. Như vậy, Niệm xứ bao gồm quan hệ nhân duyên và công việc chuyển hóa, không dừng ở gọi tên hiện tượng.
 ])
 
+== Một tình huống, bốn lăng kính
+
+#practice-card(
+  [Bị chen xe giữa đường mưa],
+  [
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu K01 · MN 10])
+    #v(5pt)
+
+    Cùng một khoảnh khắc trên đường, bốn lăng kính của MN 10 nhìn thấy những điều khác nhau:
+
+    + *Thân nhận biết:* tay siết lái, vai nhích lên tai, hơi thở ngắn và gấp.
+    + *Thọ nhận biết:* một thọ khó chịu rõ ràng vừa sinh — chưa cần gọi tên ai là lỗi.
+    + *Tâm nhận biết:* tâm đang có sân, muốn còi, muốn trách; biết đúng trạng thái ấy.
+    + *Pháp nhận biết:* thấy triền cái sân đang có mặt, thấy nó sinh từ duyên nào và nó không phải “tôi”.
+
+    Bảng này là cách biên soạn để làm rõ ranh giới giữa bốn quán trong một tình huống thật; MN 10 không kể lại tình huống xe cộ. Đừng cố dùng cả bốn lăng kính cùng lúc khi đang lái — an toàn giao thông trước, chiêm nghiệm sau khi đã đỗ xe.
+  ],
+  label: [MINH HỌA BỐN LĂNG KÍNH · BIÊN SOẠN THEO K01],
+)
+
 == Điều MN 10 không nói
 
 #caution(

@@ -8,7 +8,7 @@
 )
 
 #source-line("KINH", [K01 · MN 10; K13 · SN 46.53], [
-  *Năm triền cái* là năm nhóm trạng thái cản trở sự sáng rõ: tham dục, sân, hôn trầm-thụy miên, trạo cử-hối và hoài nghi. *Bảy giác chi* là bảy phẩm chất cần được nuôi và cân bằng: niệm, trạch pháp, tinh tấn, hỷ, khinh an, định và xả. Chương đi theo một nhịp đơn giản: trước hết nhận ra điều đang che tâm, sau đó biết nên làm mạnh hay làm dịu phẩm chất nào.
+  *Năm triền cái* là năm nhóm trạng thái cản trở sự sáng rõ: tham dục, sân, hôn trầm-thụy miên, trạo cử-hối và hoài nghi. Trong đó, *hôn trầm-thụy miên* là trạng thái nặng nề, uể oải, dễ buồn ngủ; *trạo cử-hối* là tâm bồn chồn lăng xăng cùng day dứt cắn rứt về điều đã qua. *Bảy giác chi* là bảy phẩm chất cần được nuôi và cân bằng: niệm, trạch pháp, tinh tấn, hỷ, khinh an, định và xả. Chương đi theo một nhịp đơn giản: trước hết nhận ra điều đang che tâm, sau đó biết nên làm mạnh hay làm dịu phẩm chất nào.
 ])
 
 == Biết một triền cái là biết cả vòng đời của nó

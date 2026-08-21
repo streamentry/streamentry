@@ -63,7 +63,8 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 
 `book/edition.json` is the only canonical source for the publication credit and
 all other edition or locale values. The current Vietnamese contract declares
-`CS Chánh Niệm + ChatGPT`; consume it through `book/edition.typ` or
+`CS Chánh Niệm (với sự hỗ trợ tổng hợp tư liệu từ AI)`; consume it through
+`book/edition.typ` or
 `scripts/edition_contract.py` rather than copying it into production code.
 README may describe the current value, but it is not an authority. It must read
 edition identity from the contract, artifact identity from release evidence,

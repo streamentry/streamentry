@@ -24,7 +24,7 @@ description: Maintain and publish the Vietnamese Typst handbook Hướng Đến 
 
 `book/edition.json` is the sole canonical authority for the active publication's
 identity and locale. The current Vietnamese contract declares the author string
-`CS Chánh Niệm + ChatGPT`. `book/edition.typ` is only the Typst access leaf;
+`CS Chánh Niệm (với sự hỗ trợ tổng hợp tư liệu từ AI)`. `book/edition.typ` is only the Typst access leaf;
 `scripts/edition_contract.py` is the strict Python loader. Do not add fallback
 or parallel constants to consumers.
 

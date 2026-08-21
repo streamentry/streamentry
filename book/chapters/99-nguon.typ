@@ -201,7 +201,7 @@
 
 #reference-item(
   [K25],
-  [Phân tích Bát Thánh đạo, Saṁyutta Nikāya 45.8],
+  [Phân tích Bát Chánh Đạo, Saṁyutta Nikāya 45.8],
   [Định nghĩa tám chi đạo; chánh định được trình bày bằng bốn tầng thiền.],
   "https://suttacentral.net/sn45.8/en/sujato",
 )
@@ -251,7 +251,7 @@
 #reference-item(
   [K32],
   [Bốn quả của đời sống Sa-môn, Saṁyutta Nikāya 45.35],
-  [Bát Thánh đạo là đời sống Sa-môn; quả của nó là Nhập lưu, Nhất lai, Bất lai và A-la-hán.],
+  [Bát Chánh Đạo là đời sống Sa-môn; quả của nó là Nhập lưu, Nhất lai, Bất lai và A-la-hán.],
   "https://suttacentral.net/sn45.35/en/sujato",
 )
 
@@ -328,7 +328,7 @@
 #reference-item(
   [K43],
   [Câu hỏi về Niết-bàn, Saṁyutta Nikāya 38.1],
-  [Tôn giả Sāriputta gọi sự chấm dứt tham, sân và si là Niết-bàn, rồi nêu Bát Chánh Đạo là đường thực chứng. Bản dịch tiếng Anh của Ṭhānissaro Bhikkhu được dùng để đối chiếu; câu Việt trong chương 13 là phỏng dịch của sách.],
+  [Tôn giả Sāriputta gọi sự chấm dứt tham, sân và si là Niết-bàn, rồi nêu Bát Chánh Đạo là đường thực chứng. Bản dịch tiếng Anh của Ṭhānissaro Bhikkhu được dùng để đối chiếu; câu Việt trong chương 12 là phỏng dịch của sách.],
   "https://www.dhammatalks.org/suttas/SN/SN38_1.html",
 )
 
@@ -403,7 +403,7 @@ Một mã nguồn cho phép truy nguyên, nhưng không tự động chứng min
 == Trách nhiệm biên tập và sửa sai
 
 #modern-note([
-  Ấn bản này ghi công *#(edition.metadata.author)*. ChatGPT được dùng trong việc dựng cấu trúc, soạn thảo và rà soát; nó không phải thẩm quyền tâm linh, nhân chứng thực hành hay người xác nhận đạo quả. Các mệnh đề chịu tải được phân loại nguồn trong sách và đối chiếu tại sổ kiểm chứng của dự án.
+  Ấn bản này ghi công *#(edition.metadata.author)*. Trí tuệ nhân tạo tạo sinh được dùng trong việc dựng cấu trúc, soạn thảo và rà soát; nó không phải thẩm quyền tâm linh, nhân chứng thực hành hay người xác nhận đạo quả. Các mệnh đề chịu tải được phân loại nguồn trong sách và đối chiếu tại sổ kiểm chứng của dự án.
 ])
 
 Kho mã nguồn chưa có phản biện độc lập toàn bộ bản thảo bởi một vị thầy Theravāda đủ năng lực hoặc chuyên gia lâm sàng. Vì vậy, kiểm nguồn nội bộ không phải sự chứng thực bên ngoài. Khoảng trống này chỉ được đóng bằng phản biện có tên, phạm vi và ngày tháng rõ ràng.

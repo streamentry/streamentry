@@ -12,7 +12,7 @@
 
 #v(7mm)
 
-#source-line("BIÊN SOẠN", [C74–C76; dựa trên C46–C52 và C71–C73], [
+#source-line("BIÊN SOẠN", [dựa trên các quy tắc an toàn ở chương 9 và các quyết định đã giải thích trong chương 1, 5 và 7], [
   Sơ đồ dưới đây gom các quyết định đã giải thích trong chương 1, 5, 7 và 9. Nó không phải một bài kinh, một trình tự tâm, một cách chẩn đoán hay một đường tắt đi qua các tầng tuệ.
 ])
 
@@ -137,7 +137,7 @@
             [
               • Việc có rủi ro: chú ý trọn việc.\
               • Phản ứng vừa dâng: biết thân, thọ, lực kéo; chọn việc nhỏ nhất đủ đúng.\
-              • Đã gây hại: dừng, nhận, sửa, đặt chốt.
+              • Đã gây hại: dừng, nhận lỗi, sửa cụ thể và đặt cách phòng lặp lại.
             ],
             accent: palette.indigo,
           )

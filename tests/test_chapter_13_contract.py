@@ -15,11 +15,10 @@ class Chapter13ContractTests(unittest.TestCase):
         cls.chapter = CHAPTER_PATH.read_text(encoding="utf-8")
         cls.main = MAIN_PATH.read_text(encoding="utf-8")
 
-    def test_chapter_is_included_after_the_existing_insight_map(self) -> None:
-        self.assertIn(
-            '#include "chapters/12-ban-do-tue.typ"\n'
-            '#include "chapters/13-tu-dieu-de-van-hanh.typ"',
-            self.main,
+    def test_chapter_is_included_before_the_insight_map(self) -> None:
+        self.assertLess(
+            self.main.index('#include "chapters/13-tu-dieu-de-van-hanh.typ"'),
+            self.main.index('#include "chapters/12-ban-do-tue.typ"'),
         )
 
     def test_four_truths_keep_their_source_bounded_tasks(self) -> None:

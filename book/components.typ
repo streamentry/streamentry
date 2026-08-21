@@ -151,6 +151,28 @@
   }
 }
 
+#let part(title, deck) = context {
+  if target() == "html" {
+    html.elem("header", attrs: (class: "part-opener"))[
+      #heading(level: 1, outlined: true)[#title]
+      #html.elem("p", attrs: (class: "part-deck"))[#deck]
+    ]
+  } else {
+    pagebreak(weak: true)
+    v(34mm)
+    divider()
+    v(6mm)
+    heading(level: 1, outlined: true)[#title]
+    v(4mm)
+    block(width: 78%)[
+      #set par(first-line-indent: 0em, justify: false, leading: 0.72em)
+      #text(font: fonts.sans, size: 10pt, fill: palette.muted)[#deck]
+    ]
+    v(space.xl)
+    pagebreak(weak: true)
+  }
+}
+
 #let source-color(kind) = {
   if kind == "KINH" { palette.forest }
   else if kind == "THANH TỊNH ĐẠO" { palette.saffron }

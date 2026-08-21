@@ -19,12 +19,12 @@
 
 #v(10mm)
 
-Cuốn sách này có một mục đích thực tế: giúp người tại gia bắt đầu và duy trì pháp hành Niệm xứ theo truyền thống Mahāsi, đồng thời biết rõ điều nào đến từ kinh sớm, điều nào thuộc hệ thống luận giải, điều nào là chỉ dẫn của một dòng thiền hiện đại.
+Cuốn sách này có một mục đích thực tế: giúp người tại gia bắt đầu và duy trì pháp hành Niệm xứ theo truyền thống Mahāsi, đồng thời biết rõ điều nào đến từ các bài kinh Nikāya, điều nào thuộc hệ thống luận giải, điều nào là chỉ dẫn của một dòng thiền hiện đại.
 
 Vì vậy, sách đi theo một nhịp khá rõ: trước hết là cách bắt đầu cho người mới, sau đó là nền giáo lý tối thiểu, rồi mới đến các chủ đề dễ làm người đọc lẫn nếu gặp quá sớm.
 
-#source-line("BIÊN SOẠN", [ba nghĩa làm việc, đối chiếu K01; P01; K06], [
-  Để bắt đầu, chỉ cần giữ ba nghĩa ngắn. *Niệm xứ* là học cách biết rõ thân, sắc thái dễ chịu hay khó chịu, trạng thái tâm và những khuôn mẫu được lời dạy chỉ ra. *Mahāsi* là một dòng thiền hiện đại trong truyền thống Theravāda, truyền thống Phật giáo dùng kinh tạng Pāli làm nền; phương pháp dùng chuyển động bụng, ghi nhận trong tâm và thiền hành để tổ chức việc quan sát. *Nhập lưu* là sự bước vào Bát Thánh đạo theo tiêu chuẩn của kinh, không phải tên khác của cảm giác yên hay một buổi ngồi sâu. Các chương sau sẽ mở từng nghĩa ra; người mới chưa cần thuộc thuật ngữ ngay ở đây.
+#source-line("BIÊN SOẠN", [ba cách hiểu đủ dùng để bắt đầu, đối chiếu K01; P01; K06], [
+  Để bắt đầu, chỉ cần giữ ba nghĩa ngắn. *Niệm xứ* là học cách biết rõ thân, sắc thái dễ chịu hay khó chịu, trạng thái tâm và những khuôn mẫu được lời dạy chỉ ra. *Mahāsi* là một dòng thiền hiện đại trong truyền thống Theravāda, truyền thống Phật giáo dùng kinh tạng Pāli làm nền; phương pháp dùng chuyển động bụng, ghi nhận trong tâm và thiền hành để tổ chức việc quan sát. *Nhập lưu* là sự bước vào Bát Chánh Đạo theo tiêu chuẩn của kinh, không phải tên khác của cảm giác yên hay một buổi ngồi sâu. Các chương sau sẽ mở từng nghĩa ra; người mới chưa cần thuộc thuật ngữ ngay ở đây.
 ])
 
 Tên sách dùng cụm từ *hướng đến nhập lưu*. Đây là giới hạn có chủ ý. Kinh điển mô tả Nhập lưu là một chuyển đổi xác định trong thấy biết và đời sống đạo đức. Không thời khóa, kỹ thuật hay trải nghiệm đơn lẻ nào cho phép một cuốn sách hứa chắc kết quả ấy.
@@ -47,13 +47,13 @@ Phần này cố tình đọc chậm hơn phần thực hành. Người mới kh
   [
     1. *Trước buổi đầu:* mở #link(<buoi-dau>)[“Trước buổi đầu tiên”] ở chương 1. Đọc hai hộp an toàn và thẻ Ngày 1; để #link(<nhan-tham-chieu>)[bảng nhãn ở Phụ lục B] bên cạnh nếu các từ ghi nhận còn lạ. Nếu hai hộp không nêu điều đang xảy ra với bạn, hãy bắt đầu buổi ngồi ngắn. Nếu một dấu hiệu cảnh báo áp dụng, dừng ở đó và đọc #link(<an-toan>)[chương 9] trước khi tiếp tục.
 
-    2. *Sau tuần đầu:* dùng #link(<ngay-8-30>)[cầu nối ngày 8 đến ngày 30] trong chương 1, đồng thời đọc xong chương 2 đến chương 7 để đặt kỹ thuật vào giới, Bát Chánh Đạo, Tứ Niệm Xứ, duyên khởi và đời sống tại gia. Khi cần gom các phần ấy vào một phản ứng thật, đọc Chương 13; đây là bản đồ truy hồi, không phải một phương pháp mới. Sau đó đọc chương 10 theo thẻ “Đường đọc lần đầu”. Nếu ba kiết sử đầu còn lẫn vào nhau, hãy dừng ở chương 10 và dùng phần thuật ngữ hoặc FAQ để đọc lại. Chương 11 chỉ mở rộng bản đồ sang năm hạ phần kiết sử và bốn quả; nó không phải kỳ thi, cũng không phải bảng tự phong cấp.
+    2. *Sau tuần đầu:* dùng #link(<ngay-8-30>)[cầu nối ngày 8 đến ngày 30] trong chương 1, đồng thời đọc xong chương 2 đến chương 7 để đặt kỹ thuật vào giới, Bát Chánh Đạo, Tứ Niệm Xứ, duyên khởi và đời sống tại gia. Khi cần gom các phần ấy vào một phản ứng thật, đọc Chương 12; đây là bản đồ ôn lại, không phải một phương pháp mới. Sau đó đọc chương 10 theo thẻ “Đường đọc lần đầu”. Nếu ba kiết sử đầu còn lẫn vào nhau, hãy dừng ở chương 10 và dùng phần thuật ngữ hoặc phần giải đáp để đọc lại. Chương 11 chỉ mở rộng bản đồ sang năm hạ phần kiết sử và bốn quả; nó không phải kỳ thi, cũng không phải bảng tự phong cấp.
 
     3. *Trước khi tăng mạnh thời lượng, tập một mình dài ngày hoặc đi khóa:* đọc chương 8 và đọc trọn #link(<an-toan>)[chương 9], kiểm tra sức khỏe, người hướng dẫn và quyền rời khóa.
 
-    4. *Chương 12 để về sau:* trong những tuần hoặc tháng đầu, chỉ đọc #link(<ban-do-tue-la-gi>)[phần “Bản đồ tuệ là gì?”], ba mức kết luận, ranh giới “làm sao đạt” và lối đọc ba lượt; rồi dừng trước phần bảy thanh tịnh. Khi cần tra cứu với người hướng dẫn, mới đọc tiếp từng vùng. Đừng dùng tên tầng tuệ để tự phong cấp cho một trải nghiệm.
+    4. *Chương 13 để về sau:* trong những tuần hoặc tháng đầu, chỉ đọc #link(<ban-do-tue-la-gi>)[phần “Bản đồ tuệ là gì?”], ba mức kết luận, ranh giới “làm sao đạt” và lối đọc ba lượt; rồi dừng trước phần bảy thanh tịnh. Khi cần tra cứu với người hướng dẫn, mới đọc tiếp từng vùng. Đừng dùng tên tầng tuệ để tự phong cấp cho một trải nghiệm.
 
-    Phần còn lại của chương 12, #link(<faq>)[FAQ] và #link(<thuat-ngu>)[bảng thuật ngữ] là nơi tra cứu khi cần. Nếu một chỉ dẫn trong sách xung đột với an toàn, giới hoặc bổn phận thiết yếu, hãy dừng và kiểm tra lại thay vì cố hoàn thành lịch.
+    Phần còn lại của chương 13, #link(<faq>)[phần giải đáp] và #link(<thuat-ngu>)[bảng thuật ngữ] là nơi tra cứu khi cần. Nếu một chỉ dẫn trong sách xung đột với an toàn, giới hoặc bổn phận thiết yếu, hãy dừng và kiểm tra lại thay vì cố hoàn thành lịch.
   ],
   label: [BẮT ĐẦU Ở ĐÂY · BIÊN SOẠN],
 )
@@ -103,14 +103,14 @@ Nếu chưa từng hành thiền, hãy dùng lộ trình ở trên thay vì đ�
 
 Khi đang hành mà không nhớ nên giữ đối tượng, chuyển sang điều đang nổi bật, hành động ngay hay dừng, mở #link(<ban-do-quyet-dinh>)[Bản đồ quyết định ở Phụ lục E]. Đây là thẻ gợi nhớ; phần giải thích đầy đủ vẫn nằm trong các chương liên quan.
 
-Nếu bạn mới bắt đầu, hãy coi chương 12 là tài liệu tham khảo về sau, không phải nơi tự chẩn đoán trong những tuần đầu.
+Nếu bạn mới bắt đầu, hãy coi chương 13 là tài liệu tham khảo về sau, không phải nơi tự chẩn đoán trong những tuần đầu.
 
 #pagebreak()
 
 #heading(level: 1, outlined: true)[#edition.labels.toc]
 
 #v(5mm)
-#outline(title: none, depth: 2, indent: auto)
+#outline(title: none, depth: 1, indent: auto)
 
 #pagebreak()
 

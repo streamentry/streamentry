@@ -21,12 +21,12 @@ EVIDENCE = """\
 | PDF file size | 1,021,520 bytes |
 | EPUB navigation | 136 nested content entries plus 1 cover entry |
 | EPUB archive size | 137,543 bytes |
-| Publication credit | `CS Chánh Niệm + ChatGPT` |
+| Publication credit | `CS Chánh Niệm (với sự hỗ trợ tổng hợp tư liệu từ AI)` |
 """
 
 PDFINFO = """\
 Title:           Hướng Đến Nhập Lưu
-Author:          CS Chánh Niệm + ChatGPT
+Author:          CS Chánh Niệm (với sự hỗ trợ tổng hợp tư liệu từ AI)
 Tagged:          yes
 Suspects:        no
 JavaScript:      no

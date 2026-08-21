@@ -16,7 +16,7 @@
 #practice-card(
   [Quy ước tối thiểu],
   [
-    Chọn một giờ và một chỗ tương đối cố định. Dùng đồng hồ hẹn giờ. Ngồi trên gối hoặc ghế, miễn thân vững và không phải chịu đau có nguy cơ gây chấn thương. Phần cốt lõi của mỗi ngày là mười lăm phút ngồi; không cần tăng dần trong tuần. Nếu mười lăm phút chưa thực tế, giữ năm phút mỗi ngày trong trọn tuần. Đừng tăng thời lượng để bù một buổi đã lỡ. Năm phút là mức sàn biên soạn để bảo vệ tính liên tục, không phải liều tối ưu hay mốc kinh điển.
+    Chọn một giờ và một chỗ tương đối cố định. Dùng đồng hồ hẹn giờ. Ngồi trên gối hoặc ghế, miễn thân vững và không phải chịu đau có nguy cơ gây chấn thương. Phần cốt lõi của mỗi ngày là mười lăm phút ngồi; không cần tăng dần trong tuần. Nếu mười lăm phút chưa thực tế, giữ năm phút mỗi ngày trong trọn tuần. Buổi kế tiếp giữ nguyên thời lượng quen thuộc; buổi bỏ lỡ không cần bù. Mốc năm phút là *gợi ý của người biên soạn* giúp bạn giữ thói quen bền vững giữa đời sống bận rộn; nó không phải liều tối ưu hay mốc kinh điển.
   ],
   label: [THỰC HÀNH · BIÊN SOẠN THEO P01],
 )
@@ -24,7 +24,7 @@
 #caution(
   [Nếu chuyển động bụng không rõ],
   [
-    Giữ bụng là điểm tựa mặc định trong tuần đầu, nhưng không ép nó phải hiện ra bằng sức căng. Thả lỏng thân và thử lại trong khoảng hai đến ba phút. Nếu chuyển động vẫn rất mờ, dùng cảm giác hơi thở ở mũi cho phần còn lại của buổi đó. Giữ nguyên một điểm tựa đến hết buổi thay vì đổi qua đổi lại. Nếu chú ý hơi thở ở mũi làm tăng hoảng sợ, tức ngực, chóng mặt hoặc cảm giác xa lạ với bản thân hay thực tại, đừng cố giữ điểm tựa ấy. Hãy dừng buổi ngồi và dùng bài tiếp đất ở #link(<an-toan>)[chương 9]. Quy tắc giữ một điểm tựa không bao giờ cao hơn an toàn. Mốc hai đến ba phút và cách chuyển điểm tựa là quy tắc biên soạn để người mới khỏi mắc kẹt; P01 không ấn định mốc này.
+    Giữ bụng là đối tượng chính ban đầu trong tuần đầu, nhưng không ép nó phải hiện ra bằng sức căng. Thả lỏng thân và thử lại trong khoảng hai đến ba phút. Một mẹo nhỏ cho người mới: đặt nhẹ lòng bàn tay lên bụng trong ba hơi thở đầu để cảm nhận sự nâng lên, hạ xuống tự nhiên mà không cần dùng sức, rồi buông tay ra và trở lại biết bằng chú ý. Nếu chuyển động vẫn rất mờ, dùng cảm giác hơi thở ở mũi cho phần còn lại của buổi đó. Giữ nguyên một điểm tựa đến hết buổi thay vì đổi qua đổi lại. Nếu chú ý hơi thở ở mũi làm tăng hoảng sợ, tức ngực, chóng mặt hoặc cảm giác xa lạ với bản thân hay thực tại, đừng cố giữ điểm tựa ấy. Hãy dừng buổi ngồi và dùng bài tiếp đất ở #link(<an-toan>)[chương 9]. Quy tắc giữ một điểm tựa không bao giờ cao hơn an toàn. Mốc hai đến ba phút, mẹo đặt tay và cách chuyển điểm tựa là gợi ý thực hành do người biên soạn đề xuất để người mới không bị mắc kẹt; kinh điển không ấn định mốc này.
   ],
 )
 
@@ -108,7 +108,7 @@ Nói gọn, “làm đúng” trong tuần đầu chỉ gồm ba việc: biết 
 
 == Khi nhịp bị gãy, quay lại thế nào <khoi-dong-lai>
 
-#source-line("BIÊN SOẠN", [quy tắc quay lại, đối chiếu mức sàn và ngưỡng an toàn trong sách], [
+#source-line("BIÊN SOẠN", [quy tắc quay lại, đối chiếu mức tối thiểu và ngưỡng an toàn trong sách], [
   Kinh và P01 không ấn định một số ngày nghỉ khiến người hành phải bắt đầu lại. Quy tắc dưới đây chỉ gom các quyết định đã dùng trong chương này thành một lối quay lại không bù giờ, không tự phạt và không tự động tiếp tục sau dấu hiệu nguy cơ.
 ])
 
@@ -117,7 +117,7 @@ Nói gọn, “làm đúng” trong tuần đầu chỉ gồm ba việc: biết 
   [
     + *Không bù.* Dù lỡ một buổi hay nghỉ lâu hơn vì công việc, gia đình hoặc bệnh thân thông thường, đừng cộng dồn số phút đã mất vào buổi kế tiếp.
 
-    + *Trở về mức gần nhất từng ổn.* Nếu năm hay mười lăm phút từng vừa với giấc ngủ, thân thể và bổn phận, dùng lại mức ấy. Nếu chưa có mức nào rõ là ổn, dùng mức sàn năm phút cùng một #link(<bon-diem-neo>)[điểm neo đời thường].
+    + *Trở về mức gần nhất từng ổn.* Nếu năm hay mười lăm phút từng vừa với giấc ngủ, thân thể và bổn phận, dùng lại mức ấy. Nếu chưa có mức nào rõ là ổn, dùng mức tối thiểu năm phút cùng một #link(<bon-diem-neo>)[điểm neo đời thường].
 
     + *Giữ nguyên đến lần rà soát tuần kế tiếp.* Chưa tăng thời lượng chỉ vì buổi quay lại thấy dễ chịu. Đến lúc rà soát, dùng bốn quyết định ngay dưới đây để giữ, tăng, giảm hoặc tìm trợ giúp.
 

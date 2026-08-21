@@ -72,6 +72,8 @@
       .chapter-opener { margin-top: 3.5rem; padding-top: 1rem; border-top: 0.2rem solid var(--saffron); }
       .chapter-opener h1, .chapter-opener h2 { margin-top: 0.45rem; }
       .chapter-deck { font-family: Arial, sans-serif; font-size: 0.98rem; max-width: 38rem; }
+      .part-opener { margin-top: 4rem; padding-top: 1.25rem; border-top: 0.35rem solid var(--forest); }
+      .part-deck { color: var(--muted); font-family: Arial, sans-serif; font-size: 0.98rem; max-width: 38rem; }
       .provenance { margin: 1rem 0 1.6rem; }
       .source-badge { display: inline-block; margin: 0.1rem 0.25rem 0.1rem 0; padding: 0.18rem 0.46rem; border: 0.06rem solid currentColor; border-radius: 0.22rem; font-family: Arial, sans-serif; font-size: 0.76rem; font-weight: 700; letter-spacing: 0.035em; }
       .source-kinh { color: var(--forest); }
