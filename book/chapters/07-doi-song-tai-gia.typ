@@ -112,7 +112,7 @@ Vòng #link(<tho-ai-nam-buoc>)[thọ đến ái ở chương 4] giúp thấy ph�
     + *Kiểm tra thực tại:* Có nguy hiểm, người cần bảo vệ hoặc việc phải làm ngay không? Nếu có, hành động trước; đừng dùng quan sát nội tâm để trì hoãn.
     + *Biết dữ kiện gần nhất:* hàm siết, ngực nóng, thọ khó chịu, tim nhanh. Đừng bắt đầu bằng bản cáo trạng về người kia.
     + *Nhận ra lực kéo:* muốn quát, muốn bỏ đi, muốn chứng minh, muốn mua, muốn mở thông báo. Nếu chỉ biết sau khi nó đã khởi, biết từ điểm ấy.
-    + *Chọn hành động nhỏ nhất đủ đúng:* im một nhịp, hỏi lại, nói một ranh giới, hoãn trả lời, cất điện thoại hoặc làm việc an toàn trước mắt.
+    + *Chọn phản ứng đơn giản nhất mà vẫn đúng hướng:* im một nhịp, hỏi lại, nói một ranh giới, hoãn trả lời, cất điện thoại hoặc làm việc an toàn trước mắt.
     + *Trở lại con người và nhiệm vụ:* nghe câu tiếp theo, hoàn tất việc đang làm. Đừng đứng mãi bên trong để chấm xem mình vừa chánh niệm đến đâu.
   ],
   label: [QUY TẮC TẠI CHỖ · BIÊN SOẠN THEO K01; K18; K19],
@@ -156,7 +156,7 @@ Người mới thường nhớ ra sau khi câu nặng lời đã bật khỏi mi
     + *Gọi đúng hành vi:* “Tôi vừa quát” rõ hơn “Tôi tệ quá”. Một câu nói về việc đã làm; câu kia khóa người làm vào một bản án.
     + *Nhận trách nhiệm không kèm chữ “nhưng”:* nghe tác động lên người kia trước khi giải thích ý tốt của mình.
     + *Sửa điều có thể sửa:* xin lỗi cụ thể, đính chính lời sai, thay đồ đã làm hỏng, hoàn lại tiền hoặc thực hiện bổn phận đã bỏ.
-    + *Đặt một chốt cho lần sau:* rời điện thoại khỏi bàn ăn, hoãn thư khi đang nóng, xin người khác tiếp quản vài phút hoặc dùng vòng va chạm ở đúng tín hiệu đầu tiên.
+    + *Chuẩn bị cách phòng lặp lại:* rời điện thoại khỏi bàn ăn, hoãn thư khi đang nóng, xin người khác tiếp quản vài phút hoặc dùng vòng va chạm ở đúng tín hiệu đầu tiên.
 
     Người bị hại không có nghĩa vụ tha thứ ngay. Sửa sai là phần trách nhiệm của người gây ra lỗi, không phải kỹ thuật buộc người khác làm mình nhẹ lòng.
   ],
@@ -203,7 +203,7 @@ Ngày nào cũng có những khe hở ngắn không cần lịch, không cần c
 
 == Lo âu về tài chính và việc bất ổn
 
-Nỗi lo tiền bạc, bảo hiểm hay công việc có thể kéo dài cả ngày và dễ bị gọi là “thiếu buông bỏ”. Thực tế, nhiều lo âu như vậy bắt nguồn từ trách nhiệm thật, cần được giải quyết bằng kế hoạch chứ không phải bằng cố nhìn nội tâm thêm. Chánh niệm ở đây có ba việc nhỏ: biết thọ khó chịu đang có mặt thay vì cãi nó; biết lực kéo sang tìm tin xấu hoặc né tránh nhìn hóa đơn; rồi quay về một hành động cụ thể nằm trong tay — ghi rõ khoản cần kiểm tra, đặt lịch hỏi bảo hiểm, hoặc nói với người thân một kế hoạch. Việc hành chính vẫn là việc hành chính; niệm chỉ giữ cho phản ứng khỏi lái thêm.
+Nỗi lo tiền bạc, bảo hiểm hay công việc có thể kéo dài cả ngày và dễ bị gọi là “thiếu buông bỏ”. Thực tế, nhiều lo âu như vậy bắt nguồn từ trách nhiệm thật, cần được giải quyết bằng kế hoạch chứ không phải bằng cố nhìn nội tâm thêm. Chánh niệm ở đây có ba việc nhỏ: biết thọ khó chịu đang có mặt thay vì cãi nó; biết lực kéo sang tìm tin xấu hoặc né tránh nhìn hóa đơn; rồi quay về một hành động cụ thể nằm trong tay — ghi rõ khoản cần kiểm tra, đặt lịch hỏi bảo hiểm, hoặc nói với người thân một kế hoạch. Việc hành chính vẫn là việc hành chính; chánh niệm chỉ giúp phản ứng không kéo tình hình đi xa hơn.
 
 #practice-card(
   [Khi nỗi lo tài chính nổi lên],
@@ -260,7 +260,7 @@ Có thể theo dõi số ngày đã hành, mức độ giữ giới, tốc độ
   [
     + Khi công việc có rủi ro, tôi biết đặt chú ý vào an toàn thay vì cố quan sát nội tâm.
     + Khi phản ứng vừa dâng, tôi biết dữ kiện thân, thọ và lực kéo, rồi chọn một hành động hợp hoàn cảnh.
-    + Khi đã lỡ gây hại, tôi biết dừng, nhận đúng việc, sửa cụ thể và đặt một chốt cho lần sau.
+    + Khi đã lỡ gây hại, tôi biết dừng, nhận đúng việc, sửa cụ thể và chuẩn bị cách phòng lặp lại.
     + Khi nhịp thực hành gãy, tôi quay về lối khởi động lại thay vì bù giờ hoặc bỏ luôn.
 
     Nếu chưa làm được câu hai, đọc lại #link(<vong-va-cham>)[vòng va chạm]. Nếu chưa làm được câu ba, đọc lại #link(<sua-sai>)[vòng sửa sai]. Hai vòng này đo bằng hành vi kế tiếp, không đo bằng cảm giác mình là người tu tốt.

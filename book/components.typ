@@ -162,7 +162,7 @@
     v(34mm)
     divider()
     v(6mm)
-    heading(level: 1, outlined: true)[#title]
+    [ #heading(level: 1, outlined: true)[#title] <phan> ]
     v(4mm)
     block(width: 78%)[
       #set par(first-line-indent: 0em, justify: false, leading: 0.72em)

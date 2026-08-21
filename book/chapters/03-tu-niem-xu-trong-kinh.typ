@@ -23,7 +23,7 @@ Trong chương này, *quán* có nghĩa là nhìn kỹ và liên tục vào kinh
 ])
 
 #modern-note([
-  Trong nghĩa làm việc của sách, *chánh niệm* giúp không quên khung đang quan sát; *tỉnh giác* giúp biết rõ việc đang xảy ra và hoàn cảnh của nó; *nhiệt tâm* là sức nỗ lực không nuôi điều bất thiện và phát triển điều thiện. Đây là lời giải thích biên soạn để thực hành, không phải ba câu định nghĩa nguyên văn của MN 10.
+  Theo cách hiểu của sách, *chánh niệm* giúp không quên khung đang quan sát; *tỉnh giác* giúp biết rõ việc đang xảy ra và hoàn cảnh của nó; *nhiệt tâm* là sức nỗ lực không nuôi điều bất thiện và phát triển điều thiện. Đây là lời giải thích biên soạn để thực hành, không phải ba câu định nghĩa nguyên văn của MN 10.
 ])
 
 Ba phẩm chất này là chiếc khung cho toàn chương. Khi đã nắm được khung, bốn niệm xứ không còn là bốn danh mục lạ, mà là bốn cách nhìn cùng một kinh nghiệm.
@@ -136,7 +136,7 @@ Cuối cùng, MN 10 không dừng ở cảm giác rời rạc mà đặt kinh ng
   Phương pháp Mahāsi dùng chuyển động bụng, ghi nhận và đối tượng nổi bật để tổ chức việc quan sát liên tục. Ưu điểm của phương pháp là chỉ dẫn cụ thể, dễ thực hành. Mối liên hệ với MN 10 là một cách triển khai có luận giải, không phải quan hệ sao chép từng câu.
 ])
 
-Khi bốn góc nhìn đã rõ, câu hỏi kế tiếp là phản ứng thành khổ ở đâu. Chương 4 sẽ phóng gần đoạn xúc, thọ, ái và thủ, đồng thời giữ nguyên ranh giới giữa điều kinh nói và bài tập do sách biên soạn.
+Khi bốn góc nhìn đã rõ, câu hỏi kế tiếp là phản ứng thành khổ ở đâu. Chương 4 sẽ nhìn kỹ đoạn xúc–thọ–ái–thủ, đồng thời giữ nguyên ranh giới giữa điều kinh nói và bài tập do sách biên soạn.
 
 #modern-note([
   Khi đọc các chương kỹ thuật tiếp theo, hãy giữ hai câu hỏi cùng lúc: “Chỉ dẫn này giúp tôi thấy điều gì?” và “Chỉ dẫn này đến từ nguồn nào?”. Câu thứ nhất bảo vệ thực hành khỏi khô cứng. Câu thứ hai bảo vệ lời Phật khỏi bị mượn danh.

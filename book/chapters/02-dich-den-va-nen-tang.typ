@@ -108,8 +108,8 @@ Bốn sự thật cũng đặt giới hạn cho cuốn sách. Quan sát một c�
 
 == Nhập lưu được kinh mô tả thế nào?
 
-#source-line("BIÊN SOẠN", [nghĩa làm việc, đối chiếu K20; K24], [
-  *Kiết sử* là cách kinh gọi những trói buộc bền chặt giữ hữu tình trong khổ, không phải tên chung cho mọi thói quen xấu. *Năm uẩn* là năm nhóm kinh nghiệm: sắc hay phương diện thân-vật chất, thọ, tưởng, các hành tạo tác và thức. Hai nghĩa làm việc này chỉ giúp theo kịp phần dưới; chương 10 sẽ phân tích ba kiết sử liên hệ trực tiếp đến Nhập lưu.
+#source-line("BIÊN SOẠN", [cách hiểu dùng trong chương, đối chiếu K20; K24], [
+  *Kiết sử* là cách kinh gọi những trói buộc bền chặt giữ hữu tình trong khổ, không phải tên chung cho mọi thói quen xấu. *Năm uẩn* là năm nhóm kinh nghiệm: sắc, tức phương diện vật chất của thân; thọ, tưởng, các hành tạo tác và thức. Hai cách hiểu tạm này chỉ giúp theo kịp phần dưới; chương 10 sẽ phân tích ba kiết sử liên hệ trực tiếp đến Nhập lưu.
 ])
 
 #source-line("KINH", [K03 · SN 55.4; K08 · DN 16; K10 · AN 3.88; K24 · AN 10.13], [

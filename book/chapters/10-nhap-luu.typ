@@ -165,7 +165,7 @@ Ba kiết sử không phải ba nút tách rời để xử lý bằng ba mẹo.
 
 == Ba kiết sử đầu: ba mối trói phải rơi <ba-kiet-su>
 
-#source-line("BIÊN SOẠN", [nghĩa làm việc, đối chiếu K11; K24], [
+#source-line("BIÊN SOẠN", [cách hiểu dùng trong chương, đối chiếu K11; K24], [
   *Kiết sử* là mối trói buộc bền chặt, không phải tên chung cho mọi tâm trạng khó chịu hay thói quen chưa tốt. Ba kiết sử liên hệ trực tiếp đến Nhập lưu là thân kiến, hoài nghi và chấp thủ giới-tập tục.
 ])
 
@@ -291,7 +291,7 @@ MN 2 nêu *vicikicchā* là kiết sử nhưng không cho một định nghĩa t
   [
     + *Thiếu dữ kiện:* chưa biết bản dịch nào sát hơn hoặc chưa biết một vị thầy đã được ai kiểm chứng. Việc cần làm là tìm thêm dữ kiện.
     + *Điều tra lành mạnh:* hỏi lời dạy nằm ở đâu, có hợp với giới và Tứ Thánh Đế không, hậu quả thực tế ra sao. Việc cần làm là tiếp tục kiểm tra trung thực.
-    + *Hoài nghi như kiết sử, theo nghĩa làm việc của sách:* sự phân vân trên trục Phật, Pháp, Tăng, con đường và sự thực hành chưa được tháo bằng thấy biết đã được xác chứng. Nó không được đoạn bằng cách giả vờ chắc chắn.
+    + *Hoài nghi như kiết sử, theo cách hiểu của sách:* sự phân vân trên trục Phật, Pháp, Tăng, con đường và sự thực hành chưa được tháo bằng thấy biết đã được xác chứng. Nó không được đoạn bằng cách giả vờ chắc chắn.
 
     Cảm giác hăng hái, trung thành với một tổ chức, đăng ký một khóa thiền hoặc nói “tôi tin” không chứng minh mối nghi đã bị nhổ tận. Ngược lại, kiểm nguồn và từ chối một người dạy nguy hiểm không chứng minh kiết sử còn nguyên.
   ],
@@ -372,8 +372,8 @@ Cụm *sīlabbataparāmāsa* được dịch theo nhiều cách: giới cấm th
   label: [GIẢI THÍCH THỰC HÀNH · BIÊN SOẠN THEO K03; K08; K11; K38],
 )
 
-#source-line("BIÊN SOẠN", [nghĩa làm việc, đối chiếu K03; K08; K11; K24; K38], [
-  Trong nghĩa làm việc của sách, điều bị tháo là cách nắm hình thức như thể hình thức tự nó đủ thanh tịnh và giải thoát. Một nghi lễ có thể nhắc tâm; một giới điều có thể ngăn hại; một tư thế có thể giữ thân ổn; một kỹ thuật ghi nhận có thể rèn niệm. Sai lầm bắt đầu khi người ta đổi “điều này hỗ trợ một chi của đường” thành “chỉ cần làm đúng hình thức này thì quả phải xảy ra”. Đây là cách giải thích có giới hạn, không phải câu định nghĩa nguyên văn của MN 2.
+#source-line("BIÊN SOẠN", [cách hiểu dùng trong chương, đối chiếu K03; K08; K11; K24; K38], [
+  Theo cách hiểu của sách, điều bị tháo là cách nắm hình thức như thể hình thức tự nó đủ thanh tịnh và giải thoát. Một nghi lễ có thể nhắc tâm; một giới điều có thể ngăn hại; một tư thế có thể giữ thân ổn; một kỹ thuật ghi nhận có thể rèn niệm. Sai lầm bắt đầu khi người ta đổi “điều này hỗ trợ một chi của đường” thành “chỉ cần làm đúng hình thức này thì quả phải xảy ra”. Đây là cách giải thích có giới hạn, không phải câu định nghĩa nguyên văn của MN 2.
 ])
 
 #practice-card(
@@ -443,7 +443,7 @@ Không được dùng sự phân biệt này để biện hộ cho bỏ giới h
   [
     + *Học Tứ Thánh Đế như bốn việc phải làm:* hiểu rõ khổ, đoạn trừ nguồn gốc của khổ, chứng nghiệm sự chấm dứt và tu tập con đường. Nói gần với thực hành: biết điều gì đang gây sức ép, thấy và buông điều đang nuôi nó, nhận ra khi một chuỗi khổ dừng, rồi phát triển đủ Bát Chánh Đạo. Một lần phản ứng lắng xuống là dữ kiện hữu ích cho việc học, không tự nó chứng minh đã chứng Diệt đế hay Nhập lưu.
     + *Soi năm uẩn thay vì săn cảm giác vô ngã:* thấy sắc, thọ, tưởng, hành, thức sinh do duyên và đổi thay; nhận ra chỗ tâm biến chúng thành “tôi” và “của tôi”.
-    + *Làm nghi thành điều tra có kỷ luật:* học nguồn có thể kiểm, hỏi người chân chánh, thử trong giới hạn an toàn và sửa cách hiểu khi dữ kiện không khớp. Điều tra tìm căn cứ rồi thật sự thử con đường; nghi quay vòng chỉ gom thêm câu hỏi mà không chịu học hay hành đủ để kiểm.
+    + *Làm nghi thành điều tra có kỷ luật:* học từ nguồn có thể kiểm tra hoặc đối chiếu, hỏi người chân chánh, thử trong giới hạn an toàn và sửa cách hiểu khi dữ kiện không khớp. Điều tra tìm căn cứ rồi thật sự thử con đường; nghi quay vòng chỉ gom thêm câu hỏi mà không chịu học hay hành đủ để kiểm.
     + *Giữ giới như phần của đạo, không như bùa:* nhìn ý định, hậu quả và mức gây hại, không chỉ hình thức bên ngoài.
     + *Đặt kỹ thuật vào đúng tỷ lệ:* ghi nhận và định hỗ trợ chánh niệm, chánh định, tuệ; chúng không thay chánh kiến, chánh ngữ, chánh nghiệp hay chánh mạng.
 
@@ -492,7 +492,7 @@ SN 12.41 khiến tiêu chuẩn khó bị rút thành một bảng niềm tin. Gi
 
 == Điều gì không đủ để kết luận? <khong-du-ket-luan>
 
-Bốn phẩm chất trên giải thích vì sao một hiện tượng đứng riêng không thể gánh toàn bộ kết luận. Danh sách dưới đây không phủ nhận giá trị của trải nghiệm; nó chỉ đặt trải nghiệm về đúng trọng lượng chứng cứ.
+Bốn phẩm chất trên giải thích vì sao một hiện tượng đứng riêng chưa đủ cho một kết luận. Danh sách dưới đây không phủ nhận giá trị của trải nghiệm; nó chỉ đặt trải nghiệm về đúng trọng lượng chứng cứ.
 
 - Ánh sáng, hỷ lạc, thân nhẹ hoặc định sâu.
 - Một khoảng trống ký ức hay cảm giác ý thức ngừng lại.
@@ -535,7 +535,7 @@ DN 16 cho thấy phạm vi này bằng những trường hợp cụ thể:
   DN 16 nêu người xuất gia và tại gia, nam và nữ, trong các phân loại Thánh quả. Riêng ở mốc Nhập lưu, bài kinh trực tiếp nêu năm trăm tỳ-kheo, hơn năm trăm nam cư sĩ và nữ cư sĩ Sujātā; tỳ-kheo-ni Nandā được nêu ở quả Bất lai. Các ví dụ đủ bác bỏ ý nghĩ rằng Nhập lưu là đặc quyền của nam giới hoặc người xuất gia.
 ])
 
-Kết luận được nguồn gánh là: *đời sống tại gia và giới tính nữ không tự loại trừ khả năng chứng Thánh quả*. Kết luận nguồn không gánh là: mọi người chắc chắn sẽ chứng trong đời này, một nhóm có tỉ lệ chứng bao nhiêu, hoặc chỉ cần mang một danh phận trên là đủ. DN 16 kể các trường hợp đã được phân loại; nó không cung cấp thống kê hiện đại, lịch chứng đắc hay công thức bảo đảm.
+Nguồn đủ để kết luận rằng: *đời sống tại gia và giới tính nữ không tự loại trừ khả năng chứng Thánh quả*. Nguồn không đủ để kết luận rằng: mọi người chắc chắn sẽ chứng trong đời này, một nhóm có tỉ lệ chứng bao nhiêu, hoặc chỉ cần mang một danh phận trên là đủ. DN 16 kể các trường hợp đã được phân loại; nó không cung cấp thống kê hiện đại, lịch chứng đắc hay công thức bảo đảm.
 
 #practice-card(
   [Đừng trả lời “ai có thể?” bằng căn cước],
@@ -551,7 +551,7 @@ Kết luận được nguồn gánh là: *đời sống tại gia và giới tí
 
 #source-line("KINH", [K02 · SN 55.50; K06 · SN 55.5], [Các điều kiện đưa đến Nhập lưu là thân cận người chân chánh, nghe Chánh pháp, như lý tác ý và thực hành đúng theo Pháp. Dòng mà các điều kiện ấy hướng tới là Bát Chánh Đạo.])
 
-Người tại gia có thể làm phần việc trước mắt: giữ giới, sửa sinh kế và lời nói, học pháp từ nguồn có thể kiểm, phát triển định, quán sát sinh diệt và tìm thiện hữu không mua bán lời hứa. Không ai có dữ kiện để cam kết bạn sẽ chứng quả trong bảy ngày, một năm hay một đời.
+Người tại gia có thể làm phần việc trước mắt: giữ giới, sửa sinh kế và lời nói, học pháp từ nguồn có thể kiểm tra hoặc đối chiếu, phát triển định, quán sát sinh diệt và tìm thiện hữu không mua bán lời hứa. Không ai có dữ kiện để cam kết bạn sẽ chứng quả trong bảy ngày, một năm hay một đời.
 
 #practice-card(
   [Cách kết thúc một lần tự soi],
@@ -579,6 +579,8 @@ Người tại gia có thể làm phần việc trước mắt: giữ giới, s�
     4. Giữ giới đúng chức năng khác chấp thủ giới-tập tục như bùa bảo chứng ra sao?
     5. Nêu một trải nghiệm có thể quan trọng nhưng tự nó không đủ chứng minh Nhập lưu.
     6. Kinh bác bỏ hai giới hạn căn cước nào đối với Nhập lưu, và vì sao điều đó vẫn không thành lời bảo đảm cho mọi cá nhân?
+
+    *Câu nhớ:* đừng hỏi “tôi đã đạt chưa?”, hãy hỏi “hôm nay tôi thấy rõ điều gì hơn, và lời nói, hành động của tôi thay đổi ra sao?”.
 
     Sau khi trả lời, mở lại #link(<ba-kiet-su>)[phần ba kiết sử], #link(<khong-du-ket-luan>)[danh sách giới hạn] và #link(<ai-co-the-nhap-luu>)[phần “ai có thể?”]. Nếu câu trả lời đổi sau khi xem lại, hãy ghi đúng chỗ đã nhầm thay vì tự chấm điểm. Khung năm hạ phần và bốn quả được tự kiểm riêng ở chương 11.
   ],

@@ -40,7 +40,7 @@ Chương trước phân biệt thọ với toàn bộ cảm xúc. Chương này 
 
 Ví dụ: một thông báo hiện lên khi bạn đang làm việc. Thấy màn hình là dữ kiện ở cửa mắt; thọ dễ chịu hoặc khó chịu xuất hiện; tâm muốn mở ngay, giữ cảm giác được chú ý hoặc xua nỗi bất an. Bạn chưa cần tuyên bố đã “cắt ái”. Chỉ cần thấy hướng nghiêng, không bồi thêm câu chuyện trong một nhịp, rồi chọn mở vì thật sự cần hoặc trở lại việc đang làm.
 
-Năm nhịp này là giàn giáo học tập, không phải năm sát-na tâm trong kinh. Khi niệm còn yếu, người đọc có thể chỉ kịp thấy sau khi đã phản ứng. Lần thấy muộn ấy vẫn có giá trị nếu được dùng để nhận diện điều kiện cho lần sau, thay vì biến thành tự trách. Bài tập chỉ phóng gần đoạn *xúc → thọ → ái → thủ*; phần tiếp theo đặt đoạn ấy trở lại trong mười hai chi đầy đủ.
+Năm nhịp này là giàn giáo học tập, không phải năm sát-na tâm trong kinh. Khi niệm còn yếu, người đọc có thể chỉ kịp thấy sau khi đã phản ứng. Lần thấy muộn ấy vẫn có giá trị nếu được dùng để nhận diện điều kiện cho lần sau, thay vì biến thành tự trách. Bài tập chỉ nhìn kỹ đoạn *xúc → thọ → ái → thủ*; phần tiếp theo đặt đoạn ấy trở lại trong mười hai chi đầy đủ.
 
 == Mười hai chi đang nói về điều gì?
 
@@ -87,7 +87,7 @@ Chuỗi này mô tả sự sinh khởi có điều kiện của khổ, không m�
 + *Phần tâm tiếp nhiên liệu:* ái, thủ và hữu.
 + *Kết quả chín muồi:* sinh, già chết và toàn bộ khối khổ.
 
-Nói giản dị, cụm đầu giải thích vì sao ta không thấy rõ; cụm giữa dựng nên một kinh nghiệm; cụm thứ ba cho thấy tâm bám và tiếp sức; cụm cuối cho thấy khổ chín thành kết quả. Phần thực hành của chương sẽ phóng gần cụm giữa và điểm nối sang cụm thứ ba.
+Nói giản dị, cụm đầu giải thích vì sao ta không thấy rõ; cụm giữa dựng nên một kinh nghiệm; cụm thứ ba cho thấy tâm bám và tiếp sức; cụm cuối cho thấy khổ chín thành kết quả. Phần thực hành của chương sẽ nhìn kỹ cụm giữa và điểm nối sang cụm thứ ba.
 
 #caution(
   [Đừng ép mười hai chi vào một chiếc đồng hồ tâm lý],
@@ -217,7 +217,7 @@ Trong khuôn khổ ấy, có thể ghi nhận “dễ chịu”, “khó chịu�
 
 == Cách biết bài tập đang đi đúng hướng
 
-Đừng đo bằng số lần gắn nhãn. Hãy nhìn những thay đổi có thể kiểm:
+Đừng đo bằng số lần gắn nhãn. Hãy nhìn những thay đổi có thể kiểm tra trong đời sống:
 
 - Khoảng giữa thọ và hành động có rõ hơn không?
 - Ta có nhận ra sớm hơn động tác muốn giữ hoặc muốn đẩy không?

@@ -3,7 +3,7 @@
 #chapter(
   [12],
   [Tứ Thánh Đế: Bản đồ vận hành của khổ và con đường nhập lưu],
-  [Chương 2 đã đặt bốn sự thật vào đúng đạo lộ; Chương 4 đã phóng gần đoạn xúc, thọ, ái và thủ. Chương này nối hai mức nhìn ấy thành một khung dùng được trong một tình huống thật, nhưng không biến một bài tập biên soạn thành công thức chứng quả.],
+  [Chương 2 đã đặt bốn sự thật vào đúng đạo lộ; Chương 4 đã nhìn kỹ đoạn xúc–thọ–ái–thủ. Chương này nối hai mức nhìn ấy thành một khung dùng được trong một tình huống thật, nhưng không biến một bài tập biên soạn thành công thức chứng quả.],
   provenance: [
     #source-badge("KINH", refs: [K05 · K25 · K26 · K31])
     #h(4pt)
@@ -91,7 +91,7 @@ Một lời khen có thể làm tâm vui. Một bữa cơm ngon có thể nuôi 
 
 === Năm uẩn và năm uẩn bị chấp thủ
 
-*Uẩn* là nhóm các hoạt động của kinh nghiệm: sắc hay phương diện thân-vật chất; thọ, tức vị dễ chịu, khó chịu hoặc trung tính; tưởng, tức nhận dạng và gắn nhãn; các hành tạo tác như ý định và khuynh hướng; và thức, tức sự nhận biết tùy cửa giác quan và ý. Đây là cách phân tích, không phải năm vật thể nằm trong người.
+*Uẩn* là nhóm các hoạt động của kinh nghiệm: sắc, tức phương diện vật chất của thân; thọ, tức vị dễ chịu, khó chịu hoặc trung tính; tưởng, tức nhận dạng và gắn nhãn; các hành tạo tác như ý định và khuynh hướng; và thức, tức sự nhận biết tùy cửa giác quan và ý. Đây là cách phân tích, không phải năm vật thể nằm trong người.
 
 #source-line("KINH", [K05 · SN 56.11; K35 · SN 22.59], [
   Cụm “năm uẩn bị chấp thủ” không có nghĩa năm uẩn tự chúng là lỗi lầm. SN 22.59 yêu cầu thấy các uẩn là vô thường, chịu đổi thay và không thích hợp để nắm là “của tôi”, “tôi” hay “tự ngã của tôi”. Phần thêm vào là động tác chiếm hữu và đồng hóa, không phải bản thân cảm giác, ký ức hay thân thể.
@@ -199,9 +199,9 @@ Phân biệt này làm bài tập sắc hơn. Với một tin nhắn:
 + *Thủ:* câu “tôi bị xúc phạm”, “tôi phải thắng” được nắm thành lập trường.
 + *Khổ:* thân căng, lời nói gây hại, nhai lại và quan hệ xấu đi.
 
-Đoạn này là độ phóng đại thực hành. Nó không thay thế toàn bộ mười hai chi, cũng không nói rằng một phản ứng vài giây là toàn bộ nghĩa của *hữu* hay *sinh* trong kinh.
+Đoạn này chỉ là cách nhìn gần vào phần phản ứng có thể quan sát trực tiếp. Nó không thay thế toàn bộ mười hai chi, cũng không nói rằng một phản ứng vài giây là toàn bộ nghĩa của *hữu* hay *sinh* trong kinh.
 
-== 3. Hai độ phóng đại của duyên khởi
+== 3. Duyên khởi ở hai mức nhìn
 
 === Bản đồ đầy đủ
 
