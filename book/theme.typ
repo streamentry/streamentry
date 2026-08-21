@@ -155,15 +155,39 @@
       inside: 22mm,
       outside: 14mm,
     ),
-    header: align(
-      right,
-      text(
+    header: context {
+      let n = counter(page).get().first()
+      let here = here()
+      let heads = query(selector(heading.where(level: 1)).before(here))
+      let parts = query(selector(<phan>).before(here))
+      let ch = none
+      for h in heads {
+        let is-part = false
+        for p in parts {
+          if p.location() == h.location() {
+            is-part = true
+          }
+        }
+        if not is-part {
+          ch = h
+        }
+      }
+      let run(body) = text(
         font: fonts.sans,
         size: 6.6pt,
         tracking: 0.12em,
         fill: palette.muted,
-      )[#upper(edition.metadata.title)],
-    ),
+      )[#body]
+      if calc.odd(n) {
+        if ch == none {
+          align(right, run(upper(edition.metadata.title)))
+        } else {
+          align(right, run(upper(ch.body)))
+        }
+      } else {
+        align(left, run(upper(edition.metadata.title)))
+      }
+    },
     numbering: "1",
     number-align: center + bottom,
   )

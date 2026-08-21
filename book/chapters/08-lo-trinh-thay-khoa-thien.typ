@@ -57,7 +57,7 @@ Chọn thời lượng có thể sống cùng nhiều năm. Tiếp tục giữ g
 
 “Dư y” là thuật ngữ kỹ thuật được giữ theo bản dịch; người mới không cần dùng nó để tự chấm mình. Chỉ cần giữ ranh giới này: A-la-hán và Bất lai là hai kết quả bài kinh nêu ở đoạn ấy; chúng không phải tên khác của Nhập lưu.
 
-Đoạn kinh không nói “bảy ngày sẽ Nhập lưu”. Hai kết quả được nêu là A-la-hán hoặc Bất lai. Đoạn kinh cũng không đồng nhất bảy ngày ấy với một khóa Mahāsi hiện đại, không cho số giờ ngồi mỗi ngày và không bảo rằng chỉ cần có mặt đủ lịch là kết quả phải xảy ra. Cụm từ chịu tải là “tu tập như vậy”, nghĩa là toàn bộ phẩm chất và nội dung thực hành vừa được bài kinh trình bày.
+Đoạn kinh không nói “bảy ngày sẽ Nhập lưu”. Hai kết quả được nêu là A-la-hán hoặc Bất lai. Đoạn kinh cũng không đồng nhất bảy ngày ấy với một khóa Mahāsi hiện đại, không cho số giờ ngồi mỗi ngày và không bảo rằng chỉ cần có mặt đủ lịch là kết quả phải xảy ra. Điểm then chốt của đoạn kinh là cụm “tu tập như vậy”, nghĩa là toàn bộ phẩm chất và nội dung thực hành vừa được bài kinh trình bày.
 
 #caution(
   [Không dùng đoạn kinh làm lời quảng cáo khóa thiền],

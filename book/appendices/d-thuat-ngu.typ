@@ -30,7 +30,7 @@
     + #link(<thuat-ngu-dao-lo>)[*Đạo lộ và năng lực tâm:*] Tứ Thánh Đế, Bát Chánh Đạo, Năm giới, chánh niệm, tỉnh giác, định và tuệ.
     + #link(<thuat-ngu-nhap-luu>)[*Nhập lưu, kiết sử và bốn quả:*] tịnh tín đã được xác chứng, ba kiết sử đầu, năm hạ phần kiết sử, Nhập lưu, Nhất lai, Bất lai, A-la-hán và nghĩa của Sa-môn quả.
     + #link(<thuat-ngu-duyen-khoi>)[*Duyên khởi và cấu trúc kinh nghiệm:*] xúc, thọ, ái, thủ, năm uẩn và duyên khởi.
-    + #link(<thuat-ngu-phuong-phap>)[*Nhóm pháp và phương pháp thực hành:*] triền cái, giác chi, phong đại, niệm xứ, chỉ-quán, tư-tác ý và ghi nhận.
+    + #link(<thuat-ngu-phuong-phap>)[*Nhóm pháp và phương pháp thực hành:*] triền cái, giác chi, phong đại, niệm xứ, chỉ-quán, tư (cetanā) cùng tác ý (manasikāra), và ghi nhận.
 
     Nếu một từ được dùng để tự xác nhận chứng đắc, hãy đọc lại cả định nghĩa, nguồn và câu giới hạn. Đừng chỉ lấy nhãn Pāli.
   ],

@@ -175,7 +175,7 @@ Thiền hành lặp lại ý định và cử động trong một khung đơn gi
 
 == Định và tuệ: đừng biến một cách giải thích thành cách duy nhất
 
-#source-line("BIÊN SOẠN", [nghĩa làm việc, đối chiếu K16; V01; P02], [
+#source-line("BIÊN SOẠN", [cách hiểu dùng trong chương, đối chiếu K16; V01; P02], [
   Phần này trả lời một câu hỏi thực tế: phải có tâm thật yên rồi mới quán, hay sự yên và thấy rõ có thể nâng nhau trong lúc tập? *Chỉ* là làm tâm lắng và ổn định; *quán* là thấy rõ đặc tính cùng điều kiện của kinh nghiệm; *định* là mức quy tụ khiến tâm không bị kéo khỏi việc đang biết quá dễ dàng. Ba từ liên hệ với nhau nhưng không đồng nghĩa.
 ])
 

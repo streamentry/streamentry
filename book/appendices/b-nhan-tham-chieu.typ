@@ -118,6 +118,6 @@
 #caution(
   [Nhãn không phải chân lý về kinh nghiệm],
   [
-    “Đau” chỉ là một ký hiệu làm việc. Nó không chứng minh nguyên nhân, mức nguy hiểm hay ý nghĩa tâm linh của cảm giác. Khi có đau sắc, tê lan, yếu chi hoặc triệu chứng kéo dài, hãy đổi tư thế và xử lý như một vấn đề sức khỏe.
+    “Đau” chỉ là một nhãn quy ước để hỗ trợ nhận biết. Nó không chứng minh nguyên nhân, mức nguy hiểm hay ý nghĩa tâm linh của cảm giác. Khi có đau sắc, tê lan, yếu chi hoặc triệu chứng kéo dài, hãy đổi tư thế và xử lý như một vấn đề sức khỏe.
   ],
 )

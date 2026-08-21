@@ -84,8 +84,8 @@
         #html.elem("p", attrs: (class: "eyebrow"))[2B · ĐỜI SỐNG]
         #html.elem("h3", attrs: (class: "card-title", id: "decision-daily-life-title"))[Đặt chú ý ở đâu?]
         + Việc có rủi ro hoặc cần độ chính xác: chú ý trọn việc.
-        + Phản ứng vừa dâng: biết thân, thọ và lực kéo; chọn hành động nhỏ nhất đủ đúng rồi trở lại hoàn cảnh.
-        + Đã gây hại: dừng, gọi đúng việc, nhận trách nhiệm, sửa và đặt một chốt cho lần sau.
+        + Phản ứng vừa dâng: biết thân, thọ và lực kéo; chọn phản ứng đơn giản nhất mà vẫn đúng hướng rồi trở lại hoàn cảnh.
+        + Đã gây hại: dừng, gọi đúng việc, nhận trách nhiệm, sửa và chuẩn bị cách phòng lặp lại.
       ]
 
       #html.elem(
@@ -136,7 +136,7 @@
             [Đặt chú ý ở đâu?],
             [
               • Việc có rủi ro: chú ý trọn việc.\
-              • Phản ứng vừa dâng: biết thân, thọ, lực kéo; chọn việc nhỏ nhất đủ đúng.\
+              • Phản ứng vừa dâng: biết thân, thọ, lực kéo; chọn phản ứng đơn giản nhất mà vẫn đúng hướng.\
               • Đã gây hại: dừng, nhận lỗi, sửa cụ thể và đặt cách phòng lặp lại.
             ],
             accent: palette.indigo,
