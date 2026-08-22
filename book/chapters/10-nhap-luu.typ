@@ -92,13 +92,13 @@ Chương này chỉ giữ một trục: *ba kiết sử đầu*. Đây là ba c�
   [
     Giả sử đầu gối đau trong lúc ngồi. Ba kiết sử không phải ba bước chắc chắn sẽ xảy ra, nhưng ca này cho thấy ba tầng có thể bị trộn ra sao:
 
-    1. *Dữ kiện trước tiên:* có áp lực nơi gối, thọ khó chịu, ý muốn đổi tư thế và các ý nghĩ về buổi ngồi. Chưa dữ kiện nào tự nó là một kiết sử.
+    1. *Điều đang xảy ra trước tiên:* có áp lực nơi gối, thọ khó chịu, ý muốn đổi tư thế và các ý nghĩ về buổi ngồi. Chưa điều nào trong số đó tự nó là một kiết sử.
     2. *Chỗ thân kiến có thể bấu:* “Thân tôi hỏng rồi”, “tôi là người tu thất bại”, hoặc “phải có một người điều khiển khiến cảm giác biến mất”. Sự quan sát đúng hướng là phân biệt sắc, thọ, tưởng, hành và thức, rồi thấy chúng nương điều kiện và đổi thay. Không cần phủ nhận trách nhiệm chăm sóc thân.
     3. *Chỗ hoài nghi có thể bị xử lý sai:* từ một cơn đau, tâm nhảy sang “toàn bộ Pháp này sai”, nhưng không kiểm chỉ dẫn, nguyên nhân thân thể, ngưỡng an toàn hay mục đích của bài tập. Cực kia cũng sai: ép mình tin phương pháp tuyệt đối đúng để khỏi phải thừa nhận điều chưa biết.
     4. *Chỗ chấp thủ giới-tập tục có thể bấu:* “Người tu thật không bao giờ đổi tư thế; nếu cử động thì chắc chắn mất cơ hội chứng quả.” Một quy ước hữu ích bị biến thành bảo đảm giải thoát, thậm chí được đặt cao hơn an toàn và chánh kiến.
     5. *Cách đi đúng chiều:* nhận biết kinh nghiệm đang có; phân biệt cảm giác với câu chuyện về “tôi”; kiểm hướng dẫn và ngưỡng an toàn; đổi tư thế có chủ ý khi cần; rồi nhìn xem cách xử lý ấy có nuôi giới, niệm, định và tuệ hay không.
 
-    Ca này không nói đau gối tạo ra ba kiết sử, cũng không dạy rằng xử lý tốt một lần sẽ đoạn chúng. Nó chỉ cho người mới một cách nhìn: *đừng lấy một cảm giác làm tự ngã; đừng giải quyết phần chưa biết bằng tin mù hoặc nghi quay vòng; đừng biến quy ước thành bùa bảo chứng*.
+    Ca này không nói đau gối tạo ra ba kiết sử, cũng không dạy rằng xử lý tốt một lần sẽ đoạn chúng. Nó chỉ cho người mới một cách nhìn: *đừng lấy một cảm giác làm tự ngã; đừng giải quyết phần chưa biết bằng tin mù hoặc nghi quay vòng; đừng biến quy ước thành bùa bảo đảm*.
   ],
   label: [CA HÀNH TRÌ · BIÊN SOẠN THEO K02; K05; K06; K11; K20; K35; K38],
 )
@@ -367,7 +367,7 @@ Cụm *sīlabbataparāmāsa* được dịch theo nhiều cách: giới cấm th
   [
     Con đường giải thoát đòi thấy nhân và quả. Chấp thủ giới-tập tục phá điểm này bằng cách tráo vị trí của phương tiện và cứu cánh. Người ấy không còn hỏi “điều này đang giúp giảm tham, sân, si thế nào?” mà hỏi “tôi đã làm đúng bài chưa, đúng nghi thức chưa, đủ số giờ chưa?”.
 
-    Khi hình thức được đối xử như bùa bảo chứng, tâm có thể rất chăm mà vẫn đi lạc. Nó bám vào cái dễ đếm thay vì cái phải chuyển hóa. Vì vậy, đoạn kiết sử này không có nghĩa bỏ giới hay bỏ kỹ thuật; nó có nghĩa trả giới, nghi thức và kỹ thuật về đúng vai trò phục vụ toàn bộ Bát Chánh Đạo.
+    Khi hình thức bị xem như một sự bảo đảm tự động, tâm có thể rất chăm mà vẫn đi lạc. Nó bám vào cái dễ đếm thay vì cái phải chuyển hóa. Vì vậy, đoạn kiết sử này không có nghĩa bỏ giới hay bỏ kỹ thuật; nó có nghĩa trả giới, nghi thức và kỹ thuật về đúng vai trò phục vụ toàn bộ Bát Chánh Đạo.
   ],
   label: [GIẢI THÍCH THỰC HÀNH · BIÊN SOẠN THEO K03; K08; K11; K38],
 )
@@ -377,7 +377,7 @@ Cụm *sīlabbataparāmāsa* được dịch theo nhiều cách: giới cấm th
 ])
 
 #practice-card(
-  [Hình thức, chức năng và bảo chứng giả],
+  [Phương tiện giúp gì — và ta dễ lầm ở đâu?],
   [
     Cùng một hình thức có thể được dùng đúng chức năng hoặc bị nắm thành điều kiện đủ:
 
@@ -403,7 +403,7 @@ Không được dùng sự phân biệt này để biện hộ cho bỏ giới h
     + Nếu hoàn cảnh buộc phải đổi hình thức mà vẫn giữ nguyên giới và chức năng tu tập, tôi có cho rằng con đường đã hỏng không?
     + Điều gì, nếu được thấy rõ, sẽ khiến tôi sửa niềm tin rằng riêng phương tiện này đã đủ cho giải thoát?
 
-    Giữ giới không phải chấp giới. Dùng nghi thức hay kỹ thuật cũng không tự nó là sai. Sai lầm nằm ở việc biến phương tiện thành bảo chứng, rồi để hình thức che mất nhân quả, giới hạnh và toàn bộ Bát Chánh Đạo. Trả lời tốt các câu hỏi này vẫn không chứng minh kiết sử đã đoạn.
+    Giữ giới không phải chấp giới. Dùng nghi thức hay kỹ thuật cũng không tự nó là sai. Sai lầm nằm ở việc coi phương tiện như thứ tự nó bảo đảm kết quả, rồi để hình thức che mất nhân quả, giới hạnh và toàn bộ Bát Chánh Đạo. Trả lời tốt các câu hỏi này vẫn không chứng minh kiết sử đã đoạn.
   ],
   label: [THỰC HÀNH · BIÊN SOẠN THEO K03; K04; K06; K11; K25],
 )
@@ -417,7 +417,7 @@ Không được dùng sự phân biệt này để biện hộ cho bỏ giới h
 
     + *Thân kiến* hỏi: “Tôi đang đặt chữ ‘tôi’ vào đâu trong năm uẩn?” Sai ở chỗ nắm kinh nghiệm làm lõi tự ngã.
     + *Hoài nghi* hỏi: “Tôi đã có thấy biết đủ căn cứ để đứng vững trên Phật, Pháp, Tăng, con đường và sự thực hành chưa?” Sai ở chỗ chưa đứng vững trên điều phải được biết và đi.
-    + *Chấp thủ giới-tập tục* hỏi: “Phương tiện này đang phục vụ chi đạo nào, hay tôi đang biến nó thành bùa bảo chứng?” Sai ở chỗ nắm sai chức năng của giới, nghi thức hay kỹ thuật.
+    + *Chấp thủ giới-tập tục* hỏi: “Phương tiện này đang phục vụ chi đạo nào, hay tôi đang coi nó như thứ tự nó bảo đảm kết quả?” Sai ở chỗ nắm sai chức năng của giới, nghi thức hay kỹ thuật.
 
     Ba lối nhầm cũng khác nhau:
 
@@ -443,7 +443,7 @@ Không được dùng sự phân biệt này để biện hộ cho bỏ giới h
   [
     + *Học Tứ Thánh Đế như bốn việc phải làm:* hiểu rõ khổ, đoạn trừ nguồn gốc của khổ, chứng nghiệm sự chấm dứt và tu tập con đường. Nói gần với thực hành: biết điều gì đang gây sức ép, thấy và buông điều đang nuôi nó, nhận ra khi một chuỗi khổ dừng, rồi phát triển đủ Bát Chánh Đạo. Một lần phản ứng lắng xuống là dữ kiện hữu ích cho việc học, không tự nó chứng minh đã chứng Diệt đế hay Nhập lưu.
     + *Soi năm uẩn thay vì săn cảm giác vô ngã:* thấy sắc, thọ, tưởng, hành, thức sinh do duyên và đổi thay; nhận ra chỗ tâm biến chúng thành “tôi” và “của tôi”.
-    + *Làm nghi thành điều tra có kỷ luật:* học từ nguồn có thể kiểm tra hoặc đối chiếu, hỏi người chân chánh, thử trong giới hạn an toàn và sửa cách hiểu khi dữ kiện không khớp. Điều tra tìm căn cứ rồi thật sự thử con đường; nghi quay vòng chỉ gom thêm câu hỏi mà không chịu học hay hành đủ để kiểm.
+    + *Làm nghi thành điều tra có kỷ luật:* học từ nguồn có thể kiểm tra hoặc đối chiếu, hỏi người chân chánh, thử trong giới hạn an toàn và sửa cách hiểu khi điều quan sát được không khớp. Điều tra tìm căn cứ rồi thật sự thử con đường; nghi quay vòng chỉ gom thêm câu hỏi mà không chịu học hay hành đủ để kiểm.
     + *Giữ giới như phần của đạo, không như bùa:* nhìn ý định, hậu quả và mức gây hại, không chỉ hình thức bên ngoài.
     + *Đặt kỹ thuật vào đúng tỷ lệ:* ghi nhận và định hỗ trợ chánh niệm, chánh định, tuệ; chúng không thay chánh kiến, chánh ngữ, chánh nghiệp hay chánh mạng.
 
@@ -461,7 +461,7 @@ Không được dùng sự phân biệt này để biện hộ cho bỏ giới h
     2. Hỏi chỗ nào tâm thêm “tôi”, “của tôi”, chủ sở hữu hoặc lõi đang bị đe dọa. “Chưa thấy” là một câu trả lời hợp lệ.
     3. Viết đúng *một* điều chưa rõ. Ghi nguồn, người có năng lực hoặc phép thử an toàn kế tiếp có thể làm sáng tỏ nó. Không ép phần chưa biết thành niềm tin.
     4. Gọi tên hình thức bạn đang dùng, như giới điều, tư thế, ghi nhận hay tụng niệm. Viết chức năng của nó trong con đường.
-    5. Hỏi: nếu đổi hình thức nhưng vẫn giữ giới và chức năng, con đường có thật sự hỏng không? Nếu câu trả lời là “chắc chắn hỏng”, hãy kiểm lại niềm tin về bảo chứng.
+    5. Hỏi: nếu đổi hình thức nhưng vẫn giữ giới và chức năng, con đường có thật sự hỏng không? Nếu câu trả lời là “chắc chắn hỏng”, hãy kiểm lại niềm tin rằng hình thức ấy tự bảo đảm kết quả.
     6. Chọn một hành động kế tiếp phù hợp với sự thật, nguyên tắc không làm hại và Bát Chánh Đạo.
     7. Kết thúc bằng ba dòng: *đã quan sát; còn chưa biết; việc tu kế tiếp*.
 
@@ -551,7 +551,7 @@ Nguồn đủ để kết luận rằng: *đời sống tại gia và giới tí
 
 #source-line("KINH", [K02 · SN 55.50; K06 · SN 55.5], [Các điều kiện đưa đến Nhập lưu là thân cận người chân chánh, nghe Chánh pháp, như lý tác ý và thực hành đúng theo Pháp. Dòng mà các điều kiện ấy hướng tới là Bát Chánh Đạo.])
 
-Người tại gia có thể làm phần việc trước mắt: giữ giới, sửa sinh kế và lời nói, học pháp từ nguồn có thể kiểm tra hoặc đối chiếu, phát triển định, quán sát sinh diệt và tìm thiện hữu không mua bán lời hứa. Không ai có dữ kiện để cam kết bạn sẽ chứng quả trong bảy ngày, một năm hay một đời.
+Người tại gia có thể làm phần việc trước mắt: giữ giới, sửa sinh kế và lời nói, học pháp từ nguồn có thể kiểm tra hoặc đối chiếu, phát triển định, quán sát sinh diệt và tìm thiện hữu không mua bán lời hứa. Không ai có căn cứ để cam kết bạn sẽ chứng quả trong bảy ngày, một năm hay một đời.
 
 #practice-card(
   [Cách kết thúc một lần tự soi],
@@ -576,7 +576,7 @@ Người tại gia có thể làm phần việc trước mắt: giữ giới, s�
     1. Ba kiết sử đầu là gì? Với mỗi kiết sử, nói một câu về điều nó trói, không chỉ đọc lại tên.
     2. Vì sao một bậc Nhập lưu vẫn nói “tôi” trong đời thường mà điều đó không tự chứng minh thân kiến còn nguyên?
     3. Một câu hỏi tìm chứng cứ khác hoài nghi như kiết sử ở điểm nào?
-    4. Giữ giới đúng chức năng khác chấp thủ giới-tập tục như bùa bảo chứng ra sao?
+    4. Giữ giới đúng chức năng khác chấp thủ giới-tập tục như bùa bảo đảm ra sao?
     5. Nêu một trải nghiệm có thể quan trọng nhưng tự nó không đủ chứng minh Nhập lưu.
     6. Kinh bác bỏ hai giới hạn về thân phận nào đối với Nhập lưu, và vì sao điều đó vẫn không thành lời bảo đảm cho mọi cá nhân?
 

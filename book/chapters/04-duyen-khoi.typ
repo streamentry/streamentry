@@ -29,7 +29,7 @@ Chương trước phân biệt thọ với toàn bộ cảm xúc. Chương này 
 
     *3. Thấy hướng nghiêng.* Có muốn giữ, xua, tê đi, chứng minh, trả đũa hay tìm kích thích khác không?
 
-    *4. Không tiếp nhiên liệu trong một nhịp.* Không lặp câu chuyện, không vội nhấn gửi, không cố ép thọ biến mất. Cảm nhận thọ và phản ứng như hai dữ kiện có điều kiện.
+    *4. Không tiếp nhiên liệu trong một nhịp.* Không lặp câu chuyện, không vội nhấn gửi, không cố ép thọ biến mất. Cảm nhận rõ thọ và phản ứng như hai việc khác nhau đang xảy ra.
 
     *5. Chọn hành động hợp Pháp.* Im lặng, nói rõ nhưng không gây hại, rời tình huống, đổi tư thế, hoàn thành bổn phận hoặc tìm trợ giúp. “Không ái” không đồng nghĩa bất động.
 
@@ -125,7 +125,7 @@ Trong cả ba trường hợp, nội dung khác nhau nhưng chức năng giống
 Một cảm xúc phức tạp có thể gồm nhiều lớp: thọ, cảm giác thân, tưởng nhận, ký ức, lời tự thoại, ý định và hành động sắp xảy ra. “Giận” không đồng nghĩa với thọ khó chịu. Trong cơn giận có thể có nóng nơi mặt, tim nhanh, hình ảnh người kia, câu chuyện bất công, ý muốn nói và cả một thoáng khoái cảm khi tưởng tượng mình thắng. Nếu gọi tất cả là “thọ”, ta bỏ mất cấu trúc cần thấy.
 
 #practice-card(
-  [Tách một cảm xúc thành dữ kiện],
+  [Tách một cảm xúc thành những phần có thể quan sát],
   [
     Khi một cảm xúc vừa đủ nhẹ để quan sát an toàn, thử nhận ra lần lượt:
 
@@ -211,7 +211,7 @@ Trong khuôn khổ ấy, có thể ghi nhận “dễ chịu”, “khó chịu�
 #caution(
   [Không dùng “đừng ái” để đàn áp hoặc tự buộc tội],
   [
-    Ái không chấm dứt vì ta quát tâm “không được muốn”. Một ham muốn đã sinh là dữ kiện để biết; điều có thể làm ngay là không cấp thêm tưởng tượng, lời nói và hành động thiếu sáng suốt. Với đói, đau, nguy hiểm, bất công hoặc nhu cầu y tế, đáp ứng thích hợp không tự động là ái. Cần xét ý định, mức gây hại và hoàn cảnh, không dùng một khẩu hiệu để bỏ bê thân hay trách nhiệm.
+    Ái không chấm dứt vì ta quát tâm “không được muốn”. Một ham muốn đã sinh là điều đang có mặt để được biết; điều có thể làm ngay là không cấp thêm tưởng tượng, lời nói và hành động thiếu sáng suốt. Với đói, đau, nguy hiểm, bất công hoặc nhu cầu y tế, đáp ứng thích hợp không tự động là ái. Cần xét ý định, mức gây hại và hoàn cảnh, không dùng một khẩu hiệu để bỏ bê thân hay trách nhiệm.
   ],
 )
 

@@ -122,7 +122,7 @@ SN 22.59 ghi Đức Phật nói với nhóm năm vị Tỳ-kheo. Lập luận c�
     4. *Dục tham:* sự ham muốn và dính mắc vào khoái lạc giác quan như một mối trói. Chọn thức ăn phù hợp sức khỏe, nhận ra vẻ đẹp hay thích chỗ ngồi ít ồn không tự xác lập kiết sử đang chi phối. Dục tham thuộc nhóm năm nhưng chưa được nói là đoạn ở Nhập lưu; Bất lai là mốc đoạn đủ nhóm năm.
     5. *Sân:* ác ý và xung lực chống đối thù nghịch. Cảm giác khó chịu, nhận ra nguy hiểm, rời nơi bị bạo hành hoặc đặt ranh giới không tự là sân. Sân cũng thuộc nhóm năm và được nói là đoạn cùng cả nhóm ở Bất lai.
 
-    Ba mục đầu giải thích ranh giới Nhập lưu. Hai mục sau giải thích vì sao Nhập lưu chưa đồng nghĩa Bất lai. Một phản ứng đơn lẻ chỉ là dữ kiện cần đọc trong bối cảnh; nó không xác nhận mối trói đang có hay đã bị nhổ tận.
+    Ba mục đầu giải thích ranh giới Nhập lưu. Hai mục sau giải thích vì sao Nhập lưu chưa đồng nghĩa Bất lai. Một phản ứng đơn lẻ chỉ là một dấu hiệu cần đặt trong bối cảnh; nó không xác nhận mối trói đang có hay đã bị nhổ tận.
   ],
   label: [HAI KIẾT SỬ CÒN LẠI · K10; K24; K36; K37; BIÊN SOẠN PHẦN PHẢN VÍ DỤ],
 )
