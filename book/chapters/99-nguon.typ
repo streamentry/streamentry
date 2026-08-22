@@ -406,6 +406,12 @@ Một mã nguồn giúp tra lại gốc, nhưng không tự động chứng minh
   Ấn bản này ghi công *#(edition.metadata.author)*. Trí tuệ nhân tạo được dùng để hỗ trợ tìm kiếm, tổng hợp, soạn thảo và rà soát tư liệu; nó không phải thẩm quyền về giáo pháp, không phải nhân chứng thực hành và không thể xác nhận đạo quả.
 ])
 
-Những nhận định quan trọng trong sách đều được gắn mã nguồn để bạn có thể tự mở ra mà kiểm tra. Bản thảo vẫn cần thêm phản biện độc lập từ các vị thầy, hành giả kinh nghiệm và chuyên gia phù hợp với từng phần nội dung. Nếu bạn muốn góp sức thẩm định và có chuyên môn phù hợp về một trong những lĩnh vực ấy, hãy dùng #link("https://github.com/streamentry/streamentry/issues/new?template=external-review-interest.yml")[biểu mẫu đề nghị tham gia thẩm định]. Một đề nghị chưa phải báo cáo thẩm định; vì mục góp ý công khai nên không đăng email, số điện thoại, hồ sơ y tế hay dữ liệu người tham gia.
+Những nhận định quan trọng trong sách đều có mã nguồn để bạn tự kiểm tra được. Dù đã cố gắng đối chiếu, bản thảo chắc chắn vẫn có thể còn chỗ chưa đúng, chưa rõ, hoặc cần được trình bày tốt hơn.
 
-Dù đã cố gắng đối chiếu, sách vẫn có thể còn chỗ cần sửa. Xin gửi qua #link("https://github.com/streamentry/streamentry/issues/new?template=correction.yml")[biểu mẫu sửa sai công khai], chỉ kèm thông tin công khai. Cách phân loại nguồn, xử lý bất đồng và lưu dấu thay đổi nằm trong #link("https://github.com/streamentry/streamentry/blob/main/EDITORIAL_POLICY.md")[Chính sách biên tập và sửa sai]. Lịch sử chỉnh sửa và sổ kiểm chứng được công bố tại trang của dự án, để những thay đổi quan trọng có thể được theo dõi qua từng ấn bản.
+Nếu quý Thầy, hành giả có kinh nghiệm, người nghiên cứu hay một độc giả nào đó gặp một chỗ cần xem lại — hãy cho sách biết đoạn nào, vì sao, và nên đối chiếu với nguồn nào, qua #link("https://github.com/streamentry/streamentry/issues/new?template=correction.yml")[biểu mẫu sửa sai công khai]. Vì mục góp ý công khai, xin không đăng email, số điện thoại hay hồ sơ y tế riêng.
+
+Còn nếu bạn có chuyên môn phù hợp về Theravāda, thực hành thiền, an toàn sức khỏe tâm thần, phương pháp nghiên cứu hay quyền xuất bản, và muốn giúp bản thảo qua một vòng nhìn độc lập, hãy để lại lời mời tại #link("https://github.com/streamentry/streamentry/issues/new?template=external-review-interest.yml")[biểu mẫu đề nghị tham gia thẩm định]. Một đề nghị chưa phải báo cáo thẩm định — nhưng đó là cánh cửa để một cuộc đối thoại đáng giá bắt đầu.
+
+Quy tắc phân loại nguồn, cách xử lý khi có ý kiến khác nhau và lịch sử các lần sửa nằm trong #link("https://github.com/streamentry/streamentry/blob/main/EDITORIAL_POLICY.md")[Chính sách biên tập và sửa sai] và tại trang của dự án; những sửa đổi quan trọng sẽ đi vào các ấn bản sau, kèm nguồn đối chiếu.
+
+*Mục tiêu của việc sửa sai không phải bảo vệ cuốn sách, mà là giúp từng trang ngày càng gần sự thật hơn — và hữu ích hơn cho người đang thực hành.*

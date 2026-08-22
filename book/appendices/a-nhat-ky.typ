@@ -85,7 +85,7 @@
 #v(8pt)
 
 #practice-card(
-  [Một điều giữ lại, một điều điều chỉnh],
+  [Một điều giữ lại, một điều cần điều chỉnh],
   [
     *Giữ lại:*
     #writing-lines(count: 2)

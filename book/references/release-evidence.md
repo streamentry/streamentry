@@ -21,12 +21,12 @@ Checked: 2026-08-21
 |---|---|
 | Edition contract SHA-256 | `a6ca9289fbea4da7aa05637648b780ea0f229b017a951d94590e8b757a7dcd0f` |
 | Immutable source SHA-256 | `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440` |
-| PDF SHA-256 | `6c025bbfa70b7a86868bd518979414984746e0a89a658dbb9a42c49ff0280d0c` |
-| EPUB SHA-256 | `c746a7633bd4a66805f8ba1bc4709675cd45f390be88d94c560149e1ab4aac38` |
+| PDF SHA-256 | `9d1ef5230d3c9ec27ea33b818a175597b188614d849fdaf617a3d41a403472f7` |
+| EPUB SHA-256 | `b85e196f3620b56c1ac617f304847eb9b0b703c23fc1e3ae8ebadf348258436a` |
 | PDF extent | 220 A5 pages |
-| PDF file size | 1,727,594 bytes |
+| PDF file size | 1,728,868 bytes |
 | EPUB navigation | 252 nested content entries plus 1 cover entry |
-| EPUB archive size | 247,056 bytes |
+| EPUB archive size | 247,287 bytes |
 | Publication credit | `CS Chánh Niệm (với sự hỗ trợ tổng hợp tư liệu từ AI)` |
 
 Any content, theme, component, builder, metadata, or edition-contract change invalidates these hashes and requires this record to be regenerated.

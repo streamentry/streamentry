@@ -40,7 +40,7 @@ Chương trước phân biệt thọ với toàn bộ cảm xúc. Chương này 
 
 Ví dụ: một thông báo hiện lên khi bạn đang làm việc. Thấy màn hình là dữ kiện ở cửa mắt; thọ dễ chịu hoặc khó chịu xuất hiện; tâm muốn mở ngay, giữ cảm giác được chú ý hoặc xua nỗi bất an. Bạn chưa cần tuyên bố đã “cắt ái”. Chỉ cần thấy hướng nghiêng, không bồi thêm câu chuyện trong một nhịp, rồi chọn mở vì thật sự cần hoặc trở lại việc đang làm.
 
-Năm nhịp này là giàn giáo học tập, không phải năm sát-na tâm trong kinh. Khi niệm còn yếu, người đọc có thể chỉ kịp thấy sau khi đã phản ứng. Lần thấy muộn ấy vẫn có giá trị nếu được dùng để nhận diện điều kiện cho lần sau, thay vì biến thành tự trách. Bài tập chỉ nhìn kỹ đoạn *xúc → thọ → ái → thủ*; phần tiếp theo đặt đoạn ấy trở lại trong mười hai chi đầy đủ.
+Năm nhịp này chỉ là khung gợi ý để tập quan sát, không phải năm sát-na tâm trong kinh. Khi niệm còn yếu, người đọc có thể chỉ kịp thấy sau khi đã phản ứng. Lần thấy muộn ấy vẫn có giá trị nếu được dùng để nhận diện điều kiện cho lần sau, thay vì biến thành tự trách. Bài tập chỉ nhìn kỹ đoạn *xúc → thọ → ái → thủ*; phần tiếp theo đặt đoạn ấy trở lại trong mười hai chi đầy đủ.
 
 == Mười hai chi đang nói về điều gì?
 
@@ -236,7 +236,7 @@ Trong khuôn khổ ấy, có thể ghi nhận “dễ chịu”, “khó chịu�
 
     3. Vì sao câu “thọ đến ái luôn là mắt xích dễ cắt nhất” mạnh hơn nguồn?
 
-    Trả lời xong, mở lại phần “Từ thọ sang ái” và “Có phải chỉ cần niệm là đủ?”. Nếu còn lẫn, dùng quy trình năm nhịp trên một tình huống thật nhưng không lấy kết quả làm bằng chứng chứng đắc.
+    Trả lời xong, mở lại phần “Từ thọ sang ái” và “Có phải chỉ cần niệm là đủ?”. Nếu còn lẫn, dùng quy trình năm nhịp trên một tình huống thật nhưng không lấy kết quả ấy làm bằng chứng rằng mình đã chứng đắc.
   ],
   label: [GẤP SÁCH LẠI · TỰ NHỚ],
 )
