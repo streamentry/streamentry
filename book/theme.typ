@@ -209,7 +209,7 @@
   set par(
     justify: true,
     leading: 0.66em,
-    spacing: 0.28em,
+    spacing: 0.6em,
     first-line-indent: 1em,
   )
   set heading(numbering: none, bookmarked: true)
