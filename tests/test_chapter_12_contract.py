@@ -60,7 +60,7 @@ class Chapter12ContractTests(unittest.TestCase):
     ) -> None:
         required_sections = (
             "=== Trước khi học tên: hãy nhìn một tiến trình từ bên trong",
-            "=== Ba việc đổi song song, nhưng đừng nhập chúng làm một",
+            "=== Ba mặt có thể cùng thay đổi — nhưng không phải một",
             "=== Nguồn không cho một vạch đích có thể đo",
             "=== Một ví dụ: từ trải nghiệm đến cách hiểu thận trọng",
         )
@@ -71,14 +71,10 @@ class Chapter12ContractTests(unittest.TestCase):
             "*Độ liên tục:*",
             "*Thấy chi tiết hơn:*",
             "*Quan hệ với kinh nghiệm:*",
-            "*Nền thực hành:*",
-            "*Điều đang lặp lại:*",
-            "*Mạch chuyển tiếp:*",
-            "*Điều có lặp qua nhiều buổi không:*",
-            "*Có cách giải thích khác tốt hơn không:*",
-            "*Trải nghiệm gì?*",
-            "*Khi nào?*",
-            "*Làm sao?*",
+            "*Cách biết ấy có lặp lại không?*",
+            "*Nền thực hành có phù hợp không?*",
+            "*Mạch chuyển tiếp có hợp lý không?*",
+            "*Có cách giải thích nào tốt hơn không?*",
             "*Có một hiện tượng giống mô tả:*",
             "*Thoáng thấy cách biết đặc trưng:*",
             "*Có thêm cơ sở để tạm đặt tên một vùng tuệ khi:*",
@@ -88,9 +84,17 @@ class Chapter12ContractTests(unittest.TestCase):
             self.assertIn(distinction, self.chapter)
 
         self.assertIn(
-            "P02 không ban hành khung năm mục, không cho ngưỡng số",
+            "P02 không ban hành khung bốn câu, không cho ngưỡng số",
             self.chapter,
         )
+        for redundant_frame in (
+            "=== Một “trải nghiệm” có bốn lớp, đừng trộn chúng",
+            "[Ba mức kết luận không được trộn]",
+            "[Ba câu trả lời trung thực cho “trải nghiệm gì, khi nào, làm sao?”]",
+            "[Ba câu hỏi thay cho “làm sao lên tầng?”]",
+        ):
+            with self.subTest(redundant_frame=redundant_frame):
+                self.assertNotIn(redundant_frame, self.chapter)
         self.assertIn(
             "Nếu chỉ có rung mạnh rồi hoảng, kết luận là "
             "*chưa đủ căn cứ để gọi tên tầng*",

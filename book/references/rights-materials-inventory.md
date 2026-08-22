@@ -1,6 +1,6 @@
 # Bảng kê vật liệu và khoảng trống quyền phát hành
 
-Checked: 2026-08-21
+Checked: 2026-08-22
 
 ## Phạm vi
 
@@ -21,8 +21,8 @@ của artifact. Danh tính byte dùng cho quyết định được ghi riêng d�
 ```text
 Rights materials inventory schema: 1
 Immutable manuscript SHA-256: `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440`
-Candidate PDF SHA-256: `ebfab377e1936ca23ae97046a30e891b127e5410346082ce15d081e30d8ac471`
-Candidate EPUB SHA-256: `7e0b69988bcaa94e928589b0b8111a170124b4e366a1145e33fa8f53fdace1a7`
+Candidate PDF SHA-256: `1997b740cd40d051816ca914db61f86c23f1c8bad2d756146734a720ed625032`
+Candidate EPUB SHA-256: `9c48df239c8bf232559e96c50482bcedaeb669d240e3b897cf3062b3f2e1f7f6`
 ```
 
 `scripts/verify_release.py` từ chối bảng kê nếu một trong ba mã băm trên lệch
@@ -45,8 +45,7 @@ trước khi ký. Kho công khai có thể thay đổi sau ngày kiểm toán.
 3. Bản thảo Markdown bất biến xuất hiện từ commit đầu
    `1eded40` dưới định danh `j`. Kho không có tuyên bố nguồn gốc, hợp đồng,
    chuyển nhượng hay giấy phép riêng cho bản thảo ấy.
-4. Tín dụng xuất bản hiện là `CS Chánh Niệm (với sự hỗ trợ tổng hợp tư liệu từ
-   AI)`. Tín dụng biên tập không
+4. Thông tin tác giả hiện là `CS Chánh Niệm (với sự hỗ trợ từ AI)`. Dòng thông tin này không
    tự xác lập chuỗi quyền giữa người dùng tài khoản, người sửa bản thảo, chủ thể
    đứng sau các Git identity và nhà phát hành.
 5. Không có ảnh, SVG, phông hay tài sản raster của bên thứ ba được theo dõi

@@ -126,6 +126,12 @@ Nói gọn, “làm đúng” trong tuần đầu chỉ gồm ba việc: biết 
   label: [KHỞI ĐỘNG LẠI · BIÊN SOẠN],
 )
 
+#context {
+  if target() != "html" {
+    pagebreak(weak: true)
+  }
+}
+
 == Bốn quyết định thay cho việc cố chịu
 
 #check-row([Giữ nguyên.], [Thời khóa còn vừa với giấc ngủ và bổn phận; đau không tăng; bạn có thể nhận ra phóng tâm rồi trở về. Không cần tăng để chứng minh tiến bộ.])

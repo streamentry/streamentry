@@ -4,7 +4,15 @@
   "version": "1.0.0",
   "description": "Pinned accessibility tooling for publication CI",
   "devDependencies": {
-    "@daisy/ace-cli": "1.4.6"
+    "@daisy/ace-cli": "1.4.6",
+    "extract-zip": "file:safe-extract-zip"
+  },
+  "overrides": {
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1",
+    "extract-zip": "$extract-zip",
+    "ip-address": "10.5.0",
+    "js-yaml": "4.3.1"
   },
   "engines": {
     "node": "22.x"

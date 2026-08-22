@@ -116,7 +116,7 @@ Tuần bị đứt? Ghi quyết định theo #link(<khoi-dong-lai>)[lối khởi
 #caution(
   [Không ghi “tôi đã đắc”],
   [
-    Nhật ký dễ biến kinh nghiệm thoáng qua thành một câu chuyện chắc chắn. Hãy mô tả dữ kiện: cảm giác gì, kéo dài bao lâu, ảnh hưởng ra sao, giới và hành vi có đổi không. Các phẩm chất của bậc Nhập lưu trong K03 không phải bảng điểm để tự chứng nhận sau một buổi thiền.
+    Nhật ký dễ biến kinh nghiệm thoáng qua thành một câu chuyện chắc chắn. Hãy mô tả cụ thể: cảm giác gì, kéo dài bao lâu, ảnh hưởng ra sao, giới và hành vi có đổi không. Các phẩm chất của bậc Nhập lưu trong K03 không phải bảng điểm để tự chứng nhận sau một buổi thiền.
   ],
 )
 

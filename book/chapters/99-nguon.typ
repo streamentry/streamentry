@@ -408,10 +408,10 @@ Một mã nguồn giúp tra lại gốc, nhưng không tự động chứng minh
 
 Những nhận định quan trọng trong sách đều có mã nguồn để bạn tự kiểm tra được. Dù đã cố gắng đối chiếu, bản thảo chắc chắn vẫn có thể còn chỗ chưa đúng, chưa rõ, hoặc cần được trình bày tốt hơn.
 
-Nếu quý Thầy, hành giả có kinh nghiệm, người nghiên cứu hoặc độc giả nhận thấy một chỗ cần xem lại, xin cho biết đoạn nào, vì sao và nguồn nào nên được đối chiếu thêm, qua #link("https://github.com/streamentry/streamentry/issues/new?template=correction.yml")[biểu mẫu sửa sai công khai]. Vì đây là biểu mẫu công khai, xin không đăng email, số điện thoại hay hồ sơ y tế riêng.
+Nếu quý Thầy, hành giả có kinh nghiệm, người nghiên cứu hoặc độc giả nhận thấy một chỗ cần xem lại, xin cho biết đoạn nào, vì sao và nguồn nào nên được đối chiếu thêm qua #link("https://github.com/streamentry/streamentry/issues/new?template=correction.yml")[biểu mẫu sửa sai công khai]. Vì đây là biểu mẫu công khai, xin không đăng email, số điện thoại, hồ sơ y tế hoặc thông tin riêng tư.
 
-Nếu quý Thầy hoặc độc giả có chuyên môn về Theravāda, thực hành thiền, an toàn sức khỏe tâm thần, phương pháp nghiên cứu, bản quyền hay xuất bản và muốn đọc phản biện độc lập cho bản thảo, xin đăng ký qua #link("https://github.com/streamentry/streamentry/issues/new?template=external-review-interest.yml")[biểu mẫu tham gia thẩm định]. Lời đăng ký qua biểu mẫu này là một đề nghị, chưa phải một vòng thẩm định đã diễn ra và chưa xác nhận năng lực của ai.
+Nếu quý Thầy hoặc độc giả có chuyên môn về Theravāda, thực hành thiền, an toàn sức khỏe tâm thần, phương pháp nghiên cứu, bản quyền hay xuất bản và muốn đọc phản biện độc lập cho bản thảo, xin đăng ký qua #link("https://github.com/streamentry/streamentry/issues/new?template=external-review-interest.yml")[biểu mẫu tham gia thẩm định]. Đăng ký chỉ là bước đầu để trao đổi; nó không tự xác nhận chuyên môn hay việc thẩm định đã diễn ra.
 
-Quy tắc phân loại nguồn và cách xử lý khi có ý kiến khác nhau được trình bày trong #link("https://github.com/streamentry/streamentry/blob/main/EDITORIAL_POLICY.md")[Chính sách biên tập và sửa sai]; lịch sử những thay đổi quan trọng được công bố tại trang của dự án cùng nguồn đối chiếu.
+Quy tắc phân loại nguồn và cách xử lý khi có ý kiến khác nhau được trình bày trong #link("https://github.com/streamentry/streamentry/blob/main/EDITORIAL_POLICY.md")[Chính sách biên tập và sửa sai]. Lịch sử những thay đổi quan trọng được công bố tại trang của dự án cùng nguồn đối chiếu.
 
-*Mục tiêu của việc sửa sai không phải bảo vệ cuốn sách, mà là giúp từng trang ngày càng gần sự thật hơn — và hữu ích hơn cho người đang thực hành.*
+*Mục tiêu của việc sửa sai không phải bảo vệ cuốn sách, mà là giúp từng trang ngày càng gần sự thật hơn và hữu ích hơn cho người đang thực hành.*

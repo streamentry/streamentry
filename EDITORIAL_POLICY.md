@@ -13,8 +13,7 @@ riêng, không suy ra từ việc kho mã có thể truy cập công khai.
 
 ## Ai chịu trách nhiệm cho ấn bản
 
-Tín dụng xuất bản hiện tại là `CS Chánh Niệm (với sự hỗ trợ tổng hợp tư liệu từ
-AI)`. `CS Chánh Niệm` là tên
+Thông tin tác giả hiện tại là `CS Chánh Niệm (với sự hỗ trợ từ AI)`. `CS Chánh Niệm` là tên
 được công bố trên ấn bản, không phải một hồ sơ học thuật hoặc giấy xác nhận tư
 cách giảng sư. Kho hiện chưa công bố một tiểu sử, bằng cấp hay sự chuẩn nhận có
 thể kiểm chứng độc lập cho tên này.

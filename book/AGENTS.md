@@ -18,7 +18,7 @@ This module owns the A5 and reflowable publication system for *Hướng Đến N
 - For attainment questions, keep the first three fetters, the full five lower fetters, and the four fruits separate. Chapter 10 owns the first three fetters; Chapter 11 owns the full five, the four fruits, and the DN 2 distinction; the glossary provides direct lookup.
 
 The current Vietnamese contract declares the publication credit
-`CS Chánh Niệm (với sự hỗ trợ tổng hợp tư liệu từ AI)`. Change it only in
+`CS Chánh Niệm (với sự hỗ trợ từ AI)`. Change it only in
 `edition.json`; the cover and PDF
 metadata must consume that value. The root README may describe the current
 edition but is not another authority.

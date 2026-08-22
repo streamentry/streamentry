@@ -14,7 +14,7 @@ Chương này đi chậm hơn một nhịp: trước khi nói đến kỹ thuậ
   [Phỏng dịch Tứ Thánh Đế, K05 · SN 56.11, Dhammacakkappavattana Sutta.],
 )
 
-== Đích đến bắt đầu bằng một chẩn đoán đúng
+== Muốn đi đúng, trước hết phải thấy đúng vấn đề
 
 #source-line("KINH", [K05 · SN 56.11], [
   Tứ Thánh Đế (nhiều người quen gọi là Tứ Diệu Đế — hai tên chỉ một điều) không dạy phủ nhận niềm vui của đời sống. Bài kinh nói cụ thể hơn: sinh, già và chết là khổ; sầu, bi, đau, ưu, não là khổ; gặp điều không ưa, xa điều yêu và không được điều mình muốn là khổ; tóm lại, năm thủ uẩn là khổ. Nguồn gốc được nêu là ái dẫn đến hữu tiếp theo, đi cùng thích thú và đắm trước: ái dục, ái hữu và ái phi hữu. Sự chấm dứt là ly tham, từ bỏ, buông ra và không còn bám vào chính ái ấy. Con đường là Bát Chánh Đạo (cũng được dịch là Bát Thánh Đạo).
@@ -146,7 +146,7 @@ Những tiêu chuẩn trên mô tả người đã vào dòng. Bốn yếu tố 
 ])
 
 #practice-card(
-  [Kiểm tra nền đất mỗi tháng],
+  [Rà lại nền thực hành mỗi tháng],
   [
     Hãy nhìn bốn câu hỏi, không chấm hạng tâm linh:
 
