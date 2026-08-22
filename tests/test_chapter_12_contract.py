@@ -62,7 +62,7 @@ class Chapter12ContractTests(unittest.TestCase):
             "=== Trước khi học tên: hãy nhìn một tiến trình từ bên trong",
             "=== Ba việc đổi song song, nhưng đừng nhập chúng làm một",
             "=== Nguồn không cho một vạch đích có thể đo",
-            "=== Một ví dụ: từ trải nghiệm được kể lại đến cách hiểu thận trọng",
+            "=== Một ví dụ: từ trải nghiệm đến cách hiểu thận trọng",
         )
         for heading in required_sections:
             self.assertIn(heading, self.chapter)

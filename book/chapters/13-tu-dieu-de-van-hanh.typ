@@ -99,7 +99,7 @@ Một lời khen có thể làm tâm vui. Một bữa cơm ngon có thể nuôi 
 
 Hãy tách một việc thành bốn lớp:
 
-+ *Dữ kiện:* điều mắt, tai, thân hoặc ý đang gặp.
++ *Điều đang xảy ra:* điều mắt, tai, thân hoặc ý đang gặp.
 + *Thọ:* sắc thái dễ chịu, khó chịu hay trung tính.
 + *Câu chuyện:* điều tâm suy ra thêm về người khác hoặc về chính mình.
 + *Chấp thủ:* điều ta bắt phải đúng thì mới cho phép mình ổn.
@@ -147,7 +147,7 @@ Bốn kiểu thủ có thể đọc như bốn cách biến một thứ thành c
 + *Giới cấm thủ:* “Chỉ cần làm đúng hình thức này là đủ được thanh lọc hoặc giải thoát.” Giữ giới và dùng nghi thức không phải tự thân là sai; sai lầm nằm ở việc biến phương tiện thành bảo đảm tự động.
 + *Ngã luận thủ:* “Có một cái tôi cố định đứng sau các tiến trình này” hoặc “tôi vốn là kiểu người không thể thay đổi”.
 
-Đây là các câu diễn giải để nhận mặt, không phải bốn định nghĩa Việt nguyên văn. Chúng giúp thấy vì sao một thọ khó chịu có thể nhanh chóng trở thành cuộc chiến về danh dự, một quy tắc hay một căn tính.
+Đây là các câu diễn giải để nhận mặt, không phải bốn định nghĩa Việt nguyên văn. Chúng giúp thấy vì sao một thọ khó chịu có thể nhanh chóng trở thành cuộc chiến về danh dự, một quy tắc hay một hình ảnh về chính mình.
 
 === Vô minh có phải là si?
 
@@ -181,7 +181,7 @@ Bốn kiểu thủ có thể đọc như bốn cách biến một thứ thành c
 Trong tiếng Việt, ba độc thường được gom thành “tham–sân–si”. Cách gom này hữu ích để nhớ hướng kéo, đẩy và mê mờ, nhưng không đủ để thay thế mọi thuật ngữ:
 
 + *Ái và tham:* *taṇhā* là từ giữ vai trò trung tâm trong Tập đế; *lobha* hay *rāga* gần với tham, say đắm và chiếm hữu trong những ngữ cảnh rộng hơn. Chúng cùng một họ, nhưng không nên dùng một từ để xóa mọi khác biệt.
-+ *Sân và chấp thủ:* sân nghiêng về chống đối và đẩy ra; thủ là nắm chặt, đồng hóa hoặc dựa căn tính vào một đối tượng, quan điểm hay quy tắc. Chúng thường nuôi nhau nhưng không phải một. Từ chối một hành vi gây hại cũng không tự nó là sân.
++ *Sân và chấp thủ:* sân nghiêng về chống đối và đẩy ra; thủ là nắm chặt hoặc gắn mình vào một đối tượng, quan điểm hay quy tắc. Chúng thường nuôi nhau nhưng không phải một. Từ chối một hành vi gây hại cũng không tự nó là sân.
 
 Một cơn giận có thể đồng thời chứa mong muốn được công nhận, lực chống đối và sự không thấy rõ dữ kiện. Nhìn các lớp ấy giúp ta chọn đúng việc cần làm; không biến một nhãn tâm lý thành kết luận về quả vị.
 
@@ -298,7 +298,7 @@ Trong thực hành, có thể gặp những mức gần nhau nhưng không đồ
     Khi phản ứng đủ nhẹ để quan sát an toàn, hãy cảm nhận thọ trong vài nhịp mà không thêm câu “tôi phải thoát ngay”. Sau đó hỏi:
 
     - Phần khổ do kể chuyện hoặc chống đối có giảm không?
-    - Dữ kiện thực tế nào vẫn còn cần xử lý?
+    - Việc gì ngoài đời vẫn còn cần được xử lý?
     - Hành động tiếp theo có thể đúng và không gây hại là gì?
 
     Nếu khổ giảm, bạn có thêm dữ liệu rằng khổ phụ thuộc điều kiện. Bạn chưa có bằng chứng rằng tham ái đã đoạn tận, một kiết sử đã rơi hay một quả đã thành tựu.
@@ -367,7 +367,7 @@ Không cần chờ tới khi một buổi ngồi mới thực hành Đạo đế
   SN 55.5 gọi “dòng” là toàn bộ Bát Chánh Đạo; SN 45.8 định nghĩa đủ tám chi. Vì vậy, một cách ghi nhận, một bài tập thở, một tư thế, một lịch ngồi hay một phương pháp Mahāsi có thể nâng đỡ một số chi đạo, nhưng không đồng nhất với cả dòng và không tự chứng minh quả Nhập lưu.
 ])
 
-Nếu niệm được tách khỏi giới, nó có thể thành kỹ năng quan sát phục vụ tham vọng. Nếu định được tách khỏi chánh kiến, nó có thể chỉ là trạng thái dễ chịu. Nếu kiến thức không đi vào lời nói, hành động và nghề nghiệp, nó có thể trở thành một căn tính trí thức. Bát Chánh Đạo là một hệ thống tự sửa sai, không phải danh sách để tích đủ tám dấu.
+Nếu niệm được tách khỏi giới, nó có thể thành kỹ năng quan sát phục vụ tham vọng. Nếu định được tách khỏi chánh kiến, nó có thể chỉ là trạng thái dễ chịu. Nếu kiến thức không đi vào lời nói, hành động và nghề nghiệp, nó có thể trở thành một hình ảnh trí thức để ta bám vào. Bát Chánh Đạo là một hệ thống tự sửa sai, không phải danh sách để tích đủ tám dấu.
 
 == 6. Đặt bản đồ vào một khoảnh khắc thật
 
@@ -375,10 +375,10 @@ Nếu niệm được tách khỏi giới, nó có thể thành kỹ năng quan 
 
 Một người nhận phản hồi gay gắt về bản thảo. Họ nghe câu nói, thấy ngực co và lập tức muốn trả lời để giành lại vị thế.
 
-+ *Khổ:* có thọ khó chịu, sợ mất uy tín và câu chuyện “tôi bị hạ thấp”. Phần nào là dữ kiện, phần nào là diễn giải cần được tách ra.
-+ *Tập:* dục ái muốn được khen; hữu ái muốn giữ căn tính “tôi là người giỏi”; phi hữu ái muốn lời phê bình biến mất. Thủ biến câu chuyện “tôi phải đúng” thành lập trường.
++ *Khổ:* có thọ khó chịu, sợ mất uy tín và câu chuyện “tôi bị hạ thấp”. Phần nào là điều thực sự xảy ra, phần nào là câu chuyện tâm thêm vào?
++ *Tập:* dục ái muốn được khen; hữu ái muốn giữ hình ảnh “tôi là người giỏi”; phi hữu ái muốn lời phê bình biến mất. Thủ biến câu chuyện “tôi phải đúng” thành lập trường.
 + *Diệt:* nếu không gửi ngay lời trả đũa, một phần sức ép có thể giảm. Sự giảm ấy không xóa câu hỏi thật: phản hồi có căn cứ đến đâu và bản thảo cần sửa gì?
-+ *Đạo:* chánh kiến xem phản hồi như dữ liệu chưa được phân tích; chánh tư duy không hại; chánh ngữ hỏi cho rõ; chánh tinh tấn không nhai lại; chánh niệm biết thọ và ý định; chánh định giúp tâm đủ vững để nghe hết.
++ *Đạo:* chánh kiến xem phản hồi như điều cần kiểm tra, không lập tức biến nó thành bản án về mình; chánh tư duy không hại; chánh ngữ hỏi cho rõ; chánh tinh tấn không nhai lại; chánh niệm biết thọ và ý định; chánh định giúp tâm đủ vững để nghe hết.
 
 Đây là một minh họa biên soạn. Kinh không kể tình huống công sở, không quy định phải đợi bao nhiêu giây và không bảo đảm rằng một vòng bốn câu sẽ giải quyết được xung đột.
 
@@ -405,7 +405,7 @@ Không dùng bản đồ này để trì hoãn hành động. Nếu trẻ sắp 
 Nhập lưu vì thế không phải một trải nghiệm đặc biệt được gắn nhãn sau buổi ngồi. Cũng không phải kết quả của việc thuộc bảng 3–5–4. Sách đã dành Chương 10 cho ba kiết sử đầu và Chương 11 cho toàn bộ năm hạ phần cùng bốn quả; chương này chỉ đặt chúng trở lại trong nhiệm vụ cốt lõi của Tứ Đế.
 
 #caution(
-  [Đừng biến bản đồ thành căn tính mới],
+  [Đừng dùng bản đồ để dựng thêm một cái tôi mới],
   [
     #source-badge("BIÊN SOẠN", refs: [đối chiếu K02; K11; Chương 10])
     #v(5pt)

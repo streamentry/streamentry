@@ -101,7 +101,7 @@ Ba phần đầu có thể được mô tả trực tiếp. Lớp cuối là di�
 #practice-card(
   [Đọc một câu trình pháp đúng thứ tự],
   [
-    “Có tiếng xe” là đối tượng. “Nghe được nhận ra ngay” là việc biết. “Khó chịu và muốn nó dừng” là phản ứng. “Có lẽ cách thấy sinh-diệt đang rõ hơn” mới là giả thuyết.
+    “Có tiếng xe” là đối tượng. “Nghe được nhận ra ngay” là việc biết. “Khó chịu và muốn nó dừng” là phản ứng. “Có lẽ cách thấy sinh-diệt đang rõ hơn” mới là một cách hiểu tạm thời.
 
     Đừng đảo thứ tự thành: “Tôi ở tuệ sinh-diệt, bằng chứng là có tiếng xe rồi nó hết.” Mọi âm thanh đều hết; điều cần xem là cách toàn tiến trình được biết có đủ nền, đủ lặp lại và đủ nhất quán hay không.
   ],
@@ -111,7 +111,7 @@ Ba phần đầu có thể được mô tả trực tiếp. Lớp cuối là di�
 #practice-card(
   [Sáu câu hỏi để đọc mỗi tầng],
   [
-    + *Nền đất:* điều gì trong tiến trình phải tương đối chín?
+    + *Nền thực hành:* điều gì cần tương đối vững trước đó?
     + *Cách biết đổi:* hành giả đang trực tiếp nhận ra điều gì mà trước đó chưa nổi bật?
     + *Có thể trải nghiệm ra sao:* những biểu hiện nào P02 thực sự mô tả?
     + *Việc cần làm:* tiếp tục quan sát thế nào mà không diễn theo tên tầng?
@@ -133,7 +133,7 @@ Trong ngôn ngữ của bản đồ, một thoáng kinh nghiệm giống mô t�
 
 + *Có một nền thực hành tương đối vững.* Giới, cách quan sát và độ liên tục của tâm đã tương đối vững; các triền cái không còn liên tục cuốn mất việc ghi nhận.
 + *Cách biết mới trở thành khuynh hướng chi phối.* Nó lặp lại qua nhiều đối tượng hoặc nhiều lần quan sát, không chỉ xuất hiện trong một giây gây ấn tượng.
-+ *Sự chuyển tiếp có mạch.* Mặt được biết ở giai đoạn trước làm nền cho mặt kế tiếp; hành giả không phải tưởng tượng sẵn rồi tìm một cảm giác để khớp tên.
++ *Mạch chuyển tiếp hợp lý.* Phần trước nối với phần sau một cách dễ hiểu; mặt được biết ở giai đoạn trước làm nền cho mặt kế tiếp làm nền cho mặt kế tiếp; hành giả không phải tưởng tượng sẵn rồi tìm một cảm giác để khớp tên.
 + *Các cách giải thích khác đã được giữ mở.* Định, thiếu ngủ, đau, thuốc, lo âu, phân ly, kỳ vọng và vấn đề sức khỏe chưa bị gạt bỏ chỉ vì nhãn tâm linh nghe hấp dẫn hơn.
 
 Ngay cả khi bốn điều ấy có vẻ khớp, “đang ở vùng này” vẫn chỉ là một cách hiểu tạm thời để đem trình với người hướng dẫn. Nó không phải phép đo khách quan và không đồng nghĩa với chứng đạo.
@@ -197,7 +197,7 @@ Bản đồ chỉ đúng khi nó đưa người đọc trở về việc quan s�
   [
     + *Điều kiện nào đang thiếu?* Giới và an toàn, đối tượng đủ rõ, niệm, định sát-na tức khả năng tâm quy tụ liên tiếp trên từng đối tượng, tinh tấn cân bằng hay tính liên tục?
     + *Cách biết nào đang thật sự lặp lại?* Phân biệt đối tượng với việc biết, thấy điều kiện, thấy sinh-diệt, thấy mặt tan, thấy tính bất toại nguyện hay biết các hành với quân bình?
-    + *Tôi đang quan sát hay đang dàn dựng?* Nếu phải tưởng tượng, làm cảm xúc mạnh hơn, săn một hiện tượng hoặc kể lại theo từ khóa đã học, hãy bỏ tên tầng và trở về dữ kiện.
+    + *Tôi đang quan sát hay đang dàn dựng?* Nếu phải tưởng tượng, làm cảm xúc mạnh hơn, săn một hiện tượng hoặc kể lại theo từ khóa đã học, hãy bỏ tên tầng và trở về điều đang thực sự được thấy.
 
     Đây là cầu nối thực hành do sách biên soạn từ P02. Nó không phải bài kiểm tra chẩn đoán và không bảo đảm rằng trả lời đúng ba câu sẽ làm một tuệ xuất hiện.
   ],
@@ -216,7 +216,7 @@ Bản đồ chỉ đúng khi nó đưa người đọc trở về việc quan s�
   label: [LỐI ĐỌC CHO NGƯỜI CHƯA BIẾT THANH TỊNH ĐẠO],
 )
 
-=== Một ví dụ: từ trải nghiệm được kể lại đến cách hiểu thận trọng
+=== Một ví dụ: từ trải nghiệm đến cách hiểu thận trọng
 
 Giả sử một người nói: “Tối qua tôi thấy toàn thân tan thành rung động, rồi rất sợ. Có phải tôi đã qua tuệ tan rã và tuệ đáng sợ không?” Câu hỏi ấy chưa thể trả lời bằng hai từ khóa “tan” và “sợ”.
 
@@ -410,7 +410,7 @@ Phần khái quát bốn vùng ở trên cho thấy mạch trước khi phần n
 
 *Cách biết đổi.* “Sắc” ở đây chỉ tiến trình vật chất được biết; “danh” chỉ tiến trình biết và các hoạt động tâm. Trong ví dụ của P02, chuyển động bụng là một tiến trình, cái biết chuyển động là một tiến trình khác. Điểm chính không phải lặp câu “không có tôi”, mà là trực tiếp phân biệt đối tượng với việc biết đối tượng.
 
-Người mới có thể thoáng nhận ra “đau là một việc, biết đau là việc khác”. Dữ kiện ấy phù hợp hướng của bản đồ nhưng chưa đủ xác định một tầng. Phân tích bằng ý nghĩ, cảm giác xa lạ với thân và trạng thái phân ly cũng có thể tạo ngôn ngữ tương tự. P02 nhấn mạnh tri kiến sinh do quan sát, không do suy luận thuần túy.
+Người mới có thể thoáng nhận ra “đau là một việc, biết đau là việc khác”. Điều vừa thấy phù hợp với hướng của bản đồ, nhưng chưa đủ để gọi tên một tầng. Phân tích bằng ý nghĩ, cảm giác xa lạ với thân và trạng thái phân ly cũng có thể tạo ngôn ngữ tương tự. P02 nhấn mạnh tri kiến sinh do quan sát, không do suy luận thuần túy.
 
 *Nền thực hành và khi nào tên này có cơ sở.* Việc ghi nhận đã đủ liên tục để tâm không chỉ thấy một khối “tôi đang thở” hay “tôi đang đau”. Ngay lúc phồng, có tiến trình căng-chuyển động và có việc biết nó; lúc nghe, có âm thanh và có việc nghe; lúc suy nghĩ, có hoạt động tâm được nhận ra. Sự phân biệt này lặp lại ở nhiều đối tượng mà không cần dựng bằng lý luận.
 
@@ -790,7 +790,7 @@ Trình pháp tốt không bắt đầu bằng câu “con ở tuệ mấy?”. T
 - Đối tượng chính và cách ghi nhận thực tế là gì?
 - Điều gì nổi bật lặp lại qua nhiều buổi, và điều gì chỉ xảy ra một lần?
 - Tri kiến được kể là thấy trực tiếp hay là suy luận sau khi đọc sách?
-- Nền đất và dấu hiệu chuyển tiếp có khớp với mạch P02 không?
+- Nền thực hành và mạch chuyển tiếp có khớp với P02 không?
 - Có hiện tượng định, thiếu ngủ, đau, thuốc, bệnh hoặc ám thị giải thích tốt hơn không?
 - Sau buổi hành, giới hạnh, phán đoán, giấc ngủ và khả năng làm việc ra sao?
 
