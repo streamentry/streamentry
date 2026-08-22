@@ -44,7 +44,7 @@ Chương này chỉ giữ một trục: *ba kiết sử đầu*. Đây là ba c�
 
     1. *Sai về đối tượng đang bị nắm:* thân kiến đặt sắc, thọ, tưởng, hành hoặc thức vào quan hệ “đây là tôi”, “đây là của tôi”, “uẩn này ở trong một tự ngã” hoặc “một tự ngã ở trong uẩn này”. Vấn đề không nằm ở đại từ “tôi”, mà ở kiến chấp lấy kinh nghiệm có điều kiện làm một lõi tự ngã.
     2. *Chưa có căn cứ đủ vững về đường đi:* hoài nghi như kiết sử là sự phân vân trên trục Phật, Pháp, Tăng, con đường và sự thực hành chưa được tháo bằng học, hành và thấy biết đã được xác chứng. Vấn đề không nằm ở quyền hỏi, mà ở chỗ đường ra khỏi khổ chưa được thấy đủ để tâm đứng vững trên đó.
-    3. *Sai về chức năng của phương tiện:* chấp thủ giới-tập tục nâng giới điều, nghi thức, khổ hạnh hay kỹ thuật thành nguyên nhân đủ hoặc bảo chứng giải thoát. Vấn đề không nằm ở việc có phương pháp, mà ở chỗ phương pháp bị thay vào vị trí của toàn bộ Bát Chánh Đạo.
+    3. *Sai về chức năng của phương tiện:* chấp thủ giới-tập tục nâng giới điều, nghi thức, khổ hạnh hay kỹ thuật thành nguyên nhân đủ hoặc điều kiện chắc chắn cho giải thoát. Vấn đề không nằm ở việc có phương pháp, mà ở chỗ phương pháp bị thay vào vị trí của toàn bộ Bát Chánh Đạo.
 
     Nói gọn: *nắm sai cái đang được kinh nghiệm; chưa đứng vững trên con đường đã được kiểm chứng; nắm sai quan hệ giữa phương tiện và cứu cánh*. Ba lỗi có thể nâng đỡ nhau, nhưng MN 2 không trình bày chúng như ba nấc phải đoạn theo thứ tự 1–2–3. Bài kinh đặt sự đoạn cả ba sau như lý tác ý đến Tứ Thánh Đế. Vì vậy, hướng tu là làm chín một cái thấy đúng về khổ, nguồn gốc, sự chấm dứt và con đường, chứ không săn ba mẹo riêng.
 
@@ -95,7 +95,7 @@ Chương này chỉ giữ một trục: *ba kiết sử đầu*. Đây là ba c�
     1. *Dữ kiện trước tiên:* có áp lực nơi gối, thọ khó chịu, ý muốn đổi tư thế và các ý nghĩ về buổi ngồi. Chưa dữ kiện nào tự nó là một kiết sử.
     2. *Chỗ thân kiến có thể bấu:* “Thân tôi hỏng rồi”, “tôi là người tu thất bại”, hoặc “phải có một người điều khiển khiến cảm giác biến mất”. Sự quan sát đúng hướng là phân biệt sắc, thọ, tưởng, hành và thức, rồi thấy chúng nương điều kiện và đổi thay. Không cần phủ nhận trách nhiệm chăm sóc thân.
     3. *Chỗ hoài nghi có thể bị xử lý sai:* từ một cơn đau, tâm nhảy sang “toàn bộ Pháp này sai”, nhưng không kiểm chỉ dẫn, nguyên nhân thân thể, ngưỡng an toàn hay mục đích của bài tập. Cực kia cũng sai: ép mình tin phương pháp tuyệt đối đúng để khỏi phải thừa nhận điều chưa biết.
-    4. *Chỗ chấp thủ giới-tập tục có thể bấu:* “Người tu thật không bao giờ đổi tư thế; nếu cử động thì chắc chắn mất cơ hội chứng quả.” Một quy ước hữu ích bị biến thành bảo chứng giải thoát, thậm chí được đặt cao hơn an toàn và chánh kiến.
+    4. *Chỗ chấp thủ giới-tập tục có thể bấu:* “Người tu thật không bao giờ đổi tư thế; nếu cử động thì chắc chắn mất cơ hội chứng quả.” Một quy ước hữu ích bị biến thành bảo đảm giải thoát, thậm chí được đặt cao hơn an toàn và chánh kiến.
     5. *Cách đi đúng chiều:* nhận biết kinh nghiệm đang có; phân biệt cảm giác với câu chuyện về “tôi”; kiểm hướng dẫn và ngưỡng an toàn; đổi tư thế có chủ ý khi cần; rồi nhìn xem cách xử lý ấy có nuôi giới, niệm, định và tuệ hay không.
 
     Ca này không nói đau gối tạo ra ba kiết sử, cũng không dạy rằng xử lý tốt một lần sẽ đoạn chúng. Nó chỉ cho người mới một cách nhìn: *đừng lấy một cảm giác làm tự ngã; đừng giải quyết phần chưa biết bằng tin mù hoặc nghi quay vòng; đừng biến quy ước thành bùa bảo chứng*.
@@ -578,7 +578,7 @@ Người tại gia có thể làm phần việc trước mắt: giữ giới, s�
     3. Một câu hỏi tìm chứng cứ khác hoài nghi như kiết sử ở điểm nào?
     4. Giữ giới đúng chức năng khác chấp thủ giới-tập tục như bùa bảo chứng ra sao?
     5. Nêu một trải nghiệm có thể quan trọng nhưng tự nó không đủ chứng minh Nhập lưu.
-    6. Kinh bác bỏ hai giới hạn căn cước nào đối với Nhập lưu, và vì sao điều đó vẫn không thành lời bảo đảm cho mọi cá nhân?
+    6. Kinh bác bỏ hai giới hạn về thân phận nào đối với Nhập lưu, và vì sao điều đó vẫn không thành lời bảo đảm cho mọi cá nhân?
 
     *Câu nhớ:* đừng hỏi “tôi đã đạt chưa?”, hãy hỏi “hôm nay tôi thấy rõ điều gì hơn, và lời nói, hành động của tôi thay đổi ra sao?”.
 

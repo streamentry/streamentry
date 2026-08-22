@@ -107,7 +107,7 @@ Hãy tách một việc thành bốn lớp:
 #practice-card(
   [Một lời phê bình, nhìn Khổ đế cho đủ],
   [
-    Có người nói: “Bản này còn thiếu căn cứ.” Dữ kiện là một câu nhận xét. Ngực nóng và thọ khó chịu có thể xuất hiện. Câu chuyện có thể là “họ coi thường năng lực của tôi”. Chấp thủ có thể là “tôi phải được nhìn nhận là người luôn đúng”.
+    Có người nói: “Bản này còn thiếu căn cứ.” Điều thực sự xảy ra trước tiên chỉ là một câu nhận xét. Ngực nóng và thọ khó chịu có thể xuất hiện. Câu chuyện có thể là “họ coi thường năng lực của tôi”. Chấp thủ có thể là “tôi phải được nhìn nhận là người luôn đúng”.
 
     Bài tập không bảo bạn kết luận người kia đúng. Nó chỉ tách việc cần kiểm chứng khỏi phần khổ do phải bảo vệ một hình ảnh. Nếu nhận xét có căn cứ, bạn vẫn cần sửa bản thảo. Nếu nhận xét sai, bạn vẫn có thể trả lời. Thấy Khổ đế không thay thế quyết định thực tế; nó làm quyết định bớt bị kéo bởi tự vệ.
   ],
@@ -152,14 +152,14 @@ Bốn kiểu thủ có thể đọc như bốn cách biến một thứ thành c
 === Vô minh có phải là si?
 
 #source-line("KINH", [K31 · MN 9; K26 · SN 12.2], [
-  MN 9 dùng *moha* trong bộ ba gốc bất thiện — tham, sân, si — rồi ở phần duyên khởi lại dùng *avijjā* cho sự không biết khổ, nguồn sinh khổ, sự chấm dứt khổ và con đường. SN 12.2 cũng định nghĩa *avijjā* theo bốn sự thật và đặt nó làm điều kiện cho hành. Chính các bài kinh vì thế cho hai từ những vai trò kỹ thuật khác nhau, dù vùng nghĩa chồng lấp mạnh.
+  MN 9 dùng *moha* trong bộ ba gốc bất thiện — tham, sân, si — rồi ở phần duyên khởi lại dùng *avijjā* cho sự không biết khổ, nguồn sinh khổ, sự chấm dứt khổ và con đường. SN 12.2 cũng định nghĩa *avijjā* theo bốn sự thật và đặt nó làm điều kiện cho hành. Chính các bài kinh vì thế cho hai từ hai vai trò kỹ thuật khác nhau, dù ý nghĩa của chúng chồng lấn đáng kể.
 ])
 
 #concept-map(
   concept-node(
     [MOHA · SI · K31],
     [Khung ba gốc bất thiện],
-    [Đi cùng tham và sân để chỉ gốc mê mờ của tâm bất thiện. Đây là một lăng kính về phẩm chất đang nhuộm tâm.],
+    [Đi cùng tham và sân để chỉ gốc mê mờ của tâm bất thiện; khung này giúp nhận ra phẩm chất nào đang làm tâm nhiễm ô.],
     accent: palette.clay,
   ),
   concept-node(
@@ -243,7 +243,7 @@ Phân biệt này làm bài tập sắc hơn. Với một tin nhắn:
 
     *5. Chọn hành động đúng, không hại và phù hợp hoàn cảnh.* Có thể là hỏi cho rõ, rời môi trường, sửa sai, đổi tư thế, hoàn thành bổn phận hoặc tìm trợ giúp.
 
-    Năm nhịp này là giàn giáo biên soạn để làm đoạn xúc–thọ–ái–thủ dễ quan sát. Nó không phải năm sát-na tâm, không phải toàn bộ mười hai chi và không phải kỹ thuật bảo đảm đoạn ái.
+    Năm nhịp này là một khung thực hành do sách biên soạn để giúp đoạn xúc–thọ–ái–thủ dễ quan sát hơn. Nó không phải năm sát-na tâm, không phải toàn bộ mười hai chi và không phải kỹ thuật bảo đảm đoạn ái.
   ],
   label: [BÀI TẬP · BIÊN SOẠN THEO K26–K31],
 )

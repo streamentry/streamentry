@@ -81,7 +81,7 @@ class Chapter12ContractTests(unittest.TestCase):
             "*Làm sao?*",
             "*Có một hiện tượng giống mô tả:*",
             "*Thoáng thấy cách biết đặc trưng:*",
-            "*Một vùng tuệ có cơ sở làm giả thuyết:*",
+            "*Có thêm cơ sở để tạm đặt tên một vùng tuệ khi:*",
             "*Đạo quả:*",
         )
         for distinction in required_distinctions:
