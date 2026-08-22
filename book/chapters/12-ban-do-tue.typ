@@ -40,7 +40,7 @@ Sau một thời gian thực hành đều và vừa sức, người ấy có th�
 
 Khi tính liên tục và độ rõ chín hơn, cảm giác có thể không còn hiện như vật đứng yên. Nó khởi, đổi rồi mất; việc biết nó cũng đổi. Có lúc tiến trình rất sáng, nhanh và trôi chảy; hỷ, nhẹ, ánh sáng hoặc niềm tin có thể đi kèm. Việc hành đúng không phải giữ những trạng thái ấy, mà biết luôn chúng và sự ưa thích chúng. Trong bản đồ, đây là vùng sinh-diệt. Ánh sáng hay sung sướng đứng riêng không xác nhận vùng ấy.
 
-Nếu mặt chấm dứt trở nên chi phối, người ấy có thể thấy rõ việc các cảm giác và lần biết liên tục tan. Các hành vì thế hiện như không có chỗ nương chắc; sợ, khổ lụy, bớt say mê hoặc muốn thoát có thể nổi lên. Nhưng cùng những chữ ấy cũng có thể mô tả hoảng loạn, trầm cảm, phân ly hoặc thiếu ngủ. Chỉ khi cách biết có một nền đất vững, lặp lại qua nhiều đối tượng, đi theo một chuyển tiếp có logic và không bị giải thích an toàn tốt hơn, “vùng tan rã và bất toại nguyện” mới là một giả thuyết trình pháp có cơ sở hơn.
+Nếu mặt chấm dứt trở nên chi phối, người ấy có thể thấy rõ việc các cảm giác và lần biết liên tục tan. Các hành vì thế hiện như không có chỗ nương chắc; sợ, khổ lụy, bớt say mê hoặc muốn thoát có thể nổi lên. Nhưng cùng những chữ ấy cũng có thể mô tả hoảng loạn, trầm cảm, phân ly hoặc thiếu ngủ. Chỉ khi cách biết có một nền đất vững, lặp lại qua nhiều đối tượng, đi theo một chuyển tiếp hợp lý và không bị giải thích an toàn tốt hơn, “vùng tan rã và bất toại nguyện” mới là một giả thuyết trình pháp có cơ sở hơn.
 
 P02 tiếp tục mô tả rằng khi việc quán chín, sự chống cự có thể lắng và các hành được biết quân bình hơn. Người hành không làm ra xả bằng cách ép mình vô cảm. Họ tiếp tục biết dễ chịu, khó chịu, ý muốn giữ trạng thái và ý chờ một bước nhảy. Nếu quân bình chỉ là buồn ngủ, tê cảm xúc hoặc tách rời, đó không phải điều bản đồ muốn chỉ.
 
@@ -51,10 +51,10 @@ Toàn câu chuyện trên có thể kéo dài, dao động, lặp lại hoặc k
   [
     + *Có một hiện tượng giống mô tả:* ánh sáng, rung, sợ, yên hoặc một lần thấy cảm giác mất. Ở mức này, điều đáng quan sát là cách thấy lặp lại qua nhiều đối tượng; một hiện tượng đơn lẻ chưa nói lên tầng nào.
     + *Thoáng thấy cách biết đặc trưng:* chẳng hạn trực tiếp phân biệt đau với việc biết đau. Đây là dữ kiện có giá trị, nhưng chưa phải một vùng đã chín.
-    + *Một vùng tuệ có cơ sở làm giả thuyết:* cách biết ấy trở nên chi phối, lặp lại trên nền phù hợp, có dấu hiệu chuyển tiếp hợp logic và vẫn đứng vững khi xét các cách giải thích khác.
+    + *Một vùng tuệ có cơ sở làm giả thuyết:* cách biết ấy trở nên chi phối, lặp lại trên nền phù hợp, có dấu hiệu chuyển tiếp hợp lý và vẫn đứng vững khi xét các cách giải thích khác.
     + *Đạo quả:* là kết luận khác hẳn. Bản đồ hiện tượng không tự chứng minh ba kiết sử đầu đã được đoạn trừ.
 
-    Vì vậy, câu “khi nào đạt?” phải đi kèm câu “đạt theo nghĩa nào?”. Nếu không tách bốn nghĩa này, một trải nghiệm mạnh rất dễ bị nâng thành một tuyên bố mà dữ kiện không gánh nổi.
+    Vì vậy, câu “khi nào đạt?” phải đi kèm câu “đạt theo nghĩa nào?”. Nếu không tách bốn nghĩa này, một trải nghiệm mạnh rất dễ bị nâng thành một kết luận mà những gì quan sát được chưa đủ để xác nhận.
   ],
   label: [HIỆN TƯỢNG ≠ THOÁNG THẤY ≠ VÙNG CHI PHỐI ≠ ĐẠO QUẢ],
 )
@@ -68,7 +68,7 @@ Toàn câu chuyện trên có thể kéo dài, dao động, lặp lại hoặc k
 Khi pháp hành phát triển, ít nhất ba trục có thể đổi cùng lúc:
 
 + *Độ liên tục:* tâm nhận ra đối tượng sớm hơn, khoảng quên ngắn hơn và trở về nhanh hơn.
-+ *Độ phân giải:* điều từng hiện như một khối “tôi đang đau” có thể lộ thành cảm giác, biết, phản ứng, ý định và biến đổi nối nhau.
++ *Thấy chi tiết hơn:* điều từng hiện như một khối “tôi đang đau” dần được nhận ra thành nhiều tiến trình nối nhau — cảm giác, sự biết, phản ứng, ý định.
 + *Quan hệ với kinh nghiệm:* tâm bớt nắm, chống hoặc tìm nơi nương trong những gì đang sinh rồi mất.
 
 Ba trục hỗ trợ nhau nhưng không đồng nhất. Tập trung mạnh chưa chắc đã là tuệ; thấy nhiều chi tiết chưa chắc đã thấy ba đặc tính; bình thản có thể là xả, nhưng cũng có thể chỉ là thư giãn, mệt, tê cảm xúc hoặc phân ly. Một tên tầng chỉ có cơ sở hơn khi *cách biết đặc trưng của tầng ấy* nổi bật trên nền thích hợp, chứ không phải vì một trục tăng mạnh.
@@ -109,7 +109,7 @@ Ba lớp đầu có thể được mô tả như dữ kiện. Lớp cuối là d
 )
 
 #practice-card(
-  [Sáu câu mà mỗi tầng phải trả lời],
+  [Sáu câu hỏi để đọc mỗi tầng],
   [
     + *Nền đất:* điều gì trong tiến trình phải tương đối chín?
     + *Cách biết đổi:* hành giả đang trực tiếp nhận ra điều gì mà trước đó chưa nổi bật?
@@ -133,7 +133,7 @@ Trong ngôn ngữ của bản đồ, một thoáng kinh nghiệm giống mô t�
 
 + *Có một nền đất tương đối vững.* Giới, cách quan sát và độ liên tục của tâm đủ vững; triền cái không liên tục cuốn mất việc ghi nhận.
 + *Cách biết mới trở thành khuynh hướng chi phối.* Nó lặp lại qua nhiều đối tượng hoặc nhiều lần quan sát, không chỉ xuất hiện trong một giây gây ấn tượng.
-+ *Sự chuyển tiếp có logic.* Mặt được biết ở giai đoạn trước làm nền cho mặt kế tiếp; hành giả không phải tưởng tượng sẵn rồi tìm một cảm giác để khớp tên.
++ *Sự chuyển tiếp có mạch.* Mặt được biết ở giai đoạn trước làm nền cho mặt kế tiếp; hành giả không phải tưởng tượng sẵn rồi tìm một cảm giác để khớp tên.
 + *Các cách giải thích khác đã được giữ mở.* Định, thiếu ngủ, đau, thuốc, lo âu, phân ly, kỳ vọng và vấn đề sức khỏe chưa bị gạt bỏ chỉ vì nhãn tâm linh nghe hấp dẫn hơn.
 
 Ngay cả khi bốn điều ấy có vẻ khớp, “đang ở vùng này” vẫn chỉ là một giả thuyết trình pháp. Nó không phải phép đo khách quan và không đồng nghĩa với chứng đạo.
@@ -156,11 +156,11 @@ Ngay cả khi bốn điều ấy có vẻ khớp, “đang ở vùng này” v�
 
 Vì vậy, sách này không thể trung thực đưa ra một con số để trả lời “khi nào đạt”. Một con số rõ ràng nhưng không có trong nguồn sẽ dễ nhớ, cũng dễ sai. Điều có thể làm là tăng độ tin cậy của một giả thuyết bằng năm loại dữ kiện:
 
-+ *Dữ kiện nền:* cách hành thực tế, giới, niệm, định và độ liên tục trước khi hiện tượng xuất hiện.
-+ *Dữ kiện hiện tại:* cách biết nào lặp lại qua nhiều đối tượng, không chỉ cảm giác nào mạnh nhất.
-+ *Dữ kiện chuyển tiếp:* mặt nổi bật trước đó giải thích hợp lý vì sao mặt mới xuất hiện.
-+ *Dữ kiện dọc thời gian:* cách biết có trở lại qua nhiều lần quan sát, hay chỉ là một khoảnh khắc nổi bật.
-+ *Dữ kiện phản chứng:* giấc ngủ, thuốc, đau, bệnh, lo âu, phân ly, ám thị và suy giảm chức năng có giải thích tốt hơn không.
++ *Nền thực hành:* cách hành thực tế, giới, niệm, định và độ liên tục trước khi hiện tượng xuất hiện.
++ *Điều đang lặp lại:* cách biết nào lặp lại qua nhiều đối tượng, không chỉ cảm giác nào mạnh nhất.
++ *Mạch chuyển tiếp:* mặt nổi bật trước đó giải thích hợp lý vì sao mặt mới xuất hiện.
++ *Điều có lặp qua nhiều buổi không:* cách biết có trở lại qua nhiều lần quan sát, hay chỉ là một khoảnh khắc nổi bật.
++ *Có cách giải thích khác tốt hơn không:* giấc ngủ, thuốc, đau, bệnh, lo âu, phân ly, ám thị và suy giảm chức năng có giải thích tốt hơn không.
 
 “Nhiều” trong đoạn trên cố ý không được đổi thành một con số. Ba buổi có thể cho ba dữ kiện nghèo; một buổi dài có thể cho nhiều dữ kiện nhưng vẫn bị thiếu ngủ hoặc kỳ vọng làm lệch. Chất lượng, quan hệ trước–sau và khả năng bị bác bỏ bởi một cách giải thích khác quan trọng hơn việc đếm.
 
@@ -175,7 +175,7 @@ Vì vậy, sách này không thể trung thực đưa ra một con số để tr
 
     *Khi nào?* Khi cách biết ấy chín có điều kiện, lặp lại và chi phối trên một nền đất phù hợp. Nguồn không cho lịch hay ngưỡng định lượng để dự báo.
 
-    *Làm sao?* Vun giới, niệm, định, tinh tấn cân bằng và quan sát đúng hiện tượng đang có. Không có bài tập trung thực nào sản xuất riêng ánh sáng, tan rã, sợ hãi, nhàm chán hay xả theo yêu cầu.
+    *Làm sao?* Vun giới, niệm, định, tinh tấn cân bằng và quan sát đúng hiện tượng đang có. Không có bài tập trung thực nào cưỡng tạo riêng ánh sáng, tan rã, sợ hãi, nhàm chán hay xả theo yêu cầu.
   ],
   label: [CÓ THỂ MÔ TẢ · KHÔNG THỂ HỨA · KHÔNG ĐƯỢC DÀN DỰNG],
 )
@@ -199,7 +199,7 @@ Bản đồ chỉ đúng khi nó đưa người đọc trở về việc quan s�
     + *Cách biết nào đang thật sự lặp lại?* Phân biệt đối tượng với việc biết, thấy điều kiện, thấy sinh-diệt, thấy mặt tan, thấy tính bất toại nguyện hay biết các hành với quân bình?
     + *Tôi đang quan sát hay đang dàn dựng?* Nếu phải tưởng tượng, làm cảm xúc mạnh hơn, săn một hiện tượng hoặc kể lại theo từ khóa đã học, hãy bỏ tên tầng và trở về dữ kiện.
 
-    Đây là cầu nối thực hành do sách biên soạn từ P02. Nó không phải bài kiểm tra chẩn đoán và không bảo đảm rằng trả lời đúng ba câu sẽ sản xuất một tuệ.
+    Đây là cầu nối thực hành do sách biên soạn từ P02. Nó không phải bài kiểm tra chẩn đoán và không bảo đảm rằng trả lời đúng ba câu sẽ làm một tuệ xuất hiện.
   ],
   label: [ĐIỀU KIỆN → CÁCH BIẾT → KIỂM TRA ÁM THỊ · BIÊN SOẠN THEO P02],
 )
@@ -207,7 +207,7 @@ Bản đồ chỉ đúng khi nó đưa người đọc trở về việc quan s�
 #practice-card(
   [Đọc chương này theo ba lượt],
   [
-    + *Lượt một:* đọc bốn vùng và các “hồ sơ tối thiểu”; chưa cần nhớ số.
+    + *Lượt một:* đọc bốn vùng cùng các bảng “năm điểm cốt lõi”; chưa cần nhớ số.
     + *Lượt hai:* đọc từng tuệ 1–11 để hiểu nền, trải nghiệm, cách hành và dấu hiệu chuyển tiếp.
     + *Lượt ba, khi thật sự cần:* đọc thuận thứ, chuyển tộc, đạo, quả và phản quán như thuật ngữ của hệ thống luận giải, không như bài tập tự thực hiện.
 
@@ -216,7 +216,7 @@ Bản đồ chỉ đúng khi nó đưa người đọc trở về việc quan s�
   label: [LỐI ĐỌC CHO NGƯỜI CHƯA BIẾT THANH TỊNH ĐẠO],
 )
 
-=== Một ca giả định: từ dữ kiện thô đến giả thuyết
+=== Một ví dụ: từ trải nghiệm được kể lại đến cách hiểu thận trọng
 
 Giả sử một người nói: “Tối qua tôi thấy toàn thân tan thành rung động, rồi rất sợ. Có phải tôi đã qua tuệ tan rã và tuệ đáng sợ không?” Câu hỏi ấy chưa thể trả lời bằng hai từ khóa “tan” và “sợ”.
 
@@ -236,22 +236,22 @@ Không kết luận nào trong ba trường hợp tự chứng minh đạo quả
 
 === Bảy câu trả lời trước khi gặp bất kỳ tên tầng nào
 
-+ *Có cần đọc Thanh Tịnh Đạo trước không?* Không. Chương này giải nghĩa các thuật ngữ đủ để người mới hiểu logic của bản đồ. Thanh Tịnh Đạo là nguồn của hệ thống luận giải, không phải bài đọc đầu vào bắt buộc.
++ *Có cần đọc Thanh Tịnh Đạo trước không?* Không. Chương này giải nghĩa các thuật ngữ đủ để người mới hiểu mạch của bản đồ. Thanh Tịnh Đạo là nguồn của hệ thống luận giải, không phải bài đọc đầu vào bắt buộc.
 + *Các tuệ có phải mười sáu cảm giác khác nhau không?* Không. Tên tầng chủ yếu chỉ mặt của tiến trình đang được biết nổi bật. Cùng một cảm giác đau có thể hiện diện ở nhiều vùng.
 + *Một dấu hiệu xuất hiện có nghĩa là đã đạt không?* Không. Một ánh sáng, cơn sợ, cảm giác tan, sự bình thản hay khoảng trống chỉ là một dữ kiện. Tên tầng có cơ sở hơn khi nền đất vững, cách biết chi phối, tính lặp lại và dấu hiệu chuyển tiếp cùng khớp, trong khi các giải thích khác vẫn được kiểm tra.
 + *Có phải mọi người đều có cùng cảm xúc và thời lượng?* P02 trình bày một trật tự trưởng thành trong dòng Mahāsi, nhưng không cung cấp dữ liệu cho phép biến nó thành lịch chung hoặc kịch bản cảm xúc giống hệt ở mọi người.
-+ *Có thể đi thẳng đến một tầng mình thích không?* Không có thao tác nguồn nào cho phép bỏ nền rồi sản xuất riêng ánh sáng, tan rã, sợ hãi hay xả. Điều có thể làm là vun giới, niệm, định, cách quan sát và sự liên tục vừa sức.
++ *Có thể đi thẳng đến một tầng mình thích không?* Nguồn không nêu cách nào để bỏ nền thực hành rồi cố tạo riêng ánh sáng, tan rã, sợ hãi hay xả. Điều có thể làm là vun giới, niệm, định, cách quan sát và sự liên tục vừa sức.
 + *Có thể rơi lại hoặc thấy lẫn nhiều nét không?* Kinh nghiệm kể lại có thể dao động và chứa nhiều nét. Vì bản đồ phân loại mặt biết chi phối chứ không phải từng khoảnh khắc rời, một dao động không đủ để kết luận đã “lên” hay “tụt” tầng.
 + *Tên tầng có xác nhận Nhập lưu không?* Không. Ngay cả một định vị hợp lý trong bản đồ P02 cũng không thay ba kiết sử đầu, dòng Thánh đạo và các tiêu chuẩn kinh điển ở chương 10–11.
 
 #practice-card(
-  [Đường tắt cho người không muốn học hệ thống luận giải],
+  [Cách đọc chương này khi chưa quen hệ thống luận giải],
   [
     Bỏ qua phần bảy thanh tịnh và tranh luận mười sáu–mười bảy ở ngay sau đây. Đi thẳng đến #link(<bon-vung-tue>)[“Đọc bản đồ theo bốn vùng”]. Ở mỗi tuệ, chỉ đọc sáu nhãn: *nền đất, cái biết đổi, trải nghiệm có thể, việc cần làm, điều chưa đủ, dấu hiệu chuyển tiếp*.
 
     Khi cần hiểu vì sao truyền thống đặt tên và đánh số như vậy, hãy quay lại hai phần kỹ thuật. Bạn không cần biết Thanh Tịnh Đạo trước mới hiểu một trải nghiệm được mô tả ở đây.
   ],
-  label: [KHÔNG CÓ KIẾN THỨC ĐẦU VÀO BẮT BUỘC],
+  label: [NẾU BẠN CHƯA HỌC THANH TỊNH ĐẠO],
 )
 
 #caution(
@@ -295,7 +295,7 @@ Puṇṇa dùng ví dụ bảy cỗ xe trạm. Mỗi xe đưa người đi đế
     + *Hành đạo tri kiến thanh tịnh:* phần đường tuệ quán chín dần qua các vùng được giải thích ở dưới.
     + *Tri kiến thanh tịnh:* trong hệ thống luận giải, chính đạo trí làm thành thanh tịnh này; quả và sự xem lại được trình bày tiếp sau, không phải ba tên đồng nghĩa.
 
-    Đây là lời dẫn nhập gần nghĩa, không thay thế định nghĩa kỹ thuật của Thanh Tịnh Đạo. Người mới chỉ cần thấy logic: sửa đời sống, làm tâm đủ vững, thấy thân-tâm và điều kiện, phân biệt đường đúng, rồi mới bàn các giai đoạn sâu hơn.
+    Đây là lời dẫn nhập gần nghĩa, không thay thế định nghĩa kỹ thuật của Thanh Tịnh Đạo. Người mới chỉ cần thấy mạch: sửa đời sống, làm tâm đủ vững, thấy thân-tâm và điều kiện, phân biệt đường đúng, rồi mới bàn các giai đoạn sâu hơn.
   ],
   label: [CẦU NỐI THUẬT NGỮ],
 )
@@ -310,7 +310,7 @@ Puṇṇa dùng ví dụ bảy cỗ xe trạm. Mỗi xe đưa người đi đế
 
     Tóm lại thành một dòng: *thấy rõ danh sắc → thấy rõ sinh diệt → thấy mặt tan rã và bất toàn → tâm xả buông thư*. Mỗi mũi tên chỉ tóm một nhóm trải nghiệm đã nêu; nó không phải thang đo để trèo và không bảo đảm ai cũng đi đủ, đúng thứ tự.
 
-    Bốn vùng chỉ giúp nhìn logic của bản đồ P02. Chúng không phải bốn chẩn đoán, không bắt buộc ai cũng có cùng cảm xúc và không cho phép suy ra thánh quả.
+    Bốn vùng chỉ giúp nhìn mạch của bản đồ P02. Chúng không phải bốn chẩn đoán, không bắt buộc ai cũng có cùng cảm xúc và không cho phép suy ra thánh quả.
   ],
   label: [BẢN ĐỒ MỘT TRANG · BIÊN SOẠN THEO P02],
 )
@@ -344,7 +344,7 @@ Vì vậy, hai người nói “tuệ 12” có thể đang chỉ hai mục khá
 
 == “Khi nào đạt?” là câu hỏi về điều kiện, không phải lịch
 
-P02 có dùng những mô tả thời lượng ở vài chỗ, nhưng không biến chúng thành điều kiện cần và đủ áp dụng cho mọi người. Những câu như “sau một lúc”, “khi tri kiến trưởng thành” hay một thời lượng ngồi được mô tả trong dòng thực hành là *mô tả tiến trình của tác phẩm*, không phải công thức dự báo. Không có căn cứ trong các nguồn của chương này để hứa rằng một số ngày nhập thất, một số giờ ghi nhận hay một số lần trình pháp sẽ sản xuất một tuệ nhất định.
+P02 có dùng những mô tả thời lượng ở vài chỗ, nhưng không biến chúng thành điều kiện cần và đủ áp dụng cho mọi người. Những câu như “sau một lúc”, “khi tri kiến trưởng thành” hay một thời lượng ngồi được mô tả trong dòng thực hành là *mô tả tiến trình của tác phẩm*, không phải công thức dự báo. Không có căn cứ trong các nguồn của chương này để hứa rằng một số ngày nhập thất, một số giờ ghi nhận hay một số lần trình pháp sẽ mang lại một tuệ nhất định.
 
 Câu trả lời trung thực cho “bao giờ tôi đạt?” vì thế là:
 
@@ -378,7 +378,7 @@ Người đọc không “làm ra tuệ số 4” bằng cách tưởng tượng
     + *Khi độ rõ giảm:* nhận ra mờ, căng, nôn nóng hoặc nghi ngờ; giảm lực nếu cần rồi trở về nền. Một buổi kém rõ không chứng minh đã tụt tầng.
     + *Sau buổi hành:* ghi vài dữ kiện có thể kiểm tra: đối tượng nào lặp lại, cách biết nào nổi bật, điều gì chỉ xảy ra một lần, giấc ngủ và sinh hoạt có đổi không. Chỉ sau đó mới cân nhắc một giả thuyết bản đồ.
 
-    Đây là chu trình vun điều kiện được biên soạn từ phương pháp P02, không phải sáu bước sản xuất một tuệ. Người hành có thể lặp chu trình này trong nhiều buổi mà không cần đặt tên tầng nào.
+    Đây là chu trình vun điều kiện được biên soạn từ phương pháp P02, không phải sáu bước để tạo ra một tuệ. Người hành có thể lặp chu trình này trong nhiều buổi mà không cần đặt tên tầng nào.
   ],
   label: [ĐỐI TƯỢNG → BIẾT → TRỞ VỀ → KIỂM TRA · DỰA TRÊN P02],
 )
@@ -401,7 +401,7 @@ Người đọc không “làm ra tuệ số 4” bằng cách tưởng tượng
 
 Nếu người đọc chưa biết mỗi tên đang chỉ điều gì, danh sách trên vẫn còn quá kỹ thuật. Phần dưới đây diễn giải P02 theo bốn vùng dễ đọc hơn. Các mô tả là *bản đồ của truyền thống Mahāsi dựa trên hệ thống luận giải*, không phải bảng triệu chứng đã được khoa học thực nghiệm xác nhận và cũng không phải danh sách nằm nguyên vẹn trong một bài kinh.
 
-Phần khái quát bốn vùng ở trên cho thấy logic trước khi phần này mở từng tên. Chỉ quay lại con số mười sáu hay mười bảy khi thật sự cần đối chiếu một tài liệu hoặc cách trình pháp cụ thể.
+Phần khái quát bốn vùng ở trên cho thấy mạch trước khi phần này mở từng tên. Chỉ quay lại con số mười sáu hay mười bảy khi thật sự cần đối chiếu một tài liệu hoặc cách trình pháp cụ thể.
 
 #source-line("MAHĀSI", [P02 · lời tựa; mục 1–17], [
   P02 mô tả tiến trình cho những người đã thực hành nghiêm mật và có kết quả nổi bật. Lời tựa nói tác phẩm không được viết như cẩm nang nhập môn. Vì vậy, mô tả dưới đây dùng để hiểu thuật ngữ và trình pháp rõ hơn, không dùng để tự phong tầng tuệ từ vài dấu hiệu rời rạc.
@@ -456,7 +456,7 @@ Tuệ này không có nghĩa đã thấy trọn mười hai chi duyên khởi ho
 *Vì sao bản đồ chuyển tiếp.* Khi đầu, giữa và cuối của nhiều tiến trình được nhận rõ, sinh rồi diệt không còn là kết luận rút ra sau buổi hành mà trở thành mặt nổi bật ngay lúc biết. Bản đồ chuyển sang tuệ sinh-diệt vì độ trực tiếp, liên tục và sắc của cái thấy đã đổi, không phải vì hành giả vừa học thêm một khái niệm.
 
 #practice-card(
-  [Hồ sơ tối thiểu của vùng một],
+  [Năm điểm cốt lõi của vùng một],
   [
     + *Nền:* ghi nhận đủ liên tục để đối tượng và việc biết không liên tục lẫn thành một khối.
     + *Cái thấy chi phối:* phân biệt tiến trình, thấy điều kiện, rồi thấy đầu–giữa–cuối cùng ba đặc tính.
@@ -495,7 +495,7 @@ Chữ “ô nhiễm” ở đây không có nghĩa ánh sáng hay hỷ tự nó 
 *Vì sao bản đồ chuyển tiếp.* Khi tuệ sinh-diệt được P02 gọi là trưởng thành, sự chú ý không còn bị vẻ sáng và pha sinh thu hút như trước. Mặt chấm dứt dần chiếm ưu thế; hình khối và cảm giác liên tục mờ đi. Đó là cách bản đồ nối sang tan rã, không phải vì mọi người đều phải trải qua cùng một kịch bản cảm xúc.
 
 #practice-card(
-  [Hồ sơ tối thiểu của vùng hai],
+  [Năm điểm cốt lõi của vùng hai],
   [
     + *Nền:* ba tuệ đầu và tính liên tục của việc ghi nhận, không chỉ một buổi có hiện tượng mạnh.
     + *Cái thấy chi phối:* đối tượng được biết ngay trong sinh-diệt; hiện tượng đẹp cũng được thấy là sinh-diệt.
@@ -550,7 +550,7 @@ Chữ “ô nhiễm” ở đây không có nghĩa ánh sáng hay hỷ tự nó 
 
 *Cách vun điều kiện và tiếp tục hành.* Biết cụ thể hiện tượng nào đang có và mặt bất toại nguyện nào đang được nhận ra. Không biến tri kiến về hành thành kết luận “đời sống vô nghĩa”, không xem thường người khác và không bỏ trách nhiệm. Trí thấy giới hạn của cái bị điều kiện không phải giấy phép phá bỏ những điều kiện sống cần được chăm sóc.
 
-*Điều chưa đủ để kết luận.* Một buổi chán thiền, thất vọng vì đau, kiệt sức, bi quan do thiếu ngủ hay ý nghĩ triết học “không gì đáng giá” đều không đủ. Cần có nền tan rã và đáng sợ trong logic P02, cùng cách biết trực tiếp đang chi phối khi ghi nhận.
+*Điều chưa đủ để kết luận.* Một buổi chán thiền, thất vọng vì đau, kiệt sức, bi quan do thiếu ngủ hay ý nghĩ triết học “không gì đáng giá” đều không đủ. Cần có nền tan rã và đáng sợ theo mạch P02, cùng cách biết trực tiếp đang chi phối khi ghi nhận.
 
 *Vì sao bản đồ chuyển tiếp.* Khi sự không thể nương tựa được thấy lặp lại, vị hấp dẫn quen thuộc đối với các hành giảm. Bản đồ gọi chuyển động ấy là nhàm chán.
 
@@ -594,7 +594,7 @@ Chữ “ô nhiễm” ở đây không có nghĩa ánh sáng hay hỷ tự nó 
 
 *Điều chưa đủ để kết luận.* Đau dữ dội, ngồi bất động lâu, đổi tư thế nhiều, bực bội với kỹ thuật hay lặp đúng ba chữ vô thường–khổ–vô ngã đều không đủ. Dấu trọng tâm là cách các hành được trực tiếp quán lại qua ba đặc tính trên nền tiến trình trước, không phải sức chịu đựng.
 
-*Vì sao bản đồ chuyển tiếp.* Trong logic P02, khi quán xét chín, việc ghi nhận thôi mang chất chống cự mạnh. Đối tượng dễ hay khó đều được biết tự nhiên hơn; xả đối với các hành bắt đầu nổi bật. Sự chuyển này nằm ở quan hệ với các hành, không chỉ ở việc hết đau hay tâm trở nên dễ chịu.
+*Vì sao bản đồ chuyển tiếp.* Theo mạch P02, khi quán xét chín, việc ghi nhận thôi mang chất chống cự mạnh. Đối tượng dễ hay khó đều được biết tự nhiên hơn; xả đối với các hành bắt đầu nổi bật. Sự chuyển này nằm ở quan hệ với các hành, không chỉ ở việc hết đau hay tâm trở nên dễ chịu.
 
 #practice-card(
   [Một bản trình pháp giả định qua vùng ba],
@@ -614,11 +614,11 @@ Chữ “ô nhiễm” ở đây không có nghĩa ánh sáng hay hỷ tự nó 
 )
 
 #practice-card(
-  [Hồ sơ tối thiểu của vùng ba],
+  [Năm điểm cốt lõi của vùng ba],
   [
     + *Nền:* sinh-diệt đã chín theo P02; mặt chấm dứt chi phối việc thấy.
     + *Cái thấy chi phối:* tan rã → không an toàn → không đáng thỏa mãn → bớt hấp dẫn → muốn thoát → nhìn lại mạnh bằng ba đặc tính.
-    + *Cách hành:* biết đúng hiện tượng và phản ứng; không sản xuất sợ, ghét, đau hay tuyệt vọng.
+    + *Cách hành:* biết đúng hiện tượng và phản ứng; không cố tạo sợ, ghét, đau hay tuyệt vọng.
     + *Dấu hiệu chuyển tiếp:* chống cự giảm, việc biết quân bình và tự nhiên hơn.
     + *Phản chứng:* lo âu, trầm cảm, phân ly, đau, bồn chồn hoặc muốn bỏ cuộc tự chúng không xác nhận vùng tuệ.
   ],
@@ -667,7 +667,7 @@ Từ đây, “mỗi tên là một trải nghiệm kéo dài” trở thành c�
 
 *Vì sao ký ức thông thường không đủ.* P02 đặt chuyển tộc ngay sau thuận thứ và ngay trước đạo, trong một chuỗi được mô tả là cực ngắn. Một người kể “mọi thứ tắt”, “không nhớ gì”, “thời gian biến mất” hay “tôi trở thành người mới” chưa cho biết sát-na nào đã xảy ra, thậm chí chưa chứng minh đây là chuyển tiếp của bản đồ.
 
-*Có thể chủ động làm gì.* Không thể lấy Niết-bàn làm một hình ảnh để chú tâm vào và sản xuất chuyển tộc. Trong lộ trình P02, phần chủ động vẫn là thực hành đúng từ các giai đoạn trước; chuyển tiếp chỉ được hệ thống nói là xảy ra khi các điều kiện đã chín.
+*Có thể chủ động làm gì.* Không thể lấy Niết-bàn làm một hình ảnh để chú tâm vào và ép chuyển tộc xảy ra. Trong lộ trình P02, phần chủ động vẫn là thực hành đúng từ các giai đoạn trước; chuyển tiếp chỉ được hệ thống nói là xảy ra khi các điều kiện đã chín.
 
 ==== 15. Đạo
 
@@ -712,7 +712,7 @@ Từ đây, “mỗi tên là một trải nghiệm kéo dài” trở thành c�
 )
 
 #practice-card(
-  [Hồ sơ tối thiểu của vùng bốn],
+  [Năm điểm cốt lõi của vùng bốn],
   [
     + *Nền:* quán xét lại đã chín; việc biết các hành trở nên tự nhiên và quân bình.
     + *Cái thấy chi phối:* ít bị dễ chịu hay khó chịu kéo đi; về cuối, hệ thống nói đến một chuyển tiếp cực ngắn.
@@ -743,7 +743,7 @@ Giả sử đau ở đầu gối xuất hiện. Mười một dòng dưới đâ
 + *6 · Đáng sợ:* vì không cảm giác hay lần biết nào giữ được, toàn tiến trình hiện như không có chỗ nương an toàn. Phản ứng sợ có thể có hoặc không; cái quyết định trong mô tả là mặt đáng sợ của các hành, không phải nhịp tim.
 + *7 · Khổ lụy:* đổi tư thế có thể đem dễ chịu, nhưng dễ chịu ấy cũng đổi. Cái biết nổi bật không chỉ là “đau đáng sợ” mà là không tiến trình bị điều kiện nào làm được công việc của một chỗ dựa bền.
 + *8 · Nhàm chán:* tâm bớt tìm vị ngon trong việc chạy từ một cảm giác sang cảm giác khác. Đây không phải ghét đầu gối hay ghét đời; chính trò tìm thỏa mãn nơi các hành đã hiện ra là không đáng say mê.
-+ *9 · Muốn giải thoát:* ý muốn thoát không chỉ nhắm đến kết thúc buổi ngồi. Trong logic P02, nó hướng đến thoát khỏi sự ràng buộc phải bám vào những tiến trình cứ sinh rồi mất. Mọi thôi thúc gây hại vẫn bị đưa ra khỏi bản đồ và sang quy trình an toàn.
++ *9 · Muốn giải thoát:* ý muốn thoát không chỉ nhắm đến kết thúc buổi ngồi. Theo mạch P02, nó hướng đến thoát khỏi sự ràng buộc phải bám vào những tiến trình cứ sinh rồi mất. Mọi thôi thúc gây hại vẫn bị đưa ra khỏi bản đồ và sang quy trình an toàn.
 + *10 · Quán xét lại:* đau, muốn đổi và cảm giác không tìm được tư thế thỏa mãn có thể được quan sát mạnh hơn qua vô thường, khổ và vô ngã. Người hành không tạo thêm đau; họ thấy kỹ hơn điều đang có và cân bằng tinh tấn.
 + *11 · Xả đối với các hành:* đau, dễ chịu và ý muốn đổi vẫn có thể xuất hiện, nhưng việc biết ít bị thích-ghét kéo hơn và diễn ra tự nhiên hơn. Đó là quân bình có tỉnh táo, không phải tê, vô cảm hay mặc kệ chấn thương.
 
@@ -793,7 +793,7 @@ Trình pháp tốt không bắt đầu bằng câu “con ở tuệ mấy?”. N
 - Đối tượng chính và cách ghi nhận thực tế là gì?
 - Điều gì nổi bật lặp lại qua nhiều buổi, và điều gì chỉ xảy ra một lần?
 - Tri kiến được kể là thấy trực tiếp hay là suy luận sau khi đọc sách?
-- Nền đất và dấu hiệu chuyển tiếp có khớp logic của P02 không?
+- Nền đất và dấu hiệu chuyển tiếp có khớp với mạch P02 không?
 - Có hiện tượng định, thiếu ngủ, đau, thuốc, bệnh hoặc ám thị giải thích tốt hơn không?
 - Sau buổi hành, giới hạnh, phán đoán, giấc ngủ và khả năng làm việc ra sao?
 
@@ -858,7 +858,7 @@ Không có cơ sở để nói truyền thống Mahāsi tuyệt đối cấm hà
 
     + Bản đồ đang phân loại cảm giác mạnh, hay phân loại cách các hành được biết?
     + Trong câu “đau tăng, tôi bực và nghĩ mình ở tuệ khổ lụy”, đâu là đối tượng, việc biết, phản ứng và kết luận?
-    + Người hành có thể trực tiếp vun điều kiện nào, và vì sao không thể chủ ý sản xuất riêng tuệ tan rã hay xả?
+    + Người hành có thể trực tiếp vun điều kiện nào, và vì sao không thể chủ ý cưỡng tạo riêng tuệ tan rã hay xả?
     + Ánh sáng, sợ hãi, một khoảng trống và sự bình thản đứng riêng chứng minh được gì?
     + Khi mất ngủ, mất định hướng hoặc suy giảm chức năng, bước tiếp theo là tăng cường độ để vượt tầng hay áp dụng ngưỡng an toàn?
 

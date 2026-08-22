@@ -157,35 +157,43 @@
     ),
     header: context {
       let n = counter(page).get().first()
+      let phys = here().page()
       let here = here()
-      let heads = query(selector(heading.where(level: 1)).before(here))
-      let parts = query(selector(<phan>).before(here))
-      let ch = none
-      for h in heads {
-        let is-part = false
-        for p in parts {
-          if p.location() == h.location() {
-            is-part = true
+      let all-heads = query(selector(heading.where(level: 1)))
+      let on-page = all-heads.filter(h => h.location().page() == phys)
+      if on-page.len() > 0 {
+        // Chapter, part and appendix opener pages carry their own large
+        // title; a running header there would repeat or lag behind.
+      } else {
+        let heads = query(selector(heading.where(level: 1)).before(here))
+        let parts = query(selector(<phan>).before(here))
+        let ch = none
+        for h in heads {
+          let is-part = false
+          for p in parts {
+            if p.location() == h.location() {
+              is-part = true
+            }
+          }
+          if not is-part {
+            ch = h
           }
         }
-        if not is-part {
-          ch = h
-        }
-      }
-      let run(body) = text(
-        font: fonts.sans,
-        size: 6.6pt,
-        tracking: 0.12em,
-        fill: palette.muted,
-      )[#body]
-      if calc.odd(n) {
-        if ch == none {
-          align(right, run(upper(edition.metadata.title)))
+        let run(body) = text(
+          font: fonts.sans,
+          size: 6.6pt,
+          tracking: 0.12em,
+          fill: palette.muted,
+        )[#body]
+        if calc.odd(n) {
+          if ch == none {
+            align(right, run(upper(edition.metadata.title)))
+          } else {
+            align(right, run(upper(ch.body)))
+          }
         } else {
-          align(right, run(upper(ch.body)))
+          align(left, run(upper(edition.metadata.title)))
         }
-      } else {
-        align(left, run(upper(edition.metadata.title)))
       }
     },
     numbering: "1",

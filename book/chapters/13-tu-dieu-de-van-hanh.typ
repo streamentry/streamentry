@@ -293,7 +293,7 @@ Trong thực hành, có thể gặp những mức gần nhau nhưng không đồ
 ])
 
 #practice-card(
-  [Một mẩu kiểm chứng, không phải giấy chứng nhận],
+  [Thử ngay trong một phản ứng thật],
   [
     Khi phản ứng đủ nhẹ để quan sát an toàn, hãy cảm nhận thọ trong vài nhịp mà không thêm câu “tôi phải thoát ngay”. Sau đó hỏi:
 
@@ -448,7 +448,7 @@ Thẻ này chỉ có giá trị khi nó đưa tới hành động thật: một 
 
     4. Trong tình huống ấy, hành động Đạo đế nào cần làm trước: nhìn thêm, nói rõ, sửa sai, rời đi, tìm trợ giúp hay dừng lại vì an toàn?
   ],
-  label: [GẤP SÁCH LẠI · TRUY HỒI],
+  label: [GẤP SÁCH LẠI · TỰ NHỚ LẠI],
 )
 
 Hãy dùng bản đồ để hành động, đừng biến nó thành huy hiệu cho bản ngã.

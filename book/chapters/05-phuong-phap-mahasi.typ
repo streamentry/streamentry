@@ -147,7 +147,7 @@ Khi đã có một điểm trở về, biết lúc nào nên chuyển và biết
 ])
 
 #source-line("MAHĀSI", [P01 · Basic Exercise III], [
-  P01 trước hết dạy quan sát mỏi, cứng, ngứa và đau, đồng thời cho phép đổi tư thế khi một số cảm giác trở nên không chịu nổi. Nhưng ở đoạn đau tiếp theo, tác phẩm lại bảo bỏ qua cơn đau đã tăng đến mức không chịu nổi, trở về phồng xẹp, rồi khẳng định tiếp tục sẽ không gây hại. Đây là chỉ dẫn có thật trong văn bản lịch sử; sách không xóa nó khỏi hồ sơ nguồn, cũng không xem nó là bảo đảm an toàn áp dụng chung.
+  P01 trước hết dạy quan sát mỏi, cứng, ngứa và đau, đồng thời cho phép đổi tư thế khi một số cảm giác trở nên không chịu nổi. Nhưng ở đoạn đau tiếp theo, tác phẩm lại bảo bỏ qua cơn đau đã tăng đến mức không chịu nổi, trở về phồng xẹp, rồi khẳng định tiếp tục sẽ không gây hại. Đây là chỉ dẫn có thật trong văn bản lịch sử; sách không lược bỏ đoạn ấy khi trích dẫn, cũng không xem nó là bảo đảm an toàn áp dụng chung.
 ])
 
 #caution(
