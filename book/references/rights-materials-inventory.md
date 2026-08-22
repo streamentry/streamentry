@@ -21,7 +21,7 @@ của artifact. Danh tính byte dùng cho quyết định được ghi riêng d�
 ```text
 Rights materials inventory schema: 1
 Immutable manuscript SHA-256: `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440`
-Candidate PDF SHA-256: `99bb9eb7132e4898e48a45e549f79d15ef246201e02084d5ebdde4119fcc8373`
+Candidate PDF SHA-256: `501b53dc26bc7b7a361a4dcd9240886548bcdcfbdab8afec89b00f5926043a3e`
 Candidate EPUB SHA-256: `09e9959a2028d294fafeb377c28efa8c03e01095d1c031c88f9f3305392e54a7`
 ```
 

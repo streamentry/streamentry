@@ -246,6 +246,7 @@
       #html.elem("footer", attrs: (class: "quote-source"))[#source]
     ]
   } else {
+    v(space.md, weak: true)
     block(
       width: 100%,
       breakable: false,
@@ -281,6 +282,7 @@
       #body
     ]
   } else {
+    v(space.md, weak: true)
     block(
       width: 100%,
       breakable: false,
@@ -344,6 +346,7 @@
       #body
     ]
   } else {
+    v(space.md, weak: true)
     block(
       width: 100%,
       breakable: false,
@@ -467,6 +470,7 @@
       #body
     ]
   } else {
+    v(space.md, weak: true)
     block(
       width: 100%,
       breakable: false,
