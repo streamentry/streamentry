@@ -50,6 +50,7 @@ jobs:
       TYPST_IGNORE_SYSTEM_FONTS: "true"
       TYPST_FONT_PATHS: ${{ github.workspace }}/build/ci-tools/inter/extras/otf
       PUPPETEER_CACHE_DIR: ${{ github.workspace }}/build/puppeteer
+      PUPPETEER_SKIP_DOWNLOAD: "true"
 
     steps:
       - name: Check out the candidate
