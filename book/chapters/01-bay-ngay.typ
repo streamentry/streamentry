@@ -36,7 +36,7 @@
 )
 
 #modern-note([
-  Bạn không cần thuộc một danh sách nhãn trước khi ngồi. “Phồng”, “xẹp” và “nghĩ” đã đủ cho Ngày 1. Khi cần tra nhanh một từ cho thân, thọ, tâm hoặc ý định, mở #link(<nhan-tham-chieu>)[Phụ lục B]; nhãn phải đi theo kinh nghiệm, không chạy trước nó.
+  Bạn không cần thuộc một danh sách nhãn trước khi ngồi. “Phồng”, “xẹp” và “nghĩ” đã đủ cho Ngày 1. Khi cần tra nhanh một từ cho thân, thọ, tâm hoặc ý định, hãy mở #link(<nhan-tham-chieu>)[Phụ lục B]. Nhãn chỉ để hỗ trợ nhận biết; đừng để nhãn chạy trước kinh nghiệm.
 ])
 
 #source-line("BIÊN SOẠN", [lịch bảy ngày dựa trên P01], [Mười lăm phút ngồi mỗi ngày là đề nghị tạo thói quen cho người tại gia. Từ ngày 3, người đọc có thể thêm một đoạn thiền hành ngắn nếu còn thời gian và thân tâm ổn. Phần thêm hoàn toàn tùy chọn, không phải bậc thang tiến bộ và không cần bù vào ngày khác. P01 không ấn định lịch bảy ngày hay các thời lượng này.])
