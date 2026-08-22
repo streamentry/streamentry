@@ -44,6 +44,7 @@ Any content, theme, component, builder, metadata, or edition-contract change inv
 | PDF/UA validator | veraPDF Greenfield 1.30.2, forced `ua1` profile |
 | EPUBCheck | 5.3.0 |
 | DAISY Ace | 1.4.6 |
+| Ace browser | Chrome for Testing 148.0.7778.97, SHA-256 `20f0155e9d75a31d32d168691110cd8fbc4d66f75dc6d7a53c004cbea60290b9` |
 | Ruff | 0.15.20 |
 | JSON Schema validator | `jsonschema` 4.26.0 |
 
@@ -59,7 +60,7 @@ The builder acknowledged 215 allowlisted Typst HTML-export warnings and rejected
 | Reader gateway | Pass internally | README presents the Vietnamese reader's PDF/EPUB choice, intended use, non-linear reading route, source model, safety boundary, public editorial policy, structured correction form, bounded external-review intake, candidate status and missing-rights warning before contributor build details. Chapter 99 repeats the correction and review-intake routes plus their privacy and non-evidence boundaries. All relative links resolve to tracked files. These surfaces copy no artifact counts, do not call public access a license, and do not claim a named accountable individual, response SLA, external validation or market leadership. |
 | veraPDF 1.30.2 PDF/UA-1 | Not rerun for this candidate | The prior candidate returned 106 passed rules, 852,744 passed checks, 0 failed rules, and 0 failed checks under the forced `ua1` profile. The pinned validator is not installed in this local workspace, so that result is not claimed for the current 230-page PDF. |
 | EPUBCheck 5.3.0 | Pass | The pinned local validator returned 0 fatal errors, 0 errors, 0 warnings, and 0 informational messages for the exact EPUB bytes recorded above. |
-| DAISY Ace 1.4.6 | Not completed locally | The pinned CLI is present, but its exact Puppeteer Chrome 148 dependency is absent from the local cache, so Ace stopped before analyzing this EPUB. No pass is claimed; publication CI must install the pinned browser and rerun Ace against these exact bytes. |
+| DAISY Ace 1.4.6 | Not completed locally | The checksum-pinned Chrome 148 archive expands with its framework symlinks intact, but that browser aborts without diagnostics on this Darwin 25.5 host before Ace can inspect the EPUB. No pass is claimed; the canonical macOS 15 ARM64 publication CI must rerun Ace against these exact bytes. |
 | Chromium accessibility tree | Not rerun for this candidate | No browser accessibility-tree inspection was made for these exact bytes. The builder independently enforces title/role bindings across all 258 repeated titled regions and verifies the full cover alternative text. This does not prove usability in a named screen reader or EPUB app. |
 | Narrow-screen reflow | Not rerun for this candidate | No fresh 390 × 844 px browser pass was made for these exact bytes. The builder still verifies XML structure, resolved navigation and target-aware card semantics, but those checks do not establish visual behavior in a named browser or reader app. |
 | Dark-mode automated contrast | Not rerun for this candidate | The prior candidate's 7.443:1 minimum is not transferred to this artefact. |
