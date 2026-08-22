@@ -38,7 +38,7 @@ Trong buổi ngồi, đối tượng chính có thể là chuyển động bụn
 Trong giờ thiền, đi chậm giúp nhận ra các pha của chuyển động. Ngoài đời, tốc độ phải hợp hoàn cảnh. Qua đường cần nhanh và nhìn xe. Cầm dao cần chắc. Bế con đang khóc cần đáp ứng ngay. Chánh niệm không làm ta chậm chạp; nó cắt bớt phần hấp tấp, lơ đãng và phản ứng thừa.
 
 #modern-note([
-  Chọn vài điểm neo có thể giữ lâu. Đừng cố ghi nhận từng chi tiết từ sáng đến tối. Sự cố sức quá mức dễ làm tâm căng, giảm khả năng làm việc và khiến người thân phải gánh phần bất tiện do pháp hành của ta.
+  Chọn vài điểm neo có thể giữ lâu. Đừng cố ghi nhận từng chi tiết từ sáng đến tối. Sự cố sức quá mức dễ làm tâm căng, giảm khả năng làm việc và làm sinh hoạt của người thân bị ảnh hưởng không cần thiết.
 ])
 
 #caution(

@@ -17,7 +17,7 @@ Chương này đi chậm hơn một nhịp: trước khi nói đến kỹ thuậ
 == Đích đến bắt đầu bằng một chẩn đoán đúng
 
 #source-line("KINH", [K05 · SN 56.11], [
-  Tứ Thánh Đế (nhiều người quen gọi là Tứ Diệu Đế — hai tên chỉ một điều) không dạy phủ nhận niềm vui của đời sống. Bài kinh xác định một sự thật hẹp và sắc hơn: sinh, già và chết là khổ; sầu, bi, đau, ưu, não là khổ; gặp điều không ưa, xa điều yêu và không được điều mình muốn là khổ; tóm lại, năm thủ uẩn là khổ. Nguồn gốc được nêu là ái dẫn đến hữu tiếp theo, đi cùng thích thú và đắm trước: ái dục, ái hữu và ái phi hữu. Sự chấm dứt là ly tham, từ bỏ, buông ra và không còn bám vào chính ái ấy. Con đường là Bát Chánh Đạo.
+  Tứ Thánh Đế (nhiều người quen gọi là Tứ Diệu Đế — hai tên chỉ một điều) không dạy phủ nhận niềm vui của đời sống. Bài kinh nói cụ thể hơn: sinh, già và chết là khổ; sầu, bi, đau, ưu, não là khổ; gặp điều không ưa, xa điều yêu và không được điều mình muốn là khổ; tóm lại, năm thủ uẩn là khổ. Nguồn gốc được nêu là ái dẫn đến hữu tiếp theo, đi cùng thích thú và đắm trước: ái dục, ái hữu và ái phi hữu. Sự chấm dứt là ly tham, từ bỏ, buông ra và không còn bám vào chính ái ấy. Con đường là Bát Chánh Đạo (cũng được dịch là Bát Thánh Đạo).
 ])
 
 #source-line("KINH", [K05 · SN 56.11, ba vòng và mười hai phần], [
@@ -121,7 +121,7 @@ Bốn sự thật cũng đặt giới hạn cho cuốn sách. Quan sát một c�
 ])
 
 #source-line("KINH", [K03 · SN 55.4], [
-  Một nhóm tiêu chuẩn khác là tịnh tín đã được xác chứng nơi Phật, Pháp, Tăng và giới hạnh được bậc Thánh quý trọng. Đây không phải niềm tin vay mượn vì sợ hãi. Nó là lòng tin đã đứng được trên thấy biết và trên một đời sống không còn dễ dàng phản bội điều mình biết là lành.
+  Một nhóm tiêu chuẩn khác là tịnh tín đã được xác chứng nơi Phật, Pháp, Tăng và giới hạnh được bậc Thánh quý trọng. Đây không phải niềm tin vay mượn vì sợ hãi. Đó là lòng tin đã được xác chứng bằng thấy biết và được thể hiện trong một cách sống không còn dễ phản bội điều mình biết là lành.
 ])
 
 #source-line("KINH", [K21 · AN 10.92, Bhaya Sutta], [
@@ -142,7 +142,7 @@ Bốn sự thật cũng đặt giới hạn cho cuốn sách. Quan sát một c�
 Những tiêu chuẩn trên mô tả người đã vào dòng. Bốn yếu tố dưới đây không phải bằng chứng thành tựu; chúng là các điều kiện giúp người chưa đến đích đi đúng hướng.
 
 #source-line("KINH", [K02 · SN 55.50], [
-  Bốn yếu tố đưa đến Nhập lưu là thân cận người chân chánh, nghe Chánh pháp, như lý tác ý và hành pháp thuận pháp. Không yếu tố nào có thể được thay bằng việc đọc thật nhiều hoặc ngồi thật lâu. Thiện hữu giúp sửa điểm mù; Chánh pháp cho hướng; như lý tác ý truy đến nguyên nhân của khổ; hành pháp biến điều đã hiểu thành nếp sống.
+  Bốn yếu tố đưa đến Nhập lưu là thân cận người chân chánh, nghe Chánh pháp, như lý tác ý và hành pháp thuận pháp. Không yếu tố nào có thể được thay bằng việc đọc thật nhiều hoặc ngồi thật lâu. Thiện hữu giúp ta thấy những chỗ mình dễ tự lầm; Chánh pháp cho hướng; như lý tác ý truy đến nguyên nhân của khổ; hành pháp biến điều đã hiểu thành nếp sống.
 ])
 
 #practice-card(
@@ -160,14 +160,14 @@ Những tiêu chuẩn trên mô tả người đã vào dòng. Bốn yếu tố 
 
 == Nền của người tại gia
 
-Từ đây, sách trở lại mặt đất. Một người mới không thể dựng đạo lộ trên những khái niệm đẹp nếu đời sống hằng ngày vẫn đầy hối hận, thiếu giới và thiếu phản hồi thật.
+Từ đây, sách trở lại mặt đất. Một người mới không thể dựng đạo lộ trên những khái niệm đẹp nếu đời sống hằng ngày vẫn đầy hối hận, giới hạnh chưa vững và thiếu người giúp mình soi lại.
 
 #source-line("KINH", [K04 · AN 10.1], [
   AN 10.1 trình bày một chuỗi có trật tự: giới lành đưa đến không hối hận; từ đó có hân hoan, hỷ, khinh an, lạc, định, thấy biết như thật, nhàm lìa, ly tham và tri kiến giải thoát. Giới không phải nghi lễ mở màn. Nó dọn mặt đất để tâm có thể đứng yên mà không phải che giấu chính mình.
 ])
 
 #source-line("KINH", [K21 · AN 10.92; K23 · MN 117], [
-  Năm học giới của cư sĩ là tránh sát sinh, lấy của không cho, tà hạnh trong dục, nói dối và chất say gây phóng dật. Chánh mạng, theo MN 117, là từ bỏ cách sinh sống sai và nuôi mạng bằng cách đúng. Những ứng dụng mới như bản quyền, dữ liệu, quảng cáo hay đầu tư phải được xét theo nguyên tắc không chiếm đoạt, không lừa dối và không gây hại, chứ không được giả làm câu chữ cổ có sẵn trong kinh.
+  Năm học giới của cư sĩ là tránh sát sinh, lấy của không cho, tà hạnh trong dục, nói dối và chất say gây phóng dật. Chánh mạng, theo MN 117, là từ bỏ cách sinh sống sai và nuôi mạng bằng cách đúng. Những ứng dụng mới như bản quyền, dữ liệu, quảng cáo hay đầu tư phải được xét theo nguyên tắc không chiếm đoạt, không lừa dối và không gây hại, nhưng không nên trình bày như thể đó là lời đã có sẵn trong kinh.
 ])
 
 #source-line("KINH", [K15 · DN 31, Sigālovāda Sutta], [

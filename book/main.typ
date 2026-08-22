@@ -39,6 +39,7 @@
 #part([Phần IV — Đọc sâu khi đã có người hướng dẫn], [Bản đồ tuệ là tài liệu tra cứu cho người đã hành đều, biết ngưỡng an toàn và có người kiểm tra cùng. Người mới không cần đọc phần này trong những tháng đầu.])
 
 #include "chapters/12-ban-do-tue.typ"
+#include "chapters/loi-cuoi.typ"
 #include "appendices/a-nhat-ky.typ"
 #include "appendices/b-nhan-tham-chieu.typ"
 #include "appendices/c-faq.typ"

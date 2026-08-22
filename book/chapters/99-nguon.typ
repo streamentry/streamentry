@@ -4,7 +4,7 @@
 #chapter(
   [NGUỒN],
   [Bản đồ nguồn],
-  [Các mã dưới đây cho biết một mệnh đề đang dựa trên văn bản nào. Bản đồ nguồn được cập nhật ngày 2 tháng 8 năm 2026; ngày kiểm tra riêng của các nguồn an toàn được ghi tại Chương 9.],
+  [Các mã dưới đây cho biết một nhận định trong sách đang dựa trên nguồn nào. Bản đồ nguồn được cập nhật ngày 2 tháng 8 năm 2026; ngày kiểm tra riêng của các nguồn an toàn được ghi tại Chương 9.],
 )
 
 == Bảng giải mã trước khi tra <ma-nguon-chi-tiet>
@@ -23,10 +23,10 @@
 #source-line("BIÊN SOẠN", [mã tra nguồn của cuốn sách], [
   *K01–K43* đánh số các mục nguồn kinh; *P01–P02* đánh số hai tài liệu Mahāsi;
   *V01* là ấn bản Thanh Tịnh Đạo; *R01–R11* đánh số nguồn nghiên cứu, y tế và
-  cơ quan chính thức. Các mã K, P, V và R là chỉ mục nội bộ để giữ đúng bản,
-  liên kết và giới hạn sử dụng; chúng không phải số phân loại truyền thống và
-  không tự xếp hạng độ mạnh của nguồn. Mỗi mục bên dưới mở đầy đủ tên tác phẩm,
-  bản dịch hoặc ấn bản và liên kết đã dùng.
+  cơ quan chính thức. Các mã K, P, V và R chỉ là hệ thống tra cứu của cuốn sách,
+  giúp nối mỗi nhận định với đúng bản nguồn và ghi chú liên quan; chúng
+  không phải số phân loại truyền thống và không tự xếp hạng độ mạnh của nguồn. Mỗi
+  mục bên dưới mở đầy đủ tên tác phẩm, bản dịch hoặc ấn bản và liên kết đã dùng.
 ])
 
 == Kinh Nikāya
@@ -406,6 +406,6 @@ Một mã nguồn giúp tra lại gốc, nhưng không tự động chứng minh
   Ấn bản này ghi công *#(edition.metadata.author)*. Trí tuệ nhân tạo được dùng để hỗ trợ tìm kiếm, tổng hợp, soạn thảo và rà soát tư liệu; nó không phải thẩm quyền về giáo pháp, không phải nhân chứng thực hành và không thể xác nhận đạo quả.
 ])
 
-Những nhận định quan trọng trong sách đều được gắn mã nguồn để bạn có thể tự mở ra mà kiểm tra. Bản thảo vẫn cần thêm phản biện độc lập từ các vị thầy, hành giả kinh nghiệm và chuyên gia phù hợp với từng phần nội dung — mỗi lĩnh vực một người, không phải một người biết hết mọi thứ; khoảng trống ấy được nói thẳng thay vì giấu. Nếu bạn có năng lực công khai phù hợp về Theravāda, an toàn sức khỏe tâm thần, y khoa, phương pháp nghiên cứu hay quyền xuất bản, hãy dùng #link("https://github.com/streamentry/streamentry/issues/new?template=external-review-interest.yml")[biểu mẫu đề nghị tham gia thẩm định]. Một đề nghị chưa phải báo cáo thẩm định và chưa xác nhận năng lực của ai; mục góp ý này công khai, nên không đăng email, số điện thoại, hồ sơ y tế hay dữ liệu người tham gia.
+Những nhận định quan trọng trong sách đều được gắn mã nguồn để bạn có thể tự mở ra mà kiểm tra. Bản thảo vẫn cần thêm phản biện độc lập từ các vị thầy, hành giả kinh nghiệm và chuyên gia phù hợp với từng phần nội dung. Nếu bạn có đủ năng lực công khai về một trong những lĩnh vực ấy, hãy dùng #link("https://github.com/streamentry/streamentry/issues/new?template=external-review-interest.yml")[biểu mẫu đề nghị tham gia thẩm định]. Một đề nghị chưa phải báo cáo thẩm định; vì mục góp ý công khai nên không đăng email, số điện thoại, hồ sơ y tế hay dữ liệu người tham gia.
 
-Dù đã cố gắng đối chiếu, sách vẫn có thể còn chỗ sai về nguồn, lời nói hoặc trình bày. Khi thấy một chỗ cần sửa, xin gửi qua #link("https://github.com/streamentry/streamentry/issues/new?template=correction.yml")[biểu mẫu sửa sai công khai], chỉ kèm thông tin công khai và đừng đưa dữ liệu liên lạc hay thông tin y tế riêng. Cách phân loại nguồn, xử lý bất đồng và lưu dấu thay đổi nằm trong #link("https://github.com/streamentry/streamentry/blob/main/EDITORIAL_POLICY.md")[Chính sách biên tập và sửa sai]. Lịch sử chi tiết, sổ kiểm chứng và các phiên bản kỹ thuật được công bố tại trang của dự án; những sửa đổi quan trọng sẽ đi vào các ấn bản sau, kèm ngày kiểm tra rõ ràng.
+Dù đã cố gắng đối chiếu, sách vẫn có thể còn chỗ cần sửa. Xin gửi qua #link("https://github.com/streamentry/streamentry/issues/new?template=correction.yml")[biểu mẫu sửa sai công khai], chỉ kèm thông tin công khai. Cách phân loại nguồn, xử lý bất đồng và lưu dấu thay đổi nằm trong #link("https://github.com/streamentry/streamentry/blob/main/EDITORIAL_POLICY.md")[Chính sách biên tập và sửa sai]; lịch sử chi tiết và sổ kiểm chứng nằm tại trang của dự án, để những sửa đổi quan trọng đi vào các ấn bản sau.

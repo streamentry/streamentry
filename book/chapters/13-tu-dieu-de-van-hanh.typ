@@ -23,7 +23,7 @@ Các câu trong thẻ trích dẫn của chương là *phỏng dịch để đ�
 == Bốn sự thật, bốn việc phải làm <bon-de-bon-viec>
 
 #source-line("KINH", [K05 · SN 56.11], [
-  SN 56.11 trình bày Tứ Đế trong ba vòng và mười hai phương diện: nhận ra sự thật, nhận ra nhiệm vụ tương ứng, rồi biết nhiệm vụ đã hoàn tất. Ở lớp đầu tiên, Khổ là điều cần được hiểu; Tập, được bài kinh nêu là ái, cần được đoạn; Diệt cần được trực chứng; Đạo là Bát Thánh Đạo và cần được tu tập. Đây là cấu trúc trực tiếp của bài kinh, không phải một mẹo ghi nhớ do sách đặt ra.
+  SN 56.11 trình bày Tứ Đế trong ba vòng và mười hai phương diện: nhận ra sự thật, nhận ra nhiệm vụ tương ứng, rồi biết nhiệm vụ đã hoàn tất. Ở lớp đầu tiên, Khổ là điều cần được hiểu; Tập, được bài kinh nêu là ái, cần được đoạn; Diệt cần được trực chứng; Đạo là Bát Chánh Đạo và cần được tu tập. Đây là cấu trúc trực tiếp của bài kinh, không phải một mẹo ghi nhớ do sách đặt ra.
 ])
 
 === Bản đồ một trang
@@ -311,7 +311,7 @@ Trong thực hành, có thể gặp những mức gần nhau nhưng không đồ
 === Tám chi với tám công việc
 
 #source-line("KINH", [K25 · SN 45.8], [
-  SN 45.8 định nghĩa Bát Thánh Đạo: chánh kiến là trí biết bốn đế; chánh tư duy là hướng xuất ly, không sân và không hại; chánh ngữ là tránh dối trá, chia rẽ, thô ác và phù phiếm; chánh nghiệp là tránh sát sinh, lấy của không cho và tà hạnh trong dục; chánh mạng là bỏ tà mạng; chánh tinh tấn là ngăn và bỏ bất thiện, làm sinh và nuôi lớn thiện; chánh niệm là quán thân, thọ, tâm và pháp với nhiệt tâm, tỉnh giác và chánh niệm; chánh định được bài kinh trình bày bằng bốn tầng thiền.
+  SN 45.8 định nghĩa Bát Chánh Đạo: chánh kiến là trí biết bốn đế; chánh tư duy là hướng xuất ly, không sân và không hại; chánh ngữ là tránh dối trá, chia rẽ, thô ác và phù phiếm; chánh nghiệp là tránh sát sinh, lấy của không cho và tà hạnh trong dục; chánh mạng là bỏ tà mạng; chánh tinh tấn là ngăn và bỏ bất thiện, làm sinh và nuôi lớn thiện; chánh niệm là quán thân, thọ, tâm và pháp với nhiệt tâm, tỉnh giác và chánh niệm; chánh định được bài kinh trình bày bằng bốn tầng thiền.
 ])
 
 Để dùng trong đời sống, có thể nhớ tám công việc bằng những từ ngắn sau. Đây là cách nhóm và diễn đạt của sách, không phải tên gọi mới trong kinh:
@@ -364,7 +364,7 @@ Không cần chờ tới khi một buổi ngồi mới thực hành Đạo đế
 === Tám chi không xếp thành tám bậc thang
 
 #source-line("KINH", [K06 · SN 55.5; K25 · SN 45.8], [
-  SN 55.5 gọi “dòng” là toàn bộ Bát Thánh Đạo; SN 45.8 định nghĩa đủ tám chi. Vì vậy, một cách ghi nhận, một bài tập thở, một tư thế, một lịch ngồi hay một phương pháp Mahāsi có thể nâng đỡ một số chi đạo, nhưng không đồng nhất với cả dòng và không tự chứng minh quả Nhập lưu.
+  SN 55.5 gọi “dòng” là toàn bộ Bát Chánh Đạo; SN 45.8 định nghĩa đủ tám chi. Vì vậy, một cách ghi nhận, một bài tập thở, một tư thế, một lịch ngồi hay một phương pháp Mahāsi có thể nâng đỡ một số chi đạo, nhưng không đồng nhất với cả dòng và không tự chứng minh quả Nhập lưu.
 ])
 
 Nếu niệm được tách khỏi giới, nó có thể thành kỹ năng quan sát phục vụ tham vọng. Nếu định được tách khỏi chánh kiến, nó có thể chỉ là trạng thái dễ chịu. Nếu kiến thức không đi vào lời nói, hành động và nghề nghiệp, nó có thể trở thành một căn tính trí thức. Bát Chánh Đạo là một hệ thống tự sửa sai, không phải danh sách để tích đủ tám dấu.
