@@ -62,20 +62,20 @@ class Chapter12ContractTests(unittest.TestCase):
             "=== Trước khi học tên: hãy nhìn một tiến trình từ bên trong",
             "=== Ba việc đổi song song, nhưng đừng nhập chúng làm một",
             "=== Nguồn không cho một vạch đích có thể đo",
-            "=== Một ca giả định: từ dữ kiện thô đến giả thuyết",
+            "=== Một ví dụ: từ trải nghiệm được kể lại đến cách hiểu thận trọng",
         )
         for heading in required_sections:
             self.assertIn(heading, self.chapter)
 
         required_distinctions = (
             "*Độ liên tục:*",
-            "*Độ phân giải:*",
+            "*Thấy chi tiết hơn:*",
             "*Quan hệ với kinh nghiệm:*",
-            "*Dữ kiện nền:*",
-            "*Dữ kiện hiện tại:*",
-            "*Dữ kiện chuyển tiếp:*",
-            "*Dữ kiện dọc thời gian:*",
-            "*Dữ kiện phản chứng:*",
+            "*Nền thực hành:*",
+            "*Điều đang lặp lại:*",
+            "*Mạch chuyển tiếp:*",
+            "*Điều có lặp qua nhiều buổi không:*",
+            "*Có cách giải thích khác tốt hơn không:*",
             "*Trải nghiệm gì?*",
             "*Khi nào?*",
             "*Làm sao?*",

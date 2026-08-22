@@ -81,7 +81,7 @@ SN 22.59 ghi Đức Phật nói với nhóm năm vị Tỳ-kheo. Lập luận c�
 
     “Cái này không phải của tôi; tôi không phải là cái này; cái này không phải tự ngã của tôi.”
   ],
-  [SN 22.59:7.1–10.1. Dòng Pāli được chép từ bản K35 đã khóa phiên bản; câu Việt là bản dịch sát nghĩa do sách thực hiện, không chép từ một bản dịch Việt hiện đại. Bài kinh áp dụng công thức này lần lượt cho đủ năm uẩn.],
+  [SN 22.59:7.1–10.1. Dòng Pāli được chép từ nguồn K35 mà sách dùng làm tham chiếu; câu Việt là bản dịch sát nghĩa do sách thực hiện, không chép từ một bản dịch Việt hiện đại. Bài kinh áp dụng công thức này lần lượt cho đủ năm uẩn.],
 )
 
 #practice-card(
