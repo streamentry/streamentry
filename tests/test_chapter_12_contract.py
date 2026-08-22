@@ -52,7 +52,7 @@ class Chapter12ContractTests(unittest.TestCase):
             maxsplit=1,
         )[1].split("== Tóm tắt đường đi", maxsplit=1)[0]
         for number in range(1, 12):
-            self.assertRegex(section, rf"(?m)^\+ \*{number} · ")
+            self.assertRegex(section, rf"(?m)^- \*{number} · ")
         self.assertIn("minh họa đối chiếu P02 mục 1–11", section)
 
     def test_beginner_model_explains_maturation_without_fake_thresholds(
@@ -93,7 +93,7 @@ class Chapter12ContractTests(unittest.TestCase):
         )
         self.assertIn(
             "Nếu chỉ có rung mạnh rồi hoảng, kết luận là "
-            "*chưa đủ dữ kiện*",
+            "*chưa đủ căn cứ để gọi tên tầng*",
             self.chapter,
         )
         self.assertIn(

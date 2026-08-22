@@ -103,7 +103,7 @@
 
 == Ba quy tắc dùng nhãn
 
-#check-row([Ngắn.], [Một từ thông thường thường đủ. Không cần tìm thuật ngữ Pāli trong lúc hành.])
+#check-row([Ngắn.], [Một từ ngắn, quen thuộc thường là đủ. Không cần tìm thuật ngữ Pāli trong lúc hành.])
 #v(6pt)
 #check-row([Đúng lúc.], [Nhãn đi cùng hoặc ngay sau khi nhận ra đối tượng, không chạy trước kinh nghiệm.])
 #v(6pt)

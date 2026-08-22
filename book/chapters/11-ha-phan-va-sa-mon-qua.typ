@@ -286,7 +286,7 @@ Ba mục dưới đây giúp tra cứu chính xác. Người đọc lần đầu
 
 === Vì sao bạn gặp nhiều từ Pāli?
 
-AN 10.13 và phần liệt kê đầu MN 64 dùng *kāmacchanda* và *byāpāda*; khi MN 64 mô tả trạng thái đang chi phối tâm, bài kinh dùng *kāmarāga* và *byāpāda*. Sách dùng hai từ Việt ngắn là *dục tham* và *sân* cho mạch giải thích này. Dù gặp cách dịch nào, hãy giữ đúng phạm vi: cặp này nói riêng về sự trói buộc bởi dục giác quan và ác ý, không đồng nghĩa toàn bộ bộ ba tham, sân, si được AN 3.88 dùng khi nói về Nhất lai.
+AN 10.13 và phần liệt kê đầu MN 64 dùng *kāmacchanda* và *byāpāda*; khi MN 64 mô tả trạng thái đang chi phối tâm, bài kinh dùng *kāmarāga* và *byāpāda*. Sách dùng hai từ Việt ngắn là *dục tham* và *sân* cho mạch giải thích này. Dù gặp cách dịch nào, hãy giữ đúng phạm vi: cặp này nói riêng về sự trói buộc bởi dục giác quan và ác ý, không đồng nghĩa với bộ ba tham, sân, si được AN 3.88 dùng khi nói về Nhất lai.
 
 === “Bốn quả Sa-môn” không đồng nghĩa “Kinh Sa-môn quả”
 
