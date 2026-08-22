@@ -289,7 +289,7 @@ MN 2 nêu *vicikicchā* là kiết sử nhưng không cho một định nghĩa t
 #practice-card(
   [Ba việc thường bị gọi chung là “nghi”],
   [
-    + *Thiếu dữ kiện:* chưa biết bản dịch nào sát hơn hoặc chưa biết một vị thầy đã được ai kiểm chứng. Việc cần làm là tìm thêm dữ kiện.
+    + *Chưa đủ căn cứ:* chưa biết bản dịch nào sát hơn hoặc chưa biết một vị thầy đã được kiểm chứng ra sao. Việc cần làm là tìm thêm nguồn và thông tin đáng tin.
     + *Điều tra lành mạnh:* hỏi lời dạy nằm ở đâu, có hợp với giới và Tứ Thánh Đế không, hậu quả thực tế ra sao. Việc cần làm là tiếp tục kiểm tra trung thực.
     + *Hoài nghi như kiết sử, theo cách hiểu của sách:* sự phân vân trên trục Phật, Pháp, Tăng, con đường và sự thực hành chưa được tháo bằng thấy biết đã được xác chứng. Nó không được đoạn bằng cách giả vờ chắc chắn.
 
@@ -381,10 +381,10 @@ Cụm *sīlabbataparāmāsa* được dịch theo nhiều cách: giới cấm th
   [
     Cùng một hình thức có thể được dùng đúng chức năng hoặc bị nắm thành điều kiện đủ:
 
-    + *Giới điều:* chức năng là ngăn hại, bảo vệ quan hệ và nâng đỡ tâm không hối hận. Bảo chứng giả là “tôi giữ đúng câu chữ, nên cách thấy và toàn bộ đời sống chắc chắn đã thanh tịnh”.
-    + *Tư thế:* chức năng là giúp thân ổn và tâm tỉnh. Bảo chứng giả là “đổi tư thế thì đường tu hỏng”, kể cả khi thân đang chấn thương.
-    + *Ghi nhận:* chức năng là giúp nhận biết kinh nghiệm và giảm bị cuốn theo. Bảo chứng giả là “gọi đúng nhãn Pāli hoặc ghi nhận đủ nhanh thì quả phải xảy ra”.
-    + *Tụng niệm hay nghi lễ:* có thể nhắc tâm, nuôi sự trang nghiêm hoặc nâng đỡ cộng đồng. Bảo chứng giả là “hoàn tất nghi thức tự nó thanh tịnh hóa, bất kể tà kiến và hành vi gây hại”.
+    + *Giới điều:* chức năng là ngăn hại, bảo vệ quan hệ và nâng đỡ tâm không hối hận. Lầm tưởng ở đây là “tôi giữ đúng câu chữ, nên cách thấy và toàn bộ đời sống chắc chắn đã thanh tịnh”.
+    + *Tư thế:* chức năng là giúp thân ổn và tâm tỉnh. Lầm tưởng ở đây là “đổi tư thế thì đường tu hỏng”, kể cả khi thân đang chấn thương.
+    + *Ghi nhận:* chức năng là giúp nhận biết kinh nghiệm và giảm bị cuốn theo. Lầm tưởng ở đây là “gọi đúng nhãn Pāli hoặc ghi nhận đủ nhanh thì quả phải xảy ra”.
+    + *Tụng niệm hay nghi lễ:* có thể nhắc tâm, nuôi sự trang nghiêm hoặc nâng đỡ cộng đồng. Lầm tưởng ở đây là “hoàn tất nghi thức tự nó thanh tịnh hóa, bất kể tà kiến và hành vi gây hại”.
 
     Bài học không phải bỏ hình thức. Hãy hỏi hình thức đang làm việc gì trong toàn bộ Bát Chánh Đạo, và điều kiện nào khác vẫn không thể thiếu. Bốn ví dụ là phần biên soạn; MN 2 nêu tên kiết sử chứ không kể các tình huống hiện đại này.
   ],
@@ -401,7 +401,7 @@ Không được dùng sự phân biệt này để biện hộ cho bỏ giới h
     + Nó đang ngăn điều hại nào hoặc nâng đỡ chi đạo nào?
     + Tôi có đang dùng việc “làm đúng” để khỏi nhìn một lời nói dối, một hành vi gây hại hay một cách thấy sai không?
     + Nếu hoàn cảnh buộc phải đổi hình thức mà vẫn giữ nguyên giới và chức năng tu tập, tôi có cho rằng con đường đã hỏng không?
-    + Dữ kiện nào có thể khiến tôi sửa niềm tin rằng riêng phương tiện này là điều kiện đủ của giải thoát?
+    + Điều gì, nếu được thấy rõ, sẽ khiến tôi sửa niềm tin rằng riêng phương tiện này đã đủ cho giải thoát?
 
     Giữ giới không phải chấp giới. Dùng nghi thức hay kỹ thuật cũng không tự nó là sai. Sai lầm nằm ở việc biến phương tiện thành bảo chứng, rồi để hình thức che mất nhân quả, giới hạnh và toàn bộ Bát Chánh Đạo. Trả lời tốt các câu hỏi này vẫn không chứng minh kiết sử đã đoạn.
   ],

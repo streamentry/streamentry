@@ -408,9 +408,9 @@ Một mã nguồn giúp tra lại gốc, nhưng không tự động chứng minh
 
 Những nhận định quan trọng trong sách đều có mã nguồn để bạn tự kiểm tra được. Dù đã cố gắng đối chiếu, bản thảo chắc chắn vẫn có thể còn chỗ chưa đúng, chưa rõ, hoặc cần được trình bày tốt hơn.
 
-Nếu quý Thầy, hành giả có kinh nghiệm, người nghiên cứu hay một độc giả nào đó gặp một chỗ cần xem lại — hãy cho sách biết đoạn nào, vì sao, và nên đối chiếu với nguồn nào, qua #link("https://github.com/streamentry/streamentry/issues/new?template=correction.yml")[biểu mẫu sửa sai công khai]. Vì mục góp ý công khai, xin không đăng email, số điện thoại hay hồ sơ y tế riêng.
+Nếu quý Thầy, hành giả có kinh nghiệm, người nghiên cứu hoặc độc giả nhận thấy một chỗ cần xem lại, xin cho biết đoạn nào, vì sao và nguồn nào nên được đối chiếu thêm, qua #link("https://github.com/streamentry/streamentry/issues/new?template=correction.yml")[biểu mẫu sửa sai công khai]. Vì mục góp ý công khai, xin không đăng email, số điện thoại hay hồ sơ y tế riêng.
 
-Còn nếu bạn có chuyên môn phù hợp về Theravāda, thực hành thiền, an toàn sức khỏe tâm thần, phương pháp nghiên cứu hay quyền xuất bản, và muốn giúp bản thảo qua một vòng nhìn độc lập, hãy để lại lời mời tại #link("https://github.com/streamentry/streamentry/issues/new?template=external-review-interest.yml")[biểu mẫu đề nghị tham gia thẩm định]. Một đề nghị chưa phải báo cáo thẩm định — nhưng đó là cánh cửa để một cuộc đối thoại đáng giá bắt đầu.
+Còn nếu bạn có chuyên môn về Theravāda, thực hành thiền, an toàn sức khỏe tâm thần, phương pháp nghiên cứu hoặc bản quyền và xuất bản, và muốn đọc phản biện độc lập cho bản thảo, xin đăng ký qua #link("https://github.com/streamentry/streamentry/issues/new?template=external-review-interest.yml")[biểu mẫu tham gia thẩm định]. Một đề nghị chưa phải báo cáo thẩm định — nhưng đó là cánh cửa để những cuộc đối thoại đáng giá bắt đầu.
 
 Quy tắc phân loại nguồn, cách xử lý khi có ý kiến khác nhau và lịch sử các lần sửa nằm trong #link("https://github.com/streamentry/streamentry/blob/main/EDITORIAL_POLICY.md")[Chính sách biên tập và sửa sai] và tại trang của dự án; những sửa đổi quan trọng sẽ đi vào các ấn bản sau, kèm nguồn đối chiếu.
 
