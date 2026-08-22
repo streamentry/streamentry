@@ -3,7 +3,7 @@
   "candidate_binding": "frozen_artifact_commit_ancestor_plus_release_evidence",
   "release_evidence": {
     "path": "book/references/release-evidence.md",
-    "sha256": "f31136ee96c4ff21219d68fdb7e876d6cc539b09a17d4658b9a6ffc1980dac09"
+    "sha256": "1706f64e90b82a903e420edb1303449fb6fa015ce1ea1a3140f9c6b0062b17c5"
   },
   "protocols": {
     "external_release_packet": {
@@ -16,7 +16,7 @@
     },
     "doctrinal_review": {
       "path": "book/references/doctrinal-review-protocol.md",
-      "sha256": "4fd2cef5e9b271b527d8cd71cc2e754470fd005a2427ecb361658be6dfdfe78e"
+      "sha256": "4f11d521ae943fde032bfbe6b27287fda27ffc9986d023d2f3537831961b88e5"
     },
     "clinical_safety_review": {
       "path": "book/references/clinical-safety-review-protocol.md",
@@ -24,7 +24,7 @@
     },
     "beginner_validation": {
       "path": "book/references/beginner-validation-protocol.md",
-      "sha256": "d3377dfa118f710f37bc935d7abc64388d5103b553124e95457a1fe9237ba2e5"
+      "sha256": "554d94c41633f5905c4b7fde0adc79a0af9cf212e69010514e5a1a6f2b5df56a"
     },
     "beginner_reader_kit": {
       "path": "book/references/beginner-reader-kit.md",

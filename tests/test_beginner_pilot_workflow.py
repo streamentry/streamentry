@@ -4,6 +4,7 @@ import json
 import subprocess
 import sys
 import unittest
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from _beginner_pilot_v2_fixtures import (
@@ -14,8 +15,24 @@ from _beginner_pilot_v2_fixtures import (
 from _beginner_pilot_workflow_fixtures import workflow_artifact_repo
 
 
-REGISTERED_AT = "2026-07-01T08:00:00Z"
-CLOSED_AT = "2026-07-06T12:00:00Z"
+WORKFLOW_ANCHOR = datetime.now(timezone.utc).replace(
+    hour=12,
+    minute=0,
+    second=0,
+    microsecond=0,
+)
+
+
+def workflow_time(days_from_anchor: int, *, hour: int = 9) -> str:
+    value = (WORKFLOW_ANCHOR + timedelta(days=days_from_anchor)).replace(hour=hour)
+    return value.isoformat().replace("+00:00", "Z")
+
+
+REGISTERED_AT = workflow_time(-8, hour=8)
+CLOSED_AT = workflow_time(-1, hour=12)
+EXPECTED_DELETE_BY = (
+    WORKFLOW_ANCHOR - timedelta(days=1) + timedelta(days=30)
+).isoformat()
 
 
 def run_workflow(repo_root: Path, *arguments: str) -> subprocess.CompletedProcess[str]:
@@ -95,7 +112,7 @@ class BeginnerPilotWorkflowTests(unittest.TestCase):
                 "--cohort-id",
                 COHORT_ID,
                 "--started-at",
-                "2026-07-02T09:00:00Z",
+                workflow_time(-6),
             )
             self.assertEqual(refused.returncode, 2)
             self.assertIn("only after explicit consent", refused.stderr)
@@ -106,7 +123,7 @@ class BeginnerPilotWorkflowTests(unittest.TestCase):
                 "--cohort-id",
                 COHORT_ID,
                 "--started-at",
-                "2026-07-02T09:00:00Z",
+                workflow_time(-6),
                 "--consent-confirmed",
                 "--include-epub-smoke",
             )
@@ -160,6 +177,8 @@ class BeginnerPilotWorkflowTests(unittest.TestCase):
                     f"reader-0{index}",
                     ctx["artifact"],
                     attempt_number=index,
+                    started_at=workflow_time(index - 8),
+                    completed_at=workflow_time(index - 8, hour=10),
                 )
                 for index in range(1, 6)
             ]
@@ -188,7 +207,7 @@ class BeginnerPilotWorkflowTests(unittest.TestCase):
                 sorted(records_dir.glob("*.json"))[0].read_text(encoding="utf-8")
             )
             self.assertNotIn("_draft_only", normalized)
-            self.assertEqual(normalized["delete_by"], "2026-08-05T12:00:00+00:00")
+            self.assertEqual(normalized["delete_by"], EXPECTED_DELETE_BY)
 
     def test_finalize_refuses_unfilled_draft_without_creating_manifest(self) -> None:
         with workflow_artifact_repo() as ctx:
@@ -210,7 +229,7 @@ class BeginnerPilotWorkflowTests(unittest.TestCase):
                     "--cohort-id",
                     COHORT_ID,
                     "--started-at",
-                    f"2026-07-0{index + 1}T09:00:00Z",
+                    workflow_time(index - 7),
                     "--consent-confirmed",
                 )
                 self.assertEqual(created.returncode, 0, created.stderr)
@@ -220,7 +239,7 @@ class BeginnerPilotWorkflowTests(unittest.TestCase):
                 "--cohort-id",
                 COHORT_ID,
                 "--closed-at",
-                "2026-07-07T12:00:00Z",
+                CLOSED_AT,
             )
             self.assertEqual(result.returncode, 2)
             self.assertIn("is not of type", result.stderr)

@@ -49,7 +49,7 @@ class EditorialPolicyTests(unittest.TestCase):
         self.assertIn(POLICY_URL, self.source_chapter)
         self.assertIn(CORRECTION_URL, self.source_chapter)
         self.assertIn(REVIEW_INTEREST_URL, self.source_chapter)
-        self.assertIn("chưa phải một vòng thẩm định đã diễn ra", self.source_chapter)
+        self.assertIn("không tự xác nhận chuyên môn", self.source_chapter)
         self.assertIn("không đăng email, số điện thoại", self.source_chapter)
 
     def test_policy_exposes_required_boundaries(self) -> None:

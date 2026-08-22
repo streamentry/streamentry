@@ -3,7 +3,7 @@
   "edition_id": "vi-2026",
   "metadata": {
     "title": "Hướng Đến Nhập Lưu",
-    "author": "CS Chánh Niệm (với sự hỗ trợ tổng hợp tư liệu từ AI)",
+    "author": "CS Chánh Niệm (với sự hỗ trợ từ AI)",
     "language": "vi",
     "description": "Sổ tay Niệm xứ cho người tại gia theo truyền thống Mahāsi, đối chiếu Kinh tạng Pāli và Thanh Tịnh Đạo",
     "keywords": [
@@ -22,8 +22,8 @@
   "publication": {
     "file_stem": "huong-den-nhap-luu",
     "identifier_seed": "https://streamentry.local/huong-den-nhap-luu",
-    "epub_modified": "2026-08-21T00:00:00Z",
-    "pdf_creation_timestamp": "1787270400"
+    "epub_modified": "2026-08-22T00:00:00Z",
+    "pdf_creation_timestamp": "1787356800"
   },
   "source": {
     "path": "con-duong-niem-xu-mahasi-hop-nhat.md",

@@ -37,6 +37,7 @@ SECTION_FINDING_PROMPT = (
     "Find the section that separates editorial guidance from canonical claims."
 )
 DEFAULT_MANIFEST_CLOSED_AT = "2026-07-06T12:00:00Z"
+SCORER_TEST_NOW = "2026-07-07T12:00:00+00:00"
 
 
 def dt(day: int, hour: int = 9, minute: int = 0) -> datetime:
@@ -332,8 +333,20 @@ def run_cli(
 ) -> subprocess.CompletedProcess[str]:
     repo_root = manifest_path.parents[3]
     cli_path = repo_root / "scripts" / "score-beginner-pilot.py"
+    runner = "\n".join(
+        (
+            "import runpy, sys",
+            "from datetime import datetime",
+            f"sys.path.insert(0, {str(cli_path.parent)!r})",
+            "import beginner_pilot_manifest",
+            "beginner_pilot_manifest.default_now = "
+            f"lambda: datetime.fromisoformat({SCORER_TEST_NOW!r})",
+            f"sys.argv = {[str(cli_path), str(manifest_path), *extra_args]!r}",
+            f"runpy.run_path({str(cli_path)!r}, run_name='__main__')",
+        )
+    )
     return subprocess.run(
-        [sys.executable, str(cli_path), str(manifest_path), *extra_args],
+        [sys.executable, "-c", runner],
         cwd=repo_root,
         capture_output=True,
         text=True,

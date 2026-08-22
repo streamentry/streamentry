@@ -82,7 +82,7 @@ Chỉ dẫn trong sách không đứng cao hơn giới, sự an toàn hay bổn 
 
 Kiểm tra nội bộ chứng minh artifact hiện tại có cấu trúc nhất quán với hồ sơ phát hành. Nó không chứng minh mọi người mới đều hiểu đúng, sách an toàn cho mọi tình trạng, người biên tập có quyền phát hành rộng rãi, hay sách tốt hơn các lựa chọn khác. Những kết luận ấy cần bằng chứng bên ngoài riêng.
 
-Tín dụng xuất bản hiện tại là `CS Chánh Niệm (với sự hỗ trợ tổng hợp tư liệu từ AI)`. [`book/edition.json`](book/edition.json) là nguồn duy nhất có thẩm quyền trong kho đối với tên sách, tín dụng, ngôn ngữ, tên tệp, nhãn giao diện và phạm vi kiểm định của edition.
+Thông tin tác giả hiện tại là `CS Chánh Niệm (với sự hỗ trợ từ AI)`. [`book/edition.json`](book/edition.json) là nguồn duy nhất có thẩm quyền trong kho đối với tên sách, thông tin tác giả, ngôn ngữ, tên tệp, nhãn giao diện và phạm vi kiểm định của edition.
 
 ## Giúp đưa sách qua thẩm định độc lập
 
