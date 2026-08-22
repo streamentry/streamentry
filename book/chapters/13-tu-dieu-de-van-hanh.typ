@@ -87,7 +87,7 @@ Sách dùng bốn câu hỏi sau như một *khung vận hành biên soạn*:
   SN 56.11 nêu sinh, già, bệnh, chết; gặp điều không ưa; xa điều mình yêu; không được điều mình muốn; rồi tóm lại bằng năm uẩn bị chấp thủ là khổ. Vì vậy, *dukkha* không chỉ là một cơn đau thể xác hay một tâm trạng buồn. Bài kinh cũng không yêu cầu phủ nhận những niềm vui có điều kiện; nó chỉ không xem cái vô thường là chỗ bảo đảm tuyệt đối khi tâm bám vào nó.
 ])
 
-Một lời khen có thể làm tâm vui. Một bữa cơm ngon có thể nuôi thân. Một mối quan hệ có thể đem lại tình thương. Không cần phủ nhận dữ kiện ấy để thấy Khổ đế. Điều cần nhìn là lớp đòi hỏi được thêm vào: “Điều này phải tiếp tục”, “người kia phải luôn hiểu tôi”, “thành công này phải chứng minh giá trị của tôi”. Khi một hiện tượng đổi thay bị giao nhiệm vụ làm nền an toàn vĩnh viễn, sức ép xuất hiện.
+Một lời khen có thể làm tâm vui. Một bữa cơm ngon có thể nuôi thân. Một mối quan hệ có thể đem lại tình thương. Không cần phủ nhận những niềm vui ấy để thấy Khổ đế. Điều cần nhìn là lớp đòi hỏi được thêm vào: “Điều này phải tiếp tục”, “người kia phải luôn hiểu tôi”, “thành công này phải chứng minh giá trị của tôi”. Khi một hiện tượng đổi thay bị giao nhiệm vụ làm nền an toàn vĩnh viễn, sức ép xuất hiện.
 
 === Năm uẩn và năm uẩn bị chấp thủ
 
@@ -183,7 +183,7 @@ Trong tiếng Việt, ba độc thường được gom thành “tham–sân–s
 + *Ái và tham:* *taṇhā* là từ giữ vai trò trung tâm trong Tập đế; *lobha* hay *rāga* gần với tham, say đắm và chiếm hữu trong những ngữ cảnh rộng hơn. Chúng cùng một họ, nhưng không nên dùng một từ để xóa mọi khác biệt.
 + *Sân và chấp thủ:* sân nghiêng về chống đối và đẩy ra; thủ là nắm chặt hoặc gắn mình vào một đối tượng, quan điểm hay quy tắc. Chúng thường nuôi nhau nhưng không phải một. Từ chối một hành vi gây hại cũng không tự nó là sân.
 
-Một cơn giận có thể đồng thời chứa mong muốn được công nhận, lực chống đối và sự không thấy rõ dữ kiện. Nhìn các lớp ấy giúp ta chọn đúng việc cần làm; không biến một nhãn tâm lý thành kết luận về quả vị.
+Một cơn giận có thể đồng thời chứa mong muốn được công nhận, lực chống đối và sự không thấy rõ điều đang xảy ra. Nhìn các lớp ấy giúp ta chọn đúng việc cần làm; không biến một nhãn tâm lý thành kết luận về quả vị.
 
 === Thọ không phải toàn bộ cảm xúc
 

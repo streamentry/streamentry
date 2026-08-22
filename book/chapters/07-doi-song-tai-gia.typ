@@ -259,7 +259,7 @@ Có thể theo dõi số ngày đã hành, mức độ giữ giới, tốc độ
   [Kiểm bằng tình huống, không kiểm bằng khẩu hiệu],
   [
     + Khi công việc có rủi ro, tôi biết đặt chú ý vào an toàn thay vì cố quan sát nội tâm.
-    + Khi phản ứng vừa dâng, tôi biết dữ kiện thân, thọ và lực kéo, rồi chọn một hành động hợp hoàn cảnh.
+    + Khi phản ứng vừa dâng, tôi nhận ra điều đang xảy ra ở thân, thọ và lực kéo, rồi chọn một hành động hợp hoàn cảnh.
     + Khi đã lỡ gây hại, tôi biết dừng, nhận đúng việc, sửa cụ thể và chuẩn bị cách phòng lặp lại.
     + Khi nhịp thực hành gãy, tôi quay về lối khởi động lại thay vì bù giờ hoặc bỏ luôn.
 

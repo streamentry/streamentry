@@ -103,10 +103,10 @@ Nhãn là một động tác nhận biết ngắn, không phải lời bình lu�
 
 *Với cảm giác thân,* biết phẩm chất cụ thể đang rõ như căng, nóng, rung, ngứa hay đau. Đừng dùng nhãn “đau” để ra lệnh cảm giác biến mất. Nếu có ý muốn gãi hoặc đổi chân, biết ý định rồi cử động có ý thức. Ngưỡng an toàn nằm cao hơn quy tắc trở về bụng.
 
-*Với cảm xúc mạnh,* bắt đầu từ dữ kiện gần nhất: ngực co, mặt nóng, thọ khó chịu, tâm có sân, ý muốn nói hoặc bỏ đi. “Giận” có thể là nhãn mở đầu, nhưng không nên gom toàn bộ thân, thọ, tâm và câu chuyện vào một khối rồi tưởng đã thấy hết.
+*Với cảm xúc mạnh,* bắt đầu từ điều trực tiếp nhất: ngực co, mặt nóng, thọ khó chịu, tâm có sân, ý muốn nói hoặc bỏ đi. “Giận” có thể là nhãn mở đầu, nhưng không nên gom toàn bộ thân, thọ, tâm và câu chuyện vào một khối rồi tưởng đã thấy hết.
 
 #practice-card(
-  [Một buổi ngồi được kể bằng dữ kiện],
+  [Kể lại một buổi ngồi bằng điều đã thấy],
   [
     Ba nhịp đầu, bụng mở và thu khá rõ. Một ý nghĩ về công việc chen vào; người hành nhận ra “nghĩ”, nhưng câu chuyện vẫn tiếp tục thêm vài nhịp. Người ấy biết tiếp hoạt động nghĩ cho đến khi nó ngắt, rồi trở về bụng.
 
