@@ -24,7 +24,7 @@ Cuốn sách này có một mục đích thực tế: giúp người tại gia b
 Vì vậy, sách đi theo một nhịp khá rõ: trước hết là cách bắt đầu cho người mới, sau đó là nền giáo lý tối thiểu, rồi mới đến các chủ đề dễ làm người đọc lẫn nếu gặp quá sớm.
 
 #source-line("BIÊN SOẠN", [ba cách hiểu đủ dùng để bắt đầu, đối chiếu K01; P01; K06], [
-  Để bắt đầu, chỉ cần nắm ba cách hiểu ngắn gọn. *Niệm xứ* là học cách biết rõ thân, sắc thái dễ chịu hay khó chịu, trạng thái tâm và những khuôn mẫu được lời dạy chỉ ra. *Mahāsi* là một dòng thiền hiện đại trong truyền thống Theravāda, truyền thống Phật giáo dùng kinh tạng Pāli làm nền; phương pháp dùng chuyển động bụng, ghi nhận trong tâm và thiền hành để tổ chức việc quan sát. *Nhập lưu* là sự bước vào Bát Chánh Đạo theo tiêu chuẩn của kinh, không phải tên khác của cảm giác yên hay một buổi ngồi sâu. Các chương sau sẽ mở từng nghĩa ra; người mới chưa cần thuộc thuật ngữ ngay ở đây.
+  Để bắt đầu, chỉ cần nắm ba cách hiểu ngắn gọn. *Niệm xứ* là học cách biết rõ thân, sắc thái dễ chịu hay khó chịu, trạng thái tâm và những khuôn mẫu được lời dạy chỉ ra. *Mahāsi* là một dòng thiền hiện đại thuộc Theravāda, truyền thống Phật giáo lấy Kinh tạng Pāli làm nền. Phương pháp này dùng chuyển động bụng, ghi nhận trong tâm và thiền hành để tổ chức việc quan sát. *Nhập lưu* là sự bước vào Bát Chánh Đạo theo tiêu chuẩn của kinh, không phải tên khác của cảm giác yên hay một buổi ngồi sâu. Các chương sau sẽ mở từng nghĩa ra; người mới chưa cần thuộc thuật ngữ ngay ở đây.
 ])
 
 Tên sách dùng cụm từ *hướng đến nhập lưu*. Đây là giới hạn có chủ ý. Kinh điển mô tả Nhập lưu là một chuyển đổi xác định trong thấy biết và đời sống đạo đức. Không thời khóa, kỹ thuật hay trải nghiệm đơn lẻ nào cho phép một cuốn sách hứa chắc kết quả ấy.
@@ -40,16 +40,16 @@ Tên sách dùng cụm từ *hướng đến nhập lưu*. Đây là giới hạ
 
 == Lộ trình đọc cho người mới
 
-Phần này cố tình đọc chậm hơn phần thực hành. Người mới không cần hiểu hết ngay; chỉ cần biết phải đọc chương nào trước, chương nào sau, và đoạn nào nên để lại làm tài liệu tham chiếu.
+Phần này cố ý đi chậm hơn phần thực hành. Người mới không cần hiểu hết ngay; chỉ cần biết phải đọc chương nào trước, chương nào sau, và đoạn nào nên để lại làm tài liệu tham chiếu.
 
 #practice-card(
-  [Đường đọc lần đầu],
+  [Lộ trình đọc lần đầu],
   [
     + *Tuần đầu:* Chương 1. Mở #link(<buoi-dau>)[“Trước buổi đầu tiên”], đọc hai hộp an toàn và thẻ Ngày 1; để #link(<nhan-tham-chieu>)[bảng nhãn ở Phụ lục B] bên cạnh nếu các từ ghi nhận còn lạ. Nếu một dấu hiệu cảnh báo áp dụng, dừng ở đó và đọc #link(<an-toan>)[chương 9] trước khi tiếp tục.
     + *Sau tuần đầu:* Chương 2–7, cùng #link(<ngay-8-30>)[cầu nối ngày 8 đến ngày 30] trong chương 1. Cần gom điều đã học vào một tình huống thật thì mở Chương 12 như bản đồ ôn lại.
     + *Trước khi tăng mạnh thời lượng, tập một mình dài ngày hoặc đi khóa:* Chương 8–9. Kiểm tra sức khỏe, người hướng dẫn và quyền rời khóa.
     + *Khi muốn hiểu rõ Nhập lưu:* Chương 10–12. Nếu ba kiết sử đầu còn lấn cấn, dùng bảng thuật ngữ hoặc phần giải đáp để đọc lại; đó là chuyện bình thường, không phải kỳ thi.
-    + *Chương 13:* chỉ đọc sâu khi đã hành đều, biết ngưỡng an toàn và có người hướng dẫn. Trong tháng đầu, nếu tò mò, chỉ đọc #link(<ban-do-tue-la-gi>)[phần “Bản đồ tuệ là gì?”] rồi dừng trước phần bảy thanh tịnh; đừng dùng tên tầng tuệ để tự phong cấp cho một trải nghiệm.
+    + *Chương 13:* chỉ đọc sâu khi đã hành đều, biết ngưỡng an toàn và có người hướng dẫn. Trong tháng đầu, nếu tò mò, chỉ đọc #link(<ban-do-tue-la-gi>)[phần “Bản đồ tuệ là gì?”] rồi dừng trước phần bảy thanh tịnh; đừng vội gắn tên tầng tuệ cho một trải nghiệm.
 
     Phần giải đáp (#link(<faq>)[Phụ lục C]) và bảng thuật ngữ là nơi tra cứu khi cần. Nếu một chỉ dẫn trong sách xung đột với an toàn, giới hoặc bổn phận thiết yếu, hãy dừng và kiểm tra lại thay vì cố hoàn thành lịch.
   ],
@@ -58,7 +58,7 @@ Phần này cố tình đọc chậm hơn phần thực hành. Người mới kh
 
 == Sáu dấu nguồn dùng trong sách
 
-Mỗi đoạn mang tính giáo lý hoặc kỹ thuật sẽ được đặt gần một dấu nguồn. Dấu nguồn không xếp hạng giá trị tinh thần; nó ngăn người đọc gán lời của một thiền sư hay người biên soạn cho Đức Phật.
+Mỗi đoạn mang tính giáo lý hoặc kỹ thuật sẽ được đặt gần một dấu nguồn. Dấu nguồn không nhằm xếp hạng giá trị của các nguồn; nó giúp bạn biết một lời đang đến từ kinh, luận giải, truyền thống Mahāsi, nghiên cứu hiện đại hay phần biên soạn — và ngăn việc gán lời của một thiền sư hay người biên soạn cho Đức Phật.
 
 #source-line("KINH", [MN 10; SN 55], [Các bài kinh thuộc Nikāya Pāli, gồm lời được truyền thống quy về Đức Phật và lời của các vị Thánh đệ tử. Mã kinh xác định ai nói và trong ngữ cảnh nào; dấu này không có nghĩa mọi câu trong kinh đều là lời Phật trực tiếp.])
 
@@ -82,13 +82,15 @@ Mỗi đoạn mang tính giáo lý hoặc kỹ thuật sẽ được đặt gầ
 #practice-card(
   [Một phút để đọc mã nguồn],
   [
+    Các mã dưới đây chỉ phục vụ tra cứu; chưa cần nhớ chúng để bắt đầu thực hành.
+
     + *DN* là *Dīgha Nikāya*, Trường Bộ; *MN* là *Majjhima Nikāya*, Trung Bộ.
     + *SN* là *Saṃyutta Nikāya*, Tương Ưng Bộ; *AN* là *Aṅguttara Nikāya*, Tăng Chi Bộ.
     + *Ud* là *Udāna*, thường gọi là Kinh Phật Tự Thuyết.
     + Số sau chữ viết tắt chỉ vị trí bài kinh trong bộ sưu tập đang dùng. Chẳng hạn, *MN 10* là bài số 10 của Trung Bộ; *SN 55.5* là bài số 5 trong nhóm 55 của Tương Ưng Bộ; *AN 3.88* là bài số 88 trong chương Ba pháp của Tăng Chi Bộ.
     + *K01, K02…* là các mã tra nguồn do sách đặt để nối một nhận định với đúng bài kinh, bản dịch và liên kết ở #link(<ma-nguon-chi-tiet>)[Bản đồ nguồn]. K01 không có nghĩa “kinh số 1” trong Tam tạng.
     + *P01* và *P02* là hai tài liệu Mahāsi được chọn làm bản tham chiếu chính của sách: _Practical Insight Meditation_ và _The Progress of Insight_. *V01* là ấn bản _The Path of Purification_, tức _Thanh Tịnh Đạo_, được dùng trong sách.
-    + *R01, R02…* là nguồn nghiên cứu, y tế hoặc cơ quan chính thức dùng cho các mệnh đề an toàn. Chữ R không biến một nghiên cứu thành giáo lý và cũng không có nghĩa mọi nguồn R mạnh như nhau.
+    + *R01, R02…* là các nguồn nghiên cứu, y tế hoặc cơ quan chính thức dùng cho những nhận định về an toàn. Chữ R không biến một nghiên cứu thành giáo lý và cũng không có nghĩa mọi nguồn R mạnh như nhau.
 
     Khi gặp hai mã cạnh nhau, chẳng hạn “K11 · MN 2”, hãy đọc thế này: K11 là mã tra nguồn của sách; MN 2 là địa chỉ bài kinh trong Trung Bộ. Mở Bản đồ nguồn để xem tên bài, bản dịch, liên kết và giới hạn của cách dùng.
   ],

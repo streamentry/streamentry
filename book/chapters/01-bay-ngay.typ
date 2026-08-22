@@ -16,7 +16,7 @@
 #practice-card(
   [Quy ước tối thiểu],
   [
-    Chọn một giờ và một chỗ tương đối cố định. Dùng đồng hồ hẹn giờ. Ngồi trên gối hoặc ghế, miễn thân vững và không phải chịu đau có nguy cơ gây chấn thương. Phần cốt lõi của mỗi ngày là mười lăm phút ngồi; không cần tăng dần trong tuần. Nếu mười lăm phút chưa thực tế, giữ năm phút mỗi ngày trong trọn tuần. Buổi kế tiếp giữ nguyên thời lượng quen thuộc; buổi bỏ lỡ không cần bù. Mốc năm phút là *gợi ý của người biên soạn* giúp bạn giữ thói quen bền vững giữa đời sống bận rộn; nó không phải liều tối ưu hay mốc kinh điển.
+    Chọn một giờ và một chỗ tương đối cố định. Dùng đồng hồ hẹn giờ. Ngồi trên gối hoặc ghế, miễn thân vững và không phải chịu đau có nguy cơ gây chấn thương. Phần cốt lõi của mỗi ngày là mười lăm phút ngồi; không cần tăng dần trong tuần. Nếu mười lăm phút chưa thực tế, giữ năm phút mỗi ngày trong trọn tuần. Buổi kế tiếp giữ nguyên thời lượng quen thuộc; buổi bỏ lỡ không cần bù. Mốc năm phút là *gợi ý của người biên soạn* giúp bạn giữ thói quen bền vững giữa đời sống bận rộn; đó không phải thời lượng tối ưu hay một mốc được kinh điển ấn định.
   ],
   label: [THỰC HÀNH · BIÊN SOẠN THEO P01],
 )
@@ -24,7 +24,7 @@
 #caution(
   [Nếu chuyển động bụng không rõ],
   [
-    Giữ bụng là đối tượng chính ban đầu trong tuần đầu, nhưng không ép nó phải hiện ra bằng sức căng. Thả lỏng thân và thử lại trong khoảng hai đến ba phút. Một mẹo nhỏ cho người mới: đặt nhẹ lòng bàn tay lên bụng trong ba hơi thở đầu để cảm nhận sự nâng lên, hạ xuống tự nhiên mà không cần dùng sức, rồi buông tay ra và trở lại biết bằng chú ý. Nếu chuyển động vẫn rất mờ, dùng cảm giác hơi thở ở mũi cho phần còn lại của buổi đó. Giữ nguyên một điểm tựa đến hết buổi thay vì đổi qua đổi lại. Nếu chú ý hơi thở ở mũi làm tăng hoảng sợ, tức ngực, chóng mặt hoặc cảm giác xa lạ với bản thân hay thực tại, đừng cố giữ điểm tựa ấy. Hãy dừng buổi ngồi và dùng bài tiếp đất ở #link(<an-toan>)[chương 9]. Quy tắc giữ một điểm tựa không bao giờ cao hơn an toàn. Mốc hai đến ba phút, mẹo đặt tay và cách chuyển điểm tựa là gợi ý thực hành do người biên soạn đề xuất để người mới không bị mắc kẹt; kinh điển không ấn định mốc này.
+    Giữ bụng là đối tượng chính ban đầu trong tuần đầu, nhưng không ép nó phải hiện ra bằng sức căng. Thả lỏng thân và thử lại trong khoảng hai đến ba phút. Một mẹo nhỏ cho người mới: đặt nhẹ lòng bàn tay lên bụng trong ba hơi thở đầu để cảm nhận sự nâng lên, hạ xuống tự nhiên mà không cần dùng sức, rồi buông tay ra và trở lại biết bằng chú ý. Nếu chuyển động vẫn rất mờ, dùng cảm giác hơi thở ở mũi cho phần còn lại của buổi đó. Giữ nguyên một điểm tựa đến hết buổi thay vì đổi qua đổi lại. Nếu chú ý hơi thở ở mũi làm tăng hoảng sợ, tức ngực, chóng mặt hoặc cảm giác xa lạ với bản thân hay thực tại, đừng cố giữ điểm tựa ấy. Hãy dừng buổi ngồi và dùng bài tiếp đất ở #link(<an-toan>)[chương 9]. An toàn luôn quan trọng hơn việc cố giữ nguyên một điểm tựa. Mốc hai đến ba phút, mẹo đặt tay và cách chuyển điểm tựa là gợi ý thực hành do người biên soạn đề xuất để người mới không bị mắc kẹt; kinh điển không ấn định mốc này.
   ],
 )
 
@@ -138,4 +138,4 @@ Nói gọn, “làm đúng” trong tuần đầu chỉ gồm ba việc: biết 
 
 #v(9pt)
 
-Ngày cuối tháng, dùng #link(<ra-soat-thang>)[bốn câu rà soát tháng]. Nếu nhịp đang ổn, đọc chương 8 trước khi tăng tiếp. Nếu chưa ổn, lặp lại một tuần ở mức vừa sức là điều chỉnh đúng, không phải thất bại. Thước đo gần nhất vẫn là tính đều đặn, giới và khả năng bớt làm hại; nó không phải tầng tuệ hay thánh quả.
+Ngày cuối tháng, dùng #link(<ra-soat-thang>)[bốn câu rà soát tháng]. Nếu nhịp đang ổn, đọc chương 8 trước khi tăng tiếp. Nếu chưa ổn, cứ lặp lại một tuần ở mức vừa sức. Đó là một điều chỉnh hợp lý, không phải thất bại. Thước đo gần nhất vẫn là tính đều đặn, giới và khả năng bớt làm hại; nó không phải tầng tuệ hay thánh quả.

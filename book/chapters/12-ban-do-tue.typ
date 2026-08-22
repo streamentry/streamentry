@@ -40,11 +40,11 @@ Sau một thời gian thực hành đều và vừa sức, người ấy có th�
 
 Khi tính liên tục và độ rõ chín hơn, cảm giác có thể không còn hiện như vật đứng yên. Nó khởi, đổi rồi mất; việc biết nó cũng đổi. Có lúc tiến trình rất sáng, nhanh và trôi chảy; hỷ, nhẹ, ánh sáng hoặc niềm tin có thể đi kèm. Việc hành đúng không phải giữ những trạng thái ấy, mà biết luôn chúng và sự ưa thích chúng. Trong bản đồ, đây là vùng sinh-diệt. Ánh sáng hay sung sướng đứng riêng không xác nhận vùng ấy.
 
-Nếu mặt chấm dứt trở nên chi phối, người ấy có thể thấy rõ việc các cảm giác và lần biết liên tục tan. Các hành vì thế hiện như không có chỗ nương chắc; sợ, khổ lụy, bớt say mê hoặc muốn thoát có thể nổi lên. Nhưng cùng những chữ ấy cũng có thể mô tả hoảng loạn, trầm cảm, phân ly hoặc thiếu ngủ. Chỉ khi cách biết có một nền đất vững, lặp lại qua nhiều đối tượng, đi theo một chuyển tiếp hợp lý và không bị giải thích an toàn tốt hơn, “vùng tan rã và bất toại nguyện” mới là một giả thuyết trình pháp có cơ sở hơn.
+Nếu mặt chấm dứt trở nên chi phối, người ấy có thể thấy rõ việc các cảm giác và lần biết liên tục tan. Các hành vì thế hiện như không có chỗ nương chắc; sợ, khổ lụy, bớt say mê hoặc muốn thoát có thể nổi lên. Nhưng cùng những chữ ấy cũng có thể mô tả hoảng loạn, trầm cảm, phân ly hoặc thiếu ngủ. Chỉ khi cách biết có một nền đất vững, lặp lại qua nhiều đối tượng, đi theo một chuyển tiếp hợp lý và không bị giải thích an toàn tốt hơn, khi ấy mới có thêm căn cứ để tạm xem trải nghiệm này thuộc vùng tan rã và bất toại nguyện, rồi đem trình lại với người hướng dẫn.
 
 P02 tiếp tục mô tả rằng khi việc quán chín, sự chống cự có thể lắng và các hành được biết quân bình hơn. Người hành không làm ra xả bằng cách ép mình vô cảm. Họ tiếp tục biết dễ chịu, khó chịu, ý muốn giữ trạng thái và ý chờ một bước nhảy. Nếu quân bình chỉ là buồn ngủ, tê cảm xúc hoặc tách rời, đó không phải điều bản đồ muốn chỉ.
 
-Toàn câu chuyện trên có thể kéo dài, dao động, lặp lại hoặc không hiện theo một đường thẳng mà người đọc nhận ra được. Nguồn không cho số buổi hay số giờ bảo đảm từng vùng. Nó cũng không cho phép suy từ một khoảng trống, một cơn hỷ hay lời xác nhận của người khác sang Nhập lưu. Phần người hành thật sự làm được là vun giới, an toàn, niệm, định và tinh tấn cân bằng; quan sát điều đang có; rồi báo cáo dữ kiện trước khi gắn tên.
+Toàn câu chuyện trên có thể kéo dài, dao động, lặp lại hoặc không hiện theo một đường thẳng mà người đọc nhận ra được. Nguồn không cho số buổi hay số giờ bảo đảm từng vùng. Nó cũng không cho phép suy từ một khoảng trống, một cơn hỷ hay lời xác nhận của người khác sang Nhập lưu. Phần người hành thật sự làm được là vun giới, an toàn, niệm, định và tinh tấn cân bằng; quan sát điều đang có; rồi kể lại điều thực sự thấy trước khi gắn tên.
 
 #practice-card(
   [“Đạt” trong chương này không có một nghĩa duy nhất],
@@ -152,9 +152,9 @@ Ngay cả khi bốn điều ấy có vẻ khớp, “đang ở vùng này” v�
 
 === Nguồn không cho một vạch đích có thể đo
 
-Đây là giới hạn cần nói thẳng. P02 dùng các từ như “chín”, “mạnh”, “sắc bén”, “liên tục” và mô tả một giai đoạn làm nền cho giai đoạn sau. Tác phẩm không định nghĩa rằng phải thấy bao nhiêu đối tượng, ngồi bao nhiêu phút, lặp bao nhiêu buổi hoặc đạt một tỉ lệ tập trung nào thì được cấp tên tầng. Thanh Tịnh Đạo cũng cung cấp cấu trúc luận giải, không cung cấp một thang đo đã được kiểm định cho người đọc hiện đại.
+Đây là giới hạn cần nói thẳng. P02 dùng các từ như “chín”, “mạnh”, “sắc bén”, “liên tục” và mô tả một giai đoạn làm nền cho giai đoạn sau. Tác phẩm không định nghĩa rằng phải thấy bao nhiêu đối tượng, ngồi bao nhiêu phút, lặp bao nhiêu buổi hoặc đạt một tỉ lệ tập trung nào thì đủ căn cứ để gọi tên một tầng. Thanh Tịnh Đạo cũng cung cấp cấu trúc luận giải, không cung cấp một thang đo đã được kiểm định cho người đọc hiện đại.
 
-Vì vậy, sách này không thể trung thực đưa ra một con số để trả lời “khi nào đạt”. Một con số rõ ràng nhưng không có trong nguồn sẽ dễ nhớ, cũng dễ sai. Điều có thể làm là tăng độ tin cậy của một giả thuyết bằng năm loại dữ kiện:
+Vì vậy, sách này không thể trung thực đưa ra một con số để trả lời “khi nào đạt”. Một con số rõ ràng nhưng không có trong nguồn sẽ dễ nhớ, cũng dễ sai. Điều có thể làm là xem một cách hiểu tạm thời có đứng vững hơn không, bằng năm điều sau:
 
 + *Nền thực hành:* cách hành thực tế, giới, niệm, định và độ liên tục trước khi hiện tượng xuất hiện.
 + *Điều đang lặp lại:* cách biết nào lặp lại qua nhiều đối tượng, không chỉ cảm giác nào mạnh nhất.
@@ -162,7 +162,7 @@ Vì vậy, sách này không thể trung thực đưa ra một con số để tr
 + *Điều có lặp qua nhiều buổi không:* cách biết có trở lại qua nhiều lần quan sát, hay chỉ là một khoảnh khắc nổi bật.
 + *Có cách giải thích khác tốt hơn không:* giấc ngủ, thuốc, đau, bệnh, lo âu, phân ly, ám thị và suy giảm chức năng có giải thích tốt hơn không.
 
-“Nhiều” trong đoạn trên cố ý không được đổi thành một con số. Ba buổi có thể cho ba dữ kiện nghèo; một buổi dài có thể cho nhiều dữ kiện nhưng vẫn bị thiếu ngủ hoặc kỳ vọng làm lệch. Chất lượng, quan hệ trước–sau và khả năng bị bác bỏ bởi một cách giải thích khác quan trọng hơn việc đếm.
+“Nhiều” trong đoạn trên cố ý không được đổi thành một con số. Ba buổi vẫn có thể cho rất ít thông tin đáng tin; một buổi dài có thể cho nhiều dữ kiện nhưng vẫn bị thiếu ngủ hoặc kỳ vọng làm lệch. Chất lượng, quan hệ trước–sau và khả năng bị bác bỏ bởi một cách giải thích khác quan trọng hơn việc đếm.
 
 #source-line("BIÊN SOẠN", [giới hạn suy luận từ P02], [
   Năm mục này do sách đặt ra để tránh biến các từ “chín” và “mạnh” của P02 thành một phép đo giả. P02 không ban hành khung năm mục, không cho ngưỡng số và không xác nhận rằng đủ năm mục sẽ chứng minh khách quan một tầng.
@@ -175,7 +175,7 @@ Vì vậy, sách này không thể trung thực đưa ra một con số để tr
 
     *Khi nào?* Khi cách biết ấy chín có điều kiện, lặp lại và chi phối trên một nền đất phù hợp. Nguồn không cho lịch hay ngưỡng định lượng để dự báo.
 
-    *Làm sao?* Vun giới, niệm, định, tinh tấn cân bằng và quan sát đúng hiện tượng đang có. Không có bài tập trung thực nào cưỡng tạo riêng ánh sáng, tan rã, sợ hãi, nhàm chán hay xả theo yêu cầu.
+    *Làm sao?* Vun giới, niệm, định, tinh tấn cân bằng và quan sát đúng hiện tượng đang có. Không có bài tập nào cho phép ta cố tạo riêng ánh sáng, tan rã, sợ hãi, nhàm chán hay xả theo ý muốn.
   ],
   label: [CÓ THỂ MÔ TẢ · KHÔNG THỂ HỨA · KHÔNG ĐƯỢC DÀN DỰNG],
 )
@@ -241,7 +241,7 @@ Không kết luận nào trong ba trường hợp tự chứng minh đạo quả
 + *Một dấu hiệu xuất hiện có nghĩa là đã đạt không?* Không. Một ánh sáng, cơn sợ, cảm giác tan, sự bình thản hay khoảng trống chỉ là một dữ kiện. Tên tầng có cơ sở hơn khi nền đất vững, cách biết chi phối, tính lặp lại và dấu hiệu chuyển tiếp cùng khớp, trong khi các giải thích khác vẫn được kiểm tra.
 + *Có phải mọi người đều có cùng cảm xúc và thời lượng?* P02 trình bày một trật tự trưởng thành trong dòng Mahāsi, nhưng không cung cấp dữ liệu cho phép biến nó thành lịch chung hoặc kịch bản cảm xúc giống hệt ở mọi người.
 + *Có thể đi thẳng đến một tầng mình thích không?* Nguồn không nêu cách nào để bỏ nền thực hành rồi cố tạo riêng ánh sáng, tan rã, sợ hãi hay xả. Điều có thể làm là vun giới, niệm, định, cách quan sát và sự liên tục vừa sức.
-+ *Có thể rơi lại hoặc thấy lẫn nhiều nét không?* Kinh nghiệm kể lại có thể dao động và chứa nhiều nét. Vì bản đồ phân loại mặt biết chi phối chứ không phải từng khoảnh khắc rời, một dao động không đủ để kết luận đã “lên” hay “tụt” tầng.
++ *Có thể rơi lại hoặc thấy lẫn nhiều nét không?* Kinh nghiệm kể lại có thể dao động và chứa nhiều nét. Vì bản đồ chú ý đến cách nhận biết đang nổi bật, chứ không xếp hạng từng khoảnh khắc rời, một dao động không đủ để kết luận đã “lên” hay “tụt” tầng.
 + *Tên tầng có xác nhận Nhập lưu không?* Không. Ngay cả một định vị hợp lý trong bản đồ P02 cũng không thay ba kiết sử đầu, dòng Thánh đạo và các tiêu chuẩn kinh điển ở chương 10–11.
 
 #practice-card(
@@ -386,7 +386,7 @@ Người đọc không “làm ra tuệ số 4” bằng cách tưởng tượng
 #caution(
   [Không có kỹ thuật nào bảo đảm đưa thẳng đến đạo quả],
   [
-    Chuỗi “đối tượng chính → ghi nhận liên tục → định sát-na → các tuệ lần lượt chín” là cách P02 trình bày một tiến trình trong dòng Mahāsi. Nó không phải bảo đảm cơ học. Chương này không cấp một bài tập riêng để cưỡng tạo từng tầng, vì làm vậy sẽ biến mô tả thành kịch bản ám thị và dễ khiến người đọc bỏ qua các cách giải thích khác.
+    Chuỗi “đối tượng chính → ghi nhận liên tục → định sát-na → các tuệ lần lượt chín” là cách P02 trình bày một tiến trình trong dòng Mahāsi. Nó không phải bảo đảm cơ học. Chương này không cấp một bài tập riêng để ép cho từng tầng xuất hiện, vì làm vậy sẽ biến mô tả thành kịch bản ám thị và dễ khiến người đọc bỏ qua các cách giải thích khác.
   ],
 )
 
@@ -462,7 +462,7 @@ Tuệ này không có nghĩa đã thấy trọn mười hai chi duyên khởi ho
     + *Cái thấy chi phối:* phân biệt tiến trình, thấy điều kiện, rồi thấy đầu–giữa–cuối cùng ba đặc tính.
     + *Cách hành:* quan sát dữ kiện gần; tách trực tiếp khỏi suy luận; không niệm khẩu hiệu thay cho thấy.
     + *Dấu hiệu chuyển tiếp:* sinh và mất của từng tiến trình trở nên nổi bật hơn tên gọi hay hình khối.
-    + *Phản chứng:* xa lạ với thân, phân ly, suy luận đúng hoặc một khoảnh khắc tách đôi đơn lẻ đều chưa đủ.
+    + *Điều chưa đủ để kết luận:* xa lạ với thân, phân ly, suy luận đúng hoặc một khoảnh khắc tách đôi đơn lẻ đều chưa đủ.
   ],
   label: [NỀN → THẤY → LÀM → CHUYỂN · DỰA TRÊN P02],
 )
@@ -501,7 +501,7 @@ Chữ “ô nhiễm” ở đây không có nghĩa ánh sáng hay hỷ tự nó 
     + *Cái thấy chi phối:* đối tượng được biết ngay trong sinh-diệt; hiện tượng đẹp cũng được thấy là sinh-diệt.
     + *Cách hành:* biết cả sự thích, không săn lại, không lầm hiện tượng phụ là cứu cánh.
     + *Dấu hiệu chuyển tiếp:* mặt mất trở nên nổi hơn mặt sinh và vẻ trôi chảy.
-    + *Phản chứng:* ánh sáng, hỷ, rung, dòng điện hoặc “tâm rất nhanh” đứng riêng đều không đủ.
+    + *Điều chưa đủ để kết luận:* ánh sáng, hỷ, rung, dòng điện hoặc “tâm rất nhanh” đứng riêng đều không đủ.
   ],
   label: [NỀN → THẤY → LÀM → CHUYỂN · DỰA TRÊN P02],
 )
@@ -536,7 +536,7 @@ Chữ “ô nhiễm” ở đây không có nghĩa ánh sáng hay hỷ tự nó 
 
 *Cách vun điều kiện và tiếp tục hành.* Tiếp tục biết đối tượng đang tan và biết phản ứng sợ nếu có. Không dựng hình ảnh ghê rợn, không nuôi hoảng hốt để tạo tầng, và không dùng ý chí đè sợ. Nếu phản ứng mạnh đến mức việc quan sát mất, trở về neo an toàn của chương 9 thay vì cố chứng minh mình đang tiến bộ.
 
-*Điều chưa đủ để kết luận.* Một cơn hoảng, ác mộng, tim đập nhanh, lo âu ngoài buổi hành hoặc cảm giác “có chuyện xấu sắp xảy ra” không tự xác nhận tuệ này. Nếu mất ngủ, mất định hướng hay suy giảm chức năng đi kèm, giả thuyết sức khỏe phải được xử lý độc lập.
+*Điều chưa đủ để kết luận.* Một cơn hoảng, ác mộng, tim đập nhanh, lo âu ngoài buổi hành hoặc cảm giác “có chuyện xấu sắp xảy ra” không tự xác nhận tuệ này. Nếu mất ngủ, mất định hướng hay suy giảm chức năng đi kèm, khả năng liên quan đến sức khỏe phải được xử lý độc lập.
 
 *Vì sao bản đồ chuyển tiếp.* Khi tiếp tục ghi nhận, điều đáng sợ được hiểu sâu hơn thành sự bất lợi và bất toại nguyện của chính các hành. P02 gọi góc nhìn ấy là tuệ khổ lụy.
 
@@ -616,11 +616,11 @@ Chữ “ô nhiễm” ở đây không có nghĩa ánh sáng hay hỷ tự nó 
 #practice-card(
   [Năm điểm cốt lõi của vùng ba],
   [
-    + *Nền:* sinh-diệt đã chín theo P02; mặt chấm dứt chi phối việc thấy.
+    + *Nền thực hành:* sinh diệt đã chín theo P02; sự chấm dứt trở thành điều nổi bật trong lúc quan sát.
     + *Cái thấy chi phối:* tan rã → không an toàn → không đáng thỏa mãn → bớt hấp dẫn → muốn thoát → nhìn lại mạnh bằng ba đặc tính.
     + *Cách hành:* biết đúng hiện tượng và phản ứng; không cố tạo sợ, ghét, đau hay tuyệt vọng.
     + *Dấu hiệu chuyển tiếp:* chống cự giảm, việc biết quân bình và tự nhiên hơn.
-    + *Phản chứng:* lo âu, trầm cảm, phân ly, đau, bồn chồn hoặc muốn bỏ cuộc tự chúng không xác nhận vùng tuệ.
+    + *Điều chưa đủ để kết luận:* lo âu, trầm cảm, phân ly, đau, bồn chồn hoặc muốn bỏ cuộc tự chúng không xác nhận vùng tuệ.
   ],
   label: [NỀN → THẤY → LÀM → CHUYỂN · DỰA TRÊN P02],
 )
@@ -718,7 +718,7 @@ Từ đây, “mỗi tên là một trải nghiệm kéo dài” trở thành c�
     + *Cái thấy chi phối:* ít bị dễ chịu hay khó chịu kéo đi; về cuối, hệ thống nói đến một chuyển tiếp cực ngắn.
     + *Cách hành:* không thúc, không giữ xả, không chờ một cú “tắt”; tiếp tục biết và giữ toàn bộ con đường.
     + *Dấu hiệu chuyển tiếp:* trong P02, xả đạt đỉnh rồi chuỗi sát-na theo sau; đây không phải dấu hiệu tự chấm từ ký ức.
-    + *Phản chứng:* yên, vô cảm, khoảng trống, mất ký ức, một lần ngưng cảm nhận hay lời xác nhận thiếu căn cứ đều không đủ chứng minh đạo quả.
+    + *Điều chưa đủ để kết luận:* yên, vô cảm, khoảng trống, mất ký ức, một lần ngưng cảm nhận hay lời xác nhận thiếu căn cứ đều không đủ chứng minh đạo quả.
   ],
   label: [NỀN → THẤY → LÀM → GIỚI HẠN · DỰA TRÊN V01; P02],
 )
@@ -858,7 +858,7 @@ Không có cơ sở để nói truyền thống Mahāsi tuyệt đối cấm hà
 
     + Bản đồ đang phân loại cảm giác mạnh, hay phân loại cách các hành được biết?
     + Trong câu “đau tăng, tôi bực và nghĩ mình ở tuệ khổ lụy”, đâu là đối tượng, việc biết, phản ứng và kết luận?
-    + Người hành có thể trực tiếp vun điều kiện nào, và vì sao không thể chủ ý cưỡng tạo riêng tuệ tan rã hay xả?
+    + Người hành có thể trực tiếp vun điều kiện nào, và vì sao không thể ra lệnh cho tuệ tan rã hay xả xuất hiện theo ý muốn?
     + Ánh sáng, sợ hãi, một khoảng trống và sự bình thản đứng riêng chứng minh được gì?
     + Khi mất ngủ, mất định hướng hoặc suy giảm chức năng, bước tiếp theo là tăng cường độ để vượt tầng hay áp dụng ngưỡng an toàn?
 

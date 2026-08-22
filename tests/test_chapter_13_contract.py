@@ -26,7 +26,7 @@ class Chapter13ContractTests(unittest.TestCase):
             "Khổ là điều cần được hiểu",
             "Tập, được bài kinh nêu là ái, cần được đoạn",
             "Diệt cần được trực chứng",
-            "Đạo là Bát Thánh Đạo và cần được tu tập",
+            "Đạo là Bát Chánh Đạo và cần được tu tập",
             "không phải bốn bước chứng ngộ",
         ):
             self.assertIn(phrase, self.chapter)
