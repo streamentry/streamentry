@@ -3,7 +3,7 @@
   "candidate_binding": "frozen_artifact_commit_ancestor_plus_release_evidence",
   "release_evidence": {
     "path": "book/references/release-evidence.md",
-    "sha256": "fd3a204f3c3725d05b93320e73d4bc78fd5cbf7a51547f098f35671b571d6016"
+    "sha256": "a75695e158c4d39f591dd265d1c0fb3ba0aa4509509b4ed3de3f5d83d1facf23"
   },
   "protocols": {
     "external_release_packet": {

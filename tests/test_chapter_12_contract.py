@@ -34,7 +34,7 @@ class Chapter12ContractTests(unittest.TestCase):
     ) -> None:
         required_labels = (
             "*Cách biết đổi.*",
-            "*Nền đất và khi nào tên này có cơ sở.*",
+            "*Nền thực hành và khi nào tên này có cơ sở.*",
             "*Trải nghiệm có thể như thế nào.*",
             "*Cách vun điều kiện và tiếp tục hành.*",
             "*Điều chưa đủ để kết luận.*",

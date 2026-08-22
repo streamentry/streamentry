@@ -110,7 +110,7 @@ Vòng #link(<tho-ai-nam-buoc>)[thọ đến ái ở chương 4] giúp thấy ph�
   [Năm việc, theo đúng thứ tự của hoàn cảnh],
   [
     + *Kiểm tra thực tại:* Có nguy hiểm, người cần bảo vệ hoặc việc phải làm ngay không? Nếu có, hành động trước; đừng dùng quan sát nội tâm để trì hoãn.
-    + *Biết dữ kiện gần nhất:* hàm siết, ngực nóng, thọ khó chịu, tim nhanh. Đừng bắt đầu bằng bản cáo trạng về người kia.
+    + *Biết điều đang xảy ra rõ nhất:* hàm siết, ngực nóng, thọ khó chịu, tim nhanh. Đừng bắt đầu bằng bản cáo trạng về người kia.
     + *Nhận ra lực kéo:* muốn quát, muốn bỏ đi, muốn chứng minh, muốn mua, muốn mở thông báo. Nếu chỉ biết sau khi nó đã khởi, biết từ điểm ấy.
     + *Chọn phản ứng đơn giản nhất mà vẫn đúng hướng:* im một nhịp, hỏi lại, nói một ranh giới, hoãn trả lời, cất điện thoại hoặc làm việc an toàn trước mắt.
     + *Trở lại con người và nhiệm vụ:* nghe câu tiếp theo, hoàn tất việc đang làm. Đừng đứng mãi bên trong để chấm xem mình vừa chánh niệm đến đâu.
@@ -143,7 +143,7 @@ Trong một cuộc tranh luận, “tôi đúng” có thể là một ý nghĩ 
 
 == Khi khoảng dừng đến muộn: sửa thay vì tự kết án <sua-sai>
 
-Người mới thường nhớ ra sau khi câu nặng lời đã bật khỏi miệng. Khoảnh khắc ấy vẫn dùng được. Chánh niệm không quay ngược thời gian, nhưng có thể chặn phần gây hại kế tiếp. Đừng dùng câu “tôi đang tu” để xin miễn trách nhiệm, cũng đừng dùng một lỗi để dựng căn cước “tôi là người không thể tu”.
+Người mới thường nhớ ra sau khi câu nặng lời đã bật khỏi miệng. Khoảnh khắc ấy vẫn dùng được. Chánh niệm không quay ngược thời gian, nhưng có thể chặn phần gây hại kế tiếp. Đừng dùng câu “tôi đang tu” để xin miễn trách nhiệm, cũng đừng biến một lỗi thành câu chuyện “tôi là người không thể tu”.
 
 #source-line("BIÊN SOẠN", [vòng sửa sai, đối chiếu K15; K18], [
   K15 trình bày trách nhiệm trong các quan hệ và K18 nêu những hành vi cùng lời nói cần tránh. Năm bước dưới đây là quy trình biên soạn để đưa hai nguyên tắc ấy vào một lỗi vừa xảy ra. Đây không phải nghi thức sám hối nguyên văn từ hai bài kinh.
@@ -155,7 +155,7 @@ Người mới thường nhớ ra sau khi câu nặng lời đã bật khỏi mi
     + *Dừng phần đang tiếp diễn:* hạ giọng, thôi nhắn thêm, đặt vật đang cầm xuống hoặc rời khỏi tình huống nếu an toàn đòi hỏi.
     + *Gọi đúng hành vi:* “Tôi vừa quát” rõ hơn “Tôi tệ quá”. Một câu nói về việc đã làm; câu kia khóa người làm vào một bản án.
     + *Nhận trách nhiệm không kèm chữ “nhưng”:* nghe tác động lên người kia trước khi giải thích ý tốt của mình.
-    + *Sửa điều có thể sửa:* xin lỗi cụ thể, đính chính lời sai, thay đồ đã làm hỏng, hoàn lại tiền hoặc thực hiện bổn phận đã bỏ.
+    + *Sửa điều có thể sửa:* xin lỗi cụ thể, đính chính lời sai, đền hoặc thay món đồ mình đã làm hỏng, hoàn lại tiền hoặc thực hiện bổn phận đã bỏ.
     + *Chuẩn bị cách phòng lặp lại:* rời điện thoại khỏi bàn ăn, hoãn thư khi đang nóng, xin người khác tiếp quản vài phút hoặc dùng vòng va chạm ở đúng tín hiệu đầu tiên.
 
     Người bị hại không có nghĩa vụ tha thứ ngay. Sửa sai là phần trách nhiệm của người gây ra lỗi, không phải kỹ thuật buộc người khác làm mình nhẹ lòng.

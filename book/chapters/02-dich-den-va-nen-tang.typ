@@ -7,7 +7,7 @@
   provenance: source-badge("KINH", refs: [K05 · K06]),
 )
 
-Chương này đi chậm hơn một nhịp: trước khi nói đến kỹ thuật, nó tách rõ đích đến và nền đất đang đỡ đích ấy. Người mới thường muốn hỏi ngay “làm sao đạt”, nhưng kinh lại bắt đầu bằng “điều gì đang được hiểu sai” và “đời sống phải đổi hướng ra sao”.
+Chương này đi chậm hơn một nhịp: trước khi nói đến kỹ thuật, nó tách rõ đích đến và những nền tảng cần có để đi về đích ấy. Người mới thường muốn hỏi ngay “làm sao đạt”, nhưng kinh lại bắt đầu bằng “điều gì đang được hiểu sai” và “đời sống phải đổi hướng ra sao”.
 
 #scripture-quote(
   [Có khổ cần được hiểu, nguyên nhân của khổ cần được đoạn, sự chấm dứt khổ cần được chứng và con đường đưa đến chấm dứt khổ cần được tu tập.],
@@ -45,7 +45,7 @@ Chương này đi chậm hơn một nhịp: trước khi nói đến kỹ thuậ
 
 Bốn sự thật cũng đặt giới hạn cho cuốn sách. Quan sát một cảm giác chỉ làm trọn phần việc của nó khi việc quan sát góp vào thấy biết đúng, bớt ái, bớt chấp và sống đúng đường. Một tâm ghi nhận rất nhanh nhưng vẫn nuôi dối trá, tàn nhẫn hay tà mạng chưa thể gọi là đi trọn đạo lộ.
 
-== Dòng nước là Bát Chánh Đạo
+== “Dòng” là Bát Chánh Đạo
 
 #source-line("KINH", [K06 · SN 55.5], [
   Khi Đức Phật hỏi Tôn giả Sāriputta “dòng” là gì, câu trả lời là Bát Chánh Đạo: chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm và chánh định. Người có đạo lộ cao quý ấy được gọi là người nhập dòng. Vì vậy, chánh niệm là một chi thiết yếu, nhưng không đứng một mình.

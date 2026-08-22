@@ -400,12 +400,12 @@ Một mã nguồn giúp tra lại gốc, nhưng không tự động chứng minh
   }
 }
 
-== Trách nhiệm biên tập và sửa sai
+== Góp ý và sửa sai
 
 #modern-note([
   Ấn bản này ghi công *#(edition.metadata.author)*. Trí tuệ nhân tạo được dùng để hỗ trợ tìm kiếm, tổng hợp, soạn thảo và rà soát tư liệu; nó không phải thẩm quyền về giáo pháp, không phải nhân chứng thực hành và không thể xác nhận đạo quả.
 ])
 
-Những nhận định quan trọng trong sách đều được gắn mã nguồn để bạn có thể tự mở ra mà kiểm tra. Bản thảo vẫn cần thêm phản biện độc lập từ các vị thầy, hành giả kinh nghiệm và chuyên gia phù hợp với từng phần nội dung. Nếu bạn có đủ năng lực công khai về một trong những lĩnh vực ấy, hãy dùng #link("https://github.com/streamentry/streamentry/issues/new?template=external-review-interest.yml")[biểu mẫu đề nghị tham gia thẩm định]. Một đề nghị chưa phải báo cáo thẩm định; vì mục góp ý công khai nên không đăng email, số điện thoại, hồ sơ y tế hay dữ liệu người tham gia.
+Những nhận định quan trọng trong sách đều được gắn mã nguồn để bạn có thể tự mở ra mà kiểm tra. Bản thảo vẫn cần thêm phản biện độc lập từ các vị thầy, hành giả kinh nghiệm và chuyên gia phù hợp với từng phần nội dung. Nếu bạn có chuyên môn phù hợp và có thể kiểm chứng trong một trong những lĩnh vực ấy, hãy dùng #link("https://github.com/streamentry/streamentry/issues/new?template=external-review-interest.yml")[biểu mẫu đề nghị tham gia thẩm định]. Một đề nghị chưa phải báo cáo thẩm định; vì mục góp ý công khai nên không đăng email, số điện thoại, hồ sơ y tế hay dữ liệu người tham gia.
 
-Dù đã cố gắng đối chiếu, sách vẫn có thể còn chỗ cần sửa. Xin gửi qua #link("https://github.com/streamentry/streamentry/issues/new?template=correction.yml")[biểu mẫu sửa sai công khai], chỉ kèm thông tin công khai. Cách phân loại nguồn, xử lý bất đồng và lưu dấu thay đổi nằm trong #link("https://github.com/streamentry/streamentry/blob/main/EDITORIAL_POLICY.md")[Chính sách biên tập và sửa sai]; lịch sử chi tiết và sổ kiểm chứng nằm tại trang của dự án, để những sửa đổi quan trọng đi vào các ấn bản sau.
+Dù đã cố gắng đối chiếu, sách vẫn có thể còn chỗ cần sửa. Xin gửi qua #link("https://github.com/streamentry/streamentry/issues/new?template=correction.yml")[biểu mẫu sửa sai công khai], chỉ kèm thông tin công khai. Cách phân loại nguồn, xử lý bất đồng và lưu dấu thay đổi nằm trong #link("https://github.com/streamentry/streamentry/blob/main/EDITORIAL_POLICY.md")[Chính sách biên tập và sửa sai]. Lịch sử chỉnh sửa và sổ kiểm chứng được công bố tại trang của dự án, để những thay đổi quan trọng có thể được theo dõi qua từng ấn bản.

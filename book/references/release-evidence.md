@@ -21,12 +21,12 @@ Checked: 2026-08-21
 |---|---|
 | Edition contract SHA-256 | `a6ca9289fbea4da7aa05637648b780ea0f229b017a951d94590e8b757a7dcd0f` |
 | Immutable source SHA-256 | `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440` |
-| PDF SHA-256 | `fca30bd914a384102f0c1e1defe56a9f0b910d3987c05d6b757ab1849c377f57` |
-| EPUB SHA-256 | `43e522887810ebe666ff79b137b0dbe0c86b16be1e28190595ed126d5ec6fc60` |
+| PDF SHA-256 | `d38db19df8cb6e8a0c69533e0f43b202672216ebb3754ad68bb04c359942d772` |
+| EPUB SHA-256 | `9ac3b40f5638436f18e8d81229d7ab9025e199c20898d38ddf2c7d3f261bf171` |
 | PDF extent | 220 A5 pages |
-| PDF file size | 1,731,386 bytes |
+| PDF file size | 1,727,065 bytes |
 | EPUB navigation | 252 nested content entries plus 1 cover entry |
-| EPUB archive size | 247,412 bytes |
+| EPUB archive size | 246,990 bytes |
 | Publication credit | `CS Chánh Niệm (với sự hỗ trợ tổng hợp tư liệu từ AI)` |
 
 Any content, theme, component, builder, metadata, or edition-contract change invalidates these hashes and requires this record to be regenerated.
@@ -54,7 +54,7 @@ The builder acknowledged 212 allowlisted Typst HTML-export warnings and rejected
 | Gate | Result | Exact boundary |
 |---|---|---|
 | Immutable manuscript hash | Pass | Matches the recorded source contract. |
-| Builder structural checks | Pass | Strict edition schema, XML, manifest, resources, contract-derived language and labels, accessibility metadata, navigation, every content-link label, all 101 local-fragment links, all 62 absolute HTTPS external links, distinct labels for different external destinations, and all 263 repeated titled regions: 160 practice notes, 38 caution notes, 7 day groups, 43 reference groups, 4 decision groups, and 11 concept groups. Every title binding and bounded `note`/`group` role resolves; the full Pháp Cú 178 cover quotation and attribution resolve through the canonical cover alternative text; the requested frontmatter trust block is absent from the content XHTML; the manuscript hash, required content, ZIP order, timestamp, and uncompressed mimetype also pass. Two consecutive canonical builds emitted identical PDF and EPUB hashes for this candidate. |
+| Builder structural checks | Pass | Strict edition schema, XML, manifest, resources, contract-derived language and labels, accessibility metadata, navigation, every content-link label, all 100 local-fragment links, all 62 absolute HTTPS external links, distinct labels for different external destinations, and all 262 repeated titled regions: 159 practice notes, 38 caution notes, 7 day groups, 43 reference groups, 4 decision groups, and 11 concept groups. Every title binding and bounded `note`/`group` role resolves; the full Pháp Cú 178 cover quotation and attribution resolve through the canonical cover alternative text; the requested frontmatter trust block is absent from the content XHTML; the manuscript hash, required content, ZIP order, timestamp, and uncompressed mimetype also pass. Two consecutive canonical builds emitted identical PDF and EPUB hashes for this candidate. |
 | Release-evidence verifier | Pass | Exact edition-contract, artifact, and source hashes plus byte sizes; contract-derived title, credit, and language; PDF tagging, suspects, JavaScript, encryption, metadata, and every page's size and rotation; the EPUB's single active package, fixed manifest and cover-then-book spine, passive XHTML, metadata, unique resolved TOC targets, labelled content links, distinct external-destination labels, safe external-link schemes, and separate content/cover counts reproduce from the committed files. |
 | Reader gateway | Pass internally | README presents the Vietnamese reader's PDF/EPUB choice, intended use, non-linear reading route, source model, safety boundary, public editorial policy, structured correction form, bounded external-review intake, candidate status and missing-rights warning before contributor build details. Chapter 99 repeats the correction and review-intake routes plus their privacy and non-evidence boundaries. All relative links resolve to tracked files. These surfaces copy no artifact counts, do not call public access a license, and do not claim a named accountable individual, response SLA, external validation or market leadership. |
 | veraPDF 1.30.2 PDF/UA-1 | Not rerun for this candidate | The prior candidate returned 106 passed rules, 852,744 passed checks, 0 failed rules, and 0 failed checks under the forced `ua1` profile. The pinned validator is not installed in this local workspace, so that result is not claimed for the current 218-page PDF. |
