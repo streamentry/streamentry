@@ -123,7 +123,7 @@ Các dấu nguồn không thay cho việc đọc kỹ. Khi một đoạn có c�
 
 Trong lúc thực hành, nếu chưa rõ nên tiếp tục với đối tượng đang biết, chuyển sang điều nổi bật, hành động ngay hay dừng, hãy mở #link(<ban-do-quyet-dinh>)[Bản đồ quyết định ở Phụ lục E]. Đây là thẻ nhắc của sách; lời giải thích đầy đủ nằm ở các chương liên quan.
 
-Khi trải nghiệm mạnh kéo dài, giấc ngủ xấu đi, khả năng sinh hoạt giảm hoặc khó phân biệt thực tại, hãy giảm hay dừng thực hành cường độ cao và tìm hỗ trợ theo Chương 9. Việc nhận hỗ trợ không cần chờ đến khi biết phải gọi trải nghiệm ấy bằng tên gì.
+Khi trải nghiệm mạnh kéo dài, giấc ngủ xấu đi rõ, khả năng sinh hoạt giảm hoặc khó phân biệt thực tại, hãy dừng buổi hiện tại, không tiếp tục thực hành cường độ cao và tìm hỗ trợ theo #link(<ba-muc>)[Chương 9]. Không cần chờ biết tên trải nghiệm mới nhận hỗ trợ; cũng không cần xem việc dừng để chăm sóc mình là thất bại.
 
 Bạn có thể trở lại một đoạn kinh nhiều lần. Đọc chậm, hỏi rõ điều chưa hiểu và thực hành một điều vừa sức là cách dùng cuốn sách này; không cần biến việc đọc thành cuộc chạy đua qua các tầng tuệ.
 

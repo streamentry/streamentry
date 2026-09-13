@@ -217,7 +217,7 @@ Khi điều đó chưa rõ, chỉ ghi điều đã biết. Không cần dựng m
   [
     #source-badge("BIÊN SOẠN", refs: [hướng dẫn an toàn ở Chương 9])
     #v(5pt)
-    Tiền sử hoảng sợ, phân ly, hưng cảm, loạn thần, chấn thương tâm lý hoặc mất ngủ kéo dài là thông tin cần trao đổi khi cân nhắc thực hành cường độ cao. Nếu việc hành đi kèm ngủ xấu đi, suy giảm sinh hoạt hay khó tiếp xúc thực tại, hãy giảm hoặc dừng theo Chương 9 và tìm hỗ trợ phù hợp. Không vội xem bất ổn là bằng chứng tuệ đang tiến.
+    Tiền sử hoảng sợ, phân ly, hưng cảm, loạn thần, chấn thương tâm lý hoặc mất ngủ kéo dài là thông tin cần trao đổi khi cân nhắc thực hành cường độ cao. Nếu việc hành đi kèm giấc ngủ suy giảm rõ, sinh hoạt sa sút hay khó phân biệt thực tại, hãy dừng buổi hiện tại, không tiếp tục thực hành cường độ cao và tìm hỗ trợ phù hợp theo #link(<ba-muc>)[Chương 9]. Không vội xem bất ổn là bằng chứng tuệ đang tiến.
   ],
 )
 

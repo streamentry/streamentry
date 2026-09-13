@@ -24,14 +24,14 @@ An toàn không đồng nghĩa với sợ mọi cảm giác lạ. Nó cũng khô
     + *Dấu hiệu cơ thể:* đột ngột yếu hoặc tê một bên, nói khó, khó nhìn hay mất thăng bằng; đau hoặc khó chịu ở ngực, khó thở hay choáng bất thường. Dừng thực hành và gọi cấp cứu y tế. Dấu hiệu thần kinh dù tự hết vẫn cần được đánh giá khẩn.
     + *Nguy cơ tự sát tức thời:* tìm trợ giúp khẩn cấp và đừng ở một mình. Nếu có hành vi nguy hiểm cho người khác hoặc mất khả năng giữ an toàn, ưu tiên bảo vệ mọi người và gọi trợ giúp.
 
-    Ở Việt Nam, gọi *115* cho cấp cứu y tế; chưa rõ đầu mối khẩn cấp có thể gọi *112*. Ở nước khác, dùng số cấp cứu địa phương. Không trì hoãn để thử thiền hoặc bài ổn định bên dưới; xem thêm #link(<ba-muc>)[mức đỏ].
+    Ở Việt Nam, gọi *115* cho cấp cứu y tế; chưa rõ đầu mối khẩn cấp có thể gọi *112*. Ở nước khác, dùng số cấp cứu địa phương. Không trì hoãn để thử thiền hoặc bài ổn định bên dưới; xem thêm #link(<muc-do>)[mức đỏ].
   ],
 )
 
 #practice-card(
   [Nếu đang quá tải, làm ngay],
   [
-    Khi không có dấu hiệu cấp cứu nêu trên, dừng việc ghi nhận dồn dập, mở mắt và đặt chân vững trên sàn. Nhìn quanh, gọi tên vài điều đang thấy, nghe hoặc chạm được, rồi báo cho một người đáng tin. Đây là cách ổn định tạm thời; xem #link(<ha-cuong-do>)[quy trình đầy đủ] bên dưới. Nếu có nguy cơ tự hại cấp thời, bỏ bài tập này, xử lý theo #link(<ba-muc>)[mức ba] và đừng ở một mình. Nếu có thôi thúc làm hại người khác, hoặc mất liên hệ với thực tế và hành vi trở nên nguy hiểm, gọi trợ giúp khẩn cấp và ưu tiên an toàn của mọi người; đừng dựa vào một người không được huấn luyện ở cạnh nếu việc đó có thể đặt họ vào nguy hiểm.
+    Khi không có dấu hiệu cấp cứu nêu trên, dừng việc ghi nhận dồn dập, mở mắt và đặt chân vững trên sàn. Nhìn quanh, gọi tên vài điều đang thấy, nghe hoặc chạm được, rồi báo cho một người đáng tin. Đây là cách ổn định tạm thời; xem #link(<ha-cuong-do>)[quy trình đầy đủ] bên dưới. Nếu có nguy cơ tự hại cấp thời, bỏ bài tập này, xử lý theo #link(<muc-do>)[mức đỏ] và đừng ở một mình. Nếu có thôi thúc làm hại người khác, hoặc mất liên hệ với thực tế và hành vi trở nên nguy hiểm, gọi trợ giúp khẩn cấp và ưu tiên an toàn của mọi người; đừng dựa vào một người không được huấn luyện ở cạnh nếu việc đó có thể đặt họ vào nguy hiểm.
   ],
   label: [LÀM NGAY · BIÊN SOẠN],
 )
@@ -84,7 +84,7 @@ Bạn không cần tự chẩn đoán những thuật ngữ trên để dùng ch
 
 == Ba mức phản ứng <ba-muc>
 
-Để nhớ nhanh, hãy hình dung ba màu: *xanh* là điều chỉnh nhẹ ngay tại chỗ, *vàng* là giảm hoặc tạm dừng rồi tìm hỗ trợ sớm, và *đỏ* là tình huống cấp cứu cần hành động ngay. Khi đang bối rối, màu cho bạn câu trả lời đầu tiên: tôi đang ở mức nào và việc kế tiếp là gì?
+Để nhớ nhanh, hãy hình dung ba màu: *xanh* là điều chỉnh nhẹ ngay tại chỗ, *vàng* là dừng buổi hiện tại và tìm hỗ trợ sớm, và *đỏ* là tình huống cấp cứu cần hành động ngay. Khi đang bối rối, màu cho bạn câu trả lời đầu tiên: tôi đang ở mức nào và việc kế tiếp là gì?
 
 === Mức xanh: quan sát và điều chỉnh nhẹ
 
@@ -92,7 +92,7 @@ Phóng tâm, buồn ngủ, bồn chồn, đau mỏi nhẹ do tư thế, cảm x�
 
 Dấu hiệu cấp cứu không thuộc mức xanh, dù chỉ xuất hiện thoáng qua. Chỉ khi không có các dấu hiệu ấy và bạn vẫn ngủ, ăn, làm việc, quan hệ bình thường, hãy ghi nhận ngắn gọn, đổi tư thế khi cần và trao đổi trong buổi hướng dẫn kế tiếp. Đừng săn tìm sự lặp lại của một hiện tượng dễ chịu.
 
-=== Mức vàng: giảm hoặc tạm dừng, tìm hỗ trợ sớm
+=== Mức vàng: dừng buổi hiện tại, tìm hỗ trợ sớm <muc-vang>
 
 Hãy dừng buổi hiện tại, không tiếp tục thực hành cường độ cao và tìm hỗ trợ sớm khi có một trong các dấu hiệu sau:
 
@@ -104,7 +104,7 @@ Hãy dừng buổi hiện tại, không tiếp tục thực hành cường độ
 
 Liên hệ sớm với chuyên gia sức khỏe tâm thần hoặc cơ sở y tế phù hợp. Nếu khả năng phân biệt thực tại, lời nói, tự chăm sóc hay chức năng hằng ngày đang xấu đi nhanh, ưu tiên được đánh giá y tế khẩn thay vì chờ buổi hẹn thiền. Nếu người hướng dẫn có năng lực, báo cho họ biết, nhưng đừng để một lời giải thích bằng “bản đồ tuệ” trì hoãn chăm sóc lâm sàng.
 
-=== Mức đỏ: xử lý như tình huống cấp cứu
+=== Mức đỏ: xử lý như tình huống cấp cứu <muc-do>
 
 #source-line("Y TẾ & NGHIÊN CỨU", [R04], [WHO khuyên không để một người ở một mình khi họ có nguy cơ tự sát tức thời; cần liên hệ dịch vụ cấp cứu, đường dây khủng hoảng, nhân viên y tế hoặc người thân, đồng thời hạn chế khả năng tiếp cận phương tiện tự hại. Đây là nguyên tắc an toàn tức thời, không phải bản đánh giá nguy cơ đầy đủ.])
 

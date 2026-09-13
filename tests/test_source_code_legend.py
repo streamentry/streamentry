@@ -37,7 +37,7 @@ class SourceCodeLegendTests(unittest.TestCase):
         text = SOURCE_MAP.read_text(encoding="utf-8")
         for marker in (
             "<ma-nguon-chi-tiet>",
-            "*K01–K53*",
+            "*K01–K54*",
             "*P01–P02*",
             "*R01–R11*",
             "không phải số phân loại truyền thống",
