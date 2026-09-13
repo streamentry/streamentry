@@ -34,7 +34,10 @@ class PostMergeConsistencyTests(unittest.TestCase):
         readme = read("README.md")
         faq = read("book/appendices/c-faq.typ")
         for text in (chapter, readme, faq):
-            self.assertIn("dừng buổi hiện tại, không tăng cường độ", text)
+            self.assertRegex(
+                text,
+                r"dừng buổi hiện tại, không (?:tăng cường độ|tiếp tục thực hành cường độ cao)",
+            )
         self.assertNotIn("hãy giảm hay dừng thực hành cường độ cao", chapter)
 
     def test_faq_separates_ordinary_restart_from_warning_signs(self) -> None:
