@@ -3,191 +3,223 @@
 #chapter(
   [02],
   [Đích đến và nền đất],
-  [Nhập lưu không phải huy chương cho một trải nghiệm thiền. Trong kinh, “dòng” là Bát Chánh Đạo. Muốn bước vào dòng ấy, đời sống phải đổi hướng từ cách thấy đến cách nói, cách làm và cách nuôi tâm.],
-  provenance: source-badge("KINH", refs: [K05 · K06]),
+  [Một buổi ngồi giúp ta bắt đầu. Để biết mình đang đi về đâu, ta cần nhìn rộng hơn: hiểu khổ, học cách sống không gây hại và tu tập toàn bộ con đường. Trong SN 55.5, “dòng” được xác định là Bát Chánh Đạo.],
+  provenance: source-badge("BIÊN SOẠN", refs: [đọc K05 · K06]),
 )
 
-Chương này đi chậm hơn một nhịp: trước khi nói đến kỹ thuật, nó tách rõ đích đến và những nền tảng cần có để đi về đích ấy. Người mới thường muốn hỏi ngay “làm sao đạt”, nhưng kinh lại bắt đầu bằng “điều gì đang được hiểu sai” và “đời sống phải đổi hướng ra sao”.
+Sau những ngày đầu làm quen với việc ngồi, bạn có thể tự hỏi: “Việc thực hành này hướng đến điều gì?”. Chương này trở lại những lời dạy nền tảng. Ta sẽ phân biệt đích đến với các điều kiện nâng đỡ việc tu, để một kinh nghiệm dễ chịu không bị hiểu thành thành tựu, và một buổi ngồi khó cũng không khiến mình vội nản lòng.
 
-#scripture-quote(
-  [Có khổ cần được hiểu, nguyên nhân của khổ cần được đoạn, sự chấm dứt khổ cần được chứng và con đường đưa đến chấm dứt khổ cần được tu tập.],
-  [Phỏng dịch Tứ Thánh Đế, K05 · SN 56.11, Dhammacakkappavattana Sutta.],
-)
-
-== Muốn đi đúng, trước hết phải thấy đúng vấn đề
-
-#source-line("KINH", [K05 · SN 56.11], [
-  Tứ Thánh Đế (nhiều người quen gọi là Tứ Diệu Đế — hai tên chỉ một điều) không dạy phủ nhận niềm vui của đời sống. Bài kinh nói cụ thể hơn: sinh, già và chết là khổ; sầu, bi, đau, ưu, não là khổ; gặp điều không ưa, xa điều yêu và không được điều mình muốn là khổ; tóm lại, năm thủ uẩn là khổ. Nguồn gốc được nêu là ái dẫn đến hữu tiếp theo, đi cùng thích thú và đắm trước: ái dục, ái hữu và ái phi hữu. Sự chấm dứt là ly tham, từ bỏ, buông ra và không còn bám vào chính ái ấy. Con đường là Bát Chánh Đạo (cũng được dịch là Bát Thánh Đạo).
+#source-line("KINH", [K05 · SN 56.11, diễn ý bốn nhiệm vụ], [
+  Khổ cần được hiểu trọn vẹn; nguồn gốc của khổ cần được từ bỏ; sự chấm dứt khổ cần được chứng ngộ; con đường đưa đến chấm dứt khổ cần được tu tập.
 ])
 
-#source-line("KINH", [K05 · SN 56.11, ba vòng và mười hai phần], [
-  Mỗi Thánh đế không chỉ là một câu đúng để tin. SN 56.11 trình bày ba vòng: nhận biết sự thật ấy, biết nhiệm vụ phải làm với nó, rồi biết nhiệm vụ đã được hoàn tất. Với người mới, trước hết cần phân biệt hai mặt đầu. *Khổ* là sự thật cần được hiểu; *nguồn gốc là ái* cần được đoạn; *sự chấm dứt* cần được chứng; *con đường* cần được tu tập. Hiểu khổ không phải ghét khổ. Đoạn ái không phải đàn áp mọi ý muốn. Chứng sự chấm dứt không phải tưởng tượng một khoảng trống. Tu con đường không phải chỉ nhớ tám cái tên.
+== Bốn sự thật và bốn việc cần làm
+
+*Tứ Thánh Đế*, cũng thường gọi là *Tứ Diệu Đế*, là bốn sự thật được trình bày trong phần dưới. “Đế” ở đây có nghĩa là sự thật. Bạn chưa cần thuộc cách gọi; điều quan trọng hơn là hiểu mỗi sự thật đi cùng một việc cần làm.
+
+#source-line("KINH", [K05 · SN 56.11:4.1–4.10, diễn ý], [
+  Bài kinh nêu sinh, già, bệnh, chết là khổ; gặp điều không ưa, xa điều yêu và không được điều mình muốn là khổ; nói gọn, năm thủ uẩn là khổ. Nguồn gốc của khổ được nêu là ái dẫn đến tái hữu, đi cùng sự thích thú và đắm trước, tìm vui chỗ này chỗ khác: dục ái, hữu ái và phi hữu ái. Sự chấm dứt khổ là sự ly tham, đoạn diệt hoàn toàn, từ bỏ, buông xả, giải thoát và không còn nương vào chính ái ấy. Con đường đưa đến chấm dứt khổ là Bát Chánh Đạo.
+])
+
+#modern-note([
+  Để dễ theo dõi, *ái* có thể được hiểu gần nghĩa là sự khát khao, bám víu. *Dục ái* hướng đến các thú vui giác quan; *hữu ái* là khát khao hiện hữu; *phi hữu ái* là khát khao không hiện hữu. *Tái hữu* nói đến sự tiếp tục hiện hữu, không chỉ một tâm trạng lặp lại. Những từ này không đồng nghĩa với mọi mong muốn: ý muốn học, sửa sai hay làm điều thiện không vì mang tên “muốn” mà đều trở thành ái.
+
+  *Năm uẩn* là năm nhóm được kinh dùng để phân tích kinh nghiệm: sắc, phần vật chất; thọ, cảm nhận dễ chịu, khó chịu hay trung tính; tưởng, sự nhận ra và nhận dạng; hành, các hoạt động tạo tác của tâm; thức, sự nhận biết theo các cửa giác quan. “Năm thủ uẩn” nói đến năm nhóm ấy trong mối liên hệ với chấp thủ. Đây là cách giải thích ngắn để đọc tiếp; Chương 10 sẽ trở lại mối liên hệ giữa các uẩn, chấp thủ và thân kiến.
+])
+
+#source-line("KINH", [K05 · SN 56.11:5–10], [
+  Với mỗi Thánh đế, bài kinh trình bày ba vòng: biết sự thật ấy; biết nhiệm vụ đối với sự thật ấy; biết nhiệm vụ đã hoàn tất. Bốn Thánh đế với ba vòng như vậy thành mười hai phần. Đức Phật nói đến sự thanh tịnh của thấy biết này khi trình bày sự giác ngộ của Ngài.
+])
+
+#modern-note([
+  Với người đang học, có thể bắt đầu bằng hai câu hỏi: “Điều gì cần được hiểu?” và “Việc gì cần được làm?”. Hiểu khổ không có nghĩa là ghét cuộc sống. Từ bỏ ái không phải đè nén mọi ý muốn. Tu tập con đường cũng không chỉ là nhớ tên các chi đạo. Ta học cách đem lời dạy vào việc thấy, việc nói và việc làm, đồng thời giữ rõ khoảng cách giữa đang tu tập và đã hoàn tất nhiệm vụ.
 ])
 
 #practice-card(
-  [Một lần không được công nhận, nhìn qua bốn sự thật],
+  [Một lần không được ghi nhận],
   [
-    Bạn gửi một việc đã làm kỹ nhưng không được ghi nhận. *Sự thật về khổ* hiện ở thọ khó chịu, câu chuyện bị xem thường và sức ép phải chứng minh mình ngay. Nhiệm vụ lúc này là hiểu rõ cấu trúc ấy, không chỉ tìm cách làm nó biến mất.
+    Bạn làm một việc cẩn thận nhưng chưa được ghi nhận. Có thể nhận ra sự khó chịu, ý nghĩ “mình bị xem thường” và sức ép phải chứng minh ngay. Trước hết, hãy phân biệt điều thực sự đã xảy ra với điều tâm đang suy đoán.
 
-    *Nguồn gốc của phần khổ đang được tiếp sức* có thể lộ trong ái muốn hình ảnh của mình được bảo vệ, muốn người khác phải phản ứng theo ý mình, hoặc muốn xóa sạch cảm giác khó chịu. Nhiệm vụ là nhận ra và không tiếp tục nuôi hướng bám ấy.
+    Tiếp đến, thử nhìn phần bám víu: mình có đang đòi người khác phải phản ứng đúng như mong đợi không? Nhận ra điều ấy giúp chọn lời đáp thay vì vội tranh hơn thua. Điều này không có nghĩa phải im lặng trước sự bất công; bạn vẫn có thể hỏi lại hoặc trình bày sự việc chân thật.
 
-    Khi tâm ngừng dựng thêm cuộc tranh cãi trong vài nhịp, phần khổ do phản ứng có thể lắng. Sự lắng tạm thời này chỉ cho thấy phản ứng có điều kiện; nó không phải bằng chứng đã chứng Niết-bàn hay hoàn tất đế thứ ba.
-
-    *Con đường* bắt đầu ngay trong cách thấy nguyên nhân, giữ ý hướng không hại, nói đúng sự thật, làm việc ngay thẳng và rèn tâm đủ vững để không bị phản ứng kéo đi. Phần kế tiếp sẽ mở tám chức năng ấy.
+    Khi không tiếp tục nuôi cuộc tranh cãi trong tâm, sự căng thẳng có thể lắng. Đó là thay đổi tạm thời của một phản ứng, không phải bằng chứng đã chứng Niết-bàn. Ví dụ này chỉ giúp liên hệ khổ, ái và việc tu trong một tình huống, không thay toàn bộ bốn Thánh đế.
   ],
   label: [MINH HỌA · BIÊN SOẠN THEO K05],
 )
 
 #modern-note([
-  Trong sổ tay này, *Niết-bàn* chỉ cứu cánh giải thoát mà sự thật thứ ba hướng đến. Từ ấy không được dùng làm tên khác cho thư giãn, một lúc hết suy nghĩ hay sự tạm lắng của một phản ứng. Ví dụ đời thường ở trên giúp thấy quan hệ giữa khổ, ái và việc tu; nó không thu Niết-bàn thành một kỹ thuật điều hòa cảm xúc.
-  Ví dụ ấy cũng không thu toàn bộ sự thật về khổ vào một va chạm nơi làm việc.
+  *Niết-bàn* là cứu cánh giải thoát mà sự thật thứ ba hướng đến. Sách không dùng từ ấy như tên khác của thư giãn, hết suy nghĩ trong chốc lát hay bớt giận sau một cuộc đối thoại. Những thay đổi nhỏ có giá trị trong việc tu, nhưng cần được gọi đúng mức của chúng.
 ])
-
-Bốn sự thật cũng đặt giới hạn cho cuốn sách. Quan sát một cảm giác chỉ làm trọn phần việc của nó khi việc quan sát góp vào thấy biết đúng, bớt ái, bớt chấp và sống đúng đường. Một tâm ghi nhận rất nhanh nhưng vẫn nuôi dối trá, tàn nhẫn hay tà mạng chưa thể gọi là đi trọn đạo lộ.
 
 == “Dòng” là Bát Chánh Đạo
 
-#source-line("KINH", [K06 · SN 55.5], [
-  Khi Đức Phật hỏi Tôn giả Sāriputta “dòng” là gì, câu trả lời là Bát Chánh Đạo: chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm và chánh định. Người có đạo lộ cao quý ấy được gọi là người nhập dòng. Vì vậy, chánh niệm là một chi thiết yếu, nhưng không đứng một mình.
+#source-line("KINH", [K06 · SN 55.5, đối thoại giữa Đức Phật và Tôn giả Sāriputta], [
+  Khi Đức Phật hỏi “dòng” là gì, Tôn giả Sāriputta trả lời: đó là Bát Chánh Đạo, gồm chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm và chánh định. Đức Phật xác nhận câu trả lời ấy. Người thành tựu Thánh đạo tám chi này được gọi là người nhập dòng.
 ])
 
-#source-line("KINH", [K25 · SN 45.8, Magga-vibhaṅga Sutta], [
-  K25 cho tám tên một nội dung cụ thể:
+Tám tên gọi dưới đây chỉ những phần cần được học và tu tập cùng nhau. Các lời giải nghĩa trong ngoặc là cách nói gần gũi của sách; phần định nghĩa được gắn với bài kinh tương ứng.
 
-  + *Chánh kiến:* biết khổ, nguồn gốc, sự chấm dứt và con đường.
-  + *Chánh tư duy:* hướng tâm đến xuất ly, không sân và không hại.
-  + *Chánh ngữ:* tránh nói dối, chia rẽ, thô ác và phù phiếm.
-  + *Chánh nghiệp:* tránh sát sinh, lấy của không cho và tà hạnh trong dục.
-  + *Chánh mạng:* bỏ cách nuôi sống sai và nuôi mạng bằng cách đúng.
-  + *Chánh tinh tấn:* ngăn điều bất thiện chưa sinh, đoạn điều bất thiện đã sinh, làm sinh điều thiện chưa sinh và giữ cho điều thiện đã sinh được lớn lên.
-  + *Chánh niệm:* quán thân, thọ, tâm và pháp với nhiệt tâm, tỉnh giác và chánh niệm, sau khi chế ngự tham ưu đối với đời.
-  + *Chánh định:* được bài kinh trình bày bằng bốn tầng thiền, tức bốn mức tâm hấp thụ và quy tụ sâu.
+#source-line("KINH", [K25 · SN 45.8; riêng chánh nghiệp đối chiếu K23 · MN 117:25.2], [
+  + *Chánh kiến:* biết khổ, nguồn gốc của khổ, sự chấm dứt khổ và con đường đưa đến chấm dứt khổ.
+  + *Chánh tư duy:* ý hướng xuất ly, không sân và không hại.
+  + *Chánh ngữ:* từ bỏ nói dối, nói chia rẽ, nói thô ác và nói phù phiếm.
+  + *Chánh nghiệp:* theo MN 117:25.2, từ bỏ sát sinh, lấy của không cho và tà hạnh trong dục.
+  + *Chánh mạng:* từ bỏ cách nuôi sống sai, nuôi sống bằng cách đúng.
+  + *Chánh tinh tấn:* ngăn điều bất thiện chưa sinh, từ bỏ điều bất thiện đã sinh, làm sinh điều thiện chưa sinh và nuôi lớn điều thiện đã sinh.
+  + *Chánh niệm:* quán thân, thọ, tâm và pháp với nhiệt tâm, tỉnh giác, chánh niệm, chế ngự tham ưu đối với đời.
+  + *Chánh định:* SN 45.8 trình bày bằng bốn thiền, từ sơ thiền đến tứ thiền, với các đặc tính được bài kinh nêu cho từng thiền.
+])
 
-  Danh sách này cho thấy tám chi có công việc khác nhau nhưng nâng đỡ nhau. Nó không cho phép đổi “tôi có chú ý” thành “tôi đã có đủ Bát Chánh Đạo”.
+#modern-note([
+  *Xuất ly* ở đây là hướng rời sự đắm nhiễm dục; *tà hạnh trong dục* nói đến hành vi tình dục sai trái. *Phù phiếm* chỉ lời nói vô ích, không phải mọi cuộc trò chuyện thân tình. *Thiện* và *bất thiện* nói đến phẩm chất cần được nuôi lớn hoặc từ bỏ trên đường tu. Chương 3 sẽ giải thích các từ thân, thọ, tâm, pháp, nhiệt tâm, tỉnh giác và chánh niệm.
+
+  Có một khác biệt văn bản cần giữ rõ. Bản Pāli SN 45.8 được đối chiếu dùng abrahmacariyā veramaṇī, nghĩa là từ bỏ hành vi trái phạm hạnh, ở đây gồm việc kiêng quan hệ tình dục. MN 117:25.2 dùng kāmesumicchācārā veramaṇī, từ bỏ tà hạnh trong dục. Vì đây là sách dành cho người tại gia, dòng chánh nghiệp ở trên ghi rõ căn cứ MN 117, không âm thầm đổi cách diễn đạt của SN 45.8 thành giới dành cho cư sĩ.
 ])
 
 #practice-card(
-  [Một lời phê bình, tám chi cùng làm việc],
+  [Một lời phê bình, nhiều phần của con đường],
   [
-    Bạn nhận một lời phê bình gay gắt ở nơi làm việc. *Chánh kiến* nhận ra thọ khó chịu, ái muốn thắng và hậu quả nếu phản ứng thiếu sáng suốt. *Chánh tư duy* đổi hướng khỏi trả đũa sang không sân và không hại. *Chánh ngữ* giữ câu trả lời chân thật, không thô ác hay chia rẽ. *Chánh nghiệp* không biến bực tức thành hành vi phá việc hoặc gây hại. *Chánh mạng* giữ cách kiếm sống khỏi dựa vào lừa dối hay gây hại, nên không cho phép sửa số liệu để bảo vệ thể diện.
+    Khi nhận lời phê bình, bạn có thể xem lại điều gì đúng, điều gì mình đang suy đoán và điều gì đang nuôi sự bực bội. Đó là một cách vận dụng hướng học của *chánh kiến*. Chọn không trả đũa liên hệ với *chánh tư duy*. Trả lời chân thật, không sỉ nhục liên hệ với *chánh ngữ*.
 
-    *Chánh tinh tấn* ngừng nuôi câu chuyện trả đũa và làm mạnh sự kiên nhẫn. *Chánh niệm* nhớ điều đang cần quan sát, biết thọ và tâm có sân trước khi lời bật ra. *Chánh định* là phần huấn luyện làm tâm quy tụ; sự đứng lại được vài giây trong ví dụ chỉ cho thấy hướng hỗ trợ của định, không chứng minh đã thành tựu bốn tầng thiền hay đầy đủ chánh định theo K25.
+    Không làm hại người hay chiếm đoạt của họ liên hệ với *chánh nghiệp*. Không kiếm lợi bằng lừa dối liên hệ với *chánh mạng*. Không nuôi tiếp sân, tập kiên nhẫn liên hệ với *chánh tinh tấn*. Nhớ hướng tu và nhận ra trạng thái đang có liên hệ với *chánh niệm*. Việc rèn tâm có định nâng đỡ khả năng không bị cuốn đi.
 
-    Tám chi không nhất thiết xếp hàng thành tám khoảnh khắc. Câu chuyện công sở ở đây là minh họa giúp bạn thấy tám chi hiện diện ngay trong một ngày làm việc thường; kinh không kể lại tình huống này.
+    Đây là ví dụ ứng dụng, không phải bằng chứng rằng một lần xử lý khéo đã thành tựu đủ tám chi. Đặc biệt, dừng lại vài giây không đồng nghĩa với thành tựu chánh định được trình bày bằng bốn thiền.
   ],
-  label: [MINH HỌA · BIÊN SOẠN THEO K25],
+  label: [MINH HỌA · BIÊN SOẠN THEO K23 · K25],
 )
 
-Để tra nhanh, bảng dưới đây gom tám chi thành ba cột: tên chi, dấu hiệu thường gặp khi chi ấy thiếu, và một cách áp dụng cụ thể trong đời sống cư sĩ. Đây là bảng biên soạn để tự soi; nó không phải phân loại trong kinh và không dùng để chấm điểm mình hay người khác.
+Bảng sau giúp chọn một việc để thực hành, không dùng để chấm mức chứng đắc. Các ứng dụng là phần biên soạn cho đời sống hôm nay.
 
 #table(
   columns: (auto, 1fr, 1fr),
   inset: 7pt,
   align: (left, left, left),
-  table.header([*Chi đạo*], [*Biểu hiện khi thiếu*], [*Ứng dụng của cư sĩ*]),
-  [*Chánh kiến*], [tin rằng chỉ cần chú ý là đủ con đường], [học lại Tứ Thánh Đế khi thấy mình tự an tâm bằng cảm giác],
-  [*Chánh tư duy*], [nghĩ tưởng trả đũa, ganh đua, muốn thắng], [đổi hướng nghĩ sang không sân, không hại trước một cuộc bất đồng],
-  [*Chánh ngữ*], [nói dối, chia rẽ, thô ác, phù phiếm], [dừng một nhịp trước khi trả lời tin nhắn gây tranh cãi],
-  [*Chánh nghiệp*], [hành động gây hại khi mất bình tĩnh], [giữ ranh giới an toàn cho mọi người cả lúc đang giận],
-  [*Chánh mạng*], [nuôi sống bằng lừa dối hoặc gây hại], [rà soát nghề nghiệp có xung đột giới nào rồi sửa dần],
-  [*Chánh tinh tấn*], [bỏ mặc phiền não hoặc ép mình quá sức], [làm một việc thiện nhỏ nhất trong tầm tay hôm nay, không bù giờ],
-  [*Chánh niệm*], [sống trên chế độ tự động, quên đối tượng], [giữ bốn điểm neo hằng ngày ở #link(<bon-diem-neo>)[chương 7]],
-  [*Chánh định*], [tâm tán loạn, không quy tụ được], [ngồi thời lượng vừa sức đều đặn theo #link(<khoi-dong-lai>)[chương 1]],
+  table.header([*Chi đạo*], [*Điều cần lưu ý*], [*Một cách thực hành*]),
+  [*Chánh kiến*], [một cảm giác yên chưa nói hết hướng tu], [trở lại bốn sự thật và nhiệm vụ đi cùng],
+  [*Chánh tư duy*], [ý muốn thắng có thể lấn át ý muốn hiểu], [chọn ý hướng không sân, không hại trong bất đồng],
+  [*Chánh ngữ*], [lời đúng sự thật vẫn có thể được nói thiếu thiện ý], [xem lại sự thật và cách nói trước khi trả lời],
+  [*Chánh nghiệp*], [giữ giới cả khi bực bội], [không để cơn giận thành hành vi gây hại],
+  [*Chánh mạng*], [cách kiếm sống cũng thuộc việc tu], [nhận ra và sửa một cách làm dựa vào lừa dối],
+  [*Chánh tinh tấn*], [nỗ lực cần đúng hướng], [ngừng nuôi một điều bất thiện, làm một việc thiện trong khả năng],
+  [*Chánh niệm*], [có thể quên hướng tu giữa sinh hoạt], [dùng #link(<bon-diem-neo>)[bốn điểm nhắc ở Chương 7]],
+  [*Chánh định*], [định cần được tu tập, không thể suy ra từ một lần tạm yên], [thực hành vừa sức theo #link(<khoi-dong-lai>)[hướng dẫn ở Chương 1]],
 )
 
-Đạo lộ cho biết người ấy đã đi vào đâu. Phần kế tiếp nhìn từ phía ngược lại: những trói buộc nào đã rơi và những phẩm chất nào đã trở nên vững.
-
 #caution(
-  [Đừng lấy một chi thay cho cả con đường],
+  [Một kỹ thuật nằm trong một con đường rộng hơn],
   [
-    #source-badge("BIÊN SOẠN", refs: [đối chiếu K06])
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu K06 · K23 · K25])
     #v(5pt)
-    Ghi nhận có thể rèn chánh niệm và nâng đỡ định, nhưng không tự động sửa tà kiến, lời nói gây hại hay nghề nghiệp bất thiện. Mỗi chi phần phải được học và thực hành trong phạm vi riêng của nó. Đây là lý do cuốn sách đặt giới, thiện hữu và nghe Chánh pháp trước mọi lời bàn về tầng tuệ.
+    Ghi nhận trong thiền có thể hỗ trợ việc rèn tâm. Việc học thấy đúng, giữ giới và sửa cách sống vẫn cần được thực hiện trong phạm vi riêng. Ta không phải hoàn hảo rồi mới được bắt đầu; đồng thời, một kỹ thuật không thay thế những phần còn lại của con đường.
   ],
 )
 
 == Nhập lưu được kinh mô tả thế nào?
 
-#source-line("BIÊN SOẠN", [cách hiểu dùng trong chương, đối chiếu K20; K24], [
-  *Kiết sử* là cách kinh gọi những trói buộc bền chặt giữ hữu tình trong khổ, không phải tên chung cho mọi thói quen xấu. *Năm uẩn* là năm nhóm kinh nghiệm: sắc, tức phương diện vật chất của thân; thọ, tưởng, các hành tạo tác và thức. Hai cách hiểu tạm này chỉ giúp theo kịp phần dưới; chương 10 sẽ phân tích ba kiết sử liên hệ trực tiếp đến Nhập lưu.
-])
+*Kiết sử* là những trói buộc giữ hữu tình trong luân hồi, không phải tên chung cho mọi thói quen chưa tốt. Phần dưới giới thiệu những nét chính; Chương 10 sẽ giải thích riêng ba kiết sử đầu.
 
 #source-line("KINH", [K03 · SN 55.4; K08 · DN 16; K10 · AN 3.88; K24 · AN 10.13], [
-  Kinh mô tả bậc Nhập lưu là người đã dứt ba kiết sử đầu, không còn bị đọa vào khổ cảnh, chắc chắn hướng đến giác ngộ và còn tái sinh nhiều nhất bảy lần. “Bảy lần” là giới hạn tối đa trong mô tả kinh điển, không phải lịch hẹn cho một cá nhân.
+  Các bài kinh mô tả bậc Nhập lưu là người đã dứt ba kiết sử đầu: thân kiến, hoài nghi và giới cấm thủ. Vị ấy không còn bị đọa vào khổ cảnh, chắc chắn hướng đến giác ngộ. AN 3.88 nêu các loại người đã dứt ba kiết sử này, trong đó có loại còn lưu chuyển giữa người và trời nhiều nhất bảy lần trước khi chấm dứt khổ.
 ])
 
-#source-line("KINH", [K20 · MN 44, Cūḷavedalla Sutta], [
-  Thân kiến không chỉ là dùng chữ “tôi”. MN 44 phân tích nó như những cách chấp năm uẩn là tự ngã, thuộc về tự ngã, nằm trong tự ngã hoặc chứa tự ngã. Vì thế, một thoáng thấy “không có người điều khiển” chưa đủ để tuyên bố thân kiến đã được nhổ tận gốc.
+#modern-note([
+  *Thân kiến* là cái thấy chấp các uẩn làm tự ngã; *hoài nghi* ở đây là sự nghi ngờ trói buộc đối với con đường, không đồng nghĩa với mọi câu hỏi cần tìm hiểu; *giới cấm thủ* là sự chấp thủ vào giới và thực hành như phương tiện thanh tịnh một cách sai lạc, không có nghĩa giữ giới là sai. Đây là lời giới thiệu ngắn, chưa thay phần giải thích ở Chương 10.
+
+  Tái sinh và khổ cảnh ở trên được trình bày theo nội dung kinh điển. Chúng không phải một lịch hẹn do sách lập cho người đọc. Sách cũng không suy từ một căn tính xã hội, thời lượng tu hay cảm giác mạnh để kết luận ai đã chứng quả.
+])
+
+#source-line("KINH", [K20 · MN 44, lời Tỷ-kheo-ni Dhammadinnā], [
+  Tỷ-kheo-ni Dhammadinnā phân tích thân kiến qua bốn cách đối với mỗi uẩn: xem uẩn ấy là tự ngã; xem tự ngã có uẩn ấy; xem uẩn ấy ở trong tự ngã; hoặc xem tự ngã ở trong uẩn ấy. Khi Visākha thuật lại cuộc đối thoại, Đức Phật tán thán trí tuệ của Dhammadinnā và xác nhận cách trả lời của vị ấy.
+])
+
+#modern-note([
+  Như vậy, dùng chữ “tôi” trong sinh hoạt không tự nó là toàn bộ vấn đề thân kiến. Ngược lại, đồng ý với câu “không có cái tôi” cũng chưa chứng minh sự chấp tự ngã đã được nhổ tận gốc. Điều cần học là hiểu đúng cái thấy đang được bài kinh phân tích, không đổi một khẩu hiệu lấy một khẩu hiệu khác.
 ])
 
 #source-line("KINH", [K03 · SN 55.4], [
-  Một nhóm tiêu chuẩn khác là tịnh tín đã được xác chứng nơi Phật, Pháp, Tăng và giới hạnh được bậc Thánh quý trọng. Đây không phải niềm tin vay mượn vì sợ hãi. Đó là lòng tin đã được xác chứng bằng thấy biết và được thể hiện trong một cách sống không còn dễ phản bội điều mình biết là lành.
+  Bài kinh nêu lòng tịnh tín bất động đối với Phật, Pháp, Tăng và giới hạnh được các bậc Thánh quý trọng: không bị phá vỡ, không hoen ố, được người trí tán thán và đưa đến định.
 ])
 
-#source-line("KINH", [K21 · AN 10.92, Bhaya Sutta], [
-  AN 10.92 đặt cạnh nhau ba mặt: năm mối sợ và thù hận được làm lắng qua việc tránh năm hành vi gây hại, bốn phẩm chất của bậc Nhập lưu, và sự thấy rõ duyên khởi. Bức tranh này rộng hơn bất kỳ dấu hiệu thiền định đơn lẻ nào.
+#modern-note([
+  *Tịnh tín bất động* ở đây diễn đạt lòng tin đã được xác chứng, không chỉ một lúc xúc động hay tin theo lời người khác. Các phẩm chất kinh nêu thuộc cả thấy biết lẫn đời sống. Vì vậy, câu hỏi về Nhập lưu rộng hơn câu hỏi “buổi thiền ấy đặc biệt đến mức nào?”.
+])
+
+#source-line("KINH", [K21 · AN 10.92], [
+  AN 10.92 đặt cạnh nhau sự lắng yên của năm mối sợ hãi và thù hận liên hệ với năm hành vi gây hại, bốn phẩm chất nêu trên và sự thấy rõ pháp duyên khởi. Khi các điều kiện được bài kinh nêu đã đầy đủ, vị Thánh đệ tử có thể tự tuyên bố mình là bậc Nhập lưu.
 ])
 
 #caution(
-  [Không có bài tự kiểm cấp tốc],
+  [Đọc tiêu chuẩn mà không vội tự kết luận],
   [
-    #source-badge("BIÊN SOẠN", refs: [đối chiếu K03; K21])
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu K03 · K21])
     #v(5pt)
-    Một khoảnh khắc trống lặng, ánh sáng, hỷ lạc hay cảm giác “cái tôi biến mất” không phải giấy chứng nhận. Kinh cho nhiều tiêu chuẩn cùng lúc. Sổ tay này khuyên đối chiếu lâu dài với giới hạnh, chánh kiến và người hướng dẫn có năng lực để giảm nguy cơ tự lừa. Cuốn sách không xác nhận thánh quả cho người đọc.
+    Sách không phủ nhận khả năng tự biết được kinh nói đến. Giới hạn ở đây là: một bảng hỏi, một lời xác nhận hay một trải nghiệm riêng lẻ không đủ để cuốn sách xác nhận thánh quả. Khi còn chưa rõ, hãy giữ lời mô tả đúng với điều đã biết, tiếp tục học và trao đổi với người hướng dẫn có năng lực.
   ],
 )
 
 == Bốn điều kiện đưa đến nhập dòng
 
-Những tiêu chuẩn trên mô tả người đã vào dòng. Bốn yếu tố dưới đây không phải bằng chứng thành tựu; chúng là các điều kiện giúp người chưa đến đích đi đúng hướng.
+Những phẩm chất vừa đọc mô tả người đã vào dòng. Bốn yếu tố dưới đây nói về những điều nâng đỡ con đường đi đến đó. Phân biệt hai nhóm giúp ta dành sức cho việc có thể tu tập, thay vì chỉ tìm dấu hiệu để tự xếp hạng.
 
 #source-line("KINH", [K02 · SN 55.50], [
-  Bốn yếu tố đưa đến Nhập lưu là thân cận người chân chánh, nghe Chánh pháp, như lý tác ý và hành pháp thuận pháp. Không yếu tố nào có thể được thay bằng việc đọc thật nhiều hoặc ngồi thật lâu. Thiện hữu giúp ta thấy những chỗ mình dễ tự lầm; Chánh pháp cho hướng; như lý tác ý truy đến nguyên nhân của khổ; hành pháp biến điều đã hiểu thành nếp sống.
+  Bốn yếu tố đưa đến Nhập lưu là thân cận người chân chánh, nghe Chánh pháp, như lý tác ý và hành pháp thuận pháp.
+])
+
+#modern-note([
+  Nói gần gũi, ta cần người và nguồn học đáng tin; cần nghe lời dạy đúng; cần hướng sự chú ý một cách thích đáng; và cần thực hành phù hợp với điều đã học. *Như lý tác ý* không chỉ là suy nghĩ nhiều, mà là hướng sự chú ý đúng cách; *hành pháp thuận pháp* là thực hành tương ứng với Pháp. Những lời giải nghĩa này giúp mở câu kinh, không biến bốn yếu tố thành lịch tu bảo đảm kết quả.
 ])
 
 #practice-card(
-  [Rà lại nền thực hành mỗi tháng],
+  [Thỉnh thoảng nhìn lại nền thực hành],
   [
-    Hãy nhìn bốn câu hỏi, không chấm hạng tâm linh:
+    - Tôi đang học từ ai và từ nguồn nào? Những điểm chưa rõ có được hỏi lại không?
+    - Điều đã học đang giúp tôi bớt tham, sân, si và bớt gây hại ra sao?
+    - Khi khổ xảy ra, tôi có tìm hiểu điều kiện của nó, kể cả phần phản ứng của mình không?
+    - Điều đã hiểu đã đi vào lời nói, công việc và cách đối xử với người thân thế nào?
 
-    - Tôi đang học với nguồn và người nào? Họ có cho phép kiểm chứng không?
-    - Điều tôi nghe có dẫn đến bớt tham, bớt sân, bớt si và bớt gây hại không?
-    - Khi khổ xảy ra, tôi tìm duyên của nó hay chỉ đổ lỗi?
-    - Điều đã hiểu có đi vào lời nói, công việc, tiền bạc và gia đình không?
+    Chọn một điều cần điều chỉnh là đủ cho lần nhìn lại này. Đây là gợi ý thực hành, không phải bài kiểm tra thánh quả.
   ],
-  label: [TỰ KIỂM · BIÊN SOẠN THEO K02],
+  label: [NHÌN LẠI · BIÊN SOẠN THEO K02],
 )
 
 == Nền của người tại gia
 
-Từ đây, sách trở lại mặt đất. Một người mới không thể dựng đạo lộ trên những khái niệm đẹp nếu đời sống hằng ngày vẫn đầy hối hận, giới hạnh chưa vững và thiếu người giúp mình soi lại.
+Việc tu của người tại gia diễn ra giữa những bổn phận đang có. Sách vì thế trở lại những việc gần: giữ giới, học Pháp, nuôi dưỡng quan hệ lành và dành chỗ cho thực hành đều đặn.
 
 #source-line("KINH", [K04 · AN 10.1], [
-  AN 10.1 trình bày một chuỗi có trật tự: giới lành đưa đến không hối hận; từ đó có hân hoan, hỷ, khinh an, lạc, định, thấy biết như thật, nhàm lìa, ly tham và tri kiến giải thoát. Giới không phải nghi lễ mở màn. Nó dọn mặt đất để tâm có thể đứng yên mà không phải che giấu chính mình.
-])
-
-#source-line("KINH", [K21 · AN 10.92; K23 · MN 117], [
-  Năm học giới của cư sĩ là tránh sát sinh, lấy của không cho, tà hạnh trong dục, nói dối và chất say gây phóng dật. Chánh mạng, theo MN 117, là từ bỏ cách sinh sống sai và nuôi mạng bằng cách đúng. Những ứng dụng mới như bản quyền, dữ liệu, quảng cáo hay đầu tư phải được xét theo nguyên tắc không chiếm đoạt, không lừa dối và không gây hại, nhưng không nên trình bày như thể đó là lời đã có sẵn trong kinh.
-])
-
-#source-line("KINH", [K15 · DN 31, Sigālovāda Sutta], [
-  DN 31 đặt pháp của người tại gia giữa các quan hệ thật: cha mẹ và con cái, vợ chồng, thầy trò, bạn bè, người lao động và người tu. Tiến bộ không chỉ hiện trên gối ngồi. Nó lộ ra trong việc giữ lời, chia sẻ trách nhiệm, dùng tiền có lương tri và không biến người thân thành vật cản cho tham vọng tu tập.
+  Trong cuộc đối thoại với Tôn giả Ānanda, Đức Phật trình bày lợi ích của giới thiện là không hối hận. Từ không hối hận đến hân hoan, hỷ, khinh an, lạc, định, thấy biết như thật, nhàm lìa và ly tham, rồi tri kiến giải thoát. Bài kinh kết luận rằng giới thiện dẫn tuần tự đến mục đích cao nhất.
 ])
 
 #modern-note([
-  Một nền tối thiểu có thể bắt đầu rất nhỏ: giữ năm giới có ý thức; dành thời gian đều cho việc học một nguồn kinh đáng tin; duy trì liên hệ với một thiện hữu hoặc vị thầy không đòi sự lệ thuộc; và đem một quyết định khó trong tuần soi dưới câu hỏi “việc này làm tăng hay giảm tham, sân, si?”. Nền vững không ồn ào. Nó khiến đời sống bớt phải vá lại sau mỗi lần ngồi thiền.
+  *Hỷ* là sự hứng khởi; *khinh an* là sự lắng dịu; *định* là sự quy tụ của tâm; *ly tham* là lìa sự đắm nhiễm; *tri kiến giải thoát* là thấy biết về giải thoát. Chưa cần tìm cho đủ những trạng thái ấy trong mỗi buổi ngồi. Điều gần nhất mà đoạn kinh gợi cho người mới là chăm sóc giới hạnh, thay vì coi giới chỉ là phần mở đầu có thể bỏ qua.
 ])
 
-== Gấp sách lại: ba câu để tự nhớ
+#source-line("KINH", [K21 · AN 10.92; K23 · MN 117], [
+  AN 10.92 nêu sự từ bỏ sát sinh, lấy của không cho, tà hạnh trong dục, nói dối và dùng rượu gây phóng dật. MN 117 trình bày việc từ bỏ tà mạng và nuôi sống bằng chánh mạng, trong mối liên hệ với chánh kiến, chánh tinh tấn và chánh niệm.
+])
+
+#modern-note([
+  Khi xét những việc hiện đại như dùng dữ liệu, quảng cáo hay kinh doanh, sách vận dụng các nguyên tắc không chiếm đoạt, không lừa dối và không gây hại. Đây là sự vận dụng cần cân nhắc từng hoàn cảnh, không phải các quy định về công nghệ đã có sẵn trong kinh.
+])
+
+#source-line("KINH", [K15 · DN 31], [
+  DN 31 trình bày những bổn phận trong các quan hệ giữa cha mẹ và con cái, thầy và trò, vợ và chồng, bạn bè, người chủ và người làm công, người tại gia và người tu. Các quan hệ được nêu với trách nhiệm từ cả hai phía.
+])
+
+#modern-note([
+  Từ khung ấy, sách gợi ý nhìn việc tu cả trong cách mình chăm sóc người thân, giữ lời và sửa một hành vi đã làm người khác khổ. Một buổi ngồi có ích không cần cạnh tranh với những trách nhiệm thiết yếu. Bạn có thể bắt đầu bằng thời lượng vừa sức, một nguồn kinh đáng tin và một việc cụ thể để sống ngay thẳng hơn hôm nay.
+])
+
+== Gấp sách lại: ba điều để nhớ
 
 #practice-card(
-  [Chưa trả lời được thì mở lại đúng phần, đừng đoán],
+  [Thử kể lại bằng lời của bạn],
   [
-    1. Với mỗi Thánh đế, sự thật được nêu là gì và nhiệm vụ tương ứng là gì?
+    1. Với mỗi Thánh đế, sự thật được nêu là gì và nhiệm vụ đi cùng là gì?
+    2. Vì sao chánh niệm không thay toàn bộ Bát Chánh Đạo? Hãy kể ba chi khác cùng việc tu tương ứng.
+    3. Bốn yếu tố đưa đến Nhập lưu khác thế nào với các phẩm chất mô tả người đã vào dòng?
 
-    2. Vì sao chánh niệm không thể thay toàn bộ Bát Chánh Đạo? Hãy kể ít nhất ba chi khác và nói chức năng của chúng bằng lời của bạn.
-
-    3. Bốn yếu tố đưa đến Nhập lưu khác thế nào với những phẩm chất mô tả người đã vào dòng?
+    Chỗ nào chưa rõ, hãy mở lại phần tương ứng. Nhớ được hướng đi và biết chỗ cần hỏi tiếp có ích hơn cố đưa ra một câu trả lời có vẻ đúng.
   ],
   label: [GẤP SÁCH LẠI · TỰ NHỚ],
 )

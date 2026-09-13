@@ -3,121 +3,141 @@
 #chapter(
   [08],
   [Lộ trình, người hướng dẫn và khóa thiền],
-  [Một thời khóa tốt tạo điều kiện cho giới, định và tuệ lớn lên. Nó không phải hợp đồng đổi số giờ ngồi lấy thánh quả.],
-  provenance: [
-    #source-badge("KINH", refs: [K02; K03])
-    #h(4pt)
-    #source-badge("MAHĀSI", refs: [P01; P02])
-  ],
+  [Một thời khóa giúp dành chỗ cho việc tu trong đời sống. Người hướng dẫn giúp ta nhìn lại cách thực hành. Cả hai cần được chọn với sự hiểu biết và cẩn trọng, không dựa vào lời hứa chắc về ngày chứng quả.],
+  provenance: source-badge("BIÊN SOẠN", refs: [đối chiếu K01 · K02 · K03 · P01]),
 )
 
-Một lộ trình đáng tin phải làm được ba việc: vừa sức để duy trì, đủ rõ để tự kiểm và đủ linh hoạt để điều chỉnh khi thân tâm hoặc hoàn cảnh thay đổi. Mốc tháng dưới đây là *gợi ý thực hành do người biên soạn đề xuất* để bạn có điểm tựa sắp xếp đời bận rộn; kinh điển không ấn định lịch mười hai tháng, số phút mỗi ngày hay số khóa thiền mỗi năm. Hãy điều chỉnh theo hoàn cảnh thật của mình — đây là bản đồ hỗ trợ, không phải bài kiểm tra trình độ.
+Từ việc thực hành trong ngày ở Chương 7, ta chuyển sang câu hỏi dài hơn: làm sao duy trì việc tu, tìm phản hồi và cân nhắc một khóa thiền? Chương này đề nghị một lịch có thể điều chỉnh và những câu hỏi nên tìm hiểu trước khi tăng cường độ.
 
-Nhịp vừa gián đoạn? Quay về #link(<khoi-dong-lai>)[lối khởi động lại ở chương 1] trước khi dùng các mốc thời lượng dưới đây.
+Các mốc tháng, số phút và cách chọn khóa dưới đây là phần biên soạn. Kinh không ấn định một lịch mười hai tháng như vậy. Bạn có thể dùng lịch để sắp xếp, nhưng điều kiện thân tâm và trách nhiệm thực tế mới quyết định có nên tăng thời lượng hay không. Trước khi tăng mạnh, cần đọc đầy đủ #link(<an-toan>)[Chương 9 về an toàn].
 
-== Hai nhóm bốn yếu tố thường bị lẫn
+Nếu nhịp thực hành vừa gián đoạn, hãy trở về #link(<khoi-dong-lai>)[hướng dẫn bắt đầu lại ở Chương 1], chưa cần theo các mốc tăng thời lượng bên dưới.
 
-#source-line("KINH", [K02], [SN 55.50 nêu bốn yếu tố đưa đến Nhập lưu: thân cận người chân chánh, nghe Chánh pháp, như lý tác ý và thực hành đúng theo Pháp. Đây là những điều kiện nuôi đạo lộ.])
+== Hai nhóm bốn yếu tố cần phân biệt
 
-#v(8pt)
+#source-line("KINH", [K02 · SN 55.50], [
+  Bốn yếu tố đưa đến Nhập lưu là thân cận người chân chánh, nghe Chánh pháp, như lý tác ý và thực hành phù hợp với Pháp.
+])
 
-#source-line("KINH", [K03], [SN 55.4 nêu bốn phẩm chất để một người được tuyên bố là bậc Nhập lưu: tịnh tín đã được xác chứng nơi Phật, Pháp, Tăng và giới hạnh được bậc Thánh quý trọng. Đây là phẩm chất của người đã vào dòng.])
+#source-line("KINH", [K03 · SN 55.4], [
+  Bốn phẩm chất được bài kinh nêu ở bậc Nhập lưu là lòng tịnh tín đã được xác chứng đối với Phật, Pháp, Tăng và giới hạnh được các bậc Thánh quý trọng.
+])
 
-Hai nhóm cùng được dịch bằng những cụm từ gần giống nhau, nhưng chức năng khác hẳn. Có thầy, nghe pháp và ngồi đều không tự động chứng minh bốn phẩm chất của bậc Nhập lưu. Chúng chỉ có thể góp phần tạo duyên. Ngược lại, một lời tuyên bố tin đủ ba ngôi báu cũng không thay thế thấy biết và giới hạnh. Đừng lấy điều kiện để đo phẩm chất đã thành tựu, cũng đừng lấy lời tự xưng về niềm tin để thay cho kiểm chứng.
+#modern-note([
+  Nhóm thứ nhất nói về những điều kiện nâng đỡ con đường; nhóm thứ hai mô tả phẩm chất của người đã vào dòng. Có người hướng dẫn và thực hành đều là điều đáng chăm sóc, nhưng chưa tự chứng minh quả vị. Một lời tự nhận có đủ niềm tin cũng chưa thay thế thấy biết và giới hạnh. Chương 2 đã giải thích các thuật ngữ của hai nhóm; bạn có thể trở lại khi cần.
+])
 
 == Một lộ trình mười hai tháng có thể điều chỉnh
 
-=== Tháng 1 và 2: làm cho việc hành có chỗ đứng
+Những mốc dưới đây không phải các bậc bắt buộc phải vượt. Khi mức hiện tại vẫn phù hợp, có thể giữ nguyên. Khi có dấu hiệu ảnh hưởng sức khỏe, hãy dùng hướng dẫn an toàn, không chỉ giảm vài phút rồi tiếp tục theo lịch.
 
-Sau #link(<ngay-8-30>)[cầu nối tháng đầu] của chương 1, có thể giữ một thời tọa từ hai mươi đến ba mươi phút, năm hoặc sáu ngày mỗi tuần khi mức thấp hơn đã thật sự ổn. Nếu thân cho phép, thêm năm đến mười phút thiền hành. Chọn một hoạt động thường ngày làm điểm neo. Mục tiêu là đều đặn, không phải ngồi bất động bằng mọi giá.
+=== Tháng 1 và 2: dành một chỗ vừa sức cho việc hành
 
-Mốc này chỉ dùng sau khi mức năm đến mười lăm phút của chương 1 đã đứng được trong đời sống. Nếu hai mươi phút làm mất ngủ, đau tăng hoặc khiến bạn bỏ liên tục, hãy giữ mức thấp hơn; lịch tháng không có quyền bắt thân tâm chạy trước nền thực tế.
+Sau #link(<ngay-8-30>)[giai đoạn ngày 8 đến ngày 30] ở Chương 1, có thể cân nhắc một thời ngồi hai mươi đến ba mươi phút, năm hoặc sáu ngày mỗi tuần, nhưng chỉ khi mức thấp hơn đã ổn định. Nếu thân và hoàn cảnh cho phép, có thể thêm năm đến mười phút đi thiền. Những thời lượng này là gợi ý sắp xếp, không phải mức tối ưu được kinh hay y học xác nhận.
 
-Nếu sau ngày 30, mức năm đến mười lăm phút vẫn là mức bền vững, cứ giữ mức ấy thêm trọn một tháng. Đây không phải thất bại hay chậm tiến; mốc tháng là lịch biên soạn, không phải chỉ tiêu phải vượt.
+Nếu năm đến mười lăm phút vẫn là mức bền vững, hãy giữ mức ấy thêm một tháng hoặc lâu hơn. Không cần tăng chỉ vì trang lịch đã sang tháng. Nếu đau tăng, mất ngủ hoặc việc thực hành thường xuyên vượt sức, cần điều chỉnh và tham khảo Chương 9.
 
-=== Tháng 3 và 4: tăng độ liên tục
+=== Tháng 3 và 4: học quan sát liên tục và trình bày rõ
 
-Nâng dần thời tọa đến ba mươi hoặc bốn mươi phút nếu giấc ngủ, công việc và quan hệ vẫn ổn. Thêm thiền hành trước lúc ngồi. Học cách *trình pháp*, tức báo cáo một buổi hành bằng sự kiện cụ thể: đối tượng chính, lúc tâm rời đi, cảm giác mạnh, thái độ đối với chúng. Đừng kể một câu chuyện đã được ép vào bản đồ tuệ.
+Khi giấc ngủ, công việc, quan hệ và sức khỏe vẫn ổn, có thể cân nhắc nâng dần thời ngồi đến ba mươi hoặc bốn mươi phút, hoặc thêm một ít thời gian đi thiền. Chỉ điều chỉnh từng phần, không đồng thời tăng mọi thứ.
 
-=== Tháng 5 đến 8: tìm phản hồi có năng lực
+Cũng có thể bắt đầu học *trình pháp*, nghĩa là trao đổi với người hướng dẫn về việc thực hành. Hãy kể điều cụ thể: đề mục chính, lúc tâm rời đi, điều đã nhận ra và cách mình đáp lại. Chưa biết một trải nghiệm nên được hiểu thế nào thì nói là chưa biết; không cần đặt nó vào một tầng tuệ trước khi hỏi.
 
-Nếu có điều kiện, tham dự một ngày thực hành hoặc một khóa ngắn trước khi đăng ký khóa dài. Quan sát cách trung tâm xử lý đau, mất ngủ, tiền sử sức khỏe tâm thần và nhu cầu rời khóa. Một cuộc trình pháp tốt giúp làm rõ cách hành; nó không phải lễ phong cấp.
+=== Tháng 5 đến 8: tìm phản hồi phù hợp
 
-=== Tháng 9 đến 12: giữ điều có ích, bỏ phần phô trương
+Nếu điều kiện cho phép, có thể tìm một buổi thực hành có hướng dẫn, một ngày thực hành hoặc một khóa ngắn trước khi chọn khóa dài. Điều cần tìm không chỉ là thời khóa, mà còn là cách người hướng dẫn lắng nghe và xử lý khó khăn.
 
-Chọn thời lượng có thể sống cùng nhiều năm. Tiếp tục giữ giới, học kinh có hệ thống và gặp thiện hữu. Nếu một lời hướng dẫn riêng từ thầy xung đột với sức khỏe, bổn phận gia đình hoặc giới, đừng làm theo chỉ vì sợ “mất đà”.
+Một cuộc trao đổi có ích giúp bạn hiểu rõ hơn việc đang làm và điều cần điều chỉnh. Không cần biến cuộc trao đổi ấy thành việc xin xác nhận một danh hiệu.
 
-#modern-note([
-  Có tuần chỉ giữ được mười phút mỗi ngày. Đó có thể là lựa chọn đúng khi chăm con nhỏ, trực bệnh viện hoặc làm việc ca đêm. Mạch hành trì được bảo vệ bằng tính trung thực, không bằng việc che giấu kiệt sức.
+=== Tháng 9 đến 12: giữ nhịp phù hợp với đời sống
+
+Tiếp tục giữ giới, học kinh và liên hệ với người hướng dẫn đáng tin. Chọn thời lượng có thể duy trì trong hoàn cảnh thật, thay vì giữ một lịch khiến bản thân hoặc người nhà liên tục phải chịu sức ép.
+
+Có tuần chỉ giữ được mười phút mỗi ngày vì chăm con, chăm người bệnh hoặc công việc thay đổi. Có thể xem lại lịch rồi tiếp tục từ mức vừa sức. Nếu cần nghỉ vì sức khỏe, dùng hướng dẫn bắt đầu lại khi điều kiện đã phù hợp; không cần ngồi bù.
+
+== Kinh Niệm xứ nói gì về bảy ngày và bảy năm?
+
+#source-line("KINH", [K01 · MN 10, phần kết], [
+  MN 10 nói rằng người tu tập bốn niệm xứ “như vậy” trong bảy năm có thể chờ đợi một trong hai kết quả: chánh trí ngay trong hiện tại, hoặc nếu còn dư y thì Bất lai. Bài kinh rút dần qua các mốc năm, tháng và nửa tháng, đến bảy ngày, vẫn nêu hai kết quả ấy.
 ])
 
-== Kinh Niệm xứ thật sự nói gì về bảy ngày và bảy năm?
+#modern-note([
+  *Chánh trí ngay trong hiện tại* ở đây được hiểu là quả A-la-hán; *Bất lai* là quả không còn trở lại cõi dục. “Còn dư y” được giữ theo cách dịch quen thuộc, liên hệ với phần chấp thủ còn lại trong ngữ cảnh này. Đây không phải hai tên khác của Nhập lưu.
 
-#source-line("KINH", [K01, đoạn 46], [MN 10 nói rằng người tu tập bốn Niệm xứ “như vậy” trong bảy năm có thể chờ đợi một trong hai kết quả: chánh trí ngay trong hiện tại, tức A-la-hán, hoặc nếu còn dư y thì quả Bất lai, tức không trở lại cõi dục. Bài kinh rút dần thời gian qua các mốc năm, tháng, nửa tháng, xuống đến bảy ngày và vẫn nêu hai kết quả ấy.])
-
-“Dư y” là thuật ngữ kỹ thuật được giữ theo bản dịch; người mới không cần dùng nó để tự chấm mình. Chỉ cần giữ ranh giới này: A-la-hán và Bất lai là hai kết quả bài kinh nêu ở đoạn ấy; chúng không phải tên khác của Nhập lưu.
-
-Đoạn kinh không nói “bảy ngày sẽ Nhập lưu”. Hai kết quả được nêu là A-la-hán hoặc Bất lai. Đoạn kinh cũng không đồng nhất bảy ngày ấy với một khóa Mahāsi hiện đại, không cho số giờ ngồi mỗi ngày và không bảo rằng chỉ cần có mặt đủ lịch là kết quả phải xảy ra. Điểm then chốt của đoạn kinh là cụm “tu tập như vậy”, nghĩa là toàn bộ phẩm chất và nội dung thực hành vừa được bài kinh trình bày.
+  Cụm “tu tập như vậy” cần được đọc cùng toàn bộ nội dung và phẩm chất thực hành của bài kinh. Đoạn kinh không nói rằng chỉ cần đăng ký, ở đủ bảy ngày hoặc theo một lịch Mahāsi hiện đại là chắc chắn chứng quả. Nó cũng không cho số giờ ngồi mỗi ngày để người biên soạn biến thành một định mức.
+])
 
 #caution(
-  [Không dùng đoạn kinh làm lời quảng cáo khóa thiền],
+  [Phân biệt lời kinh với lời hứa của một khóa thiền],
   [
-    Một trung tâm hứa chắc thánh quả sau bảy hay mười ngày đang nói quá điều văn bản cho phép. Khóa thiền có thể tạo sự liên tục, yên lặng và phản hồi sát hơn. Nó không bảo đảm đạo quả, cũng không phải điều kiện duy nhất được kinh nêu cho Nhập lưu.
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu K01])
+    #v(5pt)
+    Lời dạy có điều kiện trong MN 10 không phải căn cứ để bảo đảm đạo quả cho mọi người tham dự một khóa. Hãy chọn khóa dựa trên nội dung, người hướng dẫn, điều kiện thực tế và an toàn, không dựa vào cam kết chứng đắc sau một số ngày.
   ],
 )
 
-== Khi nào nên đi khóa thiền?
+== Trước khi đăng ký khóa thiền
 
-Khóa thiền đáng cân nhắc khi việc hành ở nhà đã tương đối ổn, sức khỏe cho phép và bạn hiểu rõ thời khóa. Người mới không cần chờ “đủ giỏi”, nhưng cần biết mình sẽ ngủ bao nhiêu, ăn thế nào, có thể xin đổi tư thế hay rời khóa ra sao, và ai xử lý tình huống y tế.
+Bạn không cần chờ đến khi “đủ giỏi” mới tìm người hướng dẫn. Tuy vậy, trước một khóa tập trung, cần biết thời khóa, điều kiện sức khỏe, hỗ trợ tại chỗ và quyền dừng. Các câu hỏi sau là gợi ý sàng lọc của sách, không phải danh sách được kinh quy định.
 
-Trước khi đăng ký, hãy hỏi thẳng tám câu:
-
-- Mỗi ngày có bao nhiêu giờ tọa, hành và nghỉ?
-- Có trình pháp riêng không, ai là người hướng dẫn?
-- Trung tâm sàng lọc tiền sử tâm thần, chấn thương và bệnh thân thế nào?
-- Khi mất ngủ hoặc hoảng sợ, hành giả được giảm thời khóa không?
-- Người đang điều trị y tế có được tiếp tục thuốc và liệu trình mà không bị gây áp lực ngừng không?
-- Có quy trình cấp cứu, liên lạc gia đình và rời khóa an toàn không?
-- Chi phí, hoàn tiền và cúng dường được công bố ra sao?
-- Người hướng dẫn có chịu trách nhiệm trước một tổ chức hoặc quy tắc kiểm soát quyền lực nào ngoài cá nhân họ không?
+- Mỗi ngày có bao nhiêu giờ ngồi, đi thiền, ngủ và nghỉ?
+- Có trao đổi riêng không, và ai trực tiếp hướng dẫn?
+- Trung tâm xem xét tiền sử sức khỏe, chấn thương và tình trạng đang điều trị thế nào?
+- Khi mất ngủ, đau tăng hoặc hoảng sợ, có được giảm thời khóa và tìm hỗ trợ không?
+- Người đang điều trị có được tiếp tục thuốc và liệu trình mà không bị gây áp lực ngừng không?
+- Quy trình cấp cứu, liên lạc gia đình và rời khóa an toàn là gì?
+- Chi phí, hoàn tiền và cúng dường được giải thích rõ ra sao?
+- Khi có khiếu nại, ai tiếp nhận và kiểm tra độc lập với người hướng dẫn?
 
 #caution(
-  [Ba điều kiện đủ để không đăng ký],
+  [Những dấu hiệu cần dừng đăng ký],
   [
-    #source-badge("BIÊN SOẠN", refs: [quy tắc sàng lọc])
+    #source-badge("BIÊN SOẠN", refs: [quy tắc sàng lọc an toàn])
     #v(5pt)
-    Đừng tham dự nếu trung tâm không nói rõ quy trình cấp cứu và quyền rời khóa, hoặc lảng tránh khi được hỏi. Đừng tham dự nếu họ gây áp lực buộc ngừng thuốc, che giấu triệu chứng hay cắt liên lạc cần thiết. Đừng tham dự nếu họ bảo đảm đạo quả, ép chịu đau hoặc tước giấc ngủ như một phép thử. Chỉ một trong ba nhóm dấu hiệu này đã đủ để dừng việc đăng ký.
+    Không đăng ký khi có một trong các nhóm dấu hiệu sau:
+
+    - Trung tâm không làm rõ quy trình cấp cứu, quyền giảm thời khóa hoặc quyền rời khóa, kể cả khi đã được hỏi.
+    - Trung tâm gây áp lực ngừng thuốc, che giấu triệu chứng hoặc cắt liên lạc cần thiết.
+    - Trung tâm bảo đảm đạo quả, ép chịu đau hay tước giấc ngủ như một phép thử.
+
+    Một lịch tu hấp dẫn không bù được các thiếu sót này. Cần làm rõ hoặc tìm nơi khác trước khi tham dự.
   ],
 )
 
 == Chọn người hướng dẫn
 
-#source-line("MAHĀSI", [P01], [P01 khuyên hành dưới sự hướng dẫn để người dạy có thể trao đổi về pháp hành và chỉ dẫn khi cần. Văn bản không trình bày một giao thức phỏng vấn chuẩn hóa hay dùng cuộc trao đổi ấy làm giấy chứng nhận đạo quả.])
+#source-line("MAHĀSI", [P01], [
+  P01 khuyên hành dưới sự hướng dẫn để người dạy có thể trao đổi về pháp hành và chỉ dẫn khi cần. Văn bản không trình bày một giao thức phỏng vấn chuẩn hóa hay dùng cuộc trao đổi ấy làm giấy chứng nhận đạo quả.
+])
 
-Một người hướng dẫn đáng theo không cần diễn ra vẻ huyền bí. Họ hỏi cụ thể, phân biệt kinh với luận và kinh nghiệm riêng, không hứa thành tựu, không cản chăm sóc y tế, không đòi bí mật với gia đình, không dùng danh hiệu tâm linh để né câu hỏi về tiền bạc, tình dục hay quyền lực.
+#modern-note([
+  Theo tiêu chí của sách, người hướng dẫn đáng tin cần phân biệt điều mình dẫn từ kinh, điều thuộc truyền thống và điều là kinh nghiệm riêng. Họ cần cho phép câu hỏi, không cản chăm sóc y tế và có ranh giới rõ về tiền bạc, tình dục, quyền lực. Sự nổi tiếng hay lời tự xưng không thay được việc xem xét những điều cụ thể ấy.
 
-Hãy rời xa nơi nào có một trong các dấu hiệu sau:
+  Việc kinh có nói đến tự tuyên bố sự chứng đắc không làm mọi lời tự xưng đều đúng; ngược lại, cũng không đủ để kết luận một người sai chỉ vì họ nói về chứng đắc. Điều không thể chấp nhận là dùng lời tự xưng để đòi phục tùng, trục lợi, miễn trừ trách nhiệm hoặc gạt bỏ dấu hiệu gây hại.
+])
 
-- Thầy tự xưng thánh quả hoặc bán lời hứa đắc quả.
-- Hành giả bị ép chịu đau, nhịn ngủ hoặc ngừng thuốc.
-- Mọi bất ổn đều bị gọi là “thanh lọc” hay “tuệ đang lên”.
-- Người học bị yêu cầu cắt quan hệ, che giấu sự việc hoặc phục tùng cá nhân.
-- Khi có tố cáo vi phạm giới, tổ chức chỉ bảo vệ danh tiếng của thầy.
+Hãy rời quan hệ hướng dẫn và tìm hỗ trợ phù hợp khi có các hành vi sau:
 
-== Nhịp bền vững sau năm đầu
+- Ép chịu đau, nhịn ngủ hoặc ngừng thuốc đang được chỉ định.
+- Gọi mọi suy giảm sức khỏe là “thanh lọc” hay “tuệ đang lên” và cản việc đánh giá chuyên môn.
+- Ép cắt quan hệ, giữ bí mật về hành vi gây hại hoặc phục tùng cá nhân.
+- Dùng lời hứa chứng quả hay danh hiệu tâm linh để gây áp lực về tiền bạc hoặc tình dục.
+- Che giấu tố cáo vi phạm và ngăn người bị ảnh hưởng tìm hỗ trợ an toàn.
 
-Giữ một thời khóa hằng ngày vừa sức, sinh hoạt với thiện hữu, đọc nguồn căn bản và đi khóa khi điều kiện chín. Nếu tăng cường độ, hãy tăng từng phần và theo dõi giấc ngủ, khả năng làm việc, quan hệ cùng sức khỏe thân. Tiến bộ không được mua bằng sự đổ vỡ mà ta gọi nhầm là tinh tấn.
+Đây là ranh giới bảo vệ người học, không phải phán đoán thánh quả của người hướng dẫn. Không cần giải quyết câu hỏi ai đã chứng gì trước khi bảo vệ an toàn.
+
+== Nhịp thực hành sau năm đầu
+
+Có thể giữ một thời khóa vừa sức, tiếp tục học nguồn căn bản và trao đổi với thiện hữu. Khi muốn tăng cường độ, hãy xem lại giấc ngủ, sức khỏe, khả năng làm việc và trách nhiệm gia đình. Một lịch cũ không cần được giữ nguyên khi điều kiện đã thay đổi.
 
 #practice-card(
   [Gấp sách lại: ba quyết định trước khi tăng],
   [
-    1. Nếu nhịp tháng đầu vừa gãy, đừng nhảy vào lịch mười hai tháng. Trở về #link(<khoi-dong-lai>)[mức gần nhất từng ổn] hoặc mức tối thiểu năm phút, rồi giữ nguyên đến lần rà soát kế tiếp.
+    1. *Nhịp thực hành vừa gián đoạn:* trở lại #link(<khoi-dong-lai>)[quy trình ở Chương 1], không nhảy ngay vào mốc tháng tiếp theo. Nếu gián đoạn do dấu hiệu sức khỏe, xử lý an toàn trước khi bắt đầu lại.
+    2. *Khóa thiền thiếu quy trình cấp cứu, quyền giảm thời khóa, quyền rời khóa hoặc bảo đảm đạo quả:* chưa đăng ký. Tìm câu trả lời rõ hoặc chọn nơi khác.
+    3. *Người hướng dẫn ép chịu đau, thiếu ngủ, ngừng thuốc, che giấu triệu chứng hoặc phục tùng cá nhân:* rời quan hệ ấy và tìm hỗ trợ phù hợp.
 
-    2. Nếu một khóa không nói rõ quy trình cấp cứu, quyền giảm thời khóa và quyền rời khóa, hoặc bảo đảm đạo quả, đừng đăng ký. Một lịch dày không bù được một cấu trúc thiếu an toàn.
-
-    3. Nếu người hướng dẫn ép chịu đau, nhịn ngủ, ngừng thuốc, che giấu triệu chứng hoặc phục tùng cá nhân, hãy rời khỏi quan hệ hướng dẫn ấy và tìm hỗ trợ phù hợp. Danh hiệu tâm linh không miễn trừ trách nhiệm.
-
-    Ba quyết định này không đo mức tiến bộ. Chúng kiểm tra liệu việc tăng cường độ có còn phục vụ giới, sức khỏe và đời sống hay không.
+    Ba quyết định này giúp xem việc tăng cường độ có phù hợp hay không; chúng không đo trình độ hay thay cho đánh giá sức khỏe chuyên môn.
   ],
   label: [GẤP SÁCH LẠI · BIÊN SOẠN],
 )

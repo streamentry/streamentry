@@ -3,156 +3,174 @@
 #chapter(
   [03],
   [Tứ Niệm Xứ trong kinh],
-  [Kinh Niệm xứ không dạy một chuỗi nhãn. Kinh trao bốn địa hạt để quán, một thái độ hành trì và một điệp khúc dẫn từ thấy rõ đến không nương tựa, không chấp trước bất cứ gì ở đời.],
-  provenance: source-badge("KINH", refs: [K01 · MN 10]),
+  [Thân đang ở đây; cảm thọ và trạng thái tâm cũng đang có mặt. Chương này cùng bạn đọc bốn niệm xứ trong MN 10, để việc quan sát có hướng đi: hiểu rõ hơn, nuôi điều thiện và bớt chấp thủ.],
+  provenance: source-badge("BIÊN SOẠN", refs: [đọc K01 · MN 10]),
 )
 
-Đọc chương này như một bản đồ đọc kinh, không phải như bốn môn học tách rời. MN 10 đi từ điều dễ thấy nhất đến điều khó thấy hơn, để người mới không bị chìm trong thuật ngữ trước khi thấy cấu trúc của kinh.
+Chương trước đặt chánh niệm trong toàn bộ Bát Chánh Đạo. Ở đây, ta tìm hiểu riêng một phần của con đường ấy: biết thân, thọ, tâm và pháp theo Kinh Niệm xứ. Bạn có thể đọc từng phần rồi đối chiếu với một kinh nghiệm quen thuộc; chưa cần nhớ hết các danh mục.
 
-Trong chương này, *quán* có nghĩa là nhìn kỹ và liên tục vào kinh nghiệm đang xảy ra để thấy cách nó sinh, đổi và mất. Quán không phải chỉ nghĩ về thân, thọ, tâm hay pháp bằng khái niệm.
+Trong lời giải thích của sách, *quán* là quan sát và xem xét theo hướng bài kinh chỉ dẫn. Có lúc ta nhận biết việc đang xảy ra; có lúc ta xem xét cấu tạo, sự sinh khởi hay sự biến đổi của đối tượng. Vì vậy, quán không chỉ là nghĩ về một khái niệm, nhưng cũng không bị thu hẹp thành việc ghi nhận cảm giác mà không có sự suy xét.
 
-#scripture-quote(
-  [Vị ấy sống quán thân nơi thân, nhiệt tâm, tỉnh giác, chánh niệm, sau khi chế ngự tham ưu ở đời. Cùng một công thức được áp dụng cho thọ, tâm và pháp.],
-  [Phỏng dịch đoạn mở đầu, K01 · MN 10, Satipaṭṭhāna Sutta.],
-)
+#source-line("KINH", [K01 · MN 10:3.2–3.5, diễn ý công thức mở đầu], [
+  Vị Tỷ-kheo sống quán thân nơi thân, nhiệt tâm, tỉnh giác, chánh niệm, chế ngự tham ưu đối với đời. Bài kinh nêu cùng công thức ấy cho việc quán thọ, quán tâm và quán pháp.
+])
 
-== Ba phẩm chất giữ việc quán đi đúng hướng
+== Ba phẩm chất nâng đỡ việc quán
 
 #source-line("KINH", [K01 · MN 10, công thức mở đầu], [
-  Kinh đặt cạnh nhau *nhiệt tâm* (ātāpī), *tỉnh giác* (sampajāno) và *chánh niệm* (satimā), đồng thời nói đến việc chế ngự tham ưu đối với đời. Chính công thức này không cho ba định nghĩa từ điển riêng và không mô tả pháp hành như sự chú ý trung tính, không có hướng tu.
+  Bài kinh đặt cạnh nhau ba phẩm chất: *nhiệt tâm* (ātāpī), *tỉnh giác* (sampajāno) và *chánh niệm* (satimā), cùng với việc chế ngự tham ưu đối với đời. Công thức mở đầu nêu các phẩm chất này, không đưa ra ba định nghĩa riêng.
 ])
 
 #modern-note([
-  Theo cách hiểu của sách, *chánh niệm* giúp không quên khung đang quan sát; *tỉnh giác* giúp biết rõ việc đang xảy ra và hoàn cảnh của nó; *nhiệt tâm* là sức nỗ lực không nuôi điều bất thiện và phát triển điều thiện. Đây là lời giải thích biên soạn để thực hành, không phải ba câu định nghĩa nguyên văn của MN 10.
+  Để dễ thực hành, sách giải thích gần nghĩa như sau. *Chánh niệm* giúp nhớ việc đang tu tập, không quên hướng quan sát. *Tỉnh giác* giúp biết rõ việc mình đang làm. *Nhiệt tâm* là sự chuyên cần trong việc tu, không phải ép thân tâm đến kiệt sức. *Tham ưu* ở đây nói đến tham muốn và ưu phiền đối với đời. Các lời giải thích này là phần biên soạn, không phải câu dịch nguyên văn của MN 10.
 ])
 
-Ba phẩm chất này là chiếc khung cho toàn chương. Khi đã nắm được khung, bốn niệm xứ không còn là bốn danh mục lạ, mà là bốn cách nhìn cùng một kinh nghiệm.
+Bạn có thể nhớ ba phẩm chất bằng một câu hỏi thực tế: mình có đang nhớ hướng tu, biết rõ việc đang làm và thực hành với sự chuyên cần phù hợp không? Câu hỏi này giúp trở lại việc tu; nó không dùng để chấm điểm bản thân.
 
 #practice-card(
   [Một việc, bốn góc nhìn],
   [
-    Nghe một lời chê, bạn có thể nhận ra hàm siết và ngực nóng ở *thân*; vị khó chịu của kinh nghiệm ở *thọ*; tâm đang có sân ở *tâm*; rồi thấy sân là một triền cái có điều kiện sinh và cần được xử lý ở *pháp*. Đây không phải bốn khoảnh khắc bắt buộc nối đuôi nhau. Nó chỉ cho thấy bốn Niệm xứ có thể soi cùng một biến cố mà không trộn lẫn chức năng của chúng.
+    Khi nghe một lời chê, bạn có thể nhận ra hàm siết và ngực nóng ở *thân*; sắc thái khó chịu ở *thọ*; tâm đang có sân ở *tâm*; rồi xét sân như một trở ngại cần hiểu điều kiện sinh khởi và cách từ bỏ ở *pháp*.
+
+    Đây là ví dụ của sách. Bốn góc nhìn không phải bốn bước bắt buộc nối tiếp nhau, cũng không đòi bạn phải phân tích mọi thứ cùng một lúc.
   ],
   label: [MINH HỌA · BIÊN SOẠN THEO K01],
 )
 
-#source-line("KINH", [K01 · MN 10, điệp khúc mỗi niệm xứ], [
-  Sau từng nhóm thực tập, kinh lặp lại các chiều quán: bên trong, bên ngoài, cả trong lẫn ngoài; tính sinh khởi, tính hoại diệt, cả sinh lẫn diệt. Cuối cùng, niệm được thiết lập vừa đủ cho biết và nhớ, hành giả không nương tựa và không chấp trước bất cứ gì ở đời. Cách hiểu chi tiết “bên ngoài” có khác nhau giữa các truyền thống; văn bản ít nhất không cho phép đóng khung toàn bộ pháp quán vào cảm giác riêng tư của một cái tôi cô lập.
-])
-
-#caution(
-  [“Chỉ biết” không có nghĩa là thờ ơ],
-  [
-    #source-badge("BIÊN SOẠN", refs: [đối chiếu K01])
-    #v(5pt)
-    Điệp khúc của MN 10 kết thúc bằng không chấp thủ, nhưng mở đầu bằng nhiệt tâm và đặt quán pháp cạnh những gì phải được đoạn trừ hoặc làm cho viên mãn. Biết rõ sân đang có mặt không có nghĩa là mặc cho sân điều khiển lời nói. Cái biết đúng mở đường cho hành động đúng.
-  ],
-)
-
-== Thân: biết thân như thân
-
-Kinh bắt đầu bằng thân vì thân là phần dễ nhận nhất khi mới học quán. Từ chỗ biết thân, người đọc mới có đà để nhìn sang thọ, tâm và pháp mà không thấy các phần ấy bị tách rời.
-
-#source-line("KINH", [K01 · MN 10, Kāyānupassanā], [
-  Phần quán thân gồm hơi thở; bốn oai nghi; tỉnh giác khi đi, đứng, mặc áo, ăn uống, nói và im lặng; ba mươi hai phần thân; bốn đại; và các quán sát tử thi. Trục chung không phải làm thân dễ chịu, mà là thấy thân theo tiến trình và cấu tạo của nó, bớt câu chuyện “thân tôi” vốn phủ lên kinh nghiệm trực tiếp.
-])
-
-#source-line("KINH", [K12 · MN 118, Ānāpānasati Sutta], [
-  MN 118 trình bày mười sáu bước niệm hơi thở và cho thấy pháp này làm viên mãn bốn Niệm xứ, bảy giác chi, minh và giải thoát. Đây là một hệ thống kinh điển hoàn chỉnh. Nó không đồng nhất với việc quan sát chuyển động bụng trong phương pháp Mahāsi, dù cả hai đều có thể được đặt trong quán thân.
-])
-
-== Thọ: biết vị của kinh nghiệm trước khi ái chen vào
-
-Khi đã biết thân như thân, bước kế là thọ, tức sắc thái dễ chịu, khó chịu hay trung tính vừa đi kèm kinh nghiệm. Đây là chỗ phản ứng thường khởi rất sớm, nên kinh chuyển sang nó ngay sau thân.
-
-#source-line("KINH", [K01 · MN 10, Vedanānupassanā], [
-  *Thọ* ở đây là sắc thái dễ chịu, khó chịu hoặc trung tính của kinh nghiệm, không đồng nghĩa với toàn bộ “cảm xúc”. Khi thọ được nhận ra sớm, hành giả có cơ hội thấy xu hướng tìm giữ, xua đuổi hay bỏ quên.
+#source-line("KINH", [K01 · MN 10, điệp khúc các niệm xứ], [
+  Bài kinh lặp lại việc quán bên trong, bên ngoài, cả trong lẫn ngoài; quán tính sinh khởi, tính hoại diệt, cả sinh lẫn diệt. Niệm được thiết lập đủ cho sự biết và ghi nhớ; hành giả sống không nương tựa, không chấp thủ bất cứ gì ở đời.
 ])
 
 #modern-note([
-  Trong thực hành, hãy hỏi ngắn: “Dễ chịu, khó chịu hay trung tính?”. Sau đó mới quan sát câu chuyện, ký ức hoặc phản ứng thân đi cùng. Cách hỏi này là chỉ dẫn biên soạn để làm rõ phạm vi của *thọ*; nó không phải câu trích nguyên văn từ MN 10.
+  Cách giải thích chi tiết “bên trong” và “bên ngoài” có khác nhau giữa các truyền thống. Chương này giữ nguyên các chiều quán được kinh nêu, thay vì chọn một cách hiểu rồi coi đó là nghĩa duy nhất. Khi cần đi sâu, hãy đọc bản kinh cùng một người hướng dẫn có khả năng giải thích căn cứ của cách hiểu mình dùng.
 ])
 
-== Tâm: biết sắc thái của cái đang biết
+#caution(
+  [Biết rõ để có thể đáp lại sáng suốt],
+  [
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu K01])
+    #v(5pt)
+    Nhận ra sân đang có mặt không có nghĩa là để sân quyết định lời nói. MN 10 còn nói đến việc từ bỏ triền cái và phát triển giác chi. Vì vậy, cách đọc của sách là: biết điều đang xảy ra để hiểu và tu tập, không phải để thờ ơ với việc gây hại.
+  ],
+)
 
-Từ thọ, kinh quay sang chất lượng của cái biết đang ghi nhận thọ. Người mới hay tưởng đây là chuyện trừu tượng, nhưng thực ra nó chỉ là nhìn xem tâm đang co, mở, sáng, mờ hay bị một trạng thái nào đó chi phối.
+== Thân: nhận biết và xem xét thân
 
-#source-line("KINH", [K01 · MN 10, Cittānupassanā], [
-  Quán tâm nhận ra tâm có tham hay không tham, có sân hay không sân, có si hay không si; tâm co rút hay tán loạn; quảng đại hay không; còn có thể vượt hơn hay không; có định hay không; giải thoát hay chưa giải thoát. Danh sách này quan sát phẩm chất của tâm, không yêu cầu xây một bản ngã mới mang tên “người đang chánh niệm”.
+MN 10 trình bày quán thân trước quán thọ, tâm và pháp. Sách đi theo thứ tự ấy để bạn thuận tiện đối chiếu, không suy đoán thêm vì sao Đức Phật chọn thứ tự này.
+
+#source-line("KINH", [K01 · MN 10, phần quán thân], [
+  Phần quán thân gồm hơi thở; các tư thế đi, đứng, ngồi, nằm; sự tỉnh giác trong sinh hoạt; việc xem xét các bộ phận của thân; bốn đại là đất, nước, lửa, gió; và các quán sát tử thi. Trong phần tử thi, hành giả liên hệ điều được quán sát với chính thân này: thân cũng có tính chất ấy và không vượt khỏi điều ấy.
+])
+
+#modern-note([
+  Thấy thân qua hơi thở, tư thế và cấu tạo là một hướng khác với chỉ chăm chú vào việc thân đẹp hay xấu, dễ chịu hay khó chịu. Đây là lời gợi ý để đọc kinh. Phần quán thân không chỉ có một đề mục, và chương này không phải hướng dẫn để người mới tự thực hiện mọi phép quán, nhất là những phép quán mạnh về tử thi.
+])
+
+#source-line("KINH", [K12 · MN 118, phần niệm hơi thở], [
+  MN 118 trình bày mười sáu bước niệm hơi thở. Bài kinh nói đến việc tu tập niệm hơi thở làm viên mãn bốn niệm xứ; bốn niệm xứ làm viên mãn bảy giác chi; bảy giác chi làm viên mãn minh và giải thoát, tức sự biết rõ và giải thoát.
+])
+
+#modern-note([
+  Niệm hơi thở trong MN 118 và cách lấy chuyển động bụng làm đề mục theo Mahāsi cần được phân biệt. Việc cả hai đều liên quan đến thân không làm chúng trở thành cùng một bộ chỉ dẫn. Bạn có thể tôn trọng một phương pháp mà vẫn tìm hiểu đúng nguồn và phạm vi của nó.
+])
+
+== Thọ: nhận ra dễ chịu, khó chịu và trung tính
+
+*Thọ* là cảm thọ: sắc thái dễ chịu, khó chịu hoặc không dễ chịu cũng không khó chịu của kinh nghiệm. Nó không đồng nghĩa với toàn bộ một cảm xúc phức tạp như giận, lo hay buồn.
+
+#source-line("KINH", [K01 · MN 10, phần quán thọ], [
+  Khi cảm nhận lạc thọ, hành giả biết mình đang cảm nhận lạc thọ; với khổ thọ và thọ không khổ không lạc cũng vậy. Bài kinh còn phân biệt sāmisa và nirāmisa trong mỗi loại thọ, thường được diễn đạt là thọ thuộc thế tục và thọ không thuộc thế tục. Phần quán thọ cũng có điệp khúc về bên trong, bên ngoài, sinh khởi, hoại diệt và không chấp thủ.
+])
+
+#modern-note([
+  Câu hỏi khởi đầu có thể rất ngắn: “Kinh nghiệm này dễ chịu, khó chịu hay trung tính?”. Sau đó, khi có điều kiện, hãy nhận ra những ý nghĩ và phản ứng đi cùng. Câu hỏi này là gợi ý của sách, không thay toàn bộ phần quán thọ trong kinh. Cặp sāmisa và nirāmisa cũng không nên bị hiểu đơn giản thành “ở thân” và “ở tâm”.
+])
+
+== Tâm: nhận ra trạng thái của tâm
+
+Thọ cho biết sắc thái dễ chịu hay khó chịu; quán tâm giúp nhận ra tâm đang ở trạng thái nào. Sự phân biệt này giúp ta không gọi mọi điều xảy ra bên trong bằng một chữ “cảm xúc”.
+
+#source-line("KINH", [K01 · MN 10, phần quán tâm], [
+  Bài kinh nêu việc biết tâm có tham hay không tham, có sân hay không sân, có si hay không si; tâm co rút hay tán loạn; tâm rộng lớn hay không rộng lớn; tâm còn có thể vượt hơn hay không; tâm có định hay không có định; tâm giải thoát hay chưa giải thoát.
+])
+
+#modern-note([
+  Người mới có thể bắt đầu với điều mình nhận ra rõ, chẳng hạn tâm đang có sân. Không cần đoán những trạng thái mình chưa hiểu. Các từ như “rộng lớn” hay “giải thoát” cần được học trong ngữ cảnh của pháp hành; một lúc dễ chịu không đủ để tự nhận đã thành tựu điều được kinh nói đến. Quán tâm cũng không đòi đặt thêm một “người quan sát” thường còn ở phía sau kinh nghiệm.
 ])
 
 #practice-card(
-  [Một câu hỏi đủ dùng giữa ngày],
+  [Một câu hỏi giữa ngày],
   [
-    Dừng một hơi thở và hỏi: “Tâm đang nhuốm bởi gì?”. Nếu có sân, biết có sân. Nếu không có sân, biết không có sân. Đừng biến câu hỏi thành cuộc phân tích tính cách. MN 10 hướng đến nhận biết trạng thái đang có mặt và điều kiện của nó.
+    Khi đã ở nơi an toàn và có thể tạm dừng, hãy hỏi: “Tâm đang ở trạng thái nào?”. Có sân thì nhận biết có sân; không có sân thì nhận biết không có sân. Ta đang học nhận ra trạng thái hiện tại, không kết án cả con người mình từ một khoảnh khắc.
   ],
   label: [THỰC HÀNH · BIÊN SOẠN THEO K01],
 )
 
-== Pháp: thấy kinh nghiệm trong cấu trúc của lời dạy
+== Pháp: hiểu kinh nghiệm dưới ánh sáng lời dạy
 
-Cuối cùng, MN 10 không dừng ở cảm giác rời rạc mà đặt kinh nghiệm vào các nhóm pháp có chức năng trên đường tu. Nhờ vậy, người đọc thấy vì sao một hiện tượng được gọi là “pháp” trong kinh không phải chỉ vì nó vừa lọt vào chú ý.
+Ở phần quán pháp, bài kinh nêu những nhóm cụ thể. Để dễ theo dõi, phần dưới giữ tên mỗi nhóm rồi giải thích ngắn ngay bên cạnh.
 
-#source-line("KINH", [K01 · MN 10, Dhammānupassanā], [
-  Quán pháp trong MN 10 có năm nhóm rõ ràng: năm triền cái, năm uẩn thủ, sáu nội ngoại xứ cùng kiết sử nảy sinh do chúng, bảy giác chi và Tứ Thánh Đế. Vì thế, “pháp” ở đây không đơn giản là bất cứ hiện tượng nào lọt vào chú ý. Nó là kinh nghiệm được thấy qua những phạm trù có chức năng trên đường tu.
+#source-line("KINH", [K01 · MN 10, phần quán pháp], [
+  MN 10 trình bày năm nhóm: năm triền cái; năm thủ uẩn; sáu nội xứ và ngoại xứ; bảy giác chi; và bốn Thánh đế.
+
+  Với triền cái, bài kinh nêu việc biết khi có, khi không, điều kiện sinh khởi, sự từ bỏ và việc không sinh lại. Với sáu xứ, hành giả biết căn, đối tượng tương ứng và kiết sử nương vào cả hai mà sinh, cùng sự sinh khởi và từ bỏ kiết sử ấy. Với các giác chi, hành giả biết sự có mặt, vắng mặt, sinh khởi và sự tu tập đến viên mãn.
 ])
 
-#source-line("KINH", [K01 · MN 10, phần năm triền cái và sáu xứ], [
-  Với triền cái, kinh yêu cầu biết khi có, khi không, nó sinh bằng cách nào, được đoạn bằng cách nào và làm sao để không sinh lại. Với sáu xứ, kinh yêu cầu biết căn, cảnh và kiết sử nương vào hai bên mà sinh. Như vậy, Niệm xứ bao gồm quan hệ nhân duyên và công việc chuyển hóa, không dừng ở gọi tên hiện tượng.
+#modern-note([
+  *Triền cái* là những trở ngại che lấp tâm; *giác chi* là những phẩm chất của sự giác ngộ, sẽ được giải thích ở Chương 6. *Năm thủ uẩn* nói đến năm nhóm sắc, thọ, tưởng, hành, thức trong sự chấp thủ; Chương 2 đã giới thiệu ngắn các nhóm này. *Sáu nội xứ và ngoại xứ* là sáu cửa nhận biết cùng các đối tượng tương ứng, như mắt với hình sắc, tai với âm thanh, cho đến ý với đối tượng của ý. *Kiết sử* là sự trói buộc; Chương 10 sẽ làm rõ những kiết sử đầu tiên.
+
+  Với cách trình bày này, quán pháp không chỉ là gọi tên điều vừa xuất hiện. Nó còn giúp xem điều ấy đang đóng vai trò gì trên đường tu: điều gì cần hiểu, điều gì cần từ bỏ, điều gì cần nuôi lớn. Đây là cách sách nối các phần của bài kinh để người mới dễ theo dõi.
 ])
 
 == Một tình huống, bốn lăng kính
 
 #practice-card(
-  [Bị chen xe giữa đường mưa],
+  [Nhìn lại sau một lần bị chen xe],
   [
-    #source-badge("BIÊN SOẠN", refs: [đối chiếu K01 · MN 10])
-    #v(5pt)
+    *Khi đang lái xe, hãy giữ chú ý cho giao thông và xử lý tình huống an toàn.* Chỉ sau khi đã dừng, đỗ ở nơi an toàn, bạn mới thử nhìn lại:
 
-    Cùng một khoảnh khắc trên đường, bốn lăng kính của MN 10 nhìn thấy những điều khác nhau:
+    + *Thân:* lúc ấy tay có siết lái, vai có căng, hơi thở có gấp không?
+    + *Thọ:* kinh nghiệm mang sắc thái khó chịu như thế nào?
+    + *Tâm:* tâm có sân, muốn trách hay muốn trả đũa không?
+    + *Pháp:* điều gì đã nuôi sân, và điều gì giúp không tiếp tục nuôi nó?
 
-    + *Thân nhận biết:* tay siết lái, vai nhích lên tai, hơi thở ngắn và gấp.
-    + *Thọ nhận biết:* một thọ khó chịu rõ ràng vừa sinh — chưa cần gọi tên ai là lỗi.
-    + *Tâm nhận biết:* tâm đang có sân, muốn còi, muốn trách; biết đúng trạng thái ấy.
-    + *Pháp nhận biết:* thấy triền cái sân đang có mặt, thấy nó sinh từ duyên nào và nó không phải “tôi”.
-
-    Bảng này là cách biên soạn để làm rõ ranh giới giữa bốn quán trong một tình huống thật; MN 10 không kể lại tình huống xe cộ. Đừng cố dùng cả bốn lăng kính cùng lúc khi đang lái — an toàn giao thông trước, chiêm nghiệm sau khi đã đỗ xe.
+    Chỉ ghi điều mình thật sự nhớ. Nếu không nhận ra một mặt nào, có thể để trống; không cần dựng thêm trải nghiệm để đủ bốn ô. Đây là bài nhìn lại do sách biên soạn, không phải tình huống được MN 10 kể lại.
   ],
   label: [MINH HỌA BỐN LĂNG KÍNH · BIÊN SOẠN THEO K01],
 )
 
-== Điều MN 10 không nói
+== Phân biệt lời kinh và phương pháp về sau
 
 #caution(
-  [Đừng gán kỹ thuật về sau cho lời kinh],
+  [Mỗi chỉ dẫn có một nguồn riêng],
   [
-    #source-badge("BIÊN SOẠN", refs: [kiểm văn bản K01])
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu văn bản K01])
     #v(5pt)
-    MN 10 không chỉ định bụng phồng xẹp làm đề mục gốc; không ra lệnh phải gắn nhãn thầm cho mọi hiện tượng; không trình bày mười sáu tuệ minh sát; và không đưa một lịch nhập thất hiện đại. Những cách làm ấy có thể thuộc các truyền thống tu tập đáng kính, nhưng phải mang đúng dấu nguồn của chúng.
+    MN 10 không chỉ định bụng phồng xẹp làm đề mục gốc, không quy định phải ghi nhãn thầm cho mọi hiện tượng, không liệt kê mười sáu tuệ minh sát và không đưa lịch nhập thất hiện đại. Những chỉ dẫn thuộc truyền thống về sau cần được giới thiệu bằng đúng tên nguồn, thay vì đặt vào lời Phật.
   ],
 )
 
 #source-line("MAHĀSI", [P01 · Practical Insight Meditation], [
-  Phương pháp Mahāsi dùng chuyển động bụng, ghi nhận và đối tượng nổi bật để tổ chức việc quan sát liên tục. Ưu điểm của phương pháp là chỉ dẫn cụ thể, dễ thực hành. Mối liên hệ với MN 10 là một cách triển khai có luận giải, không phải quan hệ sao chép từng câu.
+  Phương pháp Mahāsi dùng chuyển động bụng, sự ghi nhận trong tâm và việc nhận biết đối tượng nổi bật để tổ chức thực hành.
 ])
-
-Khi bốn góc nhìn đã rõ, câu hỏi kế tiếp là phản ứng thành khổ ở đâu. Chương 4 sẽ nhìn kỹ đoạn xúc–thọ–ái–thủ, đồng thời giữ nguyên ranh giới giữa điều kinh nói và bài tập do sách biên soạn.
 
 #modern-note([
-  Khi đọc các chương kỹ thuật tiếp theo, hãy giữ hai câu hỏi cùng lúc: “Chỉ dẫn này giúp tôi thấy điều gì?” và “Chỉ dẫn này đến từ nguồn nào?”. Câu thứ nhất bảo vệ thực hành khỏi khô cứng. Câu thứ hai bảo vệ lời Phật khỏi bị mượn danh.
+  Sách trình bày phương pháp ấy như một cách triển khai trong truyền thống Mahāsi, không như bản sao từng câu của MN 10 hay con đường duy nhất mà bài kinh cho phép. Khi đọc một chỉ dẫn, bạn có thể hỏi: “Nó giúp mình nhận biết điều gì?” và “Nó đến từ nguồn nào?”. Hai câu hỏi này giúp việc học vừa gần gũi, vừa có căn cứ.
 ])
+
+Sau khi phân biệt thân, thọ, tâm và pháp, ta có thể nhìn kỹ hơn một việc thường gặp: từ một cảm thọ, tâm tiếp tục bám víu hoặc chống đối như thế nào. Chương 4 đi vào đoạn xúc–thọ–ái–thủ, đồng thời phân biệt bài tập đời thường với toàn bộ giáo lý duyên khởi.
 
 #practice-card(
   [Gấp sách lại: một việc, bốn góc nhìn],
   [
-    Chọn một việc thật vừa xảy ra, chẳng hạn nghe một lời chê. Không mở lại phần trên, hãy kể riêng:
+    Chọn một việc nhẹ vừa xảy ra, chẳng hạn nghe một lời góp ý. Thử kể riêng:
 
-    1. *Thân:* hiện tượng nào ở thân được biết trực tiếp?
-    2. *Thọ:* kinh nghiệm có vị dễ chịu, khó chịu hay trung tính?
-    3. *Tâm:* cái biết đang nhuốm bởi tham, sân, si, co rút hay tán loạn không?
-    4. *Pháp:* nhóm pháp nào trong MN 10 giúp thấy chức năng và điều kiện của việc ấy?
+    1. *Thân:* bạn đã nhận ra điều gì ở thân?
+    2. *Thọ:* sắc thái của kinh nghiệm là dễ chịu, khó chịu hay trung tính?
+    3. *Tâm:* tâm lúc ấy có tham, sân, si hoặc trạng thái nào khác mà bạn nhận ra rõ?
+    4. *Pháp:* nhóm pháp nào trong MN 10 giúp hiểu điều kiện và hướng tu trong việc ấy?
 
-    Nếu cả bốn câu đều chỉ được trả lời bằng một chữ “cảm xúc”, bạn vẫn đang gộp bốn góc nhìn. Hãy đọc lại ví dụ một việc, bốn nền; mục tiêu là đổi góc nhìn trên cùng một kinh nghiệm, không bịa ra bốn kinh nghiệm khác nhau.
+    Nếu bốn câu trả lời vẫn giống nhau, hãy trở lại ví dụ “Một việc, bốn góc nhìn”. Mục đích là học phân biệt từng chút, không phải trả lời cho đủ hay tự chấm sự chứng đắc.
   ],
   label: [GẤP SÁCH LẠI · BIÊN SOẠN],
 )
