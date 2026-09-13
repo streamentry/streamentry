@@ -3,27 +3,27 @@
 #chapter(
   [12],
   [Tứ Thánh Đế: Bản đồ vận hành của khổ và con đường nhập lưu],
-  [Chương 2 đã đặt bốn sự thật vào đúng đạo lộ; Chương 4 đã nhìn kỹ đoạn xúc–thọ–ái–thủ. Chương này nối hai mức nhìn ấy thành một khung dùng được trong một tình huống thật, nhưng không biến một bài tập biên soạn thành công thức chứng quả.],
+  [Chương 2 đã giới thiệu bốn sự thật và con đường tu tập; Chương 4 đã nhìn kỹ thọ và ái. Chương này nối hai cách nhìn ấy, giúp bạn trở về một việc đang xảy ra và chọn cách đáp lại sáng suốt hơn. Các bài tập là lời hướng dẫn của sách, không phải công thức chứng quả.],
   provenance: [
-    #source-badge("KINH", refs: [K05 · K25 · K26 · K31])
+    #source-badge("KINH", refs: [K05 · K20 · K23 · K25 · K26 · K31 · K44])
     #h(4pt)
-    #source-badge("BIÊN SOẠN", refs: [bản đồ vận hành và các thẻ thực hành])
+    #source-badge("BIÊN SOẠN", refs: [sơ đồ, ví dụ và thẻ thực hành])
   ],
 )
 
-Chương 2 đã trả lời câu hỏi: *Tứ Thánh Đế nằm ở đâu trong con đường?* Chương 4 hỏi tiếp: *khi một cảnh chạm vào giác quan, thọ và ái nối nhau ra sao?* Ở đây, hai câu hỏi gặp nhau. Tứ Thánh Đế không phải bốn nhãn để dán lên một trải nghiệm sau khi nó đã qua; đó là bốn nhiệm vụ giúp nhìn đúng, không tiếp sức cho khổ và chọn việc cần làm kế tiếp.
+Có những lúc ta hiểu khá nhiều về Phật pháp mà vẫn không biết nên làm gì trước một lời trách, một nỗi lo hay một thôi thúc khó buông. Chương này mời bạn trở về bốn câu hỏi: điều gì cần được hiểu, điều gì cần được buông bỏ, sự chấm dứt nào cần được thực chứng, và con đường nào cần được tu tập?
 
 #scripture-quote(
-  [Khổ cần được hiểu; nguồn sinh khổ cần được đoạn; sự chấm dứt khổ cần được chứng; con đường đưa đến sự chấm dứt khổ cần được tu tập.],
-  [Phỏng dịch SN 56.11, K05 · Dhammacakkappavattana Sutta.],
+  [Khổ cần được hiểu đầy đủ; nguồn sinh khổ cần được đoạn trừ; sự chấm dứt khổ cần được thực chứng; con đường đưa đến sự chấm dứt khổ cần được tu tập.],
+  [Sách diễn ý bốn nhiệm vụ trong SN 56.11, K05. Không phải trích nguyên văn một bản dịch Việt.],
 )
 
-Các câu trong thẻ trích dẫn của chương là *phỏng dịch để đọc*, không phải bản dịch Việt xuất bản hay lời trích nguyên văn. Với mỗi mệnh đề cốt lõi, mã K đi ngay cạnh đoạn văn để người đọc có thể mở *Bản đồ nguồn* và kiểm tra bài kinh, bản dịch cùng giới hạn của cách dùng.
+Bốn nhiệm vụ này giúp định hướng việc học và hành. Những câu hỏi áp dụng vào công việc, gia đình hay một buổi ngồi ở dưới là phần biên soạn. Chúng giúp ta tập nhìn, nhưng không thay thế ý nghĩa đầy đủ của Tứ Thánh Đế.
 
 == Bốn sự thật, bốn việc phải làm <bon-de-bon-viec>
 
 #source-line("KINH", [K05 · SN 56.11], [
-  SN 56.11 trình bày Tứ Đế trong ba vòng và mười hai phương diện: nhận ra sự thật, nhận ra nhiệm vụ tương ứng, rồi biết nhiệm vụ đã hoàn tất. Ở lớp đầu tiên, Khổ là điều cần được hiểu; Tập, được bài kinh nêu là ái, cần được đoạn; Diệt cần được trực chứng; Đạo là Bát Chánh Đạo và cần được tu tập. Đây là cấu trúc trực tiếp của bài kinh, không phải một mẹo ghi nhớ do sách đặt ra.
+  SN 56.11 trình bày bốn Thánh đế với ba lượt hiểu biết: biết sự thật, biết nhiệm vụ đối với sự thật ấy, rồi biết nhiệm vụ đã hoàn tất. Khổ cần được hiểu đầy đủ; nguồn sinh khổ cần được đoạn trừ; sự chấm dứt khổ cần được thực chứng; con đường cần được tu tập. Bốn đế qua ba lượt thành mười hai phương diện.
 ])
 
 === Bản đồ một trang
@@ -31,51 +31,51 @@ Các câu trong thẻ trích dẫn của chương là *phỏng dịch để đ�
 #concept-map(
   concept-node(
     [1 · KHỔ · K05],
-    [HIỂU điều đang chịu sức ép],
-    [*Mặt cần thấy:* sinh, già, bệnh, chết, bất như ý; gọn nhất là năm uẩn bị chấp thủ.\
-    *Câu hỏi:* Điều gì đang xảy ra, đổi thay hoặc bị nắm thành “tôi”?],
+    [HIỂU điều cần hiểu],
+    [*Lời kinh:* sinh, già, bệnh, chết; gặp điều không ưa; xa điều mình yêu; mong cầu không được. Tóm lại, năm thủ uẩn là khổ.\
+    *Câu hỏi thực tập:* Điều gì đang xảy ra, và tâm đang nắm giữ điều gì?],
     accent: palette.clay,
   ),
   concept-node(
     [2 · TẬP · K05; K26],
-    [ĐOẠN nguồn đang nuôi khổ],
-    [*Lõi của đế:* dục ái, hữu ái, phi hữu ái. Vô minh đứng trước; thủ đứng sau trong duyên khởi.\
-    *Câu hỏi:* Tâm đang đòi có, đòi là hay đòi xóa điều gì?],
+    [ĐOẠN nguồn sinh khổ],
+    [*Lời kinh:* tham ái đưa đến tái sinh, gồm dục ái, hữu ái và phi hữu ái.\
+    *Câu hỏi thực tập:* Có sự khát khao, đắm trước hay bám víu nào đang cần được nhận biết?],
     accent: palette.saffron,
   ),
   concept-node(
     [3 · DIỆT · K05; K43],
     [CHỨNG sự chấm dứt],
-    [*Cứu cánh:* chính ái ấy được đoạn; Niết-bàn được gọi là sự chấm dứt tham, sân và si.\
-    *Ranh giới:* một lần nhẹ đi chưa phải đoạn tận.],
+    [*Cứu cánh:* chính tham ái ấy chấm dứt không dư sót. SN 38.1 gọi sự đoạn tận tham, sân và si là Niết-bàn.\
+    *Điều cần phân biệt:* tạm nhẹ lòng chưa phải đoạn tận.],
     accent: palette.forest,
   ),
   concept-node(
-    [4 · ĐẠO · K25],
+    [4 · ĐẠO · K20; K25],
     [TU cả con đường],
-    [*Bát Chánh Đạo:* tuệ 2 chi, giới 3 chi, định 3 chi; các chi nâng đỡ nhau.\
-    *Câu hỏi:* Thấy, hướng, nói, làm và rèn thế nào cho đúng?],
+    [*Bát Chánh Đạo:* hai chi thuộc tuệ, ba chi thuộc giới, ba chi thuộc định.\
+    *Câu hỏi thực tập:* Cách thấy, hướng tâm, nói, làm và rèn luyện nào cần được nuôi dưỡng?],
     accent: palette.indigo,
   ),
 )
 
 #modern-note([
-  Đây là *bản đồ chức năng để học*, không phải bốn chiếc hộp kín. Ngũ uẩn làm rõ Khổ đế nhưng cũng được quán theo sinh diệt; duyên khởi soi cả sự sinh khởi lẫn đoạn diệt; Bát Chánh Đạo là Đạo đế đồng thời là phương tiện để hiểu, đoạn và chứng ba đế kia. Vị trí trên trang giúp trí nhớ, không thu hẹp phạm vi của giáo lý.
+  Đây là sơ đồ giúp học, không phải bốn phần tách rời. Ngũ uẩn được quán cả về sinh khởi và đoạn diệt; duyên khởi làm rõ sự sinh khởi lẫn chấm dứt khổ; Bát Chánh Đạo được tu tập để hiểu, đoạn và chứng ba đế kia. Những câu hỏi trong sơ đồ do sách đặt ra. Cách xếp trên trang không giới hạn phạm vi lời kinh.
 ])
 
-Sách dùng bốn câu hỏi sau như một *khung vận hành biên soạn*:
+Khi gặp một việc khó, bạn có thể thử hỏi:
 
-+ *Khổ:* Điều gì đang gây sức ép, bất ổn hoặc bị nắm thành “tôi” và “của tôi”?
-+ *Tập:* Tâm đang muốn nắm, đẩy, trở thành hay xóa bỏ điều gì?
-+ *Diệt:* Khi không tiếp nhiên liệu cho hướng ấy, phần khổ nào thay đổi?
-+ *Đạo:* Bây giờ cần thấy, nói, làm, rèn hoặc dừng thế nào cho đúng hướng?
++ *Khổ:* Điều gì đang đau, bất ổn hoặc bị tâm nắm giữ?
++ *Tập:* Tham ái và chấp thủ đang góp phần vào nỗi khổ này như thế nào?
++ *Hướng đến Diệt:* Nếu không nuôi thêm phản ứng bất thiện, điều gì thay đổi?
++ *Đạo:* Việc đúng đắn và phù hợp hoàn cảnh cần làm bây giờ là gì?
 
 #caution(
-  [Khung này không phải bốn bước chứng ngộ],
+  [Một cách tập nhìn, không phải bốn bước chứng ngộ],
   [
     #source-badge("BIÊN SOẠN", refs: [đối chiếu K05])
     #v(5pt)
-    Bốn câu hỏi giúp một người mới không lẫn nhiệm vụ này với nhiệm vụ kia. Chúng không nói rằng mọi phản ứng đều đi qua bốn bước theo cùng một thứ tự, không đo mức độ tuệ và không cho phép suy ra quả vị từ một lần tâm lắng xuống.
+    Những câu hỏi này giúp phân biệt các nhiệm vụ. Chúng không nói rằng mọi trải nghiệm đều diễn ra qua bốn bước, cũng không đo mức độ tuệ. Riêng câu hỏi thứ ba chỉ quan sát sự thay đổi có điều kiện của phản ứng; câu trả lời không đủ để xác nhận đã thực chứng Diệt đế.
   ],
 )
 
@@ -83,152 +83,155 @@ Sách dùng bốn câu hỏi sau như một *khung vận hành biên soạn*:
 
 === Khổ không chỉ là đau
 
-#source-line("KINH", [K05 · SN 56.11], [
-  SN 56.11 nêu sinh, già, bệnh, chết; gặp điều không ưa; xa điều mình yêu; không được điều mình muốn; rồi tóm lại bằng năm uẩn bị chấp thủ là khổ. Vì vậy, *dukkha* không chỉ là một cơn đau thể xác hay một tâm trạng buồn. Bài kinh cũng không yêu cầu phủ nhận những niềm vui có điều kiện; nó chỉ không xem cái vô thường là chỗ bảo đảm tuyệt đối khi tâm bám vào nó.
+#source-line("KINH", [K05 · SN 56.11:4.2, bản Pāli đang đối chiếu], [
+  Bài kinh nêu sinh, già, bệnh, chết; gặp điều không ưa; xa điều mình yêu; không được điều mình muốn; rồi tóm lại rằng năm thủ uẩn là khổ. *Thủ uẩn* là tên thường dịch cho các uẩn liên hệ đến chấp thủ. Vì vậy, phạm vi của *dukkha*, thường dịch là khổ, rộng hơn riêng một cơn đau hay một tâm trạng buồn.
 ])
 
-Một lời khen có thể làm tâm vui. Một bữa cơm ngon có thể nuôi thân. Một mối quan hệ có thể đem lại tình thương. Không cần phủ nhận những niềm vui ấy để thấy Khổ đế. Điều cần nhìn là lớp đòi hỏi được thêm vào: “Điều này phải tiếp tục”, “người kia phải luôn hiểu tôi”, “thành công này phải chứng minh giá trị của tôi”. Khi một hiện tượng đổi thay bị giao nhiệm vụ làm nền an toàn vĩnh viễn, sức ép xuất hiện.
+Một lời khen có thể đem lại niềm vui. Một bữa cơm nuôi thân. Một mối quan hệ có tình thương đáng được chăm sóc. Khi thực tập, ta không cần phủ nhận những điều tốt lành ấy. Ta học thêm cách nhận ra sự bám víu: “Điều này phải kéo dài mãi”, “người ấy phải luôn hiểu tôi”, “thành công này phải bảo đảm giá trị của tôi”. Đây là những ví dụ của sách về một phần khổ có thể được quan sát trong đời sống, không phải toàn bộ định nghĩa Khổ đế.
 
-=== Năm uẩn và năm uẩn bị chấp thủ
+Nỗi đau do bệnh tật, mất mát hay hành vi gây hại của người khác cũng cần được nhìn nhận đúng mức. Không nên dùng lời dạy về ái để quy mọi đau khổ cho lỗi của người đang chịu đựng. Hiểu khổ bao gồm nhận ra điều cần chăm sóc, điều cần bảo vệ và việc cần sửa ngoài đời.
 
-*Uẩn* là nhóm các hoạt động của kinh nghiệm: sắc, tức phương diện vật chất của thân; thọ, tức vị dễ chịu, khó chịu hoặc trung tính; tưởng, tức nhận dạng và gắn nhãn; các hành tạo tác như ý định và khuynh hướng; và thức, tức sự nhận biết tùy cửa giác quan và ý. Đây là cách phân tích, không phải năm vật thể nằm trong người.
+=== Năm uẩn và chấp thủ
 
-#source-line("KINH", [K05 · SN 56.11; K35 · SN 22.59], [
-  Cụm “năm uẩn bị chấp thủ” không có nghĩa năm uẩn tự chúng là lỗi lầm. SN 22.59 yêu cầu thấy các uẩn là vô thường, chịu đổi thay và không thích hợp để nắm là “của tôi”, “tôi” hay “tự ngã của tôi”. Phần thêm vào là động tác chiếm hữu và đồng hóa, không phải bản thân cảm giác, ký ức hay thân thể.
+Để bắt đầu, có thể hiểu *uẩn* là nhóm hiện tượng được phân tích trong kinh: *sắc* là phương diện vật chất; *thọ* là cảm nhận dễ chịu, khó chịu hoặc không dễ chịu cũng không khó chịu; *tưởng* là nhận ra các đặc điểm; *hành* ở đây là các tạo tác tâm như ý định; *thức* là sự nhận biết theo sáu cửa giác quan. Đây là lời giải thích ngắn để đọc, không phải năm vật thể nằm trong một con người.
+
+#source-line("KINH", [K20 · MN 44; K35 · SN 22.59], [
+  Trong MN 44, Tỷ-kheo-ni Dhammadinnā nói chấp thủ không hoàn toàn đồng nhất với năm thủ uẩn, cũng không phải một điều tách rời chúng; dục và tham đối với năm thủ uẩn là sự chấp thủ ở đó. SN 22.59 dạy quán các uẩn là vô thường, chịu đổi thay, và không thích hợp để xem là “của tôi”, “tôi” hay “tự ngã của tôi”.
 ])
 
-Hãy tách một việc thành bốn lớp:
+Sách đề nghị tách một việc thành bốn mặt để dễ quan sát:
 
-+ *Điều đang xảy ra:* điều mắt, tai, thân hoặc ý đang gặp.
++ *Sự việc:* điều đã được thấy, nghe, chạm hoặc nghĩ đến.
 + *Thọ:* sắc thái dễ chịu, khó chịu hay trung tính.
-+ *Câu chuyện:* điều tâm suy ra thêm về người khác hoặc về chính mình.
-+ *Chấp thủ:* điều ta bắt phải đúng thì mới cho phép mình ổn.
++ *Điều suy thêm:* cách ta hiểu sự việc và những giả định chưa được kiểm tra.
++ *Sự bám víu:* điều ta đang nắm chặt, chẳng hạn yêu cầu mình phải luôn được xem là đúng.
 
 #practice-card(
-  [Một lời phê bình, nhìn Khổ đế cho đủ],
+  [Khi nhận một lời phê bình],
   [
-    Có người nói: “Bản này còn thiếu căn cứ.” Điều thực sự xảy ra trước tiên chỉ là một câu nhận xét. Ngực nóng và thọ khó chịu có thể xuất hiện. Câu chuyện có thể là “họ coi thường năng lực của tôi”. Chấp thủ có thể là “tôi phải được nhìn nhận là người luôn đúng”.
+    Có người nói: “Bản này còn thiếu căn cứ.” Ngực có thể nóng lên, thọ khó chịu xuất hiện. Ta có thể nghĩ tiếp: “Họ coi thường năng lực của mình.” Một điều đang được nắm giữ có thể là: “Mình phải luôn được nhìn nhận là người giỏi.”
 
-    Bài tập không bảo bạn kết luận người kia đúng. Nó chỉ tách việc cần kiểm chứng khỏi phần khổ do phải bảo vệ một hình ảnh. Nếu nhận xét có căn cứ, bạn vẫn cần sửa bản thảo. Nếu nhận xét sai, bạn vẫn có thể trả lời. Thấy Khổ đế không thay thế quyết định thực tế; nó làm quyết định bớt bị kéo bởi tự vệ.
+    Bài tập không yêu cầu bạn cho rằng người kia đúng. Nó giúp tách điều cần kiểm chứng khỏi nhu cầu bảo vệ hình ảnh của mình. Nhận xét có căn cứ thì sửa; nhận xét sai thì trình bày lại. Cả hai việc đều có thể được làm mà không cần làm tổn thương nhau.
   ],
-  label: [MINH HỌA · BIÊN SOẠN THEO K05; K35],
+  label: [MINH HỌA · BIÊN SOẠN THEO K05; K20; K35],
 )
 
-Nhiệm vụ của Khổ đế là *hiểu đầy đủ*, không vội đẩy cảm giác đi. Hiểu ở đây gồm cả điều đang đau, điều đang đổi, câu chuyện được dựng và thứ đang bị lấy làm “tôi”.
+Trong bài tập này, “hiểu” không có nghĩa ép mình hết buồn ngay. Bạn đang học nhận ra trải nghiệm, những điều kiện của nó và việc cần làm. Sự thành thật ấy có ích hơn việc cố tỏ ra không bị ảnh hưởng.
 
 == 2. Tập đế: nguồn sinh khổ là ái
 
-=== Giữ định nghĩa hẹp, dùng cơ chế rộng
+=== Giữ rõ nghĩa của ba loại ái
 
-#source-line("KINH", [K05 · SN 56.11], [
-  Trong công thức Tứ Đế, SN 56.11 định nghĩa nguồn sinh khổ bằng *taṇhā*, tham ái đi cùng thích thú và đắm trước, dẫn đến sự trở thành tiếp nối. Bài kinh nêu ba dạng: *kāma-taṇhā* là dục ái, *bhava-taṇhā* là hữu ái và *vibhava-taṇhā* là phi hữu ái.
+#source-line("KINH", [K05 · SN 56.11:4.3–4.5], [
+  SN 56.11 nêu nguồn sinh khổ là *taṇhā*, tham ái đưa đến tái sinh, đi cùng thích thú và đắm trước, tìm sự vui thích chỗ này chỗ kia. Bài kinh kể ba loại: *kāma-taṇhā*, dục ái; *bhava-taṇhā*, hữu ái; và *vibhava-taṇhā*, phi hữu ái.
 ])
 
-Ba từ này không bảo rằng mọi mong muốn đều xấu:
+Có thể đọc ba tên ấy như sau: dục ái là khát khao dục lạc; hữu ái là khát khao hiện hữu, tiếp tục tồn tại hay trở thành; phi hữu ái là khát khao không hiện hữu, tiêu mất. Những lời giải nghĩa ngắn này cần được giữ trong phạm vi giáo lý về ái và tái sinh, không chỉ thu lại thành tâm lý học về một ngày sống.
 
-+ *Dục ái* muốn khoái lạc giác quan, được kích thích, được khen hoặc được giữ cảm giác dễ chịu.
-+ *Hữu ái* muốn trở thành, tiếp tục tồn tại hoặc củng cố một hình ảnh: người giỏi, người đúng, người tu tiến bộ.
-+ *Phi hữu ái* muốn một cảm giác, một quan hệ hoặc một phần của chính mình biến mất vì không chịu nổi nó.
+#source-line("KINH", [K44 · Iti 49], [
+  Iti 49 phân biệt sự vui thích trong hiện hữu với việc chán ghét hiện hữu rồi vui thích trong ý tưởng tự ngã sẽ bị hủy diệt, không còn sau khi chết. Bài kinh đặt cả hai bên cạnh cách thấy điều đã sinh khởi đúng như nó đã sinh khởi, để hướng đến nhàm lìa, ly tham và đoạn diệt.
+])
 
-Các ví dụ về điện thoại, danh tiếng, thành tích hay vai trò là *ứng dụng hiện đại của người biên soạn*, không phải danh mục mà SN 56.11 liệt kê. Điểm chung của chúng là cấu trúc “phải có, phải là hoặc phải xóa thì mới ổn”.
+#modern-note([
+  Vì vậy, sách không dùng câu “muốn một cảm giác hoặc lời phê bình biến mất” làm định nghĩa đầy đủ của phi hữu ái. Một phản ứng như vậy có thể cần được xem xét về sân, sợ hãi, ái hoặc nhiều điều kiện cùng lúc. Mong chữa bệnh, rời nơi bị bạo hành hay kết thúc một việc gây hại không tự nó chứng minh có phi hữu ái. Các ví dụ đời thường giúp ta quan sát sự bám víu, không đủ để gán chắc một thuật ngữ cho mọi trường hợp.
+])
 
-Đừng biến “đoạn ái” thành “đừng muốn gì”. Bát Chánh Đạo đòi hỏi thấy đúng, hướng tâm đúng, ngăn điều bất thiện, phát triển điều thiện và giữ tâm trên đối tượng; một con đường như vậy không thể được thực hành bằng sự bất động vô thức. Điều cần bỏ là sự nắm giữ làm khổ, không phải mọi ý định chăm sóc, sửa sai hay bảo vệ.
+Tương tự, việc giữ chặt hình ảnh “tôi là người giỏi” là một ví dụ hữu ích để nhìn sự đồng hóa. Nhưng chỉ nghe câu ấy chưa đủ phân định đó là hữu ái, thân kiến, ngã mạn hay một phối hợp nhiều yếu tố. Khi dữ kiện chưa rõ, ta có thể nói giản dị: “Có nhu cầu bảo vệ hình ảnh của mình”, rồi xem nó đang đưa đến lời nói và hành động nào.
+
+=== Buông ái không phải từ bỏ mọi mong muốn tốt lành
+
+#source-line("KINH", [K25 · SN 45.8], [
+  Trong phần chánh tinh tấn, SN 45.8 nói đến việc khởi lên mong muốn và nỗ lực: ngăn bất thiện chưa sinh, bỏ bất thiện đã sinh, làm sinh thiện chưa sinh, và duy trì, phát triển thiện đã sinh. Lời dạy này không đồng nhất mọi mong muốn với tham ái cần đoạn trừ.
+])
+
+Chăm sóc con, học cách nói thật, sửa một lỗi hay mong tu tập tốt hơn đều cần ý hướng và hành động. Điều đáng quan sát không chỉ là “tôi có muốn không”, mà còn là mong muốn ấy có đi cùng tham, sân, si hay đang nâng đỡ sự hiểu biết và không gây hại. Không cần ép mình trở thành một người không còn quan tâm đến điều gì.
 
 === Vô minh và thủ trong cùng một cơ chế
 
 #source-line("KINH", [K26 · SN 12.2], [
-  SN 12.2 định nghĩa vô minh trong phạm vi không biết khổ, nguồn sinh khổ, sự chấm dứt khổ và con đường đưa đến chấm dứt. Cùng bài kinh đặt ái trước thủ và phân thủ thành bốn loại: dục thủ, kiến thủ, giới cấm thủ và ngã luận thủ. Vì vậy, vô minh và thủ rất quan trọng trong cơ chế duyên khởi, nhưng không nên được ghép thành một định nghĩa ngang hàng với ái khi ta đang nói riêng về công thức Tập đế ở SN 56.11.
+  SN 12.2 định nghĩa vô minh là không biết khổ, nguồn sinh khổ, sự chấm dứt khổ và con đường. Cùng bài kinh nêu ái làm duyên cho thủ và kể bốn loại thủ: dục thủ, kiến thủ, giới cấm thủ và ngã luận thủ.
 ])
 
-Bốn kiểu thủ có thể đọc như bốn cách biến một thứ thành chỗ bấu víu:
+Cần phân biệt câu trả lời của từng bài kinh. Trong công thức Tập đế ở SN 56.11, nguồn sinh khổ được nêu là tham ái. Khi giải thích duyên khởi ở SN 12.2, vô minh và chấp thủ cũng có vị trí rõ ràng. Ta có thể học hai cách trình bày cùng nhau mà không ghép chúng thành một câu định nghĩa rồi gán lại cho SN 56.11.
 
-+ *Dục thủ:* “Cảm giác này phải tiếp tục thì tôi mới ổn.”
-+ *Kiến thủ:* “Quan điểm này là tôi; nếu nó sai, tôi sụp.”
-+ *Giới cấm thủ:* “Chỉ cần làm đúng hình thức này là đủ được thanh lọc hoặc giải thoát.” Giữ giới và dùng nghi thức không phải tự thân là sai; sai lầm nằm ở việc biến phương tiện thành bảo đảm tự động.
-+ *Ngã luận thủ:* “Có một cái tôi cố định đứng sau các tiến trình này” hoặc “tôi vốn là kiểu người không thể thay đổi”.
+Để dễ đọc, sách giải thích bốn loại thủ theo đối tượng được nắm giữ:
 
-Đây là các câu diễn giải để nhận mặt, không phải bốn định nghĩa Việt nguyên văn. Chúng giúp thấy vì sao một thọ khó chịu có thể nhanh chóng trở thành cuộc chiến về danh dự, một quy tắc hay một hình ảnh về chính mình.
++ *Dục thủ:* bám víu vào dục lạc.
++ *Kiến thủ:* bám víu vào các quan điểm.
++ *Giới cấm thủ:* chấp vào giới điều hay lối thực hành như một bảo đảm thanh tịnh tự động. Đây là cách giải thích làm việc của sách; không có nghĩa giữ giới hay mọi nghi thức đều sai.
++ *Ngã luận thủ:* bám vào học thuyết hay quan niệm về tự ngã, một cái “ta” được xem là thực thể để nương giữ.
+
+Chẳng hạn, “quan điểm của tôi không thể sai” có thể là lời nhắc để nhận ra sự nắm chặt. Nó không phải phép thử đủ để xác định một loại thủ. Còn câu “tôi vốn không thể thay đổi” là một niềm tin về bản thân cần được xem xét, nhưng không tự nó là định nghĩa đầy đủ của ngã luận thủ.
 
 === Vô minh có phải là si?
 
 #source-line("KINH", [K31 · MN 9; K26 · SN 12.2], [
-  MN 9 dùng *moha* trong bộ ba gốc bất thiện — tham, sân, si — rồi ở phần duyên khởi lại dùng *avijjā* cho sự không biết khổ, nguồn sinh khổ, sự chấm dứt khổ và con đường. SN 12.2 cũng định nghĩa *avijjā* theo bốn sự thật và đặt nó làm điều kiện cho hành. Chính các bài kinh vì thế cho hai từ hai vai trò kỹ thuật khác nhau, dù ý nghĩa của chúng chồng lấn đáng kể.
+  Trong MN 9, Tôn giả Sāriputta dùng *moha*, si, khi nêu ba gốc bất thiện cùng với tham và sân. Ở phần duyên khởi, bài kinh dùng *avijjā*, vô minh, cho sự không biết bốn Thánh đế. SN 12.2 cũng định nghĩa vô minh theo bốn đế và nêu vô minh làm duyên cho hành.
 ])
 
 #concept-map(
   concept-node(
     [MOHA · SI · K31],
-    [Khung ba gốc bất thiện],
-    [Đi cùng tham và sân để chỉ gốc mê mờ của tâm bất thiện; khung này giúp nhận ra phẩm chất nào đang làm tâm nhiễm ô.],
+    [Trong ba gốc bất thiện],
+    [Sự mê mờ được kể cùng với tham và sân trong phần giải thích gốc bất thiện.],
     accent: palette.clay,
   ),
   concept-node(
     [AVIJJĀ · VÔ MINH · K26; K31],
-    [Khung Tứ Đế và duyên khởi],
-    [Không biết khổ, nguồn sinh, sự chấm dứt và con đường; trong chuỗi mười hai chi, vô minh làm duyên cho hành.],
+    [Trong Tứ Đế và duyên khởi],
+    [Không biết khổ, nguồn sinh, sự chấm dứt và con đường; được nêu là duyên cho hành.],
     accent: palette.indigo,
   ),
 )
 
-*Vô minh và si:* cùng thuộc vùng mê mờ, nên không phải hai vật hoàn toàn tách biệt; nhưng chúng cũng không phải hai nhãn có thể thay thế máy móc trong mọi công thức. Khi cần nhớ để thực hành, có thể gom cả hai dưới câu “tâm không thấy rõ”. Khi giải thích giáo lý, hãy giữ đúng từ Pāli và đúng vai trò: *moha* trong bộ ba gốc bất thiện; *avijjā* trong công thức Tứ Đế–duyên khởi. Vì thế, câu “vô minh chính là si” chỉ đúng ở mức nói gọn về vùng mê mờ; nó quá thô nếu dùng như một định nghĩa thuật ngữ.
+Hai từ có phần nghĩa gần nhau, nhưng vai trò trong những công thức đang đọc không hoàn toàn giống nhau. Để nhớ, sách dùng câu “không thấy rõ” như một lời gợi ý. Khi đối chiếu kinh, nên trở lại đúng từ và đúng ngữ cảnh. Thiếu một thông tin thông thường cũng không tự nó là điều kinh đang định nghĩa bằng vô minh.
 
-=== Ái, tham, sân và thủ cũng không phải một nhãn
+=== Ái, tham, sân và thủ không phải một nhãn
 
 #source-line("KINH", [K05 · SN 56.11; K26 · SN 12.2; K40 · SN 45.36], [
-  K05 dùng *taṇhā* để nêu lõi của Tập đế; K26 đặt ái và thủ ở những vị trí khác nhau trong duyên khởi; K40 gọi sự đoạn tận tham, sân và si là mục tiêu của đời sống Sa-môn. Các phân biệt dưới đây là giải thích để đọc cho đúng cơ chế, không phải một bảng từ điển Pāli tuyệt đối.
+  SN 56.11 dùng *taṇhā*, ái, trong Tập đế; SN 12.2 phân biệt ái với thủ; SN 45.36 nêu sự đoạn tận tham, sân và si là mục tiêu của đời sống Sa-môn. Những công thức này có liên hệ nhưng không dùng các từ hoàn toàn thay thế cho nhau.
 ])
 
-Trong tiếng Việt, ba độc thường được gom thành “tham–sân–si”. Cách gom này hữu ích để nhớ hướng kéo, đẩy và mê mờ, nhưng không đủ để thay thế mọi thuật ngữ:
+Trong phần giải thích của sách, *ái* nhấn vào sự khát khao; *tham* có thể dịch *lobha* hoặc *rāga* tùy ngữ cảnh; *sân* chỉ chiều chống đối bất thiện; còn *thủ* nhấn vào sự nắm giữ. Cách nói này giúp đọc, không phải bảng từ điển thay cho từng bài kinh.
 
-+ *Ái và tham:* *taṇhā* là từ giữ vai trò trung tâm trong Tập đế; *lobha* hay *rāga* gần với tham, say đắm và chiếm hữu trong những ngữ cảnh rộng hơn. Chúng cùng một họ, nhưng không nên dùng một từ để xóa mọi khác biệt.
-+ *Sân và chấp thủ:* sân nghiêng về chống đối và đẩy ra; thủ là nắm chặt hoặc gắn mình vào một đối tượng, quan điểm hay quy tắc. Chúng thường nuôi nhau nhưng không phải một. Từ chối một hành vi gây hại cũng không tự nó là sân.
-
-Một cơn giận có thể đồng thời chứa mong muốn được công nhận, lực chống đối và sự không thấy rõ điều đang xảy ra. Nhìn các lớp ấy giúp ta chọn đúng việc cần làm; không biến một nhãn tâm lý thành kết luận về quả vị.
+Một cơn giận có thể đi cùng mong muốn được công nhận và sự bám chặt vào quan điểm. Ta cần xem điều gì đang xảy ra, không chỉ chọn một nhãn. Từ chối hành vi gây hại cũng không nhất thiết là sân: điều cần xét thêm là ý hướng và cách đáp lại.
 
 === Thọ không phải toàn bộ cảm xúc
 
 #source-line("KINH", [K27 · SN 12.44; K30 · MN 148], [
-  Kinh phân biệt thọ sinh do xúc ở sáu cửa giác quan với các lớp khác của một phản ứng. MN 148 đặt thọ dễ chịu, khó chịu và trung tính cạnh các khuynh hướng tham, sân và vô minh khi thọ không được hiểu đúng. Do đó, “giận” hay “sợ” không phải là tên khác của một loại thọ; chúng có thể gồm cảm giác thân, tưởng, ký ức, ý định và hành động.
+  SN 12.44 nêu sự gặp nhau của căn, cảnh và thức là xúc; do xúc có thọ, do thọ có ái. MN 148 trình bày các thọ cùng cách người ấy đón nhận chúng và những khuynh hướng tham, sân hoặc vô minh chưa được đoạn trừ.
 ])
 
-Phân biệt này làm bài tập sắc hơn. Với một tin nhắn:
+Vì vậy, khi sách phân biệt thọ với giận, sợ hay buồn, đó là một cách giúp người đọc không gom mọi hiện tượng vào cùng một từ. Một cảm xúc phức tạp có thể gồm cảm giác thân, thọ, tưởng, ý nghĩ và ý định.
 
-+ *Xúc:* mắt gặp chữ và ý nhận ra ý nghĩa.
-+ *Thọ:* vị khó chịu hoặc trung tính xuất hiện.
-+ *Ái:* tâm muốn đẩy, muốn được xác nhận hoặc muốn tìm kích thích khác.
-+ *Thủ:* câu “tôi bị xúc phạm”, “tôi phải thắng” được nắm thành lập trường.
-+ *Khổ:* thân căng, lời nói gây hại, nhai lại và quan hệ xấu đi.
+Với một tin nhắn, bạn có thể thử tách:
 
-Đoạn này chỉ là cách nhìn gần vào phần phản ứng có thể quan sát trực tiếp. Nó không thay thế toàn bộ mười hai chi, cũng không nói rằng một phản ứng vài giây là toàn bộ nghĩa của *hữu* hay *sinh* trong kinh.
++ *Sự tiếp xúc và nhận hiểu:* mắt thấy chữ; ý nhận ra nội dung. Đây là mô tả giản lược, không phải một sát-na duy nhất.
++ *Thọ:* dễ chịu, khó chịu hoặc trung tính.
++ *Phản ứng:* muốn được xác nhận, muốn trả đũa hoặc muốn tìm kích thích khác. Cần quan sát thêm, chưa vội gọi tất cả là ái.
++ *Sự nắm giữ:* một lập trường như “tôi phải thắng” được giữ chặt.
++ *Hệ quả:* căng thẳng, lời nói, việc cần sửa hoặc sự tổn thương trong quan hệ.
+
+Ví dụ này chỉ làm rõ một phần kinh nghiệm hiện tại. Nó không thu toàn bộ duyên khởi, đặc biệt là hữu, sinh và già chết, thành một phản ứng vài giây.
 
 == 3. Duyên khởi ở hai mức nhìn
 
 === Bản đồ đầy đủ
 
 #source-line("KINH", [K26 · SN 12.2; K27 · SN 12.44], [
-  Công thức đầy đủ trong SN 12.2 đi từ vô minh đến hành, thức, danh sắc, sáu xứ, xúc, thọ, ái, thủ, hữu, sinh, rồi già chết cùng sầu, bi, khổ, ưu và não. SN 12.44 lặp quan hệ từ sáu cửa giác quan đến xúc, thọ, ái và các chi tiếp theo. Các định nghĩa của kinh có phạm vi rộng hơn một mô tả tâm lý tức thời.
+  SN 12.2 trình bày chuỗi từ vô minh đến hành, thức, danh sắc, sáu xứ, xúc, thọ, ái, thủ, hữu, sinh, rồi già chết cùng sầu, bi, khổ, ưu và não. SN 12.44 trình bày từ sáu cửa giác quan qua xúc, thọ, ái đến các chi tiếp theo. Các định nghĩa của kinh có phạm vi rộng hơn riêng một phản ứng tâm lý tức thời.
 ])
 
 #flow-ribbon(
-  [Vô minh],
-  [Hành],
-  [Thức],
-  [Danh sắc],
-  [Sáu xứ],
-  [Xúc],
-  [Thọ],
-  [Ái],
-  [Thủ],
-  [Hữu],
-  [Sinh],
-  [Già–chết + khối khổ],
+  [Vô minh], [Hành], [Thức], [Danh sắc], [Sáu xứ], [Xúc],
+  [Thọ], [Ái], [Thủ], [Hữu], [Sinh], [Già–chết và khối khổ],
 )
 
-Đừng đọc mũi tên như một nguyên nhân độc nhất, cơ học và tất định. *Duyên* là điều kiện nương nhau; các truyền thống còn tranh luận về thang thời gian và phạm vi của chuỗi. Cuốn sách dùng đoạn xúc–thọ–ái–thủ để quan sát trong hiện tại, nhưng không lấy cách đọc ấy để phủ nhận chiều rộng của duyên khởi.
+Khi đọc, “làm duyên cho” không nên bị đổi thành “là nguyên nhân duy nhất và luôn buộc kết quả xảy ra”. Chương 4 giải thích từng chi và giới hạn của ví dụ đời thường. Ở đây, ta dùng một phần chuỗi để tập quan sát, không lấy phần ấy thay cho toàn bộ giáo lý.
 
-=== Bản đồ gần tay để can thiệp
+=== Cách quan sát một phản ứng trong hiện tại
 
-#flow-ribbon([Xúc], [Thọ], [Ái], [Thủ], [Hữu], [Khổ hệ quả])
+#flow-ribbon([Nhận sự việc], [Biết thọ], [Nhìn phản ứng], [Không nuôi thêm bất thiện], [Chọn việc cần làm])
 
 #practice-card(
   [Năm nhịp nhìn một phản ứng],
@@ -237,71 +240,75 @@ Phân biệt này làm bài tập sắc hơn. Với một tin nhắn:
 
     *2. Phân thọ.* Dễ chịu, khó chịu, trung tính hay chưa rõ?
 
-    *3. Nhìn hướng nghiêng.* Tâm đang muốn giữ, đẩy, chứng minh, tê đi hay tìm kích thích?
+    *3. Nhìn hướng nghiêng.* Có ý muốn giữ, chống đối, chứng minh hay tìm kích thích không?
 
-    *4. Không tiếp nhiên liệu trong một nhịp.* Không lặp câu chuyện và không vội gửi lời làm hại. Không ép thọ biến mất.
+    *4. Không nuôi thêm bất thiện.* Tạm chưa gửi lời làm hại, chưa lặp lại lời kết tội. Không cần ép thọ biến mất.
 
-    *5. Chọn hành động đúng, không hại và phù hợp hoàn cảnh.* Có thể là hỏi cho rõ, rời môi trường, sửa sai, đổi tư thế, hoàn thành bổn phận hoặc tìm trợ giúp.
+    *5. Chọn việc phù hợp.* Hỏi cho rõ, sửa sai, đổi tư thế, rời nơi nguy hiểm, hoàn thành bổn phận hoặc tìm trợ giúp.
 
-    Năm nhịp này là một khung thực hành do sách biên soạn để giúp đoạn xúc–thọ–ái–thủ dễ quan sát hơn. Nó không phải năm sát-na tâm, không phải toàn bộ mười hai chi và không phải kỹ thuật bảo đảm đoạn ái.
+    Đây là năm gợi ý do sách biên soạn, không phải năm sát-na tâm hay năm chi của duyên khởi. Bạn có thể dùng ít câu hỏi hơn khi hoàn cảnh đòi hỏi.
   ],
   label: [BÀI TẬP · BIÊN SOẠN THEO K26–K31],
 )
 
-Thọ đến ái là một điểm quan sát thuận lợi, không phải “mắt xích dễ cắt nhất cho mọi người”. Không có nguồn nào được dẫn ở đây xếp hạng như vậy. Chương 4 đã trình bày phần này với ba trường hợp dễ chịu, khó chịu và trung tính; hãy quay lại đó nếu bạn đang cần một bài tập ngắn hơn. Khi nguy hiểm, bổn phận hoặc người khác cần được bảo vệ, hành động an toàn đi trước việc nhìn vào trong; Chương 7 giữ ranh giới ấy.
+Thọ và phản ứng đối với thọ là một điểm có thể bắt đầu quan sát. Sách không gọi đó là mắt xích dễ cắt nhất cho mọi người: các kinh được dẫn không đưa ra thứ hạng ấy. Khi có nguy hiểm hay bổn phận cấp thiết, hành động bảo vệ đi trước việc tự quan sát; xem Chương 7 và Chương 9.
 
-== 4. Diệt đế: Niết-bàn, không phải một phút nhẹ lòng
+== 4. Diệt đế: Niết-bàn và sự tạm lắng cần được phân biệt
 
 === Diệt đế có phải là Niết-bàn không?
 
 #source-line("KINH", [K05 · SN 56.11; K43 · SN 38.1], [
-  SN 56.11 mô tả Diệt đế là sự phai lắng và chấm dứt không dư sót của chính tham ái ấy: từ bỏ, buông ra, giải thoát và không nương bám. SN 38.1 gọi sự chấm dứt tham, sân và si là Niết-bàn, rồi nêu Bát Chánh Đạo là đường thực chứng Niết-bàn ấy. Đọc cùng nhau, hai bài kinh không đặt ra hai đích khác nhau; chúng soi cùng một cứu cánh từ hai phía.
+  SN 56.11 mô tả Diệt đế bằng sự ly tham và chấm dứt không dư sót của chính tham ái ấy: từ bỏ, buông ra, giải thoát và không nương bám. Trong SN 38.1, Tôn giả Sāriputta trả lời du sĩ Jambukhādaka rằng sự đoạn tận tham, sân và si là Niết-bàn, và nêu Bát Chánh Đạo là đường thực chứng.
 ])
 
-*Câu trả lời ngắn: có.* Trong khung Tứ Đế, Diệt đế chính là Niết-bàn xét như sự chấm dứt khổ. “Diệt” nhấn vào điều chấm dứt; “Niết-bàn” là tên cứu cánh được thực chứng. Câu chữ của SN 56.11 lấy ái làm điểm cắt vì Tập đế vừa xác định ái là nguồn sinh khổ; SN 38.1 nhìn rộng hơn qua sự chấm dứt tham, sân và si.
+Trong cách trình bày của sách, Diệt đế là sự thật về Niết-bàn, sự chấm dứt khổ. Hai nguồn trên được đặt cạnh nhau để thấy rõ cứu cánh, không để tạo ra một tên gọi mới cho trạng thái thư giãn. Diệt đế không phải việc làm cho một con người hay mọi trải nghiệm của người ấy biến mất.
 
 #concept-map(
   concept-node(
     [DIỆT ĐẾ · SN 56.11],
-    [Chính ái ấy chấm dứt],
-    [Phai lắng, từ bỏ, buông ra, giải thoát, không còn nương bám. Công thức trả lời: *nguồn sinh khổ kết thúc thế nào?*],
+    [Chính tham ái ấy chấm dứt],
+    [Sự ly tham, đoạn diệt không dư sót, từ bỏ, buông ra, giải thoát và không nương bám.],
     accent: palette.forest,
   ),
   concept-node(
     [NIẾT-BÀN · SN 38.1],
-    [Tham, sân và si chấm dứt],
-    [Bài kinh gọi đó là Niết-bàn và đặt Bát Chánh Đạo làm đường thực chứng. Công thức trả lời: *cứu cánh giải thoát được gọi là gì?*],
+    [Tham, sân và si đoạn tận],
+    [Câu trả lời của Tôn giả Sāriputta; Bát Chánh Đạo được nêu là đường thực chứng.],
     accent: palette.indigo,
   ),
 )
 
-Một cứu cánh, hai góc nhìn. Nhưng một lần ái không được tiếp sức, một cơn giận hạ nhiệt hay vài phút tâm yên mới chỉ cho thấy phản ứng phụ thuộc điều kiện. Đừng lấy một lát cắt tạm thời làm bằng chứng rằng Diệt đế đã được trực chứng hay gốc tham, sân, si đã đoạn tận.
+Một lần không trả đũa hay một cơn giận dịu xuống vẫn là điều đáng ghi nhận. Nhưng giá trị ấy không cần được nâng thành lời xác nhận rằng tham ái đã hết hay Diệt đế đã được trực chứng. Ta có thể trân trọng một bước lành mà vẫn giữ câu hỏi về chứng ngộ đúng mức.
 
-=== Bốn mức rất dễ lẫn
+=== Bốn điều dễ bị lẫn
 
-Trong thực hành, có thể gặp những mức gần nhau nhưng không đồng nhất:
+Trong lời giải thích của sách, cần phân biệt:
 
 + *Tạm lắng:* phản ứng không biểu hiện trong một lúc.
-+ *Đè nén:* không cho phép phản ứng lộ ra nhưng điều kiện và sức căng vẫn còn.
-+ *Suy yếu:* phản ứng bớt mạnh hoặc bớt thường xuyên qua thời gian.
-+ *Đoạn tận:* một mối trói không còn được kinh mô tả như còn khả năng chi phối theo cách trước đó.
++ *Đè nén trong nghĩa đời thường:* cố không cho phản ứng lộ ra trong khi sức căng vẫn còn. Đây không phải định nghĩa về sự chế ngự triền cái bằng định trong hệ thống luận giải.
++ *Suy yếu:* một khuynh hướng giảm sức hoặc tần suất; nhận xét đời thường này chưa đủ để xác định một quả vị.
++ *Đoạn tận:* sự trói buộc được trừ tận gốc, không còn chỉ là tạm vắng biểu hiện.
 
-Đây là phân biệt sư phạm để tránh nhảy từ “tôi vừa bình tĩnh” sang “tôi đã chứng Diệt”. Các kinh về Nhập lưu và kiết sử, không phải cảm giác chắc chắn của người đọc, mới là nơi cuốn sách đặt câu hỏi về quả vị.
+Đây là những phân biệt để đọc và thực hành thận trọng, không phải thang tự chấm. Các tiêu chuẩn về kiết sử và quả vị được trình bày riêng ở Chương 10–11.
 
 #source-line("KINH", [K28 · SN 36.6; K29 · MN 38], [
-  Người được tu học trong SN 36.6 vẫn cảm nhận mũi tên thứ nhất là đau thân nhưng không nhất thiết cộng thêm mũi tên thứ hai của sầu, chống đối và tìm dục lạc để trốn đau. MN 38 diễn tả chiều đoạn diệt bằng việc không thích thú, chào đón và bám chặt thọ. Cả hai bài đều không bảo người đọc bỏ qua bệnh, chấn thương hay nhu cầu chăm sóc.
+  SN 36.6 phân biệt đau thân với sự khổ tâm thêm vào, dùng hình ảnh hai mũi tên. MN 38 diễn tả việc không thích thú, chào đón và bám lấy thọ; khi sự thích thú ấy chấm dứt, thủ và các chi tiếp theo được trình bày theo chiều đoạn diệt.
+])
+
+#modern-note([
+  Sách dùng hai đoạn này để gợi cách quan sát phản ứng, không để khuyên bỏ qua bệnh, chấn thương hay nhu cầu chăm sóc. Dùng thuốc đúng chỉ định, đổi tư thế hoặc tìm sự giúp đỡ không đối nghịch với việc học nhận biết thọ.
 ])
 
 #practice-card(
-  [Thử ngay trong một phản ứng thật],
+  [Thử với một khó chịu vừa sức],
   [
-    Khi phản ứng đủ nhẹ để quan sát an toàn, hãy cảm nhận thọ trong vài nhịp mà không thêm câu “tôi phải thoát ngay”. Sau đó hỏi:
+    Khi trải nghiệm đủ nhẹ để quan sát an toàn, bạn có thể nhận biết thọ trong vài nhịp rồi hỏi:
 
-    - Phần khổ do kể chuyện hoặc chống đối có giảm không?
-    - Việc gì ngoài đời vẫn còn cần được xử lý?
-    - Hành động tiếp theo có thể đúng và không gây hại là gì?
+    - Tôi có đang thêm lời kết tội hoặc chống đối không?
+    - Việc gì ngoài đời vẫn cần được xử lý?
+    - Một hành động không gây hại có thể làm ngay là gì?
 
-    Nếu khổ giảm, bạn có thêm dữ liệu rằng khổ phụ thuộc điều kiện. Bạn chưa có bằng chứng rằng tham ái đã đoạn tận, một kiết sử đã rơi hay một quả đã thành tựu.
+    Thọ có thể giảm, không giảm hoặc đổi dạng. Không cần làm nó giảm để coi buổi thực tập có ích. Điều đang học là nhận biết rõ hơn và đáp lại thích hợp; không phải tìm bằng chứng về quả vị.
   ],
   label: [THỰC HÀNH · BIÊN SOẠN THEO K28; K29],
 )
@@ -311,32 +318,35 @@ Trong thực hành, có thể gặp những mức gần nhau nhưng không đồ
 === Tám chi với tám công việc
 
 #source-line("KINH", [K25 · SN 45.8], [
-  SN 45.8 định nghĩa Bát Chánh Đạo: chánh kiến là trí biết bốn đế; chánh tư duy là hướng xuất ly, không sân và không hại; chánh ngữ là tránh dối trá, chia rẽ, thô ác và phù phiếm; chánh nghiệp là tránh sát sinh, lấy của không cho và tà hạnh trong dục; chánh mạng là bỏ tà mạng; chánh tinh tấn là ngăn và bỏ bất thiện, làm sinh và nuôi lớn thiện; chánh niệm là quán thân, thọ, tâm và pháp với nhiệt tâm, tỉnh giác và chánh niệm; chánh định được bài kinh trình bày bằng bốn tầng thiền.
+  SN 45.8 nêu đủ tám chi: chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm và chánh định. Chánh kiến được trình bày là trí biết bốn đế; chánh tư duy hướng đến xuất ly, không sân và không hại; chánh định được định nghĩa bằng bốn tầng thiền.
 ])
 
-Để dùng trong đời sống, có thể nhớ tám công việc bằng những từ ngắn sau. Đây là cách nhóm và diễn đạt của sách, không phải tên gọi mới trong kinh:
+#source-line("KINH", [K23 · MN 117; đối chiếu K25 · SN 45.8], [
+  Ở MN 117, chánh nghiệp được nêu là tránh sát sinh, lấy của không cho và tà hạnh trong dục. Bản Pāli SN 45.8 đang đối chiếu dùng *abrahmacariyā veramaṇī*, tránh hành vi không phạm hạnh, ở vế thứ ba; đây là yêu cầu tiết dục, không phải chỉ tránh tà hạnh. Sách dùng công thức MN 117 khi giải thích cho người tại gia và giữ riêng sự khác nhau giữa hai đoạn.
+])
+
+#source-line("KINH", [K20 · MN 44], [
+  Tỷ-kheo-ni Dhammadinnā xếp chánh ngữ, chánh nghiệp và chánh mạng vào nhóm giới; chánh tinh tấn, chánh niệm và chánh định vào nhóm định; chánh kiến và chánh tư duy vào nhóm tuệ. Đây là nguồn cho cách nhóm ba phần dưới đây.
+])
 
 #concept-map(
   columns: (0.85fr, 1.15fr, 1.15fr),
   kind: "concept-map-three",
   concept-node(
-    [TUỆ · 2 CHI],
-    [THẤY · HƯỚNG],
+    [TUỆ · 2 CHI · K20], [THẤY · HƯỚNG],
     [Chánh kiến\
     Chánh tư duy],
     accent: palette.indigo,
   ),
   concept-node(
-    [GIỚI · 3 CHI],
-    [NÓI · LÀM · NUÔI],
+    [GIỚI · 3 CHI · K20], [NÓI · LÀM · NUÔI],
     [Chánh ngữ\
     Chánh nghiệp\
     Chánh mạng],
     accent: palette.clay,
   ),
   concept-node(
-    [ĐỊNH · 3 CHI],
-    [RÈN · NHỚ-BIẾT · VỮNG],
+    [ĐỊNH · 3 CHI · K20], [RÈN · NHỚ-BIẾT · VỮNG],
     [Chánh tinh tấn\
     Chánh niệm\
     Chánh định],
@@ -344,72 +354,78 @@ Trong thực hành, có thể gặp những mức gần nhau nhưng không đồ
   ),
 )
 
-+ *Thấy — chánh kiến:* nhận ra khổ, điều kiện của khổ, sự chấm dứt và con đường; không vội biến câu chuyện thành sự thật.
-+ *Hướng — chánh tư duy:* nghiêng về xuất ly, thiện ý và không gây hại; không đồng nghĩa với bỏ hết trách nhiệm.
-+ *Nói — chánh ngữ:* không dối, không chia rẽ, không thô ác, không nói rỗng; sự thật cần được nói đúng lúc và đúng cách.
-+ *Làm — chánh nghiệp:* không sát hại, không lấy của không cho, không tà hạnh trong dục; “hợp pháp” chưa phải toàn bộ tiêu chuẩn của không gây hại.
-+ *Nuôi — chánh mạng:* không dùng cách kiếm sống làm nhiên liệu cho lừa dối, khai thác hay gây hại.
-+ *Rèn — chánh tinh tấn:* ngăn, bỏ, sinh, giữ; thay đổi điều kiện chứ không chỉ mắng tâm phải mạnh.
-+ *Nhớ-biết — chánh niệm:* giữ đúng khung quan sát, biết rõ thân–thọ–tâm–pháp và không để tham ưu kéo đi vô thức.
-+ *Vững — chánh định:* làm tâm quy tụ và ổn định trên nền của các chi đạo đúng; tập trung cao độ tự nó chưa thành chánh định.
+Những từ ngắn “thấy, hướng, nói, làm, nuôi, rèn, nhớ-biết, vững” do sách đặt để giúp nhớ. Phần sau nối nghĩa kinh với một số ứng dụng, không thay các định nghĩa đầy đủ:
 
-=== Chánh mạng và ranh giới của việc diễn giải hiện đại
++ *Thấy, chánh kiến:* học hiểu khổ, nguồn sinh khổ, sự chấm dứt và con đường. Trong một việc cụ thể, bắt đầu bằng cách phân biệt điều đã biết với điều đang suy đoán.
++ *Hướng, chánh tư duy:* nuôi ý hướng xuất ly, không sân và không hại. Buông sự đắm trước không có nghĩa bỏ mặc người mình có trách nhiệm chăm sóc.
++ *Nói, chánh ngữ:* tránh dối trá, chia rẽ, thô ác và phù phiếm. Khi cần góp ý, nói điều cần thiết mà không cố làm nhục người nghe.
++ *Làm, chánh nghiệp:* theo công thức MN 117 đang dùng, tránh sát sinh, lấy của không cho và tà hạnh trong dục. Hãy nhìn cả hành vi và hậu quả, không chỉ lời tự giải thích cho mình.
++ *Nuôi, chánh mạng:* từ bỏ tà mạng, sống bằng chánh mạng. Các câu hỏi về nghề nghiệp hiện đại ở dưới là phần áp dụng.
++ *Rèn, chánh tinh tấn:* ngăn bất thiện chưa sinh, bỏ bất thiện đã sinh, làm sinh và nuôi lớn điều thiện. Sự rèn luyện có thể bao gồm thay đổi điều kiện sống, không chỉ cố gắng bằng ý chí.
++ *Nhớ-biết, chánh niệm:* quán thân, thọ, tâm và pháp với nhiệt tâm, tỉnh giác và chánh niệm, chế ngự tham ưu ở đời. Một lần tự quan sát ngắn chỉ là phần tập luyện, chưa đồng nhất với toàn bộ chi đạo.
++ *Vững, chánh định:* SN 45.8 trình bày bằng bốn tầng thiền. Tập giữ sự chú ý ổn định có thể chuẩn bị điều kiện; khả năng tập trung làm việc hay nghe hết một câu không tự nó là định nghĩa chánh định trong bài kinh.
+
+=== Chánh mạng và việc diễn giải hiện đại
 
 #source-line("KINH", [K42 · AN 5.177], [
-  AN 5.177 nói rõ một cư sĩ không nên buôn bán năm thứ: vũ khí, sinh vật, thịt, chất say và chất độc. Đây là danh sách trực tiếp của bài kinh. Những câu hỏi hiện đại về phần mềm gây nghiện, dữ liệu, quảng cáo thao túng hoặc tài chính cần được trình bày là áp dụng biên soạn theo nguyên tắc không gây hại, không giả làm danh sách cổ đã có sẵn.
+  AN 5.177 nói người cư sĩ không nên buôn bán năm thứ: vũ khí, sinh vật, thịt, chất say và chất độc. Đây là danh sách của bài kinh.
 ])
 
-Không cần chờ tới khi một buổi ngồi mới thực hành Đạo đế. Cách kiếm tiền, lời hứa với khách hàng, dữ liệu ta giữ, cách sửa một lỗi và cách xin lỗi đều cho thấy đạo đang được nuôi hay bị bỏ đói.
+Những câu hỏi về phần mềm gây nghiện, dữ liệu, quảng cáo thao túng hoặc sản phẩm tài chính là việc áp dụng của người biên soạn, không phải những mục cổ đã được liệt kê sẵn. Có thể bắt đầu bằng câu hỏi cụ thể: công việc này có cần lừa dối, gây hại hay khai thác sự dễ tổn thương của người khác để tồn tại không? Điều nào có thể sửa ngay, điều nào cần một kế hoạch chuyển đổi có trách nhiệm?
 
-=== Tám chi không xếp thành tám bậc thang
+Không cần đợi đến buổi ngồi mới quan tâm đến con đường. Cách giữ một lời hứa, kiếm sống, sửa lỗi và đối xử với người khác cũng là những nơi để thực tập. Ví dụ đời thường giúp đưa việc học vào cuộc sống, không thu toàn bộ đạo lộ thành đạo đức nghề nghiệp.
 
-#source-line("KINH", [K06 · SN 55.5; K25 · SN 45.8], [
-  SN 55.5 gọi “dòng” là toàn bộ Bát Chánh Đạo; SN 45.8 định nghĩa đủ tám chi. Vì vậy, một cách ghi nhận, một bài tập thở, một tư thế, một lịch ngồi hay một phương pháp Mahāsi có thể nâng đỡ một số chi đạo, nhưng không đồng nhất với cả dòng và không tự chứng minh quả Nhập lưu.
+=== Các chi nâng đỡ nhau
+
+#source-line("KINH", [K06 · SN 55.5; K23 · MN 117], [
+  SN 55.5 gọi “dòng” là Bát Chánh Đạo. MN 117 trình bày chánh định cao quý cùng những yếu tố hỗ trợ là bảy chi còn lại; trong nhiều phần, bài kinh cũng cho thấy chánh kiến, chánh tinh tấn và chánh niệm cùng tham gia việc từ bỏ tà và tu tập chánh.
 ])
 
-Nếu niệm được tách khỏi giới, nó có thể thành kỹ năng quan sát phục vụ tham vọng. Nếu định được tách khỏi chánh kiến, nó có thể chỉ là trạng thái dễ chịu. Nếu kiến thức không đi vào lời nói, hành động và nghề nghiệp, nó có thể trở thành một hình ảnh trí thức để ta bám vào. Bát Chánh Đạo là một hệ thống tự sửa sai, không phải danh sách để tích đủ tám dấu.
+Từ đó, sách nhắc người đọc không đồng nhất một cách ghi nhận, một tư thế hay một lịch ngồi với toàn bộ con đường. Kỹ thuật có thể hữu ích, nhưng vẫn cần được đặt trong giới, định và tuệ. Việc nhận ra một chi còn yếu là chỗ để học tiếp, không phải lý do tự kết án.
 
 == 6. Đặt bản đồ vào một khoảnh khắc thật
 
 === Bị phê bình trong công việc
 
-Một người nhận phản hồi gay gắt về bản thảo. Họ nghe câu nói, thấy ngực co và lập tức muốn trả lời để giành lại vị thế.
+Một người nhận phản hồi gay gắt về bản thảo. Ngực co lại; họ muốn trả lời ngay để giữ thể diện. Có thể thử nhìn như sau:
 
-+ *Khổ:* có thọ khó chịu, sợ mất uy tín và câu chuyện “tôi bị hạ thấp”. Phần nào là điều thực sự xảy ra, phần nào là câu chuyện tâm thêm vào?
-+ *Tập:* dục ái muốn được khen; hữu ái muốn giữ hình ảnh “tôi là người giỏi”; phi hữu ái muốn lời phê bình biến mất. Thủ biến câu chuyện “tôi phải đúng” thành lập trường.
-+ *Diệt:* nếu không gửi ngay lời trả đũa, một phần sức ép có thể giảm. Sự giảm ấy không xóa câu hỏi thật: phản hồi có căn cứ đến đâu và bản thảo cần sửa gì?
-+ *Đạo:* chánh kiến xem phản hồi như điều cần kiểm tra, không lập tức biến nó thành bản án về mình; chánh tư duy không hại; chánh ngữ hỏi cho rõ; chánh tinh tấn không nhai lại; chánh niệm biết thọ và ý định; chánh định giúp tâm đủ vững để nghe hết.
++ *Khổ:* có thọ khó chịu, lo mất uy tín và ý nghĩ “tôi bị hạ thấp”. Điều nào là sự việc, điều nào là cách hiểu còn cần kiểm chứng?
++ *Tập:* có thể có sự khát khao được công nhận và bám chặt vào hình ảnh “mình phải đúng”. Chưa cần gán mỗi phản ứng vào một trong ba loại ái.
++ *Hướng đến Diệt:* tạm không nuôi lời trả đũa. Sức ép có thể thay đổi; nhưng việc kiểm tra phản hồi và sửa bản thảo vẫn còn đó. Đây không phải kết luận đã chứng Diệt đế.
++ *Đạo:* xem lại căn cứ, giữ ý hướng không hại, hỏi cho rõ và sửa phần cần sửa. Sự chú ý đủ để lắng nghe là một hỗ trợ thực tế, không được gọi ngay là chánh định theo công thức bốn thiền.
 
-Đây là một minh họa biên soạn. Kinh không kể tình huống công sở, không quy định phải đợi bao nhiêu giây và không bảo đảm rằng một vòng bốn câu sẽ giải quyết được xung đột.
+Đây là minh họa biên soạn. Kinh không quy định phải đợi một số giây trước khi đáp lời, và bài tập không bảo đảm mọi xung đột sẽ được giải quyết ngay.
 
 === Lướt điện thoại không dừng
 
-Thọ trung tính hoặc buồn chán có thể đi cùng dục ái muốn kích thích mới; hữu ái muốn cảm thấy mình đang theo kịp; phi hữu ái muốn không phải chạm vào một việc khó. Thấy thôi thúc như một hiện tượng có điều kiện tạo ra một khoảng lựa chọn. Đạo đế lúc này không chỉ là “niệm”: tắt thông báo, để máy xa tay, quay lại việc cần làm và thiết kế môi trường không thưởng cho sự mất tự chủ đều là những cách áp dụng khác nhau của con đường. Đây là ứng dụng biên soạn, không phải mô tả riêng của một bài kinh.
+Buồn chán có thể đi cùng ý muốn tìm kích thích mới hoặc tránh một việc khó. Bạn có thể nhận biết điều đó mà chưa cần kết luận “đây chắc chắn là hữu ái” hay “đây là phi hữu ái”. Điều hữu ích trước mắt là thấy mình đang làm gì và việc ấy dẫn đến đâu.
+
+Một cách đáp lại có thể là tắt thông báo, đặt máy ra xa và trở về việc cần làm. Những thay đổi môi trường này là gợi ý hiện đại của sách. Chúng hỗ trợ sự rèn luyện, không phải các chi đạo mới hay một phương pháp giải thoát riêng.
 
 === Khi có nguy hiểm hoặc bổn phận cấp thiết
 
-Không dùng bản đồ này để trì hoãn hành động. Nếu trẻ sắp ngã, xe đang lao tới, người khác cần được bảo vệ hoặc có nguy cơ y tế, hãy làm điều an toàn trước rồi mới soi lại phản ứng. Không có bài tự quan sát nào quan trọng hơn mạng sống, bổn phận thiết yếu hay sự thật của hoàn cảnh. Phần nguyên tắc và vòng va chạm đầy đủ nằm ở Chương 7; các ngưỡng nguy cơ nằm ở Chương 9 và Bản đồ quyết định ở Phụ lục E.
+Nếu trẻ sắp ngã, xe đang lao tới, người khác cần được bảo vệ hoặc có dấu hiệu cấp cứu, hãy làm việc an toàn trước. Có thể xem lại phản ứng sau khi tình huống đã được xử lý. Chương 7 giải thích cách đặt việc cần làm trước sự tự quan sát; Chương 9 và Phụ lục E giúp tra các ngưỡng cần giảm, dừng hoặc tìm trợ giúp.
 
 == 7. Tứ Thánh Đế và hướng vào Nhập lưu
 
-=== Vì sao bản đồ này có trọng lượng đặc biệt?
+=== Vì sao trở lại bốn sự thật?
 
 #source-line("KINH", [K02 · SN 55.50], [
-  SN 55.50 nêu bốn yếu tố đưa đến Nhập lưu: thân cận người chân chánh, nghe Chánh pháp, như lý tác ý và thực hành đúng theo Pháp. Bốn yếu tố này không phải bốn dấu hiệu để tự chấm; chúng là điều kiện giúp bản đồ được học với nguồn, cách chú ý và hành vi có khả năng tự sửa sai.
+  SN 55.50 nêu bốn yếu tố đưa đến Nhập lưu: thân cận người chân chánh, nghe Chánh pháp, như lý tác ý và thực hành đúng theo Pháp.
 ])
 
 #source-line("KINH", [K11 · MN 2], [
-  MN 2 nói rằng khi một vị Thánh đệ tử như lý tác ý đến Khổ, nguồn sinh khổ, sự chấm dứt và con đường, ba kiết sử đầu — thân kiến, hoài nghi và giới cấm thủ — được đoạn. Đây là mối liên hệ do bài kinh nêu. Cách chương này dùng bốn câu hỏi để soi một phản ứng là khung sư phạm, không phải công thức ba bước tương ứng từng kiết sử.
+  Trong phần đoạn trừ bằng sự thấy, MN 2 trình bày vị Thánh đệ tử chú ý đúng đến khổ, nguồn sinh khổ, sự chấm dứt và con đường. Bài kinh nêu ba kiết sử được đoạn: thân kiến, hoài nghi và giới cấm thủ.
 ])
 
-Nhập lưu vì thế không phải một trải nghiệm đặc biệt được gắn nhãn sau buổi ngồi. Cũng không phải kết quả của việc thuộc bảng 3–5–4. Sách đã dành Chương 10 cho ba kiết sử đầu và Chương 11 cho toàn bộ năm hạ phần cùng bốn quả; chương này chỉ đặt chúng trở lại trong nhiệm vụ cốt lõi của Tứ Đế.
+Những lời dạy ấy đặt việc thấy đúng trong cả một đời sống học và hành. Bốn câu hỏi do sách đề nghị không thay thế như lý tác ý, cũng không có nghĩa chỉ cần suy nghĩ bằng lời về bốn đế là ba kiết sử được đoạn. Chương 10 giải thích ba kiết sử đầu; Chương 11 đặt chúng trong toàn bộ năm hạ phần kiết sử và bốn quả.
 
 #caution(
-  [Đừng dùng bản đồ để dựng thêm một cái tôi mới],
+  [Giữ việc học tách khỏi sự tự xác nhận quả vị],
   [
     #source-badge("BIÊN SOẠN", refs: [đối chiếu K02; K11; Chương 10])
     #v(5pt)
-    “Tôi hiểu Tứ Thánh Đế”, “tôi đã cắt ái” hay “tôi thuộc dòng” đều có thể trở thành một dạng hữu ái. Một lần bình tĩnh, một khoảng trống, ánh sáng, hỷ lạc, cảm giác không có cái tôi, lời xác nhận của người dạy hoặc một lịch thực hành không đủ làm chứng cứ cho quả vị. Khi cần hỏi về Nhập lưu, hãy quay về tiêu chuẩn và giới hạn được trình bày ở Chương 10, không tự cấp chứng nhận bằng cảm giác chắc chắn.
+    Một lần bình tĩnh, ánh sáng, hỷ lạc, khoảng trống hay cảm giác không có cái tôi đều chưa đủ để xác nhận Nhập lưu. Lời nhận xét của người dạy có thể giúp kiểm tra sự thực hành, nhưng không tự nó thay thế những tiêu chuẩn được kinh nêu. Bạn có thể tiếp tục tu tập nghiêm túc mà chưa cần đặt tên cho mức chứng đạt của mình.
   ],
 )
 
@@ -420,35 +436,37 @@ Nhập lưu vì thế không phải một trải nghiệm đặc biệt được
 #practice-card(
   [Bốn câu, một hành động],
   [
-    *1. Khổ —* “Điều gì đang xảy ra trực tiếp, và tâm đang làm nó nặng thêm ở đâu?”
+    *1. Khổ:* “Điều gì đang xảy ra và cần được hiểu rõ hơn?”
 
-    *2. Tập —* “Tôi đang muốn nắm, đẩy, trở thành hay xóa bỏ điều gì?”
+    *2. Tập:* “Có sự khát khao hay nắm giữ nào đang nuôi thêm khổ?”
 
-    *3. Diệt —* “Nếu không tiếp nhiên liệu trong vài nhịp, phần nào của khổ thay đổi?”
+    *3. Hướng đến Diệt:* “Nếu không nuôi thêm bất thiện trong vài nhịp, điều gì thay đổi?”
 
-    *4. Đạo —* “Một hành động quan sát được, đúng và không hại, tôi làm ngay bây giờ là gì?”
+    *4. Đạo:* “Một việc đúng đắn, phù hợp hoàn cảnh, tôi có thể làm bây giờ là gì?”
 
-    Nếu câu trả lời là nguy hiểm, đau sắc, mất liên hệ với thực tại, thôi thúc tự hại hoặc hại người, hãy bỏ bài tập và làm theo ngưỡng an toàn ở Chương 9. Nếu là một việc cần sửa, hãy sửa; “không chấp” không phải giấy miễn trách nhiệm.
+    Sáu mươi giây chỉ là gợi ý để nhớ, không phải định mức trong kinh. Không dùng bài tập để trì hoãn bảo vệ người khác, cấp cứu hay xử lý nguy hiểm.
   ],
-  label: [THẺ GỢI NHỚ · BIÊN SOẠN THEO K05; K25–K31],
+  label: [THẺ GỢI NHỚ · BIÊN SOẠN THEO K05; K23; K25–K31],
 )
 
-Thẻ này chỉ có giá trị khi nó đưa tới hành động thật: một câu nói thành thật mà không làm nhục, một lần không nhấn gửi, một bước rời khỏi kích thích, một lời xin lỗi, một lần đổi tư thế, một cuộc gọi hỗ trợ hoặc việc quay lại bổn phận. Nếu chỉ trả lời được bằng thuật ngữ mà hành vi không đổi, bản đồ vẫn đang nằm trên giấy.
+Nếu đau sắc hoặc tăng dần, hãy dừng tư thế hay bài tập gây đau. Nếu có nguy cơ tự hại, hại người, mất khả năng giữ an toàn hoặc dấu hiệu cấp cứu, hãy tìm trợ giúp khẩn cấp; không ở một mình khi có nguy cơ tự hại tức thì. Các hướng dẫn đầy đủ nằm ở Chương 9. Đây là hướng dẫn an toàn của sách, không phải lời trích kinh.
+
+Một lần hỏi lại cho rõ, không gửi lời làm tổn thương, sửa sai, xin lỗi hay trở về bổn phận đều có thể là việc thực hành cụ thể. Khi chưa làm được, hãy nhận ra điều đã xảy ra và chọn bước sửa tiếp theo. Không cần thêm sự khắt khe với chính mình vào việc đang cần học.
 
 == Gấp sách lại: tự kiểm bằng lời của mình
 
 #practice-card(
   [Bốn câu không cần học thuộc],
   [
-    1. Vì sao Tập đế có lõi là tham ái, trong khi vô minh và chấp thủ vẫn là điều kiện quan trọng của cơ chế duyên khởi?
+    1. Vì sao SN 56.11 nêu tham ái là nguồn sinh khổ, trong khi vô minh và thủ vẫn có vai trò trong duyên khởi?
 
-    2. Hãy kể một tình huống thật theo bốn mốc xúc, thọ, ái và thủ, nhưng không gọi toàn bộ cảm xúc là “thọ”.
+    2. Hãy kể một tình huống thật, phân biệt thọ với phản ứng và sự nắm giữ. Vì sao muốn một việc khó chịu kết thúc chưa đủ để gọi đó là phi hữu ái?
 
-    3. Vì sao một lần phản ứng lắng xuống là bằng chứng hữu ích về điều kiện của khổ nhưng chưa phải bằng chứng Diệt đế hay Nhập lưu?
+    3. Vì sao một phản ứng dịu xuống có thể đáng ghi nhận mà chưa chứng minh Diệt đế hay Nhập lưu?
 
-    4. Trong tình huống ấy, hành động Đạo đế nào cần làm trước: nhìn thêm, nói rõ, sửa sai, rời đi, tìm trợ giúp hay dừng lại vì an toàn?
+    4. Trong tình huống ấy, việc nào cần làm trước: quan sát thêm, nói rõ, sửa sai, rời đi hay tìm trợ giúp?
   ],
   label: [GẤP SÁCH LẠI · TỰ NHỚ LẠI],
 )
 
-Hãy dùng bản đồ để hành động, đừng biến nó thành huy hiệu cho bản ngã.
+Trở lại bốn sự thật là trở lại việc cần hiểu và cần làm. Bạn không cần mang theo nhiều thuật ngữ; điều quan trọng là ngày càng thấy rõ hơn và bớt gây khổ cho mình, cho người.
