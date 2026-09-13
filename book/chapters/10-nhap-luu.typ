@@ -5,7 +5,7 @@
   [Ba kiết sử đầu: hướng về Nhập lưu],
   [Nhập lưu được kinh trình bày bằng đạo lộ, sự đoạn ba kiết sử đầu và những phẩm chất đã đứng vững. Chương này giúp hiểu các tiêu chuẩn ấy, đồng thời phân biệt chúng với những trải nghiệm hoặc hành vi chưa đủ để kết luận.],
   provenance: [
-    #source-badge("KINH", refs: [K02; K05; K06; K08–K11; K17; K20; K21; K24; K35; K36; K38; K41])
+    #source-badge("KINH", refs: [K02; K05; K06; K08–K11; K17; K20; K21; K24; K35; K36; K38; K41; K45–K51])
     #h(4pt)
     #source-badge("BIÊN SOẠN", refs: [giải thích, so sánh và bài tập])
   ],
@@ -60,6 +60,10 @@ Trục của chương này là *ba kiết sử đầu*: thân kiến, hoài nghi
   ],
   label: [BIỂU HIỆN, BẢN CHẤT VÀ ĐOẠN TẬN · BIÊN SOẠN THEO K20; K36],
 )
+
+#source-line("BIÊN SOẠN", [bộ câu hỏi đối chiếu sau khi đọc], [
+  #link(<tu-soi-ba-kiet-su>)[Phụ lục F: Tự soi ba kiết sử đầu] có bảng hai mươi cách chấp và các câu hỏi riêng về hoài nghi, giới cấm thủ. Bảng giúp ghi điều cần làm rõ; không có điểm đạt hay kết luận chứng quả. Đọc phần giải thích của chương trước khi tự đối chiếu.
+])
 
 == Một lời chê, ba cách đọc sai
 
@@ -275,8 +279,12 @@ MN 2 nêu vicikicchā là kiết sử nhưng không đưa ngay một định ngh
   Đức Phật hỏi các Tỷ-kheo có nghi hoặc đối với Phật, Pháp, Tăng, con đường hoặc sự thực hành hay không. Đoạn này đặt sự nghi hoặc vào hướng đi của giáo pháp, không phải mọi thông tin trên đời.
 ])
 
+#source-line("KINH", [K46 · MN 16; K47 · MN 47; K48 · MN 95], [
+  MN 16 nêu nghi đối với Đạo sư, Pháp, Tăng và sự học tập trong phần tâm hoang vu; không đưa ra một bảng chẩn đoán kiết sử. MN 47 dạy khảo sát và nêu lòng tin bắt rễ nơi thấy biết. MN 95 phân biệt niềm tin, suy xét và sự chứng biết.
+])
+
 #source-line("BIÊN SOẠN", [cách giải thích dùng trong chương], [
-  Từ các nguồn ấy và MN 2, sách giải thích hoài nghi như kiết sử trên trục xác chứng về Phật, Pháp, Tăng và con đường ra khỏi khổ. Đây không phải định nghĩa đủ cho mọi cách dùng vicikicchā, cũng không phải lý do ngăn người học hỏi về nguồn hay sự an toàn.
+  Sách dựa vào các phân biệt ấy để giữ việc hỏi cho rõ, không ép mình phải có cảm giác chắc chắn. Từ các nguồn ấy và MN 2, sách giải thích hoài nghi như kiết sử trên trục xác chứng về Phật, Pháp, Tăng và con đường ra khỏi khổ. Đây không phải định nghĩa đủ cho mọi cách dùng vicikicchā, cũng không phải lý do ngăn người học hỏi về nguồn hay sự an toàn.
 ])
 
 Một người có thể rất thành thật mà vẫn chưa có thấy biết quyết định gắn với đoạn kiết sử. Ngược lại, giọng nói đầy chắc chắn hoặc sự đồng thuận của một nhóm không tự là tịnh tín. Điều cần học là phân biệt căn cứ với cảm giác chắc chắn, sự xác chứng với lòng muốn được chấp nhận.
@@ -328,6 +336,8 @@ Không cần làm mình có cảm giác chắc chắn mới được bắt đầ
 )
 
 Hoài nghi cũng nằm trong năm triền cái ở Chương 6. Việc một trạng thái nghi sinh rồi lắng trong buổi ngồi chưa đủ xác nhận kiết sử đã đoạn. Mặt khác, cần phân biệt câu hỏi về chi tiết thông thường với sự nghi trên chính trục xác chứng mà các kinh đang nói; không gom tất cả thành một nhãn.
+
+Các câu hỏi #link(<tu-soi-hoai-nghi>)[H1–H6 ở Phụ lục F] giúp phân biệt đối tượng nghi, căn cứ, sự khảo sát và điều còn chưa biết. Đây là công cụ biên soạn, không phải sáu tiêu chuẩn Nhập lưu trong kinh.
 
 === 3. Chấp thủ giới-tập tục: không phải bỏ giới
 
@@ -393,6 +403,14 @@ Sự linh hoạt cũng không tự là trí tuệ. Đổi phương pháp liên t
 )
 
 Một tình huống có thể làm lộ nhiều điều cùng lúc: bảo vệ hình ảnh bản thân, hoài nghi hiệu quả của việc tu và bám một thao tác như lời giải duy nhất. Nhưng các dấu hiệu ấy vẫn phải được tìm hiểu đúng nghĩa. Khi chưa đủ căn cứ, một câu mô tả đơn giản như “mình đang muốn được công nhận” có thể thành thật hơn một thuật ngữ quá lớn.
+
+#source-line("KINH", [K49 · AN 3.78, hệ số SuttaCentral; K50 · MN 78], [
+  Trong AN 3.78, Tôn giả Ānanda phân tích việc thực hành có kết quả hay không theo thiện và bất thiện; Đức Phật tán thành. Từ sīlabbata ở đây không tự đồng nghĩa với toàn bộ kiết sử sīlabbataparāmāsa. MN 78 bác việc lấy một số biểu hiện không làm ác làm toàn bộ thành tựu cao nhất; không dạy bỏ giới.
+])
+
+#source-line("BIÊN SOẠN", [chọn đúng phần cần tự soi], [
+  #link(<tu-soi-than-kien>)[Bảng thân kiến] giữ đủ năm uẩn và bốn quan hệ chấp. #link(<tu-soi-hoai-nghi>)[Các câu hỏi hoài nghi] xét điều nghi và căn cứ. #link(<tu-soi-gioi-cam-thu>)[Các câu hỏi giới cấm thủ] xét cách nắm phương tiện. Đọc kèm #link(<gioi-han-tu-soi>)[giới hạn kết luận]; không suy quả vị từ số câu trả lời hoặc mức tự tin.
+])
 
 == Hướng tu vào ba kiết sử mà không tự chấm quả <huong-ba-kiet-su>
 

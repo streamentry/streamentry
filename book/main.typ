@@ -45,4 +45,5 @@
 #include "appendices/c-faq.typ"
 #include "appendices/d-thuat-ngu.typ"
 #include "appendices/e-ban-do-quyet-dinh.typ"
+#include "appendices/f-tu-soi-ba-kiet-su.typ"
 #include "chapters/99-nguon.typ"
