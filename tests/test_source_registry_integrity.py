@@ -17,8 +17,8 @@ class SourceRegistryIntegrityTests(unittest.TestCase):
     def test_canonical_source_codes_are_unique_complete_and_ordered(self) -> None:
         text = SOURCE_MAP.read_text(encoding="utf-8")
         codes = re.findall(r"#reference-item\(\s*\[(K\d{2})\]", text)
-        self.assertEqual(codes, [f"K{i:02d}" for i in range(1, 54)])
-        self.assertIn("*K01–K53*", text)
+        self.assertEqual(codes, [f"K{i:02d}" for i in range(1, 55)])
+        self.assertIn("*K01–K54*", text)
 
     def test_checklist_and_aggregate_sources_keep_distinct_bindings(self) -> None:
         text = SOURCE_MAP.read_text(encoding="utf-8")
@@ -38,7 +38,7 @@ class SourceRegistryIntegrityTests(unittest.TestCase):
     def test_claim_identifiers_are_unique_and_preserve_both_audits(self) -> None:
         text = LEDGER.read_text(encoding="utf-8")
         codes = re.findall(r"^\| (C\d{2}) \|", text, re.MULTILINE)
-        self.assertEqual(codes, [f"C{i:02d}" for i in range(1, 94)])
+        self.assertEqual(codes, [f"C{i:02d}" for i in range(1, 96)])
         rows = {line.split("|")[1].strip(): line for line in text.splitlines()
                 if re.match(r"^\| C\d{2} \|", line)}
         self.assertIn("SN 22.82", rows["C81"])

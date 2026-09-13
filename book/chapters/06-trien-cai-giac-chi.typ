@@ -4,7 +4,7 @@
   [06],
   [Triền cái và giác chi],
   [Khi ngồi xuống, ta có thể gặp ham muốn, bực bội, buồn ngủ, bồn chồn hay nghi ngờ. Chương này giúp nhận ra những trạng thái ấy, tìm hiểu điều gì nuôi chúng và học cách nuôi những phẩm chất nâng đỡ sự giác ngộ.],
-  provenance: source-badge("BIÊN SOẠN", refs: [đọc K01 · K13 · K22]),
+  provenance: source-badge("BIÊN SOẠN", refs: [đọc K01 · K13 · K22 · K54]),
 )
 
 Chương trước hướng dẫn cách nhận biết điều đang nổi bật. Chương này đi thêm một bước: không chỉ biết tâm đang thế nào, mà còn học cách đáp lại phù hợp. Một trở ngại được nhận ra là điều có thể tìm hiểu, không phải lý do để kết luận mình không biết tu.
@@ -69,12 +69,16 @@ Chương trước hướng dẫn cách nhận biết điều đang nổi bật. 
   Hôn trầm và thụy miên được nêu chung thành một triền cái. Bài kinh yêu cầu biết sự có mặt, vắng mặt, sinh khởi, từ bỏ và không sinh lại của triền cái ấy, như với các triền cái khác.
 ])
 
-#source-line("MAHĀSI", [P01 · chỉ dẫn về buồn ngủ], [
-  P01 dạy ghi nhận trạng thái buồn ngủ. Nếu nó không qua, hành giả tiếp tục biết nó cho đến khi ngủ. Văn bản này không nêu các đối trị mở mắt, làm thân thẳng hay chuyển sang thiền hành.
+#source-line("MAHĀSI", [P01 · Basic Exercise III, đoạn nằm xuống để ngủ], [
+  Trong đoạn hướng dẫn khi đã nằm xuống để ngủ, P01 dạy nhận biết buồn ngủ. Tác phẩm nói sự ghi nhận có thể xua buồn ngủ; nếu buồn ngủ vẫn thắng, tiếp tục nhận biết cho đến khi ngủ. Cần giữ bối cảnh này, không đổi thành lời dặn luôn ngồi chờ ngủ gật.
+])
+
+#source-line("KINH", [K54 · AN 7.61:2–9, hệ số SuttaCentral], [
+  Đức Phật dạy Tôn giả Moggallāna nhiều cách ứng xử khi buồn ngủ; nếu cách trước chưa hiệu quả thì chuyển sang cách tiếp theo. Trong số đó có suy xét Pháp đã học, đọc lại thành tiếng, đứng dậy dùng nước lau mắt rồi nhìn quanh, và đi kinh hành. Nếu các cách ấy chưa xua được buồn ngủ, kinh nêu nằm nghiêng phải trong tư thế sư tử, có niệm, tỉnh giác và nhớ ý định thức dậy. Đây là diễn ý chọn lọc, không phải toàn bộ trình tự của bài kinh.
 ])
 
 #modern-note([
-  Khi chỉ hơi lơ mơ và vẫn an toàn, bạn có thể thử mở mắt, ngồi thẳng vừa phải hoặc chuyển sang đi nhẹ. Đây là đề nghị của sách, không phải các chỉ dẫn được gán cho P01. Chọn một điều chỉnh đơn giản rồi quan sát tác dụng, không tăng sức ép chỉ để giữ đúng lịch.
+  Nhận ra buồn ngủ là điểm bắt đầu, không phải lúc nào cũng là toàn bộ việc cần làm. Khi chỉ hơi lơ mơ và vẫn an toàn, bạn có thể thử mở mắt, ngồi thẳng vừa phải hoặc đi nhẹ ở nơi không có rủi ro. Chọn một điều chỉnh rồi xem có tỉnh hơn không; đây là cách sách thu gọn để áp dụng, không phải trình tự đầy đủ của AN 7.61 hay lời gán cho P01. Nếu thiếu ngủ hoặc kiệt sức, ưu tiên nghỉ; không buộc mình thử hết các cách chỉ để giữ đúng lịch.
 ])
 
 #caution(
@@ -175,7 +179,7 @@ Một tên gọi trong pháp học không đủ để giải thích mọi trạn
     - Khó phân biệt điều đang thực sự xảy ra, nghe tiếng nói bất thường hoặc có niềm tin bất thường làm ảnh hưởng sinh hoạt.
     - Khả năng làm việc, chăm sóc bản thân hay thực hiện trách nhiệm giảm rõ.
 
-    Khi có những dấu hiệu này, hãy giảm hay dừng thực hành cường độ cao và tìm hỗ trợ chuyên môn phù hợp. Mở #link(<ba-muc>)[ba mức phản ứng ở Chương 9] để chọn bước tiếp theo. Khi có nguy hiểm tức thời, ưu tiên an toàn và dịch vụ cấp cứu tại nơi đang sống; không tiếp tục ngồi để thử vượt qua.
+    Khi có những dấu hiệu này, hãy dừng buổi hiện tại, không tăng cường độ và tìm hỗ trợ chuyên môn phù hợp. Mở #link(<ba-muc>)[ba mức phản ứng ở Chương 9] để chọn bước tiếp theo. Khi có nguy hiểm tức thời, ưu tiên an toàn và dịch vụ cấp cứu tại nơi đang sống; không tiếp tục ngồi để thử vượt qua.
   ],
 )
 

@@ -149,7 +149,7 @@
     #source-badge("Y TẾ & NGHIÊN CỨU", refs: [R01; R02])
     #v(5pt)
 
-    Khi dấu hiệu mạnh, kéo dài, tăng lên hoặc làm suy giảm sinh hoạt, sách khuyên giảm hay dừng theo Chương 9, trao đổi với người hướng dẫn và tìm hỗ trợ y tế phù hợp. R05 hỗ trợ việc liên hệ người chăm sóc sức khỏe khi những dấu hiệu được nguồn mô tả tăng hoặc không hết; quy trình giảm, dừng thiền là phần biên soạn. Nguy cơ tức thời cần trợ giúp khẩn cấp, không đợi xác định đó là tuệ hay bệnh.
+    Khi dấu hiệu mạnh, kéo dài, tăng lên hoặc làm suy giảm sinh hoạt, hãy dừng buổi hiện tại, không tăng cường độ; dùng Chương 9, trao đổi với người hướng dẫn và tìm hỗ trợ y tế phù hợp. R05 hỗ trợ việc liên hệ người chăm sóc sức khỏe khi những dấu hiệu được nguồn mô tả tăng hoặc không hết; quy trình giảm, dừng thiền là phần biên soạn. Nguy cơ tức thời cần trợ giúp khẩn cấp, không đợi xác định đó là tuệ hay bệnh.
 
     #v(5pt)
     #source-badge("BIÊN SOẠN", refs: [đối chiếu R05; Chương 9])
@@ -179,7 +179,7 @@
   [
     Những nguồn đang được dẫn không ấn định một thời lượng chung cho mọi cư sĩ trong lộ trình của sách. Năm, mười lăm, ba mươi hoặc sáu mươi phút là các gợi ý theo hoàn cảnh, không phải định mức chứng quả.
 
-    Chọn mức không lấn ngủ nghỉ, điều trị hay bổn phận thiết yếu. Dấu hiệu bất ổn cần được xử lý theo Chương 9, không chỉ rút bớt vài phút rồi cố tiếp. Sau thời gian nghỉ vì sức khỏe, không tự động khởi động lại trước khi đã có hướng dẫn phù hợp.
+    Chọn mức không lấn ngủ nghỉ, điều trị hay bổn phận thiết yếu. Nếu chỉ gián đoạn vì việc bận hoặc bệnh thông thường đã hồi phục, không có dấu hiệu nguy cơ, dùng #link(<khoi-dong-lai>)[cách khởi động lại ở Chương 1] và giữ chỉ dẫn điều trị đang có. Nếu đã dừng vì hoảng sợ lặp lại, mất ngủ tăng, cảm giác xa lạ kéo dài hoặc suy giảm sinh hoạt, cần dùng Chương 9 và tìm hỗ trợ phù hợp trước khi tiếp tục; không chỉ bớt vài phút rồi cố ngồi.
 
     #v(5pt)
     #source-badge("BIÊN SOẠN", refs: [Chương 1; Chương 8; Chương 9])

@@ -16,7 +16,7 @@
 Số đi sau giúp xác định bài hoặc vị trí: MN 10 là bài 10 của Trung Bộ; SN 55.5 là bài 5 trong tương ưng 55; AN 3.88 là bài 88 của chương Ba pháp; Dhp 178 là câu kệ 178. Cách đánh số có thể khác giữa một số ấn bản, nên cần dùng đúng bản được dẫn.
 
 #source-line("BIÊN SOẠN", [mã tra riêng của sách], [
-  *K01–K53* là mã nguồn kinh; *P01–P02* là hai tài liệu Mahāsi; *V01* là ấn bản Thanh Tịnh Đạo; *R01–R11* là nguồn nghiên cứu, y tế và cơ quan chính thức. Đây là hệ thống tra cứu của sách, không phải số phân loại truyền thống hoặc thứ hạng độ mạnh của bằng chứng.
+  *K01–K54* là mã nguồn kinh; *P01–P02* là hai tài liệu Mahāsi; *V01* là ấn bản Thanh Tịnh Đạo; *R01–R11* là nguồn nghiên cứu, y tế và cơ quan chính thức. Đây là hệ thống tra cứu của sách, không phải số phân loại truyền thống hoặc thứ hạng độ mạnh của bằng chứng.
 ])
 
 Nhãn *KINH* chỉ tầng văn bản kinh điển, không có nghĩa mọi đoạn đều do Đức Phật trực tiếp nói. Có bài ghi lời đệ tử, có lời kể và có phần Đức Phật xác nhận. Khi biết rõ người nói, sách ghi tên; phần nhận xét của người biên soạn cần được đọc riêng.
@@ -339,6 +339,12 @@ Nhãn *KINH* chỉ tầng văn bản kinh điển, không có nghĩa mọi đo�
   [K53], [Năm uẩn và năm thủ uẩn, Saṃyutta Nikāya 22.48],
   [Bản dịch Ṭhānissaro Bhikkhu, đối chiếu ngày 13 tháng 9 năm 2026. Phân biệt năm uẩn với những uẩn hữu lậu, có thể bị chấp thủ; không thu thuật ngữ “thủ uẩn” thành riêng lúc nhận ra một ý nghĩ bám víu. Đọc cùng MN 44 để không đồng nhất các uẩn với dục và tham đối với chúng.],
   "https://www.dhammatalks.org/suttas/SN/SN22_48.html",
+)
+
+#reference-item(
+  [K54], [Buồn ngủ, Aṅguttara Nikāya 7.61, Pacalāyamānasutta],
+  [Đức Phật hướng dẫn Tôn giả Moggallāna. Đối chiếu Pāli trên Bilara, an7.61:2–9, cùng bản dịch Ṭhānissaro Bhikkhu mang số AN 7:58 và tên Capala Sutta. Hai địa chỉ dùng hệ đánh số khác nhau cho bài đang đối chiếu. Chương 6 chỉ diễn ý một số cách ứng xử và việc nằm nghỉ khi các cách trước chưa hiệu quả; không biến chúng thành lịch thiếu ngủ hoặc phác đồ điều trị.],
+  "https://www.dhammatalks.org/suttas/AN/AN7_58.html",
 )
 
 == Thanh Tịnh Đạo và truyền thống Mahāsi

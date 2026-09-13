@@ -1,13 +1,13 @@
 #import "../components.typ": *
 
-#let term-card(pali, vietnamese, refs, body, kind: "BIÊN SOẠN") = practice-card(
+#let term-card(pali, vietnamese, refs, body, kind: "BIÊN SOẠN", term-label: [THUẬT NGỮ PĀLI]) = practice-card(
   [#pali · #vietnamese],
   [
     #source-badge(kind, refs: refs)
     #v(4pt)
     #body
   ],
-  label: [THUẬT NGỮ PĀLI],
+  label: term-label,
 )
 
 #pagebreak(weak: true)
@@ -244,8 +244,8 @@
 #v(7pt)
 
 #term-card([noting], [ghi nhận trong tâm], [P01; Phụ lục B], [
-  Cách dùng nhãn ngắn như “phồng”, “nghe”, “nghĩ” để hỗ trợ nhận biết trong phương pháp Mahāsi. P01 dặn không đọc thành tiếng hay tụng lặp từ. Bảng nhãn Việt do sách biên soạn, không nằm nguyên dạng trong MN 10. Nhận ra muộn vẫn có thể trở về; không cần dựng lại trình tự chưa biết hoặc ghi nhãn trước khi xử lý nguy hiểm.
-])
+  *Noting* là từ tiếng Anh, không phải thuật ngữ Pāli. Trong phương pháp Mahāsi được sách giới thiệu, nhãn ngắn như “phồng”, “nghe”, “nghĩ” hỗ trợ nhận biết. P01 dặn không đọc thành tiếng hay tụng lặp từ. Bảng nhãn Việt do sách biên soạn, không nằm nguyên dạng trong MN 10. Nhận ra muộn vẫn có thể trở về; không cần dựng lại trình tự chưa biết hoặc ghi nhãn trước khi xử lý nguy hiểm.
+], term-label: [THUẬT NGỮ TIẾNG ANH])
 #v(8pt)
 
 #caution(
