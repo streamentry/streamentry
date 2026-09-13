@@ -17,7 +17,7 @@
 = Thuật ngữ cốt lõi <thuat-ngu>
 
 #text(font: fonts.sans, size: 9.5pt, fill: palette.muted)[
-  Dịch một từ Pāli bằng một từ Việt có thể tiện, nhưng không bao giờ giữ trọn mọi sắc thái. Các định nghĩa dưới đây chỉ đủ dùng cho cuốn sổ tay này.
+  Một từ Việt thường chưa giữ hết sắc thái của một từ Pāli. Các mục dưới đây là lời giải nghĩa để dùng sách, có nguồn đối chiếu; khi cần kết luận về giáo lý, hãy trở lại đúng bài và đúng ngữ cảnh.
 ]
 
 #v(8mm)
@@ -27,454 +27,225 @@
 #practice-card(
   [Bốn nhóm để tra cứu],
   [
-    + #link(<thuat-ngu-dao-lo>)[*Đạo lộ và năng lực tâm:*] Tứ Thánh Đế, Bát Chánh Đạo, Năm giới, chánh niệm, tỉnh giác, định và tuệ.
-    + #link(<thuat-ngu-nhap-luu>)[*Nhập lưu, kiết sử và bốn quả:*] tịnh tín đã được xác chứng, ba kiết sử đầu, năm hạ phần kiết sử, Nhập lưu, Nhất lai, Bất lai, A-la-hán và nghĩa của Sa-môn quả.
-    + #link(<thuat-ngu-duyen-khoi>)[*Duyên khởi và cấu trúc kinh nghiệm:*] xúc, thọ, ái, thủ, năm uẩn và duyên khởi.
-    + #link(<thuat-ngu-phuong-phap>)[*Nhóm pháp và phương pháp thực hành:*] triền cái, giác chi, phong đại, niệm xứ, chỉ-quán, tư (cetanā) cùng tác ý (manasikāra), và ghi nhận.
+    + #link(<thuat-ngu-dao-lo>)[*Đạo lộ và năng lực tâm:*] Tứ Thánh Đế, Bát Chánh Đạo, Năm giới, niệm, tỉnh giác, định và tuệ.
+    + #link(<thuat-ngu-nhap-luu>)[*Nhập lưu, kiết sử và bốn quả:*] tịnh tín, ba kiết sử đầu, năm hạ phần, các quả và Sa-môn quả.
+    + #link(<thuat-ngu-duyen-khoi>)[*Duyên khởi và kinh nghiệm:*] xúc, thọ, ái, thủ, năm uẩn và duyên khởi.
+    + #link(<thuat-ngu-phuong-phap>)[*Phương pháp và các nhóm pháp:*] triền cái, giác chi, phong đại, niệm xứ, chỉ-quán, tư, tác ý và ghi nhận.
 
-    Nếu một từ được dùng để tự xác nhận chứng đắc, hãy đọc lại cả định nghĩa, nguồn và câu giới hạn. Đừng chỉ lấy nhãn Pāli.
+    Các định nghĩa hỗ trợ việc hiểu. Chúng không biến một tên Pāli thành phép xác nhận kinh nghiệm hoặc quả vị.
   ],
   label: [MỤC LỤC THUẬT NGỮ],
 )
 
 == Đạo lộ và năng lực tâm <thuat-ngu-dao-lo>
 
-#term-card(
-  [cattāri ariyasaccāni],
-  [Tứ Thánh Đế, bốn sự thật của bậc Thánh],
-  [K05; K11],
-  [
-    Bốn sự thật là khổ, nguồn gốc của khổ, sự chấm dứt khổ và con đường đưa đến chấm dứt khổ. K05 gắn bốn nhiệm vụ tương ứng: khổ cần được hiểu, nguồn gốc cần được đoạn, sự chấm dứt cần được chứng và con đường cần được tu. Đây không chỉ là bốn mệnh đề để đồng ý bằng trí nhớ.
-  ],
-)
-
+#term-card([cattāri ariyasaccāni], [Tứ Thánh Đế], [K05; K11], [
+  Bốn sự thật: khổ, nguồn sinh khổ, sự chấm dứt khổ và con đường đưa đến chấm dứt khổ. SN 56.11 nêu bốn nhiệm vụ tương ứng: hiểu đầy đủ, đoạn trừ, thực chứng và tu tập. Đồng ý với bốn mệnh đề bằng lời chưa có nghĩa đã hoàn tất bốn nhiệm vụ.
+])
 #v(7pt)
 
-#term-card(
-  [ariya aṭṭhaṅgika magga],
-  [Bát Thánh Đạo, Thánh đạo tám ngành],
-  [K06; K25],
-  [
-    Con đường gồm chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm và chánh định. K06 gọi chính con đường này là “dòng” trong Nhập lưu. Một kỹ thuật ghi nhận hay một đề mục thiền chỉ có thể hỗ trợ vài chi, không tự thay thế toàn bộ đạo lộ.
-  ],
-)
-
+#term-card([ariya aṭṭhaṅgika magga], [Bát Thánh Đạo, Bát Chánh Đạo], [K06; K23; K25], [
+  Tám chi là chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm và chánh định. SN 55.5 gọi chính đạo lộ ấy là dòng. Một đề mục hay kỹ thuật có thể hỗ trợ việc tu, nhưng không thay thế cả con đường.
+])
 #v(7pt)
 
-#term-card(
-  [pañca sīlāni],
-  [Năm giới],
-  [K09; K18],
-  [
-    Năm điều học căn bản của cư sĩ là tránh sát sinh, lấy của không cho, tà hạnh, nói dối và chất say gây buông lung. Chúng là nền bảo vệ hành vi và quan hệ, không phải nghi thức đủ để tự động thanh tịnh. K18 giúp phân biệt giới tránh nói dối với phạm vi chánh ngữ rộng hơn.
-  ],
-)
-
+#term-card([pañca sīlāni], [Năm giới], [K09; K18], [
+  Năm điều học căn bản của cư sĩ: tránh sát sinh, lấy của không cho, tà hạnh trong dục, nói dối và chất say gây buông lung. Trong công thức này, giới thứ tư là tránh nói dối; SN 55.7 nêu rộng hơn với bốn loại lời nói cần tránh. Giữ giới là điều cần được thực hành, không phải một nghi thức bảo đảm thanh tịnh tự động.
+])
 #v(7pt)
 
-#term-card(
-  [sati],
-  [chánh niệm],
-  [K01; K12],
-  [
-    Khả năng giữ điều cần được biết trong tầm chú ý, không quên nhiệm vụ quan sát và nhận ra khi tâm đã rời nó. Trong Niệm xứ, *sati* đi cùng nhiệt tâm và tỉnh giác. Nó không chỉ là thư giãn, cũng không phải thái độ chấp nhận mọi ý nghĩ là đúng.
-  ],
-)
-
+#term-card([sati · sammāsati], [niệm · chánh niệm], [K01; K12; K25], [
+  *Sati* là niệm, có nghĩa liên quan đến ghi nhớ và không quên. Để dùng sách, có thể hiểu là nhớ điều cần được tu tập và giữ hướng nhận biết. Trong Niệm xứ, niệm đi cùng nhiệt tâm và tỉnh giác. *Sammāsati* là chánh niệm, một chi của đạo lộ; không nên gọi mọi lần chú ý hoặc nhớ một việc là đã đầy đủ chánh niệm theo kinh.
+])
 #v(7pt)
 
-#term-card(
-  [sampajañña],
-  [tỉnh giác, biết rõ],
-  [K01],
-  [
-    Sự biết rõ việc đang làm và tình huống hiện tại. Nếu *sati* giúp không quên nhiệm vụ quan sát, *sampajañña* giúp biết rõ mình đang đi, đứng, co hay duỗi. Hai năng lực hỗ trợ nhau nhưng không đồng nghĩa.
-  ],
-)
-
+#term-card([sampajañña], [tỉnh giác, biết rõ], [K01], [
+  Trong phần sinh hoạt thường ngày của MN 10, thuật ngữ gắn với biết rõ khi đi, về, nhìn, co, duỗi, ăn, uống và các hoạt động khác. Cách sách nói “biết việc đang làm và hoàn cảnh” là lời gợi ý để thực hành; tỉnh giác và niệm hỗ trợ nhau nhưng không chỉ là hai từ thay thế.
+])
 #v(7pt)
 
-#term-card(
-  [samādhi],
-  [định, tâm thu nhiếp],
-  [K05; K12; K25],
-  [
-    Sự ổn định và quy tụ của tâm. Trong công thức phân tích Bát Chánh Đạo, K25 định nghĩa chánh định bằng bốn tầng thiền. Một phút dễ chịu hay không có ý nghĩ chưa đủ để gọi là chánh định; định còn phải đứng trong chánh kiến, giới và các chi đạo khác.
-  ],
-)
-
+#term-card([samādhi], [định, tâm quy tụ], [K12; K23; K25], [
+  Sự quy tụ, thu nhiếp của tâm. Riêng chánh định trong SN 45.8 được định nghĩa bằng bốn thiền; MN 117 trình bày chánh định có những chi đạo khác hỗ trợ. Tập trung làm việc, một phút dễ chịu hoặc ít suy nghĩ chưa tự đáp ứng định nghĩa ấy.
+])
 #v(7pt)
 
-#term-card(
-  [paññā],
-  [tuệ, trí thấy đúng],
-  [K05; K17],
-  [
-    Năng lực phân biệt và thấy đúng thực tại theo Pháp, nhất là khổ, nguyên nhân, sự chấm dứt và con đường. *Paññā* không đồng nghĩa với kiến thức thuộc lòng, trải nghiệm lạ hay khả năng diễn giải trạng thái thiền.
-  ],
-)
-
+#term-card([paññā], [tuệ, trí thấy đúng], [K05; K17; K31], [
+  Sự phân biệt và thấy đúng theo Pháp, nhất là về khổ, nguồn sinh, sự chấm dứt và con đường. Đây là cách giải nghĩa trong phạm vi sách; tuệ không đồng nhất với kiến thức thuộc lòng, trải nghiệm lạ hoặc khả năng kể về trạng thái thiền.
+])
 #v(7pt)
 
 == Nhập lưu, kiết sử và bốn quả <thuat-ngu-nhap-luu>
 
-#term-card(
-  [saṃyojana],
-  [kiết sử, trói buộc],
-  [K11; K24],
-  [
-    Mối trói buộc bền chặt giữ hữu tình trong khổ, không phải tên chung cho mọi thói quen xấu. Chương 10 tập trung vào ba kiết sử đầu gắn với Nhập lưu; K24 đặt chúng trong danh mục mười kiết sử rộng hơn.
-  ],
-)
-
+#term-card([saṃyojana], [kiết sử, sự trói buộc], [K11; K24; K36], [
+  Những mối trói được giáo lý phân tích, không phải tên chung cho mọi thói quen xấu. Chương 10 nói về ba kiết sử đầu; Chương 11 đặt chúng trong năm hạ phần và các quả. MN 64 giúp phân biệt khuynh hướng tiềm ẩn với sự biểu hiện; không thấy biểu hiện lúc này chưa chứng minh đã đoạn tận.
+])
 #v(7pt)
 
 #practice-card(
   [Ba kiết sử đầu],
   [
-    Đây là cách gọi chính xác của ba kiết sử gắn trực tiếp với Nhập lưu: thân kiến, hoài nghi và chấp thủ giới-tập tục. Chúng là *ba cái đầu trong nhóm năm hạ phần*, không phải một bảng độc lập thứ hai tên “ba hạ phần kiết sử”.
-
-    Nếu chỉ nhớ một công thức: Nhập lưu đoạn ba kiết sử đầu; Bất lai mới đoạn đủ năm hạ phần. Đọc chương 10 để hiểu sâu từng kiết sử; đọc chương 11 để đặt chúng vào khung 3–5–4.
+    Thân kiến, hoài nghi và chấp thủ giới-tập tục là ba cái đầu trong nhóm năm hạ phần kiết sử. Thêm dục tham và sân thì đủ năm. Nhập lưu đoạn ba kiết sử đầu; Bất lai đoạn cả năm hạ phần. “Ba hạ phần” đôi khi là cách nói tắt, không phải một bảng độc lập khác.
 
     #v(6pt)
-    #source-badge("KINH", refs: [K10; K24])
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu K10; K24])
   ],
   label: [BẢN ĐỒ THUẬT NGỮ],
 )
-
 #v(7pt)
 
-#term-card(
-  [sakkāya-diṭṭhi],
-  [thân kiến],
-  [K20; K17],
-  [
-    Cách nắm một trong năm uẩn là tự ngã, xem tự ngã sở hữu uẩn, xem uẩn nằm trong tự ngã hoặc xem tự ngã nằm trong uẩn. Đoạn thân kiến không đòi xóa mọi cách nói “tôi” trong đời thường và không đồng nghĩa đã tận diệt ngã mạn “tôi là”.
-  ],
-)
-
+#term-card([sakkāya-diṭṭhi], [thân kiến], [K20; K17], [
+  Bốn cách nắm với mỗi uẩn: uẩn là tự ngã; tự ngã sở hữu uẩn; uẩn ở trong tự ngã; tự ngã ở trong uẩn. Năm uẩn và bốn cách thành hai mươi. Đại từ “tôi”, một nỗi lo sức khỏe hoặc chăm sóc bản thân không tự là thân kiến. Đoạn thân kiến cũng không đồng nghĩa đã đoạn ngã mạn “tôi là”.
+])
 #v(7pt)
 
-#term-card(
-  [vicikicchā],
-  [hoài nghi],
-  [K11; K03; K09],
-  [
-    Kiết sử được MN 2 đặt cạnh thân kiến và chấp thủ giới-tập tục. Mặt đối ứng trong các kinh về Nhập lưu là tịnh tín đã được xác chứng và trí thấy duyên khởi. Nó không đồng nghĩa với mọi câu hỏi cẩn trọng, việc kiểm chứng nguồn hoặc sự từ chối phục tùng mù quáng.
-  ],
-)
-
+#term-card([vicikicchā], [hoài nghi], [K11; K03; K08; K09], [
+  MN 2 nêu thuật ngữ trong ba kiết sử đầu. Sách đọc cùng các đoạn về tịnh tín được xác chứng và thấy duyên khởi để giải thích nghi trên trục Phật, Pháp, Tăng và con đường. Đây không phải định nghĩa cho mọi ngữ cảnh của từ, và không đồng nhất với mọi câu hỏi cẩn trọng hoặc việc từ chối phục tùng mù quáng.
+])
 #v(7pt)
 
-#practice-card(
-  [aveccappasāda · tịnh tín đã được xác chứng],
-  [
-    Công thức kinh điển đặt tịnh tín nơi các phẩm chất của Phật, Pháp và cộng đồng Thánh đệ tử, bên cạnh giới hạnh không rạn vỡ. Trong khung của sách, đây là lòng tin đứng trên thấy biết và biểu hiện trong cách sống, không phải sự sùng kính thoáng qua hay nghĩa vụ phục tùng.
-
-    #v(6pt)
-    #source-badge("KINH", refs: [K03; K08; K09; K21])
-
-    #v(6pt)
-
-    “Tăng” trong công thức ấy chỉ cộng đồng Thánh đệ tử được kinh mô tả. Từ đó không thể tự động suy ra rằng mọi tổ chức, người xuất gia hay lời tuyên bố tâm linh đều đã được bảo chứng. Đây là giới hạn suy luận do sách biên soạn.
-
-    #v(6pt)
-    #source-badge("BIÊN SOẠN", refs: [giới hạn suy luận])
-  ],
-  label: [THUẬT NGỮ PĀLI],
-)
-
+#term-card([aveccappasāda], [tịnh tín được xác chứng], [K03; K08; K09; K21], [
+  Công thức kinh đặt tịnh tín nơi Phật, Pháp và cộng đồng Thánh đệ tử, bên cạnh giới hạnh được bậc Thánh quý trọng. Sách phân biệt điều ấy với một thoáng cảm hứng hoặc áp lực phải tin. Từ công thức không thể tự suy ra mọi tổ chức, người xuất gia hay người nhận mình là thầy đều đã được bảo chứng.
+])
 #v(7pt)
 
-#term-card(
-  [sīlabbataparāmāsa],
-  [chấp thủ giới-tập tục],
-  [K11; K08],
-  [
-    Cách nắm giới, tập tục hoặc phương thức thực hành như thể hình thức tự nó đủ thanh tịnh và giải thoát. MN 2 chỉ nêu tên kiết sử ở đoạn này, nên lời giải thích ngắn không phải định nghĩa đầy đủ. Đoạn kiết sử không có nghĩa bỏ giới; Gương Pháp vẫn nêu giới hạnh không rạn vỡ.
-  ],
-)
-
+#term-card([sīlabbataparāmāsa], [giới cấm thủ, chấp thủ giới-tập tục], [K11; K08; K38], [
+  Một cách giải nghĩa để đọc là nắm giới, tập tục hoặc lối thực hành như thể riêng hình thức ấy đủ đem đến thanh tịnh và giải thoát. Đây là lời giải thích có giới hạn của sách, không phải định nghĩa nguyên văn đầy đủ tại câu MN 2. Đoạn kiết sử này không có nghĩa bỏ giới; Gương Pháp vẫn nêu giới hạnh vững chắc.
+])
 #v(7pt)
 
-#term-card(
-  [orambhāgiya-saṃyojana],
-  [năm hạ phần kiết sử],
-  [K10; K24],
-  [
-    Năm trói buộc gồm ba kiết sử đầu cộng với dục tham và sân. Nhập lưu đoạn ba cái đầu; Nhất lai làm mỏng tham, sân, si; Bất lai đoạn trọn năm. “Hạ phần” không có nghĩa đây là năm lỗi nhẹ hoặc dễ bỏ.
-  ],
-)
-
+#term-card([orambhāgiya-saṃyojana], [hạ phần kiết sử], [K10; K24], [
+  Nhóm năm gồm thân kiến, hoài nghi, giới cấm thủ, dục tham và sân. Nhập lưu đoạn ba cái đầu; Nhất lai đoạn ba cái ấy và làm mỏng tham, sân, si; Bất lai đoạn cả năm. “Hạ phần” không có nghĩa đây là những lỗi nhẹ hoặc dễ bỏ.
+])
 #v(7pt)
 
-#term-card(
-  [kāmacchanda · kāmarāga],
-  [dục tham, sự trói buộc bởi dục giác quan],
-  [K24; K36; K37],
-  [
-    AN 10.13 và phần liệt kê đầu MN 64 dùng *kāmacchanda*; MN 64 cũng dùng *kāmarāga* khi mô tả trạng thái đang chi phối tâm. Sách gom hai cách dùng này dưới từ Việt “dục tham” trong bản đồ năm hạ phần. Một đối tượng giác quan, thọ dễ chịu hay lựa chọn tiện nghi chưa tự là kiết sử; SN 41.1 đặt mối trói ở dục và tham sinh lên dựa vào sự gặp gỡ giữa giác quan và đối tượng.
-  ],
-)
-
+#term-card([kāmacchanda · kāmarāga], [dục tham], [K24; K36; K37], [
+  AN 10.13 và phần đầu MN 64 dùng kāmacchanda; MN 64 cũng dùng kāmarāga khi mô tả tâm bị chi phối. Sách giải thích các cách dùng này theo ngữ cảnh, không coi hai từ thay thế tuyệt đối ở mọi nơi. Một đối tượng giác quan hoặc thọ dễ chịu chưa tự là kiết sử; SN 41.1 đặt mối trói ở dục và tham nương sự gặp gỡ giữa căn với cảnh.
+])
 #v(7pt)
 
-#term-card(
-  [byāpāda],
-  [sân, ác ý],
-  [K24; K36],
-  [
-    Mối trói mang hướng chống đối thù nghịch và gây hại trong nhóm năm hạ phần. Thọ khó chịu, nhận ra nguy hiểm, rời khỏi nơi bị bạo hành hoặc đặt một ranh giới chắc chắn chưa tự là *byāpāda*. Một phản ứng đơn lẻ cũng không đủ xác định mối trói đang hiện hành hay đã được đoạn.
-  ],
-)
-
+#term-card([byāpāda], [sân, ác ý], [K24; K36], [
+  Chiều thù nghịch, ác ý trong nhóm hạ phần kiết sử. Thọ khó chịu, nhận ra nguy hiểm hoặc đặt ranh giới không gây hại chưa tự là byāpāda. Một hành vi mơ hồ cần được hiểu thêm; nhưng nếu ác ý thực sự còn có mặt thì không phù hợp với tuyên bố đã đoạn tận sân. Sự thận trọng không xóa tiêu chuẩn của giáo lý.
+])
 #v(7pt)
 
-#term-card(
-  [magga · phala],
-  [đạo · quả],
-  [K32; K33; K39],
-  [
-    Trong nghĩa căn bản của chương 11, *đạo* là đường tu và *quả* là kết quả đã thành tựu. SN 45.35 xác định Bát Chánh Đạo là đời sống Sa-môn rồi nêu bốn quả. Ud 5.5 và SN 48.18 còn phân biệt người đang thực hành để chứng một quả với người đã thành tựu quả ấy. Cách phân tích đạo-quả theo chuỗi sát-na ở chương 13 thuộc hệ thống luận giải Theravāda; không được tự động gán cho mọi cách dùng hai từ trong các bài kinh Nikāya.
-  ],
-)
-
+#term-card([magga · phala], [đạo · quả], [K32; K33; K39], [
+  Theo nghĩa chung của Chương 11, đạo là đường tu và quả là thành tựu. SN 45.35 xác định Bát Chánh Đạo là đời sống Sa-môn rồi nêu bốn quả. Ud 5.5 và SN 48.18 phân biệt người thực hành để chứng một quả với người đã thành tựu. Phân tích đạo-quả theo chuỗi sát-na ở Chương 13 thuộc hệ thống luận giải; không tự động áp dụng nghĩa ấy cho mọi câu kinh có hai từ này.
+])
 #v(7pt)
 
 #practice-card(
-  [Tên quả khác tên người thành tựu quả],
+  [Tên quả khác tên người thành tựu],
   [
-    Bốn *quả* là quả Nhập lưu (*sotāpattiphala*), quả Nhất lai (*sakadāgāmiphala*), quả Bất lai (*anāgāmiphala*) và quả A-la-hán (*arahattaphala*).
+    Tên bốn quả là sotāpattiphala, sakadāgāmiphala, anāgāmiphala và arahattaphala.
 
-    Tên Pāli của *người* thành tựu các quả ấy lần lượt là *sotāpanna, sakadāgāmī, anāgāmī* và *arahant*. Vì vậy, *sotāpanna* chỉ người Nhập lưu, không phải tên Pāli của quả Nhập lưu. Phân biệt dạng từ giúp tra cứu chính xác; nó không tạo thêm bốn quả mới.
+    Tên người thành tựu lần lượt là sotāpanna, sakadāgāmī, anāgāmī và arahant. Phân biệt dạng từ giúp tra cứu; không tạo thêm bốn quả khác.
 
     #v(6pt)
-    #source-badge("KINH", refs: [K32])
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu K32; K33])
   ],
   label: [BẢN ĐỒ THUẬT NGỮ],
 )
-
 #v(7pt)
 
-#term-card(
-  [sāmaññaphala],
-  [Sa-môn quả, quả của đời sống Sa-môn],
-  [K32; K34; K40],
-  [
-    Tùy ngữ cảnh, cụm này có hai phạm vi. SN 45.35 xác định Bát Chánh Đạo là đời sống Sa-môn rồi nêu bốn quả giải thoát: Nhập lưu, Nhất lai, Bất lai và A-la-hán; SN 45.36 gọi đoạn tận tham, sân, si là đích của đời sống ấy. Trong DN 2, cụm này nằm trong tựa một bài kinh hỏi rộng hơn về các kết quả có thể thấy của đời sống xuất gia, rồi triển khai cả một lộ trình huấn luyện đi đến đoạn tận lậu hoặc. Vì vậy, “bốn quả Sa-môn” và “Kinh Sa-môn quả” có liên hệ nhưng không đồng nghĩa hoàn toàn.
-  ],
-)
-
+#term-card([sāmaññaphala], [Sa-môn quả], [K32; K34; K40], [
+  Cụm từ được dùng theo ngữ cảnh. SN 45.35 nêu bốn quả giải thoát; SN 45.36 nói đích của đời sống Sa-môn là đoạn tham, sân, si. Trong DN 2, tên Kinh Sa-môn quả gắn với câu hỏi rộng về kết quả có thể thấy của đời sống xuất gia và tiến trình huấn luyện đến đoạn lậu hoặc. “Bốn quả Sa-môn” và tên bài DN 2 có liên hệ nhưng không đồng nghĩa hoàn toàn.
+])
 #v(7pt)
 
-#term-card(
-  [sotāpanna],
-  [bậc Nhập lưu, Dự lưu],
-  [K03; K06; K08; K10],
-  [
-    Người đã bước vào dòng Thánh đạo, đoạn tận ba kiết sử đầu và có những phẩm chất được kinh mô tả về tịnh tín cùng giới hạnh. Đây là một thành tựu xác định trong giáo pháp, không phải tên đẹp cho người mới hành thiền, người sống bình tĩnh hơn hay người vừa có một kinh nghiệm mạnh.
-  ],
-)
-
+#term-card([sotāpanna], [bậc Nhập lưu, Dự lưu], [K03; K06; K08; K10], [
+  Người đã vào dòng Thánh đạo, đoạn ba kiết sử đầu và có những phẩm chất được kinh nêu. Đây là thành tựu xác định trong giáo pháp, không phải tên gọi chung cho người mới tập, người sống bình tĩnh hơn hoặc người có kinh nghiệm mạnh.
+])
 #v(7pt)
 
-#term-card(
-  [sakadāgāmī],
-  [Nhất lai],
-  [K10; K32],
-  [
-    Bậc đã đoạn ba kiết sử đầu và làm mỏng tham, sân, si; theo khung tái sinh của kinh, chỉ trở lại thế giới này một lần nữa rồi chấm dứt khổ. “Làm mỏng” không có nghĩa dục tham và sân đã được đoạn như ở Bất lai.
-  ],
-)
-
+#term-card([sakadāgāmī], [bậc Nhất lai], [K10; K32], [
+  Người đã đoạn ba kiết sử đầu và làm mỏng tham, sân, si; theo khung tái sinh của kinh, trở lại thế giới này một lần nữa rồi chấm dứt khổ. Làm mỏng không đồng nghĩa đoạn dục tham và sân như ở Bất lai.
+])
 #v(7pt)
 
-#term-card(
-  [anāgāmī],
-  [Bất lai, Bất hoàn],
-  [K08; K10; K24; K32],
-  [
-    Bậc đã đoạn năm hạ phần kiết sử. Đoạn Ñātika của DN 16 nói vị ấy hóa sinh, đạt giải thoát hoàn toàn tại cảnh giới ấy và không trở lại từ đó. Sách giữ câu hẹp ấy thay vì mở rộng thành một mệnh đề về toàn bộ vũ trụ quan. Sự tạm lắng của dục hay sân trong định không đủ để xác nhận quả.
-  ],
-)
-
+#term-card([anāgāmī], [bậc Bất lai, Bất hoàn], [K08; K10; K24; K32], [
+  Người đã đoạn năm hạ phần kiết sử. Đoạn Ñātika trong DN 16 nói vị ấy hóa sinh, đạt giải thoát hoàn toàn tại đó và không trở lại từ cảnh giới ấy. Một thời gian tạm lắng của dục hoặc sân không đủ xác nhận thành tựu này.
+])
 #v(7pt)
 
-#term-card(
-  [āsava],
-  [lậu hoặc],
-  [K11; K34],
-  [
-    Thuật ngữ chỉ nhóm ô nhiễm mà các bài kinh nói cần được đoạn tận. MN 2 nêu lậu hoặc của dục, hữu và vô minh, rồi tổ chức việc đoạn chúng theo bảy cách: thấy, phòng hộ, thọ dụng, kham nhẫn, tránh né, trừ bỏ và tu tập. DN 2 cũng nêu ba lậu hoặc ấy và kết thúc tiến trình huấn luyện bằng tri kiến rằng chúng đã chấm dứt. Trong sách này, “đoạn tận lậu hoặc” là tiêu chuẩn kinh dùng khi nói về A-la-hán; nó rộng hơn việc chỉ đếm đủ năm hạ phần kiết sử, và hai danh mục không được xem là một.
-  ],
-)
-
+#term-card([āsava], [lậu hoặc], [K11; K34], [
+  Nhóm ô nhiễm cần được đoạn tận; MN 2 và DN 2 nêu dục, hữu và vô minh. MN 2 trình bày bảy cách đoạn: thấy, phòng hộ, thọ dụng, kham nhẫn, tránh né, trừ bỏ và tu tập. Đoạn tận lậu hoặc là tiêu chuẩn kinh dùng ở thành tựu A-la-hán, không đồng nghĩa chỉ đoạn đủ năm hạ phần kiết sử. Đây là hai hệ phân tích khác nhau.
+])
 #v(7pt)
 
-#term-card(
-  [arahant],
-  [A-la-hán],
-  [K10; K11; K32; K34],
-  [
-    Bậc đã đoạn tận các lậu hoặc và hoàn tất công việc giải thoát trong khung giáo lý của kinh. Đây là quả cuối trong bốn quả Sa-môn, không phải nhãn chung cho người ngồi thiền lâu năm.
-  ],
-)
-
+#term-card([arahant], [bậc A-la-hán], [K10; K11; K32; K34], [
+  Người đã đoạn tận các lậu hoặc, hoàn tất việc giải thoát trong khung giáo lý của kinh. Tên quả tương ứng là arahattaphala, quả A-la-hán, quả cuối trong bốn quả Sa-môn. Arahant chỉ người thành tựu, không phải tên Pāli của chính quả và không phải tên chung cho người hành thiền lâu năm.
+])
 #v(7pt)
 
 == Duyên khởi và cấu trúc kinh nghiệm <thuat-ngu-duyen-khoi>
 
-#term-card(
-  [phassa],
-  [xúc, sự tiếp xúc],
-  [K26; K27],
-  [
-    Sự gặp nhau của một căn, đối tượng tương ứng và thức biết đối tượng ấy. Chẳng hạn, mắt, hình ảnh và nhãn thức gặp nhau thì có nhãn xúc. Xúc là điều kiện cho thọ; nó không chỉ có nghĩa chạm da và cũng chưa phải toàn bộ cảm xúc.
-  ],
-)
-
+#term-card([phassa], [xúc, tiếp xúc], [K26; K27], [
+  Sự gặp nhau của căn, cảnh tương ứng và thức. Chẳng hạn mắt, hình sắc và nhãn thức gặp nhau thì có nhãn xúc. Xúc làm duyên cho thọ; nó không chỉ là chạm da hoặc toàn bộ một cảm xúc.
+])
 #v(7pt)
 
-#term-card(
-  [vedanā],
-  [thọ],
-  [K01; K19],
-  [
-    Sắc thái dễ chịu, khó chịu hoặc trung tính sinh trên nền tiếp xúc. *Vedanā* không phải toàn bộ cảm xúc. Một cơn giận có thể gồm thọ khó chịu, nóng nơi thân, nhận diện một người, ký ức, ý nghĩ và ý muốn đáp trả.
-  ],
-)
-
+#term-card([vedanā], [thọ], [K01; K19; K30], [
+  Sắc thái dễ chịu, khó chịu hoặc không dễ chịu cũng không khó chịu. Thọ sinh do xúc, không phải toàn bộ cảm xúc. Một cơn giận có thể có thọ khó chịu, nóng nơi thân, sự nhận ra, ký ức, ý nghĩ và ý muốn đáp trả. Sāmisa và nirāmisa không đơn giản có nghĩa thọ ở thân và thọ ở tâm; xem Chương 3.
+])
 #v(7pt)
 
-#term-card(
-  [taṇhā],
-  [ái, khát ái],
-  [K20; K26; K27; K31],
-  [
-    Sự khát muốn hướng tới khoái lạc giác quan, tiếp tục hiện hữu hoặc không hiện hữu; K26 cũng phân loại ái theo sáu loại đối tượng giác quan. Trong chuỗi thực hành, ái là lực nghiêng tới kéo dài điều dễ chịu, xua điều khó chịu hoặc giữ một kết quả. Nó sinh tùy duyên từ thọ nhưng không đồng nhất với thọ.
-  ],
-)
+#term-card([taṇhā], [ái, tham ái], [K05; K26; K44], [
+  SN 56.11 nêu tham ái đưa đến tái sinh, đi cùng thích thú và đắm trước, gồm dục ái, hữu ái và phi hữu ái. SN 12.2 còn phân theo sáu loại đối tượng. Ái liên hệ với thọ nhưng không đồng nhất với thọ, và không phải mọi mong muốn đều là ái.
 
+  Muốn chữa bệnh, rời nơi bị hại hoặc kết thúc một việc khó chịu chưa đủ để gọi là phi hữu ái. Iti 49 giúp đọc ý muốn không hiện hữu trong bối cảnh rộng hơn, gồm quan điểm tự ngã bị hủy diệt sau khi chết. Chương 12 giải thích ba loại ái và phân biệt mong muốn thiện lành.
+])
 #v(7pt)
 
-#term-card(
-  [upādāna],
-  [thủ, chấp thủ],
-  [K26; K27; K29],
-  [
-    Sự nắm giữ được K26 chia thành bốn loại: chấp dục, chấp kiến, chấp giới-tập tục và chấp học thuyết về tự ngã. Nếu ái là lực khát muốn, thủ là lúc tâm bấu chặt và tổ chức kinh nghiệm quanh điều ấy. Đây là cách phân biệt làm việc để đọc chuỗi, không phải hai hiện tượng luôn tách thành hai khoảnh khắc dễ nhận ra.
-  ],
-)
-
+#term-card([upādāna], [thủ, chấp thủ], [K20; K26; K27], [
+  SN 12.2 nêu bốn loại: dục thủ, kiến thủ, giới cấm thủ và ngã luận thủ. Nói gần nghĩa là sự nắm giữ dục, quan điểm, giới và lối thực hành, học thuyết về tự ngã. Sách dùng hình ảnh khát muốn và nắm chặt để phân biệt ái với thủ; không nói chúng luôn là hai khoảnh khắc dễ tách bằng đồng hồ.
+])
 #v(7pt)
 
-#term-card(
-  [khandha],
-  [uẩn, nhóm kinh nghiệm],
-  [K20],
-  [
-    Năm nhóm được kinh dùng để phân tích kinh nghiệm là sắc, thọ, tưởng, hành và thức. “Uẩn” không phải năm vật nằm tách rời trong người. Trong phần nói về thân kiến, điểm cần thấy là cách tâm nắm một uẩn như tự ngã, thuộc về tự ngã, nằm trong tự ngã hoặc chứa tự ngã.
-  ],
-)
-
+#term-card([khandha], [uẩn, nhóm hiện tượng], [K20; K35], [
+  Năm uẩn là sắc, thọ, tưởng, hành và thức. Không phải năm vật tách biệt nằm trong người. Để hiểu thân kiến, cần xem bốn quan hệ giữa mỗi uẩn với tự ngã trong MN 44, không chỉ việc một cảm giác có đổi hay không.
+])
 #v(7pt)
 
-#practice-card(
-  [paṭiccasamuppāda · duyên khởi],
-  [
-    Sự sinh và diệt của khổ tùy thuộc điều kiện. K26 nêu chuỗi chuẩn từ vô minh đến già chết; K27 triển khai đoạn sáu cửa, xúc, thọ, ái và khổ. “Có điều kiện” không có nghĩa một nguyên nhân đơn độc tất định mọi việc, cũng không cho phép thu toàn bộ giáo lý thành vài mili-giây tâm lý.
-
-    #v(6pt)
-    #source-badge("KINH", refs: [K26; K27])
-  ],
-  label: [THUẬT NGỮ PĀLI],
-)
-
+#term-card([paṭiccasamuppāda], [duyên khởi], [K26; K27], [
+  Sự sinh khởi tùy thuộc điều kiện; các bài được dẫn cũng trình bày chiều đoạn diệt. SN 12.2 nêu chuỗi từ vô minh đến già chết; SN 12.44 triển khai từ sáu cửa. Ví dụ phản ứng trong hiện tại chỉ làm rõ một phần, không thu hữu, sinh và già chết thành vài giây tâm lý.
+])
 #v(7pt)
 
 == Nhóm pháp và phương pháp thực hành <thuat-ngu-phuong-phap>
 
-#practice-card(
-  [nīvaraṇa và bojjhaṅga · triền cái và giác chi],
-  [
-    *Năm triền cái* là những nhóm trạng thái cản sự sáng rõ: tham dục, sân, hôn trầm-thụy miên, trạo cử-hối và hoài nghi. *Bảy giác chi* là những phẩm chất cần nuôi và cân bằng: niệm, trạch pháp, tinh tấn, hỷ, khinh an, định và xả. Chúng không chỉ là “tâm xấu” và “tâm tốt”; MN 10 yêu cầu biết sự có mặt, vắng mặt, điều kiện sinh và cách phát triển hay đoạn trừ.
-
-    #v(6pt)
-    #source-badge("KINH", refs: [K01; K13])
-  ],
-  label: [CẶP THUẬT NGỮ],
-)
-
+#term-card([nīvaraṇa · bojjhaṅga], [triền cái · giác chi], [K01; K13; K22], [
+  Năm triền cái: tham dục, sân, hôn trầm-thụy miên, trạo cử-hối và hoài nghi. Bảy giác chi: niệm, trạch pháp, tinh tấn, hỷ, khinh an, định và xả. MN 10 dạy biết có mặt, vắng mặt và những điều kiện liên hệ đến đoạn trừ hoặc phát triển. Chương 6 giúp đọc các từ khó; một ngày mệt hoặc một câu hỏi chưa tự xác định triền cái.
+])
 #v(7pt)
 
-#practice-card(
-  [vāyo-dhātu · phong đại, yếu tố chuyển động],
-  [
-    Trong P02, đây là cách gọi truyền thống cho nét cứng đỡ, rung, đẩy, kéo và chuyển động được cảm nhận nơi bụng khi thở. Đối tượng là cảm giác chuyển động, không phải một luồng khí tưởng tượng và cũng không đồng nhất với chữ “phồng, xẹp”.
-
-    #v(6pt)
-    #source-badge("MAHĀSI", refs: [P02])
-  ],
-  label: [THUẬT NGỮ DÒNG THIỀN],
-)
-
+#term-card([vāyo-dhātu], [phong đại, yếu tố chuyển động], [P02], [
+  P02 trình bày đề mục bụng theo những nét như sự nâng đỡ, căng và chuyển động được biết qua thân. Thuật ngữ thuộc hệ phân tích truyền thống, không phải lời khẳng định về một luồng khí vô hình. Cảm nhận đang có cần được phân biệt với chữ “phồng, xẹp” và điều mình tưởng tượng phải cảm thấy.
+])
 #v(7pt)
 
-#practice-card(
-  [satipaṭṭhāna · niệm xứ],
-  [
-    Sự thiết lập hay nền tảng của chánh niệm trên bốn lĩnh vực: thân, thọ, tâm và pháp. K01 mô tả từng lĩnh vực và điệp khúc quán sự sinh, diệt. “Niệm xứ” không đồng nghĩa với riêng kỹ thuật ghi nhãn.
-
-    #v(6pt)
-    #source-badge("KINH", refs: [K01])
-  ],
-  label: [THUẬT NGỮ PĀLI],
-)
-
+#term-card([satipaṭṭhāna], [niệm xứ], [K01], [
+  Thường được diễn đạt là sự thiết lập hoặc nền tảng của chánh niệm đối với thân, thọ, tâm và pháp. MN 10 trình bày cụ thể từng lĩnh vực, cùng các điệp khúc về sinh, diệt và không chấp thủ. Niệm xứ không đồng nghĩa riêng kỹ thuật ghi nhãn.
+])
 #v(7pt)
 
-#practice-card(
-  [samatha và vipassanā · chỉ và quán],
-  [
-    *Samatha* chỉ sự lắng dịu, ổn định của tâm. *Vipassanā* chỉ sự thấy rõ đặc tính và điều kiện của kinh nghiệm. K16 cho thấy nhiều cách hai mặt tu tập này được phát triển. Không nên dựng chúng thành hai phe loại trừ nhau.
-
-    #v(6pt)
-    #source-badge("KINH", refs: [K16])
-  ],
-  label: [CẶP THUẬT NGỮ],
-)
-
+#term-card([samatha · vipassanā], [chỉ · quán], [K16; V01; P02], [
+  Chỉ liên quan đến tâm lắng dịu, ổn định; quán liên quan đến thấy rõ. AN 4.170 ghi lời Tôn giả Ānanda về những trình tự phát triển khác nhau. Cách nói này là lời giải nghĩa để đọc; phần hệ thống hóa trong Thanh Tịnh Đạo và Mahāsi cần được giữ đúng tầng nguồn.
+])
 #v(7pt)
 
-#term-card(
-  [cetanā và manasikāra],
-  [tư, ý định và tác ý],
-  [K02; K19],
-  [
-    *Cetanā* là tư hay ý định; K19 dùng từ này khi định nghĩa nghiệp. *Manasikāra* là sự hướng tâm hoặc tác ý; trong cụm *yoniso manasikāra*, nó chỉ như lý tác ý. Một số bản dịch Việt dùng “tác ý” cho cả hai, nhưng hai thuật ngữ không đồng nghĩa.
-  ],
-)
-
+#term-card([cetanā · manasikāra], [tư, ý định · tác ý], [K02; K19; K26], [
+  Cetanā là tư hay ý định; AN 6.63 dùng từ ấy khi định nghĩa nghiệp. Manasikāra là hướng tâm, tác ý; yoniso manasikāra thường dịch là như lý tác ý. Một số bản Việt dùng “tác ý” cho cả hai, nên cần đối chiếu từ gốc và ngữ cảnh, không mặc nhiên xem chúng đồng nghĩa.
+])
 #v(7pt)
 
-#practice-card(
-  [noting · ghi nhận trong tâm],
-  [
-    Quy ước nhận biết ngắn như “phồng”, “nghe” hoặc “nghĩ” để hỗ trợ bám sát hiện tượng. P01 dạy ghi nhận trong tâm nhưng dặn không đọc thành tiếng hay nghĩ về “phồng, xẹp” như những từ cần lặp. Kỹ thuật này nổi bật trong dòng Mahāsi; bảng nhãn tiếng Việt ở Phụ lục B do sách biên soạn, không nằm nguyên dạng trong K01 hay P01.
-
-    #v(6pt)
-    #source-badge("MAHĀSI", refs: [P01])
-    #h(4pt)
-    #source-badge("BIÊN SOẠN")
-  ],
-  label: [PHƯƠNG PHÁP],
-)
-
+#term-card([noting], [ghi nhận trong tâm], [P01; Phụ lục B], [
+  Cách dùng nhãn ngắn như “phồng”, “nghe”, “nghĩ” để hỗ trợ nhận biết trong phương pháp Mahāsi. P01 dặn không đọc thành tiếng hay tụng lặp từ. Bảng nhãn Việt do sách biên soạn, không nằm nguyên dạng trong MN 10. Nhận ra muộn vẫn có thể trở về; không cần dựng lại trình tự chưa biết hoặc ghi nhãn trước khi xử lý nguy hiểm.
+])
 #v(8pt)
 
 #caution(
-  [Đừng dùng thuật ngữ để nâng cấp kinh nghiệm],
+  [Khi chưa chắc tên, giữ mô tả gần điều đã biết],
   [
-    Một trải nghiệm chỉ nên mang tên Pāli khi định nghĩa và bối cảnh thật sự khớp. Nếu chưa chắc, hãy mô tả điều đã xảy ra bằng ngôn ngữ thường: cảm giác, thời lượng, điều kiện trước đó và ảnh hưởng lên hành vi.
+    Có thể ghi cảm giác, hoàn cảnh, thời lượng và tác động lên sinh hoạt bằng lời thường. Một thuật ngữ chỉ giúp khi dùng đúng nghĩa. Không cần nâng trải nghiệm thành một tên tuệ, cũng không cần tự kết án vì chưa biết gọi nó là gì.
   ],
 )

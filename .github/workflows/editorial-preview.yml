@@ -1,0 +1,107 @@
+name: Editorial preview
+
+# A preview is not a release. The publication workflow remains authoritative.
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "book/**"
+      - "scripts/**"
+      - "tests/**"
+      - ".github/workflows/editorial-preview.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: editorial-preview-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  preview:
+    name: Build editorial preview (not a release)
+    runs-on: macos-15
+    timeout-minutes: 15
+    env:
+      PYTHONUTF8: "1"
+      TYPST_IGNORE_SYSTEM_FONTS: "true"
+      TYPST_FONT_PATHS: ${{ github.workspace }}/build/ci-tools/inter/extras/otf
+    steps:
+      - name: Check out source without persistent credentials
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Record the exact source under review
+        run: |
+          mkdir -p editorial-preview
+          git rev-parse HEAD > editorial-preview/source-commit.txt
+          printf '%s\n' 'EDITORIAL PREVIEW ONLY. Not a published edition or external validation.' > editorial-preview/README.txt
+          git archive --format=zip --output=editorial-preview/source.zip HEAD -- \
+            .github book scripts tests ci AGENTS.md SKILL.md EDITORIAL_POLICY.md README.md \
+            con-duong-niem-xu-mahasi-hop-nhat.md
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: "3.13"
+
+      - name: Install PDF inspection tools
+        run: brew install poppler
+
+      - name: Install the existing pinned Typst and font toolchain
+        env:
+          TYPST_SHA256: fe53838737abf93a774495952a1a797b4686e9c4a21c2d99b9fdf77f46cc3572
+          INTER_SHA256: ff970a5d4561a04f102a7cb781adbd6ac4e9b6c460914c7a101f15acb7f7d1a4
+        run: |
+          mkdir -p build/ci-tools
+          cd build/ci-tools
+          curl --fail --silent --show-error --location \
+            https://github.com/typst/typst/releases/download/v0.15.0/typst-aarch64-apple-darwin.tar.xz \
+            --output typst.tar.xz
+          printf '%s  %s\n' "$TYPST_SHA256" typst.tar.xz | shasum -a 256 --check
+          tar -xJf typst.tar.xz
+          curl --fail --silent --show-error --location \
+            https://github.com/rsms/inter/releases/download/v4.0/Inter-4.0.zip \
+            --output inter.zip
+          printf '%s  %s\n' "$INTER_SHA256" inter.zip | shasum -a 256 --check
+          unzip -q inter.zip -d inter
+          echo "$GITHUB_WORKSPACE/build/ci-tools/typst-aarch64-apple-darwin" >> "$GITHUB_PATH"
+
+      - name: Build PDF and EPUB with structural checks
+        run: |
+          set -o pipefail
+          python scripts/build-epub.py 2>&1 | tee editorial-preview/build.log
+          cp dist/huong-den-nhap-luu.pdf editorial-preview/
+          cp dist/huong-den-nhap-luu.epub editorial-preview/
+          shasum -a 256 editorial-preview/*.pdf editorial-preview/*.epub > editorial-preview/SHA256SUMS.txt
+
+      - name: Install pinned Python test dependencies
+        id: dependencies
+        run: |
+          python -m pip install --disable-pip-version-check --only-binary=:all: \
+            --require-hashes --requirement ci/requirements.txt
+
+      - name: Run the complete regression suite
+        run: |
+          set -o pipefail
+          python -m unittest discover -s tests -p 'test_*.py' 2>&1 | tee editorial-preview/tests.log
+
+      - name: Check syntax and lint independently
+        if: always() && steps.dependencies.outcome == 'success'
+        run: |
+          set -o pipefail
+          ruff check scripts tests 2>&1 | tee editorial-preview/lint.log
+          python -m compileall -q scripts tests
+          git diff --check
+          printf '%s\n' 'compileall and git diff --check passed' >> editorial-preview/lint.log
+
+      - name: Save bounded preview evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: editorial-preview-${{ github.sha }}
+          path: editorial-preview/
+          if-no-files-found: error
+          retention-days: 7

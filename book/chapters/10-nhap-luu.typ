@@ -3,140 +3,132 @@
 #chapter(
   [10],
   [Ba kiết sử đầu: hướng về Nhập lưu],
-  [Muốn hiểu Nhập lưu, đừng bắt đầu bằng một kinh nghiệm lạ. Hãy hiểu sâu ba mối trói được kinh nói là phải đoạn: thân kiến, hoài nghi và chấp thủ giới-tập tục.],
+  [Nhập lưu được kinh trình bày bằng đạo lộ, sự đoạn ba kiết sử đầu và những phẩm chất đã đứng vững. Chương này giúp hiểu các tiêu chuẩn ấy, đồng thời phân biệt chúng với những trải nghiệm hoặc hành vi chưa đủ để kết luận.],
   provenance: [
-    #source-badge("KINH", refs: [K02; K05; K06; K08; K09; K10; K11; K17])
+    #source-badge("KINH", refs: [K02; K05; K06; K08–K11; K17; K20; K21; K24; K35; K36; K38; K41])
     #h(4pt)
-    #source-badge("KINH", refs: [K20; K21; K24; K35; K36; K38; K41])
-    #h(4pt)
-    #source-badge("BIÊN SOẠN")
+    #source-badge("BIÊN SOẠN", refs: [giải thích, so sánh và bài tập])
   ],
 )
 
-Từ “dòng” dễ gợi một luồng năng lượng hay một khoảnh khắc ý thức đứt đoạn. Kinh định nghĩa khác. Nhập lưu không chỉ là một trạng thái đã xảy ra trên tọa cụ. Điều cần nhìn là đạo lộ người ấy đã đi vào, ba mối trói nào đã rơi, và các phẩm chất nào đã đứng vững trong cách thấy cùng cách sống.
+Có thể ta đến với việc tu vì muốn bớt bị khổ kéo đi. Khi đọc về Nhập lưu, một câu hỏi khác xuất hiện: có sự chuyển hóa nào sâu hơn một thời gian bình tĩnh, đến mức hướng đi không còn như trước? Kinh trả lời bằng những tiêu chuẩn cụ thể. Điều cần học không chỉ là cảm giác đã xảy ra trong một buổi ngồi, mà là con đường người ấy đã đi vào, mối trói nào đã được đoạn và phẩm chất nào đã được xác chứng.
 
 #scripture-quote(
   [Quả Dự lưu vượt hơn ngôi vua độc tôn trên toàn cõi đất, vượt hơn việc đi đến cõi trời, vượt hơn cả quyền làm chủ mọi thế giới.],
-  [“Pathabyā ekarajjena, saggassa gamanena vā; sabbalokādhipaccena, sotāpattiphalaṁ varaṁ.” Pháp Cú 178, Phẩm Thế Gian. Bản dịch sát nghĩa của sách từ Pāli; xem K41.],
+  [“Pathabyā ekarajjena, saggassa gamanena vā; sabbalokādhipaccena, sotāpattiphalaṁ varaṁ.” Pháp Cú 178. Bản sách dịch từ Pāli; xem K41.],
 )
 
-Đây là câu kệ thuộc Kinh Pháp Cú, văn bản kinh điển được truyền thống Theravāda quy về Đức Phật. Câu chuyện thường được kể để dẫn vào kệ nằm trong chú giải về sau, nên sách không dùng câu chuyện ấy làm bằng chứng cho hoàn cảnh thuyết giảng. Bản thân câu kệ cũng không hứa rằng ham muốn chứng quả sẽ đưa một người đến quả ấy. Nó đặt một thước đo dứt khoát hơn: ngay cả quyền lực lớn nhất và phước báo cõi trời cũng không sánh bằng bước vào dòng giải thoát. Vì giá trị được nói mạnh đến thế, tiêu chuẩn càng phải được giữ nghiêm. Cuốn sách sẽ không lấy cảm giác lạ, ánh sáng, hỷ lạc, thời lượng khóa thiền hay lời xác nhận đơn lẻ thay cho các tiêu chuẩn kinh nêu.
+Câu kệ thuộc Pháp Cú trong kinh điển Pāli mà truyền thống Theravāda quy về Đức Phật. Câu chuyện nền thường kể cùng kệ thuộc chú giải về sau; sách không dùng câu chuyện ấy làm bằng chứng cho hoàn cảnh thuyết giảng. Giá trị lớn của quả được kệ nêu không phải lời hứa rằng chỉ cần mong đạt sẽ đạt. Nó là lý do để học tiêu chuẩn cẩn thận, không lấy ánh sáng, hỷ lạc, thời lượng hoặc một lời xác nhận riêng lẻ thay thế.
 
-Chương này chỉ giữ một trục: *ba kiết sử đầu*. Đây là ba cái đầu trong nhóm năm hạ phần kiết sử, thường được gọi gọn trong lời giảng là “ba hạ phần kiết sử”. Chương 11 mới đặt chúng vào toàn bộ nhóm năm và bốn quả Sa-môn. Tách hai việc ra giúp người mới hiểu từng mối trói trước khi học bảng phân loại.
+Trục của chương này là *ba kiết sử đầu*: thân kiến, hoài nghi và chấp thủ giới-tập tục, thường gọi là giới cấm thủ. Chúng là ba cái đầu trong nhóm năm hạ phần kiết sử. Chương 11 sẽ nối phần này với dục tham, sân và toàn bộ bốn quả Sa-môn.
 
 #practice-card(
-  [Sau chương này, bạn cần làm được bốn việc],
+  [Bốn điều để hiểu sau khi đọc],
   [
-    + Nói được mỗi kiết sử bằng một câu bình thường, không chỉ đọc lại tiếng Pāli hay tiếng Hán-Việt.
-    + Nêu được một điều thường bị nhầm với kiết sử ấy nhưng thật ra không đủ để kết luận.
-    + Nêu được một hướng tu đúng chiều mà không biến nó thành mẹo bảo đảm chứng quả.
-    + Giải thích vì sao một biểu hiện đang có hoặc đang vắng mặt đều không cho biết kiết sử đã còn hay đã đoạn.
+    + Giải thích mỗi kiết sử bằng lời gần gũi, rồi tìm lại định nghĩa và ngữ cảnh trong nguồn.
+    + Phân biệt kiết sử với một hành vi hoặc cảm giác có vẻ giống nhưng còn nhiều cách giải thích.
+    + Nêu hướng tu phù hợp mà không biến một bài tập thành công thức chứng quả.
+    + Hiểu vì sao tạm không thấy kiết sử chưa chứng minh đã đoạn; đồng thời, nếu một kiết sử thực sự còn hiện hành thì không thể coi nó là đã đoạn tận.
 
-    Bốn việc này kiểm tra khả năng hiểu và thực hành đúng hướng. Chúng không phải tiêu chuẩn xác nhận Nhập lưu.
+    Bốn điều này kiểm tra cách hiểu, không dùng để xác nhận Nhập lưu.
   ],
   label: [MỤC TIÊU HỌC · BIÊN SOẠN],
 )
 
 #practice-card(
-  [Bản đồ sâu trong một phút: đối tượng, căn cứ, phương tiện],
+  [Bản đồ đầu tiên: ba chỗ cần phân biệt],
   [
-    Ba kiết sử đầu không phải ba cảm xúc xấu đứng cạnh nhau. Chúng làm lệch ba tầng khác nhau của việc thấy và đi trên con đường:
+    *Thân kiến* liên quan đến cách nắm năm uẩn trong quan hệ với một tự ngã. Không phải mọi câu nói “tôi” đều mang kiến chấp ấy.
 
-    1. *Sai về đối tượng đang bị nắm:* thân kiến đặt sắc, thọ, tưởng, hành hoặc thức vào quan hệ “đây là tôi”, “đây là của tôi”, “uẩn này ở trong một tự ngã” hoặc “một tự ngã ở trong uẩn này”. Vấn đề không nằm ở đại từ “tôi”, mà ở kiến chấp lấy kinh nghiệm có điều kiện làm một lõi tự ngã.
-    2. *Chưa có căn cứ đủ vững về đường đi:* hoài nghi như kiết sử là sự phân vân trên trục Phật, Pháp, Tăng, con đường và sự thực hành chưa được tháo bằng học, hành và thấy biết đã được xác chứng. Vấn đề không nằm ở quyền hỏi, mà ở chỗ đường ra khỏi khổ chưa được thấy đủ để tâm đứng vững trên đó.
-    3. *Sai về chức năng của phương tiện:* chấp thủ giới-tập tục nâng giới điều, nghi thức, khổ hạnh hay kỹ thuật thành nguyên nhân đủ hoặc điều kiện chắc chắn cho giải thoát. Vấn đề không nằm ở việc có phương pháp, mà ở chỗ phương pháp bị thay vào vị trí của toàn bộ Bát Chánh Đạo.
+    *Hoài nghi* như kiết sử cần được đọc cùng sự xác chứng về Phật, Pháp, Tăng và con đường. Không phải mọi câu hỏi chưa được giải đáp đều là kiết sử.
 
-    Nói gọn: *nắm sai cái đang được kinh nghiệm; chưa đứng vững trên con đường đã được kiểm chứng; nắm sai quan hệ giữa phương tiện và cứu cánh*. Ba lỗi có thể nâng đỡ nhau, nhưng MN 2 không trình bày chúng như ba nấc phải đoạn theo thứ tự 1–2–3. Bài kinh đặt sự đoạn cả ba sau như lý tác ý đến Tứ Thánh Đế. Vì vậy, hướng tu là làm chín một cái thấy đúng về khổ, nguồn gốc, sự chấm dứt và con đường, chứ không săn ba mẹo riêng.
+    *Chấp thủ giới-tập tục* liên quan đến cách nắm giới, nghi thức hay lối thực hành; không có nghĩa bản thân việc giữ giới hoặc dùng một phương pháp là sai.
 
-    Đây là bản đồ học do sách biên soạn từ các nguồn được nêu. Nó không phải ba câu định nghĩa nguyên văn, một chuỗi nhân quả được kinh tuyên bố, hay phép tự chẩn đoán.
+    Đây là bản đồ biên soạn để bắt đầu. MN 2 không chia ba kiết sử thành ba nấc phải lần lượt vượt qua; bài kinh nêu sự đoạn cả ba trong phần như lý tác ý đến bốn Thánh đế.
   ],
-  label: [BẢN ĐỒ MỞ ĐẦU · BIÊN SOẠN, ĐỐI CHIẾU K03; K08; K09; K11; K20; K38],
+  label: [BẢN ĐỒ MỞ ĐẦU · BIÊN SOẠN THEO K11; K20; K03; K08; K38],
 )
 
 #practice-card(
-  [Vì sao đây không phải chuyện “bớt cái tôi, bớt nghi, bớt nghi thức”?],
+  [Vì sao không chỉ là bớt nói “tôi”, bớt hỏi và bớt nghi thức?],
   [
-    Nghe chữ *đoạn*, người mới dễ tưởng chỉ cần làm cho ba biểu hiện ít xuất hiện hơn. Nhưng một biểu hiện tạm vắng không đồng nghĩa gốc trói đã mất:
+    Ít dùng đại từ “tôi” không cho biết hai mươi cách chấp quanh năm uẩn đã được đoạn. Một thời gian đầy cảm hứng không chứng minh hoài nghi đã nhường chỗ cho tịnh tín được xác chứng. Linh hoạt đổi một tư thế hoặc nghi thức cũng chưa chứng minh đã hết chấp thủ phương tiện.
 
-    + Ít nói “tôi” không cho biết hai mươi cách chấp quanh năm uẩn đã rơi.
-    + Một giai đoạn đầy cảm hứng không cho biết hoài nghi đã được thay bằng tịnh tín và thấy biết có căn cứ.
-    + Linh hoạt đổi tư thế hoặc nghi thức không cho biết sự chấp thủ phương tiện đã được nhổ tận.
+    Ngược lại, nói “tôi”, hỏi một câu khó hoặc giữ giới nghiêm không tự chứng minh các kiết sử ấy đang có. Đó là những hành vi có thể mang nhiều ý nghĩa. Cần xem nội dung của cách thấy và sự trói buộc, thay vì lấy hình thức bên ngoài làm phép đo.
 
-    Ngược lại, dùng chữ “tôi”, đặt một câu hỏi khó, giữ giới nghiêm hoặc trung thành với một thời khóa cũng không tự chứng minh kiết sử còn nguyên. Cần phân biệt *biểu hiện có thể quan sát*, *kiến chấp hoặc sự trói buộc nằm dưới biểu hiện*, và *sự đoạn tận được kinh gắn với quả*. Chương này chỉ giúp đọc đúng hai mức đầu; nó không xác nhận mức thứ ba.
-
-    Chính vì ba kiết sử nằm ở tầng thấy, căn cứ và quan hệ nhân quả, việc hướng đến Nhập lưu không thể rút thành “làm ba hành vi ngược lại”. Nền đúng vẫn là bốn yếu tố đưa đến Nhập lưu, Tứ Thánh Đế và toàn bộ Bát Chánh Đạo. Dục tham và sân vẫn là kiết sử thật, nhưng chương 11 sẽ chỉ ra vì sao chúng chưa phải ranh giới của quả đầu.
+    Sự phân biệt này không khiến tiêu chuẩn trở thành điều không thể bị phản bác. Nếu thực sự xác định được một kiến chấp tự ngã vẫn còn, chẳng hạn, điều ấy không phù hợp với tuyên bố thân kiến đã được đoạn. Điều khó là xác định đúng hiện tượng, không phải bỏ qua mọi bằng chứng trái với điều mình muốn tin.
   ],
-  label: [PHÂN BIỆT GỐC VÀ BIỂU HIỆN · BIÊN SOẠN THEO K02; K06; K10; K11; K24; K36],
+  label: [BIỂU HIỆN, BẢN CHẤT VÀ ĐOẠN TẬN · BIÊN SOẠN THEO K20; K36],
 )
 
 == Một lời chê, ba cách đọc sai
 
 #practice-card(
-  [Nhìn cùng một việc trước khi học thuật ngữ],
+  [Tách điều đã thấy khỏi điều đang suy ra],
   [
-    Trong một cuộc họp, bạn nghe câu: “Phần này làm chưa tốt.” Một chuỗi có thể diễn ra:
+    Bạn nghe: “Phần này làm chưa tốt.” Có thể nhận ra âm thanh, thân nóng, thọ khó chịu, ký ức và ý muốn đáp lại. Đến đây, ta mới có một mô tả về trải nghiệm.
 
-    1. *Điều quan sát được:* âm thanh được nghe; thân nóng; thọ khó chịu; ký ức về những lần bị chê hiện lên; ý muốn chống trả sinh ra.
-    2. *Chỗ thân kiến có thể bấu:* “Họ đang hạ nhục con người tôi.” Một cảm giác, ký ức hoặc hình ảnh xã hội bị biến thành lõi “tôi” phải bảo vệ.
-    3. *Điều chưa rõ về con đường có thể bị xử lý sai:* “Pháp này chẳng liên quan đến phản ứng thật của tôi”, rồi không chịu kiểm nguồn hoặc thực hành đủ để điều gì được sáng tỏ; hoặc ép mình tuyên bố tin chỉ để hết bất an. Đây là minh họa về cách xử lý điều chưa rõ, không phải phép nhận diện kiết sử từ một cuộc họp.
-    4. *Chỗ chấp thủ hình thức có thể che lỗi:* “Tôi đã ngồi đủ giờ và ghi nhận đúng nhãn, vậy cách phản ứng của tôi chắc phải đúng.” Thời khóa được dùng thay cho việc nhìn lời nói, ý định và hậu quả.
-    5. *Hướng của Bát Chánh Đạo:* chờ lực thúc đẩy lắng đủ để nghe cho rõ, nói đúng sự thật, không ác khẩu, sửa phần đáng sửa và không lấy một kỹ thuật thay cho toàn bộ con đường.
+    Câu nghĩ “họ coi thường tôi” có thể gợi nhu cầu bảo vệ hình ảnh. Nó chưa đủ để xác định thân kiến theo hai mươi cách chấp của MN 44. Cần tìm hiểu người ấy thực sự đang xem uẩn nào là tự ngã hoặc liên hệ với tự ngã ra sao.
 
-    Một sự việc có thể bộc lộ một, hai, cả ba hoặc không mối nào theo cách vừa kể. Ca này chỉ minh họa ba lăng kính. Nó không xác định một kiết sử đang hiện hành, càng không xác định kiết sử đã đoạn.
+    Câu “thực hành mà vẫn buồn thì có ích gì?” có thể là một thắc mắc cần được giải thích, không nhất thiết là hoài nghi như kiết sử. Còn ý nghĩ “chỉ cần ghi nhãn đúng thì sẽ hết mọi phản ứng” cho thấy một kỳ vọng về kỹ thuật cần được kiểm lại, chưa đủ để chẩn đoán toàn bộ giới cấm thủ.
+
+    Ví dụ giúp đặt câu hỏi đúng hơn. Nó không cung cấp ba dấu hiệu để phân loại một người chỉ qua một cuộc họp.
   ],
-  label: [CA MỞ ĐẦU · BIÊN SOẠN THEO K05; K11; K20; K26–K31; K35],
+  label: [MINH HỌA · BIÊN SOẠN THEO K11; K20; K38],
 )
 
 #practice-card(
-  [Một buổi ngồi: đau gối, nghi đường, rồi bấu vào luật],
+  [Cũng cách phân biệt ấy, với một cơn đau],
   [
-    Giả sử đầu gối đau trong lúc ngồi. Ba kiết sử không phải ba bước chắc chắn sẽ xảy ra, nhưng ca này cho thấy ba tầng có thể bị trộn ra sao:
+    Đầu gối đau khi ngồi. “Thân tôi có bị tổn thương không?” có thể là câu hỏi sức khỏe hoàn toàn chính đáng; nó không tự chứng minh thân kiến. “Tôi cần đổi tư thế” cũng không đồng nghĩa chấp ngã hay thiếu tinh tấn.
 
-    1. *Điều đang xảy ra trước tiên:* có áp lực nơi gối, thọ khó chịu, ý muốn đổi tư thế và các ý nghĩ về buổi ngồi. Chưa điều nào trong số đó tự nó là một kiết sử.
-    2. *Chỗ thân kiến có thể bấu:* “Thân tôi hỏng rồi”, “tôi là người tu thất bại”, hoặc “phải có một người điều khiển khiến cảm giác biến mất”. Sự quan sát đúng hướng là phân biệt sắc, thọ, tưởng, hành và thức, rồi thấy chúng nương điều kiện và đổi thay. Không cần phủ nhận trách nhiệm chăm sóc thân.
-    3. *Chỗ hoài nghi có thể bị xử lý sai:* từ một cơn đau, tâm nhảy sang “toàn bộ Pháp này sai”, nhưng không kiểm chỉ dẫn, nguyên nhân thân thể, ngưỡng an toàn hay mục đích của bài tập. Cực kia cũng sai: ép mình tin phương pháp tuyệt đối đúng để khỏi phải thừa nhận điều chưa biết.
-    4. *Chỗ chấp thủ giới-tập tục có thể bấu:* “Người tu thật không bao giờ đổi tư thế; nếu cử động thì chắc chắn mất cơ hội chứng quả.” Một quy ước hữu ích bị biến thành bảo đảm giải thoát, thậm chí được đặt cao hơn an toàn và chánh kiến.
-    5. *Cách đi đúng chiều:* nhận biết kinh nghiệm đang có; phân biệt cảm giác với câu chuyện về “tôi”; kiểm hướng dẫn và ngưỡng an toàn; đổi tư thế có chủ ý khi cần; rồi nhìn xem cách xử lý ấy có nuôi giới, niệm, định và tuệ hay không.
+    Điều cần xem riêng là có kiến chấp nào về một tự ngã sở hữu, điều khiển hoặc nằm trong thân hay không. Nếu chưa rõ, không cần gán tên. Hãy dừng tư thế gây đau và chăm sóc thích hợp trước. Một cách giải thích giáo lý không được thay thế việc bảo vệ sức khỏe.
 
-    Ca này không nói đau gối tạo ra ba kiết sử, cũng không dạy rằng xử lý tốt một lần sẽ đoạn chúng. Nó chỉ cho người mới một cách nhìn: *đừng lấy một cảm giác làm tự ngã; đừng giải quyết phần chưa biết bằng tin mù hoặc nghi quay vòng; đừng biến quy ước thành bùa bảo đảm*.
+    Tương tự, hỏi kỹ về độ an toàn không tự là hoài nghi như kiết sử; đổi tư thế không tự là buông giới cấm thủ. Mỗi điều cần được xét theo đúng nghĩa, không suy ra từ một động tác.
   ],
-  label: [CA HÀNH TRÌ · BIÊN SOẠN THEO K02; K05; K06; K11; K20; K35; K38],
+  label: [MINH HỌA VÀ GIỚI HẠN · BIÊN SOẠN],
 )
 
 == Dòng là Bát Chánh Đạo <dong-bat-thanh-dao>
 
-#source-line("KINH", [K06 · SN 55.5], [Khi Sāriputta được hỏi “dòng là gì”, bài kinh trả lời đó chính là Bát Chánh Đạo: chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm và chánh định. Người thành tựu đạo lộ ấy được gọi là bậc Nhập lưu.])
+#source-line("KINH", [K06 · SN 55.5], [
+  Tôn giả Sāriputta trả lời rằng dòng chính là Bát Chánh Đạo: chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm và chánh định. Người thành tựu đạo lộ ấy được gọi là bậc Nhập lưu. Đức Phật xác nhận câu trả lời.
+])
 
-Vì vậy, một kỹ thuật ghi nhận, một đề mục hơi thở hay một khóa thiền không phải toàn bộ dòng. Chúng có thể rèn chánh niệm, định và tuệ, nhưng Bát Chánh Đạo còn đòi cách thấy, ý hướng, lời nói, hành động và sinh kế. Nếu thực hành làm sự dối trá, tàn nhẫn hay tà mạng được che kỹ hơn, đó không phải bằng chứng đã vào dòng.
+Vì vậy, một đề mục, kỹ thuật hay khóa thiền có thể hỗ trợ việc tu, nhưng không thay cả dòng. Cách thấy, ý hướng, lời nói, hành động và sinh kế vẫn cần được chăm sóc. Thực hành không có chức năng che giấu dối trá, hành vi gây hại hoặc một cách nuôi sống sai.
 
 #source-line("KINH", [K02 · SN 55.50], [
-  Bốn yếu tố cho Nhập lưu là thân cận người chân chánh, nghe Chánh pháp, như lý tác ý và hành pháp thuận pháp. Bài kinh nêu bốn điều kiện nâng đỡ; nó không gọi đây là bốn nấc tự động hay một thời khóa bảo đảm kết quả.
+  Bốn yếu tố đưa đến Nhập lưu là thân cận người chân chánh, nghe Chánh pháp, như lý tác ý và thực hành đúng theo Pháp.
 ])
 
 #practice-card(
-  [Bốn điểm tựa, không phải bốn ô phải tích],
+  [Bốn điểm tựa để học và hành],
   [
-    1. *Thân cận người chân chánh:* có người sống và hiểu Pháp đủ tốt để bạn học, hỏi và được sửa. Danh tiếng hay quyền lực không tự xác lập phẩm chất ấy.
-    2. *Nghe Chánh pháp:* học điều thực sự được dạy về khổ, nguyên nhân, chấm dứt và con đường, thay vì chỉ gom chuyện trải nghiệm hoặc lời hứa thành tựu.
-    3. *Như lý tác ý:* đặt sự chú ý theo hướng làm rõ nhân, quả, điều đang nuôi khổ và lối thoát; phần kế tiếp sẽ nối trực tiếp điểm này với MN 2.
-    4. *Hành pháp thuận pháp:* đưa điều đã học vào giới hạnh, định và tuệ, tức sống và tu theo đúng chiều của Pháp chứ không dừng ở đồng ý bằng lời.
+    *Thân cận người chân chánh:* học, hỏi và được sửa bởi người có giới hạnh, hiểu biết. Danh tiếng hoặc quyền lực chưa đủ để xác lập phẩm chất ấy.
 
-    Bốn điểm tựa này tạo một hệ sinh thái học và hành. Không có căn cứ để lấy số buổi nghe pháp, số lần gặp thầy hay số ngày giữ thời khóa làm phép cộng dẫn thẳng đến quả.
+    *Nghe Chánh pháp:* học điều được dạy về khổ, nguồn sinh, sự chấm dứt và con đường, không chỉ thu thập chuyện trải nghiệm.
+
+    *Như lý tác ý:* chú ý theo hướng làm rõ điều kiện, điều đang nuôi khổ và lối thoát. Phần kế tiếp nối hướng ấy với MN 2.
+
+    *Thực hành đúng theo Pháp:* đem điều đã học vào giới, định và tuệ, không dừng ở việc đồng ý bằng lời.
+
+    Bốn lời giải nghĩa này do sách biên soạn. Số buổi nghe pháp, gặp thầy hoặc giữ lịch không thể được cộng thành phép tính bảo đảm chứng quả.
   ],
-  label: [HƯỚNG ĐẾN NHẬP LƯU · K02; K05; K06; BIÊN SOẠN PHẦN GIẢI THÍCH],
+  label: [HƯỚNG ĐẾN NHẬP LƯU · BIÊN SOẠN THEO K02; K05; K06],
 )
 
 #practice-card(
   [Đường đọc lần đầu],
   [
-    Nếu đây là lần đầu bạn học về Nhập lưu, hãy đọc chương này theo một đường thẳng:
+    1. Hiểu dòng là Bát Chánh Đạo.
 
-    1. Hiểu “dòng” là toàn bộ Bát Chánh Đạo ở phần này.
-    2. Đọc #link(<nen-chung-ba-kiet-su>)[nền chung của ba kiết sử], rồi đi lần lượt qua #link(<ba-kiet-su>)[từng kiết sử].
-    3. Đọc #link(<huong-ba-kiet-su>)[hướng thực hành], rồi #link(<guong-phap>)[Gương Pháp].
-    4. Kết thúc ở #link(<khong-du-ket-luan>)[những điều không đủ để kết luận].
+    2. Đọc #link(<nen-chung-ba-kiet-su>)[nền chung], rồi lần lượt qua #link(<ba-kiet-su>)[ba kiết sử].
 
-    Sau đó mới sang chương 11 để học khung 3–5–4. Đừng vừa đọc định nghĩa vừa cố xác định mình đã “ở quả nào”.
+    3. Đọc #link(<huong-ba-kiet-su>)[hướng thực hành] và #link(<guong-phap>)[Gương Pháp].
+
+    4. Trở lại #link(<khong-du-ket-luan>)[những điều chưa đủ để kết luận], trước khi dùng một thuật ngữ cho kinh nghiệm của mình.
+
+    Chương 11 sẽ nối ba kiết sử với nhóm năm hạ phần và bốn quả. Có thể học rõ một phần trước, không cần vừa đọc vừa tìm quả vị của mình.
   ],
   label: [LẦN ĐỌC ĐẦU · BIÊN SOẠN],
 )
@@ -144,266 +136,242 @@ Vì vậy, một kỹ thuật ghi nhận, một đề mục hơi thở hay một
 == Một nền chung: Tứ Thánh Đế và Bát Chánh Đạo <nen-chung-ba-kiet-su>
 
 #source-line("KINH", [K11 · MN 2], [
-  MN 2 nói vị Thánh đệ tử như lý tác ý: đây là khổ, đây là nguồn gốc khổ, đây là sự chấm dứt khổ, đây là con đường đưa đến chấm dứt khổ; khi ấy thân kiến, hoài nghi và chấp thủ giới-tập tục được đoạn. Điểm trực tiếp của đoạn kinh là như lý tác ý đến bốn sự thật ấy. Cách áp dụng vào các tình huống đời thường dưới đây là phần biên soạn.
+  Trong phần đoạn lậu hoặc bằng sự thấy, MN 2 trình bày vị Thánh đệ tử như lý tác ý: đây là khổ, nguồn sinh khổ, sự chấm dứt khổ và con đường. Bài kinh nêu ba kiết sử được đoạn: thân kiến, hoài nghi và giới cấm thủ.
 ])
 
-Ba kiết sử không phải ba nút tách rời để xử lý bằng ba mẹo. MN 2 đặt cả ba trong một cái thấy về khổ và con đường ra khỏi khổ. SN 55.5 xác định “dòng” là toàn bộ Bát Chánh Đạo. Vì vậy, sách không ghép thân kiến với một mẹo quán, hoài nghi với một niềm tin phải ép, rồi chấp thủ giới-tập tục với một nghi thức mới.
+#source-line("KINH", [K10 · AN 3.88], [
+  AN 3.88 mô tả các hạng đoạn ba kiết sử gắn với quả Nhập lưu, rồi phân biệt với các mức Nhất lai, Bất lai và đoạn tận lậu hoặc.
+])
+
+Cần ghép hai nguồn đúng cách: MN 2 nêu đoạn ba kiết sử trong đoạn đang đọc; AN 3.88 giúp nối tiêu chuẩn ấy với quả. Không cần thêm tên quả vào câu MN 2 như thể bài kinh đã nói nguyên văn ở đó.
+
+Ba kiết sử không phải ba vấn đề độc lập có thể giải bằng ba mẹo. MN 2 đặt chúng trong sự thấy đúng về khổ và đường ra khỏi khổ; SN 55.5 đặt dòng trong toàn bộ Bát Chánh Đạo. Hiểu một sơ đồ bằng lời là việc học có ích, nhưng không đồng nghĩa đã thực chứng những gì sơ đồ mô tả.
 
 #practice-card(
-  [Một cái thấy chung chạm ba chỗ lầm như thế nào],
+  [Bốn sự thật giúp định hướng ba chỗ lầm],
   [
-    Đọc bốn sự thật như một chỉnh thể:
+    Khi học nhìn năm uẩn và khổ tùy điều kiện, ta có thể nhận ra chỗ mình nắm một điều là tự ngã. Khi học về nguồn sinh, sự chấm dứt và con đường, câu hỏi về Pháp có nơi để đối chiếu thay vì chỉ dựa trên cảm hứng hoặc sự hoài nghi mơ hồ. Khi thấy đạo lộ gồm tám chi, một nghi thức hay thao tác không còn được trao vai trò thay thế toàn bộ con đường.
 
-    + Khi khổ được thấy như một tiến trình có điều kiện quanh năm uẩn, chỗ tâm nắm “tôi” và “của tôi” có thể lộ ra. Đây là hướng tháo thân kiến.
-    + Khi nguồn gốc khổ, khả năng chấm dứt và con đường được thấy bằng học, hành và kinh nghiệm có căn cứ, sự phân vân về Pháp không còn chỉ đứng trên phần chưa biết. Đây là hướng tháo hoài nghi, không phải mệnh lệnh phải tin.
-    + Khi con đường được thấy là quan hệ nhân quả của đủ tám chi, một giới điều, nghi thức, khổ hạnh hay kỹ thuật riêng không thể tiếp tục đóng vai nguyên nhân đủ của giải thoát. Đây là hướng tháo chấp thủ giới-tập tục, không phải lý do bỏ giới hay bỏ phương tiện.
-
-    Ba dòng trên là cầu nối giải thích của sách. Chúng không phân mỗi Thánh đế cho đúng một kiết sử, không mô tả đầy đủ khoảnh khắc đoạn tận và không biến việc hiểu sơ đồ thành chứng quả.
+    Đây là cầu nối giải thích của sách. Nó không phân mỗi Thánh đế cho một kiết sử, không mô tả đầy đủ sự đoạn tận và không nói chỉ cần suy nghĩ qua bốn câu là chứng quả.
   ],
   label: [CẦU NỐI GIẢI THÍCH · BIÊN SOẠN THEO K05; K06; K11; K20],
 )
 
 == Ba kiết sử đầu: ba mối trói phải rơi <ba-kiet-su>
 
-#source-line("BIÊN SOẠN", [cách hiểu dùng trong chương, đối chiếu K11; K24], [
-  *Kiết sử* là mối trói buộc bền chặt, không phải tên chung cho mọi tâm trạng khó chịu hay thói quen chưa tốt. Ba kiết sử liên hệ trực tiếp đến Nhập lưu là thân kiến, hoài nghi và chấp thủ giới-tập tục.
-])
+*Kiết sử*, saṃyojana, chỉ sự trói buộc được giáo lý phân tích, không phải tên chung của mọi thói quen chưa tốt hoặc tâm trạng khó chịu. Chương này dùng ba mức để người đọc không nhầm việc hiểu với việc đã đoạn.
 
 #practice-card(
-  [Ba mức tuyệt đối không được trộn],
+  [Ba mức cần giữ riêng],
   [
-    + *Hiểu khái niệm:* nói được thân kiến, hoài nghi và chấp thủ giới-tập tục nghĩa là gì.
-    + *Nhận ra một biểu hiện có thể liên quan:* thấy tâm đang bảo vệ hình ảnh “tôi”, còn phân vân về Phật, Pháp, Tăng, con đường hoặc sự thực hành, hoặc đang bấu vào hình thức. Nhận ra như vậy vẫn chưa xác định đó là kiết sử.
-    + *Đoạn kiết sử:* mối trói đã bị nhổ tận ở mốc quả mà kinh nêu, không chỉ được gọi đúng tên hay vắng mặt trong hoàn cảnh thuận lợi.
+    *Hiểu khái niệm:* biết thuật ngữ được dùng thế nào trong nguồn.
 
-    Hai mức đầu là việc người mới có thể học. Chúng có giá trị, nhưng không tự cộng thành mức thứ ba. Chính khoảng cách này ngăn một chương giải thích sâu bị biến thành bảng tự cấp quả.
+    *Nhận ra điều cần xem xét:* thấy một cách nắm giữ, một mối phân vân hoặc một kỳ vọng về phương pháp. Cần kiểm tra thêm xem nó có thật sự khớp với kiết sử đang nói hay không.
+
+    *Đoạn kiết sử:* sự trói buộc đã được trừ tận gốc ở mức mà kinh nêu, không chỉ được gọi đúng tên hoặc tạm vắng trong điều kiện thuận lợi.
+
+    Hai mức đầu có giá trị trong học và hành, nhưng không tự cộng thành mức thứ ba. Cũng không được dùng sự thận trọng ấy để bỏ qua một kiết sử thực sự còn có mặt.
   ],
-  label: [RANH GIỚI CHỨNG CỨ · BIÊN SOẠN, ĐỐI CHIẾU K10; K11; K24; K36],
+  label: [RANH GIỚI CHỨNG CỨ · BIÊN SOẠN THEO K10; K11; K24; K36],
 )
 
 #source-line("KINH", [K36 · MN 64], [
-  MN 64 phân biệt khuynh hướng tiềm ẩn với kiết sử đang sinh khởi. Khi một kiết sử hiện hành, tâm có thể bị nó ám ảnh và chi phối trong khi lối thoát chưa được biết như thật; khi được đoạn, bài kinh nói cả kiết sử lẫn khuynh hướng tiềm ẩn tương ứng được đoạn.
+  MN 64 phân biệt khuynh hướng tiềm ẩn với sự biểu hiện của kiết sử. Khi kiết sử hiện hành, nó có thể ám ảnh và chi phối tâm; khi đoạn kiết sử, bài kinh cũng nói đến sự đoạn khuynh hướng tiềm ẩn tương ứng.
 ])
 
-#practice-card(
-  [Kiết sử không chỉ là câu nghĩ đang nổi],
-  [
-    Bắt gặp một câu “tôi” không tự xác định thân kiến kỹ thuật đang hiện hành. Một ngày không có câu ấy cũng không chứng minh khuynh hướng đã mất. Cùng nguyên tắc áp dụng cho nghi và chấp thủ giới-tập tục: *đang thấy một biểu hiện*, *không thấy biểu hiện lúc này* và *mối trói đã bị nhổ tận* là ba mức khác nhau.
-
-    Đây là lý do cuốn sách dùng ví dụ để dạy cách đọc, nhưng không dùng tần suất suy nghĩ hay số ngày yên ổn làm phép đo đạo quả.
-  ],
-  label: [ĐANG HIỆN HÀNH VÀ TIỀM ẨN · K36; RANH GIỚI CHỨNG CỨ],
-)
+Một ngày không thấy một kiểu ý nghĩ chưa chứng minh gốc trói đã mất. Ngược lại, chỉ nghe ai nói “tôi” cũng chưa biết người ấy đang có thân kiến. Hai nhận xét ấy đều đúng vì đại từ hoặc tần suất ý nghĩ là bằng chứng quá yếu, không phải vì giáo lý không có tiêu chuẩn.
 
 #practice-card(
-  [“Đoạn” không có nghĩa “hôm nay không thấy”],
+  [Tạm lắng, làm mỏng và đoạn tận],
   [
-    + *Tạm lắng hoặc được chế ngự:* kiết sử hiện không biểu hiện vì điều kiện đang thuận, nhưng có thể trở lại khi đủ duyên.
-    + *Làm mỏng:* AN 3.88 dùng cách nói này cho tham, sân và si ở Nhất lai. Nó không đồng nghĩa đã mất hẳn, và cũng không thể được suy ra từ vài ngày yên ổn.
-    + *Đoạn:* trong các mốc quả được kinh nêu, kiết sử đã bị nhổ tận, không chỉ bị đè xuống hay ít biểu hiện.
+    *Tạm lắng:* sự trói buộc chưa biểu hiện trong lúc ấy; có thể còn trở lại khi đủ duyên.
 
-    Ba dòng này chỉ làm rõ từ ngữ của kinh. Chúng không phải phép tự đo để biến một giai đoạn tâm yên thành thánh quả.
+    *Làm mỏng:* AN 3.88 dùng cách nói này đối với tham, sân và si ở Nhất lai. Không đồng nhất với đoạn tận, cũng không suy ra chỉ từ vài ngày thuận lợi.
+
+    *Đoạn tận:* không còn chỉ là tạm chế ngự hoặc ít biểu hiện. Trong công thức quả vị, những kiết sử tương ứng đã được đoạn.
+
+    Phân biệt từ ngữ giúp giữ nghĩa kinh, không tạo ra một thang tự chấm từ nhật ký.
   ],
-  label: [PHÂN BIỆT CẦN GIỮ · K10; K24; K36],
+  label: [PHÂN BIỆT · BIÊN SOẠN THEO K10; K24; K36],
 )
 
 === 1. Thân kiến: không chỉ là “còn cảm giác tôi”
 
-Tên Việt *thân kiến* dễ làm người mới tưởng đây chỉ là quan niệm “thân thể này là tôi”. Phạm vi trong MN 44 rộng hơn. Tỳ-kheo-ni Dhammadinnā phân tích thân kiến quanh cả năm uẩn: sắc là mặt vật chất; thọ là sắc thái dễ chịu, khó chịu hay trung tính; tưởng nhận ra và ghi dấu; hành gồm các tạo tác tâm; thức là sự biết qua các cửa giác quan.
+Tên Việt *thân kiến* dễ gợi quan niệm “thân thể này là tôi”. MN 44 nói rộng hơn quanh cả năm uẩn. Để đọc phần này, có thể hiểu ngắn: sắc là phương diện vật chất; thọ là dễ chịu, khó chịu hoặc trung tính; tưởng là nhận ra đặc điểm; hành gồm các tạo tác tâm; thức là sự nhận biết theo các cửa giác quan. Đây là lời giải nghĩa để bắt đầu, không phải năm thực thể tách biệt trong một con người.
 
-Với mỗi uẩn, bài kinh nêu bốn cách chấp: xem uẩn là tự ngã; xem tự ngã sở hữu uẩn; xem uẩn nằm trong tự ngã; hoặc xem tự ngã nằm trong uẩn. Năm uẩn nhân với bốn cách thành hai mươi. Người mới không cần học thuộc con số; cần nhận ra tâm đang đặt chữ “tôi” và “của tôi” vào đâu.
-
-#practice-card(
-  [Vì sao thân kiến chặn cửa Nhập lưu],
-  [
-    Khi còn lấy một uẩn làm lõi “tôi”, tâm sẽ bảo vệ nó như bảo vệ bản thân: cảm giác bị chạm thành “tôi bị xúc phạm”, ý kiến bị phản bác thành “tôi bị đe dọa”, trạng thái dễ chịu sắp mất thành “tôi sắp mất mình”.
-
-    Trong cấu trúc ấy, khổ không còn được thấy như một tiến trình có điều kiện. Nó bị đọc thành câu chuyện của một cái tôi đang bị tấn công hoặc phải được tôn lên. Vì vậy, tháo thân kiến không phải học một khẩu hiệu “không có tôi”, mà là thôi đặt năm uẩn vào địa vị lõi bất khả đụng tới.
-  ],
-  label: [GIẢI THÍCH THỰC HÀNH · BIÊN SOẠN THEO K20; K35],
-)
+#source-line("KINH", [K20 · MN 44, lời Tỷ-kheo-ni Dhammadinnā], [
+  Tỷ-kheo-ni Dhammadinnā xác định sakkāya bằng năm thủ uẩn. Với thân kiến, bài kinh nêu bốn cách đối với mỗi uẩn: xem uẩn là tự ngã; xem tự ngã sở hữu uẩn; xem uẩn ở trong tự ngã; hoặc xem tự ngã ở trong uẩn. Năm uẩn và bốn cách thành hai mươi.
+])
 
 #source-line("KINH", [K20 · MN 44], [
-  MN 44 gọi năm thủ uẩn là *sakkāya*; bản K20 dịch thuật ngữ này là “self-identity”. Ở một câu hỏi tiếp theo, bài kinh phân tích *sakkāya-diṭṭhi*, tức thân kiến, qua bốn cách chấp quanh mỗi uẩn. Bài kinh nêu nguồn gốc của *sakkāya* là ái hướng đến khoái lạc giác quan, ái muốn tiếp tục hiện hữu và ái muốn không hiện hữu; sự chấm dứt là hết say đắm và buông bỏ chính ái ấy; con đường là Bát Chánh Đạo. Ở một câu hỏi riêng khác, bài kinh nói dục và tham đối với năm thủ uẩn chính là chấp thủ ở đó. Người trả lời là Tôn giả ni Dhammadinnā.
+  Trong các câu hỏi riêng, bài kinh nói nguồn sinh của sakkāya là tham ái gồm dục ái, hữu ái và phi hữu ái; sự chấm dứt là từ bỏ chính ái ấy; con đường là Bát Chánh Đạo. Về thủ, dục và tham đối với năm thủ uẩn được xác định là sự chấp thủ ở đó. Không nên trộn các câu trả lời này thành một định nghĩa duy nhất của thân kiến.
 ])
-
-Lấy *sắc* làm ví dụ, bốn cách chấp có thể được đọc gần nghĩa như sau: “thân này chính là tôi”; “tôi là chủ sở hữu thân này”; “thân này nằm trong tự ngã”; “một tự ngã nằm trong thân này”. Cùng cấu trúc ấy có thể bám vào thọ, ký ức và nhận diện, ý muốn cùng các tạo tác tâm, hoặc chính dòng biết.
 
 #practice-card(
-  [Đọc ma trận năm nhân bốn mà không học thuộc hai mươi ô],
+  [Hiểu bảng năm nhân bốn],
   [
-    Hãy hình dung một bảng có *năm hàng* và *bốn cột*.
+    Có thể hình dung năm hàng: sắc, thọ, tưởng, hành, thức. Bốn cột là bốn quan hệ với tự ngã vừa nêu.
 
-    + *Năm hàng* là sắc, thọ, tưởng, hành và thức.
-    + *Bốn cột* là: uẩn ấy chính là tự ngã; tự ngã sở hữu uẩn ấy; uẩn ấy nằm trong tự ngã; tự ngã nằm trong uẩn ấy.
+    Chọn hàng thọ: “thọ chính là tự ngã”, “tự ngã sở hữu thọ”, “thọ ở trong tự ngã”, “tự ngã ở trong thọ”. Đổi sang uẩn khác thì giữ cùng cấu trúc. Cách đọc này giúp không thu thân kiến về riêng thân thể.
 
-    Chọn một hàng là *thọ*. Bốn cách nắm gần nghĩa sẽ là: “cảm giác này chính là tôi”; “tôi là chủ của cảm giác này”; “cảm giác này nằm trong tự ngã”; “một tự ngã nằm trong cảm giác này”. Chuyển sang sắc, tưởng, hành hoặc thức, cấu trúc vẫn vậy.
+    Một quan điểm cho rằng phía sau mọi kinh nghiệm có một người biết thường hằng là điều cần đối chiếu cẩn thận với cấu trúc ấy. Còn câu “tôi đang buồn”, dùng như lời mô tả quy ước, chưa tự chứa một quan điểm về tự ngã.
 
-    Trong đời thường, nó có thể lộ thành những câu như: “thân phải trẻ thì tôi mới còn giá trị”, “ký ức này chính là con người tôi”, “ý muốn này chứng minh có một người điều khiển không đổi”, hoặc “phía sau mọi kinh nghiệm phải có một người biết thường hằng”. Các câu này chỉ giúp nhận cấu trúc; chúng không phải nguyên văn của MN 44.
-
-    Ba ranh giới phải giữ: dùng chữ “tôi” theo quy ước không tự là thân kiến; chăm sóc thân và chịu trách nhiệm không trái quán vô ngã; mất cảm giác thực tại hoặc mất năng lực hành động không phải mục tiêu. Đoạn thân kiến cũng chưa đồng nghĩa đoạn ngã mạn “tôi là”.
+    Đây là cách học ma trận, không phải bài buộc tìm đủ hai mươi kiểu suy nghĩ trong một buổi ngồi.
   ],
-  label: [MÔ HÌNH 5 × 4 · K20; K17; BIÊN SOẠN PHẦN VÍ DỤ],
+  label: [MÔ HÌNH ĐỂ ĐỌC · BIÊN SOẠN THEO K20],
 )
 
-Vì vậy, đoạn thân kiến sâu hơn một ý nghĩ thoáng qua “không có người điều khiển”. Một người có thể học thuộc câu “không phải tôi”, rồi vẫn thấy một uẩn là tự ngã, tự ngã sở hữu uẩn, uẩn ở trong tự ngã hoặc tự ngã ở trong uẩn. Định nghĩa kỹ thuật trong MN 44 không lấy việc dùng đại từ “tôi”, nhớ tên, chăm sóc thân hay chịu trách nhiệm làm tiêu chí. Điều bị đoạn là thân kiến theo hai mươi cách quanh năm uẩn. Điều đó không có nghĩa rằng ngã mạn “tôi là”, mọi tham dục và mọi cách tự quy chiếu trong đời thường đều đã tận.
-
-#source-line("KINH", [K17 · SN 22.89; K24 · AN 10.13], [
-  Khemaka nói ông không xem uẩn nào là tự ngã hay thuộc về tự ngã, nhưng vẫn chưa sạch dư tàn của ngã mạn “tôi là”, dục “tôi là” và tùy miên “tôi là” — tức những khuynh hướng tâm lý ngủ ngầm dưới tầng ý thức, chỉ hiện rõ khi có duyên. Bài kinh còn nói một vị đã đoạn năm hạ phần kiết sử vẫn có thể còn dư tàn ấy. Vì thế, đoạn thân kiến ở Nhập lưu không đồng nghĩa tận diệt ngã mạn, vốn nằm trong năm thượng phần kiết sử.
-])
+Điểm thực hành không phải cấm dùng “tôi”, mà là tìm hiểu cách nắm giữ. Chăm sóc thân, ghi nhớ lịch hoặc chịu trách nhiệm về hành vi không tự là thân kiến. Cũng không cần tạo một kinh nghiệm không có cảm giác về bản thân để chứng minh đã thấy vô ngã.
 
 #source-line("KINH", [K35 · SN 22.59], [
-  SN 22.59 chỉ ra rằng sắc, thọ, tưởng, hành và thức không ở trọn dưới quyền sai khiến, đều vô thường và chịu đổi thay; vì vậy không thích hợp để nắm là “của tôi”, “tôi là cái này” hay “đây là tự ngã của tôi”. Đây là nền kinh cho câu hỏi về đổi thay và khả năng điều khiển ở thẻ thực hành dưới đây.
+  SN 22.59 trình bày các uẩn không ở trọn dưới quyền sai khiến, vô thường và chịu đổi thay. Bài kinh dẫn đến cách quán chúng không phải của tôi, không phải tôi, không phải tự ngã của tôi.
 ])
 
-#caution(
-  [Đừng ép mình thành “không có thật”],
+Sách đề nghị đọc lời dạy ấy với một kinh nghiệm vừa sức. Một cảm giác có thể thay đổi dù ta muốn giữ; một ý nghĩ có thể xuất hiện dù ta không định nghĩ. Điều đó gợi việc nhìn điều kiện và sự đổi thay. Tuy nhiên, một lần nhận thấy mình không điều khiển được cảm giác chưa tương đương toàn bộ tri kiến mà bài kinh hướng đến. Không cần bước từ “có điều tôi không điều khiển được” đến một kết luận siêu hình vượt quá điều đã thấy.
+
+#source-line("KINH", [K17 · SN 22.89, lời Tôn giả Khemaka], [
+  Khemaka nói ông không xem uẩn nào là tự ngã hay thuộc về tự ngã, nhưng chưa sạch tàn dư ngã mạn “tôi là”, dục “tôi là” và khuynh hướng tiềm ẩn “tôi là”. Bài kinh nói người đã đoạn năm hạ phần kiết sử vẫn có thể còn tàn dư ấy.
+])
+
+*Khuynh hướng tiềm ẩn* là cách dịch thuật ngữ của bài kinh. Nó không tự xác nhận một mô hình tâm lý học hiện đại về “tầng vô thức”. Điều cần giữ ở đây là phân biệt thân kiến với ngã mạn “tôi là”. Vì ngã mạn thuộc năm thượng phần kiết sử, đoạn thân kiến ở Nhập lưu không đồng nghĩa đã đoạn mọi ngã mạn.
+
+#practice-card(
+  [Những điều dễ bị nhầm với đoạn thân kiến],
   [
-    Quán vô ngã không phải gây cảm giác xa lạ với thân, phủ nhận nhân quả hay lặp một mệnh đề siêu hình đến khi tin. Nếu thực hành làm tăng phân ly, hoảng sợ hoặc mất khả năng sinh hoạt, hãy dùng #link(<an-toan>)[các ngưỡng an toàn ở chương 9]. Mục tiêu ở đây là thấy năm uẩn có điều kiện, đổi thay và không thích hợp để nắm là “của tôi”, “tôi là cái này” hay “đây là tự ngã của tôi”, không phải phá hỏng cảm nhận thực tại.
+    *Ít dùng chữ “tôi”:* có thể chỉ là thói quen ngôn ngữ.
+
+    *Cảm giác ranh giới thân thay đổi:* có thể có nhiều điều kiện và cách giải thích, không đủ xác định một kiết sử đã đoạn.
+
+    *Thuộc câu “không phải tôi, không phải của tôi”:* biết lời dạy không đồng nghĩa đã thấy đúng như bài kinh hướng đến.
+
+    *Không còn quan tâm đến sức khỏe hoặc trách nhiệm:* không phải tiêu chuẩn vô ngã; có thể là điều cần được chăm sóc.
+
+    Khi có cảm giác xa lạ kéo dài với thân hoặc thực tại, nhất là kèm suy giảm sinh hoạt, hãy dùng Chương 9. Không cần gắn một tên tuệ trước khi tìm hỗ trợ.
   ],
+  label: [GIỚI HẠN KẾT LUẬN · BIÊN SOẠN THEO K17; K20; K35],
 )
 
 #practice-card(
-  [Bốn câu để học thấy chỗ chấp],
+  [Một cách học về năm uẩn và sự nắm giữ],
   [
-    Khi một kinh nghiệm đang mạnh, hãy hỏi:
+    Chọn một tình huống nhẹ, chẳng hạn nhớ lại một lời góp ý. Phân biệt điều đã xảy ra với điều suy thêm. Có cảm giác thân, thọ, sự nhận ra, ý nghĩ hay ý muốn nào thực sự rõ?
 
-    + Trong kinh nghiệm này, uẩn nào đang nổi bật: sắc, thọ, tưởng, hành hay thức? Có thể nhiều uẩn cùng hiện diện.
-    + Nó nương điều kiện nào mà sinh?
-    + Nó có ở yên hoàn toàn theo lệnh của tôi không?
-    + Khổ tăng thế nào khi tâm đòi “đây là tôi”, “đây là của tôi”, “tôi phải giữ nó nguyên vẹn”?
+    Xem có quan điểm nào đang nắm một trong những điều ấy như tự ngã không. Nếu chưa rõ, chỉ ghi điều đã biết, không coi mọi sự khó chịu là thân kiến. Sau đó hỏi việc nào cần làm: kiểm tra nhận xét, sửa lỗi hoặc nói rõ ranh giới.
 
-    Các câu hỏi này chỉ hướng việc quan sát. Trả lời được các câu hỏi này vẫn không đủ để xác nhận một kiết sử đã đoạn.
+    Bài tập giúp nối việc học với kinh nghiệm, không thay thế quán năm uẩn đầy đủ và không xác nhận đã đoạn thân kiến.
   ],
-  label: [THỰC HÀNH · BIÊN SOẠN THEO K20; K26; K35],
+  label: [THỰC HÀNH · BIÊN SOẠN THEO K20; K35],
 )
 
 === 2. Hoài nghi: không phải quyền đặt câu hỏi bị xóa
 
-MN 2 nêu *vicikicchā* là kiết sử nhưng không cho một định nghĩa từ điển đầy đủ ngay tại câu ấy. Muốn hiểu nó mà không biến Phật pháp thành sự phục tùng, cần đọc cùng những phẩm chất được kinh dùng để mô tả bậc Nhập lưu: tịnh tín đã được xác chứng nơi Phật, Pháp, Tăng; giới hạnh vững; và trí thấy duyên khởi.
-
-#source-line("KINH", [K08 · DN 16, lời dạy cuối], [
-  Trước khi nhập diệt, Đức Phật hỏi các tỳ-kheo có còn hoài nghi hay phân vân đối với Phật, Pháp, Tăng, con đường hoặc sự thực hành hay không. Sau ba lần hội chúng im lặng, Ngài nói người thấp nhất trong năm trăm vị ấy cũng là bậc Nhập lưu. Đoạn này cho thấy phạm vi trực tiếp của mối nghi đang được hỏi; nó không biến mọi câu hỏi về bản dịch, tổ chức hay người dạy thành kiết sử.
-])
-
-#practice-card(
-  [Ba việc thường bị gọi chung là “nghi”],
-  [
-    + *Chưa đủ căn cứ:* chưa biết bản dịch nào sát hơn hoặc chưa biết một vị thầy đã được kiểm chứng ra sao. Việc cần làm là tìm thêm nguồn và thông tin đáng tin.
-    + *Điều tra lành mạnh:* hỏi lời dạy nằm ở đâu, có hợp với giới và Tứ Thánh Đế không, hậu quả thực tế ra sao. Việc cần làm là tiếp tục kiểm tra trung thực.
-    + *Hoài nghi như kiết sử, theo cách hiểu của sách:* sự phân vân trên trục Phật, Pháp, Tăng, con đường và sự thực hành chưa được tháo bằng thấy biết đã được xác chứng. Nó không được đoạn bằng cách giả vờ chắc chắn.
-
-    Cảm giác hăng hái, trung thành với một tổ chức, đăng ký một khóa thiền hoặc nói “tôi tin” không chứng minh mối nghi đã bị nhổ tận. Ngược lại, kiểm nguồn và từ chối một người dạy nguy hiểm không chứng minh kiết sử còn nguyên.
-  ],
-  label: [PHÂN BIỆT NGAY TỪ ĐẦU · K03; K08; K09; K11; BIÊN SOẠN PHẦN GIẢI NGHĨA],
-)
-
-#practice-card(
-  [Vì sao hoài nghi chặn cửa Nhập lưu],
-  [
-    Nhập lưu là đi vào dòng. Khi sự phân vân về Phật, Pháp, Tăng, con đường hoặc sự thực hành chưa được tháo bằng thấy biết đã được xác chứng, hướng đi ấy chưa đứng vững. Đây là lý do hoài nghi nằm tại ranh giới Nhập lưu; không phải vì đặt câu hỏi là sai.
-
-    Một người học nghiêm túc vẫn có thể chưa có thấy biết quyết định gắn với sự đoạn kiết sử. Ngược lại, sự chắc chắn lớn tiếng có thể chỉ là cảm xúc hoặc áp lực tập thể. Vì thế, hai hướng thực hành đều cần: không để mơ hồ thành trì hoãn vô tận, và không lấy phục tùng làm tịnh tín.
-  ],
-  label: [GIẢI THÍCH THỰC HÀNH · K08; BIÊN SOẠN THEO K02; K03; K09; K11],
-)
+MN 2 nêu vicikicchā là kiết sử nhưng không đưa ngay một định nghĩa từ điển đầy đủ tại câu ấy. Vì vậy, để giải thích, sách đọc cùng các bài về tịnh tín được xác chứng, giới hạnh và thấy duyên khởi. Cách nối này cần được ghi là tổng hợp, không phải mọi bài kinh đều nói bằng cùng một câu.
 
 #source-line("KINH", [K03 · SN 55.4; K09 · SN 12.41], [
-  SN 55.4 nêu tịnh tín đã được xác chứng và giới hạnh của bậc Thánh. SN 12.41 đặt các phẩm chất ấy cạnh sự thấy rõ duyên khởi bằng trí tuệ. Đây là các phẩm chất hai bài kinh trực tiếp gắn với bậc Nhập lưu.
+  SN 55.4 nêu tịnh tín nơi Phật, Pháp, Tăng và giới hạnh được bậc Thánh quý trọng. SN 12.41 đặt các phẩm chất ấy cùng sự thấy nguyên lý duyên khởi bằng trí tuệ.
 ])
 
-#source-line("BIÊN SOẠN", [tổng hợp từ K03; K09; K11], [
-  Khi đọc các nguồn này cùng MN 2, sách dùng tịnh tín có căn cứ, giới hạnh và trí thấy duyên khởi như mặt đối chiếu để giải thích hoài nghi. Đây là tổng hợp biên soạn; các bài kinh trên không đưa ra một định nghĩa từ điển chung cho mọi cách dùng từ *vicikicchā*.
+#source-line("KINH", [K08 · DN 16, lời dạy cuối], [
+  Đức Phật hỏi các Tỷ-kheo có nghi hoặc đối với Phật, Pháp, Tăng, con đường hoặc sự thực hành hay không. Đoạn này đặt sự nghi hoặc vào hướng đi của giáo pháp, không phải mọi thông tin trên đời.
 ])
+
+#source-line("BIÊN SOẠN", [cách giải thích dùng trong chương], [
+  Từ các nguồn ấy và MN 2, sách giải thích hoài nghi như kiết sử trên trục xác chứng về Phật, Pháp, Tăng và con đường ra khỏi khổ. Đây không phải định nghĩa đủ cho mọi cách dùng vicikicchā, cũng không phải lý do ngăn người học hỏi về nguồn hay sự an toàn.
+])
+
+Một người có thể rất thành thật mà vẫn chưa có thấy biết quyết định gắn với đoạn kiết sử. Ngược lại, giọng nói đầy chắc chắn hoặc sự đồng thuận của một nhóm không tự là tịnh tín. Điều cần học là phân biệt căn cứ với cảm giác chắc chắn, sự xác chứng với lòng muốn được chấp nhận.
 
 #practice-card(
-  [Một lời dạy, ba phản ứng rất khác nhau],
+  [Tịnh tín hướng đến đâu?],
   [
-    Giả sử hai người dạy đưa ra lời khuyên trái nhau.
+    Trong công thức kinh, tịnh tín hướng đến những phẩm chất của Phật, Pháp và cộng đồng Thánh đệ tử được mô tả là bốn đôi, tám hạng người. Nó không phải giấy bảo đảm cho mọi người tự nhận là thầy, mọi tổ chức hoặc mọi lời tuyên bố tâm linh.
 
-    + *Điều tra lành mạnh:* viết rõ điểm bất đồng, mở nguồn, hỏi người có giới hạnh, thử phần an toàn, rồi quan sát cách hiểu nào giúp giảm tham, sân, si và giảm gây hại.
-    + *Sự chắc chắn bị cưỡng ép:* một người bảo “còn hỏi là chưa thanh tịnh”, nên bạn dập câu hỏi để được chấp nhận. Đây không phải tịnh tín đã được xác chứng.
-    + *Sự trì hoãn không có phép thử:* tiếp tục đòi một bảo đảm mới, nhưng không đọc nguồn, không giữ giới và không thực hành đủ để có điều gì được làm sáng tỏ.
+    Người học vẫn có thể hỏi bản dịch nào sát hơn, một chỉ dẫn có gây hại không, một người dạy có giữ giới không. Việc từ chối sự cưỡng ép không cần được hiểu là thiếu lòng tin vào Pháp.
 
-    Hai trường hợp sau là minh họa biên soạn về những lối đi sai, không phải phép chẩn đoán *vicikicchā*. Điểm thực hành là đưa một điều chưa rõ vào quy trình có nguồn, có giới hạn, có quan sát và có khả năng sửa sai.
+    Đây là giới hạn suy luận của sách khi áp dụng công thức tịnh tín vào quan hệ thầy trò hiện đại; xem thêm Chương 8.
   ],
-  label: [CA PHÂN BIỆT · BIÊN SOẠN THEO K02; K03; K08; K09; K11],
+  label: [PHÂN BIỆT · BIÊN SOẠN THEO K03; K08; K21],
 )
 
-Người đã vượt kiết sử này vẫn có thể hỏi bản dịch nào sát hơn, một vị thầy có đáng tin không, hoặc lời khuyên nào trái giới. Cấm hỏi và đòi phục tùng không phải bằng chứng của tịnh tín. Không tin một người dạy thiếu an toàn hay một lời trái giới có thể là phán đoán đúng, không phải chướng ngại phải ép bỏ.
+#practice-card(
+  [Khi hai lời hướng dẫn khác nhau],
+  [
+    *Tìm hiểu có căn cứ:* viết rõ điểm khác, mở đoạn nguồn, hỏi người có năng lực và giữ giới hạn an toàn khi thực hành.
 
-Người mới cũng không thể đoạn hoài nghi bằng cách cố cảm thấy chắc chắn. Hướng tu thực tế là bốn yếu tố ở K02: gần người chân chánh, nghe Chánh pháp, như lý tác ý và hành pháp thuận pháp.
+    *Ép mình chắc chắn:* dập câu hỏi để được nhóm hoặc người dạy chấp nhận. Cách này không tự tạo sự xác chứng.
 
-Thay vì ép mình tin, hãy đưa điều chưa rõ qua năm phép thử ở thẻ dưới: nguồn, Tứ Thánh Đế, tác động lên tham–sân–si, giới hạn an toàn và khả năng được người có năng lực sửa lại. Đây là hướng học có căn cứ, không phải mô tả đầy đủ về sự đoạn kiết sử và không cho phép tự cấp quả.
+    *Để mơ hồ kéo dài:* tiếp tục tìm lời bảo đảm mà chưa đọc nguồn hoặc thực hành phần an toàn, nên không có điều kiện để hiểu thêm.
 
-Hoài nghi còn xuất hiện trong danh sách năm triền cái ở chương 6. Nghi sinh rồi diệt trong một buổi ngồi có thể được quan sát như một trạng thái đang che tâm; sự có mặt hay vắng mặt nhất thời ấy không đủ xác định hoài nghi như kiết sử đã còn hay đã đoạn.
+    Ba ví dụ giúp nhìn cách mình đang học, không phân loại chắc kiết sử của một người. Có lúc chưa đủ dữ kiện để quyết định; thừa nhận điều ấy khác với cố trì hoãn mọi hành động.
+  ],
+  label: [CA PHÂN BIỆT · BIÊN SOẠN THEO K02; K03; K09],
+)
+
+Không cần làm mình có cảm giác chắc chắn mới được bắt đầu. Có thể giữ điều chưa biết ở đúng vị trí, đồng thời thực hành những điều đã đủ rõ: không nói dối, không gây hại, chăm sóc bổn phận và học từ nguồn đáng kiểm tra. Những việc ấy là hướng đi, không phải chứng cứ riêng lẻ cho sự đoạn hoài nghi.
 
 #practice-card(
-  [Biến một mối nghi thành câu hỏi có đường ra],
+  [Biến điều chưa rõ thành câu hỏi có đường tìm hiểu],
   [
-    Chọn một điều vừa đủ nhẹ để tự tìm hiểu, không chọn khủng hoảng, nguy cơ cấp thời hay triệu chứng cần chuyên môn.
+    1. Viết câu hỏi cụ thể, chẳng hạn: “MN 2 nói gì về như lý tác ý?”
 
-    1. Viết đúng điều chưa rõ, chẳng hạn: “MN 2 nói gì về như lý tác ý?” Đừng để câu hỏi phình thành “toàn bộ Phật pháp có đúng không?”.
-    2. Mở đoạn nguồn đang được viện dẫn, thay vì chỉ nghe một lời kể lại.
-    3. Mang cách hiểu của mình đến người có giới hạnh và năng lực, đồng thời giữ quyền kiểm lại nguồn.
-    4. Chọn một phần thực hành an toàn và đúng Pháp để kiểm nghiệm, như giữ lời chân thật khi bị áp lực hoặc nhận ra thọ trước khi đáp trả.
-    5. Ghi riêng điều đã rõ, điều chưa rõ và điều phải sửa. Không ép phần chưa biết thành niềm tin.
+    2. Đọc đoạn đang được dẫn, phân biệt lời kinh với lời chú giải.
 
-    Quy trình này biến sự mơ hồ thành học và hành có căn cứ. Nó không chứng minh hoài nghi như kiết sử đã đoạn.
+    3. Mang cách hiểu đến người có giới hạnh và năng lực, vẫn giữ quyền đối chiếu.
+
+    4. Thử một phần thực hành vừa sức và an toàn, chẳng hạn giữ lời chân thật khi có áp lực.
+
+    5. Ghi riêng điều đã rõ, điều chưa rõ và điều cần sửa; không ép phần chưa biết thành kết luận.
+
+    Không dùng quy trình này để tự xử lý khủng hoảng sức khỏe hoặc trì hoãn việc cấp bách. Nó là cách học, không phải năm bước bảo đảm đoạn kiết sử.
   ],
   label: [THỰC HÀNH · BIÊN SOẠN THEO K02; K05; K11],
 )
 
+Hoài nghi cũng nằm trong năm triền cái ở Chương 6. Việc một trạng thái nghi sinh rồi lắng trong buổi ngồi chưa đủ xác nhận kiết sử đã đoạn. Mặt khác, cần phân biệt câu hỏi về chi tiết thông thường với sự nghi trên chính trục xác chứng mà các kinh đang nói; không gom tất cả thành một nhãn.
+
 === 3. Chấp thủ giới-tập tục: không phải bỏ giới
 
-Cụm *sīlabbataparāmāsa* được dịch theo nhiều cách: giới cấm thủ, chấp thủ giới và nghi thức, hay chấp vào tập tục và cách thực hành. MN 2 nêu tên kiết sử nhưng không giải hết mọi sắc thái trong chính đoạn ấy. Điều có thể nói chắc nhất là: đoạn kiết sử này không thể có nghĩa vứt bỏ đạo đức, vì giới hạnh không rạn vỡ vẫn xuất hiện trong Gương Pháp của bậc Nhập lưu.
+Sīlabbataparāmāsa thường được dịch là giới cấm thủ, chấp thủ giới và nghi thức hoặc chấp vào giới-tập tục. MN 2 nêu tên nhưng không giải hết nghĩa ngay tại đoạn ấy. Vì giới hạnh vẫn nằm trong các phẩm chất của bậc Nhập lưu, không thể đọc việc đoạn kiết sử này thành từ bỏ đạo đức.
 
 #source-line("KINH", [K38 · MN 57], [
-  MN 57 nói người thực hiện trọn vẹn hạnh con chó hoặc hạnh con bò sẽ tái sinh tương ứng; nếu kèm tà kiến rằng nhờ giới, hạnh, khổ hạnh hay phạm hạnh ấy sẽ sinh làm trời, tà kiến đó dẫn đến quả xấu. Bài kinh không định nghĩa trọn vẹn *sīlabbataparāmāsa*. Sách chỉ dùng đoạn này như một minh họa có giới hạn: thực hiện hoàn hảo một hình thức không làm tà kiến biến thành chánh kiến.
+  MN 57 trình bày người thực hiện hạnh chó hoặc hạnh bò và kết quả tương ứng, cùng tà kiến về việc nhờ giới, tập tục, khổ hạnh hay phạm hạnh ấy sẽ sinh làm trời. Đây là bối cảnh cụ thể của bài kinh.
 ])
 
-#practice-card(
-  [Vì sao chấp thủ giới-tập tục chặn cửa Nhập lưu],
-  [
-    Con đường giải thoát đòi thấy nhân và quả. Chấp thủ giới-tập tục phá điểm này bằng cách tráo vị trí của phương tiện và cứu cánh. Người ấy không còn hỏi “điều này đang giúp giảm tham, sân, si thế nào?” mà hỏi “tôi đã làm đúng bài chưa, đúng nghi thức chưa, đủ số giờ chưa?”.
+Sách dùng trường hợp ấy để cho thấy một hình thức được thực hiện kỹ không tự làm cách thấy sai trở thành đúng. MN 57 không vì vậy được dùng như định nghĩa đầy đủ của mọi trường hợp giới cấm thủ.
 
-    Khi hình thức bị xem như một sự bảo đảm tự động, tâm có thể rất chăm mà vẫn đi lạc. Nó bám vào cái dễ đếm thay vì cái phải chuyển hóa. Vì vậy, đoạn kiết sử này không có nghĩa bỏ giới hay bỏ kỹ thuật; nó có nghĩa trả giới, nghi thức và kỹ thuật về đúng vai trò phục vụ toàn bộ Bát Chánh Đạo.
-  ],
-  label: [GIẢI THÍCH THỰC HÀNH · BIÊN SOẠN THEO K03; K08; K11; K38],
-)
-
-#source-line("BIÊN SOẠN", [cách hiểu dùng trong chương, đối chiếu K03; K08; K11; K24; K38], [
-  Theo cách hiểu của sách, điều bị tháo là cách nắm hình thức như thể hình thức tự nó đủ thanh tịnh và giải thoát. Một nghi lễ có thể nhắc tâm; một giới điều có thể ngăn hại; một tư thế có thể giữ thân ổn; một kỹ thuật ghi nhận có thể rèn niệm. Sai lầm bắt đầu khi người ta đổi “điều này hỗ trợ một chi của đường” thành “chỉ cần làm đúng hình thức này thì quả phải xảy ra”. Đây là cách giải thích có giới hạn, không phải câu định nghĩa nguyên văn của MN 2.
+#source-line("BIÊN SOẠN", [cách hiểu để đọc, đối chiếu K03; K08; K11; K38], [
+  Một cách giải thích hữu ích là sự nắm giữ giới, nghi thức hoặc phương pháp như thể riêng hình thức ấy đủ bảo đảm thanh tịnh và giải thoát. Đây là lời giải nghĩa có giới hạn của sách, không phải câu nguyên văn MN 2 và không bao quát hết mọi tranh luận về thuật ngữ.
 ])
 
+Điều cần học là quan hệ giữa phương tiện và mục đích. Giới bảo vệ khỏi hành vi gây hại; tư thế có thể hỗ trợ thân vững; nhãn có thể giúp nhớ việc quan sát; nghi lễ có thể nhắc một ý hướng lành. Các vai trò đó khác với lời hứa rằng chỉ cần hoàn thành hình thức thì toàn bộ con đường đã đủ.
+
 #practice-card(
-  [Phương tiện giúp gì — và ta dễ lầm ở đâu?],
+  [Cùng một phương tiện, hai cách nắm],
   [
-    Cùng một hình thức có thể được dùng đúng chức năng hoặc bị nắm thành điều kiện đủ:
+    *Giới:* giữ để tránh gây hại và nâng đỡ tâm. Chỗ cần kiểm là lấy việc đúng một công thức làm lý do không nhìn hành vi hoặc cách thấy sai ở nơi khác.
 
-    + *Giới điều:* chức năng là ngăn hại, bảo vệ quan hệ và nâng đỡ tâm không hối hận. Lầm tưởng ở đây là “tôi giữ đúng câu chữ, nên cách thấy và toàn bộ đời sống chắc chắn đã thanh tịnh”.
-    + *Tư thế:* chức năng là giúp thân ổn và tâm tỉnh. Lầm tưởng ở đây là “đổi tư thế thì đường tu hỏng”, kể cả khi thân đang chấn thương.
-    + *Ghi nhận:* chức năng là giúp nhận biết kinh nghiệm và giảm bị cuốn theo. Lầm tưởng ở đây là “gọi đúng nhãn Pāli hoặc ghi nhận đủ nhanh thì quả phải xảy ra”.
-    + *Tụng niệm hay nghi lễ:* có thể nhắc tâm, nuôi sự trang nghiêm hoặc nâng đỡ cộng đồng. Lầm tưởng ở đây là “hoàn tất nghi thức tự nó thanh tịnh hóa, bất kể tà kiến và hành vi gây hại”.
+    *Tư thế:* dùng để thân vững và tỉnh. Chỗ cần kiểm là cho rằng đổi tư thế sẽ làm hỏng đạo lộ, kể cả khi đang có nguy cơ chấn thương.
 
-    Bài học không phải bỏ hình thức. Hãy hỏi hình thức đang làm việc gì trong toàn bộ Bát Chánh Đạo, và điều kiện nào khác vẫn không thể thiếu. Bốn ví dụ là phần biên soạn; MN 2 nêu tên kiết sử chứ không kể các tình huống hiện đại này.
+    *Ghi nhận:* dùng nhãn hỗ trợ việc biết. Chỗ cần kiểm là tin rằng gọi đủ nhanh hoặc đủ tiếng Pāli sẽ bảo đảm chứng quả.
+
+    *Tụng niệm hoặc nghi lễ:* có thể nâng đỡ hướng tâm và cộng đồng. Chỗ cần kiểm là cho rằng hoàn tất nghi thức tự xóa hết tác hại, bất kể giới hạnh và cách sống.
+
+    Các ví dụ là phần áp dụng của sách. Giữ giới nghiêm, duy trì một phương pháp hoặc tham gia nghi lễ không tự nó chứng minh giới cấm thủ.
   ],
-  label: [MÔ HÌNH PHƯƠNG TIỆN · BIÊN SOẠN THEO K03; K04; K06; K08; K11; K25],
+  label: [MÔ HÌNH PHƯƠNG TIỆN · BIÊN SOẠN THEO K03; K04; K06; K08; K38],
 )
 
-Không được dùng sự phân biệt này để biện hộ cho bỏ giới hay gây hại. Quan hệ đúng là giữ phương tiện vì hiểu chức năng nhân quả của nó, đồng thời tiếp tục phát triển toàn bộ Bát Chánh Đạo.
+Sự linh hoạt cũng không tự là trí tuệ. Đổi phương pháp liên tục có thể chỉ là chạy theo trạng thái dễ chịu, trong khi giữ đều một phương pháp có thể là điều cần thiết. Câu hỏi không chỉ là đổi hay không đổi, mà là có hiểu chức năng, điều kiện và giới hạn của cách thực hành không.
 
 #practice-card(
-  [Hỏi một phương tiện đang làm đúng việc gì],
+  [Bốn câu hỏi về một phương tiện mình đang dùng],
   [
-    Chọn một giới điều, nghi thức, tư thế hoặc kỹ thuật bạn xem là quan trọng rồi hỏi:
+    + Nó giúp ngăn điều hại nào hoặc nuôi dưỡng phần nào của đạo lộ?
+    + Tôi có dùng việc “làm đúng bài” để tránh nhìn một lỗi cần sửa không?
+    + Khi cần đổi hình thức để giữ an toàn mà không bỏ giới, tôi đang lo điều gì?
+    + Căn cứ nào hỗ trợ hoặc bác bỏ niềm tin rằng riêng phương tiện này đủ đem đến giải thoát?
 
-    + Nó đang ngăn điều hại nào hoặc nâng đỡ chi đạo nào?
-    + Tôi có đang dùng việc “làm đúng” để khỏi nhìn một lời nói dối, một hành vi gây hại hay một cách thấy sai không?
-    + Nếu hoàn cảnh buộc phải đổi hình thức mà vẫn giữ nguyên giới và chức năng tu tập, tôi có cho rằng con đường đã hỏng không?
-    + Điều gì, nếu được thấy rõ, sẽ khiến tôi sửa niềm tin rằng riêng phương tiện này đã đủ cho giải thoát?
-
-    Giữ giới không phải chấp giới. Dùng nghi thức hay kỹ thuật cũng không tự nó là sai. Sai lầm nằm ở việc coi phương tiện như thứ tự nó bảo đảm kết quả, rồi để hình thức che mất nhân quả, giới hạnh và toàn bộ Bát Chánh Đạo. Trả lời tốt các câu hỏi này vẫn không chứng minh kiết sử đã đoạn.
+    Câu trả lời giúp điều chỉnh thực hành. Nó không đủ để xác nhận đã đoạn kiết sử. Việc nhận ra giới không phải nghi thức bảo đảm tự động càng không cho phép bỏ giới hoặc gây hại.
   ],
   label: [THỰC HÀNH · BIÊN SOẠN THEO K03; K04; K06; K11; K25],
 )
@@ -411,180 +379,147 @@ Không được dùng sự phân biệt này để biện hộ cho bỏ giới h
 == Nhìn cả ba cùng lúc
 
 #practice-card(
-  [Ba kiết sử đầu khác nhau đúng ở đâu?],
+  [Ba kiết sử khác nhau ở đâu?],
   [
-    Nếu phải nắm bằng ba câu thật gọn, hãy giữ đúng ba trục khác nhau:
+    *Thân kiến:* cần đối chiếu cách nắm năm uẩn với tự ngã. Không chỉ nhìn đại từ “tôi” hoặc một trải nghiệm về ranh giới thân.
 
-    + *Thân kiến* hỏi: “Tôi đang đặt chữ ‘tôi’ vào đâu trong năm uẩn?” Sai ở chỗ nắm kinh nghiệm làm lõi tự ngã.
-    + *Hoài nghi* hỏi: “Tôi đã có thấy biết đủ căn cứ để đứng vững trên Phật, Pháp, Tăng, con đường và sự thực hành chưa?” Sai ở chỗ chưa đứng vững trên điều phải được biết và đi.
-    + *Chấp thủ giới-tập tục* hỏi: “Phương tiện này đang phục vụ chi đạo nào, hay tôi đang coi nó như thứ tự nó bảo đảm kết quả?” Sai ở chỗ nắm sai chức năng của giới, nghi thức hay kỹ thuật.
+    *Hoài nghi:* cần đối chiếu với sự xác chứng về Phật, Pháp, Tăng và con đường. Không chỉ đếm câu hỏi hoặc nghe mức tự tin trong lời nói.
 
-    Ba lối nhầm cũng khác nhau:
+    *Chấp thủ giới-tập tục:* cần xem cách nắm giới và phương pháp trong quan hệ với thanh tịnh, giải thoát. Không chỉ nhìn mức nghiêm hoặc linh hoạt của hình thức.
 
-    + Với *thân kiến*, nhầm lớn nhất là tưởng chỉ cần bớt nói “tôi” hoặc có một trải nghiệm “không có tôi” là đủ.
-    + Với *hoài nghi*, nhầm lớn nhất là tưởng phải tắt mọi câu hỏi hoặc phải thấy thật chắc mới là đúng hướng.
-    + Với *chấp thủ giới-tập tục*, nhầm lớn nhất là tưởng hễ giữ giới nghiêm, ghi nhận đúng nhãn hay làm đúng nghi thức thì kết quả phải tự đến.
-
-    Ba hướng sửa cũng khác nhau:
-
-    + Với *thân kiến*, soi năm uẩn và chỗ tâm nắm “tôi”, “của tôi”.
-    + Với *hoài nghi*, biến điều chưa rõ thành điều tra có nguồn, có phép thử, có người sửa.
-    + Với *chấp thủ giới-tập tục*, trả phương tiện về đúng chức năng trong toàn bộ Bát Chánh Đạo.
-
-    Thẻ này chỉ là bản đồ nhớ nhanh sau khi đã đọc ba phần trên. Nó không thay cho định nghĩa kỹ thuật của kinh và càng không phải bảng tự kết luận Nhập lưu.
+    Cả ba hướng đều cần giới, định, tuệ và học từ nguồn có thể đối chiếu. Sơ đồ giúp phân biệt, không chia con đường thành ba kỹ thuật riêng để hoàn thành rồi tự cấp quả.
   ],
-  label: [TỔNG HỢP MỘT TRANG · BIÊN SOẠN THEO K02; K03; K06; K11; K20; K38],
+  label: [TỔNG HỢP · BIÊN SOẠN THEO K02; K03; K06; K11; K20; K38],
 )
+
+Một tình huống có thể làm lộ nhiều điều cùng lúc: bảo vệ hình ảnh bản thân, hoài nghi hiệu quả của việc tu và bám một thao tác như lời giải duy nhất. Nhưng các dấu hiệu ấy vẫn phải được tìm hiểu đúng nghĩa. Khi chưa đủ căn cứ, một câu mô tả đơn giản như “mình đang muốn được công nhận” có thể thành thật hơn một thuật ngữ quá lớn.
 
 == Hướng tu vào ba kiết sử mà không tự chấm quả <huong-ba-kiet-su>
 
-#practice-card(
-  [Năm việc có thể làm ngay],
-  [
-    + *Học Tứ Thánh Đế như bốn việc phải làm:* hiểu rõ khổ, đoạn trừ nguồn gốc của khổ, chứng nghiệm sự chấm dứt và tu tập con đường. Nói gần với thực hành: biết điều gì đang gây sức ép, thấy và buông điều đang nuôi nó, nhận ra khi một chuỗi khổ dừng, rồi phát triển đủ Bát Chánh Đạo. Một lần phản ứng lắng xuống là dữ kiện hữu ích cho việc học, không tự nó chứng minh đã chứng Diệt đế hay Nhập lưu.
-    + *Soi năm uẩn thay vì săn cảm giác vô ngã:* thấy sắc, thọ, tưởng, hành, thức sinh do duyên và đổi thay; nhận ra chỗ tâm biến chúng thành “tôi” và “của tôi”.
-    + *Làm nghi thành điều tra có kỷ luật:* học từ nguồn có thể kiểm tra hoặc đối chiếu, hỏi người chân chánh, thử trong giới hạn an toàn và sửa cách hiểu khi điều quan sát được không khớp. Điều tra tìm căn cứ rồi thật sự thử con đường; nghi quay vòng chỉ gom thêm câu hỏi mà không chịu học hay hành đủ để kiểm.
-    + *Giữ giới như phần của đạo, không như bùa:* nhìn ý định, hậu quả và mức gây hại, không chỉ hình thức bên ngoài.
-    + *Đặt kỹ thuật vào đúng tỷ lệ:* ghi nhận và định hỗ trợ chánh niệm, chánh định, tuệ; chúng không thay chánh kiến, chánh ngữ, chánh nghiệp hay chánh mạng.
-
-    Đây là hướng chuẩn bị nền và đi đúng đường. Không một mục nào, dù đứng riêng hay được cộng thành bảng điểm, cho phép cuốn sách xác nhận Nhập lưu.
-  ],
-  label: [HƯỚNG THỰC HÀNH · K02; K05; K06; K11; K20; K26],
-)
+#source-line("KINH", [K05 · SN 56.11; K06 · SN 55.5], [
+  SN 56.11 nêu khổ cần được hiểu đầy đủ, nguồn sinh cần được đoạn, sự chấm dứt cần được thực chứng và con đường cần được tu tập. SN 55.5 xác định dòng là Bát Chánh Đạo.
+])
 
 #practice-card(
-  [Ba lăng kính, một sự việc nhỏ],
+  [Giữ bốn nhiệm vụ trong một việc thực tế],
   [
-    Chọn một sự việc nhẹ, như bị góp ý, phải chờ lâu hoặc kế hoạch nhỏ bị đổi. Không dùng bài này với sang chấn, khủng hoảng cấp thời, phân ly mạnh hay triệu chứng cần chuyên môn.
+    *Hiểu:* nhận ra sự việc, thọ, suy nghĩ và điều đang được nắm giữ mà không vội phán xét.
 
-    1. Ghi điều quan sát được: thân, thọ dễ chịu-khó chịu-trung tính, điều được nhận ra, ý muốn và sự biết. Không cần ép đủ cả năm uẩn.
-    2. Hỏi chỗ nào tâm thêm “tôi”, “của tôi”, chủ sở hữu hoặc lõi đang bị đe dọa. “Chưa thấy” là một câu trả lời hợp lệ.
-    3. Viết đúng *một* điều chưa rõ. Ghi nguồn, người có năng lực hoặc phép thử an toàn kế tiếp có thể làm sáng tỏ nó. Không ép phần chưa biết thành niềm tin.
-    4. Gọi tên hình thức bạn đang dùng, như giới điều, tư thế, ghi nhận hay tụng niệm. Viết chức năng của nó trong con đường.
-    5. Hỏi: nếu đổi hình thức nhưng vẫn giữ giới và chức năng, con đường có thật sự hỏng không? Nếu câu trả lời là “chắc chắn hỏng”, hãy kiểm lại niềm tin rằng hình thức ấy tự bảo đảm kết quả.
-    6. Chọn một hành động kế tiếp phù hợp với sự thật, nguyên tắc không làm hại và Bát Chánh Đạo.
-    7. Kết thúc bằng ba dòng: *đã quan sát; còn chưa biết; việc tu kế tiếp*.
+    *Hướng đến đoạn nguồn sinh:* nhìn tham ái và chấp thủ khi đủ rõ, không tiếp tục nuôi một phản ứng gây hại.
 
-    Bài này rèn cách thấy và cách đặt câu hỏi. Làm trôi chảy, làm thường xuyên hoặc có một lần “rất rõ” vẫn không xác lập sự đoạn kiết sử.
+    *Giữ đúng cứu cánh:* trân trọng việc phản ứng dịu đi, nhưng không đổi tên sự dịu ấy thành Diệt đế đã được thực chứng.
+
+    *Tu con đường:* chọn cách thấy, hướng tâm, nói và làm phù hợp; tiếp tục chăm sóc giới, sự rèn tâm và học Pháp.
+
+    Bốn dòng là lời gợi ý biên soạn. Chúng không tương đương việc hoàn tất bốn nhiệm vụ trong SN 56.11.
   ],
-  label: [THỰC HÀNH CHUẨN BỊ · BIÊN SOẠN THEO K02; K05; K11; K20; K26–K31; K35],
+  label: [HƯỚNG THỰC HÀNH · BIÊN SOẠN THEO K05; K06; K11],
 )
+
+Có thể đem điều chưa rõ đến người hướng dẫn bằng một mô tả cụ thể: điều đã xảy ra, điều kiện trước đó, cách mình đáp lại và tác động lên sinh hoạt. Người hướng dẫn có thể giúp phát hiện nhầm lẫn hoặc điều chỉnh kỹ thuật. Sự giúp đỡ ấy đáng quý, nhưng một lời xác nhận đơn lẻ không thay thế tiêu chuẩn kinh và việc kiểm tra đầy đủ.
+
+Không cần đợi tự xác định quả vị mới được tiếp tục giữ giới, sửa lỗi hay quan sát thân tâm. Việc chưa biết rõ mức chứng đạt không khiến những hành động lành mất giá trị. Nó chỉ nhắc giữ lời kết luận đúng với căn cứ đang có.
 
 == Mô tả của kinh về kết quả, không phải bài tự đánh giá <guong-phap>
 
-Phần trên là hướng học và thực hành. Phần này đổi sang *mô tả kết quả* trong kinh. Không có mũi tên, điểm số hay số lần làm bài nào nối thẳng hai phần. Ba kiết sử cho biết điều gì được nói là đã đoạn; Gương Pháp nhìn những phẩm chất hiện diện trong cùng sự chuyển đổi: lòng tin đã được xác chứng và giới hạnh có thể soi lại trong đời sống.
-
-#source-line("KINH", [K08 · DN 16, phần Gương Pháp], [DN 16 nêu tịnh tín đã được xác chứng nơi Phật, Pháp và Tăng, cùng giới hạnh được bậc Thánh quý trọng, không rạn vỡ, không tì vết và đưa đến định. Bài kinh nói vị Thánh đệ tử có Gương Pháp ấy có thể tự tuyên bố mình là bậc Nhập lưu, không còn đọa xứ và chắc chắn hướng đến giác ngộ.])
-
-Cuốn sách không biến các phẩm chất này thành thang điểm. Một bản tự báo cáo ngắn không xác lập tịnh tín đã được xác chứng, giới hạnh bền vững hay sự thâm nhập duyên khởi; càng không cho phép cộng vài câu “đúng” thành một danh hiệu.
-
-#source-line("KINH", [K21 · AN 10.92], [
-  Công thức đầy đủ không chỉ nói “tin mạnh”. Tịnh tín nơi Phật gắn với các phẩm chất giác ngộ; nơi Pháp gắn với một lời dạy có thể được thấy, kiểm nghiệm và tự biết bởi người có trí; nơi Tăng gắn với cộng đồng Thánh đệ tử, được mô tả bằng bốn đôi tám hạng người. Phẩm chất thứ tư là giới hạnh không rạn vỡ, không tì vết, được bậc Thánh quý trọng và dẫn đến định.
+#source-line("KINH", [K08 · DN 16, Gương Pháp], [
+  Gương Pháp trình bày tịnh tín được xác chứng nơi Phật, Pháp, Tăng và giới hạnh được bậc Thánh quý trọng: không rạn vỡ, không tỳ vết, được người trí tán thán và đưa đến định. Phần này cho phép vị Thánh đệ tử tự tuyên bố khi những phẩm chất được nêu đã thành tựu.
 ])
 
-Nói gần nghĩa, *tịnh tín đã được xác chứng* là lòng tin đã qua thấy biết và đứng vững trong cách sống. Nó không phải cảm xúc sùng kính thoáng qua, sự chắc chắn do tập thể gây ra hay bổn phận phải tin mọi người mặc áo tu. Trong công thức của kinh, “Tăng” trước hết chỉ cộng đồng Thánh đệ tử theo bốn đôi tám hạng, không tự động bảo chứng mọi cơ sở hoặc người đại diện tôn giáo.
+#source-line("KINH", [K09 · SN 12.41; K21 · AN 10.92], [
+  Hai bài kinh đặt sự lắng dịu của năm hành vi gây sợ hãi, bốn phẩm chất Nhập lưu và trí thấy nguyên lý duyên khởi bên cạnh lời tự tuyên bố. Công thức Tăng trong các phẩm chất ấy nói đến cộng đồng Thánh đệ tử bốn đôi, tám hạng người.
+])
 
-Chi tiết này sửa hai cực đoan. Một là cho rằng bất kỳ cảm giác tin tưởng nào cũng đủ. Văn bản đòi tịnh tín đã được xác chứng và giới hạnh tương ứng. Hai là cho rằng kinh buộc một thiền sư phải cấp chứng thư sau một số tháng quan sát. DN 16 không đặt điều kiện ấy. Người hướng dẫn có thể giúp phát hiện ngộ nhận, nhưng không được thay bốn phẩm chất bằng quyền uy cá nhân.
+Vì vậy, sách không nói “không ai có thể tự biết” như một mệnh đề thay lời kinh. Điều được cảnh báo là tự suy ra từ dữ kiện không đủ: cảm giác an ổn, lòng kính mến một người, điểm cao trên bảng hỏi hoặc một trải nghiệm khác thường. Khả năng tự tuyên bố trong kinh và sự thận trọng khi đánh giá một câu chuyện là hai việc khác nhau.
 
-#source-line("KINH", [K09 · SN 12.41], [SN 12.41 mở rộng phép tự soi: năm sợ hãi và thù nghịch được dập tắt nhờ tránh sát sinh, lấy của không cho, tà hạnh, nói dối và chất say; người ấy có bốn phẩm chất Nhập lưu; đồng thời đã thấy và thâm nhập duyên khởi bằng trí tuệ.])
-
-SN 12.41 khiến tiêu chuẩn khó bị rút thành một bảng niềm tin. Giới được biểu hiện bằng những điều không còn làm. Tuệ được biểu hiện bằng sự thâm nhập cơ chế sinh và diệt của khổ. Chỉ tự cho điểm cao về lòng tin không đáp ứng toàn bộ cấu trúc ấy.
+Giới trong công thức không chỉ là quan điểm tán thành điều tốt; tuệ không chỉ là thuộc sơ đồ duyên khởi. Các bài kinh nêu những phẩm chất đã thành tựu. Một bảng tự đánh giá ngắn của sách không thể xác định sự thành tựu ấy.
 
 == Điều gì không đủ để kết luận? <khong-du-ket-luan>
 
-Bốn phẩm chất trên giải thích vì sao một hiện tượng đứng riêng chưa đủ cho một kết luận. Danh sách dưới đây không phủ nhận giá trị của trải nghiệm; nó chỉ đặt trải nghiệm về đúng trọng lượng chứng cứ.
-
-- Ánh sáng, hỷ lạc, thân nhẹ hoặc định sâu.
-- Một khoảng trống ký ức hay cảm giác ý thức ngừng lại.
-- Cảm giác “mọi thứ là một”, “không có tôi” hoặc xúc động mạnh.
-- Giảm căng thẳng, sống dễ chịu hơn hay được người thân khen.
-- Một tờ chứng nhận, lời phong cấp hoặc vị trí trong tổ chức.
-- Biết thuộc tên các mốc trong bản đồ tuệ của truyền thống Mahāsi.
-
-Những việc này có thể có ý nghĩa trong bối cảnh riêng, nhưng tự chúng không thỏa định nghĩa của SN 55.5, ba kiết sử của MN 2 hay Gương Pháp của DN 16. Một lần ngừng biết có thể có nhiều cách giải thích. Cuốn sách không có đủ dữ kiện lâm sàng, bối cảnh dài hạn hay tiêu chuẩn kinh điển để chọn một cách giải thích rồi gọi đó là quả.
-
-#caution(
-  [Tự tuyên bố không có nghĩa tuyên bố vội],
+#practice-card(
+  [Những điều cần được hiểu trước khi đặt tên],
   [
-    DN 16 cho phép tự biết và tự tuyên bố; kinh không trao giấy phép cho việc ghép vài trải nghiệm vào một danh hiệu. Nếu còn mâu thuẫn lớn giữa cách hiểu, giới hạnh và phản ứng thực tế, kết luận thận trọng là chưa đủ căn cứ để công bố. Sự chưa chắc không tự chứng minh “chưa chứng”, nhưng đủ để ngăn một lời khẳng định vượt quá chứng cứ hiện có.
+    Ánh sáng, hỷ lạc, khoảng trống, sự gián đoạn ký ức, cảm giác không còn cái tôi, khả năng ngồi lâu hoặc một thời gian ít phản ứng đều chưa đủ, nếu đứng riêng, để xác nhận Nhập lưu.
+
+    Mỗi điều có thể có ý nghĩa trong bối cảnh của nó. Sách không phủ nhận trải nghiệm người đọc kể; sách giữ riêng trải nghiệm với lời giải thích về nguyên nhân và đạo quả.
+
+    Khi trải nghiệm đi cùng mất ngủ, khó phân biệt thực tại, suy giảm sinh hoạt hoặc nguy cơ gây hại, cần dùng Chương 9 trước. Không đợi quyết định đó là tuệ hay bệnh mới tìm hỗ trợ phù hợp.
   ],
+  label: [RANH GIỚI KẾT LUẬN · BIÊN SOẠN],
 )
+
+“Chưa đủ để xác nhận” không đồng nghĩa “mọi cách giải thích đều ngang nhau”. Một lời tuyên bố cần được xem xét bằng nguồn, điều kiện thực hành, tính nhất quán của phẩm chất và những giải thích khác. Nếu có bằng chứng thực sự trái với tiêu chuẩn đã nêu, cần sửa kết luận, không giữ danh hiệu rồi giải thích mọi điều trái ngược thành ngoại lệ.
+
+Sách cũng không chẩn đoán sức khỏe hay chứng quả từ một câu chuyện ngắn. Hai việc đều đòi loại thông tin, năng lực và trách nhiệm vượt quá một bảng tra.
 
 == Kinh nói gì về kết quả?
 
-#source-line("KINH", [K10 · AN 3.88], [AN 3.88 mô tả ba hạng Nhập lưu đã đoạn ba kiết sử: người chỉ còn một lần sinh làm người, người còn sinh vào hai hoặc ba gia đình, và người còn tối đa bảy lần sinh giữa chư thiên và loài người rồi chấm dứt khổ. Đây là các phân loại tái sinh trong khung vũ trụ quan của kinh, không phải mốc thời gian hiện đại.])
-
-#source-line("KINH", [K08 · DN 16, đoạn Ñātika], [
-  DN 16 gọi bậc Nhập lưu là người không còn chịu đọa xứ, chắc chắn hướng đến giác ngộ. Cũng trong bài kinh, Đức Phật nói hơn năm trăm nam cư sĩ đã qua đời tại Ñātika là những bậc Nhập lưu. Chi tiết này cho thấy địa vị cư sĩ không tự loại trừ Nhập lưu. Nó không biến đời sống tại gia, khóa thiền hay bất kỳ thời khóa nào thành sự bảo đảm.
+#source-line("KINH", [K10 · AN 3.88], [
+  Bài kinh nêu các hạng đã đoạn ba kiết sử: hạng tối đa bảy lần lưu chuyển giữa chư thiên và loài người, hạng qua hai hoặc ba gia đình, và hạng trở lại một đời người; các vị đi đến chấm dứt khổ. Những mô tả này nằm trong khung tái sinh của bài kinh.
 ])
 
-Các phát biểu về tái sinh và đọa xứ là khẳng định tôn giáo của kinh tạng. Cuốn sách này không đưa ra bằng chứng thực nghiệm hiện đại để xác lập chúng như dữ kiện khoa học. Ranh giới trung thực là trình bày đúng điều kinh tuyên bố, không lén đổi loại bằng chứng.
+Sách giữ phạm vi ấy, không đổi “bảy lần” thành bảy cơn cảm xúc hoặc một lịch thực hành. Đây là điều kinh khẳng định, không phải số liệu nghiên cứu hiện đại mà người biên soạn đã xác minh độc lập. Dẫn đúng giáo lý và chứng minh thực nghiệm là hai loại công việc cần được phân biệt.
+
+#source-line("KINH", [K08 · DN 16; K09 · SN 12.41], [
+  Công thức về bậc Nhập lưu nêu vị ấy không còn rơi vào các cảnh giới đọa lạc, đã được quyết định và hướng đến giác ngộ.
+])
+
+Ý nghĩa ấy lớn hơn một kỹ năng điều chỉnh cảm xúc. Những cải thiện trong đời sống có thể đáng quý, nhưng không cần được nâng thành quả vị để có giá trị.
 
 == Ai có thể đạt Nhập lưu theo lời kinh? <ai-co-the-nhap-luu>
 
-Câu trả lời chặt nhất của kinh không bắt đầu bằng giới tính, nghề nghiệp hay địa vị xuất gia. SN 55.5 gọi người thành tựu Bát Chánh Đạo là bậc Nhập lưu. MN 2 đặt ranh giới quả này ở việc ba kiết sử đầu được đoạn. Vì vậy, tiêu chuẩn nằm ở đạo lộ và sự chuyển hóa được kinh nêu, không nằm ở nhãn xã hội của người ấy.
-
-DN 16 cho thấy phạm vi này bằng những trường hợp cụ thể:
-
-+ *Tỳ-kheo:* trong lời dạy cuối, Đức Phật nói người có mức chứng thấp nhất trong hội chúng năm trăm tỳ-kheo cũng là bậc Nhập lưu.
-+ *Nam cư sĩ:* tại Ñātika, bài kinh nói hơn năm trăm nam cư sĩ đã qua đời là bậc Nhập lưu.
-+ *Nữ cư sĩ:* Sujātā được nêu đích danh là bậc Nhập lưu.
-+ *Tỳ-kheo-ni:* Nandā được nêu là bậc Bất lai, một mốc cao hơn Nhập lưu trong cùng hệ thống bốn quả.
+SN 55.5 nêu tiêu chuẩn đạo lộ; MN 2 nêu sự đoạn ba kiết sử ở đoạn đang đọc; AN 3.88 nối các hạng đoạn ba kiết sử với quả Nhập lưu. Các nguồn không đặt giới tính hoặc địa vị xã hội thay cho những tiêu chuẩn ấy.
 
 #source-line("KINH", [K08 · DN 16, đoạn Ñātika và lời dạy cuối], [
-  DN 16 nêu người xuất gia và tại gia, nam và nữ, trong các phân loại Thánh quả. Riêng ở mốc Nhập lưu, bài kinh trực tiếp nêu năm trăm tỳ-kheo, hơn năm trăm nam cư sĩ và nữ cư sĩ Sujātā; tỳ-kheo-ni Nandā được nêu ở quả Bất lai. Các ví dụ đủ bác bỏ ý nghĩ rằng Nhập lưu là đặc quyền của nam giới hoặc người xuất gia.
+  *Tỳ-kheo:* ở phần cuối, Đức Phật nói người thấp nhất trong năm trăm Tỷ-kheo cũng là bậc Nhập lưu.
+
+  *Nam cư sĩ:* tại Ñātika, bài kinh nêu hơn năm trăm nam cư sĩ đã qua đời là bậc Nhập lưu; Sudatta được nêu là Nhất lai và những vị khác đạt Bất lai.
+
+  *Nữ cư sĩ:* Sujātā được nêu là bậc Nhập lưu.
+
+  *Tỳ-kheo-ni:* Nandā được nêu đã đoạn năm hạ phần kiết sử, hóa sinh và đạt giải thoát hoàn toàn tại đó, không trở lại từ cảnh giới ấy.
 ])
 
-Nguồn đủ để kết luận rằng: *đời sống tại gia và giới tính nữ không tự loại trừ khả năng chứng Thánh quả*. Nguồn không đủ để kết luận rằng: mọi người chắc chắn sẽ chứng trong đời này, một nhóm có tỉ lệ chứng bao nhiêu, hoặc chỉ cần mang một danh phận trên là đủ. DN 16 kể các trường hợp đã được phân loại; nó không cung cấp thống kê hiện đại, lịch chứng đắc hay công thức bảo đảm.
+Nandā là ví dụ về mức Bất lai trong đoạn ấy, không phải một câu trực tiếp gọi bà là Nhập lưu. Khi dùng trường hợp này để bàn khả năng tu của nữ xuất gia, cần giữ đúng sự khác biệt. Hai nhóm “năm trăm” tại Ñātika và ở lời dạy cuối cũng không phải cùng một nhóm người.
 
 #practice-card(
-  [Đừng trả lời “ai có thể?” bằng căn cước],
+  [Khả năng không phải lời bảo đảm cho từng người],
   [
-    Nếu câu trả lời là “chỉ người xuất gia”, DN 16 phản bác bằng các cư sĩ. Nếu câu trả lời là “chỉ nam giới”, Sujātā và Nandā phản bác. Nếu câu trả lời là “bất kỳ ai cũng chắc chắn đạt được”, kinh không cho lời bảo đảm ấy.
+    Các trường hợp trong kinh cho thấy đời sống tại gia và giới tính nữ không tự loại trừ thành tựu được nêu. Nhưng từ đó không suy ra mọi người chắc chắn sẽ chứng trong đời này, hoặc mọi hoàn cảnh tu đều có điều kiện như nhau.
 
-    Câu trả lời có giới hạn hơn là: kinh không dành Thánh quả riêng cho một giới tính hay địa vị xuất gia; người được gọi là Nhập lưu phải được hiểu bằng Bát Chánh Đạo, ba kiết sử đầu và các phẩm chất đã giải thích trong chương này.
+    Kinh không cung cấp thống kê hiện đại để tính xác suất một người cư sĩ cụ thể sẽ chứng trong một số tháng. Lịch của sách càng không làm được điều ấy. Điều có thể làm là xây dựng những điều kiện học và hành được nêu, đồng thời tôn trọng sức khỏe và bổn phận.
   ],
-  label: [KHẢ NĂNG KHÔNG PHẢI BẢO ĐẢM · K06; K08; K11],
+  label: [KHẢ NĂNG KHÔNG PHẢI BẢO ĐẢM · BIÊN SOẠN],
 )
 
 == Đi về phía dòng mà không hứa ngày đến
 
-#source-line("KINH", [K02 · SN 55.50; K06 · SN 55.5], [Các điều kiện đưa đến Nhập lưu là thân cận người chân chánh, nghe Chánh pháp, như lý tác ý và thực hành đúng theo Pháp. Dòng mà các điều kiện ấy hướng tới là Bát Chánh Đạo.])
+Người tại gia có thể bắt đầu bằng những việc cần làm ngay: giữ giới, sửa lời nói và sinh kế, học Pháp có nguồn, tu tập tâm và tìm thiện hữu có thể giúp mình thấy điều còn nhầm. Gia đình và sức khỏe không phải trở ngại cần bất chấp để có một thành tích tâm linh; cách chăm sóc chúng cũng cần được đặt dưới ánh sáng của giới và trách nhiệm.
 
-Người tại gia có thể làm phần việc trước mắt: giữ giới, sửa sinh kế và lời nói, học pháp từ nguồn có thể kiểm tra hoặc đối chiếu, phát triển định, quán sát sinh diệt và tìm thiện hữu không mua bán lời hứa. Không ai có căn cứ để cam kết bạn sẽ chứng quả trong bảy ngày, một năm hay một đời.
+#source-line("BIÊN SOẠN", [giới hạn lời hứa, đối chiếu K01], [
+  Sách không có căn cứ để hứa một người cụ thể sẽ chứng quả chỉ vì đã theo lịch bảy ngày, một năm hoặc một thời lượng nào. Điều này không phủ nhận lời dạy có điều kiện ở cuối MN 10 về thực hành niệm xứ. Chương 8 giải thích đoạn ấy; lịch làm quen do sách biên soạn không được coi là đã đáp ứng toàn bộ điều kiện của lời kinh.
+])
 
-#practice-card(
-  [Cách kết thúc một lần tự soi],
-  [
-    Đừng kết thúc bằng câu “tôi đang ở tầng nào?”. Hãy hỏi:
-
-    + Điều gì về khổ và nguồn gốc của nó đã được thấy trực tiếp?
-    + Giới nào hiện vững, giới nào còn dễ vỡ?
-    + Lòng tin đang dựa trên kiểm chứng hay trên nhu cầu được chắc chắn?
-    + Bát Chánh Đạo đang thiếu chi phần nào?
-
-    Câu trả lời cụ thể sẽ chỉ việc cần làm tiếp, dù danh hiệu còn để ngỏ.
-  ],
-  label: [TỰ SOI],
-)
+Không cần lấy sự chưa biết ngày đến làm lý do bỏ bước hôm nay. Một lời chân thật, một hành vi gây hại được dừng, một lỗi được sửa, một đoạn kinh được hiểu đúng hơn đều có thể là phần việc cụ thể. Đồng thời, những việc lành ấy không tự trở thành bằng chứng mình đã đạt quả.
 
 #practice-card(
-  [Đóng sách lại trong năm phút],
+  [Gấp sách lại: thử giải thích bằng lời của mình],
   [
-    Không nhìn phần trên, hãy tự trả lời:
+    1. Vì sao dòng là toàn bộ Bát Chánh Đạo, không phải một kỹ thuật?
 
-    1. Ba kiết sử đầu là gì? Với mỗi kiết sử, nói một câu về điều nó trói, không chỉ đọc lại tên.
-    2. Vì sao một bậc Nhập lưu vẫn nói “tôi” trong đời thường mà điều đó không tự chứng minh thân kiến còn nguyên?
-    3. Một câu hỏi tìm chứng cứ khác hoài nghi như kiết sử ở điểm nào?
-    4. Giữ giới đúng chức năng khác chấp thủ giới-tập tục như bùa bảo đảm ra sao?
-    5. Nêu một trải nghiệm có thể quan trọng nhưng tự nó không đủ chứng minh Nhập lưu.
-    6. Kinh bác bỏ hai giới hạn về thân phận nào đối với Nhập lưu, và vì sao điều đó vẫn không thành lời bảo đảm cho mọi cá nhân?
+    2. Thân kiến khác cách nói “tôi” hoặc ngã mạn “tôi là” như thế nào?
 
-    *Câu nhớ:* đừng hỏi “tôi đã đạt chưa?”, hãy hỏi “hôm nay tôi thấy rõ điều gì hơn, và lời nói, hành động của tôi thay đổi ra sao?”.
+    3. Vì sao hỏi về nguồn và sự an toàn không tự là hoài nghi như kiết sử?
 
-    Sau khi trả lời, mở lại #link(<ba-kiet-su>)[phần ba kiết sử], #link(<khong-du-ket-luan>)[danh sách giới hạn] và #link(<ai-co-the-nhap-luu>)[phần “ai có thể?”]. Nếu câu trả lời đổi sau khi xem lại, hãy ghi đúng chỗ đã nhầm thay vì tự chấm điểm. Khung năm hạ phần và bốn quả được tự kiểm riêng ở chương 11.
+    4. Giữ giới khác chấp thủ giới-tập tục ở đâu?
+
+    5. Vì sao không thấy một kiết sử lúc này chưa chứng minh đã đoạn, nhưng kiết sử thực sự còn có mặt lại không phù hợp với tuyên bố đã đoạn tận?
+
+    6. Gương Pháp và một cảm giác riêng lẻ khác nhau ở loại căn cứ nào?
+
+    Chưa trả lời rõ thì mở lại phần tương ứng. Bài tập dành cho việc học, không đưa ra điểm để xác nhận quả vị.
   ],
-  label: [TỰ KIỂM KHÔNG NHÌN SÁCH],
+  label: [GẤP SÁCH LẠI · TỰ NHỚ],
 )
 
-Nhập lưu là lời kinh về hướng đi không thoái đọa, không phải lời hứa của cuốn sách về thành tích người đọc. Phần còn lại phải được sống và kiểm chứng.
+Chương tiếp theo đặt ba kiết sử đầu vào nhóm năm hạ phần và bốn quả Sa-môn. Có thể đi chậm qua những phân biệt này. Điều cần giữ là học cho đúng, tu tập chân thành và không đòi lời kết luận lớn hơn căn cứ mình đang có.

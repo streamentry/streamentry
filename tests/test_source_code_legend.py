@@ -19,6 +19,8 @@ class SourceCodeLegendTests(unittest.TestCase):
             "*SN* là *Saṃyutta Nikāya*, Tương Ưng Bộ",
             "*AN* là *Aṅguttara Nikāya*, Tăng Chi Bộ",
             "*Ud* là *Udāna*",
+            "*Iti* là *Itivuttaka*",
+            "*Dhp* là *Dhammapada*",
         ):
             self.assertIn(marker, text)
         self.assertIn("<doc-ma-nguon>", text)
@@ -33,20 +35,21 @@ class SourceCodeLegendTests(unittest.TestCase):
 
     def test_source_map_repeats_the_durable_lookup_contract(self) -> None:
         text = SOURCE_MAP.read_text(encoding="utf-8")
-        self.assertIn("<ma-nguon-chi-tiet>", text)
-        self.assertIn("*K01–K43*", text)
-        self.assertIn("*P01–P02*", text)
-        self.assertIn("*R01–R11*", text)
-        self.assertIn("không phải số phân loại truyền thống", text)
+        for marker in (
+            "<ma-nguon-chi-tiet>",
+            "*K01–K44*",
+            "*P01–P02*",
+            "*R01–R11*",
+            "không phải số phân loại truyền thống",
+        ):
+            self.assertIn(marker, text)
+        self.assertIn("[K44]", text)
+        self.assertIn("https://www.dhammatalks.org/suttas/KN/Iti/iti49.html", text)
 
     def test_health_agency_abbreviations_are_expanded_at_first_use(self) -> None:
         text = SAFETY_CHAPTER.read_text(encoding="utf-8")
-        first_source_summary = text.index(
-            "Quy trình ấy là khung biên soạn thận trọng"
-        )
-        first_detailed_source = text.index(
-            '#source-line("Y TẾ & NGHIÊN CỨU", [R05]'
-        )
+        first_source_summary = text.index("Quy trình ấy là khung biên soạn thận trọng")
+        first_detailed_source = text.index('#source-line("Y TẾ & NGHIÊN CỨU", [R05]')
         legend = text[first_source_summary:first_detailed_source]
         for marker in (
             "*WHO* là _World Health Organization_",
@@ -58,8 +61,17 @@ class SourceCodeLegendTests(unittest.TestCase):
         self.assertIn("A&E (_Accident and Emergency_)", text)
 
     def test_other_first_read_abbreviations_are_expanded(self) -> None:
+        introduction = FRONTMATTER.read_text(encoding="utf-8")
         source_map = SOURCE_MAP.read_text(encoding="utf-8")
-        self.assertIn("Buddhist Publication Society (BPS)", source_map)
+        self.assertIn("*BPS* là _Buddhist Publication Society_", introduction)
+        self.assertIn("Buddhist Publication Society", source_map)
+        self.assertIn("BPS", source_map)
+
+    def test_canonical_text_is_not_equated_with_buddhas_direct_speech(self) -> None:
+        text = SOURCE_MAP.read_text(encoding="utf-8")
+        self.assertIn("không có nghĩa mọi đoạn đều do Đức Phật trực tiếp nói", text)
+        for name in ("Sāriputta", "Dhammadinnā", "Ānanda", "Khemaka"):
+            self.assertIn(name, text)
 
 
 if __name__ == "__main__":
