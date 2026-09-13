@@ -16,18 +16,12 @@
 Số đi sau giúp xác định bài hoặc vị trí: MN 10 là bài 10 của Trung Bộ; SN 55.5 là bài 5 trong tương ưng 55; AN 3.88 là bài 88 của chương Ba pháp; Dhp 178 là câu kệ 178. Cách đánh số có thể khác giữa một số ấn bản, nên cần dùng đúng bản được dẫn.
 
 #source-line("BIÊN SOẠN", [mã tra riêng của sách], [
-  *K01–K52* là mã nguồn kinh; *P01–P02* là hai tài liệu Mahāsi; *V01* là ấn bản Thanh Tịnh Đạo; *R01–R11* là nguồn nghiên cứu, y tế và cơ quan chính thức. Đây là hệ thống tra cứu của sách, không phải số phân loại truyền thống hoặc thứ hạng độ mạnh của bằng chứng.
+  *K01–K53* là mã nguồn kinh; *P01–P02* là hai tài liệu Mahāsi; *V01* là ấn bản Thanh Tịnh Đạo; *R01–R11* là nguồn nghiên cứu, y tế và cơ quan chính thức. Đây là hệ thống tra cứu của sách, không phải số phân loại truyền thống hoặc thứ hạng độ mạnh của bằng chứng.
 ])
 
 Nhãn *KINH* chỉ tầng văn bản kinh điển, không có nghĩa mọi đoạn đều do Đức Phật trực tiếp nói. Có bài ghi lời đệ tử, có lời kể và có phần Đức Phật xác nhận. Khi biết rõ người nói, sách ghi tên; phần nhận xét của người biên soạn cần được đọc riêng.
 
 == Kinh điển Pāli
-
-#reference-item(
-  [K53], [Năm uẩn và năm thủ uẩn, Saṃyutta Nikāya 22.48],
-  [Bản dịch Ṭhānissaro Bhikkhu, đối chiếu ngày 13 tháng 9 năm 2026. Phân biệt năm uẩn với những uẩn hữu lậu, có thể bị chấp thủ; không thu thuật ngữ “thủ uẩn” thành riêng lúc nhận ra một ý nghĩ bám víu. Đọc cùng MN 44 để không đồng nhất các uẩn với dục và tham đối với chúng.],
-  "https://www.dhammatalks.org/suttas/SN/SN22_48.html",
-)
 
 #reference-item(
   [K01], [Kinh Niệm xứ, Majjhima Nikāya 10],
@@ -339,6 +333,12 @@ Nhãn *KINH* chỉ tầng văn bản kinh điển, không có nghĩa mọi đo�
   [K52], [Bốn phương diện của năm uẩn, Saṃyutta Nikāya 22.56],
   [Bản dịch Ṭhānissaro Bhikkhu. Đức Phật giải thích sắc, thọ, tưởng, hành và thức cùng sự sinh, diệt và con đường; hành được nêu qua sáu nhóm ý định, thức qua sáu loại thức. Dùng làm căn cứ cho chú giải đọc bảng ở Phụ lục F, không biến chú giải ngắn thành toàn bộ định nghĩa.],
   "https://www.dhammatalks.org/suttas/SN/SN22_56.html",
+)
+
+#reference-item(
+  [K53], [Năm uẩn và năm thủ uẩn, Saṃyutta Nikāya 22.48],
+  [Bản dịch Ṭhānissaro Bhikkhu, đối chiếu ngày 13 tháng 9 năm 2026. Phân biệt năm uẩn với những uẩn hữu lậu, có thể bị chấp thủ; không thu thuật ngữ “thủ uẩn” thành riêng lúc nhận ra một ý nghĩ bám víu. Đọc cùng MN 44 để không đồng nhất các uẩn với dục và tham đối với chúng.],
+  "https://www.dhammatalks.org/suttas/SN/SN22_48.html",
 )
 
 == Thanh Tịnh Đạo và truyền thống Mahāsi
