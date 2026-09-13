@@ -1,19 +1,28 @@
 #import "../components.typ": *
 
 #pagebreak(weak: true)
-#v(7mm)
+#v(2mm)
 #eyebrow([PHỤ LỤC E], fill: palette.saffron)
-#v(4mm)
-= Bản đồ quyết định khi đang hành <ban-do-quyet-dinh>
+#v(2mm)
+#context {
+  if target() == "html" [
+    = Bản đồ quyết định khi đang hành <ban-do-quyet-dinh>
+  ] else [
+    #show heading.where(level: 1): it => block(breakable: false)[
+      #text(font: fonts.display, size: 18pt, weight: 600)[#it.body]
+    ]
+    = Bản đồ quyết định khi đang hành <ban-do-quyet-dinh>
+  ]
+}
 
 #text(font: fonts.sans, size: 9.5pt, fill: palette.muted)[
-  Dùng trang này để tìm lại lựa chọn: giữ đối tượng, biết điều đang nổi bật, hành động ngay hay dừng buổi tập.
+  Tra nhanh: giữ điểm tựa, chuyển chú ý, hành động hay dừng.
 ]
 
-#v(7mm)
+#v(3mm)
 
 #source-line("BIÊN SOẠN", [đối chiếu Chương 1, 5, 7 và 9], [
-  Sơ đồ gom các hướng dẫn trong sách, không phải một bài kinh, trình tự tâm, cách chẩn đoán hay đường đi qua các tầng tuệ. Khi cần bảo vệ an toàn, hành động trước việc ghi nhãn.
+  Sơ đồ giúp tra hướng dẫn, không phải kinh, cách chẩn đoán hay trình tự chứng đắc. Khi cần bảo vệ an toàn, hành động trước việc ghi nhãn.
 ])
 
 #let safety-body = [
