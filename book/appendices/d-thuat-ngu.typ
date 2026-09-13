@@ -206,7 +206,7 @@
 ])
 #v(7pt)
 
-#term-card([pañcupādānakkhandhā], [năm thủ uẩn], [K45 · SN 22.48; K20 · MN 44], [
+#term-card([pañcupādānakkhandhā], [năm thủ uẩn], [K53 · SN 22.48; K20 · MN 44], [
   Năm uẩn hữu lậu, có thể bị chấp thủ. “Hữu lậu” chỉ sự liên hệ với lậu hoặc, những ô nhiễm ràng buộc tâm. Thuật ngữ không chỉ những lúc ta đang nhận thấy mình bám víu. MN 44 còn phân biệt các thủ uẩn với dục và tham đối với chúng; một phút bình tĩnh không tự chứng minh chấp thủ đã đoạn tận.
 ])
 #v(7pt)
