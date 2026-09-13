@@ -16,7 +16,7 @@
 Số đi sau giúp xác định bài hoặc vị trí: MN 10 là bài 10 của Trung Bộ; SN 55.5 là bài 5 trong tương ưng 55; AN 3.88 là bài 88 của chương Ba pháp; Dhp 178 là câu kệ 178. Cách đánh số có thể khác giữa một số ấn bản, nên cần dùng đúng bản được dẫn.
 
 #source-line("BIÊN SOẠN", [mã tra riêng của sách], [
-  *K01–K44* là mã nguồn kinh; *P01–P02* là hai tài liệu Mahāsi; *V01* là ấn bản Thanh Tịnh Đạo; *R01–R11* là nguồn nghiên cứu, y tế và cơ quan chính thức. Đây là hệ thống tra cứu của sách, không phải số phân loại truyền thống hoặc thứ hạng độ mạnh của bằng chứng.
+  *K01–K52* là mã nguồn kinh; *P01–P02* là hai tài liệu Mahāsi; *V01* là ấn bản Thanh Tịnh Đạo; *R01–R11* là nguồn nghiên cứu, y tế và cơ quan chính thức. Đây là hệ thống tra cứu của sách, không phải số phân loại truyền thống hoặc thứ hạng độ mạnh của bằng chứng.
 ])
 
 Nhãn *KINH* chỉ tầng văn bản kinh điển, không có nghĩa mọi đoạn đều do Đức Phật trực tiếp nói. Có bài ghi lời đệ tử, có lời kể và có phần Đức Phật xác nhận. Khi biết rõ người nói, sách ghi tên; phần nhận xét của người biên soạn cần được đọc riêng.
@@ -285,6 +285,54 @@ Nhãn *KINH* chỉ tầng văn bản kinh điển, không có nghĩa mọi đo�
   [K44], [Hai cách mắc vào hiện hữu và không hiện hữu, Itivuttaka 49],
   [Bản dịch Ṭhānissaro Bhikkhu, đối chiếu ngày 13 tháng 9 năm 2026. Bài kinh phân biệt vui thích trong hiện hữu với vui thích trong ý tưởng tự ngã sẽ bị hủy diệt sau khi chết, rồi nêu cách thấy điều đã sinh khởi để hướng đến nhàm lìa, ly tham và đoạn diệt. Dùng để giữ phạm vi khi giải thích hữu ái, phi hữu ái; không suy ra mọi mong muốn chấm dứt khó chịu đều là phi hữu ái.],
   "https://www.dhammatalks.org/suttas/KN/Iti/iti49.html",
+)
+
+#reference-item(
+  [K45], [Trăng rằm, Saṃyutta Nikāya 22.82],
+  [Bản dịch Ṭhānissaro Bhikkhu. Đức Phật trực tiếp trình bày bốn cách chấp với mỗi uẩn và cách không có thân kiến; bác suy luận lệch về tự ngã và quả của hành động. Phụ lục F chuyển khuôn ấy thành bảng biên soạn, không dùng bảng để chứng nhận đoạn tận.],
+  "https://www.dhammatalks.org/suttas/SN/SN22_82.html",
+)
+
+#reference-item(
+  [K46], [Tâm hoang vu, Majjhima Nikāya 16 (Cetokhila)],
+  [Đối chiếu Pāli và bản dịch Bhikkhu Sujato trên dữ liệu Bilara, các đoạn mn16:3–7. Nghi Đạo sư, Pháp, Tăng và sự học tập là bốn trường hợp; trường hợp thứ năm là bất mãn với bạn đồng tu. Đây không phải danh mục đầy đủ để chẩn đoán kiết sử hoài nghi.],
+  "https://suttacentral.net/mn16/en/sujato",
+)
+
+#reference-item(
+  [K47], [Tư sát, Majjhima Nikāya 47 (Vīmaṁsaka)],
+  [Đối chiếu Pāli, đặc biệt mn47:2–16, và bản dịch Bhikkhu Sujato, mn47:14–16. Đức Phật dạy khảo sát Như Lai, nghe Pháp và nêu lòng tin có căn cứ, bắt rễ nơi thấy biết. Không đồng nhất việc khảo sát với kiết sử hoài nghi, hoặc lòng tin có căn cứ với sự cưỡng ép phải tin.],
+  "https://suttacentral.net/mn47/en/sujato",
+)
+
+#reference-item(
+  [K48], [Caṅkī, Majjhima Nikāya 95],
+  [Bản dịch Ṭhānissaro Bhikkhu, phần bảo hộ chân lý, khảo sát người dạy và chứng biết. Niềm tin, sở thích, truyền thống và suy xét không tự bảo đảm điều được nhận là đúng. Sách dùng sự phân biệt loại căn cứ; không diễn giải bài kinh thành phủ nhận mọi giá trị của tín hay suy luận.],
+  "https://www.dhammatalks.org/suttas/MN/MN95.html",
+)
+
+#reference-item(
+  [K49], [Giới và hạnh, Aṅguttara Nikāya 3.78 (Sīlabbata), hệ số SuttaCentral],
+  [Đối chiếu Pāli và bản dịch Bhikkhu Sujato trên Bilara, an3.78:1–3. Tôn giả Ānanda phân tích lợi ích qua thiện và bất thiện; Đức Phật tán thành. Sīlabbata không tự đồng nghĩa với kiết sử sīlabbataparāmāsa. Phải kiểm tra cả tên bài và nội dung vì hệ đánh số giữa các trang có thể khác.],
+  "https://suttacentral.net/an3.78/en/sujato",
+)
+
+#reference-item(
+  [K50], [Samaṇamuṇḍika, Majjhima Nikāya 78],
+  [Bản dịch Ṭhānissaro Bhikkhu, phần Đức Phật bác việc lấy bốn biểu hiện không làm ác làm thành tựu cao nhất rồi dạy tu tập đầy đủ hơn. Không dùng lời ghi chú của dịch giả làm lời Phật trực tiếp; bài kinh không cung cấp toàn bộ định nghĩa giới cấm thủ.],
+  "https://www.dhammatalks.org/suttas/MN/MN78.html",
+)
+
+#reference-item(
+  [K51], [A-la-hán, Saṃyutta Nikāya 1.25],
+  [Bản dịch Ṭhānissaro Bhikkhu. Vị A-la-hán có thể dùng cách nói “tôi” theo ngôn ngữ thông thường. Nguồn giúp phân biệt đại từ với sự chấp; không dùng việc đếm đại từ làm phép thử thân kiến.],
+  "https://www.dhammatalks.org/suttas/SN/SN1_25.html",
+)
+
+#reference-item(
+  [K52], [Bốn phương diện của năm uẩn, Saṃyutta Nikāya 22.56],
+  [Bản dịch Ṭhānissaro Bhikkhu. Đức Phật giải thích sắc, thọ, tưởng, hành và thức cùng sự sinh, diệt và con đường; hành được nêu qua sáu nhóm ý định, thức qua sáu loại thức. Dùng làm căn cứ cho chú giải đọc bảng ở Phụ lục F, không biến chú giải ngắn thành toàn bộ định nghĩa.],
+  "https://www.dhammatalks.org/suttas/SN/SN22_56.html",
 )
 
 == Thanh Tịnh Đạo và truyền thống Mahāsi
