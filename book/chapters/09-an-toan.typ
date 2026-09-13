@@ -18,8 +18,8 @@ An toàn không đồng nghĩa với sợ mọi cảm giác lạ. Nó cũng khô
 #caution(
   [Có dấu hiệu cấp cứu: tìm trợ giúp trước],
   [
-    #label("cap-cuu-ngay")
     #source-badge("BIÊN SOẠN", refs: [đối chiếu R04; R07–R11])
+    #label("cap-cuu-ngay")
     #v(4pt)
     + *Dấu hiệu cơ thể:* đột ngột yếu hoặc tê một bên, nói khó, khó nhìn hay mất thăng bằng; đau hoặc khó chịu ở ngực, khó thở hay choáng bất thường. Dừng thực hành và gọi cấp cứu y tế. Dấu hiệu thần kinh dù tự hết vẫn cần được đánh giá khẩn.
     + *Nguy cơ tự sát tức thời:* tìm trợ giúp khẩn cấp và đừng ở một mình. Nếu có hành vi nguy hiểm cho người khác hoặc mất khả năng giữ an toàn, ưu tiên bảo vệ mọi người và gọi trợ giúp.
