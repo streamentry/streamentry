@@ -51,6 +51,16 @@ class ThreeFettersChecklistTests(unittest.TestCase):
                 self.assertRegex(section, r'#link\("https://[^\"]+"\)\[K\d{2}')
                 self.assertIn(f'| {code} |', self.audit)
 
+    def test_each_prompt_keeps_its_source_badge_on_the_same_printed_page(self) -> None:
+        blocks = re.findall(
+            r'#block\(breakable: false\)\[\n(=== [THG]\d\. .*?)\n\]',
+            self.text,
+            re.S,
+        )
+        self.assertEqual(len(blocks), 17)
+        for block in blocks:
+            self.assertIn('#source-badge("BIÊN SOẠN"', block)
+
     def test_all_source_codes_used_in_appendix_are_declared(self) -> None:
         used = set(re.findall(r'\bK\d{2}\b', self.text))
         declared = re.findall(r'#reference-item\(\s*\[(K\d{2})\]', self.sources)

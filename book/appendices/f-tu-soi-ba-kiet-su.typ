@@ -67,35 +67,45 @@ Bốn cột dưới đây giữ đúng quan hệ trong nguồn. Các câu minh h
 
 Điền bằng “Có”, “?” hoặc “Chưa thấy”. Thay “thân” trong bốn ví dụ bằng thọ, tưởng, hành và thức khi xét các hàng còn lại. *Không chỉ kiểm tra hàng sắc rồi kết luận cho cả năm uẩn.* Từ “sở hữu” ở cột B chỉ quan kiến có tự ngã sở hữu uẩn, không phải mọi cách nói “thân tôi” hoặc “ý kiến của tôi”.
 
+#block(breakable: false)[
 === T1. Tôi đang nhận chính điều gì là “ta”? <cau-t1>
 
 Chọn một uẩn hoặc một phần kinh nghiệm mình đang nhận làm tự ngã. Mô tả quan hệ được nắm giữ, thay vì chỉ ghi “có bản ngã”. Nếu chưa phân biệt được giữa quan kiến và phản ứng muốn được công nhận, ghi “?”; đó là điều có thể cùng người hướng dẫn tìm hiểu, không phải điều đáng xấu hổ.
 
 #source-badge("BIÊN SOẠN", refs: [đối chiếu #link("https://www.dhammatalks.org/suttas/SN/SN22_82.html")[K45 · SN 22.82]; #link("https://suttacentral.net/mn44/en/suddhaso")[K20 · MN 44]])
+]
 
+#block(breakable: false)[
 === T2. Tôi có chuyển cái ta từ thân sang một “người biết” không? <cau-t2>
 
 Sau khi nhận rằng thân và suy nghĩ thay đổi, tôi có giữ lại một cái biết được xem là tự ngã đứng sau chúng không? “Người quan sát không đổi” là một ví dụ cần xét, không phải điều kiện bắt buộc của mọi thân kiến. Không chỉ dừng ở câu trả lời rằng mình không tin linh hồn; hãy xét mình có xem thức là tự ngã, hoặc đặt thức trong một trong các quan hệ với tự ngã ở bảng trên không.
 
 #source-badge("BIÊN SOẠN", refs: [đối chiếu #link("https://www.dhammatalks.org/suttas/SN/SN22_82.html")[K45 · SN 22.82]; #link("https://www.dhammatalks.org/suttas/MN/MN2.html")[K11 · MN 2]])
+]
 
+#block(breakable: false)[
 === T3. Điều tôi ghi là thấy biết, hay lời giải mình nhớ được? <cau-t3>
 
 Tôi thực sự nhận ra sự thay đổi, điều kiện và giới hạn làm chủ nơi kinh nghiệm nào? Hay tôi chỉ nhắc lại “vô thường, vô ngã” để có câu trả lời đúng? Có thể dùng hướng quán của SN 22.59: khảo sát điều biến đổi và chịu chi phối, rồi xét có thích hợp nhận làm tự ngã không. Quan sát một lần không tự tương đương với hoàn tất sự đoạn trừ.
 
 #source-badge("BIÊN SOẠN", refs: [đối chiếu #link("https://www.dhammatalks.org/suttas/SN/SN22_59.html")[K35 · SN 22.59]; #link("https://suttacentral.net/mn64/en/bodhi")[K36 · MN 64]])
+]
 
+#block(breakable: false)[
 === T4. Tôi có dùng dấu hiệu không đúng loại làm phép thử không? <cau-t4>
 
 Một chữ “tôi”, nhu cầu nghỉ, nỗi lo sức khỏe, cảm giác bị chạm tự ái hoặc một lần bực bội chưa tự cho biết tôi đang nắm quan kiến nào trong hai mươi cách. Hãy xét lại căn cứ, không suy ra từ một dấu hiệu riêng lẻ. Ngược lại, bình thản hoặc ít suy nghĩ về mình cũng chưa chứng minh đã đoạn thân kiến.
 
 #source-badge("BIÊN SOẠN", refs: [đối chiếu #link("https://www.dhammatalks.org/suttas/SN/SN1_25.html")[K51 · SN 1.25]; #link("https://www.dhammatalks.org/suttas/SN/SN22_89.html")[K17 · SN 22.89]; #link("https://suttacentral.net/mn64/en/bodhi")[K36 · MN 64]])
+]
 
+#block(breakable: false)[
 === T5. Tôi có lấy vô ngã làm lý do phủi trách nhiệm không? <cau-t5>
 
 Tôi có suy từ “các uẩn không phải tự ngã” sang “vậy không cần chịu trách nhiệm cho hành động” không? SN 22.82 đã bác một suy luận lệch về tự ngã và quả của hành động rồi đưa người nghe trở lại việc quán năm uẩn. Trong tình huống của mình, hãy ghi việc gây hại nào phải dừng và điều gì cần sửa, không dùng một khẩu hiệu để né việc ấy.
 
 #source-badge("BIÊN SOẠN", refs: [đối chiếu #link("https://www.dhammatalks.org/suttas/SN/SN22_82.html")[K45 · SN 22.82]])
+]
 
 === Ba điều cần phân biệt khi đọc bảng thân kiến <ranh-gioi-than-kien>
 
@@ -123,41 +133,53 @@ Tôi có suy từ “các uẩn không phải tự ngã” sang “vậy không 
 
 *BIÊN SOẠN · Sáu câu hỏi về hoài nghi.* Từ các nguồn trên, sách không đồng nhất việc hỏi cho rõ với kiết sử hoài nghi, và không lấy mức tự tin làm bằng chứng đã chứng biết. Trả lời bằng một mệnh đề cụ thể, không bằng mức độ “tôi tin bao nhiêu phần trăm”. Tên H1–H6 chỉ để tìm lại câu hỏi, không phải sáu tiêu chuẩn chứng quả trong kinh.
 
+#block(breakable: false)[
 === H1. Đối tượng tôi đang nghi là gì? <cau-h1>
 
 Đó là sự giác ngộ của Đức Phật, lời dạy và con đường, cộng đồng Thánh đệ tử, sự học tập, hay chỉ một bản dịch, cách giải thích hoặc lời khuyên của người hiện tại? Viết tách các đối tượng ấy. Thắc mắc về một lời giảng không tự bằng nghi toàn bộ Pháp; nhưng không vì thế mà bỏ qua một nghi vấn thực sự về con đường.
 
 #source-badge("BIÊN SOẠN", refs: [đối chiếu #link("https://suttacentral.net/mn16/en/sujato")[K46 · MN 16]; #link("https://suttacentral.net/mn47/en/sujato")[K47 · MN 47]; #link("https://www.dhammatalks.org/suttas/AN/AN10_92.html")[K21 · AN 10.92]])
+]
 
+#block(breakable: false)[
 === H2. Tôi dựa vào điều gì khi tin hoặc chưa tin? <cau-h2>
 
 Ghi rõ: lời người khác nói, truyền thống, suy luận, điều đã quan sát, hay điều mình chưa biết. Không gọi niềm tin thành trực chứng chỉ để yên tâm. Đồng thời, chưa trực chứng không khiến mọi niềm tin có căn cứ và mọi bước học tập trở nên vô ích; có thể thành thật về mức căn cứ hiện có rồi tiếp tục học và hành.
 
 #source-badge("BIÊN SOẠN", refs: [đối chiếu #link("https://www.dhammatalks.org/suttas/MN/MN95.html")[K48 · MN 95]])
+]
 
+#block(breakable: false)[
 === H3. Tôi có cho phép điều chưa rõ được khảo sát không? <cau-h3>
 
 Tôi có thể nêu câu hỏi, đọc lại bối cảnh và xem bằng chứng ngược với ý mình không? Hay tôi đang ép mình hoặc người khác không được hỏi vì sợ bị xem là kém tín tâm? Việc khảo sát cần hướng đến hiểu đúng, không chỉ lặp tranh luận; không dùng lời khuyến khích tìm hiểu để đổi nghĩa “đã hết nghi” thành “còn nghi điều gì cũng được”.
 
 #source-badge("BIÊN SOẠN", refs: [đối chiếu #link("https://suttacentral.net/mn47/en/sujato")[K47 · MN 47]; #link("https://www.dhammatalks.org/suttas/MN/MN95.html")[K48 · MN 95]])
+]
 
+#block(breakable: false)[
 === H4. Tôi có nhầm lòng tin nơi Tăng với việc phải tin mọi cá nhân không? <cau-h4>
 
 Công thức Tăng trong AN 10.92 nêu bốn đôi, tám hạng Thánh đệ tử. Tôi có vì một cá nhân nói sai mà vội phủ nhận toàn bộ, hoặc vì kính danh hiệu mà bỏ qua điều cần kiểm tra ở người ấy không? Hãy tách phẩm chất được kinh nêu với phát biểu và hành vi cụ thể của một người. Không dùng câu trả lời này để tự phong hoặc kết án quả vị của ai.
 
 #source-badge("BIÊN SOẠN", refs: [đối chiếu #link("https://www.dhammatalks.org/suttas/AN/AN10_92.html")[K21 · AN 10.92]; #link("https://www.dhammatalks.org/suttas/MN/MN95.html")[K48 · MN 95]])
+]
 
+#block(breakable: false)[
 === H5. Tôi có thể chuyển điều phân vân thành một việc làm sáng tỏ không? <cau-h5>
 
 Thay “tôi không biết tu có ích không” bằng câu cụ thể hơn: tôi chưa hiểu mục tiêu, chưa rõ cách thực hành, hay đang mong một kết quả nguồn không hứa? Chọn một đoạn kinh để đọc, một câu hỏi để hỏi, hoặc một thực hành thiện lành vừa sức đã được hiểu đúng. Việc chuyển như vậy là cách tổ chức học tập do sách đề nghị, không phải bằng chứng kiết sử đã đoạn.
 
 #source-badge("BIÊN SOẠN", refs: [đối chiếu #link("https://suttacentral.net/mn16/en/sujato")[K46 · MN 16]; #link("https://www.dhammatalks.org/suttas/MN/MN95.html")[K48 · MN 95]])
+]
 
+#block(breakable: false)[
 === H6. Tôi có đang lấy một cảm giác chắc chắn làm kết luận quá lớn không? <cau-h6>
 
 Một buổi an tĩnh, một lần xúc động, sự thuyết phục của diễn giả hay việc thuộc giáo lý đã chứng minh điều gì, và chưa chứng minh điều gì? Ghi giới hạn ấy. Không phủ nhận giá trị của lòng tin mới lớn lên; chỉ đừng gọi nó là tịnh tín bất động, tức lòng tin đã đứng vững nơi thấy biết, hoặc đoạn tận hoài nghi nếu căn cứ chưa đủ. Cũng không suy rằng người đã hết kiết sử này phải biết đáp án mọi câu hỏi đời thường.
 
 #source-badge("BIÊN SOẠN", refs: [đối chiếu #link("https://suttacentral.net/mn64/en/bodhi")[K36 · MN 64]; #link("https://suttacentral.net/mn47/en/sujato")[K47 · MN 47]; #link("https://www.dhammatalks.org/suttas/MN/MN95.html")[K48 · MN 95]; #link("https://www.dhammatalks.org/suttas/AN/AN10_92.html")[K21 · AN 10.92]])
+]
 
 *Ví dụ biên soạn.* “Hai bản dịch khác nhau ở chữ này; tôi muốn xem Pāli và bối cảnh” là một yêu cầu tìm hiểu, không tự là bằng chứng còn kiết sử. “Tôi nói mình đã hết nghi vì không ai được phép chất vấn” cũng không chứng minh đã hết nghi. Bước hữu ích là xác định câu đang tranh luận, nguồn và căn cứ, chứ không chọn một trong hai nhãn để bảo vệ mình.
 
@@ -181,41 +203,53 @@ Một buổi an tĩnh, một lần xúc động, sự thuyết phục của di�
 
 *BIÊN SOẠN · Sáu câu hỏi về phương tiện.* Cách nói “gán cho riêng hình thức sức bảo đảm thanh tịnh hoặc giải thoát” là lời giải thích thực hành của sách dựa trên các nguồn, không phải trích một câu định nghĩa nguyên văn. Hãy xét điều mình thực sự tin về phương tiện, không chỉ nhìn bên ngoài nghiêm hay linh hoạt.
 
+#block(breakable: false)[
 === G1. Tôi đang làm việc này nhằm mục đích gì? <cau-g1>
 
 Nêu một việc: giữ một giới, tụng một bài, ngồi theo tư thế, ghi nhãn, giữ thời khóa hoặc theo một hạnh. Tôi hiểu nó giúp ngăn điều bất thiện, nuôi điều thiện hay rèn tâm ở đâu? “Tôi làm vì được dạy” có thể là điểm khởi đầu để học thêm; riêng câu ấy chưa đủ để kết luận chấp thủ.
 
 #source-badge("BIÊN SOẠN", refs: [đối chiếu #link("https://suttacentral.net/an3.78/en/sujato")[K49 · AN 3.78]])
+]
 
+#block(breakable: false)[
 === G2. Tôi có tin riêng thao tác ấy đủ bảo đảm thanh tịnh hoặc giải thoát không? <cau-g2>
 
 Tôi có nghĩ chỉ cần làm đủ số lần, đúng hình thức hoặc chịu đựng đủ lâu là chắc chắn đạt, dù không xét giới hạnh, sự rèn luyện tâm và hiểu biết không? Đây là chỗ cần hỏi kỹ về quan kiến. Kinh có những lời dạy với điều kiện thực hành; không được lấy phản đối “bảo đảm bằng hình thức” để phủ nhận các điều kiện kinh thực sự nêu.
 
 #source-badge("BIÊN SOẠN", refs: [đối chiếu #link("https://suttacentral.net/mn57/en/sujato")[K38 · MN 57]; #link("https://www.dhammatalks.org/suttas/MN/MN78.html")[K50 · MN 78]; #link("https://www.dhammatalks.org/suttas/MN/MN2.html")[K11 · MN 2]])
+]
 
+#block(breakable: false)[
 === G3. Tôi có lấy nghi thức hay thành tích thực hành để thay việc dừng và sửa hành vi gây hại không? <cau-g3>
 
 Sau khi làm sai, tôi có nghĩ một thủ tục đã đủ khiến mình không cần ngừng hành vi, nói thật hoặc sửa điều có thể sửa không? Câu hỏi nhắm đến cách dùng phương tiện để né sự tu sửa, không đưa ra một học thuyết rằng mọi quả nghiệp đều có thể bị xóa hoặc không thể chuyển đổi. Hãy trở lại hành động cụ thể mình chịu trách nhiệm.
 
 #source-badge("BIÊN SOẠN", refs: [đối chiếu #link("https://www.dhammatalks.org/suttas/AN/AN10_92.html")[K21 · AN 10.92]; #link("https://suttacentral.net/an3.78/en/sujato")[K49 · AN 3.78]])
+]
 
+#block(breakable: false)[
 === G4. Qua thực hành, điều thiện và bất thiện thực sự thay đổi thế nào? <cau-g4>
 
 Ghi một hành động, lời nói hoặc ý định cụ thể, không chỉ “tôi thấy dễ chịu”. Có bớt nuôi hành vi gây hại, thêm khả năng giữ giới và sửa sai không? Một bất thiện được nhận ra rõ hơn chưa tự bằng bất thiện đã tăng; cần phân biệt sự có mặt với mức mình nhận biết. Việc ghi tác động là gợi ý biên soạn, không phải ngưỡng định lượng AN 3.78 đặt ra.
 
 #source-badge("BIÊN SOẠN", refs: [đối chiếu #link("https://suttacentral.net/an3.78/en/sujato")[K49 · AN 3.78]])
+]
 
+#block(breakable: false)[
 === G5. Khi cần điều chỉnh hình thức, tôi có phân biệt nó với điều thiện cần giữ không? <cau-g5>
 
 Đổi giờ ngồi vì chăm người thân khác với bỏ sự chân thật cho tiện lợi. Giữ đều một thời khóa cũng không tự là chấp thủ. Tôi có thể giải thích vì sao giữ hoặc đổi, dựa vào mục đích, điều kiện và nguồn, thay vì lấy “cứng” hay “linh hoạt” làm phép thử duy nhất không? Sự điều chỉnh phải giữ an toàn và trách nhiệm; không lấy lòng tin làm lý do bỏ qua dấu hiệu nguy cơ.
 
 #source-badge("BIÊN SOẠN", refs: [đối chiếu #link("https://suttacentral.net/an3.78/en/sujato")[K49 · AN 3.78]; #link("https://www.dhammatalks.org/suttas/AN/AN10_92.html")[K21 · AN 10.92]])
+]
 
+#block(breakable: false)[
 === G6. Tôi có biến phương pháp, thầy hoặc nhóm thành lời bảo đảm độc quyền không? <cau-g6>
 
 Khi nghe “chỉ làm đúng cách này là chắc chắn chứng”, tôi đã kiểm tra nội dung và điều kiện nguồn chưa? Phân biệt điều kinh dạy với lời giải thích, lời hứa hoặc cảm tình dành cho một truyền thống. Không xem mọi phương pháp là như nhau, cũng không kết luận ai theo nghi thức khác mình đều chấp thủ. Giữ câu hỏi về giá trị và giới hạn của phương tiện, không biến nó thành cuộc so hơn.
 
 #source-badge("BIÊN SOẠN", refs: [đối chiếu #link("https://www.dhammatalks.org/suttas/MN/MN95.html")[K48 · MN 95]; #link("https://suttacentral.net/an3.78/en/sujato")[K49 · AN 3.78]; #link("https://www.dhammatalks.org/suttas/MN/MN78.html")[K50 · MN 78]])
+]
 
 *Ví dụ biên soạn.* Một người giữ giờ tụng đều đặn để nhớ lời dạy và sống cẩn trọng hơn. Dữ kiện ấy chưa đủ gọi là giới cấm thủ. Nếu người ấy nói rằng chỉ cần đủ số lần tụng thì chắc chắn giải thoát, bất kể còn cố ý gây hại, cần xét lại chính niềm tin gán sức bảo đảm cho hình thức ấy, đồng thời dừng hành vi gây hại. Điều bị soi là cách chấp, không phải động tác tụng kinh đứng riêng.
 
