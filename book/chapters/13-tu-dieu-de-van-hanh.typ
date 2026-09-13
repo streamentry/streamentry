@@ -95,6 +95,10 @@ Nỗi đau do bệnh tật, mất mát hay hành vi gây hại của người kh
 
 Để bắt đầu, có thể hiểu *uẩn* là nhóm hiện tượng được phân tích trong kinh: *sắc* là phương diện vật chất; *thọ* là cảm nhận dễ chịu, khó chịu hoặc không dễ chịu cũng không khó chịu; *tưởng* là nhận ra các đặc điểm; *hành* ở đây là các tạo tác tâm như ý định; *thức* là sự nhận biết theo sáu cửa giác quan. Đây là lời giải thích ngắn để đọc, không phải năm vật thể nằm trong một con người.
 
+#source-line("KINH", [K45 · SN 22.48], [
+  SN 22.48 phân biệt năm uẩn với năm thủ uẩn: các thủ uẩn là những uẩn hữu lậu, có thể bị chấp thủ. Vì vậy, “năm thủ uẩn” không chỉ có nghĩa là năm uẩn vào đúng lúc một ý nghĩ bám víu đang hiện rõ.
+])
+
 #source-line("KINH", [K20 · MN 44; K35 · SN 22.59], [
   Trong MN 44, Tỷ-kheo-ni Dhammadinnā nói chấp thủ không hoàn toàn đồng nhất với năm thủ uẩn, cũng không phải một điều tách rời chúng; dục và tham đối với năm thủ uẩn là sự chấp thủ ở đó. SN 22.59 dạy quán các uẩn là vô thường, chịu đổi thay, và không thích hợp để xem là “của tôi”, “tôi” hay “tự ngã của tôi”.
 ])

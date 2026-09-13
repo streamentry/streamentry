@@ -37,13 +37,15 @@ class SourceCodeLegendTests(unittest.TestCase):
         text = SOURCE_MAP.read_text(encoding="utf-8")
         for marker in (
             "<ma-nguon-chi-tiet>",
-            "*K01–K44*",
+            "*K01–K45*",
             "*P01–P02*",
             "*R01–R11*",
             "không phải số phân loại truyền thống",
         ):
             self.assertIn(marker, text)
         self.assertIn("[K44]", text)
+        self.assertIn("[K45]", text)
+        self.assertIn("SN22_48.html", text)
         self.assertIn("https://www.dhammatalks.org/suttas/KN/Iti/iti49.html", text)
 
     def test_health_agency_abbreviations_are_expanded_at_first_use(self) -> None:

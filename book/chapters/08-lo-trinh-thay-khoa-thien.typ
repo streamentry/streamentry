@@ -134,7 +134,7 @@ Có thể giữ một thời khóa vừa sức, tiếp tục học nguồn căn 
   [Gấp sách lại: ba quyết định trước khi tăng],
   [
     1. *Nhịp thực hành vừa gián đoạn:* trở lại #link(<khoi-dong-lai>)[quy trình ở Chương 1], không nhảy ngay vào mốc tháng tiếp theo. Nếu gián đoạn do dấu hiệu sức khỏe, xử lý an toàn trước khi bắt đầu lại.
-    2. *Khóa thiền thiếu quy trình cấp cứu, quyền giảm thời khóa, quyền rời khóa hoặc bảo đảm đạo quả:* chưa đăng ký. Tìm câu trả lời rõ hoặc chọn nơi khác.
+    2. *Khóa thiền thiếu quy trình cấp cứu hoặc không tôn trọng quyền giảm thời khóa, quyền rời khóa:* chưa đăng ký. *Khóa thiền hứa bảo đảm đạo quả:* cũng chưa đăng ký. Tìm câu trả lời rõ hoặc chọn nơi khác.
     3. *Người hướng dẫn ép chịu đau, thiếu ngủ, ngừng thuốc, che giấu triệu chứng hoặc phục tùng cá nhân:* rời quan hệ ấy và tìm hỗ trợ phù hợp.
 
     Ba quyết định này giúp xem việc tăng cường độ có phù hợp hay không; chúng không đo trình độ hay thay cho đánh giá sức khỏe chuyên môn.

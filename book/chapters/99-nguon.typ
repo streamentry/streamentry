@@ -16,7 +16,7 @@
 Số đi sau giúp xác định bài hoặc vị trí: MN 10 là bài 10 của Trung Bộ; SN 55.5 là bài 5 trong tương ưng 55; AN 3.88 là bài 88 của chương Ba pháp; Dhp 178 là câu kệ 178. Cách đánh số có thể khác giữa một số ấn bản, nên cần dùng đúng bản được dẫn.
 
 #source-line("BIÊN SOẠN", [mã tra riêng của sách], [
-  *K01–K44* là mã nguồn kinh; *P01–P02* là hai tài liệu Mahāsi; *V01* là ấn bản Thanh Tịnh Đạo; *R01–R11* là nguồn nghiên cứu, y tế và cơ quan chính thức. Đây là hệ thống tra cứu của sách, không phải số phân loại truyền thống hoặc thứ hạng độ mạnh của bằng chứng.
+  *K01–K45* là mã nguồn kinh; *P01–P02* là hai tài liệu Mahāsi; *V01* là ấn bản Thanh Tịnh Đạo; *R01–R11* là nguồn nghiên cứu, y tế và cơ quan chính thức. Đây là hệ thống tra cứu của sách, không phải số phân loại truyền thống hoặc thứ hạng độ mạnh của bằng chứng.
 ])
 
 Nhãn *KINH* chỉ tầng văn bản kinh điển, không có nghĩa mọi đoạn đều do Đức Phật trực tiếp nói. Có bài ghi lời đệ tử, có lời kể và có phần Đức Phật xác nhận. Khi biết rõ người nói, sách ghi tên; phần nhận xét của người biên soạn cần được đọc riêng.
@@ -287,6 +287,12 @@ Nhãn *KINH* chỉ tầng văn bản kinh điển, không có nghĩa mọi đo�
   "https://www.dhammatalks.org/suttas/KN/Iti/iti49.html",
 )
 
+#reference-item(
+  [K45], [Năm uẩn và năm thủ uẩn, Saṃyutta Nikāya 22.48],
+  [Bản dịch Ṭhānissaro Bhikkhu, đối chiếu ngày 13 tháng 9 năm 2026. Phân biệt năm uẩn với những uẩn hữu lậu, có thể bị chấp thủ; không thu thuật ngữ “thủ uẩn” thành riêng lúc nhận ra một ý nghĩ bám víu. Đọc cùng MN 44 để không đồng nhất các uẩn với dục và tham đối với chúng.],
+  "https://www.dhammatalks.org/suttas/SN/SN22_48.html",
+)
+
 == Thanh Tịnh Đạo và truyền thống Mahāsi
 
 #source-line("THANH TỊNH ĐẠO", [V01], [
@@ -294,7 +300,7 @@ Nhãn *KINH* chỉ tầng văn bản kinh điển, không có nghĩa mọi đo�
 ])
 
 #source-line("BIÊN SOẠN", [tình trạng truy cập V01], [
-  Trong lượt kiểm tra ngày 13 tháng 9 năm 2026, công cụ truy cập không tải được liên kết V01 nêu trên. Điều này không chứng minh sách nguồn không tồn tại, nhưng cũng không được ghi thành một lần mới đối chiếu thành công toàn bộ ấn bản. Xem hồ sơ rà soát để phân biệt phần đã đọc lại với phần còn cần kiểm tra bằng đúng bản.
+  Liên kết nhà xuất bản ở trên không tải được trong lượt kiểm tra ngày 13 tháng 9 năm 2026. Đã đọc bổ sung #link("https://archive.org/download/bpscom/BPS%20COM.rar/BPS%20COM%2FBP%20BOOKS%2Fbp207h_The-Path-of-Purification-%28Visuddhimagga%29.pdf")[bản lưu V01 tại Internet Archive], có thông tin BPS Online Edition 2014. Lượt này đối chiếu những đoạn về tâm thanh tịnh, tuệ đáng sợ và chuyển tộc–đạo; không xác nhận hai tệp đồng nhất từng byte hay toàn tác phẩm đã được kiểm mới. Hồ sơ rà soát ghi rõ đoạn đã đọc và giới hạn truy cập.
 ])
 
 #v(7pt)

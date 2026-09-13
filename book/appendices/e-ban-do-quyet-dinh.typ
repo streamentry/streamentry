@@ -17,11 +17,11 @@
 ])
 
 #let safety-body = [
-  Có nguy hiểm tức thời hoặc nguy cơ tự hại, hại người: dừng bài tập và tìm trợ giúp khẩn cấp. Đau sắc, tê lan, yếu chi hoặc khó phân biệt thực tại cũng cần dừng để xử lý theo #link(<an-toan>)[Chương 9]; không phải mọi dấu hiệu có cùng mức cấp cứu. Ở Việt Nam: *115* cấp cứu y tế, *113* công an, *114* cứu hỏa; *112* tiếp nhận tình huống khẩn khi chưa rõ đầu mối. Nếu không có dấu hiệu cần dừng, chọn đúng bối cảnh bên dưới.
+  Đột ngột yếu một bên, nói khó, có dấu hiệu cấp cứu cơ thể hoặc nguy cơ tự hại, hại người tức thời: dừng và tìm trợ giúp khẩn cấp; không chờ ghi nhãn hay thử tiếp đất. Dấu hiệu thần kinh tự hết vẫn cần đánh giá khẩn. Đau tăng, tê lan hoặc khó khăn tăng dần: dừng để chọn mức xử lý theo #link(<cap-cuu-ngay>)[Chương 9]. Ở Việt Nam: *115* cấp cứu y tế, *113* công an, *114* cứu hỏa; *112* tiếp nhận tình huống khẩn khi chưa rõ đầu mối. Nếu không có dấu hiệu cần dừng, chọn đúng bối cảnh bên dưới.
 ]
 
 #let after-body = [
-  Ngủ nghỉ, thân thể và sinh hoạt vẫn ổn: giữ nhịp phù hợp. Lịch chỉ quá bận: giảm yêu cầu. Có mất ngủ tăng, hoảng sợ, đau tăng hoặc suy giảm sinh hoạt: giảm hay dừng theo #link(<an-toan>)[Chương 9] và tìm hỗ trợ phù hợp; không tự trở lại mức cũ chỉ vì từng chịu được. Không bù giờ hoặc tự chấm tầng tuệ. *Câu nhớ:* an toàn trước, đúng bối cảnh, rồi chọn bước tiếp theo.
+  Ngủ nghỉ, thân thể và sinh hoạt vẫn ổn: giữ nhịp phù hợp. Lịch chỉ quá bận: giảm yêu cầu. Có mất ngủ tăng, hoảng sợ lặp lại, đau tăng hoặc suy giảm sinh hoạt: dừng buổi hiện tại, xem #link(<an-toan>)[Chương 9] và tìm hỗ trợ phù hợp; không tự trở lại mức cũ chỉ vì từng chịu được. Không bù giờ hoặc tự chấm tầng tuệ. *Câu nhớ:* an toàn trước, đúng bối cảnh, rồi chọn bước tiếp theo.
 ]
 
 #let visual-node(label, title, body, accent: palette.forest) = block(
