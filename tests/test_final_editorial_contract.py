@@ -29,7 +29,7 @@ class FinalEditorialContract(unittest.TestCase):
 
     def test_clinging_aggregate_gloss_has_a_traceable_source(self):
         source = read("book/chapters/99-nguon.typ")
-        self.assertIn("[K45]", source)
+        self.assertIn("[K53]", source)
         self.assertIn("SN22_48.html", source)
         for path in (
             "book/chapters/02-dich-den-va-nen-tang.typ",
@@ -38,7 +38,7 @@ class FinalEditorialContract(unittest.TestCase):
             "book/appendices/d-thuat-ngu.typ",
         ):
             text = read(path)
-            self.assertIn("K45", text, path)
+            self.assertIn("K53", text, path)
             self.assertIn("có thể bị chấp thủ", text, path)
 
     def test_insight_detail_and_source_distinctions_survive(self):
