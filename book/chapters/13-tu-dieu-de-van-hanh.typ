@@ -95,7 +95,7 @@ Nỗi đau do bệnh tật, mất mát hay hành vi gây hại của người kh
 
 Để bắt đầu, có thể hiểu *uẩn* là nhóm hiện tượng được phân tích trong kinh: *sắc* là phương diện vật chất; *thọ* là cảm nhận dễ chịu, khó chịu hoặc không dễ chịu cũng không khó chịu; *tưởng* là nhận ra các đặc điểm; *hành* ở đây là các tạo tác tâm như ý định; *thức* là sự nhận biết theo sáu cửa giác quan. Đây là lời giải thích ngắn để đọc, không phải năm vật thể nằm trong một con người.
 
-#source-line("KINH", [K45 · SN 22.48], [
+#source-line("KINH", [K53 · SN 22.48], [
   SN 22.48 phân biệt năm uẩn với năm thủ uẩn: các thủ uẩn là những uẩn hữu lậu, có thể bị chấp thủ. Vì vậy, “năm thủ uẩn” không chỉ có nghĩa là năm uẩn vào đúng lúc một ý nghĩ bám víu đang hiện rõ.
 ])
 
