@@ -21,7 +21,7 @@
 
 Có thể bạn tìm đến cuốn sách này vì muốn hiểu lời Phật hơn, muốn bớt bị những phản ứng quen thuộc kéo đi, hoặc muốn biết người tại gia có thể bắt đầu tu tập thế nào. Bạn không cần hiểu hết thuật ngữ trước khi mở trang đầu. Ta sẽ đi từ những việc gần: học giữ giới, nhận biết thân tâm và đem điều đã hiểu vào đời sống.
 
-Sách lấy các bài kinh Nikāya làm nền giáo lý, đồng thời giới thiệu cách thực hành Niệm xứ theo truyền thống Mahāsi. Phương pháp của một truyền thống, lời giải thích của người biên soạn và lời kinh được đặt riêng. Đây là một cuốn sách hướng dẫn có tham khảo nguồn, không phải một bản kinh mới, cũng không coi mọi chỉ dẫn trong sách là lời Phật trực tiếp.
+Sách lấy các bài kinh trong kinh điển Pāli làm nền giáo lý, đồng thời giới thiệu cách thực hành Niệm xứ theo truyền thống Mahāsi. Phương pháp của một truyền thống, lời giải thích của người biên soạn và lời kinh được đặt riêng. Đây là sách hướng dẫn có tham khảo nguồn, không phải một bản kinh mới, cũng không coi mọi chỉ dẫn trong sách là lời Phật trực tiếp.
 
 #source-line("BIÊN SOẠN", [ba cách hiểu để bắt đầu; đối chiếu K01 · P01 · K06], [
   *Niệm xứ* nói đến việc tu tập chánh niệm đối với thân, thọ, tâm và pháp. Để dễ theo dõi, bạn có thể tạm hiểu: nhận biết thân; nhận biết cảm thọ dễ chịu, khó chịu hay trung tính; nhận biết trạng thái tâm; và xem xét kinh nghiệm theo những nhóm pháp được bài kinh nêu.
@@ -51,11 +51,11 @@ Bạn có thể đọc theo nhu cầu, không cần đi hết sách từ đầu 
 #practice-card(
   [Bắt đầu với phần cần dùng],
   [
-    + *Tuần đầu:* mở Chương 1, đọc #link(<buoi-dau>)[“Trước buổi đầu tiên”], hai hộp an toàn và thẻ Ngày 1. Có thể để #link(<nhan-tham-chieu>)[bảng nhãn ở Phụ lục B] bên cạnh. Nếu có dấu hiệu cảnh báo áp dụng cho mình, dừng ở đó và đọc #link(<an-toan>)[Chương 9] trước khi tiếp tục.
+    + *Tuần đầu:* mở Chương 1, đọc #link(<buoi-dau>)[“Trước buổi đầu tiên”], các hộp an toàn và thẻ Ngày 1. Có thể để #link(<nhan-tham-chieu>)[bảng nhãn ở Phụ lục B] bên cạnh. Nếu có dấu hiệu cảnh báo áp dụng cho mình, dừng ở đó và đọc #link(<an-toan>)[Chương 9] trước khi tiếp tục.
     + *Sau tuần đầu:* đọc Chương 2–7 và #link(<ngay-8-30>)[gợi ý ngày 8 đến ngày 30]. Khi muốn nối các ý đã học, dùng Chương 12 để ôn lại qua một tình huống đời thường.
     + *Trước khi tăng mạnh thời lượng, tập một mình dài ngày hoặc đi khóa:* đọc Chương 8–9, kiểm tra điều kiện sức khỏe, người hướng dẫn và quyền dừng hoặc rời khóa.
     + *Khi muốn hiểu Nhập lưu:* đọc Chương 10–12. Thuật ngữ chưa rõ có thể được tra lại; không cần vội dùng chúng để nhận định sự chứng đắc của mình.
-    + *Với Chương 13:* chỉ đọc sâu khi đã hành đều, biết các giới hạn an toàn và có người hướng dẫn. Trong tháng đầu, có thể đọc #link(<ban-do-tue-la-gi>)[“Bản đồ tuệ là gì?”] rồi để phần phân loại chi tiết lại sau.
+    + *Với Chương 13:* nên có nền thực hành và hướng dẫn phù hợp trước khi đọc sâu các phân loại. Trong tháng đầu, có thể đọc #link(<ban-do-tue-la-gi>)[“Bản đồ tuệ là gì?”] rồi để phần chi tiết lại sau. Đây là gợi ý cách dùng sách, không phải thời hạn trong kinh.
 
     #link(<faq>)[Phụ lục C] giải đáp các câu hỏi thường gặp. Nếu một chỉ dẫn xung đột với an toàn, giới hoặc bổn phận thiết yếu, hãy dừng và kiểm tra lại thay vì cố hoàn thành lịch.
   ],
@@ -64,14 +64,14 @@ Bạn có thể đọc theo nhu cầu, không cần đi hết sách từ đầu 
 
 == Sáu dấu nguồn dùng trong sách
 
-Các dấu dưới đây giúp trả lời một câu hỏi đơn giản: “Điều mình đang đọc đến từ đâu?”. Một đoạn lời kinh, một cách giải thích về sau và một bài tập do sách đặt ra có vai trò khác nhau. Sự gần nhau trên trang không làm chúng trở thành cùng một loại nguồn.
+Các dấu dưới đây giúp trả lời một câu hỏi: “Điều mình đang đọc đến từ đâu?”. Một đoạn lời kinh, một cách giải thích về sau và một bài tập do sách đặt ra có vai trò khác nhau. Sự gần nhau trên trang không làm chúng trở thành cùng một loại nguồn.
 
-#source-line("KINH", [các bài kinh Nikāya Pāli], [
-  Nội dung từ bài kinh được nêu rõ mã nguồn và ngữ cảnh. Trong kinh có lời của Đức Phật, lời của các vị đệ tử và phần kể chuyện. Dấu này không có nghĩa mọi câu đều do Đức Phật trực tiếp nói. Khi diễn ý, sách ghi đó là diễn ý; khi trích nguyên văn một bản dịch, cần giữ đúng lời và ghi tên dịch giả.
+#source-line("KINH", [kinh điển Pāli], [
+  Nội dung từ bài kinh được nêu rõ mã nguồn và ngữ cảnh, gồm những bài thuộc các bộ Nikāya và các tập Tiểu Bộ được dẫn. Trong kinh có lời của Đức Phật, lời của các vị đệ tử và phần kể chuyện. Dấu này không có nghĩa mọi câu đều do Đức Phật trực tiếp nói. Khi diễn ý, sách ghi đó là diễn ý; khi trích nguyên văn một bản dịch, cần giữ đúng lời và ghi tên dịch giả.
 ])
 
 #v(7pt)
-#source-line("LUẬN GIẢI", [A-tỳ-đàm và truyền thống chú giải], [Các cách phân tích, hệ thống hóa của truyền thống Theravāda. Chúng được phân biệt với lời trực tiếp trong các bài kinh Nikāya, không được dùng để âm thầm thay nghĩa của kinh.])
+#source-line("LUẬN GIẢI", [A-tỳ-đàm và truyền thống chú giải], [Các cách phân tích, hệ thống hóa của truyền thống Theravāda. Chúng được phân biệt với lời trực tiếp trong các bài kinh, không được dùng để âm thầm thay nghĩa của kinh.])
 
 #v(7pt)
 #source-line("THANH TỊNH ĐẠO", [Visuddhimagga], [Tác phẩm của ngài Buddhaghosa được dùng làm nguồn tham khảo riêng cho hệ thống tu tập và bản đồ tuệ. Sách không trình bày tác phẩm này như lời Phật trực tiếp.])
@@ -83,26 +83,38 @@ Các dấu dưới đây giúp trả lời một câu hỏi đơn giản: “Đi
 #source-line("Y TẾ & NGHIÊN CỨU", [nguồn hiện đại], [Nghiên cứu và hướng dẫn y tế phục vụ câu hỏi sức khỏe, an toàn. Chúng không được dùng như bằng chứng xác nhận nghiệp, tái sinh hay thánh quả.])
 
 #v(7pt)
-#source-line("BIÊN SOẠN", [giải thích và ứng dụng của sách], [Lời giải nghĩa gần gũi, ví dụ gia đình hoặc công việc, lịch thực hành, câu hỏi nhìn lại và hướng dẫn an toàn hiện đại. Những phần này giúp người đọc sử dụng sách, không được coi là các lời dạy nguyên văn hoặc công thức bảo đảm chứng quả.])
+#source-line("BIÊN SOẠN", [giải thích và ứng dụng của sách], [Lời giải nghĩa gần gũi, ví dụ gia đình hoặc công việc, lịch thực hành, câu hỏi nhìn lại và hướng dẫn an toàn hiện đại. Những phần này giúp người đọc sử dụng sách, không được coi là lời dạy nguyên văn hoặc công thức bảo đảm chứng quả.])
 
-Các dấu nguồn không thay cho việc đọc kỹ. Khi một đoạn có cả nội dung kinh và ứng dụng mới, cần phân biệt hai phần. Chỗ nào còn nhiều cách hiểu cũng cần được nói rõ, thay vì chọn cách dễ thuyết phục nhất rồi coi đó là kết luận chắc chắn.
+Các dấu nguồn không thay cho việc đọc kỹ. Khi một đoạn có cả nội dung kinh và ứng dụng mới, cần phân biệt hai phần. Chỗ nào còn nhiều cách hiểu cần được nói rõ, thay vì chọn cách dễ thuyết phục nhất rồi coi là kết luận chắc chắn.
 
 == Đọc AN, SN, MN, DN và các mã P01, P02 thế nào? <doc-ma-nguon>
 
 #practice-card(
-  [Một phút để đọc mã nguồn],
+  [Tên bộ và số bài],
   [
-    Các mã dùng để tra cứu, không phải điều kiện để bắt đầu tu tập.
+    *DN* là *Dīgha Nikāya*, Trường Bộ; *MN* là *Majjhima Nikāya*, Trung Bộ.
 
-    + *DN* là Dīgha Nikāya, Trường Bộ; *MN* là Majjhima Nikāya, Trung Bộ.
-    + *SN* là Saṃyutta Nikāya, Tương Ưng Bộ; *AN* là Aṅguttara Nikāya, Tăng Chi Bộ.
-    + *Ud* là Udāna, thường gọi là Kinh Phật Tự Thuyết.
-    + *MN 10* chỉ bài số 10 của Trung Bộ. *SN 55.5* chỉ bài số 5 trong tương ưng 55. *AN 3.88* chỉ bài số 88 trong chương Ba pháp của hệ đánh số đang dùng.
-    + *K01, K02…* là mã tra nguồn do sách đặt. Mở #link(<ma-nguon-chi-tiet>)[Bản đồ nguồn] để tìm bài kinh, bản dịch và liên kết tương ứng.
-    + *P01* là Practical Insight Meditation; *P02* là The Progress of Insight, hai tài liệu Mahāsi được dùng trong sách. *V01* là ấn bản Thanh Tịnh Đạo được tham khảo.
-    + *R01, R02…* chỉ các nguồn nghiên cứu, y tế hoặc cơ quan chính thức. Mã R không có nghĩa mọi nguồn có độ tin cậy như nhau.
+    *SN* là *Saṃyutta Nikāya*, Tương Ưng Bộ; *AN* là *Aṅguttara Nikāya*, Tăng Chi Bộ.
 
-    Chẳng hạn, “K11 · MN 2” có nghĩa K11 là mã tra của sách, còn MN 2 là địa chỉ bài kinh trong Trung Bộ. Bạn chỉ cần nhớ cách tra, không cần thuộc các mã.
+    *Ud* là *Udāna*, Kinh Phật Tự Thuyết; *Iti* là *Itivuttaka*, Kinh Phật Thuyết Như Vậy; *Dhp* là *Dhammapada*, Pháp Cú. Ba tập này thuộc Tiểu Bộ trong kinh điển Pāli Theravāda.
+
+    *MN 10* chỉ bài 10 của Trung Bộ. *SN 55.5* chỉ bài 5 trong tương ưng 55. *AN 3.88* chỉ bài 88 trong chương Ba pháp của hệ đánh số đang dùng. Mã giúp tìm nguồn; không cần thuộc mã trước khi thực hành.
+  ],
+  label: [TRA NHANH · TÊN VÀ SỐ KINH],
+)
+
+#v(7pt)
+
+#practice-card(
+  [Các mã riêng của cuốn sách],
+  [
+    *K01, K02…* là mã tra do sách đặt: K01 không có nghĩa “kinh số 1”. Mở #link(<ma-nguon-chi-tiet>)[Bản đồ nguồn] để tìm bài, bản dịch và liên kết tương ứng.
+
+    *P01* và *P02* là _Practical Insight Meditation_ và _The Progress of Insight_, hai tài liệu Mahāsi. *V01* là ấn bản Thanh Tịnh Đạo được tham khảo. *BPS* là _Buddhist Publication Society_, nhà xuất bản của những tài liệu được nêu trong bản đồ nguồn.
+
+    *R01, R02…* chỉ nguồn nghiên cứu, y tế hoặc cơ quan chính thức. Mã R không có nghĩa mọi nguồn có cùng độ tin cậy hoặc cùng nhiệm vụ chứng minh.
+
+    “K11 · MN 2” có nghĩa K11 là mã của sách, còn MN 2 là địa chỉ bài kinh. Những mã này hỗ trợ kiểm tra, không chứng nhận rằng mọi lời giải thích đều đã đúng.
   ],
   label: [TRA NHANH · QUY ƯỚC THƯ MỤC],
 )
@@ -111,7 +123,7 @@ Các dấu nguồn không thay cho việc đọc kỹ. Khi một đoạn có c�
 
 Trong lúc thực hành, nếu chưa rõ nên tiếp tục với đối tượng đang biết, chuyển sang điều nổi bật, hành động ngay hay dừng, hãy mở #link(<ban-do-quyet-dinh>)[Bản đồ quyết định ở Phụ lục E]. Đây là thẻ nhắc của sách; lời giải thích đầy đủ nằm ở các chương liên quan.
 
-Khi trải nghiệm mạnh kéo dài, giấc ngủ xấu đi, khả năng sinh hoạt giảm hoặc khó phân biệt thực tại, hãy giảm hay dừng thực hành cường độ cao và tìm hỗ trợ phù hợp theo Chương 9. Việc nhận hỗ trợ không cần chờ đến khi biết phải gọi trải nghiệm ấy bằng tên gì.
+Khi trải nghiệm mạnh kéo dài, giấc ngủ xấu đi, khả năng sinh hoạt giảm hoặc khó phân biệt thực tại, hãy giảm hay dừng thực hành cường độ cao và tìm hỗ trợ theo Chương 9. Việc nhận hỗ trợ không cần chờ đến khi biết phải gọi trải nghiệm ấy bằng tên gì.
 
 Bạn có thể trở lại một đoạn kinh nhiều lần. Đọc chậm, hỏi rõ điều chưa hiểu và thực hành một điều vừa sức là cách dùng cuốn sách này; không cần biến việc đọc thành cuộc chạy đua qua các tầng tuệ.
 
