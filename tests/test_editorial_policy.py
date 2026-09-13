@@ -49,7 +49,10 @@ class EditorialPolicyTests(unittest.TestCase):
         self.assertIn(POLICY_URL, self.source_chapter)
         self.assertIn(CORRECTION_URL, self.source_chapter)
         self.assertIn(REVIEW_INTEREST_URL, self.source_chapter)
-        self.assertIn("không tự xác nhận chuyên môn", self.source_chapter)
+        self.assertRegex(
+            self.source_chapter,
+            r"không tự xác nhận (?:năng lực )?chuyên môn",
+        )
         self.assertIn("không đăng email, số điện thoại", self.source_chapter)
 
     def test_policy_exposes_required_boundaries(self) -> None:
@@ -88,13 +91,8 @@ class EditorialPolicyTests(unittest.TestCase):
     def test_issue_form_collects_actionable_data_without_contact_fields(self) -> None:
         self.assertTrue(self.issue_form.startswith("name: Báo lỗi sách hoặc nguồn\n"))
         for field_id in (
-            "category",
-            "format",
-            "location",
-            "current_text",
-            "concern",
-            "evidence",
-            "public_report",
+            "category", "format", "location", "current_text", "concern",
+            "evidence", "public_report",
         ):
             with self.subTest(field_id=field_id):
                 self.assertEqual(self.issue_form.count(f"id: {field_id}\n"), 1)
@@ -117,17 +115,12 @@ class EditorialPolicyTests(unittest.TestCase):
             )
         )
         for field_id in (
-            "role",
-            "public_qualifications",
-            "competence_scope",
-            "conflicts_and_compensation",
-            "proposed_contribution",
-            "public_boundary",
+            "role", "public_qualifications", "competence_scope",
+            "conflicts_and_compensation", "proposed_contribution", "public_boundary",
         ):
             with self.subTest(field_id=field_id):
                 self.assertEqual(
-                    self.review_interest_form.count(f"id: {field_id}\n"),
-                    1,
+                    self.review_interest_form.count(f"id: {field_id}\n"), 1,
                 )
 
         self.assertNotIn("id: contact", self.review_interest_form)
@@ -138,10 +131,7 @@ class EditorialPolicyTests(unittest.TestCase):
             "Không dùng biểu mẫu này để đăng ký làm người đọc thử",
             self.review_interest_form,
         )
-        self.assertIn(
-            "chưa phải bằng chứng thẩm định",
-            self.review_interest_form,
-        )
+        self.assertIn("chưa phải bằng chứng thẩm định", self.review_interest_form)
 
     def test_audit_improves_policy_without_inventing_accountability(self) -> None:
         self.assertRegex(
