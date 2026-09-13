@@ -117,7 +117,7 @@ Thọ cho biết sắc thái dễ chịu hay khó chịu; quán tâm giúp nhậ
 ])
 
 #modern-note([
-  *Triền cái* là những trở ngại che lấp tâm; *giác chi* là những phẩm chất của sự giác ngộ, sẽ được giải thích ở Chương 6. *Năm thủ uẩn* nói đến năm nhóm sắc, thọ, tưởng, hành, thức trong sự chấp thủ; Chương 2 đã giới thiệu ngắn các nhóm này. *Sáu nội xứ và ngoại xứ* là sáu cửa nhận biết cùng các đối tượng tương ứng, như mắt với hình sắc, tai với âm thanh, cho đến ý với đối tượng của ý. *Kiết sử* là sự trói buộc; Chương 10 sẽ làm rõ những kiết sử đầu tiên.
+  *Triền cái* là những trở ngại che lấp tâm; *giác chi* là những phẩm chất của sự giác ngộ, sẽ được giải thích ở Chương 6. *Năm thủ uẩn* là năm nhóm sắc, thọ, tưởng, hành, thức hữu lậu và có thể bị chấp thủ, theo SN 22.48 (K45). Chương 2 đã giải thích các từ này; chúng không chỉ những lúc ta đang nhận thấy một ý muốn chiếm hữu. *Sáu nội xứ và ngoại xứ* là sáu cửa nhận biết cùng các đối tượng tương ứng, như mắt với hình sắc, tai với âm thanh, cho đến ý với đối tượng của ý. *Kiết sử* là sự trói buộc; Chương 10 sẽ làm rõ những kiết sử đầu tiên.
 
   Với cách trình bày này, quán pháp không chỉ là gọi tên điều vừa xuất hiện. Nó còn giúp xem điều ấy đang đóng vai trò gì trên đường tu: điều gì cần hiểu, điều gì cần từ bỏ, điều gì cần nuôi lớn. Đây là cách sách nối các phần của bài kinh để người mới dễ theo dõi.
 ])

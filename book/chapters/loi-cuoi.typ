@@ -9,7 +9,7 @@
 #source-badge("BIÊN SOẠN", refs: [lời kết; đối chiếu K02 · K04 · K05 · K06])
 #v(5pt)
 
-Đến đây, bạn không cần mang theo tất cả tên gọi trong sách. Có thể giữ lại vài điều để tiếp tục học: khổ cần được hiểu, ái cần được từ bỏ, và con đường cần được tu tập. Đó không chỉ là việc trong giờ ngồi, mà còn là hướng để nhìn lại lời nói, hành động và cách sống.
+Đến đây, bạn không cần mang theo tất cả tên gọi trong sách. Có thể giữ lại vài điều để tiếp tục học: khổ cần được hiểu, ái cần được từ bỏ, sự chấm dứt khổ cần được thực chứng, và con đường cần được tu tập. Đó không chỉ là việc trong giờ ngồi, mà còn là hướng để nhìn lại lời nói, hành động và cách sống.
 
 Một lần biết dừng trước lời làm người khác đau, một lần nhận lỗi không chống chế, một buổi thực hành vừa sức là những việc đáng được chăm sóc. Chúng có thể nâng đỡ con đường, nhưng không thay cho trí tuệ giải thoát và không tự chứng minh một quả vị. Ta có thể quý trọng điều thiện đã làm mà vẫn thành thật về điều chưa biết.
 

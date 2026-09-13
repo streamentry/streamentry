@@ -3,7 +3,7 @@
 #chapter(
   [13],
   [Bản đồ tuệ, dùng như bản đồ],
-  [Bản đồ giúp gọi tên một địa hình khó nói. Nó không biến trải nghiệm chủ quan thành máy đo thánh quả, và số thứ tự không phải chiếc thang để dựng một cái tôi tinh tế hơn.],
+  [Bản đồ giúp hiểu những thay đổi tinh tế được truyền thống mô tả. Hãy dùng nó để học và đặt câu hỏi đúng, không để tự xác nhận thánh quả từ một trải nghiệm hay số thứ tự.],
   provenance: [
     #source-badge("KINH", refs: [K07])
     #h(4pt)
@@ -210,6 +210,18 @@ Puṇṇa dùng ví dụ bảy cỗ xe trạm. Mỗi xe đưa người đi đế
 
 #source-line("THANH TỊNH ĐẠO", [V01 · lời giới thiệu; XIV.32; XVIII.1–2; XX–XXII], [Thanh Tịnh Đạo, một luận thư Theravāda hậu kinh điển gắn với Buddhaghosa vào khoảng thế kỷ thứ năm, lấy bảy thanh tịnh làm bố cục và phân tích tiến trình với mức chi tiết mà MN 24 không cung cấp. Đây là nguồn luận giải có ảnh hưởng lớn, không phải một bài kinh.])
 
+#source-line("THANH TỊNH ĐẠO", [V01 · XVIII.1–5], [
+  V01 nêu tâm thanh tịnh bằng tám chứng đắc cùng cận định. Phần tiếp theo phân biệt người lấy chỉ làm phương tiện và người lấy thuần quán làm phương tiện.
+])
+
+#source-line("MAHĀSI", [P02 · phần II, Tâm thanh tịnh], [
+  P02 giải thích đường thuần quán bằng sát-na định: định tâm trên các đối tượng nối tiếp, đủ liên tục và mạnh để không bị triền cái lấn át. Nguồn đặt sức định ấy trong quan hệ với cận định, không đồng nhất nó với mọi lúc chú ý được đôi chút.
+])
+
+#modern-note([
+  *Tám chứng đắc* ở đây là bốn thiền sắc giới và bốn chứng đắc vô sắc. *Cận định* là định gần mức an chỉ, tức sự an trú vững chắc trong đề mục, theo thuật ngữ luận giải. Không nên đọc định nghĩa như lệnh mọi người phải chứng đủ cả tám trước khi quán. Hai cách trình bày trên cần được đọc đúng nguồn; bảng ngắn dưới đây chỉ giúp nhớ hướng học, không thay định nghĩa ấy.
+])
+
 #practice-card(
   [Bảy tên ấy muốn chỉ điều gì?],
   [
@@ -217,7 +229,7 @@ Puṇṇa dùng ví dụ bảy cỗ xe trạm. Mỗi xe đưa người đi đế
     #v(5pt)
 
     + *Giới thanh tịnh:* đời sống đạo đức được làm trong sạch để tâm bớt hối hận.
-    + *Tâm thanh tịnh:* tâm đủ quy tụ để các triền cái không còn liên tục lấn át việc quán.
+    + *Tâm thanh tịnh:* sự trong sạch của định tâm theo khung vừa nêu; trong lộ trình P02, việc biết nối tiếp không bị triền cái lấn át.
     + *Kiến thanh tịnh:* bắt đầu phân biệt tiến trình vật chất nơi thân với tiến trình biết, không dựng thêm một người điều khiển.
     + *Đoạn nghi thanh tịnh:* thấy các tiến trình nương điều kiện mà sinh, nên nghi về nhân duyên giảm.
     + *Đạo phi đạo tri kiến thanh tịnh:* phân biệt điều đang hỗ trợ đường tu với hiện tượng phụ dễ bị lầm là cứu cánh.
@@ -461,7 +473,11 @@ Chữ “ô nhiễm” ở đây không có nghĩa ánh sáng hay hỷ tự nó 
 
 *Nền thực hành.* Tan rã không còn là một sự kiện lẻ. Trong lúc các tiến trình và tâm biết chúng liên tục chấm dứt, chính các hành hiện ra dưới mặt nguy hiểm, không phải vì hành giả lập luận “vô thường nên đáng sợ”, mà vì tính không thể giữ và không thể nương đang chi phối cách biết.
 
-*Trải nghiệm có thể như thế nào.* Có người cảm thấy sợ hoặc bất lực; cũng có khi điểm nổi bật không phải tim đập hay hoảng hốt mà là sự nhận rõ rằng bất cứ tiến trình nào vừa được nắm cũng đã mất. Vì vậy, “đáng sợ” vừa có thể chỉ phẩm chất được thấy nơi đối tượng, vừa có thể đi cùng phản ứng sợ trong tâm. Hai điều cần được trình bày tách nhau.
+*Trải nghiệm có thể như thế nào.* P02 mô tả cảm giác sợ hoặc bất lực trong đoạn này. Cần phân biệt cảm xúc ấy với điều được thấy nơi các hành, thay vì lấy mức hoảng sợ làm thước đo tuệ.
+
+#source-line("THANH TỊNH ĐẠO", [V01 · XXI.32–33], [
+  V01 nói bản thân tuệ thấy các hành là đáng sợ không tự sợ hãi; nó nhận rõ sự hoại diệt của các hành. Cách diễn đạt này không đồng nhất tri kiến với một cơn hoảng.
+])
 
 *Cách vun điều kiện và tiếp tục hành.* Tiếp tục biết đối tượng đang tan và biết phản ứng sợ nếu có. Không dựng hình ảnh ghê rợn, không nuôi hoảng hốt để tạo tầng, và không dùng ý chí đè sợ. Nếu phản ứng mạnh đến mức việc quan sát mất, trở về neo an toàn của chương 9 thay vì cố chứng minh mình đang tiến bộ.
 
@@ -485,7 +501,7 @@ Chữ “ô nhiễm” ở đây không có nghĩa ánh sáng hay hỷ tự nó 
 
 ==== 8. Tuệ nhàm chán
 
-*Cách biết thay đổi.* Tâm không còn tìm thấy vị hấp dẫn quen thuộc nơi các hành. *Nibbidā* ở đây gần với ly tham do thấy rõ, không đồng nghĩa với uể oải, mất mọi hứng thú vì trầm cảm hay thái độ khinh ghét cuộc sống.
+*Cách biết thay đổi.* Tâm không còn tìm thấy vị hấp dẫn quen thuộc nơi các hành. *Nibbidā* ở đây là nhàm lìa do thấy rõ, hướng đến ly tham; không nên dùng hai từ như đồng nghĩa hoàn toàn. SN 22.59 (K35) đặt nhàm lìa trước ly tham trong mạch giải thoát. Điều này khác với uể oải, mất mọi hứng thú vì trầm cảm hay thái độ khinh ghét cuộc sống.
 
 *Nền thực hành.* Nó đi sau cái thấy về khổ lụy: tâm không còn tìm được vị ngon quen thuộc trong chính các hành đã được thấy là tan và không thỏa mãn, nhưng hành giả vẫn tiếp tục việc quan sát. Đây là điểm rất khác với việc đơn giản ghét buổi thiền rồi bỏ quan sát.
 
@@ -592,7 +608,11 @@ Từ đây, “mỗi tên là một trải nghiệm kéo dài” trở thành c�
 
 ==== 14. Chuyển tộc
 
-*Tên này đang chỉ gì.* P02 gọi đây là lần tri kiến đầu tiên lấy Niết-bàn, tức sự chấm dứt các hành, làm đối tượng và chuyển khỏi địa vị phàm trong hệ thống. “Chuyển tộc” là thuật ngữ kỹ thuật, không phải thay đổi địa vị xã hội, gia nhập một tông phái hay cảm thấy mình thành một con người khác.
+*Tên này đang chỉ gì.* P02 gọi đây là lần tri kiến đầu tiên lấy Niết-bàn làm đối tượng. “Chuyển tộc” là thuật ngữ kỹ thuật, không phải thay đổi địa vị xã hội, gia nhập một tông phái hay cảm thấy mình thành một con người khác.
+
+#source-line("THANH TỊNH ĐẠO", [V01 · XXII.1; 7–11], [
+  V01 đặt chuyển tộc ở vị trí hướng đến đạo, không đồng nhất với đạo trí. Nguồn phân biệt việc lấy Niết-bàn làm đối tượng với chức năng đoạn phiền não của đạo tiếp theo.
+])
 
 *Vì sao ký ức thông thường không đủ.* P02 đặt chuyển tộc ngay sau thuận thứ và ngay trước đạo, trong một chuỗi được mô tả là cực ngắn. Một người kể “mọi thứ tắt”, “không nhớ gì”, “thời gian biến mất” hay “tôi trở thành người mới” chưa cho biết sát-na nào đã xảy ra, thậm chí chưa chứng minh đây là chuyển tiếp của bản đồ.
 
@@ -623,11 +643,15 @@ Từ đây, “mỗi tên là một trải nghiệm kéo dài” trở thành c�
 *Điều chưa đủ để kết luận.* Dựng lại một câu chuyện mạch lạc sau sự kiện, cảm thấy tin tưởng hơn, hạnh phúc nhiều giờ hoặc được người khác gợi ý tên tầng không tự biến thành phản quán. Trí nhớ tái dựng, kỳ vọng và ngôn ngữ đã học có thể lấp khoảng trống. Kết luận vẫn phải chịu kiểm tra rộng hơn về kiết sử và đạo quả.
 
 #source-line("MAHĀSI", [P02 · mục 12–17; chú thích 40–45], [
-  P02 trình bày thuận thứ, chuyển tộc, đạo, quả và phản quán như một chuỗi rất nhanh trong hệ thống của tác phẩm. Chính vì độ ngắn và tính kỹ thuật ấy, việc tự nhận diện từng sát-na từ ký ức thông thường có độ tin cậy thấp. P02 là nguồn cho mô tả dòng thiền; nó không thay các tiêu chuẩn kinh điển rộng hơn về Nhập lưu.
+  P02 trình bày thuận thứ, chuyển tộc, đạo, quả và phản quán trong hệ thống của tác phẩm. Nguồn mô tả chuyển tộc, đạo và quả diễn ra rất ngắn, rồi nói đến việc xem lại đạo, quả, Niết-bàn; một số người còn xem lại phiền não.
 ])
 
 #source-line("THANH TỊNH ĐẠO", [V01 · XXI.128–131; XXII.1–21], [
-  Thanh Tịnh Đạo trình bày thích ứng, chuyển tộc, đạo và quả trong hệ thống sát-na hậu kinh điển, đồng thời phân biệt phần thuộc hành đạo tri kiến thanh tịnh với tri kiến thanh tịnh. Nguồn này giải thích cấu trúc của bản đồ; nó không cung cấp cho người mới một phương pháp đáng tin để tự nhận ra từng sát-na sau sự kiện.
+  Thanh Tịnh Đạo trình bày thuận thứ, chuyển tộc, đạo và quả trong hệ thống sát-na hậu kinh điển, đồng thời phân biệt phần thuộc hành đạo tri kiến thanh tịnh với tri kiến thanh tịnh.
+])
+
+#modern-note([
+  Từ những mô tả ấy, sách không suy rằng ký ức về một khoảng trống đủ để nhận diện từng sát-na. Đây là giới hạn suy luận của bản biên soạn, không phải một phép đo độ tin cậy đã được P02 hay V01 kiểm chứng. Việc bàn về Nhập lưu vẫn phải giữ các tiêu chuẩn kinh điển và giới hạn chứng cứ ở Chương 10–11.
 ])
 
 #practice-card(

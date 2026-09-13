@@ -24,6 +24,12 @@ Nhãn *KINH* chỉ tầng văn bản kinh điển, không có nghĩa mọi đo�
 == Kinh điển Pāli
 
 #reference-item(
+  [K53], [Năm uẩn và năm thủ uẩn, Saṃyutta Nikāya 22.48],
+  [Bản dịch Ṭhānissaro Bhikkhu, đối chiếu ngày 13 tháng 9 năm 2026. Phân biệt năm uẩn với những uẩn hữu lậu, có thể bị chấp thủ; không thu thuật ngữ “thủ uẩn” thành riêng lúc nhận ra một ý nghĩ bám víu. Đọc cùng MN 44 để không đồng nhất các uẩn với dục và tham đối với chúng.],
+  "https://www.dhammatalks.org/suttas/SN/SN22_48.html",
+)
+
+#reference-item(
   [K01], [Kinh Niệm xứ, Majjhima Nikāya 10],
   [Bản dịch Việt của Hòa thượng Thích Minh Châu trên SuttaCentral. Những phần sách tự diễn ý không được coi là trích nguyên văn bản dịch này.],
   "https://suttacentral.net/mn10/vi/minh_chau",
@@ -342,7 +348,7 @@ Nhãn *KINH* chỉ tầng văn bản kinh điển, không có nghĩa mọi đo�
 ])
 
 #source-line("BIÊN SOẠN", [tình trạng truy cập V01], [
-  Trong lượt kiểm tra ngày 13 tháng 9 năm 2026, công cụ truy cập không tải được liên kết V01 nêu trên. Điều này không chứng minh sách nguồn không tồn tại, nhưng cũng không được ghi thành một lần mới đối chiếu thành công toàn bộ ấn bản. Xem hồ sơ rà soát để phân biệt phần đã đọc lại với phần còn cần kiểm tra bằng đúng bản.
+  Liên kết nhà xuất bản ở trên không tải được trong lượt kiểm tra ngày 13 tháng 9 năm 2026. Đã đọc bổ sung #link("https://archive.org/download/bpscom/BPS%20COM.rar/BPS%20COM%2FBP%20BOOKS%2Fbp207h_The-Path-of-Purification-%28Visuddhimagga%29.pdf")[bản lưu V01 tại Internet Archive], có thông tin BPS Online Edition 2014. Lượt này đối chiếu những đoạn về tâm thanh tịnh, tuệ đáng sợ và chuyển tộc–đạo; không xác nhận hai tệp đồng nhất từng byte hay toàn tác phẩm đã được kiểm mới. Hồ sơ rà soát ghi rõ đoạn đã đọc và giới hạn truy cập.
 ])
 
 #v(7pt)

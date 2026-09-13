@@ -44,6 +44,8 @@ class SourceCodeLegendTests(unittest.TestCase):
         ):
             self.assertIn(marker, text)
         self.assertIn("[K44]", text)
+        self.assertIn("[K53]", text)
+        self.assertIn("SN22_48.html", text)
         self.assertIn("https://www.dhammatalks.org/suttas/KN/Iti/iti49.html", text)
 
     def test_health_agency_abbreviations_are_expanded_at_first_use(self) -> None:

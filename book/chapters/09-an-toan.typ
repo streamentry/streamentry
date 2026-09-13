@@ -13,10 +13,25 @@
 
 An toàn không đồng nghĩa với sợ mọi cảm giác lạ. Nó cũng không cho phép ta gọi mọi khủng hoảng là “tiến bộ tâm linh”. Cách nghiêm túc hơn là mô tả điều đang xảy ra, xem mức độ kéo dài và ảnh hưởng đến sinh hoạt, rồi chọn mức hỗ trợ tương xứng.
 
+== Chọn hành động an toàn trước <an-toan>
+
+#caution(
+  [Có dấu hiệu cấp cứu: tìm trợ giúp trước],
+  [
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu R04; R07–R11])
+    #label("cap-cuu-ngay")
+    #v(4pt)
+    + *Dấu hiệu cơ thể:* đột ngột yếu hoặc tê một bên, nói khó, khó nhìn hay mất thăng bằng; đau hoặc khó chịu ở ngực, khó thở hay choáng bất thường. Dừng thực hành và gọi cấp cứu y tế. Dấu hiệu thần kinh dù tự hết vẫn cần được đánh giá khẩn.
+    + *Nguy cơ tự sát tức thời:* tìm trợ giúp khẩn cấp và đừng ở một mình. Nếu có hành vi nguy hiểm cho người khác hoặc mất khả năng giữ an toàn, ưu tiên bảo vệ mọi người và gọi trợ giúp.
+
+    Ở Việt Nam, gọi *115* cho cấp cứu y tế; chưa rõ đầu mối khẩn cấp có thể gọi *112*. Ở nước khác, dùng số cấp cứu địa phương. Không trì hoãn để thử thiền hoặc bài ổn định bên dưới; xem thêm #link(<ba-muc>)[mức đỏ].
+  ],
+)
+
 #practice-card(
   [Nếu đang quá tải, làm ngay],
   [
-    Dừng việc ghi nhận dồn dập, mở mắt và đặt chân vững trên sàn. Nhìn quanh, gọi tên vài điều đang thấy, nghe hoặc chạm được, rồi báo cho một người đáng tin. Đây là cách ổn định tạm thời; xem #link(<ha-cuong-do>)[quy trình đầy đủ] bên dưới. Nếu có nguy cơ tự hại cấp thời, bỏ bài tập này, xử lý theo #link(<ba-muc>)[mức ba] và đừng ở một mình. Nếu có thôi thúc làm hại người khác, hoặc mất liên hệ với thực tế và hành vi trở nên nguy hiểm, gọi trợ giúp khẩn cấp và ưu tiên an toàn của mọi người; đừng dựa vào một người không được huấn luyện ở cạnh nếu việc đó có thể đặt họ vào nguy hiểm.
+    Khi không có dấu hiệu cấp cứu nêu trên, dừng việc ghi nhận dồn dập, mở mắt và đặt chân vững trên sàn. Nhìn quanh, gọi tên vài điều đang thấy, nghe hoặc chạm được, rồi báo cho một người đáng tin. Đây là cách ổn định tạm thời; xem #link(<ha-cuong-do>)[quy trình đầy đủ] bên dưới. Nếu có nguy cơ tự hại cấp thời, bỏ bài tập này, xử lý theo #link(<ba-muc>)[mức ba] và đừng ở một mình. Nếu có thôi thúc làm hại người khác, hoặc mất liên hệ với thực tế và hành vi trở nên nguy hiểm, gọi trợ giúp khẩn cấp và ưu tiên an toàn của mọi người; đừng dựa vào một người không được huấn luyện ở cạnh nếu việc đó có thể đặt họ vào nguy hiểm.
   ],
   label: [LÀM NGAY · BIÊN SOẠN],
 )
@@ -36,7 +51,7 @@ Hai nguồn trên không phải kinh điển Phật giáo và không thay thế 
 
 Tên cơ quan cho biết nguồn đến từ hệ thống nào, không biến mọi chỉ dẫn của họ thành quy tắc toàn cầu. Chương này nói rõ khi số điện thoại, tuyến cấp cứu hoặc phạm vi áp dụng chỉ thuộc một quốc gia.
 
-== Trước khi tăng cường độ <an-toan>
+== Trước khi tăng cường độ
 
 Đừng tự tăng lên thời khóa cường độ cao nếu một trong các điều sau đang xảy ra:
 
@@ -75,11 +90,11 @@ Bạn không cần tự chẩn đoán những thuật ngữ trên để dùng ch
 
 Phóng tâm, buồn ngủ, bồn chồn, đau mỏi nhẹ do tư thế, cảm xúc nổi lên rồi lắng, hoặc những thay đổi thoáng qua về ánh sáng và âm thanh có thể xuất hiện trong lúc hành. Chúng không tự động là bệnh, cũng không tự động là dấu hiệu của một tầng tuệ.
 
-Nếu bạn vẫn ngủ, ăn, làm việc và quan hệ bình thường, hãy ghi nhận ngắn gọn, đổi tư thế khi cần và trao đổi trong buổi hướng dẫn kế tiếp. Đừng săn tìm sự lặp lại của một hiện tượng dễ chịu.
+Dấu hiệu cấp cứu không thuộc mức xanh, dù chỉ xuất hiện thoáng qua. Chỉ khi không có các dấu hiệu ấy và bạn vẫn ngủ, ăn, làm việc, quan hệ bình thường, hãy ghi nhận ngắn gọn, đổi tư thế khi cần và trao đổi trong buổi hướng dẫn kế tiếp. Đừng săn tìm sự lặp lại của một hiện tượng dễ chịu.
 
 === Mức vàng: giảm hoặc tạm dừng, tìm hỗ trợ sớm
 
-Hãy giảm thời lượng, bỏ khóa im lặng hoặc tạm dừng pháp hành cường độ cao khi có một trong các dấu hiệu sau:
+Hãy dừng buổi hiện tại, không tiếp tục thực hành cường độ cao và tìm hỗ trợ sớm khi có một trong các dấu hiệu sau:
 
 - Giấc ngủ suy giảm rõ và tình trạng tiếp tục nặng lên hoặc không lắng.
 - Khó phân biệt điều có thật với điều không thật, lời nói trở nên khó hiểu, hoặc có niềm tin hay tri giác khác thường làm giảm khả năng phán đoán.
@@ -148,7 +163,7 @@ WHO nêu nguyên tắc toàn cầu, không ấn định một số điện tho�
 
 #v(8pt)
 
-Nếu có những dấu hiệu trên, đừng ngồi tiếp để thử “xuyên qua cảm giác”. Gọi dịch vụ cấp cứu tại nơi đang sống. Với dấu hiệu đột quỵ, ghi lại thời điểm triệu chứng bắt đầu nếu biết.
+Nếu có những dấu hiệu trên, đừng ngồi tiếp để thử “xuyên qua cảm giác”. Gọi dịch vụ cấp cứu tại nơi đang sống. Với dấu hiệu đột quỵ, ghi lại thời điểm triệu chứng bắt đầu nếu biết; triệu chứng tự hết không phải lý do bỏ qua đánh giá khẩn. Không tự lái xe đi cấp cứu. Phần hướng dẫn này được đối chiếu lại với R07–R08 ngày 13 tháng 9 năm 2026.
 
 #source-line("Y TẾ & NGHIÊN CỨU", [R09], [CDC lưu ý rằng không phải mọi cơn co giật đều cần cấp cứu. Cần gọi trợ giúp khẩn cấp khi cơn kéo dài quá năm phút, cơn khác xảy ra ngay sau đó, người bệnh khó thở hoặc khó tỉnh, bị thương, co giật trong nước, đang mang thai, bị đái tháo đường và mất ý thức, hoặc đây là cơn đầu tiên được biết. Số 911 trên trang CDC chỉ áp dụng tại Hoa Kỳ.])
 
@@ -184,9 +199,13 @@ Không có giá trị đạo đức nào trong việc chịu đau để làm v�
 Sợ hãi, chán ghét, muốn thoát hay xả là các tên có mặt trong những hệ thống luận giải về tiến trình tuệ. Cùng những từ ấy cũng có thể mô tả hoảng loạn, trầm cảm, phân ly hoặc phản ứng sang chấn. Tên gọi giống nhau không chứng minh nguyên nhân giống nhau.
 
 #caution(
-  [Ba suy luận không được phép],
+  [Ba điều dễ hiểu lầm],
   [
-    “Tôi vẫn ngồi được nên không thể bị trầm cảm.” Sai. “Trải nghiệm này có trong bản đồ nên không cần bác sĩ.” Sai. “Càng khổ càng gần đạo quả.” Không có cơ sở. Hãy dựa vào nguy cơ, thời gian kéo dài và mức suy giảm chức năng, không dựa vào một nhãn tâm linh hấp dẫn.
+    + Vẫn ngồi thiền được không loại trừ một vấn đề sức khỏe tâm thần.
+    + Trải nghiệm có tên trong bản đồ tuệ không loại bỏ nhu cầu được đánh giá y tế.
+    + Mức khổ tăng không tự chứng minh đang gần đạo quả.
+
+    Hãy xem nguy cơ, thời gian kéo dài và ảnh hưởng đến sinh hoạt. Khi chưa rõ, tìm hỗ trợ phù hợp đáng tin hơn việc cố chọn một tên tầng tuệ.
   ],
 )
 
@@ -196,16 +215,18 @@ Người dạy thiền có thể sửa kỹ thuật, điều chỉnh thời khó
 
 Trước một khóa dài, hãy bảo đảm trung tâm có cách liên lạc người thân, quy trình rời khóa, hỗ trợ y tế và quyền giảm thời khóa. Nơi an toàn không xem việc xin giúp là thất bại. Họ cũng không giữ người ở lại bằng lời dọa rằng rời khóa sẽ “phá tiến trình”.
 
-Mục tiêu của chương này không phải loại mọi khó chịu. Nó là giữ một khó khăn có thể xử lý khỏi trở thành khủng hoảng vì bí mật, kiêu hãnh hoặc một lời giải thích sai.
+Mục tiêu của chương này không phải loại mọi khó chịu. Mục tiêu là giúp bạn nhận ra khó khăn sớm và có đường trợ giúp, để việc ngại chia sẻ hoặc một lời giải thích chưa đúng không làm chậm sự chăm sóc cần thiết.
 
 #practice-card(
   [Gấp sách lại: chọn mức trước khi giải thích],
   [
-    1. Khó chịu thoáng qua, vẫn ngủ và sinh hoạt bình thường: điều chỉnh nhẹ, theo dõi và đừng vội gắn nhãn.
+    1. Khó chịu nhẹ thoáng qua, không có dấu hiệu cấp cứu, vẫn ngủ và sinh hoạt bình thường: điều chỉnh nhẹ, theo dõi và đừng vội gắn nhãn.
 
-    2. Mất ngủ tăng, hoảng sợ lặp lại, cảm giác xa lạ kéo dài hoặc chức năng giảm rõ nhưng chưa có nguy hiểm tức thời: giảm hay tạm dừng thực hành cường độ cao và tìm hỗ trợ sớm.
+    2. Mất ngủ tăng, hoảng sợ lặp lại, cảm giác xa lạ kéo dài hoặc chức năng giảm rõ nhưng chưa có nguy hiểm tức thời: dừng buổi hiện tại, không tiếp tục thực hành cường độ cao và tìm hỗ trợ sớm.
 
     3. Có ý định, kế hoạch hay hành vi chuẩn bị tự sát; thôi thúc làm hại người khác; mất liên hệ với thực tế kèm hành vi nguy hiểm; hoặc không còn giữ được an toàn: dừng thực hành và xử lý như tình huống cấp cứu. Đừng để người có nguy cơ tự sát tức thời ở một mình.
+
+    4. Đột ngột yếu một bên, nói khó, hoặc có dấu hiệu cấp cứu cơ thể khác: gọi cấp cứu y tế, không thử tiếp đất trước và không bỏ qua chỉ vì triệu chứng vừa tự hết.
 
     Nếu bạn không thể chọn chắc giữa hai mức, hãy chọn mức an toàn hơn và để người có năng lực đánh giá. Tên một tầng tuệ không được dùng để hạ mức phản ứng.
   ],

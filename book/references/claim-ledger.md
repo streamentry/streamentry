@@ -120,3 +120,15 @@ Scope: the following rows cover the new editorial checklists only. They do not r
 - “The canon records attainment specifically at ages 80 and 120.” Exact passages and identity checks are missing.
 - “A particular sensation proves a named insight stage.” Phenomenology overlaps with sleep, anxiety, expectation, concentration, and other conditions.
 - “A fixed retreat length or daily schedule produces Stream-entry.” The cited sources do not support a guaranteed dose-response claim.
+
+## Final editorial addendum (2026-09-13)
+
+The following rows were added after PR #63. They do not transfer earlier validation to a new artifact or claim independent review. The V01 mirror carries the BPS Online Edition 2014 imprint, but byte identity with the unavailable publisher download was not established.
+
+| ID | Claim used in the book | Tier | Source | Exact URL | Strength | Known caveat |
+|---|---|---|---|---|---|---|
+| C90 | Iti 49 contrasts delight in existence with delight in annihilation after death; the book uses it to bound its explanation of craving for non-existence. | Early Buddhist discourse with editorial boundary | K44, Iti 49 | https://www.dhammatalks.org/suttas/KN/Iti/iti49.html | Strong | Not a claim that every wish to end discomfort, obtain treatment, or escape harm is craving for non-existence. This source entered the book in PR #63. |
+| C91 | SN 22.48 distinguishes aggregates from clinging-aggregates by the latter's being accompanied by effluents and liable to clinging. | Early Buddhist discourse | K53, SN 22.48 | https://www.dhammatalks.org/suttas/SN/SN22_48.html | Direct | Do not restrict the category to moments of consciously noticed clinging, or identify the aggregates with desire-and-passion toward them; read MN 44 alongside it. |
+| C92 | V01 XVIII.1–5, XXI.32–33 and XXII.1–11 distinguish technical concentration purity, fearful appearance from fear itself, and change-of-lineage from path knowledge. P02 explains its pure-insight concentration route separately. | Later Theravāda sources | V01; P02 II and 14–17 | https://archive.org/download/bpscom/BPS%20COM.rar/BPS%20COM%2FBP%20BOOKS%2Fbp207h_The-Path-of-Purification-%28Visuddhimagga%29.pdf<br>https://www.accesstoinsight.org/lib/authors/mahasi/progress.html | Direct within the named systems | Targeted textual recheck, not a full fresh V01 audit; neither source becomes direct speech of the Buddha. Retrospective evidential limits are the book's editorial judgment, not validated classifiers. |
+| C93 | Emergency physical warning signs take precedence over grounding or meditation; transient resolution of stroke-like signs does not remove the need for urgent assessment. | Health guidance plus editorial routing | R07–R08; R10–R11 for Vietnam routing | https://www.cdc.gov/stroke/signs-symptoms/index.html<br>https://www.cdc.gov/heart-disease/about/heart-attack.html | Direct warning signs; editorial placement | Entry card and Appendix E are a bounded aid, not exhaustive triage. Country-specific numbers and response limits remain. Sources re-read on 2026-09-13; no independent clinical approval is claimed. |
+
