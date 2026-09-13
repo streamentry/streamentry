@@ -3,158 +3,190 @@
 #chapter(
   [06],
   [Triền cái và giác chi],
-  [Tâm không cần sạch rồi mới được quan sát. Chính lúc ham muốn, bực bội, lịm xuống, chao động hay nghi ngờ, Kinh Niệm xứ yêu cầu biết rõ điều đang có mặt, duyên nuôi nó và con đường làm nó lắng.],
-  provenance: source-badge("KINH", refs: [K01 · K13]),
+  [Khi ngồi xuống, ta có thể gặp ham muốn, bực bội, buồn ngủ, bồn chồn hay nghi ngờ. Chương này giúp nhận ra những trạng thái ấy, tìm hiểu điều gì nuôi chúng và học cách nuôi những phẩm chất nâng đỡ sự giác ngộ.],
+  provenance: source-badge("BIÊN SOẠN", refs: [đọc K01 · K13 · K22]),
 )
 
-#source-line("KINH", [K01 · MN 10; K13 · SN 46.53], [
-  *Năm triền cái* là năm nhóm trạng thái cản trở sự sáng rõ: tham dục, sân, hôn trầm-thụy miên, trạo cử-hối và hoài nghi. Trong đó, *hôn trầm-thụy miên* là trạng thái nặng nề, uể oải, dễ buồn ngủ; *trạo cử-hối* là tâm bồn chồn lăng xăng cùng day dứt cắn rứt về điều đã qua. *Bảy giác chi* là bảy phẩm chất cần được nuôi và cân bằng: niệm, trạch pháp, tinh tấn, hỷ, khinh an, định và xả. Chương đi theo một nhịp đơn giản: trước hết nhận ra điều đang che tâm, sau đó biết nên làm mạnh hay làm dịu phẩm chất nào.
-])
+Chương trước hướng dẫn cách nhận biết điều đang nổi bật. Chương này đi thêm một bước: không chỉ biết tâm đang thế nào, mà còn học cách đáp lại phù hợp. Một trở ngại được nhận ra là điều có thể tìm hiểu, không phải lý do để kết luận mình không biết tu.
 
-== Biết một triền cái là biết cả vòng đời của nó
-
-#source-line("KINH", [K01 · MN 10, Nīvaraṇapabba], [
-  Với mỗi triền cái, MN 10 yêu cầu năm việc: biết khi nó có mặt; biết khi nó vắng mặt; biết một triền cái chưa sinh đã sinh thế nào; biết triền cái đã sinh được đoạn thế nào; và biết điều kiện để nó đã đoạn không sinh lại. Chỉ đặt một nhãn đúng tên mới hoàn thành phần đầu của công việc.
+#source-line("KINH", [K01 · MN 10, phần quán pháp], [
+  MN 10 trình bày năm triền cái: tham dục, sân, hôn trầm-thụy miên, trạo cử-hối và hoài nghi. Bài kinh cũng trình bày bảy giác chi: niệm, trạch pháp, tinh tấn, hỷ, khinh an, định và xả.
 ])
 
 #modern-note([
-  Cách thực hành gọn là đi qua ba câu: “Cái gì đang có?”, “Nó đang được nuôi bằng gì?”, “Việc lành nhỏ nhất có thể làm ngay là gì?”. Câu thứ nhất phục hồi chánh niệm. Hai câu sau đưa chánh niệm vào chánh kiến và chánh tinh tấn.
+  *Triền cái* là những trở ngại che lấp tâm. Nói gần nghĩa, tham dục là sự ham thích các thú vui giác quan; sân là sự chống đối, ác ý; hôn trầm-thụy miên là trạng thái trì trệ, uể oải, buồn ngủ; trạo cử-hối là sự xao động và day dứt; hoài nghi là sự nghi ngờ làm tâm do dự trên đường tu. Những lời giải thích ngắn này không dùng để chẩn đoán bệnh hay gọi mọi câu hỏi là trở ngại.
+
+  *Giác chi* là những phẩm chất của sự giác ngộ. Sau khi hiểu các trở ngại, ta sẽ đọc bảy phẩm chất này và cách tu tập phù hợp với một tâm đang trì trệ hay xao động.
 ])
 
-== Tham dục: tâm nghiêng về lời hứa dễ chịu
+== Nhận ra trở ngại và tìm hiểu điều kiện của nó
 
-#source-line("KINH", [K01 · MN 10; K22 · SN 46.51], [
-  Tham dục có mặt thì biết có mặt; vắng thì biết vắng. SN 46.51 nói sự chú ý không như lý đến tướng hấp dẫn nuôi tham dục, còn chú ý như lý đến khía cạnh không hấp dẫn làm nó suy yếu. Đây không phải lệnh ghét thân hay ghét cái đẹp. Nó sửa cái nhìn chỉ chọn phần quyến rũ và giấu giá phải trả.
+#source-line("KINH", [K01 · MN 10, phần năm triền cái], [
+  Với mỗi triền cái, bài kinh nêu việc biết khi nó có mặt, khi nó vắng mặt, khi một triền cái chưa sinh được sinh khởi, khi triền cái đã sinh được từ bỏ, và khi triền cái đã được từ bỏ không còn sinh khởi về sau.
 ])
 
 #modern-note([
-  Khi ham muốn nổi mạnh, hãy biết cảm giác kéo tới trong thân trước khi theo câu chuyện. Tạm rời màn hình, món hàng hoặc hình ảnh đang tiếp nhiên liệu. Sau buổi ngồi, xem lại giấc ngủ, nội dung tiêu thụ và thói quen tìm kích thích. Đây là điều chỉnh môi trường, không phải đàn áp dục bằng xấu hổ.
+  Vì vậy, gọi đúng tên mới chỉ là một phần. Bạn có thể tự hỏi: “Điều gì đang có mặt?”, “Điều gì đang nuôi nó?” và “Bây giờ có thể làm gì để không tiếp tục nuôi điều bất thiện?”. Ba câu này là gợi ý của sách, không phải một công thức được MN 10 liệt kê. Sự lắng xuống trong một buổi ngồi cũng cần được phân biệt với sự đoạn trừ không còn sinh lại.
 ])
 
-== Sân: cái đau muốn đẩy một cái đau khác đi
+== Tham dục: nhận ra sự ham thích đang kéo tâm đi
 
 #source-line("KINH", [K01 · MN 10; K22 · SN 46.51], [
-  Sân được biết khi có và khi không. SN 46.51 nêu tâm từ giải thoát như thức ăn cho sự không sinh và sự đoạn trừ sân. Tâm từ không tuyên bố hành vi gây hại là chấp nhận được; nó ngăn tâm tự thiêu trong lúc vẫn cho phép đặt giới hạn và hành động sáng suốt.
+  MN 10 dạy biết tham dục khi có và khi không. SN 46.51 nói đến việc thường xuyên tác ý không như lý đối với tướng đẹp như thức ăn cho tham dục; thường xuyên tác ý như lý đối với tướng bất tịnh là không cung cấp thức ăn cho tham dục.
+])
+
+#modern-note([
+  *Tác ý* là hướng sự chú ý; *như lý* là thích đáng, đúng cách. *Tướng đẹp* nói đến nét hấp dẫn được tâm chú ý; *tướng bất tịnh* nói đến mặt không hấp dẫn được dùng trong phép quán. Đoạn kinh nêu hướng tu tập, không phải lời khuyên ghét bỏ thân mình hay người khác. Những phép quán chuyên sâu cần được học đúng cách, không tự ép thực hành khi chưa hiểu.
+
+  Một ứng dụng nhẹ trong sinh hoạt là nhận ra điều đang kích thích ham muốn và tạm rời nó: đặt điện thoại xuống, không mở thêm hình ảnh, hoặc hoãn một quyết định mua sắm. Đây là đề nghị điều chỉnh hoàn cảnh của sách, không được đồng nhất với việc đã hoàn thành phép quán kinh nêu.
+])
+
+== Sân: nhận biết mà không làm hại
+
+#source-line("KINH", [K01 · MN 10; K22 · SN 46.51:14], [
+  MN 10 dạy biết sân khi có và khi không. SN 46.51 nêu tâm từ giải thoát, mettācetovimutti; thường xuyên tác ý như lý đối với điều ấy là không cung cấp thức ăn cho sự sinh khởi và tăng trưởng của sân.
+])
+
+#modern-note([
+  *Tâm từ* là thiện ý, mong chúng sinh được an lành. Một cách bắt đầu là không tiếp tục nuôi ý muốn làm người khác đau. Điều ấy không buộc bạn chấp nhận hành vi gây hại, bỏ qua trách nhiệm hay ở lại nơi không an toàn. Ta có thể giữ ranh giới rõ mà không chủ ý trả đũa. Đây là cách sách vận dụng hướng tu tâm từ vào đời sống, không phải toàn bộ nghĩa của tâm từ giải thoát.
 ])
 
 #practice-card(
-  [Khi sân quá mạnh để ngồi yên],
+  [Khi đang giận],
   [
-    Biết rõ “sân” và nơi thân đang nóng, siết hoặc rung. Nếu tâm tiếp tục dựng lại cuộc đối đầu, chuyển năm phút sang tâm từ: “Mong tôi không bị sân thiêu đốt. Mong người kia không bị vô minh dẫn dắt. Mong chúng tôi không gây thêm khổ.” Sau đó mới trở về đề mục chính.
+    Trước hết, ngừng hành vi có thể gây hại. Khi đã ở nơi an toàn, nhận ra tâm đang có sân và những gì bạn thật sự biết ở thân, chẳng hạn nóng hoặc căng.
+
+    Nếu phù hợp, có thể khởi một lời nguyện ngắn: “Mong mình và người được an lành. Mong mình không làm điều gây thêm khổ.” Đây là câu do sách biên soạn, không phải lời kinh nguyên văn. Không cần ép mình phải cảm thấy thương mến ngay.
+
+    Khi có thể trở lại thực hành nhẹ nhàng, trở về đề mục quen thuộc. Nếu hoảng sợ hay căng thẳng tăng, hãy dừng và dùng hướng dẫn an toàn ở Chương 9, thay vì cố hoàn thành bài tập.
   ],
   label: [THỰC HÀNH · BIÊN SOẠN THEO K22],
 )
 
-== Hôn trầm thụy miên: khi cái biết mất độ sáng
+== Hôn trầm-thụy miên: khi tâm trì trệ, buồn ngủ
 
-#source-line("KINH", [K01 · MN 10, Nīvaraṇapabba], [
-  Hôn trầm và thụy miên được xếp chung thành một triền cái. Điều phải biết không chỉ là cảm giác buồn ngủ, mà còn là sự có mặt, vắng mặt, sinh và diệt của trạng thái làm tâm nặng, mờ, khó hướng đến đối tượng.
+#source-line("KINH", [K01 · MN 10, phần năm triền cái], [
+  Hôn trầm và thụy miên được nêu chung thành một triền cái. Bài kinh yêu cầu biết sự có mặt, vắng mặt, sinh khởi, từ bỏ và không sinh lại của triền cái ấy, như với các triền cái khác.
 ])
 
 #source-line("MAHĀSI", [P01 · chỉ dẫn về buồn ngủ], [
   P01 dạy ghi nhận trạng thái buồn ngủ. Nếu nó không qua, hành giả tiếp tục biết nó cho đến khi ngủ. Văn bản này không nêu các đối trị mở mắt, làm thân thẳng hay chuyển sang thiền hành.
 ])
 
-#source-line("BIÊN SOẠN", [đối trị thực hành], [
-  Mở mắt, làm thân thẳng hoặc chuyển sang thiền hành là những cách điều chỉnh thực tế có thể thử khi an toàn. Đây là đề nghị của sách, không phải câu chỉ dẫn được tìm thấy trong P01.
+#modern-note([
+  Khi chỉ hơi lơ mơ và vẫn an toàn, bạn có thể thử mở mắt, ngồi thẳng vừa phải hoặc chuyển sang đi nhẹ. Đây là đề nghị của sách, không phải các chỉ dẫn được gán cho P01. Chọn một điều chỉnh đơn giản rồi quan sát tác dụng, không tăng sức ép chỉ để giữ đúng lịch.
 ])
 
 #caution(
-  [Thiếu ngủ không phải một tầng thiền],
+  [Chăm sóc giấc ngủ trước khi tăng nỗ lực],
   [
-    #source-badge("BIÊN SOẠN", refs: [an toàn sức khỏe])
+    #source-badge("BIÊN SOẠN", refs: [giới hạn an toàn; xem Chương 9])
     #v(5pt)
-    Nếu nhiều đêm ngủ không đủ, giải pháp đầu tiên là ngủ. Tăng tốc nhãn để thắng kiệt sức có thể làm tâm căng hơn mà không sáng hơn. Buồn ngủ do thuốc, bệnh hoặc rối loạn giấc ngủ cần được xử lý theo nguyên nhân của nó.
+    Nếu nhiều đêm ngủ không đủ, cần ưu tiên nghỉ và ngủ đủ. Không dùng việc tăng tốc ghi nhận để cố vượt qua kiệt sức. Buồn ngủ liên hệ với thuốc, bệnh hoặc vấn đề giấc ngủ cần được xem xét theo nguyên nhân; sách không dùng tên một triền cái để thay cho việc đánh giá sức khỏe.
   ],
 )
 
-== Trạo cử và hối: tâm không chịu ở nơi đang đứng
+== Trạo cử-hối: nhận ra xao động và day dứt
 
 #source-line("KINH", [K01 · MN 10; K04 · AN 10.1], [
-  MN 10 ghép trạo cử với hối quá. AN 10.1 cho thấy giới lành dẫn đến không hối hận rồi mới đến hân hoan, khinh an và định. Vì vậy, một phần bất an phải được giải quyết bằng sửa hành vi, xin lỗi hoặc hoàn thành trách nhiệm; không phải mọi day dứt đều tan chỉ nhờ nhìn nó.
+  MN 10 nêu trạo cử và hối trong cùng một triền cái. AN 10.1 trình bày không hối hận là lợi ích của giới thiện, rồi lần lượt nói đến hân hoan, hỷ, khinh an, lạc và định.
 ])
 
 #modern-note([
-  Trong giờ ngồi, ghi nhận cảm giác bồn chồn và thôi thương lượng với từng ý nghĩ. Sau giờ ngồi, viết một việc thực sự cần xử lý. Nếu thân quá nhiều năng lượng, thiền hành tốc độ vừa thường thích hợp hơn cố ghì tâm vào một điểm.
+  Trong buổi ngồi, bạn có thể nhận ra sự bồn chồn mà không cần giải quyết mọi ý nghĩ ngay. Sau buổi ngồi, hãy xem có việc nào thật sự cần xử lý: sửa một sai sót, xin lỗi, giữ một lời hứa hoặc sắp xếp lại công việc. Đây là gợi ý ứng dụng của sách, không phải danh sách hành động của AN 10.1.
+
+  Không phải mọi bất an đều do mình làm sai. Khi chưa rõ nguyên nhân, có thể tìm người phù hợp để trao đổi thay vì tự trách. Nếu trạng thái kéo dài hoặc ảnh hưởng sinh hoạt, dùng hướng dẫn an toàn cuối chương.
 ])
 
-== Hoài nghi: câu hỏi chưa tìm đúng cách kiểm chứng
+== Hoài nghi: phân biệt câu hỏi cần học và sự do dự cản trở
 
-#source-line("BIÊN SOẠN", [đối chiếu K02 · SN 55.50], [
-  Sách này dùng bốn yếu tố đưa đến Nhập lưu làm khung xử lý nghi: thân cận người chân chánh, nghe Chánh pháp, như lý tác ý và hành pháp thuận pháp. Đây là ứng dụng biên soạn từ K02, không phải một phương thuốc trị nghi được bài kinh trình bày trực tiếp. Nghi cần nguồn tốt, câu hỏi đúng, thực hành đủ lâu và quyền xem lại kết luận, không phải lòng trung thành mù quáng.
+#source-line("KINH", [K01 · MN 10; K22 · SN 46.51:17], [
+  MN 10 dạy biết hoài nghi khi có và khi không. SN 46.51 nêu việc thường xuyên tác ý như lý đối với các pháp thiện và bất thiện, có lỗi và không lỗi, thấp kém và cao thượng, thuộc phía tối và phía sáng, là không cung cấp thức ăn cho hoài nghi.
+])
+
+#modern-note([
+  Một câu hỏi chân thành không cần bị gạt đi bằng yêu cầu “cứ tin”. Bạn có thể viết rõ điều chưa hiểu, tìm đúng đoạn kinh và hỏi người có khả năng giải thích. Bốn yếu tố đưa đến Nhập lưu ở Chương 2 cũng là khung tham khảo hữu ích: người chân chánh, Chánh pháp, như lý tác ý và thực hành phù hợp với Pháp. Đây là sự vận dụng của sách, không phải một bài kinh bảo đảm mọi nghi ngờ sẽ hết sau một bài tập.
 ])
 
 #caution(
-  [Có lúc đổi cách là đúng],
+  [Kiên trì không có nghĩa là ở lại trong điều gây hại],
   [
     #source-badge("BIÊN SOẠN", refs: [nguyên tắc an toàn])
     #v(5pt)
-    Không đổi kỹ thuật giữa một cơn khó chịu nhất thời là lời khuyên hữu ích. Nhưng kéo dài một phương pháp gây hại, không phù hợp sức khỏe hoặc được dạy trong quan hệ lạm dụng không phải kiên trì. Hãy phân biệt tâm thích mua sắm pháp môn với quyết định rời một điều không an toàn sau khi đã kiểm chứng.
+    Một khó chịu nhất thời và một phương pháp đang gây hại là hai việc khác nhau. Hãy tìm hiểu trước khi đổi chỉ vì nôn nóng; đồng thời, có thể dừng hoặc rời đi khi thực hành làm sức khỏe xấu đi hay quan hệ hướng dẫn có cưỡng ép, lạm dụng. Việc bảo vệ an toàn không phải bằng chứng thiếu lòng tin.
   ],
 )
 
-Đến đây, năm phần trên đã trả lời “điều gì đang che tâm?”. Phần kế tiếp đổi hướng sang “phẩm chất lành nào cần được nuôi để tâm lấy lại thăng bằng?”.
+Năm phần trên giúp nhận ra điều đang cản trở. Phần tiếp theo nói đến điều cần được nuôi lớn, để việc tu không chỉ xoay quanh những khó khăn.
 
 == Bảy giác chi: biết lúc nâng tâm, biết lúc làm dịu
 
-#source-line("KINH", [K01 · MN 10, Bojjhaṅgapabba], [
-  Bảy giác chi là niệm, trạch pháp, tinh tấn, hỷ, khinh an, định và xả. MN 10 yêu cầu biết mỗi chi khi có, khi không, nó sinh thế nào và được tu tập đến viên mãn thế nào. Đây là các phẩm chất cần nuôi lớn, không chỉ là trạng thái để dán nhãn.
+#source-line("KINH", [K01 · MN 10, phần bảy giác chi], [
+  Bảy giác chi là niệm, trạch pháp, tinh tấn, hỷ, khinh an, định và xả. Bài kinh nêu việc biết mỗi giác chi khi có, khi không, sự sinh khởi của giác chi chưa sinh và sự tu tập đến viên mãn của giác chi đã sinh.
 ])
 
-Nói gần nghĩa:
+#modern-note([
+  Các từ có thể được hiểu gần nghĩa để bắt đầu như sau:
 
-- *Niệm* giữ việc cần biết trong tâm.
-- *Trạch pháp* xem xét hiện tượng theo Pháp.
-- *Tinh tấn* cung cấp năng lượng; *hỷ* làm tâm hứng khởi.
-- *Khinh an* làm thân tâm lắng dịu; *định* quy tụ tâm.
-- *Xả* giữ quân bình trước dễ chịu và khó chịu.
+  - *Niệm:* nhớ hướng tu và điều cần được nhận biết.
+  - *Trạch pháp:* xem xét, phân biệt các pháp theo hướng lời dạy.
+  - *Tinh tấn:* sự chuyên cần trong việc tu.
+  - *Hỷ:* sự hứng khởi, hoan hỷ.
+  - *Khinh an:* thân tâm lắng dịu.
+  - *Định:* tâm quy tụ, không tán loạn.
+  - *Xả:* sự quân bình, không bị ưa ghét lôi kéo.
 
-Các nghĩa này đủ để dùng bảng cân bằng dưới đây, không thay cho phân tích đầy đủ trong luận giải.
+  Đây là lời giải nghĩa ngắn, không phải tiêu chuẩn tự xác nhận đã thành tựu giác chi. Một trạng thái tương tự trong sinh hoạt không tự động đồng nghĩa với phẩm chất đã được tu tập viên mãn.
+])
 
 #source-line("KINH", [K13 · SN 46.53], [
-  Khi tâm trì trệ, SN 46.53 khuyên phát triển trạch pháp, tinh tấn và hỷ; khinh an, định và xả không phải nhóm thích hợp để nâng một tâm đang lịm. Khi tâm chao động, quan hệ đảo lại: khinh an, định và xả giúp làm lắng, còn tăng khảo sát và năng lượng có thể khiến tâm động hơn. Niệm được nói là hữu ích trong mọi trường hợp.
+  Khi tâm trì trệ, bài kinh nêu đó là lúc thích hợp để phát triển trạch pháp, tinh tấn và hỷ, không phải lúc thích hợp để phát triển khinh an, định và xả. Khi tâm xao động, điều ngược lại được nêu: phát triển khinh an, định và xả là thích hợp; phát triển trạch pháp, tinh tấn và hỷ không thích hợp vào lúc ấy. Niệm được nói là hữu ích trong mọi trường hợp.
+])
+
+#modern-note([
+  Điều cần nhận ra là thời điểm và trạng thái của tâm. Bài kinh không loại bỏ nhóm giác chi nào khỏi con đường; nó phân biệt lúc nào nên nuôi nhóm phẩm chất nào. Ta không cần luôn tăng nỗ lực, cũng không cần luôn làm tâm dịu thêm bất kể tâm đang thế nào.
 ])
 
 #practice-card(
-  [Chỉnh tâm như chỉnh dây đàn],
+  [Thử một điều chỉnh phù hợp],
   [
-    *Nếu tâm chìm:* mở mắt, làm rõ đối tượng, khảo sát một đặc tính cụ thể, đứng dậy đi, nhớ lại lý do mình hành.
+    - *Khi tâm trì trệ:* nếu đã ngủ đủ và không có vấn đề an toàn, thử làm rõ một đặc tính của đối tượng hoặc chuyển sang đi nhẹ.
+    - *Khi tâm căng, xao động:* bớt việc ghi nhãn dồn dập, thả lỏng thân trong mức dễ chịu và để hơi thở tự nhiên.
+    - *Khi tâm tương đối quân bình:* tiếp tục thực hành, chưa cần thêm điều chỉnh chỉ để tìm cảm giác khác.
 
-    *Nếu tâm căng:* bớt nhãn, thả lỏng trán và hàm, cảm nhận toàn thân, để hơi thở tự nhiên, thu phạm vi chú ý về một đối tượng ổn định.
-
-    *Nếu tâm cân bằng:* đừng can thiệp để làm nó “tốt hơn”. Tiếp tục biết sinh và diệt.
+    Các việc cụ thể này là gợi ý của sách, không phải cách dịch trực tiếp từng giác chi. Nếu điều chỉnh làm tình trạng xấu hơn, hãy dừng, không cố áp dụng bảng.
   ],
   label: [THỰC HÀNH · BIÊN SOẠN THEO K13],
 )
 
-== Khi triền cái giống một vấn đề sức khỏe
+== Khi cần chuyển từ tên pháp sang câu hỏi về sức khỏe
 
-Nếu điều chỉnh đề mục và cường độ không giúp, còn trạng thái kéo dài ra ngoài giờ hành, phải đổi câu hỏi. Lúc ấy, điều quan trọng không còn là gọi đúng tên pháp mà là kiểm tra giấc ngủ, chức năng và mức nguy cơ.
+Một tên gọi trong pháp học không đủ để giải thích mọi trạng thái. Giới hạn an toàn dưới đây là hướng dẫn hiện đại của sách, không phải tiêu chuẩn chẩn đoán được rút từ MN 10.
 
 #caution(
-  [Tên pháp không thay cho chẩn đoán],
+  [Nhận ra dấu hiệu cần hỗ trợ],
   [
-    #source-badge("BIÊN SOẠN", refs: [an toàn sức khỏe tâm thần])
+    #source-badge("BIÊN SOẠN", refs: [giữ các ngưỡng an toàn ở Chương 9])
     #v(5pt)
-    Một tên pháp có thể che khuất những cách giải thích khác:
+    Cần chú ý khi các trạng thái sau kéo dài hoặc tăng lên:
 
-    - Buồn ngủ có thể do thiếu ngủ hoặc bệnh.
-    - Bồn chồn có thể đi cùng hoảng sợ hay hưng cảm.
-    - Cảm giác xa lạ với thân có thể là phân ly.
-    - Tiếng nói hoặc niềm tin bất thường có thể cần hỗ trợ chuyên môn.
+    - Mất ngủ, kiệt sức hoặc hoảng sợ lặp lại.
+    - Cảm giác xa lạ với thân hay môi trường kéo dài ngoài giờ thiền.
+    - Khó phân biệt điều đang thực sự xảy ra, nghe tiếng nói bất thường hoặc có niềm tin bất thường làm ảnh hưởng sinh hoạt.
+    - Khả năng làm việc, chăm sóc bản thân hay thực hiện trách nhiệm giảm rõ.
 
-    Nếu trạng thái kéo dài ngoài giờ thiền, làm mất ngủ, giảm khả năng làm việc hoặc làm bạn mất tiếp xúc với thực tại, hãy giảm hay dừng thực hành cường độ cao và tìm người hỗ trợ đủ năng lực. Đừng gọi mọi suy giảm chức năng là “thung lũng tuệ”.
+    Khi có những dấu hiệu này, hãy giảm hay dừng thực hành cường độ cao và tìm hỗ trợ chuyên môn phù hợp. Mở #link(<ba-muc>)[ba mức phản ứng ở Chương 9] để chọn bước tiếp theo. Khi có nguy hiểm tức thời, ưu tiên an toàn và dịch vụ cấp cứu tại nơi đang sống; không tiếp tục ngồi để thử vượt qua.
   ],
 )
 
 #practice-card(
   [Gấp sách lại: ba quyết định],
   [
-    1. Khi một triền cái có mặt, đừng chỉ gọi tên. Hãy nói được nó đang biểu hiện thế nào, điều gì nuôi nó và điều gì làm nó yếu đi.
+    1. Khi một triền cái có mặt, bạn sẽ tìm hiểu thêm điều gì ngoài tên của nó?
+    2. Khi tâm trì trệ và khi tâm xao động, hai nhóm giác chi nào được SN 46.53 khuyên phát triển? Niệm có vai trò gì?
+    3. Khi trạng thái kéo dài ngoài giờ hành, gây mất ngủ hoặc giảm khả năng sinh hoạt, vì sao cần mở hướng dẫn an toàn thay vì tự gắn tên một tầng tuệ?
 
-    2. Khi tâm chìm, nhớ nhóm nâng tâm: trạch pháp, tinh tấn và hỷ. Khi tâm căng, nhớ nhóm làm dịu: khinh an, định và xả. Niệm giữ vai trò trong cả hai trường hợp.
-
-    3. Khi trạng thái kéo dài ngoài giờ hành, làm mất ngủ, giảm chức năng hoặc làm yếu khả năng phân biệt thực tại, hãy đổi từ câu hỏi “đây là pháp gì?” sang “mức nguy cơ là gì và cần hỗ trợ nào?”. Mở #link(<ba-muc>)[ba mức phản ứng ở chương 9] thay vì tự gắn một tên tuệ.
+    Bạn có thể mở lại đúng phần chưa nhớ. Mục đích là chọn được cách đáp lại phù hợp, không phải ghi nhớ thuật ngữ bằng mọi giá.
   ],
   label: [GẤP SÁCH LẠI · QUYẾT ĐỊNH],
 )
