@@ -4,10 +4,10 @@
 #v(7mm)
 #eyebrow([PHỤ LỤC C], fill: palette.saffron)
 #v(4mm)
-= Những câu hỏi cần trả lời thẳng <faq>
+= Những câu hỏi cần trả lời rõ <faq>
 
 #text(font: fonts.sans, size: 9.5pt, fill: palette.muted)[
-  Câu trả lời dưới đây phân biệt điều kinh nói, điều truyền thống Mahāsi dạy và điều người biên soạn đề nghị. Mã K chỉ kinh, P chỉ tài liệu Mahāsi, V chỉ Thanh Tịnh Đạo và R chỉ nghiên cứu hiện đại; nguồn đầy đủ nằm ở chương “Bản đồ nguồn”.
+  Các câu trả lời là phần tổng hợp của sách, có nguồn để đối chiếu. Mã K chỉ kinh, P chỉ tài liệu Mahāsi, V chỉ Thanh Tịnh Đạo và R chỉ nguồn hiện đại. Một nhận xét suy ra từ kinh cần được phân biệt với chính lời kinh.
 ]
 
 == Tìm nhanh
@@ -15,7 +15,7 @@
 #block[
   #set par(first-line-indent: 0em, justify: false)
   *Đích đến:* #link(<faq-bao-dam>)[1\. Bảo đảm Nhập lưu] · #link(<faq-tam-tat>)[6\. Tâm “tắt”] · #link(<faq-cam-giac-toi>)[7\. Cảm giác “tôi”] · #link(<faq-kiet-su>)[13\. Kiết sử và Sa-môn quả] \
-  *Phương pháp:* #link(<faq-phong-xep>)[2\. Phồng xẹp] · #link(<faq-ghi-nhan>)[3\. Mật độ nhãn] · #link(<faq-chi-quan>)[4\. Chỉ và quán] · #link(<faq-muoi-sau-tue>)[5\. Mười sáu tuệ] \
+  *Phương pháp:* #link(<faq-phong-xep>)[2\. Phồng xẹp] · #link(<faq-ghi-nhan>)[3\. Mật độ nhãn] · #link(<faq-chi-quan>)[4\. Chỉ và quán] · #link(<faq-muoi-sau-tue>)[5\. Bản đồ tuệ] \
   *Thực hành an toàn:* #link(<faq-dau>)[8\. Đau] · #link(<faq-bat-an>)[9\. Bất an] · #link(<faq-doi-song>)[10\. Công việc và gia đình] · #link(<faq-thoi-luong>)[11\. Thời lượng] · #link(<faq-nguoi-thay>)[12\. Người thầy]
 ]
 
@@ -23,10 +23,12 @@
   "faq-bao-dam",
   [1\. Cuốn sách có bảo đảm tôi sẽ Nhập lưu không?],
   [
-    Không. K02 nêu bốn yếu tố hỗ trợ: thân cận người chân chánh, nghe Chánh pháp, như lý tác ý và hành pháp thuận pháp. K03 mô tả các phẩm chất của bậc Nhập lưu. Không văn bản nào biến một thời khóa hoặc cuốn sách thành bảo chứng kết quả.
+    Không. SN 55.50 nêu bốn yếu tố đưa đến Nhập lưu; SN 55.4 mô tả những phẩm chất của bậc Nhập lưu. Sách giúp học và xây dựng điều kiện thực hành, không có căn cứ bảo đảm kết quả cho một người chỉ từ việc theo lịch.
+
+    Điều này không phủ nhận lời dạy có điều kiện ở cuối MN 10. Lịch bảy ngày làm quen của sách không được coi là đã đáp ứng đầy đủ những điều kiện ấy; xem Chương 8 và Chương 10.
 
     #v(5pt)
-    #source-badge("KINH", refs: [K02; K03])
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu K01; K02; K03])
   ],
 )
 
@@ -36,12 +38,12 @@
   "faq-phong-xep",
   [2\. “Phồng, xẹp” có phải nguyên văn lời Phật?],
   [
-    Không. K01 dạy biết rõ hơi thở, tư thế, hoạt động và nhiều phương diện của thân. Chọn chuyển động bụng làm đề mục chính và ghi nhận hiện tượng trong tâm thuộc chỉ dẫn Mahāsi ở P01. P01 còn dặn không đọc thành tiếng hay tụng lặp “phồng, xẹp”. Bảng nhãn tiếng Việt trong sách là phần biên soạn.
+    Không. MN 10 dạy nhiều cách quán thân, gồm hơi thở, tư thế và sinh hoạt. Chọn chuyển động bụng làm đề mục căn bản và ghi nhận trong tâm là chỉ dẫn Mahāsi được giới thiệu từ P01. Tác phẩm dặn không đọc thành tiếng hoặc tụng lặp từ.
+
+    Bảng nhãn tiếng Việt và lịch làm quen là phần biên soạn. Niệm xứ không được thu lại thành riêng kỹ thuật này, và sách không trình bày Mahāsi là cách thực hành duy nhất.
 
     #v(5pt)
-    #source-badge("MAHĀSI", refs: [P01])
-    #h(4pt)
-    #source-badge("BIÊN SOẠN")
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu K01; P01])
   ],
 )
 
@@ -51,10 +53,12 @@
   "faq-ghi-nhan",
   [3\. Ghi nhãn càng dày thì chánh niệm càng mạnh?],
   [
-    Không thể suy ra như vậy. Nhãn có ích khi nó giúp nhận ra đối tượng. Nếu lời thầm che mất cảm giác, tạo căng thẳng hoặc chạy trước kinh nghiệm, nó đã lấn át chức năng của mình. P01 là hướng dẫn phương pháp, không phải bằng chứng rằng số nhãn đo được tuệ giác.
+    Không thể suy ra như vậy. P01 hướng dẫn nhãn để hỗ trợ nhận biết, không đưa số nhãn làm phép đo tuệ. Sách đề nghị xem nhãn có giúp biết hiện tượng hay đang che mất cảm giác và tạo sức ép.
+
+    Khi nhận ra đang nghĩ, dù nhận ra muộn, có thể trở về. Không cần gọi tên mọi điều hoặc dựng lại ý định đã bỏ lỡ. Trong tình huống nguy hiểm, hành động cần thiết đi trước việc ghi nhận.
 
     #v(5pt)
-    #source-badge("MAHĀSI", refs: [P01])
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu P01; Chương 5])
   ],
 )
 
@@ -64,10 +68,12 @@
   "faq-chi-quan",
   [4\. Phải tu chỉ trước rồi mới quán?],
   [
-    K16 ghi nhận nhiều trình tự: chỉ đi trước quán, quán đi trước chỉ, chỉ và quán song hành, hoặc tâm được ổn định sau dao động liên quan đến Pháp. Vì vậy, biến một trình tự thành quy luật duy nhất là mạnh hơn nguồn. Cả chỉ lẫn quán đều phải nằm trong toàn bộ đạo lộ.
+    Trong AN 4.170, Tôn giả Ānanda trình bày nhiều trường hợp: quán đi sau chỉ, chỉ đi sau quán, cả hai song hành, hoặc tâm bị dao động liên quan đến pháp rồi có lúc an trú và định tĩnh. Bài kinh tiếp tục nói đến đạo và sự tu tập đạo.
+
+    Vì vậy, sách không lấy một trình tự làm quy luật duy nhất từ nguồn này. Những giải thích riêng về định sát-na hoặc thuần quán trong Mahāsi và luận giải được giữ đúng tầng nguồn ở Chương 5.
 
     #v(5pt)
-    #source-badge("KINH", refs: [K16])
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu K16; V01; P02])
   ],
 )
 
@@ -75,14 +81,14 @@
 
 #faq-card(
   "faq-muoi-sau-tue",
-  [5\. Mười sáu tuệ có phải danh sách do Đức Phật trực tiếp dạy?],
+  [5\. “Mười sáu tuệ” có phải danh sách Đức Phật trực tiếp dạy?],
   [
-    Không. Bản đồ chi tiết này thuộc hệ thống luận giải, nổi bật trong Thanh Tịnh Đạo V01, rồi được truyền thống Mahāsi dùng trong P02. Một số nguyên lý của nó dựa trên kinh, nhưng thứ tự mười sáu tầng không nên được ghi là lời Phật nguyên văn.
+    Không nên trình bày bản đồ đánh số ấy như một danh sách nguyên văn trong MN 10. Các phân loại chi tiết được hệ thống hóa trong truyền thống luận giải và dùng trong Mahāsi. P02 có cách chia mục riêng; số mục trong một tác phẩm và số tuệ trong một sơ đồ thông dụng không tự đồng nhất.
+
+    Chương 13 giữ trình tự của nguồn đang dùng và giải thích xuất xứ. Có nền kinh cho một số nguyên lý không có nghĩa mọi tên, cách chia và trình tự về sau đều là lời Phật trực tiếp. Bản đồ giúp đọc sự trình bày của truyền thống, không dùng như bài kiểm tra tự xác nhận chứng đạt.
 
     #v(5pt)
-    #source-badge("THANH TỊNH ĐẠO", refs: [V01])
-    #h(4pt)
-    #source-badge("MAHĀSI", refs: [P02])
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu K01; K07; V01; P02])
   ],
 )
 
@@ -92,10 +98,12 @@
   "faq-tam-tat",
   [6\. Một lần tâm “tắt” có xác nhận Nhập lưu không?],
   [
-    Không đủ. K03, K08 và K09 nhấn mạnh tịnh tín đã được xác chứng, giới hạnh được bậc Thánh quý trọng và sự hiểu biết gắn với Pháp. K10 liên hệ Nhập lưu với sự đoạn tận ba kiết sử. Một hiện tượng ngắn, đứng riêng, không chứng minh toàn bộ thay đổi ấy.
+    Không đủ. Các nguồn về Nhập lưu nêu sự đoạn ba kiết sử, tịnh tín được xác chứng, giới hạnh và sự thấy Pháp. Cụm “tâm tắt” chưa mô tả đủ điều đã xảy ra; một trải nghiệm ngắn không tự chứng minh toàn bộ những phẩm chất ấy.
+
+    Kinh có nói đến tự tuyên bố khi các điều kiện được nêu đã thành tựu. Vì vậy, sách không nói “không ai có thể tự biết”; điều cần tránh là kết luận từ căn cứ chưa đủ. Nếu có mất ý thức, khó phân biệt thực tại hoặc suy giảm sinh hoạt, dùng Chương 9 trước khi đặt tên tâm linh.
 
     #v(5pt)
-    #source-badge("KINH", refs: [K03; K08; K09; K10])
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu K03; K08–K11; K21])
   ],
 )
 
@@ -103,12 +111,14 @@
 
 #faq-card(
   "faq-cam-giac-toi",
-  [7\. Nhập lưu có nghĩa là hết mọi cảm giác về “tôi”?],
+  [7\. Nhập lưu có nghĩa hết mọi cảm giác về “tôi”?],
   [
-    Không. K17 cho thấy một khuynh hướng vi tế “tôi là” còn có thể tồn tại ở người đã vượt qua năm hạ phần kiết sử, cho đến khi giải thoát hoàn toàn. Đoạn thân kiến không đồng nghĩa với việc ngôn ngữ tự quy chiếu hoặc mọi thói quen tâm lý biến mất ngay.
+    SN 22.89 ghi lời Tôn giả Khemaka: không xem các uẩn là tự ngã hay thuộc tự ngã, nhưng vẫn còn tàn dư ngã mạn, dục và khuynh hướng “tôi là”. Bài kinh phân biệt điều ấy ngay cả ở người đã đoạn năm hạ phần kiết sử.
+
+    Từ đó, sách giữ riêng thân kiến với ngã mạn. Cách nói “tôi”, việc nhận trách nhiệm hoặc chăm sóc sức khỏe chưa tự là thân kiến. Cảm giác xa lạ với bản thân cũng không đủ chứng minh vô ngã đã được thấy như kinh chỉ dạy; xem Chương 10.
 
     #v(5pt)
-    #source-badge("KINH", refs: [K17])
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu K17; K20; K24])
   ],
 )
 
@@ -118,12 +128,12 @@
   "faq-dau",
   [8\. Đau thì phải ngồi bất động?],
   [
-    Không. K11 cho thấy chịu đựng và tránh né đều có chỗ; bài kinh không đặt luật ngồi bất động. Các dấu hiệu đau sắc, tê lan, yếu chi hoặc đau kéo dài là ngưỡng an toàn do người biên soạn đề nghị, không phải tiêu chí y khoa trong K11.
+    Không cần ngồi bất động bằng mọi giá. MN 2 có cả kham nhẫn lẫn tránh né trong những cách đoạn lậu hoặc; không lấy riêng một phần làm quy tắc cho mọi cơn đau.
+
+    P01 có những chỉ dẫn khác nhau về cứng và đau, cùng một lời bảo đảm không gây hại mà sách không dùng làm nguyên tắc an toàn. Đau sắc, tê lan, yếu chi hoặc đau tăng cần được xử lý theo Chương 9, không chờ nhận biết đủ nhãn. Những ngưỡng này là hướng dẫn an toàn hiện đại, không phải tiêu chí y khoa do MN 2 nêu.
 
     #v(5pt)
-    #source-badge("KINH", refs: [K11])
-    #h(4pt)
-    #source-badge("BIÊN SOẠN", refs: [ngưỡng đổi tư thế])
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu K11; P01; Chương 5; Chương 9])
   ],
 )
 
@@ -131,21 +141,18 @@
 
 #faq-card(
   "faq-bat-an",
-  [9\. Mọi bất an khi thiền đều là một tầng tuệ cần đi xuyên qua?],
+  [9\. Mọi bất an khi thiền đều là một tầng tuệ phải đi xuyên qua?],
   [
-    Không. R01 ghi nhận nhiều loại trải nghiệm khó khăn và ảnh hưởng chức năng trong các bối cảnh thiền khác nhau. R02 tổng hợp các biến cố bất lợi và cho thấy ước lượng thay đổi mạnh theo thiết kế nghiên cứu. Không nên tự động tâm linh hóa mất ngủ, hoảng sợ, phân ly, hưng cảm hoặc suy giảm chức năng.
+    Không. R01 ghi nhận các trải nghiệm khó khăn trong những bối cảnh thiền; R02 tổng hợp biến cố bất lợi với ước lượng khác nhau theo nghiên cứu. Các nguồn này không xác định nguyên nhân của một trường hợp cá nhân và không biến mọi bất ổn thành một giai đoạn tuệ.
 
     #v(5pt)
     #source-badge("Y TẾ & NGHIÊN CỨU", refs: [R01; R02])
-
     #v(5pt)
 
-    Nếu triệu chứng mạnh, kéo dài hoặc làm xấu đời sống, hãy giảm hay dừng thực hành, báo cho người hướng dẫn và tìm chuyên gia y tế phù hợp. R05 hỗ trợ ngưỡng liên hệ người cung cấp chăm sóc sức khỏe khi dấu hiệu tăng lên hoặc không biến mất; quyết định giảm hay dừng pháp hành là hướng dẫn an toàn của người biên soạn.
+    Khi dấu hiệu mạnh, kéo dài, tăng lên hoặc làm suy giảm sinh hoạt, sách khuyên giảm hay dừng theo Chương 9, trao đổi với người hướng dẫn và tìm hỗ trợ y tế phù hợp. R05 hỗ trợ việc liên hệ người chăm sóc sức khỏe khi những dấu hiệu được nguồn mô tả tăng hoặc không hết; quy trình giảm, dừng thiền là phần biên soạn. Nguy cơ tức thời cần trợ giúp khẩn cấp, không đợi xác định đó là tuệ hay bệnh.
 
     #v(5pt)
-    #source-badge("Y TẾ & NGHIÊN CỨU", refs: [R05])
-    #h(4pt)
-    #source-badge("BIÊN SOẠN", refs: [ngưỡng giảm hoặc dừng])
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu R05; Chương 9])
   ],
 )
 
@@ -153,19 +160,14 @@
 
 #faq-card(
   "faq-doi-song",
-  [10\. Có thể hành trong công việc và gia đình không?],
+  [10\. Có thể thực hành trong công việc và gia đình không?],
   [
-    Có thể đem sự biết rõ vào đi, đứng, co duỗi, ăn uống và các hoạt động thường ngày như K01 mô tả. #link(<vong-va-cham>)[Chương 7] còn cho một vòng xử lý khi phản ứng vừa dâng và một #link(<sua-sai>)[vòng sửa sai] khi khoảng dừng đến muộn; cả hai là công cụ biên soạn, không phải công thức nguyên văn của bài kinh.
+    MN 10 có tỉnh giác trong sinh hoạt như đi, đứng, nhìn, co duỗi, ăn uống, nói và im lặng. Những điểm neo, #link(<vong-va-cham>)[vòng va chạm] và #link(<sua-sai>)[vòng sửa sai] ở Chương 7 là cách sách ứng dụng, không phải công thức nguyên văn của kinh.
+
+    Chú ý vào thân không được thay thế bổn phận hay việc bảo vệ an toàn. Khi lái xe, kể cả đang chờ đèn đỏ, ưu tiên giao thông; chỉ tập riêng sau khi đã đỗ xe an toàn ngoài luồng giao thông và không còn điều khiển xe. Khi dùng máy hoặc chăm người khác, hướng chú ý theo nhu cầu thực của tình huống.
 
     #v(5pt)
-    #source-badge("KINH", refs: [K01])
-
-    #v(5pt)
-
-    Tuy vậy, biết một động tác không thay thế bổn phận, giới hay sự chú ý cần thiết cho công việc nguy hiểm. Khi lái xe hoặc vận hành máy, ưu tiên an toàn và nhận biết toàn cảnh. Đây là ứng dụng an toàn hiện đại của người biên soạn, không phải câu chỉ dẫn nguyên văn trong MN 10.
-
-    #v(5pt)
-    #source-badge("BIÊN SOẠN", refs: [an toàn khi làm việc])
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu K01; K15; Chương 7])
   ],
 )
 
@@ -175,10 +177,12 @@
   "faq-thoi-luong",
   [11\. Mỗi ngày phải ngồi bao lâu?],
   [
-    Kinh không ấn định một thời lượng chung cho mọi cư sĩ. Các mốc 15, 30 hay 60 phút trong sách là khung thử nghiệm của người biên soạn. Chọn mức có thể giữ đều mà không cắt giấc ngủ, điều trị y tế hoặc trách nhiệm thiết yếu.
+    Những nguồn đang được dẫn không ấn định một thời lượng chung cho mọi cư sĩ trong lộ trình của sách. Năm, mười lăm, ba mươi hoặc sáu mươi phút là các gợi ý theo hoàn cảnh, không phải định mức chứng quả.
+
+    Chọn mức không lấn ngủ nghỉ, điều trị hay bổn phận thiết yếu. Dấu hiệu bất ổn cần được xử lý theo Chương 9, không chỉ rút bớt vài phút rồi cố tiếp. Sau thời gian nghỉ vì sức khỏe, không tự động khởi động lại trước khi đã có hướng dẫn phù hợp.
 
     #v(5pt)
-    #source-badge("BIÊN SOẠN", refs: [khung thực hành])
+    #source-badge("BIÊN SOẠN", refs: [Chương 1; Chương 8; Chương 9])
   ],
 )
 
@@ -188,10 +192,12 @@
   "faq-nguoi-thay",
   [12\. Có cần một người thầy?],
   [
-    Bạn có thể học những bước căn bản từ văn bản đáng tin. Tuy nhiên, K02 đặt việc thân cận người chân chánh và nghe Chánh pháp trong các yếu tố đưa đến Nhập lưu. Khi tăng cường độ, nhập thất hoặc gặp trải nghiệm khó hiểu, phản hồi từ người có giới hạnh, kinh nghiệm và biết giới hạn của mình trở nên đặc biệt quan trọng.
+    SN 55.50 đặt thân cận người chân chánh và nghe Chánh pháp trong các yếu tố đưa đến Nhập lưu. Bạn có thể học bước căn bản từ văn bản, nhưng việc được hỏi và sửa bởi người có giới hạnh, hiểu biết là điều cần được chăm sóc.
+
+    Khi tăng cường độ hoặc gặp khó khăn, phản hồi phù hợp càng quan trọng. Chương 8 nêu những điều cần hỏi về năng lực, giới hạn, quyền từ chối và rời khóa. Đây là hướng dẫn chọn người hỗ trợ của sách; danh tiếng không tự chứng minh phẩm chất, và nhận hỗ trợ không có nghĩa giao quyền quyết định sức khỏe cho một người ngoài chuyên môn.
 
     #v(5pt)
-    #source-badge("KINH", refs: [K02])
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu K02; Chương 8; Chương 9])
   ],
 )
 
@@ -201,22 +207,15 @@
   "faq-kiet-su",
   [13\. Ba kiết sử đầu, năm hạ phần kiết sử và Sa-môn quả khác nhau thế nào?],
   [
-    Hãy tách hai bảng:
+    Hãy tách hai bảng. *Bảng kiết sử:* thân kiến, hoài nghi và giới cấm thủ là ba kiết sử đầu; thêm dục tham và sân thì đủ năm hạ phần. *Bảng quả:* Nhập lưu, Nhất lai, Bất lai và A-la-hán là bốn thành tựu, không phải bốn phương pháp riêng.
 
-    + *Bảng kiết sử:* cách nói chính xác hơn là *ba kiết sử đầu*, không phải một danh sách riêng tên “ba hạ phần”. Ba kiết sử ấy là thân kiến, hoài nghi và chấp thủ giới-tập tục. Cộng thêm dục tham và sân thì thành *năm hạ phần kiết sử*. Nói bằng công thức: *3 nằm trong 5; 5 = 3 + 2*.
-    + *Bảng quả:* Nhập lưu, Nhất lai, Bất lai và A-la-hán là bốn quả Sa-môn, tức bốn mốc kết quả của cùng Bát Chánh Đạo chứ không phải bốn phương pháp riêng.
+    Theo các công thức kinh: Nhập lưu đoạn ba kiết sử đầu; Nhất lai đoạn ba kiết sử ấy và làm mỏng tham, sân, si; Bất lai đoạn cả năm hạ phần; A-la-hán đoạn tận các lậu hoặc. MN 2 và DN 2 nêu dục, hữu và vô minh trong nhóm lậu hoặc đang được dùng. Đây là hệ phân tích khác với riêng năm hạ phần.
 
-    Quan hệ giữa hai bảng là: Nhập lưu đoạn ba kiết sử đầu nhưng chưa đoạn dục tham và sân, nên một bậc Nhập lưu vẫn có thể còn tham hoặc giận. Nhất lai đã đoạn ba kiết sử ấy và làm mỏng tham, sân, si. “Làm mỏng” không phải vài ngày tạm yên, nhưng cũng chưa phải đoạn dục tham và sân như ở Bất lai. Bất lai, còn gọi là Bất hoàn, đoạn đủ năm hạ phần kiết sử. A-la-hán đoạn tận các lậu hoặc. Trong MN 2 và DN 2, ba lậu hoặc được nêu ở đây là dục, hữu và vô minh; đây là một danh mục khác, rộng hơn việc chỉ đếm năm hạ phần kiết sử.
+    “Hôm nay không giận” chưa chứng minh sân đã đoạn tận. Một cơn sân cũng không tự bác bỏ Nhập lưu, vì sân không nằm trong ba kiết sử đầu; nhưng sân thực sự còn có mặt không phù hợp với tuyên bố đã đoạn tận sân. Trước khi kết luận, cần phân biệt ác ý với thọ khó chịu, phản ứng bảo vệ hoặc hành vi còn mơ hồ.
 
-    Vì vậy, “hôm nay tôi không giận” không chứng minh Bất lai; sự tạm lắng không đồng nghĩa một kiết sử đã mất khả năng trở lại. Ngược lại, một cơn giận cũng không tự nó bác bỏ Nhập lưu, vì sân không nằm trong ba kiết sử đầu.
-
-    Cuối cùng, *Kinh Sa-môn quả*, DN 2, là tên một bài kinh riêng. Bài kinh trình bày nhiều kết quả và một tiến trình huấn luyện rộng của đời sống xuất gia; nó không chỉ là bảng bốn tên ở trên.
+    *Kinh Sa-môn quả*, DN 2, là tên bài kinh về những kết quả có thể thấy và tiến trình huấn luyện của đời sống xuất gia; không chỉ là bảng bốn tên quả. Có thể đọc #link(<ba-kiet-su>)[ba kiết sử đầu ở Chương 10], rồi #link(<khung-354>)[khung 3–5–4] và #link(<bon-qua>)[bốn quả ở Chương 11]. Phần trả lời này giúp tra lại, không dùng để tự chấm quả.
 
     #v(5pt)
-
-    Nếu đây là lần đầu bạn gặp các thuật ngữ này, hãy đọc #link(<ba-kiet-su>)[phần giải thích ba kiết sử đầu ở chương 10], rồi mới mở #link(<khung-354>)[khung 3–5–4] và #link(<bon-qua>)[bốn quả] ở chương 11. Phần giải đáp này dùng để tìm lại ranh giới, không thay phần giải thích sâu.
-
-    #v(5pt)
-    #source-badge("KINH", refs: [K10; K11; K24; K32; K34; K40])
+    #source-badge("BIÊN SOẠN", refs: [đối chiếu K10; K11; K24; K32; K34; K36; K40])
   ],
 )
