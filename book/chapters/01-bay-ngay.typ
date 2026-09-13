@@ -3,125 +3,135 @@
 #chapter(
   [01],
   [Bảy ngày bắt đầu],
-  [Mục tiêu của tuần đầu không phải tạo một trạng thái đặc biệt. Mục tiêu là học cách nhận ra một đối tượng, nhận ra lúc tâm rời đối tượng, rồi trở về mà không tự trách.],
+  [Tuần đầu là dịp làm quen: nhận ra một đối tượng, nhận ra lúc tâm đã rời đối tượng, rồi trở về. Bạn không cần tạo một trạng thái đặc biệt hay giữ tâm đứng yên suốt buổi.],
   provenance: [
     #source-badge("MAHĀSI", refs: [P01])
     #h(4pt)
-    #source-badge("BIÊN SOẠN", refs: [lịch và thời lượng])
+    #source-badge("BIÊN SOẠN", refs: [lịch, thời lượng và cách thu gọn])
   ],
 )
 
 == Trước buổi đầu tiên <buoi-dau>
 
 #practice-card(
-  [Quy ước tối thiểu],
+  [Bắt đầu với một nhịp vừa sức],
   [
-    Chọn một giờ và một chỗ tương đối cố định. Dùng đồng hồ hẹn giờ. Ngồi trên gối hoặc ghế, miễn thân vững và không phải chịu đau có nguy cơ gây chấn thương. Phần cốt lõi của mỗi ngày là mười lăm phút ngồi; không cần tăng dần trong tuần. Nếu mười lăm phút chưa thực tế, giữ năm phút mỗi ngày trong trọn tuần. Buổi kế tiếp giữ nguyên thời lượng quen thuộc; buổi bỏ lỡ không cần bù. Mốc năm phút là *gợi ý của người biên soạn* giúp bạn giữ thói quen bền vững giữa đời sống bận rộn; đó không phải thời lượng tối ưu hay một mốc được kinh điển ấn định.
+    Chọn một giờ và một chỗ tương đối thuận tiện. Có thể dùng đồng hồ hẹn giờ, ngồi trên gối hoặc ghế, để thân vững mà không phải chịu đau. Sách đề nghị mười lăm phút ngồi mỗi ngày. Nếu mức ấy chưa phù hợp, dùng năm phút trong trọn tuần; các thẻ ghi mười lăm phút dưới đây cũng được hiểu theo mức năm phút bạn đã chọn.
+
+    Buổi kế tiếp giữ thời lượng quen thuộc, buổi bỏ lỡ không cần bù. Năm và mười lăm phút là gợi ý tạo thói quen của người biên soạn, không phải thời lượng tối ưu, yêu cầu trong kinh hay mốc bảo đảm thành tựu.
   ],
   label: [THỰC HÀNH · BIÊN SOẠN THEO P01],
 )
 
 #caution(
-  [Nếu chuyển động bụng không rõ],
+  [Nếu chuyển động bụng chưa rõ],
   [
-    Giữ bụng là đối tượng chính ban đầu trong tuần đầu, nhưng không ép nó phải hiện ra bằng sức căng. Thả lỏng thân và thử lại trong khoảng hai đến ba phút. Một mẹo nhỏ cho người mới: đặt nhẹ lòng bàn tay lên bụng trong ba hơi thở đầu để cảm nhận sự nâng lên, hạ xuống tự nhiên mà không cần dùng sức, rồi buông tay ra và trở lại biết bằng chú ý. Nếu chuyển động vẫn rất mờ, dùng cảm giác hơi thở ở mũi cho phần còn lại của buổi đó. Giữ nguyên một điểm tựa đến hết buổi thay vì đổi qua đổi lại. Nếu chú ý hơi thở ở mũi làm tăng hoảng sợ, tức ngực, chóng mặt hoặc cảm giác xa lạ với bản thân hay thực tại, đừng cố giữ điểm tựa ấy. Hãy dừng buổi ngồi và dùng bài tiếp đất ở #link(<an-toan>)[chương 9]. An toàn luôn quan trọng hơn việc cố giữ nguyên một điểm tựa. Mốc hai đến ba phút, mẹo đặt tay và cách chuyển điểm tựa là gợi ý thực hành do người biên soạn đề xuất để người mới không bị mắc kẹt; kinh điển không ấn định mốc này.
+    Thở tự nhiên, không cố làm bụng phồng mạnh hơn. Có thể đặt nhẹ bàn tay lên bụng để làm quen với chuyển động rồi buông tay; P01 có gợi ý dùng bàn tay khi chưa nhận rõ. Nếu sau khoảng hai đến ba phút thả lỏng vẫn khó biết bụng, chuyển sang nhận biết thân đang ngồi và một chỗ tiếp xúc rõ, như thân với mặt ghế. Dùng chỗ ấy làm điểm trở về cho phần còn lại của buổi, không liên tục đổi đối tượng để tìm cảm giác tốt hơn.
+
+    P01 có hướng dẫn “ngồi” và “xúc chạm” khi bụng không rõ. Việc chỉ chọn một điểm tiếp xúc, mốc hai đến ba phút và giữ điểm ấy đến hết buổi là cách sách thu gọn cho tuần đầu. Nếu việc chú ý vào thân làm tăng hoảng sợ, chóng mặt hay cảm giác xa lạ với bản thân hoặc thực tại, hãy dừng và dùng bài tiếp đất ở #link(<an-toan>)[Chương 9]. An toàn luôn được đặt trước việc giữ đề mục.
   ],
 )
 
 #caution(
-  [Dừng buổi và đọc chương an toàn],
+  [Khi cần dừng và tìm hỗ trợ],
   [
-    Nếu việc hành đi kèm hoảng sợ lặp lại, mất ngủ tăng dần, cảm giác xa lạ với bản thân hay thực tại, hoặc suy giảm rõ khả năng làm việc và sinh hoạt, hãy dừng buổi hiện tại và đừng tăng cường độ. Đọc #link(<an-toan>)[chương 9] trước khi tiếp tục. Khi triệu chứng mạnh, kéo dài hoặc có nguy cơ gây hại, tìm hỗ trợ y tế phù hợp thay vì tự gọi đó là một tầng tuệ. Nếu có nguy cơ tự hại cấp thời, bỏ lịch bảy ngày, tìm trợ giúp khẩn cấp theo chương 9 và đừng ở một mình. Nếu có thôi thúc làm hại người khác, hoặc mất liên hệ với thực tế và hành vi trở nên nguy hiểm, gọi trợ giúp khẩn cấp và ưu tiên an toàn của mọi người; đừng yêu cầu một người không được huấn luyện ở cạnh nếu việc đó có thể đặt họ vào nguy hiểm.
+    Nếu thực hành đi kèm hoảng sợ lặp lại, mất ngủ tăng dần, cảm giác xa lạ với bản thân hay thực tại hoặc suy giảm rõ sinh hoạt, hãy dừng buổi hiện tại, không tăng cường độ và đọc #link(<an-toan>)[Chương 9]. Dấu hiệu mạnh, kéo dài hoặc tăng lên cần được đánh giá phù hợp, không vội gọi là một tầng tuệ.
+
+    Nếu có nguy cơ tự hại tức thời, tìm trợ giúp khẩn cấp theo Chương 9 và đừng ở một mình. Nếu có nguy cơ làm hại người khác hoặc mất liên hệ thực tế kèm hành vi nguy hiểm, gọi trợ giúp khẩn cấp và bảo vệ mọi người; không yêu cầu người chưa được huấn luyện ở cạnh khi điều đó đặt họ vào nguy hiểm.
   ],
 )
 
 #modern-note([
-  Bạn không cần thuộc một danh sách nhãn trước khi ngồi. “Phồng”, “xẹp” và “nghĩ” đã đủ cho Ngày 1. Khi cần tra nhanh một từ cho thân, thọ, tâm hoặc ý định, hãy mở #link(<nhan-tham-chieu>)[Phụ lục B]. Nhãn chỉ để hỗ trợ nhận biết; đừng để nhãn chạy trước kinh nghiệm.
+  Bạn không cần thuộc danh sách nhãn trước khi ngồi. “Phồng”, “xẹp”, “nghĩ” có thể đủ để bắt đầu; khi chọn điểm tiếp xúc, dùng “ngồi” hoặc “chạm”. #link(<nhan-tham-chieu>)[Phụ lục B] giúp tra thêm. Chỉ dùng nhãn sau khi nhận ra hiện tượng, không đoán cảm giác để khớp với một từ.
 ])
 
-#source-line("BIÊN SOẠN", [lịch bảy ngày dựa trên P01], [Mười lăm phút ngồi mỗi ngày là đề nghị tạo thói quen cho người tại gia. Từ ngày 3, người đọc có thể thêm một đoạn thiền hành ngắn nếu còn thời gian và thân tâm ổn. Phần thêm hoàn toàn tùy chọn, không phải bậc thang tiến bộ và không cần bù vào ngày khác. P01 không ấn định lịch bảy ngày hay các thời lượng này.])
+#source-line("BIÊN SOẠN", [lịch bảy ngày dựa trên P01], [
+  Thời lượng được giữ nguyên trong tuần. Từ Ngày 3 có thể thêm thiền hành ngắn nếu thuận tiện và thân tâm ổn. Phần thêm hoàn toàn tùy chọn; P01 không quy định lịch bảy ngày hay những thời lượng này.
+])
 
-Các ngày dưới đây không phải một cuộc leo thang để chứng minh sức bền. Mười lăm phút ngồi được giữ nguyên để người mới không phải vừa học kỹ năng vừa thích nghi với thời lượng tăng. Mỗi ngày chỉ thêm một trọng tâm chính. Thiền hành và những phút thêm là phần tự chọn; bỏ phần ấy không có nghĩa tụt lại.
+Mỗi ngày giới thiệu một điều để làm quen. Có thể dành thêm vài ngày cho một nội dung trước khi đọc tiếp; không có yêu cầu phải tiến kịp lịch. Nếu đã chọn năm phút, tiếp tục năm phút ở tất cả các ngày. Việc chú ý đến giấc ngủ, sức khỏe và bổn phận cũng thuộc cách giữ nhịp thực hành vừa sức.
 
-Nhịp của tuần là: học một điểm trở về, biết điều gì vừa chen vào, thêm chuyển động, nhận ra ý định, đưa sự biết rõ vào việc thường ngày, nhìn trạng thái tâm, rồi rà lại toàn tuần. Mỗi ngày giữ phần đã học và chỉ thêm một lớp mới.
+#day-card([1], [Làm quen với phồng và xẹp], [15 phút ngồi, hoặc mức 5 phút đã chọn], [Ngồi vững, thở tự nhiên. Cảm nhận chuyển động bụng, có thể nhận biết “phồng”, “xẹp” trong tâm mà không đọc thành tiếng hay tụng chữ. Khi nhận ra đang nghĩ, biết “nghĩ” rồi trở về. Nếu bụng chưa rõ, dùng cách ngồi và xúc chạm đã nêu ở trên.])
 
-#day-card([1], [Làm quen với phồng và xẹp], [15 phút ngồi], [Ngồi yên, thở tự nhiên. Cảm nhận chuyển động ở bụng. Khi bụng mở ra, nhận biết trong tâm “phồng”; khi bụng thu lại, nhận biết “xẹp”. Không đọc thành tiếng hay tụng chữ. Tâm đi đâu, chỉ cần nhận ra “nghĩ” rồi trở về.])
+#day-card([2], [Biết điều đang nổi bật], [Giữ thời lượng đã chọn], [Giữ một điểm trở về. Khi suy nghĩ, âm thanh hoặc cảm giác khác chi phối sự chú ý, nhận biết hiện tượng ấy bằng một nhãn ngắn nếu hữu ích. Khi nó không còn nổi bật, trở về. Cảm giác nhẹ ở hậu cảnh không nhất thiết cần được gọi tên; đau hoặc nguy cơ cần xử lý thì hành động trước.])
 
-#day-card([2], [Biết đối tượng nổi bật], [15 phút ngồi], [Giữ phồng xẹp làm điểm trở về. Khi đau, âm thanh hoặc suy nghĩ rõ hơn, biết hiện tượng ấy bằng một nhãn ngắn, trung tính. Khi nó lắng, trở về bụng.])
+#day-card([3], [Làm quen với thiền hành], [Giữ buổi ngồi, tùy chọn 5 phút đi], [Chọn đoạn đường bằng phẳng, an toàn. Ban đầu, biết từng bước trái, phải hoặc hai phần nhấc và đặt. Khi đủ rõ mới thử “nhấc, đưa, hạ”, không cần làm đủ ba pha ngay. Giữ mắt mở và chú ý đường đi. Cuối đường, biết mình dừng và quay. Không thêm phần đi vẫn đúng với lịch đã chọn.])
 
-#day-card([3], [Thử thiền hành], [15 phút ngồi · tùy chọn 5 phút đi], [Giữ nguyên buổi ngồi mười lăm phút như ngày 2. Nếu còn thời gian và thân tâm ổn, có thể đi thêm năm phút trên một đoạn thẳng ngắn. Biết ba pha “nhấc, đưa, hạ”. Không nhìn chằm chằm vào chân. Khi đến cuối đường, biết mình đứng và quay. Không thêm phần đi cũng hoàn toàn đúng lịch.])
+#day-card([4], [Nhận ra ý định], [Giữ thời lượng đã chọn], [Trước cử động có chủ ý như gãi hoặc đổi chân, thử nhận ra ý muốn khi nó hiện rõ. Nếu nhận ra muộn, biết cử động đang có, không dựng lại ý định bằng tưởng tượng. Khi có nguy hiểm hoặc cần giảm đau, xử lý ngay, không chờ ghi nhận đủ. Thiền hành ngắn vẫn tùy chọn.])
 
-#day-card([4], [Nhận ra ý định], [15 phút ngồi · tùy chọn 5 phút đi], [Trong buổi ngồi mười lăm phút, trước một cử động có chủ ý như gãi hoặc đổi chân, thử nhận ra ý muốn. Nếu không thấy kịp, đừng dựng lại trong tưởng tượng. Chỉ tiếp tục biết cử động đang xảy ra. Có thể giữ năm phút thiền hành của ngày 3 nếu thấy hữu ích; không cần kéo dài hơn.])
+#day-card([5], [Đưa niệm vào một việc thường ngày], [Giữ buổi ngồi, chọn một việc ngắn], [Ngoài buổi ngồi, chọn rửa tay, đánh răng hoặc một việc quen thuộc ở nơi an toàn. Làm với tốc độ phù hợp, biết các động tác và cảm giác chính; không cần đọc tên mọi chi tiết. Không áp dụng việc chú ý hẹp vào thân khi lái xe, qua đường hay xử lý công việc nguy hiểm.])
 
-#day-card([5], [Đưa niệm vào một việc thường ngày], [15 phút ngồi · một việc ngắn trong ngày], [Giữ nguyên buổi ngồi mười lăm phút. Ngoài buổi ngồi, chọn một hoạt động như đánh răng hoặc rửa tay. Làm ở tốc độ bình thường, hoặc chậm hơn vừa đủ để biết các động tác và cảm giác chính. Không cần đọc tên mọi chi tiết. Đây là chỗ đem điều đã tập vào đời sống, không phải một buổi thiền phải cộng thêm phút.])
+#day-card([6], [Nhận ra trạng thái tâm], [Giữ thời lượng đã chọn], [Một lần khi thuận tiện, hỏi: “Tâm đang có gì rõ nhất?” Có thể nhận ra muốn tìm dục lạc, bực bội, buồn ngủ, bồn chồn hoặc phân vân. Chưa rõ thì biết là chưa rõ. Chương 6 sẽ giải thích triền cái; một lần mệt hay một câu hỏi thận trọng chưa đủ để gán chắc một triền cái. Giữ phần thực hành vừa sức, không cần học thuộc các tên ngay.])
 
-#day-card([6], [Thấy trạng thái tâm], [15 phút ngồi · tùy chọn 5 phút đi], [Giữ nguyên buổi ngồi mười lăm phút. Một lần trong ngày, dừng lại và hỏi: “Tâm đang kéo tới điều dễ chịu (tham dục), muốn đẩy điều khó chịu (sân), nặng và mờ (hôn trầm-thụy miên), chao động hay day dứt (trạo cử-hối), hoặc chưa biết nên tin và đi theo hướng nào (hoài nghi)?” Chỉ nhận ra trạng thái rõ nhất; nếu chưa rõ, biết “chưa rõ” rồi tiếp tục công việc. Các tên trong ngoặc để nhận mặt, chưa cần học thuộc. Thiền hành năm phút vẫn là phần tùy chọn.])
-
-#day-card([7], [Giữ mạch và nhìn lại], [15 phút ngồi · tùy chọn 5 phút đi], [Giữ nguyên buổi ngồi mười lăm phút. Nếu muốn, đi thêm năm phút như các ngày trước. Cuối ngày, ghi ba dòng: đã hành bao lâu; trở ngại chính; một điều đã thấy trực tiếp. Không ghi mình đang ở tầng tuệ nào. Việc nhìn lại nhằm chọn nhịp có thể duy trì, không phải thưởng cho việc tăng thời lượng.])
+#day-card([7], [Giữ nhịp và nhìn lại], [Giữ thời lượng đã chọn], [Cuối ngày, ghi ba điều: đã thực hành bao lâu; trở ngại chính; một điều thực sự nhận ra. Có thể ghi thêm tác động lên ngủ nghỉ và sinh hoạt nếu có. Chưa cần đặt tên tầng tuệ. Việc nhìn lại giúp chọn nhịp có thể duy trì, không thưởng cho tăng thời lượng.])
 
 == Thế nào là “làm đúng” trong tuần đầu?
 
-#source-line("MAHĀSI", [P01], [Điểm cốt lõi là biết chuyển động chính, biết hiện tượng xen vào khi nó nổi bật, rồi trở về đối tượng căn bản. Nhãn chỉ hỗ trợ nhận biết; nó không thay thế cảm giác thực.])
+#source-line("MAHĀSI", [P01], [
+  P01 dạy biết đối tượng căn bản, ghi nhận hiện tượng khác khi nó chi phối, rồi trở về. Nhãn hỗ trợ nhận biết; nó không thay thế hiện tượng được quan sát.
+])
 
 #v(8pt)
 
-#source-line("BIÊN SOẠN", [thử nghiệm thói quen], [Một tuần đủ để kiểm tra tính khả thi của giờ, chỗ và thời lượng. Nó không đủ để kết luận kỹ thuật hợp hay không hợp với toàn bộ con đường tu của một người.])
+#source-line("BIÊN SOẠN", [thử nhịp thực hành], [
+  Một tuần có thể bắt đầu cho thấy giờ, chỗ và thời lượng nào thuận tiện. Khoảng ấy không bảo đảm đủ để kết luận một phương pháp phù hợp hay không phù hợp với toàn bộ con đường tu của một người.
+])
 
-Nói gọn, “làm đúng” trong tuần đầu chỉ gồm ba việc: biết đối tượng đang có, biết lúc đã rời nó, rồi trở về. Tâm không cần đứng yên liên tục. Khoảnh khắc nhận ra mình vừa phóng đi đã là một phần của bài tập.
+Ở mức làm quen, hãy chú ý ba việc: biết đối tượng, nhận ra tâm đã rời nó và trở về. Có thể nhận ra muộn nhiều lần; lần nhận ra ấy vẫn là nơi bắt đầu lại. Điều này không có nghĩa đã thực hành đầy đủ chánh niệm theo kinh hay đạt một mức định nào.
 
-== Ba lỗi cần sửa ngay
+== Ba điều thường cần điều chỉnh
 
-#check-row([Điều khiển hơi thở.], [Nếu bụng căng vì cố làm cho chuyển động rõ, hãy thả lỏng và để hơi thở tự vận hành.])
+#check-row([Cố điều khiển hơi thở.], [Nếu bụng căng vì muốn chuyển động rõ, thả lỏng và để hơi thở tự nhiên. Không cần đạt một kiểu thở mới.])
 #v(6pt)
-#check-row([Dùng nhãn để đè kinh nghiệm.], [Nhãn “đau” không có nhiệm vụ làm đau biến mất. Nó chỉ giúp tâm ở lại với điều đang được biết.])
+#check-row([Dùng nhãn để ép cảm giác đổi.], [Nhãn “đau” giúp nhận biết, không có nhiệm vụ làm đau biến mất. Khi cần đổi tư thế hoặc dừng, hãy làm.])
 #v(6pt)
-#check-row([Tự phán xét vì phóng tâm.], [Khoảnh khắc nhận ra đã nghĩ chính là khoảnh khắc chánh niệm trở lại. Không cần biến nó thành một thất bại.])
+#check-row([Tự trách vì phóng tâm.], [Nhận ra đang nghĩ rồi trở về. Không cần thêm câu “mình đã thất bại” vào điều vừa biết.])
 
 #v(10pt)
 
 #caution(
-  [Đau không phải một bài thi đạo đức],
+  [Không cần chịu đau để chứng minh tinh tấn],
   [
-    Cảm giác khó chịu có thể là đối tượng quán sát; đau sắc, tê lan, yếu chi hoặc đau tăng sau buổi ngồi có thể báo hiệu tư thế không phù hợp. Hãy đổi tư thế có ý thức. Không có chỉ dẫn nào trong Kinh Niệm xứ yêu cầu gây tổn thương thân để chứng minh tinh tấn.
+    Khó chịu nhẹ có thể được quan sát nếu bạn vẫn thấy an toàn. Đau sắc, tê lan, yếu chi hoặc đau tăng là lý do dừng tư thế gây đau và xem hướng dẫn ở Chương 9. Những dấu hiệu này không được mặc định là do tư thế hay là vô hại. Khi dấu hiệu mới, kéo dài hoặc đáng lo, tìm đánh giá y tế phù hợp; dấu hiệu cấp cứu cần trợ giúp khẩn cấp.
   ],
 )
 
 == Ngày 8 đến 30: giữ mạch, không vội tăng <ngay-8-30>
 
-#source-line("BIÊN SOẠN", [cầu nối tháng đầu, đối chiếu chương 7; chương 8; phụ lục A], [
-  Không nguồn kinh hay chỉ dẫn Mahāsi nào trong sách ấn định lịch ngày 8 đến ngày 30 dưới đây. Đây là cầu nối biên soạn giữa tuần đầu và lộ trình dài hơn: chỉ đổi một yếu tố mỗi lần, theo dõi tác động lên đời sống và để an toàn quyết định tốc độ.
+#source-line("BIÊN SOẠN", [cầu nối tháng đầu, đối chiếu Chương 7; Chương 8; Phụ lục A], [
+  Không nguồn kinh hay chỉ dẫn Mahāsi nào được dẫn trong sách ấn định lịch dưới đây. Đây là gợi ý: chỉ đổi một yếu tố mỗi lần, theo dõi tác động lên đời sống và ưu tiên an toàn. Không cần tăng chỉ vì lịch đã sang tuần mới.
 ])
 
 #practice-card(
-  [Mặc định cho hai mươi ba ngày tiếp theo],
+  [Gợi ý cho phần còn lại của tháng đầu],
   [
-    + *Ngày 8–14, giữ nguyên mức đã duy trì ổn.* Nếu tuần đầu chỉ giữ được năm phút, tiếp tục năm phút. Nếu mười lăm phút đã vừa sức, tiếp tục mười lăm phút. Ngồi thiền năm hoặc sáu ngày trong tuần; buổi bỏ lỡ không cần bù.
+    + *Ngày 8–14:* giữ mức đã phù hợp, năm hoặc mười lăm phút. Có thể chọn năm hay sáu ngày trong tuần; buổi bỏ lỡ không cần bù.
 
-    + *Ngày 15–21, chỉ đổi một yếu tố.* Nếu giấc ngủ, đau, công việc và quan hệ vẫn ổn, có thể thêm năm phút vào buổi ngồi *hoặc* thêm năm phút thiền hành. Không tăng cả hai trong cùng tuần. Nếu nền chưa ổn, giữ nguyên mức cũ.
+    + *Ngày 15–21:* khi giấc ngủ, thân thể và bổn phận vẫn ổn, có thể thêm năm phút vào buổi ngồi *hoặc* thêm năm phút đi. Không tăng cả hai cùng tuần. Chưa thuận thì giữ nguyên.
 
-    + *Ngày 22–30, giữ mức vừa chọn.* Đừng tiếp tục tăng chỉ vì đã sang tuần mới. Chọn đúng một #link(<bon-diem-neo>)[điểm neo trong đời sống] và dùng nó mỗi ngày. Cuối tuần, mở #link(<ra-soat-tuan>)[mẫu rà soát bảy ngày] để giữ một điều hữu ích và sửa một điều gây vướng.
+    + *Ngày 22–30:* giữ mức vừa chọn, dùng một #link(<bon-diem-neo>)[điểm neo trong đời sống] phù hợp. Cuối tuần, mở #link(<ra-soat-tuan>)[mẫu rà soát bảy ngày] để giữ điều hữu ích và sửa điều gây vướng.
 
-    Ngày 30 không phải kỳ thi buộc bạn phải đạt hai mươi hay ba mươi phút. Mục tiêu của tháng đầu là tìm được một nhịp có thể sống cùng, không phải chạy kịp con số của người khác.
+    Ngày 30 không phải kỳ thi về thời lượng. Những mốc này giúp thử nhịp sống cùng việc thực hành, không phải lịch phát triển tuệ.
   ],
   label: [CẦU NỐI THÁNG ĐẦU · BIÊN SOẠN],
 )
 
 == Khi nhịp bị gãy, quay lại thế nào <khoi-dong-lai>
 
-#source-line("BIÊN SOẠN", [quy tắc quay lại, đối chiếu mức tối thiểu và ngưỡng an toàn trong sách], [
-  Kinh và P01 không ấn định một số ngày nghỉ khiến người hành phải bắt đầu lại. Quy tắc dưới đây chỉ gom các quyết định đã dùng trong chương này thành một lối quay lại không bù giờ, không tự phạt và không tự động tiếp tục sau dấu hiệu nguy cơ.
+#source-line("BIÊN SOẠN", [quy tắc quay lại và ngưỡng an toàn], [
+  Kinh và P01 không ấn định một số ngày nghỉ khiến bạn buộc phải bắt đầu lại. Các gợi ý dưới đây giúp quay lại mà không bù giờ, tự phạt hoặc tự động tiếp tục sau dấu hiệu nguy cơ.
 ])
 
 #practice-card(
-  [Quay lại ở mức đã từng đứng vững],
+  [Quay lại ở mức đã từng phù hợp],
   [
-    + *Không bù.* Dù lỡ một buổi hay nghỉ lâu hơn vì công việc, gia đình hoặc bệnh thân thông thường, đừng cộng dồn số phút đã mất vào buổi kế tiếp.
+    + *Không bù.* Buổi lỡ vì công việc, gia đình hoặc bệnh không trở thành số phút phải trả vào hôm sau.
 
-    + *Trở về mức gần nhất từng ổn.* Nếu năm hay mười lăm phút từng vừa với giấc ngủ, thân thể và bổn phận, dùng lại mức ấy. Nếu chưa có mức nào rõ là ổn, dùng mức tối thiểu năm phút cùng một #link(<bon-diem-neo>)[điểm neo đời thường].
+    + *Trở về mức gần nhất từng ổn.* Nếu năm hay mười lăm phút từng phù hợp với ngủ nghỉ, thân thể và bổn phận, dùng lại mức ấy khi điều kiện cho phép. Chưa có mức ổn rõ ràng thì bắt đầu năm phút cùng một #link(<bon-diem-neo>)[điểm neo đời thường].
 
-    + *Giữ nguyên đến lần rà soát tuần kế tiếp.* Chưa tăng thời lượng chỉ vì buổi quay lại thấy dễ chịu. Đến lúc rà soát, dùng bốn quyết định ngay dưới đây để giữ, tăng, giảm hoặc tìm trợ giúp.
+    + *Giữ đến lần rà tuần kế tiếp.* Chưa tăng chỉ vì buổi quay lại dễ chịu. Dùng bốn quyết định dưới đây để điều chỉnh.
 
-    Nếu bạn đã dừng vì hoảng sợ lặp lại, mất ngủ tăng, cảm giác xa lạ với bản thân hay thực tại, khó phân biệt thực với không thực, hoặc suy giảm sinh hoạt, đừng tự động khởi động lại. Hãy dùng #link(<an-toan>)[ba mức phản ứng ở chương 9] và tìm hỗ trợ phù hợp trước.
+    Nếu đã dừng vì hoảng sợ lặp lại, mất ngủ tăng, cảm giác xa lạ với bản thân hay thực tại, khó phân biệt thực với không thực hoặc suy giảm sinh hoạt, đừng tự động khởi động lại. Dùng #link(<an-toan>)[ba mức phản ứng ở Chương 9] và tìm hỗ trợ phù hợp trước.
   ],
   label: [KHỞI ĐỘNG LẠI · BIÊN SOẠN],
 )
@@ -134,14 +144,14 @@ Nói gọn, “làm đúng” trong tuần đầu chỉ gồm ba việc: biết 
 
 == Bốn quyết định thay cho việc cố chịu
 
-#check-row([Giữ nguyên.], [Thời khóa còn vừa với giấc ngủ và bổn phận; đau không tăng; bạn có thể nhận ra phóng tâm rồi trở về. Không cần tăng để chứng minh tiến bộ.])
+#check-row([Giữ nguyên.], [Thời khóa vẫn hợp với ngủ nghỉ và bổn phận; không có dấu hiệu xấu đi. Không cần tăng để chứng minh tiến bộ.])
 #v(6pt)
-#check-row([Chỉ tăng năm phút.], [Giữ mức cũ thêm ít nhất một tuần đã ổn, rồi chọn tăng tọa hoặc hành. Nếu chất lượng đời sống giảm, quay lại mức trước.])
+#check-row([Có thể thêm năm phút.], [Sau ít nhất một tuần ổn ở mức cũ, chọn tăng ngồi hoặc đi nếu phù hợp. Đây là gợi ý, không phải yêu cầu. Tác động xấu thì giảm hoặc dừng theo Chương 9.])
 #v(6pt)
-#check-row([Giảm.], [Thời khóa bắt đầu lấy mất giấc ngủ, làm đau tăng, khiến công việc hay quan hệ xấu đi, hoặc tạo tâm thế săn tìm hiện tượng. Giảm về mức gần nhất từng ổn định.])
+#check-row([Giảm khi lịch chưa vừa sức.], [Nếu lịch lấn việc nghỉ ngơi hoặc bổn phận, giảm yêu cầu. Đau tăng, mất ngủ, hoảng sợ hay suy giảm chức năng cần dùng ngưỡng an toàn, không chỉ tự rút bớt vài phút rồi cố tiếp.])
 #v(6pt)
-#check-row([Dừng tăng và tìm trợ giúp.], [Hoảng sợ lặp lại, mất ngủ nặng dần, cảm giác tách rời mình hay thực tại, khó phân biệt thực với không thực, hoặc suy giảm rõ sinh hoạt. Dừng buổi hiện tại và dùng #link(<an-toan>)[chương 9] để chọn mức hỗ trợ.])
+#check-row([Dừng và tìm trợ giúp khi có dấu hiệu nguy cơ.], [Hoảng sợ lặp lại, mất ngủ nặng dần, cảm giác xa lạ với bản thân hoặc thực tại, khó phân biệt thực với không thực hay suy giảm rõ sinh hoạt: dừng buổi hiện tại và dùng #link(<an-toan>)[Chương 9] để chọn hỗ trợ.])
 
 #v(9pt)
 
-Ngày cuối tháng, dùng #link(<ra-soat-thang>)[bốn câu rà soát tháng]. Nếu nhịp đang ổn, đọc chương 8 trước khi tăng tiếp. Nếu chưa ổn, cứ lặp lại một tuần ở mức vừa sức. Đó là một điều chỉnh hợp lý, không phải thất bại. Thước đo gần nhất vẫn là tính đều đặn, giới và khả năng bớt làm hại; nó không phải tầng tuệ hay thánh quả.
+Cuối tháng, dùng #link(<ra-soat-thang>)[bốn câu rà soát tháng]. Có thể đọc Chương 8 trước khi tăng tiếp. Khi chưa thuận, giữ nhịp nhỏ hoặc điều chỉnh là việc hợp lý. Điều cần học vẫn là giữ giới, nhận biết và bớt gây hại, không phải có một câu trả lời về tầng tuệ của mình.
