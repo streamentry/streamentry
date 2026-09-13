@@ -39,13 +39,16 @@ jobs:
           git rev-parse HEAD > editorial-preview/source-commit.txt
           printf '%s\n' 'EDITORIAL PREVIEW ONLY. Not a published edition or external validation.' > editorial-preview/README.txt
           git archive --format=zip --output=editorial-preview/source.zip HEAD -- \
-            book scripts tests ci AGENTS.md SKILL.md EDITORIAL_POLICY.md README.md \
+            .github book scripts tests ci AGENTS.md SKILL.md EDITORIAL_POLICY.md README.md \
             con-duong-niem-xu-mahasi-hop-nhat.md
 
       - name: Set up Python
         uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
         with:
           python-version: "3.13"
+
+      - name: Install PDF inspection tools
+        run: brew install poppler
 
       - name: Install the existing pinned Typst and font toolchain
         env:
