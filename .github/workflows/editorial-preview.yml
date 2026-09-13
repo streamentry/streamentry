@@ -78,17 +78,24 @@ jobs:
           shasum -a 256 editorial-preview/*.pdf editorial-preview/*.epub > editorial-preview/SHA256SUMS.txt
 
       - name: Install pinned Python test dependencies
+        id: dependencies
         run: |
           python -m pip install --disable-pip-version-check --only-binary=:all: \
             --require-hashes --requirement ci/requirements.txt
 
-      - name: Run regression tests and static checks
+      - name: Run the complete regression suite
         run: |
           set -o pipefail
           python -m unittest discover -s tests -p 'test_*.py' 2>&1 | tee editorial-preview/tests.log
-          ruff check scripts tests
+
+      - name: Check syntax and lint independently
+        if: always() && steps.dependencies.outcome == 'success'
+        run: |
+          set -o pipefail
+          ruff check scripts tests 2>&1 | tee editorial-preview/lint.log
           python -m compileall -q scripts tests
           git diff --check
+          printf '%s\n' 'compileall and git diff --check passed' >> editorial-preview/lint.log
 
       - name: Save bounded preview evidence
         if: always()
