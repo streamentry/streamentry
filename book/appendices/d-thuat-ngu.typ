@@ -3,9 +3,9 @@
 #let term-card(pali, vietnamese, refs, body, kind: "BIÊN SOẠN") = practice-card(
   [#pali · #vietnamese],
   [
-    #body
-    #v(6pt)
     #source-badge(kind, refs: refs)
+    #v(4pt)
+    #body
   ],
   label: [THUẬT NGỮ PĀLI],
 )
@@ -203,6 +203,11 @@
 
 #term-card([khandha], [uẩn, nhóm hiện tượng], [K20; K35], [
   Năm uẩn là sắc, thọ, tưởng, hành và thức. Không phải năm vật tách biệt nằm trong người. Để hiểu thân kiến, cần xem bốn quan hệ giữa mỗi uẩn với tự ngã trong MN 44, không chỉ việc một cảm giác có đổi hay không.
+])
+#v(7pt)
+
+#term-card([pañcupādānakkhandhā], [năm thủ uẩn], [K53 · SN 22.48; K20 · MN 44], [
+  Năm uẩn hữu lậu, có thể bị chấp thủ. “Hữu lậu” chỉ sự liên hệ với lậu hoặc, những ô nhiễm ràng buộc tâm. Thuật ngữ không chỉ những lúc ta đang nhận thấy mình bám víu. MN 44 còn phân biệt các thủ uẩn với dục và tham đối với chúng; một phút bình tĩnh không tự chứng minh chấp thủ đã đoạn tận.
 ])
 #v(7pt)
 

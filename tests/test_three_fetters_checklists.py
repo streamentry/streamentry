@@ -66,7 +66,7 @@ class ThreeFettersChecklistTests(unittest.TestCase):
         declared = re.findall(r'#reference-item\(\s*\[(K\d{2})\]', self.sources)
         self.assertTrue(used <= set(declared), used - set(declared))
         self.assertEqual(len(declared), len(set(declared)))
-        self.assertIn('*K01–K52*', self.sources)
+        self.assertIn(f'*K01–K{max(int(code[1:]) for code in declared):02d}*', self.sources)
 
     def test_internal_links_resolve_and_new_anchors_are_unique(self) -> None:
         all_book = '\n'.join(p.read_text(encoding='utf-8') for p in (ROOT / 'book').rglob('*.typ'))

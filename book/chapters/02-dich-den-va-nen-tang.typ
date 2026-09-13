@@ -24,7 +24,7 @@ Sau những ngày đầu làm quen với việc ngồi, bạn có thể tự h�
 #modern-note([
   Để dễ theo dõi, *ái* có thể được hiểu gần nghĩa là sự khát khao, bám víu. *Dục ái* hướng đến các thú vui giác quan; *hữu ái* là khát khao hiện hữu; *phi hữu ái* là khát khao không hiện hữu. *Tái hữu* nói đến sự tiếp tục hiện hữu, không chỉ một tâm trạng lặp lại. Những từ này không đồng nghĩa với mọi mong muốn: ý muốn học, sửa sai hay làm điều thiện không vì mang tên “muốn” mà đều trở thành ái.
 
-  *Năm uẩn* là năm nhóm được kinh dùng để phân tích kinh nghiệm: sắc, phần vật chất; thọ, cảm nhận dễ chịu, khó chịu hay trung tính; tưởng, sự nhận ra và nhận dạng; hành, các hoạt động tạo tác của tâm; thức, sự nhận biết theo các cửa giác quan. “Năm thủ uẩn” nói đến năm nhóm ấy trong mối liên hệ với chấp thủ. Đây là cách giải thích ngắn để đọc tiếp; Chương 10 sẽ trở lại mối liên hệ giữa các uẩn, chấp thủ và thân kiến.
+  *Năm uẩn* là năm nhóm được kinh dùng để phân tích kinh nghiệm: sắc, phần vật chất; thọ, cảm nhận dễ chịu, khó chịu hay trung tính; tưởng, sự nhận ra và nhận dạng; hành, các hoạt động tạo tác của tâm; thức, sự nhận biết theo các cửa giác quan. “Năm thủ uẩn” nói đến các uẩn hữu lậu, có thể bị chấp thủ; “hữu lậu” nói đến sự liên hệ với lậu hoặc, những ô nhiễm ràng buộc tâm. Không nên thu thuật ngữ này thành riêng những lúc ta đang nhận ra mình bám víu. Đối chiếu SN 22.48 ở K53. Đây là cách giải thích ngắn để đọc tiếp; Chương 10 sẽ trở lại mối liên hệ giữa các uẩn, chấp thủ và thân kiến.
 ])
 
 #source-line("KINH", [K05 · SN 56.11:5–10], [
