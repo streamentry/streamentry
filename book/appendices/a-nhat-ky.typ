@@ -14,11 +14,11 @@
 = Nhật ký thực hành
 
 #text(font: fonts.sans, size: 9.5pt, fill: palette.muted)[
-  Ghi điều đã làm và điều đã thấy. Đừng dùng nhật ký để phong cho mình một tầng tuệ.
+  Ghi điều đã làm, điều đã nhận ra và việc cần điều chỉnh. Nhật ký giúp nhớ kinh nghiệm, không dùng để xác nhận tầng tuệ hoặc chấm giá trị của mình.
 ]
 
-#source-line("BIÊN SOẠN", [nhắc nghĩa từ chương 2], [
-  *Năm giới* trong mẫu này là tránh sát sinh, lấy của không cho, tà hạnh trong dục, nói dối và chất say gây phóng dật. Dòng kiểm không đòi một cảm giác “trong sạch”; nó hỏi hôm nay giới đã đi vào hành động cụ thể nào.
+#source-line("BIÊN SOẠN", [nhắc nghĩa từ Chương 2], [
+  *Năm giới* trong mẫu này là tránh sát sinh, lấy của không cho, tà hạnh trong dục, nói dối và chất say gây buông lung. Câu hỏi về giới hướng đến hành động cụ thể, không đòi một cảm giác “trong sạch”.
 ])
 
 #v(8mm)
@@ -43,44 +43,44 @@
     }
 
     #v(7pt)
-    #check-row([Năm giới.], [Hôm nay tôi nhớ và giữ giới bằng hành động cụ thể.])
+    #check-row([Năm giới.], [Hôm nay giới đã đi vào việc nào? Có điều gì cần sửa?])
     #v(5pt)
-    #check-row([Đề mục chính.], [Bụng, hơi thở ở mũi, bước chân hoặc đề mục do thầy chỉ.])
+    #check-row([Đề mục chính.], [Bụng, tư thế ngồi và xúc chạm, bước chân hoặc đề mục được hướng dẫn phù hợp.])
     #v(5pt)
-    #check-row([Biết lúc tâm đi xa.], [Tôi nhận ra phóng tâm và trở về mà không tự trách.])
+    #check-row([Nhận ra phóng tâm.], [Khi đã nhận ra, tôi trở về như thế nào?])
     #v(5pt)
-    #check-row([Đem niệm ra khỏi chỗ ngồi.], [Tôi đã biết rõ ít nhất một việc thường ngày.])
+    #check-row([Giấc ngủ và sinh hoạt.], [Có thay đổi đáng chú ý hay dấu hiệu cần dùng Chương 9 không?])
   ],
 )
 
 #v(8pt)
 
-*Trở ngại nổi bật nhất là gì? Tôi đã đáp lại thế nào?*
+*Trở ngại nổi bật là gì? Tôi đã đáp lại thế nào?*
 #writing-lines(count: 3)
 
 #v(7pt)
 
-*Một điều tôi trực tiếp nhận ra về thân, thọ, tâm hoặc pháp:*
+*Một điều tôi trực tiếp nhận ra; điều nào mới là suy đoán?*
 #writing-lines(count: 3)
 
 #v(7pt)
 
-*Một phản ứng trong đời sống mà tôi đã kịp thấy trước khi nói hoặc làm:*
+*Một phản ứng tôi nhận ra trước, trong hoặc sau khi nói hay làm; điều có thể sửa:*
 #writing-lines(count: 2)
 
 #pagebreak()
 
 == Nhìn lại sau bảy ngày <ra-soat-tuan>
 
-#check-row([Mạch thực hành.], [Tôi đã hành ........ trong 7 ngày. Không cộng thời gian để che một ngày đã bỏ.])
+#check-row([Nhịp thực hành.], [Tôi đã thực hành ........ ngày trong 7 ngày. Buổi bỏ lỡ không cần bù.])
 #v(6pt)
-#check-row([Tính khả thi.], [Giờ và chỗ hiện tại có phù hợp với công việc, giấc ngủ và gia đình không?])
+#check-row([Tính khả thi.], [Giờ và chỗ hiện tại có phù hợp với công việc, ngủ nghỉ và gia đình không?])
 #v(6pt)
-#check-row([Chất lượng chú ý.], [Tôi có nhận ra phóng tâm sớm hơn, dù chỉ đôi lần không?])
+#check-row([Chú ý.], [Có điều gì tôi nhận ra rõ hơn? Khi nhận ra muộn, tôi đã trở về hoặc sửa ra sao?])
 #v(6pt)
-#check-row([Đời sống đạo đức.], [Có giới nào đang sứt mẻ và cần một hành động sửa chữa rõ ràng không?])
+#check-row([Giới và trách nhiệm.], [Có hành vi nào cần được dừng hoặc sửa bằng một việc cụ thể không?])
 #v(6pt)
-#check-row([Quan hệ.], [Tôi có bớt phản ứng máy móc với người gần mình không?])
+#check-row([Quan hệ.], [Tôi có lắng nghe người gần mình và giữ những bổn phận cần thiết không?])
 
 #v(8pt)
 
@@ -96,17 +96,17 @@
   label: [RÀ SOÁT TUẦN],
 )
 
-Tuần bị đứt? Ghi quyết định theo #link(<khoi-dong-lai>)[lối khởi động lại ở chương 1], không lập lịch bù. Nếu đã dừng vì dấu hiệu nguy cơ, dùng #link(<an-toan>)[chương 9] trước khi quyết định tiếp tục.
+Nếu nhịp đã ngắt, dùng #link(<khoi-dong-lai>)[lối khởi động lại ở Chương 1]. Đã dừng vì dấu hiệu nguy cơ thì đọc #link(<an-toan>)[Chương 9] và tìm hỗ trợ phù hợp trước khi tiếp tục; không dùng nhật ký để tự cho phép tăng cường độ.
 
 == Nhìn lại cuối tháng <ra-soat-thang>
 
 #practice-card(
   [Bốn câu hỏi có ích],
   [
-    + Tôi có giữ được thời khóa thực tế, không lấy mất giấc ngủ hay bổn phận gia đình không?
-    + Triền cái nào lặp lại nhiều nhất? Điều kiện nào thường đi trước nó?
-    + Giới, lời nói và cách cư xử có thay đổi theo hướng ít gây hại hơn không?
-    + Tôi cần tiếp tục, giảm cường độ, đổi tư thế hay xin hướng dẫn ở điểm nào?
+    + Thời khóa có phù hợp với giấc ngủ, sức khỏe và bổn phận không?
+    + Trở ngại nào thường lặp lại, điều kiện nào đi trước? Chưa xác định được triền cái thì giữ mô tả bằng lời thường.
+    + Giới, lời nói và cách cư xử có chuyển theo hướng ít gây hại hơn không?
+    + Tôi cần giữ, giảm, dừng hoặc xin hướng dẫn ở điểm nào?
   ],
   label: [RÀ SOÁT THÁNG],
 )
@@ -114,12 +114,12 @@ Tuần bị đứt? Ghi quyết định theo #link(<khoi-dong-lai>)[lối khởi
 #v(8pt)
 
 #caution(
-  [Không ghi “tôi đã đắc”],
+  [Giữ trải nghiệm riêng với kết luận về đạo quả],
   [
-    Nhật ký dễ biến kinh nghiệm thoáng qua thành một câu chuyện chắc chắn. Hãy mô tả cụ thể: cảm giác gì, kéo dài bao lâu, ảnh hưởng ra sao, giới và hành vi có đổi không. Các phẩm chất của bậc Nhập lưu trong K03 không phải bảng điểm để tự chứng nhận sau một buổi thiền.
+    Có thể ghi cảm giác, hoàn cảnh, thời lượng và tác động lên sinh hoạt. Nếu có một cách giải thích, hãy ghi riêng đó là điều đang suy ra, không phải điều đã trực tiếp biết. Các phẩm chất Nhập lưu trong K03 không phải bảng điểm để tự chứng nhận sau một buổi thiền. Ghi chép cũng không thay thế đánh giá sức khỏe khi có dấu hiệu cần trợ giúp.
   ],
 )
 
 #v(8pt)
 
-#source-line("BIÊN SOẠN", [mẫu theo dõi], [Nhật ký này đo tính đều đặn, điều kiện thực hành và tác động lên đời sống. Nó không phải một phương tiện chẩn đoán đạo quả.])
+#source-line("BIÊN SOẠN", [mẫu theo dõi], [Nhật ký hỗ trợ nhìn lại điều kiện và hành vi. Nó không chẩn đoán đạo quả hoặc bệnh lý; một ngày chưa thuận không làm mất khả năng trở lại và sửa điều cần sửa.])
