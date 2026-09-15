@@ -125,6 +125,10 @@ Accuracy has priority over continuity with the source. Keep early Pāli discours
 - `scripts/external_review_packet.py`, `scripts/external_review_packet_content.py`, and `scripts/external_review_packet_archive.py`: committed-source collection, canonical packet content, deterministic ZIP writing, and self-validation.
 - `scripts/release_evidence.py`, `scripts/release_pdf.py`, and `scripts/release_epub.py`: fail-closed evidence-table, per-page PDF, and fixed-publication EPUB contracts. The EPUB verifier independently rejects broken or unlabelled content links and unsafe external-link schemes.
 - `.github/workflows/publication-ci.yml`: read-only publication CI with SHA-pinned actions and checksum-pinned downloaded tools for deterministic rebuilds, tests, EPUBCheck, DAISY Ace, and forced-profile veraPDF PDF/UA-1 validation.
+- `scripts/build-web.py`: separate static-site consumer of the same Typst source. It compiles `book/main.typ` to HTML with the pinned Typst, normalizes it through the EPUB builder's contract, and splits it into clean URLs with a hierarchical sidebar, in-page table of contents, client-side search index, pager, and light/dark themes. It adds no edition metadata or locale policy and never replaces the PDF/EPUB pipeline.
+- `web/`: site sources consumed by `scripts/build-web.py`; `site.css` holds the editorial design system and `site.js` the theme, drawer, search, and scroll behaviour.
+- `.github/workflows/pages.yml`: builds the site from the Typst source and deploys it to GitHub Pages through the Actions artifact route. The repository's Pages source must be set to **GitHub Actions**; generated output stays under the ignored `build/web`.
+- `tests/test_build_web.py`: helper regression coverage plus a full-build test that verifies generated pages, resolved internal links, the six source badges, and the safety and rights statements.
 - `scripts/verapdf_validation.py` and `scripts/verify-verapdf.py`: pinned veraPDF installer contract plus fail-closed JSON, version, artifact, profile, rule, check, and batch validation.
 - `ci/`: pinned Python and Node dependency contracts used only by publication CI.
 - `scripts/score-beginner-pilot.py`: manifest-only first-five gate scoring with artifact and contract binding.
@@ -169,8 +173,17 @@ Build from the workspace root:
 ```sh
 python3 scripts/build-epub.py
 python3 scripts/verify_release.py
+python3 scripts/build-web.py --output build/web
 python3 scripts/build-external-review-packet.py
 ```
+
+The reading site is a second consumer of the same Typst source, never a fork of
+it. It reuses the EPUB builder's normalization contract and reads every edition
+or locale value through `book/edition.json`; it introduces no independent
+metadata and adds no reader-facing doctrinal claim. A website build failing must
+never block or alter the PDF/EPUB pipeline, and a published page must never
+imply that rights, doctrinal review, safety review, or novice validation have
+closed.
 
 Under the pinned macOS 15 ARM64 publication CI tool and font environment, the canonical builder emits a byte-reproducible PDF/UA-1 candidate and synchronized reflowable EPUB. The platform is part of the reproducibility contract because official Typst builds on different operating systems need not emit identical bytes. Publication CI disables system-font discovery and supplies the official checksum-pinned Inter 4.0 files so a missing or substituted local font cannot silently change the release. Repeated visual cards must expose their visible titles as machine-readable names without inflating the heading outline or landmark list. veraPDF must be the exact version, URL, and checksum declared by `scripts/verapdf_validation.py`, must be forced to `ua1`, and must return a normal, compliant, zero-failure report bound to the current PDF. Treat veraPDF, EPUBCheck, DAISY Ace, and browser accessibility-tree inspection as internal machine evidence; actual assistive-technology and reader-app use remain external gates.
 

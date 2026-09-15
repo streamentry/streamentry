@@ -6,6 +6,7 @@ Tên sách chỉ một hướng tu. Nó không hứa người đọc sẽ chứn
 
 ## Đọc sách và phân biệt các phiên bản
 
+- [Đọc trực tuyến, bản web có mục lục, tìm kiếm và chế độ tối](https://streamentry.github.io/streamentry/)
 - [Tải PDF trực tiếp, bố cục A5 cố định](https://raw.githubusercontent.com/streamentry/streamentry/main/dist/huong-den-nhap-luu.pdf)
 - [Tải EPUB 3 trực tiếp, chữ tự dàn theo màn hình](https://raw.githubusercontent.com/streamentry/streamentry/main/dist/huong-den-nhap-luu.epub)
 - [Hồ sơ và mã băm của cặp tệp đang nằm trong `dist`](book/references/release-evidence.md)
@@ -113,6 +114,17 @@ Các tệp được theo dõi:
 - [`dist/huong-den-nhap-luu.epub`](dist/huong-den-nhap-luu.epub)
 
 EPUB là bản reflowable: nó giữ nhãn nguồn, cảnh báo, thẻ thực hành, điều hướng, liên kết và tiếng Việt nhưng không giữ hình học trang A5.
+
+### Build trang web đọc
+
+Trang web là bản tiêu thụ khác của cùng một nguồn sự thật. Builder biên dịch `book/main.typ` sang HTML bằng đúng Typst đã ghim, chuẩn hóa qua hợp đồng dùng chung với EPUB, rồi tách thành từng trang đọc, mục lục phân cấp, mục lục trong trang, tìm kiếm và liên kết tải PDF/EPUB. Không có metadata hay chính sách locale riêng nào được thêm vào `book/`.
+
+```sh
+source venv/bin/activate
+python3 scripts/build-web.py --output build/web
+```
+
+Kết quả nằm trong `build/web` (đã bị bỏ qua bởi git). Workflow `.github/workflows/pages.yml` build lại trang web từ `book/` trên mỗi lần push vào `main` và phát hành qua GitHub Pages. Nguồn Pages phải được đặt thành **GitHub Actions**, không phải một thư mục nhánh. Bản web cũng là bản biên tập: nó không đóng cổng quyền, phản biện hay thử nghiệm độc giả nào.
 
 ### Xác minh ứng viên
 
