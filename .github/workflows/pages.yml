@@ -1,0 +1,105 @@
+name: Publish reading site
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/pages.yml"
+      - "book/**"
+      - "web/**"
+      - "scripts/build-web.py"
+      - "scripts/build-epub.py"
+      - "scripts/edition_contract.py"
+      - "scripts/edition_contract_validation.py"
+      - "con-duong-niem-xu-mahasi-hop-nhat.md"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  PYTHONUTF8: "1"
+  TYPST_IGNORE_SYSTEM_FONTS: "true"
+  TYPST_FONT_PATHS: ${{ github.workspace }}/build/ci-tools/inter/extras/otf
+
+jobs:
+  build:
+    name: Build static reading site
+    runs-on: macos-15
+    timeout-minutes: 20
+    steps:
+      - name: Check out the source of truth
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: "3.13"
+
+      - name: Install pinned Typst and Inter
+        env:
+          TYPST_SHA256: fe53838737abf93a774495952a1a797b4686e9c4a21c2d99b9fdf77f46cc3572
+          INTER_SHA256: ff970a5d4561a04f102a7cb781adbd6ac4e9b6c460914c7a101f15acb7f7d1a4
+        run: |
+          mkdir -p build/ci-tools
+          cd build/ci-tools
+
+          curl --fail --silent --show-error --location \
+            https://github.com/typst/typst/releases/download/v0.15.0/typst-aarch64-apple-darwin.tar.xz \
+            --output typst.tar.xz
+          printf '%s  %s\n' "$TYPST_SHA256" typst.tar.xz | shasum -a 256 --check
+          tar -xJf typst.tar.xz
+
+          curl --fail --silent --show-error --location \
+            https://github.com/rsms/inter/releases/download/v4.0/Inter-4.0.zip \
+            --output inter.zip
+          printf '%s  %s\n' "$INTER_SHA256" inter.zip | shasum -a 256 --check
+          unzip -q inter.zip -d inter
+
+          echo "$PWD" >> "$GITHUB_PATH"
+
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b
+
+      - name: Build the site from the Typst source
+        run: |
+          python3 scripts/build-web.py \
+            --output build/web \
+            --base-url "${{ steps.pages.outputs.base_url }}"
+
+      - name: Summarize the build
+        run: |
+          {
+            echo "### Reading site built"
+            echo
+            echo "- Base URL: ${{ steps.pages.outputs.base_url }}"
+            echo "- Pages: $(find build/web -name index.html | wc -l | tr -d ' ')"
+            echo "- Search entries: $(python3 -c 'import json;print(len(json.load(open("build/web/assets/search-index.json"))["entries"]))')"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload the Pages artifact
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa
+        with:
+          path: build/web
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy the artifact
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e
