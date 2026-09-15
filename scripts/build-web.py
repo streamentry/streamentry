@@ -47,6 +47,8 @@ CORRECTION_URL = (
     "?template=correction.yml"
 )
 REPO_RAW = "https://raw.githubusercontent.com/streamentry/streamentry/main"
+PALI_CANON_URL = "https://streamentry.github.io/kinh-tang-pali/"
+PALI_CANON_LABEL = "Cải tiến bản dịch Kinh tạng Pāli"
 
 
 @dataclass(frozen=True)
@@ -615,6 +617,10 @@ def render_footer(edition) -> str:
       <a href="{html_escape(CORRECTION_URL)}">Gửi góp ý hoặc sửa sai</a>
       <a href="https://github.com/streamentry/streamentry">Mã nguồn và bằng chứng</a>
     </div>
+    <div>
+      <p class="foot-head">Dự án liên quan</p>
+      <a href="{html_escape(PALI_CANON_URL)}" rel="noopener">{html_escape(PALI_CANON_LABEL)}</a>
+    </div>
   </div>
   <p class="foot-fine">
     Đây là bản biên tập, chưa được xác nhận độc lập. Kho chưa có giấy phép công khai;
@@ -873,6 +879,17 @@ def render_landing(units: list[Unit], nav: list[NavNode], edition, cover_size: t
   <h2 class="section-title">Sáu dấu nguồn</h2>
   <p class="section-lede">Mỗi nhận định gắn với một dấu nguồn. Dấu giữ cho lời kinh, lời giải thích về sau, chỉ dẫn thực hành và lời biên soạn không bị trộn thành một giọng.</p>
   <ul class="legend">{legend}</ul>
+</section>
+
+<section class="section related">
+  <h2 class="section-title">Dự án liên quan</h2>
+  <a class="related-card" href="{html_escape(PALI_CANON_URL)}" rel="noopener">
+    <span class="related-card-body">
+      <strong>{html_escape(PALI_CANON_LABEL)}</strong>
+      <span>Dự án cải tiến bản dịch và đối chiếu Kinh tạng Pāli.</span>
+    </span>
+    <span class="related-card-url">streamentry.github.io/kinh-tang-pali {ICO_ARROW_R}</span>
+  </a>
 </section>
 
 <section class="section boundary">

@@ -102,11 +102,13 @@ class WebBuildTests(unittest.TestCase):
             self.assertIn("115", landing)
             self.assertIn("correction.yml", landing)
             self.assertIn("chưa có giấy phép công khai", landing)
+            self.assertIn("https://streamentry.github.io/kinh-tang-pali/", landing)
 
             chapter = pages["chuong-01-bay-ngay-bat-dau/index.html"]
             self.assertIn("chapter-opener", chapter)
             self.assertIn("../assets/site.js", chapter)
             self.assertIn("data-base=\"../\"", chapter)
+            self.assertIn("https://streamentry.github.io/kinh-tang-pali/", chapter)
 
             index = (output / "assets" / "search-index.json").read_text(encoding="utf-8")
             self.assertIn('"entries"', index)
