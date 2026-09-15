@@ -65,7 +65,12 @@ jobs:
           printf '%s  %s\n' "$INTER_SHA256" inter.zip | shasum -a 256 --check
           unzip -q inter.zip -d inter
 
-          echo "$PWD" >> "$GITHUB_PATH"
+          printf '%s\n' \
+            "$GITHUB_WORKSPACE/build/ci-tools/typst-aarch64-apple-darwin" \
+            >> "$GITHUB_PATH"
+
+      - name: Verify the pinned Typst toolchain
+        run: typst --version
 
       - name: Configure Pages
         id: pages
