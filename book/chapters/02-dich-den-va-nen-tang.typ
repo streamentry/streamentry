@@ -7,7 +7,7 @@
   provenance: source-badge("BIÊN SOẠN", refs: [đọc K05 · K06]),
 )
 
-Sau những ngày đầu làm quen với việc ngồi, bạn có thể tự hỏi: “Việc thực hành này hướng đến điều gì?”. Chương này trở lại những lời dạy nền tảng. Ta sẽ phân biệt đích đến với các điều kiện nâng đỡ việc tu, để một kinh nghiệm dễ chịu không bị hiểu thành thành tựu, và một buổi ngồi khó cũng không khiến mình vội nản lòng.
+Sau những ngày đầu làm quen với việc ngồi, bạn có thể tự hỏi: “Việc thực hành này hướng đến điều gì?”. Chương này trở lại những lời dạy nền tảng. Ta sẽ phân biệt đích đến với các điều kiện nâng đỡ việc tu, để một kinh nghiệm dễ chịu không bị hiểu lầm thành thành tựu, và một buổi ngồi khó cũng không khiến mình vội nản lòng.
 
 #source-line("KINH", [K05 · SN 56.11, diễn ý bốn nhiệm vụ], [
   Khổ cần được hiểu trọn vẹn; nguồn gốc của khổ cần được từ bỏ; sự chấm dứt khổ cần được chứng ngộ; con đường đưa đến chấm dứt khổ cần được tu tập.

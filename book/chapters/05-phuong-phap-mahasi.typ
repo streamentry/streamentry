@@ -205,7 +205,7 @@ Khi điều đó chưa rõ, chỉ ghi điều đã biết. Không cần dựng m
 ])
 
 #source-line("MAHĀSI", [P02 · phần tóm lược phương pháp; “The Purification of Mind”], [
-  P02 dùng sự phân biệt của luận giải khi trình bày phương pháp. Mahāsi giải thích định sát-na (sự định trong từng khoảnh khắc), sự quy tụ qua chuỗi ghi nhận tiếp nối, có thể làm nền cho tuệ khi triền cái không còn liên tục áp đảo, dù chưa tu thiền hấp thụ (các tầng thiền nhập định sâu) trước đó.
+  P02 dùng sự phân biệt của luận giải khi trình bày phương pháp. Mahāsi giải thích định sát-na (sự định trong từng khoảnh khắc) là sự quy tụ qua chuỗi ghi nhận tiếp nối. Cách định ấy có thể làm nền cho tuệ khi triền cái không còn liên tục áp đảo, dù chưa tu thiền hấp thụ (các tầng thiền nhập định sâu) trước đó.
 ])
 
 #modern-note([

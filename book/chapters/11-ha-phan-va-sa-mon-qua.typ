@@ -79,7 +79,7 @@ Sách đặt hai bài cạnh nhau để làm rõ quan hệ: thân kiến nắm c
 #practice-card(
   [Thấy vô ngã và đoạn thân kiến],
   [
-    Khi *thấy vô ngã* được dùng theo nghĩa thấy như thật bằng chánh tuệ rằng các uẩn không phải của tôi, tôi hay tự ngã của tôi, cách thấy ấy không tương hợp với việc vẫn nắm chúng bằng những quan hệ tự ngã của MN 44.
+    Khi *thấy vô ngã* được dùng theo nghĩa thấy như thật bằng chánh tuệ — rằng các uẩn không phải của tôi, tôi hay tự ngã của tôi — thì cách thấy ấy không tương hợp với việc vẫn nắm chúng bằng những quan hệ tự ngã của MN 44.
 
     Nhưng đồng ý bằng lời, thuộc một câu kệ hoặc có lúc mất cảm giác về bản thân chưa đồng nghĩa cái thấy ấy đã thành tựu. Chăm sóc thân và nhận trách nhiệm cũng không tự là thân kiến. Đoạn thân kiến còn khác đoạn ngã mạn “tôi là”, như SN 22.89 giúp phân biệt.
 
