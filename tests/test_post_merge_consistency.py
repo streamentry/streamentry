@@ -55,11 +55,17 @@ class PostMergeConsistencyTests(unittest.TestCase):
         self.assertIn("term-label: [THUẬT NGỮ TIẾNG ANH]", term)
         self.assertIn("label: term-label", text)
 
-    def test_download_gateway_does_not_claim_source_artifact_sync(self) -> None:
+    def test_download_gateway_bounds_what_the_artifact_checks_prove(self) -> None:
+        # The tracked artifacts are now a fresh internal rebuild of the current
+        # book, so the old "dist predates the source" wording no longer applies.
+        # The guard now requires the README to name the exact checks that ran
+        # and to keep the not-independently-validated boundary.
         text = read("README.md")
         section = text.split("## Đọc sách và phân biệt các phiên bản", 1)[1]
         section = section.split("## Nếu bạn mới bắt đầu", 1)[0]
-        self.assertIn("chưa bao gồm toàn bộ sửa đổi mới trong mã nguồn", section)
+        self.assertIn("dựng lại nội bộ từ `book/`", section)
+        self.assertIn("kiểm tra định dạng đã ghim", section)
+        self.assertIn("chưa phải bản được xác nhận độc lập", section)
         self.assertNotIn("đã vượt kiểm tra nội bộ", section)
 
     def test_new_claims_have_direct_sources_and_preserve_c93_urls(self) -> None:
