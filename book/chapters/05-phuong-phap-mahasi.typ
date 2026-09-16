@@ -114,7 +114,7 @@ Danh sách cho thấy phạm vi của phương pháp, không yêu cầu bạn t�
 
 *Với âm thanh,* nếu tiếng chỉ ở hậu cảnh, không cần bỏ đối tượng chính. Khi tâm đã chuyển sang nghe, biết “nghe”. Nếu tiếng báo nguy hiểm hoặc người khác cần được giúp, hãy đáp ứng trước; không dùng quy tắc ghi nhận để bỏ qua hoàn cảnh.
 
-*Với cảm giác thân,* nhận biết nét đang rõ như căng, nóng, rung, ngứa hay đau. Khi cử động thông thường và an toàn cho phép, có thể biết ý muốn rồi cử động. Nhưng không phải chờ ý muốn hiện rõ mới được đổi tư thế gây đau.
+*Với cảm giác thân,* nhận biết nét đang rõ như căng, nóng, rung, ngứa hay đau. Khi việc cử động là bình thường và an toàn, có thể biết ý muốn rồi cử động. Nhưng không phải chờ ý muốn hiện rõ mới được đổi tư thế gây đau.
 
 *Với cảm xúc,* bắt đầu từ điều mình thực sự nhận ra: ngực co, thọ khó chịu, sự bực bội hoặc ý muốn nói. “Giận” có thể là nhãn ban đầu, không có nghĩa đã nhận biết đủ mọi thành phần của cảm xúc. Khi quá mạnh hoặc làm mất khả năng giữ an toàn, dùng Chương 9.
 
@@ -197,15 +197,15 @@ Khi điều đó chưa rõ, chỉ ghi điều đã biết. Không cần dựng m
 ])
 
 #source-line("KINH", [K16 · AN 4.170, lời Tôn giả Ānanda], [
-  Tôn giả Ānanda trình bày bốn trường hợp: quán đi sau chỉ, chỉ đi sau quán, chỉ và quán song hành, hoặc tâm bị dao động liên quan đến pháp rồi có lúc được an trú, lắng lại, quy nhất và định tĩnh. Trong các trường hợp ấy, bài kinh tiếp tục nói đến đạo sinh và việc tu tập đạo.
+  Tôn giả Ānanda trình bày bốn trường hợp: quán đi sau chỉ, chỉ đi sau quán, chỉ và quán song hành, hoặc tâm bị dao động liên quan đến pháp, rồi có lúc được an trú, lắng lại, quy nhất và định tĩnh. Trong các trường hợp ấy, bài kinh tiếp tục nói đến đạo sinh và việc tu tập đạo.
 ])
 
 #source-line("THANH TỊNH ĐẠO", [V01 · Vism XVIII.3, XVIII.5], [
-  Thanh Tịnh Đạo phân biệt người lấy chỉ làm cỗ xe với người lấy thuần quán làm cỗ xe. Đoạn XVIII.3 trình bày việc phân định các pháp liên hệ đến định sau khi xuất định; XVIII.5 đặt sự phân định bốn đại ở đầu cách thực hành của người lấy thuần quán làm cỗ xe.
+  Thanh Tịnh Đạo phân biệt người lấy chỉ làm cỗ xe (lấy định làm nền chính) với người lấy thuần quán làm cỗ xe (đi thẳng vào quán). Đoạn XVIII.3 trình bày việc phân định các pháp liên hệ đến định sau khi xuất định; XVIII.5 đặt sự phân định bốn đại ở đầu cách thực hành của người lấy thuần quán làm cỗ xe.
 ])
 
 #source-line("MAHĀSI", [P02 · phần tóm lược phương pháp; “The Purification of Mind”], [
-  P02 dùng sự phân biệt của luận giải khi trình bày phương pháp. Mahāsi giải thích định sát-na, sự quy tụ qua chuỗi ghi nhận tiếp nối, có thể làm nền cho tuệ khi triền cái không còn liên tục áp đảo, dù chưa tu thiền hấp thụ trước đó.
+  P02 dùng sự phân biệt của luận giải khi trình bày phương pháp. Mahāsi giải thích định sát-na (sự định trong từng khoảnh khắc), sự quy tụ qua chuỗi ghi nhận tiếp nối, có thể làm nền cho tuệ khi triền cái không còn liên tục áp đảo, dù chưa tu thiền hấp thụ (các tầng thiền nhập định sâu) trước đó.
 ])
 
 #modern-note([

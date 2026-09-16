@@ -130,7 +130,7 @@ Trong bài tập này, “hiểu” không có nghĩa ép mình hết buồn nga
   SN 56.11 nêu nguồn sinh khổ là *taṇhā*, tham ái đưa đến tái sinh, đi cùng thích thú và đắm trước, tìm sự vui thích chỗ này chỗ kia. Bài kinh kể ba loại: *kāma-taṇhā*, dục ái; *bhava-taṇhā*, hữu ái; và *vibhava-taṇhā*, phi hữu ái.
 ])
 
-Có thể đọc ba tên ấy như sau: dục ái là khát khao dục lạc; hữu ái là khát khao hiện hữu, tiếp tục tồn tại hay trở thành; phi hữu ái là khát khao không hiện hữu, tiêu mất. Những lời giải nghĩa ngắn này cần được giữ trong phạm vi giáo lý về ái và tái sinh, không chỉ thu lại thành tâm lý học về một ngày sống.
+Có thể đọc ba tên ấy như sau: dục ái là khát khao dục lạc; hữu ái là khát khao hiện hữu, tiếp tục tồn tại hay trở thành; phi hữu ái là khát khao không hiện hữu, tiêu mất. Những lời giải nghĩa ngắn này cần được giữ trong phạm vi giáo lý về ái và tái sinh, không nên thu hẹp chúng thành tâm lý học về một ngày sống.
 
 #source-line("KINH", [K44 · Iti 49], [
   Iti 49 phân biệt sự vui thích trong hiện hữu với việc chán ghét hiện hữu rồi vui thích trong ý tưởng tự ngã sẽ bị hủy diệt, không còn sau khi chết. Bài kinh đặt cả hai bên cạnh cách thấy điều đã sinh khởi đúng như nó đã sinh khởi, để hướng đến nhàm lìa, ly tham và đoạn diệt.
@@ -140,7 +140,7 @@ Có thể đọc ba tên ấy như sau: dục ái là khát khao dục lạc; h�
   Vì vậy, sách không dùng câu “muốn một cảm giác hoặc lời phê bình biến mất” làm định nghĩa đầy đủ của phi hữu ái. Một phản ứng như vậy có thể cần được xem xét về sân, sợ hãi, ái hoặc nhiều điều kiện cùng lúc. Mong chữa bệnh, rời nơi bị bạo hành hay kết thúc một việc gây hại không tự nó chứng minh có phi hữu ái. Các ví dụ đời thường giúp ta quan sát sự bám víu, không đủ để gán chắc một thuật ngữ cho mọi trường hợp.
 ])
 
-Tương tự, việc giữ chặt hình ảnh “tôi là người giỏi” là một ví dụ hữu ích để nhìn sự đồng hóa. Nhưng chỉ nghe câu ấy chưa đủ phân định đó là hữu ái, thân kiến, ngã mạn hay một phối hợp nhiều yếu tố. Khi dữ kiện chưa rõ, ta có thể nói giản dị: “Có nhu cầu bảo vệ hình ảnh của mình”, rồi xem nó đang đưa đến lời nói và hành động nào.
+Tương tự, việc giữ chặt hình ảnh “tôi là người giỏi” là một ví dụ hữu ích để nhìn sự đồng hóa. Nhưng chỉ nghe câu ấy chưa đủ phân định đó là hữu ái, thân kiến, ngã mạn hay một sự phối hợp của nhiều yếu tố. Khi dữ kiện chưa rõ, ta có thể nói giản dị: “Có nhu cầu bảo vệ hình ảnh của mình”, rồi xem nó đang đưa đến lời nói và hành động nào.
 
 === Buông ái không phải từ bỏ mọi mong muốn tốt lành
 

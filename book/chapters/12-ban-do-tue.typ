@@ -13,7 +13,7 @@
   ],
 )
 
-Cụm từ “mười sáu tuệ” không phải một bảng nguyên xi nằm trong kinh. Kinh đưa ra khung bảy thanh tịnh; Thanh Tịnh Đạo khai triển khung ấy bằng hệ thống luận giải; các cẩm nang và dòng thiền về sau sắp những tuệ quán thành danh mục có cách đếm hơi khác nhau. Nếu bạn mới đọc lần đầu, chỉ cần nhớ một việc: đây là bản đồ để hiểu ngôn ngữ truyền thống, không phải thước đo để tự chấm điểm trải nghiệm.
+Cụm từ “mười sáu tuệ” không phải một bảng có sẵn nguyên vẹn trong kinh. Kinh đưa ra khung bảy thanh tịnh; Thanh Tịnh Đạo khai triển khung ấy bằng hệ thống luận giải; các cẩm nang và dòng thiền về sau sắp những tuệ quán thành danh mục có cách đếm hơi khác nhau. Nếu bạn mới đọc lần đầu, chỉ cần nhớ một việc: đây là bản đồ để hiểu ngôn ngữ truyền thống, không phải thước đo để tự chấm điểm trải nghiệm.
 
 Đọc chương này chậm hơn các chương trước. Mục tiêu không phải thuộc lòng một danh sách dài, mà là biết mỗi tên đang muốn chỉ vùng nào của kinh nghiệm và tại sao truyền thống lại cần đến nó.
 

@@ -341,7 +341,7 @@ Các câu hỏi #link(<tu-soi-hoai-nghi>)[H1–H6 ở Phụ lục F] giúp phân
 
 === 3. Chấp thủ giới-tập tục: không phải bỏ giới
 
-Sīlabbataparāmāsa thường được dịch là giới cấm thủ, chấp thủ giới và nghi thức hoặc chấp vào giới-tập tục. MN 2 nêu tên nhưng không giải hết nghĩa ngay tại đoạn ấy. Vì giới hạnh vẫn nằm trong các phẩm chất của bậc Nhập lưu, không thể đọc việc đoạn kiết sử này thành từ bỏ đạo đức.
+Sīlabbataparāmāsa thường được dịch là giới cấm thủ, chấp thủ giới và nghi thức, hoặc chấp vào giới-tập tục. MN 2 nêu tên nhưng không giải hết nghĩa ngay tại đoạn ấy. Vì giới hạnh vẫn nằm trong các phẩm chất của bậc Nhập lưu, không thể đọc việc đoạn kiết sử này thành từ bỏ đạo đức.
 
 #source-line("KINH", [K38 · MN 57], [
   MN 57 trình bày người thực hiện hạnh chó hoặc hạnh bò và kết quả tương ứng, cùng tà kiến về việc nhờ giới, tập tục, khổ hạnh hay phạm hạnh ấy sẽ sinh làm trời. Đây là bối cảnh cụ thể của bài kinh.
@@ -445,7 +445,7 @@ Không cần đợi tự xác định quả vị mới được tiếp tục gi�
 ])
 
 #source-line("KINH", [K09 · SN 12.41; K21 · AN 10.92], [
-  Hai bài kinh đặt sự lắng dịu của năm hành vi gây sợ hãi, bốn phẩm chất Nhập lưu và trí thấy nguyên lý duyên khởi bên cạnh lời tự tuyên bố. Công thức Tăng trong các phẩm chất ấy nói đến cộng đồng Thánh đệ tử bốn đôi, tám hạng người.
+  Hai bài kinh đặt sự lắng dịu của năm hành vi gây sợ hãi và thù hận, bốn phẩm chất Nhập lưu và trí thấy nguyên lý duyên khởi bên cạnh lời tự tuyên bố. Công thức Tăng trong các phẩm chất ấy nói đến cộng đồng Thánh đệ tử bốn đôi, tám hạng người.
 ])
 
 Vì vậy, sách không nói “không ai có thể tự biết” như một mệnh đề thay lời kinh. Điều được cảnh báo là tự suy ra từ dữ kiện không đủ: cảm giác an ổn, lòng kính mến một người, điểm cao trên bảng hỏi hoặc một trải nghiệm khác thường. Khả năng tự tuyên bố trong kinh và sự thận trọng khi đánh giá một câu chuyện là hai việc khác nhau.

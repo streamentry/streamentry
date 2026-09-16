@@ -30,7 +30,7 @@ Bạn có thể nhớ ba phẩm chất bằng một câu hỏi thực tế: mìn
 #practice-card(
   [Một việc, bốn góc nhìn],
   [
-    Khi nghe một lời chê, bạn có thể nhận ra hàm siết và ngực nóng ở *thân*; sắc thái khó chịu ở *thọ*; tâm đang có sân ở *tâm*; rồi xét sân như một trở ngại cần hiểu điều kiện sinh khởi và cách từ bỏ ở *pháp*.
+    Khi nghe một lời chê, bạn có thể nhận ra hàm siết và ngực nóng ở *thân*; sắc thái khó chịu ở *thọ*; tâm đang có sân ở *tâm*; rồi xét sân như một trở ngại cần hiểu điều kiện sinh khởi và cách từ bỏ nó ở *pháp*.
 
     Đây là ví dụ của sách. Bốn góc nhìn không phải bốn bước bắt buộc nối tiếp nhau, cũng không đòi bạn phải phân tích mọi thứ cùng một lúc.
   ],
@@ -50,7 +50,7 @@ Bạn có thể nhớ ba phẩm chất bằng một câu hỏi thực tế: mìn
   [
     #source-badge("BIÊN SOẠN", refs: [đối chiếu K01])
     #v(5pt)
-    Nhận ra sân đang có mặt không có nghĩa là để sân quyết định lời nói. MN 10 còn nói đến việc từ bỏ triền cái và phát triển giác chi. Vì vậy, cách đọc của sách là: biết điều đang xảy ra để hiểu và tu tập, không phải để thờ ơ với việc gây hại.
+    Nhận ra sân đang có mặt không có nghĩa là để sân quyết định lời nói. MN 10 còn nói đến việc từ bỏ triền cái và phát triển giác chi (bảy phẩm chất dẫn đến giác ngộ). Vì vậy, cách đọc của sách là: biết điều đang xảy ra để hiểu và tu tập, không phải để thờ ơ với việc gây hại.
   ],
 )
 
@@ -91,7 +91,7 @@ MN 10 trình bày quán thân trước quán thọ, tâm và pháp. Sách đi th
 Thọ cho biết sắc thái dễ chịu hay khó chịu; quán tâm giúp nhận ra tâm đang ở trạng thái nào. Sự phân biệt này giúp ta không gọi mọi điều xảy ra bên trong bằng một chữ “cảm xúc”.
 
 #source-line("KINH", [K01 · MN 10, phần quán tâm], [
-  Bài kinh nêu việc biết tâm có tham hay không tham, có sân hay không sân, có si hay không si; tâm co rút hay tán loạn; tâm rộng lớn hay không rộng lớn; tâm còn có thể vượt hơn hay không; tâm có định hay không có định; tâm giải thoát hay chưa giải thoát.
+  Bài kinh nêu việc biết tâm có tham hay không tham, có sân hay không sân, có si hay không si; tâm co rút hay tán loạn; tâm rộng lớn hay không rộng lớn; tâm còn có gì cao hơn hay không; tâm có định hay không có định; tâm giải thoát hay chưa giải thoát.
 ])
 
 #modern-note([
