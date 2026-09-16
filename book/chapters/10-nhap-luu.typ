@@ -512,7 +512,7 @@ Nandā là ví dụ về mức Bất lai trong đoạn ấy, không phải một
 
 == Đi về phía dòng mà không hứa ngày đến
 
-Người tại gia có thể bắt đầu bằng những việc cần làm ngay: giữ giới, sửa lời nói và sinh kế, học Pháp có nguồn, tu tập tâm và tìm thiện hữu có thể giúp mình thấy điều còn nhầm. Gia đình và sức khỏe không phải trở ngại cần bất chấp để có một thành tích tâm linh; cách chăm sóc chúng cũng cần được đặt dưới ánh sáng của giới và trách nhiệm.
+Người tại gia có thể bắt đầu bằng những việc cần làm ngay: giữ giới, sửa lời nói và sinh kế, học Pháp có nguồn, tu tập tâm và tìm thiện hữu (bạn lành) có thể giúp mình thấy điều còn nhầm. Gia đình và sức khỏe không phải trở ngại cần bất chấp để có một thành tích tâm linh; cách chăm sóc chúng cũng cần được đặt dưới ánh sáng của giới và trách nhiệm.
 
 #source-line("BIÊN SOẠN", [giới hạn lời hứa, đối chiếu K01], [
   Sách không có căn cứ để hứa một người cụ thể sẽ chứng quả chỉ vì đã theo lịch bảy ngày, một năm hoặc một thời lượng nào. Điều này không phủ nhận lời dạy có điều kiện ở cuối MN 10 về thực hành niệm xứ. Chương 8 giải thích đoạn ấy; lịch làm quen do sách biên soạn không được coi là đã đáp ứng toàn bộ điều kiện của lời kinh.

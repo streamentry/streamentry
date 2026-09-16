@@ -40,7 +40,7 @@ Sau một thời gian thực hành đều và vừa sức, người ấy có th�
 
 Khi tính liên tục và độ rõ chín hơn, cảm giác có thể không còn hiện như vật đứng yên. Nó khởi, đổi rồi mất; việc biết nó cũng đổi. Có lúc tiến trình rất sáng, nhanh và trôi chảy; hỷ, nhẹ, ánh sáng hoặc niềm tin có thể đi kèm. Việc hành đúng không phải giữ những trạng thái ấy, mà biết luôn chúng và sự ưa thích chúng. Trong bản đồ, đây là vùng sinh-diệt. Ánh sáng hay sung sướng đứng riêng không xác nhận vùng ấy.
 
-Nếu mặt chấm dứt trở nên chi phối, người ấy có thể thấy rõ việc các cảm giác và lần biết liên tục tan. Các hành vì thế hiện như không có chỗ nương chắc; sợ, khổ lụy, bớt say mê hoặc muốn thoát có thể nổi lên. Nhưng cùng những chữ ấy cũng có thể mô tả hoảng loạn, trầm cảm, phân ly hoặc thiếu ngủ. Chỉ khi cách biết có một nền thực hành vững, lặp lại qua nhiều đối tượng, đi theo một chuyển tiếp hợp lý và không có cách giải thích khác hợp lý hơn, nhất là về sức khỏe và an toàn, khi ấy mới có thêm căn cứ để tạm xem trải nghiệm này thuộc vùng tan rã và bất toại nguyện, rồi đem trình lại với người hướng dẫn.
+Nếu mặt chấm dứt trở nên chi phối, người ấy có thể thấy rõ việc các cảm giác và lần biết liên tục tan. Các hành vì thế hiện như không có chỗ nương chắc; sợ, khổ lụy, bớt say mê hoặc muốn thoát có thể nổi lên. Nhưng cùng những chữ ấy cũng có thể mô tả hoảng loạn, trầm cảm, phân ly hoặc thiếu ngủ. Chỉ khi cách biết có một nền thực hành vững, lặp lại qua nhiều đối tượng, đi theo một chuyển tiếp hợp lý và không có cách giải thích khác hợp lý hơn, nhất là về sức khỏe và an toàn. Khi ấy mới có thêm căn cứ để tạm xem trải nghiệm này thuộc vùng tan rã và bất toại nguyện, rồi đem trình lại với người hướng dẫn.
 
 P02 tiếp tục mô tả rằng khi việc quán chín, sự chống cự có thể lắng và các hành được biết quân bình hơn. Người hành không làm ra xả bằng cách ép mình vô cảm. Họ tiếp tục biết dễ chịu, khó chịu, ý muốn giữ trạng thái và ý chờ một bước nhảy. Nếu quân bình chỉ là buồn ngủ, tê cảm xúc hoặc tách rời, đó không phải điều bản đồ muốn chỉ.
 
@@ -137,7 +137,7 @@ Nguồn có thể cho biết những biểu hiện nào thường đi kèm và c
 
 Người hành có thể chủ động vun điều kiện: giữ giới và an toàn, chọn đối tượng đủ rõ, nuôi sự liên tục vừa sức và cân bằng tinh tấn. Sự thay đổi trong cách biết không thể ra lệnh. Ta không thể quyết định “bây giờ chỉ thấy mặt tan”, “bây giờ phải sợ các hành” hay “bây giờ vào xả”. Nếu cố tạo đúng cảm giác, ta đang diễn theo bản đồ. Vì vậy, tên tầng chỉ nên xuất hiện sau khi điều thực sự được thấy đã được mô tả rõ.
 
-Vì vậy, “làm sao đạt tuệ sinh-diệt?” phải được đổi thành: “tôi đang vun điều kiện nào để thân-tâm được biết liên tục, trực tiếp, và tôi có nhận luôn sự ham thích ánh sáng hay hỷ không?” “Làm sao đạt xả?” phải được đổi thành: “tôi có đang tiếp tục biết cả dễ chịu lẫn khó chịu mà không thêm lực, giữ trạng thái hay chờ một cú nhảy không?”
+Vì vậy, “làm sao đạt tuệ sinh-diệt?” phải được đổi thành: “tôi đang vun điều kiện nào để thân-tâm được biết liên tục, trực tiếp, và tôi có nhận luôn sự ham thích ánh sáng hay hỷ không?”. Tương tự, “làm sao đạt xả?” phải được đổi thành: “tôi có đang tiếp tục biết cả dễ chịu lẫn khó chịu mà không thêm lực, giữ trạng thái hay chờ một cú nhảy không?”
 
 Bản đồ chỉ đúng khi nó đưa người đọc trở về việc quan sát. Nó sai chức năng ngay khi biến thành kịch bản để tái tạo cảm giác. Thay vì hỏi “làm sao lên tầng?”, hãy xem mình đang thiếu điều kiện nào, cách biết nào thật sự đang lặp lại và liệu mình có đang diễn theo bản đồ hay không. Đây là cầu nối thực hành do sách biên soạn từ P02, không phải bài kiểm tra chẩn đoán hay công thức làm một tuệ xuất hiện.
 
@@ -186,7 +186,7 @@ Một hiện tượng không đủ gọi tên tầng; một tầng không đủ 
 #caution(
   [Người mới không dùng chương này để tự chẩn đoán],
   [
-    Nếu bạn mới vài tuần hoặc vài tháng thực hành, phần mở đầu vừa đọc đã đủ: bản đồ đang xếp điều gì, bốn mức phân biệt ở đầu chương ra sao, vì sao chỉ có thể vun điều kiện và nên đọc chương theo ba lượt thế nào. Hãy dừng ở đây trước phần bảy thanh tịnh và quay về chương 1–11. Chỉ đọc tiếp như tài liệu tham chiếu khi thực hành đã đủ đều, biết ngưỡng an toàn và có người hướng dẫn đủ năng lực kiểm tra lại.
+    Nếu bạn mới vài tuần hoặc vài tháng thực hành, phần mở đầu vừa đọc đã đủ. Lúc này chỉ cần nắm: bản đồ đang xếp điều gì, bốn mức phân biệt ở đầu chương ra sao, vì sao chỉ có thể vun điều kiện, và nên đọc chương theo ba lượt thế nào. Hãy dừng ở đây trước phần bảy thanh tịnh và quay về chương 1–11. Chỉ đọc tiếp như tài liệu tham chiếu khi thực hành đã đủ đều, biết ngưỡng an toàn và có người hướng dẫn đủ năng lực kiểm tra lại.
   ],
 )
 
