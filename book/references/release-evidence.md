@@ -4,7 +4,7 @@ Checked: 2026-09-16
 
 ## Status
 
-**Internally built candidate; pinned hosted rebuild and format validators passed.** This record identifies the candidate by the exact artifact hashes below. A clean-checkout rebuild on the pinned macOS 15 ARM64 runner produced these exact bytes, and the pinned veraPDF, EPUBCheck and DAISY Ace runs passed on the exact PDF and EPUB (run `35113513524`). This remains an internal machine record: no independent doctrinal, clinical-safety, rights, beginner or reader-app evidence exists, and the open gates below are unchanged. Any terminal external evidence must name a frozen ancestor commit that contains those exact PDF and EPUB bytes; the evidence and an updated copy of this record may live in a later descendant commit without changing the tested artifact identity.
+**Internally built candidate; pinned hosted rebuild and format validators passed.** This record identifies the candidate by the exact artifact hashes below. A clean-checkout rebuild on the pinned macOS 15 ARM64 runner produced these exact bytes, and the pinned veraPDF, EPUBCheck and DAISY Ace runs passed on the exact PDF and EPUB (run `35120855499`). This remains an internal machine record: no independent doctrinal, clinical-safety, rights, beginner or reader-app evidence exists, and the open gates below are unchanged. Any terminal external evidence must name a frozen ancestor commit that contains those exact PDF and EPUB bytes; the evidence and an updated copy of this record may live in a later descendant commit without changing the tested artifact identity.
 
 - Candidate binding: **a frozen artifact commit containing the exact PDF and EPUB bytes below, plus any later descendant evidence commit**
 - Machine-readable external gate registry: [`external-release-gates.json`](external-release-gates.json)
@@ -21,12 +21,12 @@ Checked: 2026-09-16
 |---|---|
 | Edition contract SHA-256 | `29e49c70708fe84e9e04f09377919bc33041a126d790049d0b8d33e965cba492` |
 | Immutable source SHA-256 | `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440` |
-| PDF SHA-256 | `a371eda57f96f0078ef8b8f31d1d1dfceea2eeb95ff6734923de52777bf52a09` |
-| EPUB SHA-256 | `e38ed4ae456f2e12c9e28952369c49aa8b24cb42dc30c44a0e74cd564fe679fd` |
+| PDF SHA-256 | `777c18d4c17f4abcab7bba836b8c471b37439ab8fccdd48ae8676fbd2e4a9aa6` |
+| EPUB SHA-256 | `3d9e3b90dc5a9055265a14c0c3ce2f909c893cb813826a3187cac1b717ff823e` |
 | PDF extent | 243 A5 pages |
-| PDF file size | 1,853,934 bytes |
+| PDF file size | 1,854,083 bytes |
 | EPUB navigation | 278 nested content entries plus 1 cover entry |
-| EPUB archive size | 251,713 bytes |
+| EPUB archive size | 251,771 bytes |
 | Publication credit | `CS Chánh Niệm (với sự hỗ trợ từ AI)` |
 
 Any content, theme, component, builder, metadata, or edition-contract change invalidates these hashes and requires this record to be regenerated.
@@ -55,12 +55,12 @@ The builder acknowledged 201 allowlisted Typst HTML-export warnings and rejected
 | Gate | Result | Exact boundary |
 |---|---|---|
 | Immutable manuscript hash | Pass | Matches the recorded source contract. |
-| Builder structural checks | Pass | Strict edition schema, XML, manifest, resources, contract-derived language and labels, accessibility metadata, navigation, every content-link label, every local-fragment link, every absolute HTTPS external link with distinct destination labels, and every repeated titled region (practice notes, caution notes, day groups, reference groups, decision groups, and concept groups). Every title binding and bounded `note`/`group` role resolves; the full Pháp Cú 178 cover quotation and attribution resolve through the canonical cover alternative text; the requested frontmatter trust block is absent from the content XHTML; the manuscript hash, required content, ZIP order, timestamp, and uncompressed mimetype also pass. The builder log and the uploaded EPUB are in run `35113513524`. |
+| Builder structural checks | Pass | Strict edition schema, XML, manifest, resources, contract-derived language and labels, accessibility metadata, navigation, every content-link label, every local-fragment link, every absolute HTTPS external link with distinct destination labels, and every repeated titled region (practice notes, caution notes, day groups, reference groups, decision groups, and concept groups). Every title binding and bounded `note`/`group` role resolves; the full Pháp Cú 178 cover quotation and attribution resolve through the canonical cover alternative text; the requested frontmatter trust block is absent from the content XHTML; the manuscript hash, required content, ZIP order, timestamp, and uncompressed mimetype also pass. The builder log and the uploaded EPUB are in run `35120855499`. |
 | Release-evidence verifier | Pass | Exact edition-contract, artifact, and source hashes plus byte sizes; contract-derived title, credit, and language; PDF tagging, suspects, JavaScript, encryption, metadata, and every page's size and rotation; the EPUB's single active package, fixed manifest and cover-then-book spine, passive XHTML, metadata, unique resolved TOC targets, labelled content links, distinct external-destination labels, safe external-link schemes, and separate content/cover counts reproduce from the committed files. |
 | Reader gateway | Pass internally | README presents the Vietnamese reader's PDF/EPUB choice, intended use, non-linear reading route, source model, safety boundary, public editorial policy, structured correction form, bounded external-review intake, candidate status and missing-rights warning before contributor build details. Chapter 99 repeats the correction and review-intake routes plus their privacy and non-evidence boundaries. All relative links resolve to tracked files. These surfaces copy no artifact counts, do not call public access a license, and do not claim a named accountable individual, response SLA, external validation or market leadership. |
-| veraPDF 1.30.2 PDF/UA-1 | Pass | The pinned hosted run returned 106 passed rules, 981,975 passed checks, 0 failed rules, and 0 failed checks under the forced `ua1` profile for the exact PDF bytes recorded above (run `35113513524`). This is machine evidence only; it does not cover the human checkpoints excluded from automated PDF/UA validation or interoperability with a named assistive-technology stack. |
-| EPUBCheck 5.3.0 | Pass | The pinned hosted run returned 0 fatal errors, 0 errors, 0 warnings, and 0 informational messages for the exact EPUB bytes recorded above (run `35113513524`). |
-| DAISY Ace 1.4.6 | Pass | The pinned hosted run inspected the exact EPUB bytes recorded above with Chrome for Testing 148.0.7778.97 and reported no issues in `nav.xhtml`, `cover.xhtml`, `book.xhtml` or `package.opf` (run `35113513524`). This is automated tooling, not a human reader-app smoke test. |
+| veraPDF 1.30.2 PDF/UA-1 | Pass | The pinned hosted run returned 106 passed rules, 982,199 passed checks, 0 failed rules, and 0 failed checks under the forced `ua1` profile for the exact PDF bytes recorded above (run `35120855499`). This is machine evidence only; it does not cover the human checkpoints excluded from automated PDF/UA validation or interoperability with a named assistive-technology stack. |
+| EPUBCheck 5.3.0 | Pass | The pinned hosted run returned 0 fatal errors, 0 errors, 0 warnings, and 0 informational messages for the exact EPUB bytes recorded above (run `35120855499`). |
+| DAISY Ace 1.4.6 | Pass | The pinned hosted run inspected the exact EPUB bytes recorded above with Chrome for Testing 148.0.7778.97 and reported no issues in `nav.xhtml`, `cover.xhtml`, `book.xhtml` or `package.opf` (run `35120855499`). This is automated tooling, not a human reader-app smoke test. |
 | Chromium accessibility tree | Not rerun for this candidate | No browser accessibility-tree inspection was made for these exact bytes. The builder independently enforces title/role bindings across every repeated titled region and verifies the full cover alternative text. This does not prove usability in a named screen reader or EPUB app. |
 | Narrow-screen reflow | Not rerun for this candidate | No fresh 390 × 844 px browser pass was made for these exact bytes. The builder still verifies XML structure, resolved navigation and target-aware card semantics, but those checks do not establish visual behavior in a named browser or reader app. |
 | Dark-mode automated contrast | Not rerun for this candidate | The prior candidate's 7.443:1 minimum is not transferred to this artefact. |

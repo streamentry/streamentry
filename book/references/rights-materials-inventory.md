@@ -21,8 +21,8 @@ của artifact. Danh tính byte dùng cho quyết định được ghi riêng d�
 ```text
 Rights materials inventory schema: 1
 Immutable manuscript SHA-256: `ad7a886895cf8cd29b369fda89de5665c96907d990f95dba8f028336bcbbd440`
-Candidate PDF SHA-256: `a371eda57f96f0078ef8b8f31d1d1dfceea2eeb95ff6734923de52777bf52a09`
-Candidate EPUB SHA-256: `e38ed4ae456f2e12c9e28952369c49aa8b24cb42dc30c44a0e74cd564fe679fd`
+Candidate PDF SHA-256: `777c18d4c17f4abcab7bba836b8c471b37439ab8fccdd48ae8676fbd2e4a9aa6`
+Candidate EPUB SHA-256: `3d9e3b90dc5a9055265a14c0c3ce2f909c893cb813826a3187cac1b717ff823e`
 ```
 
 `scripts/verify_release.py` từ chối bảng kê nếu một trong ba mã băm trên lệch
