@@ -73,8 +73,8 @@ class EditionContractTests(unittest.TestCase):
                 ),
                 "file_stem": "huong-den-nhap-luu",
                 "identifier_seed": "https://streamentry.local/huong-den-nhap-luu",
-                "epub_modified": "2026-08-22T00:00:00Z",
-                "pdf_creation_timestamp": "1787356800",
+                "epub_modified": "2026-09-16T00:00:00Z",
+                "pdf_creation_timestamp": "1789516800",
                 "source_path": "con-duong-niem-xu-mahasi-hop-nhat.md",
                 "source_sha256": (
                     "ad7a886895cf8cd29b369fda89de5665"
