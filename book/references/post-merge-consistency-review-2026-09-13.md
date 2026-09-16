@@ -1,5 +1,12 @@
 # Rà soát tính nhất quán sau merge, 13 tháng 9 năm 2026
 
+> Ghi chú lịch sử: đây là ảnh chụp của lượt rà soát ngày 13 tháng 9 năm 2026.
+> Mã băm, số trang và số byte ghi trong tài liệu thuộc ứng viên được dựng tại
+> thời điểm đó. Danh tính ứng viên hiện hành nằm ở
+> [`release-evidence.md`](release-evidence.md). `dist/` đã được dựng lại sau đó,
+> nên câu “chưa thay các tệp đang theo dõi trong `dist`” chỉ đúng với thời điểm
+> rà soát.
+
 ## Kết luận và phạm vi
 
 Đã hoàn tất lượt đọc và biên tập nội bộ sau PR #64, từ `main` tại `e28b9a7eca28f70d4fb1e386b73a66c2ca243daf`. Bản đọc thử mới có **243 trang PDF**, EPUB được dựng từ cùng nguồn. Các sửa đổi nằm trong [PR #66](https://github.com/streamentry/streamentry/pull/66), chưa nhập vào `main` và chưa thay các tệp đang theo dõi trong `dist`.

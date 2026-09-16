@@ -11,7 +11,7 @@ Tên sách chỉ một hướng tu. Nó không hứa người đọc sẽ chứn
 - [Tải EPUB 3 trực tiếp, chữ tự dàn theo màn hình](https://raw.githubusercontent.com/streamentry/streamentry/main/dist/huong-den-nhap-luu.epub)
 - [Hồ sơ và mã băm của cặp tệp đang nằm trong `dist`](book/references/release-evidence.md)
 
-**Trạng thái:** nội dung trong `book/` đã được biên tập sau cặp PDF/EPUB đang lưu ở `dist`. Hai liên kết tải phía trên chưa bao gồm toàn bộ sửa đổi mới trong mã nguồn. Đối chiếu [báo cáo rà soát sau merge](book/references/post-merge-consistency-review-2026-09-13.md) để biết phạm vi bản mới và kết quả dựng thử.
+**Trạng thái:** cặp PDF/EPUB trong `dist` là bản dựng lại nội bộ từ `book/` và đã qua bộ kiểm tra định dạng đã ghim: veraPDF PDF/UA-1, EPUBCheck và DAISY Ace. Mã băm của đúng cặp byte ấy nằm trong [hồ sơ phát hành](book/references/release-evidence.md). Đối chiếu [báo cáo rà soát sau merge](book/references/post-merge-consistency-review-2026-09-13.md) để biết phạm vi các lượt biên tập trước đó.
 
 Đây vẫn là bản biên tập, chưa phải bản được xác nhận độc lập. Một lần dựng thử thành công không có nghĩa toàn bộ kiểm tra phát hành hoặc khả năng tiếp cận đã đạt. Quyền tái phân phối, phản biện giáo lý, phản biện an toàn lâm sàng, thử nghiệm với năm độc giả mới, thử EPUB trên ứng dụng đọc thật và so sánh thị trường vẫn còn mở.
 
