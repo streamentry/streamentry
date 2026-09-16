@@ -22,9 +22,9 @@ Sau những ngày đầu làm quen với việc ngồi, bạn có thể tự h�
 ])
 
 #modern-note([
-  Để dễ theo dõi, *ái* có thể được hiểu gần nghĩa là sự khát khao, bám víu. *Dục ái* hướng đến các thú vui giác quan; *hữu ái* là khát khao hiện hữu; *phi hữu ái* là khát khao không hiện hữu. *Tái hữu* nói đến sự tiếp tục hiện hữu, không chỉ một tâm trạng lặp lại. Những từ này không đồng nghĩa với mọi mong muốn: ý muốn học, sửa sai hay làm điều thiện không vì mang tên “muốn” mà đều trở thành ái.
+  Để dễ theo dõi, *ái* có thể được hiểu gần nghĩa là sự khát khao, bám víu. *Dục ái* hướng đến các thú vui giác quan; *hữu ái* là khát khao hiện hữu; *phi hữu ái* là khát khao không hiện hữu. *Tái hữu* nói đến sự tiếp tục hiện hữu, không chỉ một tâm trạng lặp lại. Những từ này không đồng nghĩa với mọi mong muốn: ý muốn học, sửa sai hay làm điều thiện không phải vì mang tên “muốn” mà đều trở thành ái. *Đắm trước* là sự say mê, bám chặt vào đối tượng.
 
-  *Năm uẩn* là năm nhóm được kinh dùng để phân tích kinh nghiệm: sắc, phần vật chất; thọ, cảm nhận dễ chịu, khó chịu hay trung tính; tưởng, sự nhận ra và nhận dạng; hành, các hoạt động tạo tác của tâm; thức, sự nhận biết theo các cửa giác quan. “Năm thủ uẩn” nói đến các uẩn hữu lậu, có thể bị chấp thủ; “hữu lậu” nói đến sự liên hệ với lậu hoặc, những ô nhiễm ràng buộc tâm. Không nên thu thuật ngữ này thành riêng những lúc ta đang nhận ra mình bám víu. Đối chiếu SN 22.48 ở K53. Đây là cách giải thích ngắn để đọc tiếp; Chương 10 sẽ trở lại mối liên hệ giữa các uẩn, chấp thủ và thân kiến.
+  *Năm uẩn* là năm nhóm được kinh dùng để phân tích kinh nghiệm: sắc, phần vật chất; thọ, cảm nhận dễ chịu, khó chịu hay trung tính; tưởng, sự nhận ra và nhận dạng; hành, các hoạt động tạo tác của tâm; thức, sự nhận biết theo các cửa giác quan. “Năm thủ uẩn” nói đến các uẩn hữu lậu, có thể bị chấp thủ; “hữu lậu” nói đến sự liên hệ với lậu hoặc, những ô nhiễm ràng buộc tâm. Không nên thu hẹp thuật ngữ này thành riêng những lúc ta nhận ra mình đang bám víu. Đối chiếu SN 22.48 ở K53. Đây là cách giải thích ngắn để đọc tiếp; Chương 10 sẽ trở lại mối liên hệ giữa các uẩn, chấp thủ và thân kiến.
 ])
 
 #source-line("KINH", [K05 · SN 56.11:5–10], [
@@ -81,7 +81,7 @@ Tám tên gọi dưới đây chỉ những phần cần được học và tu t
   [
     Khi nhận lời phê bình, bạn có thể xem lại điều gì đúng, điều gì mình đang suy đoán và điều gì đang nuôi sự bực bội. Đó là một cách vận dụng hướng học của *chánh kiến*. Chọn không trả đũa liên hệ với *chánh tư duy*. Trả lời chân thật, không sỉ nhục liên hệ với *chánh ngữ*.
 
-    Không làm hại người hay chiếm đoạt của họ liên hệ với *chánh nghiệp*. Không kiếm lợi bằng lừa dối liên hệ với *chánh mạng*. Không nuôi tiếp sân, tập kiên nhẫn liên hệ với *chánh tinh tấn*. Nhớ hướng tu và nhận ra trạng thái đang có liên hệ với *chánh niệm*. Việc rèn tâm có định nâng đỡ khả năng không bị cuốn đi.
+    Không làm hại người hay chiếm đoạt của họ liên hệ với *chánh nghiệp*. Không kiếm lợi bằng lừa dối liên hệ với *chánh mạng*. Không nuôi tiếp sân, tập kiên nhẫn liên hệ với *chánh tinh tấn*. Nhớ hướng tu và nhận ra trạng thái đang có liên hệ với *chánh niệm*. Việc rèn tâm bằng định nâng đỡ khả năng không bị cuốn đi.
 
     Đây là ví dụ ứng dụng, không phải bằng chứng rằng một lần xử lý khéo đã thành tựu đủ tám chi. Đặc biệt, dừng lại vài giây không đồng nghĩa với thành tựu chánh định được trình bày bằng bốn thiền.
   ],
@@ -116,16 +116,16 @@ Bảng sau giúp chọn một việc để thực hành, không dùng để ch�
 
 == Nhập lưu được kinh mô tả thế nào?
 
-*Kiết sử* là những trói buộc giữ hữu tình trong luân hồi, không phải tên chung cho mọi thói quen chưa tốt. Phần dưới giới thiệu những nét chính; Chương 10 sẽ giải thích riêng ba kiết sử đầu.
+*Kiết sử* là những trói buộc khiến hữu tình còn lưu chuyển trong luân hồi, không phải tên chung cho mọi thói quen chưa tốt. Phần dưới giới thiệu những nét chính; Chương 10 sẽ giải thích riêng ba kiết sử đầu.
 
 #source-line("KINH", [K03 · SN 55.4; K08 · DN 16; K10 · AN 3.88; K24 · AN 10.13], [
-  Các bài kinh mô tả bậc Nhập lưu là người đã dứt ba kiết sử đầu: thân kiến, hoài nghi và giới cấm thủ. Vị ấy không còn bị đọa vào khổ cảnh, chắc chắn hướng đến giác ngộ. AN 3.88 nêu các loại người đã dứt ba kiết sử này, trong đó có loại còn lưu chuyển giữa người và trời nhiều nhất bảy lần trước khi chấm dứt khổ.
+  Các bài kinh mô tả bậc Nhập lưu là người đã dứt ba kiết sử đầu: thân kiến, hoài nghi và giới cấm thủ. Vị ấy không còn bị đọa vào khổ cảnh (những cảnh giới đau khổ), chắc chắn hướng đến giác ngộ. AN 3.88 nêu các loại người đã dứt ba kiết sử này, trong đó có loại còn lưu chuyển giữa người và trời nhiều nhất bảy lần trước khi chấm dứt khổ.
 ])
 
 #modern-note([
-  *Thân kiến* là cái thấy chấp các uẩn làm tự ngã; *hoài nghi* ở đây là sự nghi ngờ trói buộc đối với con đường, không đồng nghĩa với mọi câu hỏi cần tìm hiểu; *giới cấm thủ* là sự chấp thủ vào giới và thực hành như phương tiện thanh tịnh một cách sai lạc, không có nghĩa giữ giới là sai. Đây là lời giới thiệu ngắn, chưa thay phần giải thích ở Chương 10.
+  *Thân kiến* là cái thấy chấp các uẩn làm tự ngã; *hoài nghi* ở đây là sự nghi ngờ trói buộc đối với con đường, không đồng nghĩa với mọi câu hỏi cần tìm hiểu; *giới cấm thủ* là sự chấp thủ vào giới và cách thực hành như thể tự chúng đủ đem lại thanh tịnh, không có nghĩa giữ giới là sai. Đây là lời giới thiệu ngắn, chưa thay phần giải thích ở Chương 10.
 
-  Tái sinh và khổ cảnh ở trên được trình bày theo nội dung kinh điển. Chúng không phải một lịch hẹn do sách lập cho người đọc. Sách cũng không suy từ một căn tính xã hội, thời lượng tu hay cảm giác mạnh để kết luận ai đã chứng quả.
+  Tái sinh và khổ cảnh ở trên được trình bày theo nội dung kinh điển. Chúng không phải một lịch hẹn do sách lập cho người đọc. Sách cũng không suy từ thân phận xã hội, thời lượng tu hay cảm giác mạnh để kết luận ai đã chứng quả.
 ])
 
 #source-line("KINH", [K20 · MN 44, lời Tỷ-kheo-ni Dhammadinnā], [
@@ -145,7 +145,7 @@ Bảng sau giúp chọn một việc để thực hành, không dùng để ch�
 ])
 
 #source-line("KINH", [K21 · AN 10.92], [
-  AN 10.92 đặt cạnh nhau sự lắng yên của năm mối sợ hãi và thù hận liên hệ với năm hành vi gây hại, bốn phẩm chất nêu trên và sự thấy rõ pháp duyên khởi. Khi các điều kiện được bài kinh nêu đã đầy đủ, vị Thánh đệ tử có thể tự tuyên bố mình là bậc Nhập lưu.
+  AN 10.92 đặt cạnh nhau ba điều: sự lắng yên của năm mối sợ hãi và thù hận gắn với năm hành vi gây hại; bốn phẩm chất nêu trên; và sự thấy rõ pháp duyên khởi. Khi các điều kiện được bài kinh nêu đã đầy đủ, vị Thánh đệ tử có thể tự tuyên bố mình là bậc Nhập lưu.
 ])
 
 #caution(

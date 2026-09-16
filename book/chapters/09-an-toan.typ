@@ -169,7 +169,7 @@ Nếu có những dấu hiệu trên, đừng ngồi tiếp để thử “xuyê
 
 == Một quy trình hạ cường độ <ha-cuong-do>
 
-#source-line("Y TẾ & NGHIÊN CỨU", [R03], [Hướng dẫn tự trợ giúp về căng thẳng của WHO mô tả “grounding” bằng ba động tác: nhận ra ý nghĩ và cảm xúc đang có; chậm lại và kết nối với thân, chẳng hạn ấn chân xuống sàn; rồi chuyển chú ý về những gì đang thấy, nghe và chạm quanh mình. WHO nói rõ kỹ thuật này không nhằm xóa cảm xúc khó chịu. Nó giúp người thực hành kết nối lại với đời sống và không thay thế chăm sóc khẩn cấp hay điều trị.])
+#source-line("Y TẾ & NGHIÊN CỨU", [R03], [Hướng dẫn tự trợ giúp về căng thẳng của WHO mô tả cách “grounding” (neo lại với hiện tại) bằng ba động tác: nhận ra ý nghĩ và cảm xúc đang có; chậm lại và kết nối với thân, chẳng hạn ấn chân xuống sàn; rồi chuyển chú ý về những gì đang thấy, nghe và chạm quanh mình. WHO nói rõ kỹ thuật này không nhằm xóa cảm xúc khó chịu. Nó giúp người thực hành kết nối lại với đời sống và không thay thế chăm sóc khẩn cấp hay điều trị.])
 
 #v(8pt)
 

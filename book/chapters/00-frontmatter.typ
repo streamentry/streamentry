@@ -19,16 +19,16 @@
 
 #v(10mm)
 
-Có thể bạn tìm đến cuốn sách này vì muốn hiểu lời Phật hơn, muốn bớt bị những phản ứng quen thuộc kéo đi, hoặc muốn biết người tại gia có thể bắt đầu tu tập thế nào. Bạn không cần hiểu hết thuật ngữ trước khi mở trang đầu. Ta sẽ đi từ những việc gần: học giữ giới, nhận biết thân tâm và đem điều đã hiểu vào đời sống.
+Có thể bạn tìm đến cuốn sách này vì muốn hiểu lời Phật hơn, muốn bớt bị những phản ứng quen thuộc cuốn đi, hoặc muốn biết người tại gia có thể bắt đầu tu tập thế nào. Bạn không cần hiểu hết thuật ngữ trước khi mở trang đầu. Ta sẽ đi từ những việc gần: học giữ giới, nhận biết thân tâm và đem điều đã hiểu vào đời sống.
 
-Sách lấy các bài kinh trong kinh điển Pāli làm nền giáo lý, đồng thời giới thiệu cách thực hành Niệm xứ theo truyền thống Mahāsi. Phương pháp của một truyền thống, lời giải thích của người biên soạn và lời kinh được đặt riêng. Đây là sách hướng dẫn có tham khảo nguồn, không phải một bản kinh mới, cũng không coi mọi chỉ dẫn trong sách là lời Phật trực tiếp.
+Sách lấy các bài kinh trong kinh điển Pāli làm nền giáo lý, đồng thời giới thiệu cách thực hành Niệm xứ theo truyền thống Mahāsi. Phương pháp của một truyền thống, lời giải thích của người biên soạn và lời kinh được trình bày tách riêng. Đây là sách hướng dẫn có tham khảo nguồn, không phải một bản kinh mới, cũng không coi mọi chỉ dẫn trong sách là lời Phật trực tiếp.
 
 #source-line("BIÊN SOẠN", [ba cách hiểu để bắt đầu; đối chiếu K01 · P01 · K06], [
   *Niệm xứ* nói đến việc tu tập chánh niệm đối với thân, thọ, tâm và pháp. Để dễ theo dõi, bạn có thể tạm hiểu: nhận biết thân; nhận biết cảm thọ dễ chịu, khó chịu hay trung tính; nhận biết trạng thái tâm; và xem xét kinh nghiệm theo những nhóm pháp được bài kinh nêu.
 
   *Mahāsi* là một truyền thống thiền Theravāda hiện đại. Sách giới thiệu các chỉ dẫn về chuyển động bụng, ghi nhận trong tâm và thiền hành từ nguồn của truyền thống ấy. Chúng được phân biệt với nguyên văn Kinh Niệm xứ.
 
-  *Nhập lưu* là quả vị được kinh mô tả trong mối liên hệ với Bát Chánh Đạo và sự đoạn trừ ba kiết sử đầu. Đây không phải tên khác của một lúc yên tâm. Các chương sau sẽ giải thích từng phần; ở đây, chỉ cần biết hướng của cuốn sách.
+  *Nhập lưu* là quả vị (một thành quả tu tập) được kinh mô tả trong mối liên hệ với Bát Chánh Đạo và sự đoạn trừ ba kiết sử đầu (ba mối trói buộc đầu tiên). Đây không phải tên khác của một lúc yên tâm. Các chương sau sẽ giải thích từng phần; ở đây, chỉ cần biết hướng của cuốn sách.
 ])
 
 Tên sách là *Hướng Đến Nhập Lưu*. “Hướng đến” nói rõ phạm vi: cùng học lời dạy và những điều kiện nâng đỡ việc tu. Sách không ấn định ngày chứng quả, không lấy thời lượng ngồi làm thước đo thành tựu, và không xác nhận thánh quả từ một trải nghiệm được kể lại.
@@ -54,7 +54,7 @@ Bạn có thể đọc theo nhu cầu, không cần đi hết sách từ đầu 
     + *Tuần đầu:* mở Chương 1, đọc #link(<buoi-dau>)[“Trước buổi đầu tiên”], các hộp an toàn và thẻ Ngày 1. Có thể để #link(<nhan-tham-chieu>)[bảng nhãn ở Phụ lục B] bên cạnh. Nếu có dấu hiệu cảnh báo áp dụng cho mình, dừng ở đó và đọc #link(<an-toan>)[Chương 9] trước khi tiếp tục.
     + *Sau tuần đầu:* đọc Chương 2–7 và #link(<ngay-8-30>)[gợi ý ngày 8 đến ngày 30]. Khi muốn nối các ý đã học, dùng Chương 12 để ôn lại qua một tình huống đời thường.
     + *Trước khi tăng mạnh thời lượng, tập một mình dài ngày hoặc đi khóa:* đọc Chương 8–9, kiểm tra điều kiện sức khỏe, người hướng dẫn và quyền dừng hoặc rời khóa.
-    + *Khi muốn hiểu Nhập lưu:* đọc Chương 10–12. Thuật ngữ chưa rõ có thể được tra lại; không cần vội dùng chúng để nhận định sự chứng đắc của mình.
+    + *Khi muốn hiểu Nhập lưu:* đọc Chương 10–12. Thuật ngữ chưa rõ có thể được tra lại; không cần vội dùng chúng để tự nhận định mình đã chứng đắc hay chưa.
     + *Với Chương 13:* nên có nền thực hành và hướng dẫn phù hợp trước khi đọc sâu các phân loại. Trong tháng đầu, có thể đọc #link(<ban-do-tue-la-gi>)[“Bản đồ tuệ là gì?”] rồi để phần chi tiết lại sau. Đây là gợi ý cách dùng sách, không phải thời hạn trong kinh.
 
     #link(<faq>)[Phụ lục C] giải đáp các câu hỏi thường gặp. Nếu một chỉ dẫn xung đột với an toàn, giới hoặc bổn phận thiết yếu, hãy dừng và kiểm tra lại thay vì cố hoàn thành lịch.
@@ -67,7 +67,7 @@ Bạn có thể đọc theo nhu cầu, không cần đi hết sách từ đầu 
 Các dấu dưới đây giúp trả lời một câu hỏi: “Điều mình đang đọc đến từ đâu?”. Một đoạn lời kinh, một cách giải thích về sau và một bài tập do sách đặt ra có vai trò khác nhau. Sự gần nhau trên trang không làm chúng trở thành cùng một loại nguồn.
 
 #source-line("KINH", [kinh điển Pāli], [
-  Nội dung từ bài kinh được nêu rõ mã nguồn và ngữ cảnh, gồm những bài thuộc các bộ Nikāya và các tập Tiểu Bộ được dẫn. Trong kinh có lời của Đức Phật, lời của các vị đệ tử và phần kể chuyện. Dấu này không có nghĩa mọi câu đều do Đức Phật trực tiếp nói. Khi diễn ý, sách ghi đó là diễn ý; khi trích nguyên văn một bản dịch, cần giữ đúng lời và ghi tên dịch giả.
+  Nội dung từ bài kinh được nêu rõ mã nguồn và ngữ cảnh, gồm những bài thuộc các bộ Nikāya và một số bài thuộc Tiểu Bộ. Trong kinh có lời của Đức Phật, lời của các vị đệ tử và phần kể chuyện. Dấu này không có nghĩa mọi câu đều do Đức Phật trực tiếp nói. Khi diễn ý, sách ghi đó là diễn ý; khi trích nguyên văn một bản dịch, cần giữ đúng lời và ghi tên dịch giả.
 ])
 
 #v(7pt)
@@ -85,7 +85,7 @@ Các dấu dưới đây giúp trả lời một câu hỏi: “Điều mình đ
 #v(7pt)
 #source-line("BIÊN SOẠN", [giải thích và ứng dụng của sách], [Lời giải nghĩa gần gũi, ví dụ gia đình hoặc công việc, lịch thực hành, câu hỏi nhìn lại và hướng dẫn an toàn hiện đại. Những phần này giúp người đọc sử dụng sách, không được coi là lời dạy nguyên văn hoặc công thức bảo đảm chứng quả.])
 
-Các dấu nguồn không thay cho việc đọc kỹ. Khi một đoạn có cả nội dung kinh và ứng dụng mới, cần phân biệt hai phần. Chỗ nào còn nhiều cách hiểu cần được nói rõ, thay vì chọn cách dễ thuyết phục nhất rồi coi là kết luận chắc chắn.
+Các dấu nguồn không thay cho việc đọc kỹ. Khi một đoạn có cả nội dung kinh và ứng dụng mới, cần phân biệt hai phần. Ở chỗ còn nhiều cách hiểu, sách cần nói rõ điều đó, thay vì chọn cách dễ thuyết phục nhất rồi coi là kết luận chắc chắn.
 
 == Đọc AN, SN, MN, DN và các mã P01, P02 thế nào? <doc-ma-nguon>
 
@@ -121,7 +121,7 @@ Các dấu nguồn không thay cho việc đọc kỹ. Khi một đoạn có c�
 
 == Khi cần tìm lại bước kế tiếp
 
-Trong lúc thực hành, nếu chưa rõ nên tiếp tục với đối tượng đang biết, chuyển sang điều nổi bật, hành động ngay hay dừng, hãy mở #link(<ban-do-quyet-dinh>)[Bản đồ quyết định ở Phụ lục E]. Đây là thẻ nhắc của sách; lời giải thích đầy đủ nằm ở các chương liên quan.
+Trong lúc thực hành, có bốn lựa chọn: tiếp tục với đối tượng đang biết, chuyển sang điều nổi bật, hành động ngay, hoặc dừng. Nếu chưa rõ nên chọn cách nào, hãy mở #link(<ban-do-quyet-dinh>)[Bản đồ quyết định ở Phụ lục E]. Đây là thẻ nhắc của sách; lời giải thích đầy đủ nằm ở các chương liên quan.
 
 Khi trải nghiệm mạnh kéo dài, giấc ngủ xấu đi rõ, khả năng sinh hoạt giảm hoặc khó phân biệt thực tại, hãy dừng buổi hiện tại, không tiếp tục thực hành cường độ cao và tìm hỗ trợ theo #link(<ba-muc>)[Chương 9]. Không cần chờ biết tên trải nghiệm mới nhận hỗ trợ; cũng không cần xem việc dừng để chăm sóc mình là thất bại.
 

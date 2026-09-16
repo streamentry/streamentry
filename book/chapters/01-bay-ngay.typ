@@ -18,7 +18,7 @@
   [
     Chọn một giờ và một chỗ tương đối thuận tiện. Có thể dùng đồng hồ hẹn giờ, ngồi trên gối hoặc ghế, để thân vững mà không phải chịu đau. Sách đề nghị mười lăm phút ngồi mỗi ngày. Nếu mức ấy chưa phù hợp, dùng năm phút trong trọn tuần; các thẻ ghi mười lăm phút dưới đây cũng được hiểu theo mức năm phút bạn đã chọn.
 
-    Buổi kế tiếp giữ thời lượng quen thuộc, buổi bỏ lỡ không cần bù. Năm và mười lăm phút là gợi ý tạo thói quen của người biên soạn, không phải thời lượng tối ưu, yêu cầu trong kinh hay mốc bảo đảm thành tựu.
+    Buổi kế tiếp giữ nguyên thời lượng quen thuộc; buổi bỏ lỡ không cần bù. Năm và mười lăm phút là gợi ý tạo thói quen của người biên soạn, không phải thời lượng tối ưu, yêu cầu trong kinh hay mốc bảo đảm thành tựu.
   ],
   label: [THỰC HÀNH · BIÊN SOẠN THEO P01],
 )
@@ -49,7 +49,7 @@
   Thời lượng được giữ nguyên trong tuần. Từ Ngày 3 có thể thêm thiền hành ngắn nếu thuận tiện và thân tâm ổn. Phần thêm hoàn toàn tùy chọn; P01 không quy định lịch bảy ngày hay những thời lượng này.
 ])
 
-Mỗi ngày giới thiệu một điều để làm quen. Có thể dành thêm vài ngày cho một nội dung trước khi đọc tiếp; không có yêu cầu phải tiến kịp lịch. Nếu đã chọn năm phút, tiếp tục năm phút ở tất cả các ngày. Việc chú ý đến giấc ngủ, sức khỏe và bổn phận cũng thuộc cách giữ nhịp thực hành vừa sức.
+Mỗi ngày giới thiệu một điều để làm quen. Có thể dành thêm vài ngày cho một nội dung trước khi đọc tiếp; không có yêu cầu phải tiến kịp lịch. Nếu đã chọn năm phút, tiếp tục năm phút ở tất cả các ngày. Cách giữ nhịp vừa sức cũng gồm việc chú ý đến giấc ngủ, sức khỏe và bổn phận.
 
 #day-card([1], [Làm quen với phồng và xẹp], [15 phút ngồi, hoặc mức 5 phút đã chọn], [Ngồi vững, thở tự nhiên. Cảm nhận chuyển động bụng, có thể nhận biết “phồng”, “xẹp” trong tâm mà không đọc thành tiếng hay tụng chữ. Khi nhận ra đang nghĩ, biết “nghĩ” rồi trở về. Nếu bụng chưa rõ, dùng cách ngồi và xúc chạm đã nêu ở trên.])
 
@@ -61,7 +61,7 @@ Mỗi ngày giới thiệu một điều để làm quen. Có thể dành thêm 
 
 #day-card([5], [Đưa niệm vào một việc thường ngày], [Giữ buổi ngồi, chọn một việc ngắn], [Ngoài buổi ngồi, chọn rửa tay, đánh răng hoặc một việc quen thuộc ở nơi an toàn. Làm với tốc độ phù hợp, biết các động tác và cảm giác chính; không cần đọc tên mọi chi tiết. Không áp dụng việc chú ý hẹp vào thân khi lái xe, qua đường hay xử lý công việc nguy hiểm.])
 
-#day-card([6], [Nhận ra trạng thái tâm], [Giữ thời lượng đã chọn], [Một lần khi thuận tiện, hỏi: “Tâm đang có gì rõ nhất?” Có thể nhận ra muốn tìm dục lạc, bực bội, buồn ngủ, bồn chồn hoặc phân vân. Chưa rõ thì biết là chưa rõ. Chương 6 sẽ giải thích triền cái; một lần mệt hay một câu hỏi thận trọng chưa đủ để gán chắc một triền cái. Giữ phần thực hành vừa sức, không cần học thuộc các tên ngay.])
+#day-card([6], [Nhận ra trạng thái tâm], [Giữ thời lượng đã chọn], [Một lần khi thuận tiện, hỏi: “Tâm đang có gì rõ nhất?” Có thể nhận ra ham muốn, bực bội, buồn ngủ, bồn chồn hoặc phân vân. Chưa rõ thì biết là chưa rõ. Chương 6 sẽ giải thích các triền cái (những trở ngại quen thuộc của tâm); một lần mệt hay một câu hỏi thận trọng chưa đủ để gán chắc một triền cái. Giữ phần thực hành vừa sức, không cần học thuộc các tên ngay.])
 
 #day-card([7], [Giữ nhịp và nhìn lại], [Giữ thời lượng đã chọn], [Cuối ngày, ghi ba điều: đã thực hành bao lâu; trở ngại chính; một điều thực sự nhận ra. Có thể ghi thêm tác động lên ngủ nghỉ và sinh hoạt nếu có. Chưa cần đặt tên tầng tuệ. Việc nhìn lại giúp chọn nhịp có thể duy trì, không thưởng cho tăng thời lượng.])
 
@@ -74,7 +74,7 @@ Mỗi ngày giới thiệu một điều để làm quen. Có thể dành thêm 
 #v(8pt)
 
 #source-line("BIÊN SOẠN", [thử nhịp thực hành], [
-  Một tuần có thể bắt đầu cho thấy giờ, chỗ và thời lượng nào thuận tiện. Khoảng ấy không bảo đảm đủ để kết luận một phương pháp phù hợp hay không phù hợp với toàn bộ con đường tu của một người.
+  Một tuần có thể bắt đầu cho thấy giờ, chỗ và thời lượng nào thuận tiện. Quãng thời gian ấy chưa đủ để kết luận phương pháp có phù hợp với toàn bộ con đường tu của một người hay không.
 ])
 
 Ở mức làm quen, hãy chú ý ba việc: biết đối tượng, nhận ra tâm đã rời nó và trở về. Có thể nhận ra muộn nhiều lần; lần nhận ra ấy vẫn là nơi bắt đầu lại. Điều này không có nghĩa đã thực hành đầy đủ chánh niệm theo kinh hay đạt một mức định nào.
@@ -92,14 +92,14 @@ Mỗi ngày giới thiệu một điều để làm quen. Có thể dành thêm 
 #caution(
   [Không cần chịu đau để chứng minh tinh tấn],
   [
-    Khó chịu nhẹ có thể được quan sát nếu bạn vẫn thấy an toàn. Đau sắc, tê lan, yếu chi hoặc đau tăng là lý do dừng tư thế gây đau và xem hướng dẫn ở Chương 9. Những dấu hiệu này không được mặc định là do tư thế hay là vô hại. Khi dấu hiệu mới, kéo dài hoặc đáng lo, tìm đánh giá y tế phù hợp; dấu hiệu cấp cứu cần trợ giúp khẩn cấp.
+    Khó chịu nhẹ có thể được quan sát nếu bạn vẫn thấy an toàn. Đau sắc, tê lan, yếu chi hoặc đau tăng là lý do dừng tư thế gây đau và xem hướng dẫn ở Chương 9. Đừng mặc định những dấu hiệu này là do tư thế hay là vô hại. Khi dấu hiệu mới, kéo dài hoặc đáng lo, tìm đánh giá y tế phù hợp; dấu hiệu cấp cứu cần trợ giúp khẩn cấp.
   ],
 )
 
 == Ngày 8 đến 30: giữ mạch, không vội tăng <ngay-8-30>
 
 #source-line("BIÊN SOẠN", [cầu nối tháng đầu, đối chiếu Chương 7; Chương 8; Phụ lục A], [
-  Không nguồn kinh hay chỉ dẫn Mahāsi nào được dẫn trong sách ấn định lịch dưới đây. Đây là gợi ý: chỉ đổi một yếu tố mỗi lần, theo dõi tác động lên đời sống và ưu tiên an toàn. Không cần tăng chỉ vì lịch đã sang tuần mới.
+  Không có nguồn kinh hay chỉ dẫn Mahāsi nào trong sách ấn định lịch dưới đây. Đây là gợi ý: chỉ đổi một yếu tố mỗi lần, theo dõi tác động lên đời sống và ưu tiên an toàn. Không cần tăng chỉ vì lịch đã sang tuần mới.
 ])
 
 #practice-card(

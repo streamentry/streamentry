@@ -62,7 +62,7 @@ Có tuần chỉ giữ được mười phút mỗi ngày vì chăm con, chăm n
 ])
 
 #modern-note([
-  *Chánh trí ngay trong hiện tại* ở đây được hiểu là quả A-la-hán; *Bất lai* là quả không còn trở lại cõi dục. “Còn dư y” được giữ theo cách dịch quen thuộc, liên hệ với phần chấp thủ còn lại trong ngữ cảnh này. Đây không phải hai tên khác của Nhập lưu.
+  *Chánh trí ngay trong hiện tại* ở đây được hiểu là quả A-la-hán; *Bất lai* là quả không còn trở lại cõi dục. “Còn dư y” là cách dịch quen thuộc cho phần chấp thủ còn lại trong ngữ cảnh này. Đây không phải hai tên khác của Nhập lưu.
 
   Cụm “tu tập như vậy” cần được đọc cùng toàn bộ nội dung và phẩm chất thực hành của bài kinh. Đoạn kinh không nói rằng chỉ cần đăng ký, ở đủ bảy ngày hoặc theo một lịch Mahāsi hiện đại là chắc chắn chứng quả. Nó cũng không cho số giờ ngồi mỗi ngày để người biên soạn biến thành một định mức.
 ])

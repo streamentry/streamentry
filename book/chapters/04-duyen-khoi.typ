@@ -40,7 +40,7 @@ Chương trước phân biệt thọ với toàn bộ cảm xúc. Chương này 
 
 Ví dụ, một thông báo hiện lên khi bạn đang làm việc. Có sự thấy, sự hiểu nội dung, thọ và ý muốn mở ngay. Bạn có thể nhận ra mình đang cần xử lý việc thật hay đang tìm cảm giác được chú ý. Chưa cần tuyên bố đã “cắt ái”: hãy quan sát điều đang có, rồi chọn mở vì cần thiết hoặc trở lại việc đang làm.
 
-Năm nhịp này là khung gợi ý, không phải năm sát-na tâm được kinh quy định. Khi chỉ nhận ra sau khi đã phản ứng, lần thấy ấy vẫn có ích để hiểu điều kiện và sửa sai. Bài tập nhìn kỹ một phần kinh nghiệm hiện tại; phần tiếp theo đặt nó trở lại trong mười hai chi đầy đủ.
+Năm nhịp này là khung gợi ý, không phải năm sát-na tâm (khoảnh khắc tâm) được kinh quy định. Khi chỉ nhận ra sau khi đã phản ứng, lần thấy ấy vẫn có ích để hiểu điều kiện và sửa sai. Bài tập nhìn kỹ một phần kinh nghiệm hiện tại; phần tiếp theo đặt nó trở lại trong mười hai chi đầy đủ.
 
 == Mười hai chi đang nói về điều gì?
 
@@ -77,7 +77,7 @@ Trước khi đọc danh mục, hãy giữ quan hệ chính: các chi được t
 )
 
 #modern-note([
-  *Bốn đại* là đất, nước, lửa và gió theo cách phân tích trong kinh. *Tư* là ý định; *tác ý* là sự hướng tâm. Với thủ, bốn tên ở trên lần lượt nói đến sự chấp dục, chấp kiến, chấp giới và lối thực hành, chấp học thuyết về tự ngã. Các lời giải nghĩa giúp đọc, không thay việc tìm hiểu từng thuật ngữ trong ngữ cảnh. Đặc biệt, hữu và sinh không được đổi thành một phản ứng thoáng qua.
+  *Bốn đại* là đất, nước, lửa và gió theo cách phân tích trong kinh. *Tư* là ý định; *tác ý* là sự hướng tâm. Với thủ, bốn tên ở trên lần lượt nói đến sự chấp dục, chấp kiến, chấp vào giới và lối thực hành, và chấp học thuyết về tự ngã. Các lời giải nghĩa giúp đọc, không thay việc tìm hiểu từng thuật ngữ trong ngữ cảnh. Đặc biệt, hữu và sinh không được đổi thành một phản ứng thoáng qua.
 ])
 
 Chuỗi này không mô tả một linh hồn đi qua mười hai chặng. “Làm duyên cho” cũng không nên bị đọc thành “là nguyên nhân duy nhất”. Việc tu tập và sự đoạn diệt cần được đọc cùng chiều sinh khởi, thay vì dùng sơ đồ để kết luận mình buộc phải lặp lại một phản ứng cũ.
@@ -121,7 +121,7 @@ Chẳng hạn:
 == Thọ không phải toàn bộ cảm xúc
 
 #source-line("KINH", [K30 · MN 148, Chachakka Sutta], [
-  MN 148 phân biệt thọ dễ chịu, khó chịu và trung tính sinh do xúc. Bài kinh nối thọ dễ chịu được tán thưởng và bám giữ với khuynh hướng tham; thọ khó chịu đi cùng sầu than và rối loạn với khuynh hướng sân; thọ trung tính không được hiểu rõ với khuynh hướng vô minh.
+  MN 148 phân biệt thọ dễ chịu, khó chịu và trung tính sinh do xúc. Bài kinh nối thọ dễ chịu, khi được tán thưởng và bám giữ, với khuynh hướng tham; thọ khó chịu, đi cùng sầu than và rối loạn, với khuynh hướng sân; và thọ trung tính, khi không được hiểu rõ, với khuynh hướng vô minh.
 ])
 
 Một cảm xúc phức tạp có thể gồm thọ, cảm giác thân, sự nhận ra, ký ức, lời tự thoại và ý định. Trong cơn giận có thể có nóng nơi mặt, hình ảnh người kia, một câu chuyện về bất công và cả một thoáng dễ chịu khi tưởng tượng mình thắng. Gọi tất cả là “thọ” sẽ làm mất những phân biệt hữu ích.

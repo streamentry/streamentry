@@ -41,7 +41,7 @@ Chương 10 đã giải thích ba kiết sử đầu. Ở đây, ta thêm hai c�
 
     DN 16 ghi các trường hợp cư sĩ ở ba quả đầu. Vì vậy, không lấy chữ Sa-môn trong bảng quả làm điều kiện rằng chỉ một địa vị xã hội mới có thể thành tựu. Chương này không dùng những trường hợp ấy để suy rộng về quả A-la-hán của cư sĩ.
 
-    Có thể nhớ: kiết sử nói tâm bị trói bởi điều gì; quả nói thành tựu giải thoát nào đã được chứng. Hai câu hỏi liên hệ mà không đồng nghĩa.
+    Có thể nhớ: kiết sử nói tâm bị trói bởi điều gì; quả nói thành tựu giải thoát nào đã được chứng. Hai câu hỏi liên hệ với nhau nhưng không đồng nghĩa.
   ],
   label: [BẮC CẦU THUẬT NGỮ · BIÊN SOẠN THEO K08; K32; K34],
 )
