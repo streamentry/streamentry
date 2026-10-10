@@ -56,6 +56,37 @@ class WebHelpersTests(unittest.TestCase):
         )
         self.assertEqual(WEB.relative_page(None, "gioi-thieu"), "gioi-thieu/index.html")
 
+    def test_format_audio_size_and_player_rendering(self) -> None:
+        edition = load_edition_contract(ROOT / "book" / "edition.json")
+        self.assertEqual(WEB.format_audio_size(512 * 1024), "512 KB")
+        self.assertEqual(WEB.format_audio_size(5 * 1024 * 1024), "5,0 MB")
+        tracks = [
+            WEB.AudioTrack(
+                slug="gioi-thieu",
+                label="Giới thiệu",
+                title="Đích đến và nền đất",
+                filename="gioi-thieu.mp3",
+                size_bytes=1234567,
+                size_label="1.2 MB",
+                download_name="huong-den-nhap-luu-gioi-thieu.mp3",
+            ),
+            WEB.AudioTrack(
+                slug="chuong-01-bay-ngay-bat-dau",
+                label="Chương 01",
+                title="Bảy ngày bắt đầu",
+                filename="chuong-01-bay-ngay-bat-dau.mp3",
+                size_bytes=2345678,
+                size_label="2.2 MB",
+                download_name="huong-den-nhap-luu-chuong-01-bay-ngay-bat-dau.mp3",
+            ),
+        ]
+        html = WEB.render_audio_player(tracks[0], tracks, edition, base="../")
+        self.assertIn('id="audio-player"', html)
+        self.assertIn("data-audio-player", html)
+        self.assertIn("data-playlist=", html)
+        self.assertIn("../assets/audio/gioi-thieu.mp3", html)
+        self.assertIn("Tự chuyển chương", html)
+
 
 class WebBuildTests(unittest.TestCase):
     @unittest.skipUnless(shutil.which("typst"), "typst is not on PATH")
@@ -109,6 +140,18 @@ class WebBuildTests(unittest.TestCase):
             self.assertIn("../assets/site.js", chapter)
             self.assertIn("data-base=\"../\"", chapter)
             self.assertIn("https://streamentry.github.io/kinh-tang-pali/", chapter)
+            self.assertIn("data-audio-player", chapter)
+            self.assertIn('id="audio-player"', chapter)
+            self.assertIn("../assets/audio/chuong-01-bay-ngay-bat-dau.mp3", chapter)
+
+            self.assertIn('id="sach-noi"', landing)
+            self.assertIn("22 chương thu âm", landing)
+            audio_files = list((output / "assets" / "audio").glob("*.mp3"))
+            self.assertEqual(len(audio_files), 22)
+
+            js = (output / "assets" / "site.js").read_text(encoding="utf-8")
+            self.assertIn("initAudioPlayer", js)
+            self.assertIn("syncReaderPageToSlug", js)
 
             index = (output / "assets" / "search-index.json").read_text(encoding="utf-8")
             self.assertIn('"entries"', index)
