@@ -56,7 +56,7 @@ DEFAULT_STYLE = (
     "clear articulation, and natural pauses — engaging and vivid, never flat, monotone, or sleepy. "
     "No chanting, no music. Read every word exactly as written, preserve repetitions. Do not add commentary."
 )
-DEFAULT_MAX_CHARS = 1400
+DEFAULT_MAX_CHARS = 1100
 DEFAULT_PAUSE_SECONDS = 0.35
 CACHE_ROOT = Path(tempfile.gettempdir()) / "streamentry_tts_cache_charon"
 AUDIO_OUT_DIR = ROOT / "web" / "audio"
@@ -220,6 +220,13 @@ def extract_unit_speech(bw, unit, part_unit=None) -> str:
             continue
         text = paragraph.replace(" · ", ", ")
         text = re.sub(r"\.{3,}|…+\.*", "...", text)
+        if cleaned:
+            prev_cf = cleaned[-1].casefold()
+            curr_cf = text.casefold()
+            if curr_cf == prev_cf:
+                continue
+            if curr_cf.startswith("gấp sách lại") and prev_cf.startswith("gấp sách lại"):
+                continue
         cleaned.append(text)
     return "\n\n".join(cleaned)
 
@@ -282,7 +289,11 @@ def split_long_paragraph(text: str, max_chars: int = DEFAULT_MAX_CHARS) -> list[
 
 
 def chunk_text(text: str, max_chars: int = DEFAULT_MAX_CHARS) -> list[str]:
-    """Split chapter text into natural paragraph chunks within Gemini TTS limits."""
+    """Split chapter text into natural paragraph chunks within Gemini TTS limits.
+
+    Short headings, source badges, and card titles (<= 95 chars) are bound to
+    the paragraph that follows them so a chunk never ends on a dangling label.
+    """
     raw_paragraphs = [p.strip() for p in text.split("\n\n") if p.strip()]
     paragraphs: list[str] = []
     for paragraph in raw_paragraphs:
@@ -291,18 +302,39 @@ def chunk_text(text: str, max_chars: int = DEFAULT_MAX_CHARS) -> list[str]:
         else:
             paragraphs.append(paragraph)
 
+    grouped_units: list[str] = []
+    lead_buf: list[str] = []
+    lead_len = 0
+    for paragraph in paragraphs:
+        lead_buf.append(paragraph)
+        lead_len += len(paragraph) + 2
+        if len(paragraph) > 95 or lead_len >= 360:
+            joined = "\n\n".join(lead_buf)
+            if len(joined) > max_chars:
+                grouped_units.extend(split_long_paragraph(joined, max_chars=max_chars))
+            else:
+                grouped_units.append(joined)
+            lead_buf = []
+            lead_len = 0
+    if lead_buf:
+        tail_joined = "\n\n".join(lead_buf)
+        if grouped_units and len(grouped_units[-1]) + 2 + len(tail_joined) <= max_chars:
+            grouped_units[-1] = grouped_units[-1] + "\n\n" + tail_joined
+        else:
+            grouped_units.append(tail_joined)
+
     chunks: list[str] = []
     current_chunk: list[str] = []
     current_len = 0
 
-    for paragraph in paragraphs:
-        if current_len + len(paragraph) + 2 > max_chars and current_chunk:
+    for unit_text in grouped_units:
+        if current_len + len(unit_text) + 2 > max_chars and current_chunk:
             chunks.append("\n\n".join(current_chunk))
-            current_chunk = [paragraph]
-            current_len = len(paragraph)
+            current_chunk = [unit_text]
+            current_len = len(unit_text)
         else:
-            current_chunk.append(paragraph)
-            current_len += len(paragraph) + 2
+            current_chunk.append(unit_text)
+            current_len += len(unit_text) + 2
 
     if current_chunk:
         chunks.append("\n\n".join(current_chunk))
@@ -345,11 +377,27 @@ def wav_to_mp3(wav_bytes: bytes, mp3_path: Path, bitrate: int = 192) -> None:
     temp_target.replace(mp3_path)
 
 
-def validate_wav_bytes(audio_bytes: bytes) -> bool:
-    """Verify WAV bytes are non-empty 16-bit PCM."""
+def validate_wav_bytes(audio_bytes: bytes, expected_chars: int = 0) -> bool:
+    """Verify WAV bytes are non-empty 16-bit PCM without runaway TTS repetition loops."""
     try:
         with wave.open(io.BytesIO(audio_bytes), "rb") as w:
-            return w.getnframes() > 0 and w.getsampwidth() == 2
+            n_frames = w.getnframes()
+            framerate = w.getframerate()
+            if n_frames <= 0 or w.getsampwidth() != 2 or framerate <= 0:
+                return False
+            if expected_chars >= 200:
+                duration_sec = n_frames / framerate
+                chars_per_sec = expected_chars / max(duration_sec, 0.1)
+                # Normal Vietnamese narration with Charon is ~12.5-16.5 chars/sec.
+                # A chunk below 10.8 chars/sec indicates an autoregressive repetition loop;
+                # above 22.0 chars/sec indicates skipped sentences.
+                if chars_per_sec < 10.8 or chars_per_sec > 22.0:
+                    print(
+                        f"    ⚠️ Rejecting abnormal chunk audio ({duration_sec:.1f}s for {expected_chars} chars = {chars_per_sec:.1f} chars/s)",
+                        flush=True,
+                    )
+                    return False
+            return True
     except Exception:
         return False
 
@@ -374,7 +422,7 @@ def generate_gemini_38_tts(
     cache_file = CACHE_ROOT / f"{digest_key}.wav"
     if cache_file.exists():
         cached = cache_file.read_bytes()
-        if validate_wav_bytes(cached):
+        if validate_wav_bytes(cached, expected_chars=len(text)):
             return cached
 
     url = "https://generativelanguage.googleapis.com/v1beta/interactions"
@@ -424,8 +472,8 @@ def generate_gemini_38_tts(
                 raise RuntimeError("Provider returned no audio block in interactions response")
 
             audio_bytes = base64.b64decode(blocks[-1]["data"])
-            if not validate_wav_bytes(audio_bytes):
-                raise RuntimeError("Invalid or empty WAV returned by provider")
+            if not validate_wav_bytes(audio_bytes, expected_chars=len(text)):
+                raise RuntimeError("Invalid or looped WAV returned by provider")
 
             tmp_cache = cache_file.with_suffix(f".{os.getpid()}.{time.time_ns()}.tmp")
             tmp_cache.write_bytes(audio_bytes)
