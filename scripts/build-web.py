@@ -19,6 +19,7 @@ import argparse
 import copy
 import importlib.util
 import json
+import os
 import re
 import shutil
 import sys
@@ -31,6 +32,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SCRIPTS = ROOT / "scripts"
 WEB_SOURCE = ROOT / "web"
+WEB_AUDIO = WEB_SOURCE / "audio"
 sys.path.insert(0, str(SCRIPTS))
 
 from edition_contract import load_edition_contract  # noqa: E402
@@ -76,6 +78,17 @@ class NavNode:
     slug: str
     number: str | None = None
     children: list["NavNode"] = field(default_factory=list)
+
+
+@dataclass(frozen=True)
+class AudioTrack:
+    slug: str
+    label: str
+    title: str
+    filename: str
+    size_bytes: int
+    size_label: str
+    download_name: str
 
 
 def _load_epub_module():
@@ -710,6 +723,140 @@ def render_shell(
 """
 
 
+def format_audio_size(size_bytes: int) -> str:
+    mb = size_bytes / 1048576
+    if mb >= 1:
+        return f"{mb:.1f}".replace(".", ",") + " MB"
+    return f"{max(1, round(size_bytes / 1024))} KB"
+
+
+def unit_audio_label(unit: Unit) -> str:
+    if unit.number:
+        return f"Chương {unit.number}"
+    if unit.kicker:
+        return unit.kicker
+    if unit.kind == "intro":
+        return "Lời dẫn"
+    return "Mục"
+
+
+def collect_audio_tracks(
+    units: list[Unit], edition, audio_dir: Path | None = None
+) -> list[AudioTrack]:
+    directory = audio_dir if audio_dir is not None else WEB_AUDIO
+    if not directory.is_dir():
+        return []
+    tracks: list[AudioTrack] = []
+    for unit in units:
+        if unit.kind == "part":
+            continue
+        filename = f"{unit.slug}.mp3"
+        mp3_path = directory / filename
+        if not mp3_path.is_file():
+            continue
+        size_bytes = mp3_path.stat().st_size
+        if size_bytes <= 0:
+            continue
+        tracks.append(
+            AudioTrack(
+                slug=unit.slug,
+                label=unit_audio_label(unit),
+                title=unit.title,
+                filename=filename,
+                size_bytes=size_bytes,
+                size_label=format_audio_size(size_bytes),
+                download_name=f"{edition.file_stem}-{unit.slug}.mp3",
+            )
+        )
+    return tracks
+
+
+def render_audio_player(
+    track: AudioTrack,
+    tracks: list[AudioTrack],
+    edition,
+    *,
+    base: str,
+    player_id: str = "audio-player",
+) -> str:
+    playlist = [
+        {
+            "slug": item.slug,
+            "label": item.label,
+            "title": item.title,
+            "filename": item.filename,
+            "sizeLabel": item.size_label,
+            "downloadName": item.download_name,
+        }
+        for item in tracks
+    ]
+    playlist_attr = html_escape(
+        json.dumps(playlist, ensure_ascii=False, separators=(",", ":"))
+    )
+    audio_url = f"{base}assets/audio/{track.filename}"
+    display_title = f"{track.label} — {track.title}" if track.label else track.title
+    return f"""<div class="audio-player" id="{html_escape(player_id)}" data-audio-player data-slug="{html_escape(track.slug)}" data-title="{html_escape(track.title)}" data-author="{html_escape(edition.author)}" data-book="{html_escape(edition.title)}" data-playlist="{playlist_attr}">
+  <div class="audio-head">
+    <div class="audio-meta">
+      <span class="audio-dot" aria-hidden="true"></span>
+      <span class="audio-badge">Sách nói · Charon</span>
+      <span class="audio-active-title" data-active-title title="{html_escape(display_title)}">{html_escape(display_title)}</span>
+    </div>
+    <div class="audio-actions">
+      <button type="button" class="audio-btn-text" data-player-play-all title="Phát toàn bộ từ đầu">
+        <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+        <span>Phát từ đầu</span>
+      </button>
+      <span class="audio-autonext" title="Tự động chuyển sang chương tiếp theo khi nghe hết chương">
+        <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46A7.93 7.93 0 0020 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74A7.93 7.93 0 004 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z"/></svg>
+        <span>Tự chuyển chương</span>
+      </span>
+      <a class="audio-download" href="{html_escape(audio_url)}" download="{html_escape(track.download_name)}" data-download-link title="Tải tệp MP3 của chương này">
+        {ICO_DOWNLOAD}
+        <span>MP3</span>
+        <span class="audio-size" data-download-size>({html_escape(track.size_label)})</span>
+      </a>
+    </div>
+  </div>
+  <div class="audio-controls">
+    <button type="button" class="audio-ctrl-btn" data-prev-track title="Chương trước" aria-label="Chương trước">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg>
+    </button>
+    <button type="button" class="audio-ctrl-btn audio-skip-btn" data-skip-back title="Lùi 15 giây" aria-label="Lùi 15 giây">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M1 4v6h6M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/>
+      </svg>
+      <span class="audio-skip-label">-15s</span>
+    </button>
+    <button type="button" class="audio-play-btn" data-play-toggle aria-label="Phát sách nói" title="Phát / Tạm dừng">
+      <svg data-play-icon viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+      <svg data-pause-icon class="is-hidden" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+    </button>
+    <button type="button" class="audio-ctrl-btn audio-skip-btn" data-skip-forward title="Tiến 15 giây" aria-label="Tiến 15 giây">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M23 4v6h-6M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/>
+      </svg>
+      <span class="audio-skip-label">+15s</span>
+    </button>
+    <button type="button" class="audio-ctrl-btn" data-next-track title="Chương tiếp theo" aria-label="Chương tiếp theo">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
+    </button>
+    <div class="audio-timeline">
+      <span class="audio-time" data-current-time>00:00</span>
+      <input type="range" min="0" max="100" value="0" step="0.1" class="audio-seek" data-seek-bar aria-label="Tua âm thanh">
+      <span class="audio-time" data-duration>--:--</span>
+    </div>
+    <button type="button" class="audio-speed-btn" data-speed-btn title="Đổi tốc độ phát" aria-label="Đổi tốc độ phát">
+      <span data-speed-label>1.0×</span>
+    </button>
+  </div>
+  <audio preload="metadata" data-audio-element src="{html_escape(audio_url)}" class="visually-hidden" tabindex="-1"></audio>
+  <noscript>
+    <audio controls preload="none" src="{html_escape(audio_url)}"></audio>
+  </noscript>
+</div>"""
+
+
 def render_reading_page(
     unit: Unit,
     edition,
@@ -718,13 +865,16 @@ def render_reading_page(
     sidebar: str,
     page_toc: str,
     pager: str,
+    audio_player: str = "",
     extra: str = "",
 ) -> str:
     body: list[str] = []
     if unit.kicker and unit.kicker.casefold() != unit.title.casefold():
         body.append(f'<p class="eyebrow kicker">{html_escape(unit.kicker)}</p>')
-    for node in unit.nodes:
+    for index, node in enumerate(unit.nodes):
         body.append(to_html(node))
+        if index == 0 and audio_player:
+            body.append(audio_player)
     body.append(extra)
     return render_shell(
         edition=edition,
@@ -761,7 +911,63 @@ SOURCE_LEGEND = (
 )
 
 
-def render_landing(units: list[Unit], nav: list[NavNode], edition, cover_size: tuple[int, int]) -> str:
+def render_audiobook_section(tracks: list[AudioTrack], edition) -> str:
+    if not tracks:
+        return ""
+    player_html = render_audio_player(tracks[0], tracks, edition, base="")
+    cards: list[str] = []
+    for track in tracks:
+        read_href = f"{relative_page(None, track.slug)}#audio-player"
+        mp3_href = f"assets/audio/{track.filename}"
+        display_title = f"{track.label}: {track.title}" if track.label else track.title
+        cards.append(
+            f'<div class="audio-track-card" data-audio-card data-slug="{html_escape(track.slug)}">'
+            '<div class="audio-track-info">'
+            '<div class="audio-track-heading">'
+            '<span class="audio-dot is-hidden" data-active-dot title="Đang phát"></span>'
+            f'<button type="button" class="audio-track-title" data-cue-title>{html_escape(display_title)}</button>'
+            "</div>"
+            f'<span class="audio-track-meta">{html_escape(track.size_label)} · MP3</span>'
+            "</div>"
+            '<div class="audio-track-btns">'
+            f'<button type="button" class="audio-card-btn" data-cue-track="{html_escape(track.slug)}" '
+            f'aria-label="Phát {html_escape(display_title)}">'
+            '<svg data-card-play-icon viewBox="0 0 24 24" width="12" height="12" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>'
+            '<svg data-card-pause-icon class="is-hidden" viewBox="0 0 24 24" width="12" height="12" fill="currentColor" aria-hidden="true"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>'
+            "<span>Nghe</span></button>"
+            f'<a class="audio-card-btn" href="{html_escape(read_href)}" title="Đọc và nghe chương này">Đọc</a>'
+            f'<a class="audio-card-btn audio-card-dl" href="{html_escape(mp3_href)}" '
+            f'download="{html_escape(track.download_name)}" title="Tải MP3">MP3</a>'
+            "</div></div>"
+        )
+    return (
+        '<section class="section audiobook-section" id="sach-noi">'
+        '<div class="audiobook-head">'
+        "<div>"
+        '<h2 class="section-title">Sách nói trực tuyến &amp; tải MP3</h2>'
+        '<p class="section-lede">Nghe toàn bộ cuốn sách theo từng chương với giọng đọc trầm ấm, rõ ràng. '
+        "Trình phát tự động chuyển sang chương tiếp theo khi nghe hết chương.</p>"
+        "</div>"
+        '<div class="audiobook-head-actions">'
+        '<button type="button" class="btn btn-primary" data-download-play-all>'
+        '<svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>'
+        "<span>Phát toàn bộ</span></button>"
+        f'<span class="audiobook-count">{len(tracks)} chương thu âm</span>'
+        "</div></div>"
+        f"{player_html}"
+        f'<div class="audio-track-grid">{"".join(cards)}</div>'
+        "</section>"
+    )
+
+
+def render_landing(
+    units: list[Unit],
+    nav: list[NavNode],
+    edition,
+    cover_size: tuple[int, int],
+    tracks: list[AudioTrack] | None = None,
+) -> str:
+    audio_tracks = tracks or []
     by_slug = {unit.slug: unit for unit in units}
     safety_slug = next(
         (u.slug for u in units if u.kind == "chapter" and u.number and int(u.number) == 9),
@@ -838,6 +1044,13 @@ def render_landing(units: list[Unit], nav: list[NavNode], edition, cover_size: t
         for css, label, gloss in SOURCE_LEGEND
     )
 
+    audio_hero_btn = (
+        '\n      <a class="btn btn-ghost" href="#sach-noi">Nghe sách nói</a>'
+        if audio_tracks
+        else ""
+    )
+    audiobook_html = render_audiobook_section(audio_tracks, edition)
+
     content = f"""<section class="hero">
   <div class="hero-visual">
     <div class="book">
@@ -850,7 +1063,7 @@ def render_landing(units: list[Unit], nav: list[NavNode], edition, cover_size: t
     <p class="hero-lede">{html_escape(edition.description)}</p>
     <p class="hero-author">{html_escape(edition.author_label)} · {html_escape(edition.author)}</p>
     <div class="hero-actions">
-      <a class="btn btn-primary" href="gioi-thieu/index.html">Bắt đầu đọc</a>
+      <a class="btn btn-primary" href="gioi-thieu/index.html">Bắt đầu đọc</a>{audio_hero_btn}
       <a class="btn btn-ghost" href="{html_escape(pdf)}">{ICO_DOWNLOAD} PDF</a>
       <a class="btn btn-ghost" href="{html_escape(epub)}">{ICO_DOWNLOAD} EPUB</a>
     </div>
@@ -869,6 +1082,8 @@ def render_landing(units: list[Unit], nav: list[NavNode], edition, cover_size: t
   <p class="section-lede">Không cần đọc tuần tự như một giáo trình. Bốn bước dưới đưa bạn từ trang đầu đến một buổi ngồi an toàn.</p>
   <ol class="route">{route}</ol>
 </section>
+
+{audiobook_html}
 
 <section class="section chapters">
   <h2 class="section-title">Nội dung sách</h2>
@@ -1032,22 +1247,45 @@ def build(root: Path, output: Path, edition, base_url: str) -> None:
     nav = build_nav(units)
     sequence = [node for node in nav_sequence(nav) if node.slug]
     sequence_index = {node.slug: index for index, node in enumerate(sequence)}
+    tracks = collect_audio_tracks(units, edition, root / "web" / "audio")
+    tracks_by_slug = {track.slug: track for track in tracks}
 
     if output.exists():
         shutil.rmtree(output)
     (output / "assets").mkdir(parents=True)
     shutil.copyfile(cover_png, output / "assets" / "cover.png")
     for asset in sorted((WEB_SOURCE / "assets").iterdir()):
-        shutil.copyfile(asset, output / "assets" / asset.name)
+        if asset.is_file():
+            shutil.copyfile(asset, output / "assets" / asset.name)
+    if tracks:
+        audio_out = output / "assets" / "audio"
+        audio_out.mkdir(parents=True, exist_ok=True)
+        for track in tracks:
+            src_mp3 = root / "web" / "audio" / track.filename
+            dst_mp3 = audio_out / track.filename
+            try:
+                os.link(src_mp3, dst_mp3)
+            except OSError:
+                shutil.copyfile(src_mp3, dst_mp3)
 
     for unit in units:
         base = "../"
         page_toc = render_page_toc(unit)
         pager = render_pager(sequence, sequence_index.get(unit.slug, -1), unit.slug)
         extra = ""
+        unit_track = tracks_by_slug.get(unit.slug)
         if unit.kind == "part":
             part_node = next((node for node in nav if node.slug == unit.slug), None)
             if part_node and part_node.children:
+                if unit_track is None:
+                    unit_track = next(
+                        (
+                            tracks_by_slug[child.slug]
+                            for child in part_node.children
+                            if child.slug in tracks_by_slug
+                        ),
+                        None,
+                    )
                 links = "".join(
                     f'<a class="part-index-link" href="{relative_page(unit.slug, child.slug)}">'
                     f'<span class="toc-num" aria-hidden="true">{html_escape(child.number or "")}</span>'
@@ -1058,6 +1296,11 @@ def build(root: Path, output: Path, edition, base_url: str) -> None:
                     '<nav class="part-index" aria-label="Các chương trong phần này">'
                     f"{links}</nav>"
                 )
+        audio_html = (
+            render_audio_player(unit_track, tracks, edition, base=base)
+            if unit_track is not None
+            else ""
+        )
         html = render_reading_page(
             unit,
             edition,
@@ -1065,11 +1308,12 @@ def build(root: Path, output: Path, edition, base_url: str) -> None:
             sidebar=render_sidebar(nav, unit.slug, edition, "../index.html"),
             page_toc=page_toc,
             pager=pager,
+            audio_player=audio_html,
             extra=extra,
         )
         write_page(output, unit.slug, html)
 
-    landing = render_landing(units, nav, edition, png_size(cover_png))
+    landing = render_landing(units, nav, edition, png_size(cover_png), tracks=tracks)
     (output / "index.html").write_text(landing, encoding="utf-8")
     (output / "404.html").write_text(render_not_found(edition), encoding="utf-8")
     (output / ".nojekyll").write_text("", encoding="utf-8")
