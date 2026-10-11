@@ -40,6 +40,12 @@ Sách dùng sáu nhãn nguồn:
 - `BIÊN SOẠN`: lộ trình, ví dụ, câu hỏi tự kiểm, thiết kế thói quen hoặc tổng
   hợp thực hành do sách tạo ra.
 
+Trong sách, mỗi nhãn hiện thành một biểu tượng (bánh xe Pháp cho kinh, cây bút
+cho phần sách soạn…) cùng một câu dẫn nguồn viết đầy đủ tên bài và vị trí, ví
+dụ “Theo Kinh Niệm Xứ (Trung Bộ, bài số 10)”. Tên nhãn không được đọc lặp lại
+và chữ viết tắt như “MN 10” chỉ còn trong Bản đồ nguồn; ranh giới nguồn vẫn
+giữ nguyên.
+
 Một nhãn không làm mọi câu đứng cạnh nó tự động trở thành đúng. Mỗi mệnh đề chịu
 tải phải có phạm vi vừa với nguồn trong
 [sổ kiểm chứng](book/references/claim-ledger.md). Lời kinh, chú giải Theravāda,

@@ -37,7 +37,7 @@ class Chapter13ContractTests(unittest.TestCase):
             "sự chấm dứt khổ cần được thực chứng",
             "con đường cần được tu tập",
             "không phải bốn bước chứng ngộ",
-            "K05 · SN 56.11",
+            '("K05")',
             "mười hai phương diện",
         )
 
@@ -47,7 +47,7 @@ class Chapter13ContractTests(unittest.TestCase):
             "không phải năm sát-na tâm hay năm chi của duyên khởi",
             "không gọi đó là mắt xích dễ cắt nhất cho mọi người",
             "không thu toàn bộ duyên khởi",
-            "K26 · SN 12.2",
+            '("K26")',
         )
         chain = (
             "Vô minh", "Hành", "Thức", "Danh sắc", "Sáu xứ", "Xúc",
@@ -70,14 +70,14 @@ class Chapter13ContractTests(unittest.TestCase):
         self.assert_markers(
             "Bản đồ một trang", "#concept-map(", "#flow-ribbon(",
             "Đây là sơ đồ giúp học", "Những câu hỏi trong sơ đồ do sách đặt ra",
-            "TUỆ · 2 CHI", "GIỚI · 3 CHI", "ĐỊNH · 3 CHI",
+            "Tuệ · 2 chi", "Giới · 3 chi", "Định · 3 chi",
             "THẤY · HƯỚNG", "NÓI · LÀM · NUÔI", "RÈN · NHỚ-BIẾT · VỮNG",
-            "K20 · MN 44",
+            '("K20")',
         )
 
     def test_cessation_truth_is_named_as_nibbana_without_overclaiming(self) -> None:
         self.assert_markers(
-            "Diệt đế có phải là Niết-bàn không?", "K43 · SN 38.1",
+            "Diệt đế có phải là Niết-bàn không?", '("K43")',
             "Tôn giả Sāriputta", "Diệt đế là sự thật về Niết-bàn",
             "chưa phải đoạn tận", "không cần được nâng thành lời xác nhận",
             "Tạm lắng:", "Suy yếu:", "Đoạn tận:",
@@ -85,19 +85,19 @@ class Chapter13ContractTests(unittest.TestCase):
 
     def test_path_and_stream_entry_claims_do_not_collapse_into_one_method(self) -> None:
         self.assert_markers(
-            "Tám chi với tám công việc", "K42 · AN 5.177",
+            "Tám chi với tám công việc", '("K42")',
             "vũ khí, sinh vật, thịt, chất say và chất độc",
             "không đồng nhất một cách ghi nhận, một tư thế hay một lịch ngồi",
             "chưa đủ để xác nhận Nhập lưu",
-            "K02 · SN 55.50", "K11 · MN 2",
+            '("K02")', '("K11")',
         )
 
     def test_translation_and_editorial_boundaries_are_visible(self) -> None:
         self.assert_markers(
-            "Sách diễn ý bốn nhiệm vụ", "Không phải trích nguyên văn một bản dịch Việt",
-            "là việc áp dụng của người biên soạn",
+            "Sách diễn ý bốn nhiệm vụ", "không trích nguyên văn một bản dịch Việt",
+            "là việc áp dụng của sách",
             "không phải những mục cổ đã được liệt kê sẵn",
-            "Đây là minh họa biên soạn", "không phải kết luận đã chứng Diệt đế",
+            "Đây là minh họa do sách soạn", "không phải kết luận đã chứng Diệt đế",
         )
 
     def test_chapter_ends_with_closed_book_retrieval_and_safety_routing(self) -> None:
@@ -110,7 +110,7 @@ class Chapter13ContractTests(unittest.TestCase):
 
     def test_right_action_and_concentration_keep_exact_source_distinctions(self) -> None:
         self.assert_markers(
-            "K23 · MN 117", "K25 · SN 45.8",
+            '("K23")', '("K25")',
             "*abrahmacariyā veramaṇī*", "đây là yêu cầu tiết dục",
             "không phải chỉ tránh tà hạnh", "giữ riêng sự khác nhau giữa hai đoạn",
             "chánh định được định nghĩa bằng bốn tầng thiền",
@@ -119,7 +119,7 @@ class Chapter13ContractTests(unittest.TestCase):
 
     def test_craving_is_not_every_wish_to_end_discomfort(self) -> None:
         self.assert_markers(
-            "K44 · Iti 49", "không dùng câu", "làm định nghĩa đầy đủ của phi hữu ái",
+            '("K44")', "không dùng câu", "làm định nghĩa đầy đủ của phi hữu ái",
             "Mong chữa bệnh, rời nơi bị bạo hành",
             "không tự nó chứng minh có phi hữu ái",
             "không đồng nhất mọi mong muốn với tham ái cần đoạn trừ",

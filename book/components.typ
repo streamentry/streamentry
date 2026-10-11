@@ -1,5 +1,6 @@
 #import "edition.typ": edition, stack-lines
-#import "theme.typ": palette, fonts, space
+#import "theme.typ": palette, fonts, space, source-icon-svg
+#import "sources.typ": ten, Ten, nguon, tieu-de, viet-tat, danh-sach
 
 #let semantic-region-counter = counter("semantic-region")
 
@@ -182,43 +183,50 @@
   else { palette.muted }
 }
 
-#let source-badge(kind, refs: none) = context {
+#let source-class(kind) = {
+  if kind == "KINH" { "source-kinh" }
+  else if kind == "THANH TỊNH ĐẠO" { "source-thanh-tinh-dao" }
+  else if kind == "LUẬN GIẢI" { "source-luan-giai" }
+  else if kind == "MAHĀSI" { "source-mahasi" }
+  else if kind == "Y TẾ & NGHIÊN CỨU" { "source-nghien-cuu" }
+  else { "source-bien-soan" }
+}
+
+// Biểu tượng thay cho tên loại nguồn. Trong PDF nó là artifact, trong HTML là
+// một span rỗng aria-hidden: trình đọc màn hình và sách nói không đọc lặp lại
+// chữ "Biên soạn", "Kinh"... mà chỉ đọc câu dẫn nguồn đi kèm.
+#let source-icon(kind, size: 0.9em) = context {
   if target() == "html" {
-    let kind-class = if kind == "KINH" { "source-kinh" }
-      else if kind == "THANH TỊNH ĐẠO" { "source-thanh-tinh-dao" }
-      else if kind == "LUẬN GIẢI" { "source-luan-giai" }
-      else if kind == "MAHĀSI" { "source-mahasi" }
-      else if kind == "Y TẾ & NGHIÊN CỨU" { "source-nghien-cuu" }
-      else { "source-bien-soan" }
-    html.elem("span", attrs: (class: "source-badge " + kind-class))[
-      #kind
-      #if refs != none [ · #refs]
-    ]
+    html.elem("span", attrs: (class: "source-icon", aria-hidden: "true"))
   } else {
-    let color = source-color(kind)
     box(
-      fill: color.lighten(83%),
-      stroke: 0.55pt + color.lighten(40%),
-      radius: 3pt,
-      inset: (x: 6pt, y: 3pt),
-    )[
-      #text(
-        font: fonts.sans,
-        size: 7pt,
-        weight: 700,
-        tracking: 0.08em,
-        fill: color,
-      )[#kind]
-      #if refs != none [
-        #h(4pt)
-        #text(font: fonts.sans, size: 7pt, fill: color)[#refs]
-      ]
-    ]
+      baseline: 14%,
+      pdf.artifact(image(
+        bytes(source-icon-svg(source-class(kind), source-color(kind).to-hex())),
+        format: "svg",
+        height: size,
+      )),
+    )
   }
 }
 
-#let source-line(kind, refs, body) = context {
+#let source-badge(kind, refs: none) = context {
   if target() == "html" {
+    html.elem("span", attrs: (class: "source-badge " + source-class(kind)))[
+      #source-icon(kind)#if refs != none [#refs]
+    ]
+  } else {
+    let color = source-color(kind)
+    set par(first-line-indent: 0em, justify: false, leading: 0.5em)
+    show link: set text(fill: color)
+    block(above: 3pt, below: 3pt, text(font: fonts.sans, size: 7.4pt, weight: 600, fill: color)[
+      #source-icon(kind, size: 7.8pt)#if refs != none [#h(3.5pt)#refs]
+    ])
+  }
+}
+
+#let source-line(kind, refs, body, anchor: none) = context {
+  let element = if target() == "html" {
     html.elem("aside", attrs: (class: "source-line", role: "note"))[
       #source-badge(kind, refs: refs)
       #body
@@ -237,6 +245,7 @@
       #body
     ]
   }
+  if anchor == none { element } else { [#element#label(anchor)] }
 }
 
 #let scripture-quote(body, source) = context {
@@ -265,7 +274,15 @@
   }
 }
 
-#let practice-card(title, body, label: edition.labels.practice) = context {
+// Nhãn thẻ viết thành câu bình thường, không ép chữ in hoa, để đọc và nghe tự nhiên.
+// Khi thẻ có `kind`, biểu tượng nguồn (ví dụ cây bút cho phần sách soạn) đứng
+// trước nhãn thay cho chữ "Biên soạn".
+#let card-label(label, fill: palette.muted, kind: none) = block(below: 0pt)[
+  #set par(justify: false, leading: 0.5em)
+  #text(font: fonts.sans, size: 7.8pt, weight: 650, fill: fill)[#if kind != none [#source-icon(kind, size: 8pt)#h(3.5pt)]#label]
+]
+
+#let practice-card(title, body, label: edition.labels.practice, kind: none) = context {
   if target() == "html" {
     semantic-region-counter.step()
     let title-id = "practice-card-title-" + str(semantic-region-counter.get().first())
@@ -277,7 +294,10 @@
         aria-labelledby: title-id,
       ),
     )[
-      #html.elem("p", attrs: (class: "eyebrow"))[#label]
+      #html.elem(
+        "p",
+        attrs: (class: "eyebrow card-label" + if kind != none { " " + source-class(kind) } else { "" }),
+      )[#if kind != none { source-icon(kind) }#label]
       #html.elem("div", attrs: (class: "card-title", id: title-id))[#title]
       #body
     ]
@@ -292,7 +312,7 @@
       stroke: 0.7pt + palette.rule,
     )[
       #set par(first-line-indent: 0em)
-      #eyebrow(label, fill: palette.forest)
+      #card-label(label, fill: palette.forest, kind: kind)
       #v(4pt)
       #text(font: fonts.display, size: 13pt, weight: 600)[#title]
       #v(7pt)
@@ -552,11 +572,15 @@
   }
 }
 
-#let reference-item(code, title, detail, url) = context {
+// `pali` là địa chỉ Pāli và tên gốc của bài; tiêu đề tiếng Việt lấy từ sources.typ.
+#let reference-item(code, pali, detail, url) = context {
+  let title = tieu-de(code.text)
+  let locator = [#pali · #viet-tat(code.text)]
+  let anchor = label("nguon-" + lower(code.text))
   if target() == "html" {
     semantic-region-counter.step()
     let title-id = "reference-title-" + str(semantic-region-counter.get().first())
-    html.elem(
+    [#html.elem(
       "section",
       attrs: (
         class: "reference-item",
@@ -566,11 +590,11 @@
     )[
       #source-badge("KINH", refs: code)
       #html.elem("p", attrs: (class: "reference-title", id: title-id))[*#title*]
-      #html.elem("p", attrs: (class: "reference-detail"))[#detail]
+      #html.elem("p", attrs: (class: "reference-detail"))[#locator. #detail]
       #html.elem("p")[#link(url)[#edition.labels.source_link (#code)]]
-    ]
+    ]#anchor]
   } else {
-    block(
+    [#block(
       width: 100%,
       breakable: false,
       inset: (y: 5pt),
@@ -582,10 +606,10 @@
         [#source-badge("KINH", refs: code)],
         [
           *#title*\
-          #text(size: 8.5pt, fill: palette.muted)[#detail]\
+          #text(size: 8.5pt, fill: palette.muted)[#locator. #detail]\
           #link(url)[#text(font: fonts.sans, size: 7pt)[#edition.labels.source_link (#code)]]
         ],
       )
-    ]
+    ]#anchor]
   }
 }

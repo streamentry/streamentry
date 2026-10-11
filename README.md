@@ -34,14 +34,14 @@ Khi đang hành mà không nhớ nên giữ đối tượng, chuyển sang đi�
 
 ### Tách nguồn thay vì trộn thành một giọng
 
-Các đoạn giáo lý và kỹ thuật mang một trong sáu dấu:
+Các đoạn giáo lý và kỹ thuật mang một trong sáu dấu. Mỗi dấu là một biểu tượng nhỏ cho biết loại nguồn, đi kèm một câu dẫn nguồn đọc trọn vẹn, chẳng hạn “Theo Kinh Niệm Xứ (Trung Bộ, bài số 10)”. Tên bộ kinh và số bài được viết đầy đủ thay vì “MN 10”; mã tra K, P, V, R chỉ còn trong Bản đồ nguồn. Nhờ vậy, khi đọc thành tiếng hay nghe sách nói, người nghe không phải nghe lặp lại tên loại nguồn hay một chuỗi mã.
 
-- `KINH`: các bài kinh Nikāya Pāli, với mã nguồn và ngữ cảnh người nói;
+- `KINH` (biểu tượng bánh xe Pháp): các bài kinh Nikāya Pāli, với tên bài, vị trí và ngữ cảnh người nói;
 - `LUẬN GIẢI`: A-tỳ-đàm và truyền thống chú giải Theravāda về sau;
 - `THANH TỊNH ĐẠO`: hệ thống của *Visuddhimagga*, không giả làm lời Phật trực tiếp;
 - `MAHĀSI`: chỉ dẫn thực hành thuộc dòng Mahāsi thế kỷ XX;
 - `Y TẾ & NGHIÊN CỨU`: nguồn hiện đại, chỉ dùng cho câu hỏi sức khỏe và an toàn;
-- `BIÊN SOẠN`: lịch, thẻ thực hành, tình huống và khung giải thích do sách tổng hợp.
+- `BIÊN SOẠN` (biểu tượng cây bút): lịch, thẻ thực hành, tình huống và khung giải thích do sách tổng hợp. Biểu tượng thay cho chữ “biên soạn” để chữ ấy không lặp lại ở mỗi đoạn.
 
 Dấu nguồn không xếp hạng giá trị tinh thần. Nó giữ cho một lời dạy về sau, một đề nghị biên tập hay một chỉ dẫn y tế không bị gán nhầm cho Đức Phật.
 
