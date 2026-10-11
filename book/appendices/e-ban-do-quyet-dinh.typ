@@ -21,7 +21,7 @@
 
 #v(3mm)
 
-#source-line("BIÊN SOẠN", [đối chiếu Chương 1, 5, 7 và 9], [
+#source-line("BIÊN SOẠN", [Bản đồ do sách soạn, tóm từ Chương 1, 5, 7 và 9], [
   Sơ đồ giúp tra hướng dẫn, không phải kinh, cách chẩn đoán hay trình tự chứng đắc. Khi cần bảo vệ an toàn, hành động trước việc ghi nhãn.
 ])
 

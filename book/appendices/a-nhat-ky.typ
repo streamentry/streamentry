@@ -17,7 +17,7 @@
   Ghi điều đã làm, điều đã nhận ra và việc cần điều chỉnh. Nhật ký giúp nhớ kinh nghiệm, không dùng để xác nhận tầng tuệ hoặc chấm giá trị của mình.
 ]
 
-#source-line("BIÊN SOẠN", [nhắc nghĩa từ Chương 2], [
+#source-line("BIÊN SOẠN", [Nhắc lại nghĩa đã học ở Chương 2], [
   *Năm giới* trong mẫu này là tránh sát sinh, lấy của không cho, tà hạnh trong dục, nói dối và chất say gây buông lung. Câu hỏi về giới hướng đến hành động cụ thể, không đòi một cảm giác “trong sạch”.
 ])
 
@@ -93,7 +93,8 @@
     *Điều chỉnh trong tuần tới:*
     #writing-lines(count: 2)
   ],
-  label: [RÀ SOÁT TUẦN],
+  label: [Rà soát tuần],
+  kind: "BIÊN SOẠN",
 )
 
 Nếu nhịp đã ngắt, dùng #link(<khoi-dong-lai>)[lối khởi động lại ở Chương 1]. Đã dừng vì dấu hiệu nguy cơ thì đọc #link(<an-toan>)[Chương 9] và tìm hỗ trợ phù hợp trước khi tiếp tục; không dùng nhật ký để tự cho phép tăng cường độ.
@@ -108,7 +109,8 @@ Nếu nhịp đã ngắt, dùng #link(<khoi-dong-lai>)[lối khởi động lạ
     + Giới, lời nói và cách cư xử có chuyển theo hướng ít gây hại hơn không?
     + Tôi cần giữ, giảm, dừng hoặc xin hướng dẫn ở điểm nào?
   ],
-  label: [RÀ SOÁT THÁNG],
+  label: [Rà soát tháng],
+  kind: "BIÊN SOẠN",
 )
 
 #v(8pt)
@@ -116,10 +118,10 @@ Nếu nhịp đã ngắt, dùng #link(<khoi-dong-lai>)[lối khởi động lạ
 #caution(
   [Giữ trải nghiệm riêng với kết luận về đạo quả],
   [
-    Có thể ghi cảm giác, hoàn cảnh, thời lượng và tác động lên sinh hoạt. Nếu có một cách giải thích, hãy ghi riêng đó là điều đang suy ra, không phải điều đã trực tiếp biết. Các phẩm chất Nhập lưu trong K03 không phải bảng điểm để tự chứng nhận sau một buổi thiền. Ghi chép cũng không thay thế đánh giá sức khỏe khi có dấu hiệu cần trợ giúp.
+    Có thể ghi cảm giác, hoàn cảnh, thời lượng và tác động lên sinh hoạt. Nếu có một cách giải thích, hãy ghi riêng đó là điều đang suy ra, không phải điều đã trực tiếp biết. Các phẩm chất Nhập lưu trong #nguon("K03") không phải bảng điểm để tự chứng nhận sau một buổi thiền. Ghi chép cũng không thay thế đánh giá sức khỏe khi có dấu hiệu cần trợ giúp.
   ],
 )
 
 #v(8pt)
 
-#source-line("BIÊN SOẠN", [mẫu theo dõi], [Nhật ký hỗ trợ nhìn lại điều kiện và hành vi. Nó không chẩn đoán đạo quả hoặc bệnh lý; một ngày chưa thuận không làm mất khả năng trở lại và sửa điều cần sửa.])
+#source-line("BIÊN SOẠN", [Mẫu theo dõi do sách soạn], [Nhật ký hỗ trợ nhìn lại điều kiện và hành vi. Nó không chẩn đoán đạo quả hoặc bệnh lý; một ngày chưa thuận không làm mất khả năng trở lại và sửa điều cần sửa.])

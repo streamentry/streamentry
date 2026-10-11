@@ -31,6 +31,63 @@
   xxl: 52pt,
 )
 
+// Biểu tượng cho sáu tầng nguồn. Cùng một bộ hình được dùng cho PDF (ảnh SVG
+// đánh dấu là artifact) và cho HTML/EPUB (ảnh nền CSS), nên chữ đọc được của
+// nhãn chỉ còn là câu dẫn nguồn, không lặp lại tên loại nguồn.
+#let source-icon-paths = (
+  "source-kinh": "<circle cx='8' cy='8' r='6.1' fill='none' stroke='{c}' stroke-width='1.4'/><path d='M8 1.9v12.2M1.9 8h12.2M3.7 3.7l8.6 8.6M12.3 3.7l-8.6 8.6' stroke='{c}' stroke-width='0.9'/><circle cx='8' cy='8' r='1.7' fill='{c}'/>",
+  "source-mahasi": "<circle cx='8' cy='3.1' r='2.1' fill='{c}'/><path d='M8 6.1c-2 0-3.2 1.6-3.6 4l-2.8 2.2c-.5.4-.2 1.3.5 1.3h11.8c.7 0 1-.9.5-1.3l-2.8-2.2c-.4-2.4-1.6-4-3.6-4z' fill='{c}'/>",
+  "source-thanh-tinh-dao": "<path d='M8 3.6C6.3 2.4 4 2.1 1.5 2.5v10.3c2.5-.4 4.8-.1 6.5 1.1 1.7-1.2 4-1.5 6.5-1.1V2.5C12 2.1 9.7 2.4 8 3.6zM8 3.6v10.3' fill='none' stroke='{c}' stroke-width='1.3' stroke-linejoin='round'/>",
+  "source-luan-giai": "<rect x='2.6' y='1.6' width='10.8' height='12.8' rx='1.5' fill='none' stroke='{c}' stroke-width='1.3'/><path d='M5.1 5.2h5.8M5.1 8h5.8M5.1 10.8h3.8' stroke='{c}' stroke-width='1.3' stroke-linecap='round'/>",
+  "source-nghien-cuu": "<path d='M6.2 1.8h3.6v4.4h4.4v3.6H9.8v4.4H6.2V9.8H1.8V6.2h4.4z' fill='{c}'/>",
+  "source-bien-soan": "<path d='M11.2 1.7l3.1 3.1-8.6 8.6-4 .9.9-4z' fill='none' stroke='{c}' stroke-width='1.3' stroke-linejoin='round'/><path d='M9.6 3.3l3.1 3.1' stroke='{c}' stroke-width='1.3'/>",
+)
+
+#let source-icon-svg(cls, color) = (
+  "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'>"
+    + source-icon-paths.at(cls).replace("{c}", color)
+    + "</svg>"
+)
+
+#let _css-svg-url(cls, color) = {
+  let svg = source-icon-svg(cls, color)
+    .replace("%", "%25")
+    .replace("#", "%23")
+    .replace("<", "%3C")
+    .replace(">", "%3E")
+  "url(\"data:image/svg+xml," + svg + "\")"
+}
+
+#let _source-icon-css(colors) = {
+  let rules = ()
+  for (cls, color) in colors {
+    rules.push("." + cls + " .source-icon { background-image: " + _css-svg-url(cls, color) + "; }")
+  }
+  rules.join("\n")
+}
+
+#let source-icon-css = (
+  ".source-icon { display: inline-block; width: 1em; height: 1em; margin-right: 0.4em; vertical-align: -0.14em; background-position: center; background-repeat: no-repeat; background-size: contain; }\n"
+    + _source-icon-css((
+      "source-kinh": "#315b4b",
+      "source-mahasi": "#7c4636",
+      "source-thanh-tinh-dao": "#8c4e1b",
+      "source-luan-giai": "#4f5572",
+      "source-nghien-cuu": "#3f6687",
+      "source-bien-soan": "#625b53",
+    ))
+    + "\n@media (prefers-color-scheme: dark) {\n"
+    + _source-icon-css((
+      "source-kinh": "#8bc5ad",
+      "source-mahasi": "#dba08d",
+      "source-thanh-tinh-dao": "#e7a367",
+      "source-luan-giai": "#b7bddb",
+      "source-nghien-cuu": "#91bce0",
+      "source-bien-soan": "#c6beb5",
+    ))
+    + "\n}"
+)
+
 #let apply-theme(body) = context {
   if target() == "html" {
     set text(lang: edition.metadata.language)
@@ -75,7 +132,10 @@
       .part-opener { margin-top: 4rem; padding-top: 1.25rem; border-top: 0.35rem solid var(--forest); }
       .part-deck { color: var(--muted); font-family: Arial, sans-serif; font-size: 0.98rem; max-width: 38rem; }
       .provenance { margin: 1rem 0 1.6rem; }
-      .source-badge { display: inline-block; margin: 0.1rem 0.25rem 0.1rem 0; padding: 0.18rem 0.46rem; border: 0.06rem solid currentColor; border-radius: 0.22rem; font-family: Arial, sans-serif; font-size: 0.76rem; font-weight: 700; letter-spacing: 0.035em; }
+      .source-badge { display: inline; font-family: Arial, sans-serif; font-size: 0.8rem; font-weight: 600; line-height: 1.45; }
+      .source-badge a { color: inherit; text-decoration-thickness: 0.06rem; }
+      .source-line .source-badge, .modern-note .source-badge, .provenance .source-badge { display: block; margin: 0 0 0.45rem; }
+      .eyebrow.card-label { text-transform: none; letter-spacing: 0.01em; font-weight: 650; }
       .source-kinh { color: var(--forest); }
       .source-mahasi, .source-caution { color: var(--clay); }
       .source-thanh-tinh-dao { color: var(--saffron); }
@@ -143,6 +203,7 @@
         .caution { background: #2a1d19; border-color: #755247; }
       }
     ")
+    html.style(source-icon-css)
     body
   } else {
     set page(

@@ -875,16 +875,18 @@ a:hover {
 /* Source colour system */
 
 .source-badge {
-  display: inline-block;
-  padding: 0.16rem 0.5rem;
-  border: 1px solid currentColor;
-  border-radius: 999px;
+  display: inline;
   font-family: var(--font-sans);
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  white-space: nowrap;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.source-badge a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
 }
 
 .source-badge.source-kinh { color: var(--forest); }
@@ -896,10 +898,43 @@ a:hover {
 .source-badge.source-bien-soan { color: var(--muted); }
 
 .source-line .source-badge,
-.modern-note .source-badge {
+.modern-note .source-badge,
+.provenance .source-badge {
   display: block;
-  width: fit-content;
   margin: 0 0 0.55rem;
+}
+
+/* Source icons: one glyph per provenance tier replaces the spoken tier name.
+   The icon span is empty and aria-hidden, so readers and the audiobook hear
+   only the source sentence. Shapes mirror book/theme.typ. */
+.source-icon {
+  display: inline-block;
+  flex: none;
+  width: 1.05em;
+  height: 1.05em;
+  margin-right: 0.45em;
+  vertical-align: -0.16em;
+  background-color: currentColor;
+  -webkit-mask: var(--source-icon) center / contain no-repeat;
+  mask: var(--source-icon) center / contain no-repeat;
+}
+
+.source-kinh .source-icon { --source-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='6.1' fill='none' stroke='%23000' stroke-width='1.4'/%3E%3Cpath d='M8 1.9v12.2M1.9 8h12.2M3.7 3.7l8.6 8.6M12.3 3.7l-8.6 8.6' stroke='%23000' stroke-width='0.9'/%3E%3Ccircle cx='8' cy='8' r='1.7' fill='%23000'/%3E%3C/svg%3E"); }
+.source-mahasi .source-icon { --source-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='3.1' r='2.1' fill='%23000'/%3E%3Cpath d='M8 6.1c-2 0-3.2 1.6-3.6 4l-2.8 2.2c-.5.4-.2 1.3.5 1.3h11.8c.7 0 1-.9.5-1.3l-2.8-2.2c-.4-2.4-1.6-4-3.6-4z' fill='%23000'/%3E%3C/svg%3E"); }
+.source-thanh-tinh-dao .source-icon { --source-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M8 3.6C6.3 2.4 4 2.1 1.5 2.5v10.3c2.5-.4 4.8-.1 6.5 1.1 1.7-1.2 4-1.5 6.5-1.1V2.5C12 2.1 9.7 2.4 8 3.6zM8 3.6v10.3' fill='none' stroke='%23000' stroke-width='1.3' stroke-linejoin='round'/%3E%3C/svg%3E"); }
+.source-luan-giai .source-icon { --source-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='2.6' y='1.6' width='10.8' height='12.8' rx='1.5' fill='none' stroke='%23000' stroke-width='1.3'/%3E%3Cpath d='M5.1 5.2h5.8M5.1 8h5.8M5.1 10.8h3.8' stroke='%23000' stroke-width='1.3' stroke-linecap='round'/%3E%3C/svg%3E"); }
+.source-nghien-cuu .source-icon { --source-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M6.2 1.8h3.6v4.4h4.4v3.6H9.8v4.4H6.2V9.8H1.8V6.2h4.4z' fill='%23000'/%3E%3C/svg%3E"); }
+.source-bien-soan .source-icon { --source-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M11.2 1.7l3.1 3.1-8.6 8.6-4 .9.9-4z' fill='none' stroke='%23000' stroke-width='1.3' stroke-linejoin='round'/%3E%3Cpath d='M9.6 3.3l3.1 3.1' stroke='%23000' stroke-width='1.3'/%3E%3C/svg%3E"); }
+
+.eyebrow.card-label {
+  text-transform: none;
+  letter-spacing: 0.01em;
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
+.eyebrow.card-label a {
+  color: inherit;
 }
 
 .source-line,
@@ -1778,7 +1813,10 @@ nav[role="doc-toc"] a:hover {
 
 .legend-item .source-badge {
   flex: none;
-  margin-top: 0.15rem;
+  display: inline-flex;
+  align-items: center;
+  min-width: 11.5rem;
+  margin-top: 0.1rem;
 }
 
 .related-card {

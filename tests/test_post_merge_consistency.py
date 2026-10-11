@@ -15,7 +15,7 @@ def read(relative: str) -> str:
 class PostMergeConsistencyTests(unittest.TestCase):
     def test_sleep_instruction_keeps_lying_down_context(self) -> None:
         text = read("book/chapters/06-trien-cai-giac-chi.typ")
-        block = text.split('[P01 · Basic Exercise III,', 1)[1].split('])', 1)[0]
+        block = text.split('[Theo đoạn nằm xuống để ngủ, bài tập căn bản III', 1)[1].split('])', 1)[0]
         self.assertIn("đã nằm xuống để ngủ", block)
         self.assertIn("có thể xua buồn ngủ", block)
         self.assertIn("không đổi thành lời dặn luôn ngồi chờ ngủ gật", block)
@@ -52,7 +52,7 @@ class PostMergeConsistencyTests(unittest.TestCase):
         text = read("book/appendices/d-thuat-ngu.typ")
         term = text.split('#term-card([noting]', 1)[1].split('#v(8pt)', 1)[0]
         self.assertIn("từ tiếng Anh, không phải thuật ngữ Pāli", term)
-        self.assertIn("term-label: [THUẬT NGỮ TIẾNG ANH]", term)
+        self.assertIn("term-label: [Thuật ngữ tiếng Anh]", term)
         self.assertIn("label: term-label", text)
 
     def test_download_gateway_bounds_what_the_artifact_checks_prove(self) -> None:

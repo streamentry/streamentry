@@ -25,7 +25,7 @@ class Chapter10ContractTests(unittest.TestCase):
             "*Tỳ-kheo-ni:*",
             "Sujātā",
             "Nandā",
-            "K08 · DN 16, đoạn Ñātika và lời dạy cuối",
+            "[Theo đoạn Ñātika và lời dạy cuối trong #ten(\"K08\")]",
         ):
             self.assertIn(expected, section)
 
@@ -34,7 +34,7 @@ class Chapter10ContractTests(unittest.TestCase):
             "đời sống tại gia và giới tính nữ không tự loại trừ",
             "mọi người chắc chắn sẽ chứng trong đời này",
             "không cung cấp thống kê hiện đại",
-            "KHẢ NĂNG KHÔNG PHẢI BẢO ĐẢM",
+            "Khả năng không phải lời bảo đảm",
         )
         for boundary in required_boundaries:
             self.assertIn(boundary, self.chapter)

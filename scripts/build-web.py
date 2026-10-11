@@ -902,12 +902,12 @@ START_ROUTE = (
 )
 
 SOURCE_LEGEND = (
-    ("source-kinh", "KINH", "Kinh điển Pāli Nikāya, kèm mã nguồn và ngữ cảnh."),
-    ("source-luan-giai", "LUẬN GIẢI", "A-tỳ-đàm và chú giải Theravāda về sau."),
-    ("source-thanh-tinh-dao", "THANH TỊNH ĐẠO", "Hệ thống Visuddhimagga, không giả làm lời Phật."),
-    ("source-mahasi", "MAHĀSI", "Chỉ dẫn thực hành của truyền thống Mahāsi."),
-    ("source-nghien-cuu", "Y TẾ & NGHIÊN CỨU", "Nguồn hiện đại, chỉ cho câu hỏi sức khỏe."),
-    ("source-bien-soan", "BIÊN SOẠN", "Giải thích, ví dụ và lịch do sách tổng hợp."),
+    ("source-kinh", "Kinh điển", "Kinh điển Pāli Nikāya, ghi rõ tên bài, vị trí và ngữ cảnh."),
+    ("source-luan-giai", "Luận giải", "A-tỳ-đàm và chú giải Theravāda về sau."),
+    ("source-thanh-tinh-dao", "Thanh Tịnh Đạo", "Hệ thống Visuddhimagga, không giả làm lời Phật."),
+    ("source-mahasi", "Mahāsi", "Chỉ dẫn thực hành của truyền thống Mahāsi."),
+    ("source-nghien-cuu", "Y tế và nghiên cứu", "Nguồn hiện đại, chỉ cho câu hỏi sức khỏe."),
+    ("source-bien-soan", "Phần sách soạn", "Giải thích, ví dụ và lịch do sách tổng hợp; biểu tượng cây bút thay cho chữ “biên soạn”."),
 )
 
 
@@ -1039,7 +1039,8 @@ def render_landing(
     route = "".join(route_items)
 
     legend = "".join(
-        f'<li class="legend-item"><span class="source-badge {css}">{html_escape(label)}</span>'
+        f'<li class="legend-item"><span class="source-badge {css}">'
+        f'<span class="source-icon" aria-hidden="true"></span>{html_escape(label)}</span>'
         f"<span>{html_escape(gloss)}</span></li>"
         for css, label, gloss in SOURCE_LEGEND
     )
