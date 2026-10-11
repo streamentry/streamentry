@@ -11,9 +11,10 @@
     "@xmldom/xmldom": "0.9.12",
     "ajv": "8.20.0",
     "ajv-formats": "3.0.1",
+    "basic-ftp": "6.2.1",
     "extract-zip": "$extract-zip",
-    "fast-uri": "3.1.7",
-    "ip-address": "10.5.0",
+    "fast-uri": "3.1.8",
+    "ip-address": "10.7.1",
     "js-yaml": "4.3.2"
   },
   "engines": {
