@@ -168,3 +168,5 @@ Trạng thái máy đọc được nằm ở [`book/references/external-release-
 - [`con-duong-niem-xu-mahasi-hop-nhat.md`](con-duong-niem-xu-mahasi-hop-nhat.md): bản thảo nguồn bất biến; không sửa trực tiếp.
 
 Một ngôn ngữ mới là một ứng viên xuất bản riêng. Kết quả kiểm định của bản tiếng Việt không tự chuyển sang bản dịch.
+
+- [Gentle Games & Activities for People with Dementia](https://dementiaactivities.games/)
