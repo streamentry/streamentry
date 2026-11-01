@@ -679,7 +679,7 @@ def render_shell(
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
-<meta name="google-site-verification" content="Ydzx5wL5Yz9xT3ASFAU_l67uQgb5iIQBITZJjuA2EAE">
+<meta name="google-site-verification" content="fqsbgZCRj4E4_HtMh3iAsSBMFqS8AbUtMqOvRveOYOQ">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9695RFQFW5"></script>
 <script>
