@@ -82,9 +82,9 @@ class PostMergeProofreadTests(unittest.TestCase):
     def test_faq_keeps_research_separate_from_meditation_advice(self) -> None:
         block = faq_blocks()["faq-bat-an"]
         research, editorial = block.split('#source-badge("BIÊN SOẠN"', 1)
-        self.assertIn('refs: [R01; R02]', research)
+        self.assertIn('refs: [Theo #ten("R01") và #ten("R02")]', research)
         self.assertNotIn("dừng buổi hiện tại", research)
-        self.assertIn("hướng dẫn dừng thiền là phần biên soạn", editorial)
+        self.assertIn("hướng dẫn dừng thiền là lời khuyên của sách", editorial)
         self.assertIn("Không cần chờ buổi gặp người hướng dẫn", editorial)
 
 

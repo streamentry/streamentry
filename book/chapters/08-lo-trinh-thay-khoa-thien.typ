@@ -4,22 +4,22 @@
   [08],
   [Lộ trình, người hướng dẫn và khóa thiền],
   [Một thời khóa giúp dành chỗ cho việc tu trong đời sống. Người hướng dẫn giúp ta nhìn lại cách thực hành. Cả hai cần được chọn với sự hiểu biết và cẩn trọng, không dựa vào lời hứa chắc về ngày chứng quả.],
-  provenance: source-badge("BIÊN SOẠN", refs: [đối chiếu K01 · K02 · K03 · P01]),
+  provenance: source-badge("BIÊN SOẠN", refs: [Lộ trình và câu hỏi sàng lọc do sách soạn, đối chiếu #ten("K01"), #ten("K02"), #ten("K03") và hướng dẫn của Thiền sư Mahāsi]),
 )
 
 Từ việc thực hành trong ngày ở Chương 7, ta chuyển sang câu hỏi dài hơn: làm sao duy trì việc tu, tìm phản hồi và cân nhắc một khóa thiền? Chương này đề nghị một lịch có thể điều chỉnh và những câu hỏi nên tìm hiểu trước khi tăng cường độ.
 
-Các mốc tháng, số phút và cách chọn khóa dưới đây là phần biên soạn. Kinh không ấn định một lịch mười hai tháng như vậy. Bạn có thể dùng lịch để sắp xếp, nhưng điều kiện thân tâm và trách nhiệm thực tế mới quyết định có nên tăng thời lượng hay không. Trước khi tăng mạnh, cần đọc đầy đủ #link(<an-toan>)[Chương 9 về an toàn].
+Các mốc tháng, số phút và cách chọn khóa dưới đây là đề nghị của sách. Kinh không ấn định một lịch mười hai tháng như vậy. Bạn có thể dùng lịch để sắp xếp, nhưng điều kiện thân tâm và trách nhiệm thực tế mới quyết định có nên tăng thời lượng hay không. Trước khi tăng mạnh, cần đọc đầy đủ #link(<an-toan>)[Chương 9 về an toàn].
 
 Nếu nhịp thực hành vừa gián đoạn, hãy trở về #link(<khoi-dong-lai>)[hướng dẫn bắt đầu lại ở Chương 1], chưa cần theo các mốc tăng thời lượng bên dưới.
 
 == Hai nhóm bốn yếu tố cần phân biệt
 
-#source-line("KINH", [K02 · SN 55.50], [
+#source-line("KINH", [Theo #nguon("K02")], [
   Bốn yếu tố đưa đến Nhập lưu là thân cận người chân chánh, nghe Chánh pháp, như lý tác ý và thực hành phù hợp với Pháp.
 ])
 
-#source-line("KINH", [K03 · SN 55.4], [
+#source-line("KINH", [Theo #nguon("K03")], [
   Bốn phẩm chất được bài kinh nêu ở bậc Nhập lưu là lòng tịnh tín đã được xác chứng đối với Phật, Pháp, Tăng và giới hạnh được các bậc Thánh quý trọng.
 ])
 
@@ -55,24 +55,24 @@ Tiếp tục giữ giới, học kinh và liên hệ với người hướng d�
 
 Có tuần chỉ giữ được mười phút mỗi ngày vì chăm con, chăm người bệnh hoặc công việc thay đổi. Có thể xem lại lịch rồi tiếp tục từ mức vừa sức. Nếu cần nghỉ vì sức khỏe, dùng hướng dẫn bắt đầu lại khi điều kiện đã phù hợp; không cần ngồi bù.
 
-== Kinh Niệm xứ nói gì về bảy ngày và bảy năm?
+== Kinh Niệm Xứ nói gì về bảy ngày và bảy năm?
 
-#source-line("KINH", [K01 · MN 10, phần kết], [
-  MN 10 nói rằng người tu tập bốn niệm xứ “như vậy” trong bảy năm có thể chờ đợi một trong hai kết quả: chánh trí ngay trong hiện tại, hoặc nếu còn dư y thì Bất lai. Bài kinh rút dần qua các mốc năm, tháng và nửa tháng, đến bảy ngày, vẫn nêu hai kết quả ấy.
+#source-line("KINH", [Theo phần kết của #nguon("K01")], [
+  Bài kinh nói rằng người tu tập bốn niệm xứ “như vậy” trong bảy năm có thể chờ đợi một trong hai kết quả: chánh trí ngay trong hiện tại, hoặc nếu còn dư y thì Bất lai. Bài kinh rút dần qua các mốc năm, tháng và nửa tháng, đến bảy ngày, vẫn nêu hai kết quả ấy.
 ])
 
 #modern-note([
   *Chánh trí ngay trong hiện tại* ở đây được hiểu là quả A-la-hán; *Bất lai* là quả không còn trở lại cõi dục. “Còn dư y” là cách dịch quen thuộc cho phần chấp thủ còn lại trong ngữ cảnh này. Đây không phải hai tên khác của Nhập lưu.
 
-  Cụm “tu tập như vậy” cần được đọc cùng toàn bộ nội dung và phẩm chất thực hành của bài kinh. Đoạn kinh không nói rằng chỉ cần đăng ký, ở đủ bảy ngày hoặc theo một lịch Mahāsi hiện đại là chắc chắn chứng quả. Nó cũng không cho số giờ ngồi mỗi ngày để người biên soạn biến thành một định mức.
+  Cụm “tu tập như vậy” cần được đọc cùng toàn bộ nội dung và phẩm chất thực hành của bài kinh. Đoạn kinh không nói rằng chỉ cần đăng ký, ở đủ bảy ngày hoặc theo một lịch Mahāsi hiện đại là chắc chắn chứng quả. Nó cũng không cho số giờ ngồi mỗi ngày để sách biến thành một định mức.
 ])
 
 #caution(
   [Phân biệt lời kinh với lời hứa của một khóa thiền],
   [
-    #source-badge("BIÊN SOẠN", refs: [đối chiếu K01])
+    #source-badge("BIÊN SOẠN", refs: [Điều cần nhớ khi đọc phần kết của #ten("K01"), do sách lưu ý])
     #v(5pt)
-    Lời dạy có điều kiện trong MN 10 không phải căn cứ để bảo đảm đạo quả cho mọi người tham dự một khóa. Hãy chọn khóa dựa trên nội dung, người hướng dẫn, điều kiện thực tế và an toàn, không dựa vào cam kết chứng đắc sau một số ngày.
+    Lời dạy có điều kiện trong Kinh Niệm Xứ không phải căn cứ để bảo đảm đạo quả cho mọi người tham dự một khóa. Hãy chọn khóa dựa trên nội dung, người hướng dẫn, điều kiện thực tế và an toàn, không dựa vào cam kết chứng đắc sau một số ngày.
   ],
 )
 
@@ -92,7 +92,7 @@ Bạn không cần chờ đến khi “đủ giỏi” mới tìm người hư�
 #caution(
   [Những dấu hiệu cần dừng đăng ký],
   [
-    #source-badge("BIÊN SOẠN", refs: [quy tắc sàng lọc an toàn])
+    #source-badge("BIÊN SOẠN", refs: [Quy tắc sàng lọc an toàn do sách đề nghị])
     #v(5pt)
     Không đăng ký khi có một trong các nhóm dấu hiệu sau:
 
@@ -106,8 +106,8 @@ Bạn không cần chờ đến khi “đủ giỏi” mới tìm người hư�
 
 == Chọn người hướng dẫn
 
-#source-line("MAHĀSI", [P01], [
-  P01 khuyên hành dưới sự hướng dẫn để người dạy có thể trao đổi về pháp hành và chỉ dẫn khi cần. Văn bản không trình bày một giao thức phỏng vấn chuẩn hóa hay dùng cuộc trao đổi ấy làm giấy chứng nhận đạo quả.
+#source-line("MAHĀSI", [Theo sách _#nguon("P01")_ của Thiền sư Mahāsi], [
+  Thiền sư Mahāsi khuyên hành dưới sự hướng dẫn để người dạy có thể trao đổi về pháp hành và chỉ dẫn khi cần. Văn bản không trình bày một giao thức phỏng vấn chuẩn hóa hay dùng cuộc trao đổi ấy làm giấy chứng nhận đạo quả.
 ])
 
 #modern-note([
@@ -139,5 +139,6 @@ Có thể giữ một thời khóa vừa sức, tiếp tục học nguồn căn 
 
     Ba quyết định này giúp xem việc tăng cường độ có phù hợp hay không; chúng không đo trình độ hay thay cho đánh giá sức khỏe chuyên môn.
   ],
-  label: [GẤP SÁCH LẠI · BIÊN SOẠN],
+  label: [Gấp sách lại và thử tự nhớ những điều vừa đọc],
+  kind: "BIÊN SOẠN",
 )

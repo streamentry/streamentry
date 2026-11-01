@@ -5,9 +5,8 @@
   [Bảy ngày bắt đầu],
   [Tuần đầu là dịp làm quen: nhận ra một đối tượng, nhận ra lúc tâm đã rời đối tượng, rồi trở về. Bạn không cần tạo một trạng thái đặc biệt hay giữ tâm đứng yên suốt buổi.],
   provenance: [
-    #source-badge("MAHĀSI", refs: [P01])
-    #h(4pt)
-    #source-badge("BIÊN SOẠN", refs: [lịch, thời lượng và cách thu gọn])
+    #source-badge("MAHĀSI", refs: [Phương pháp theo sách _#ten("P01")_ của Thiền sư Mahāsi])
+    #source-badge("BIÊN SOẠN", refs: [Lịch tập, thời lượng và cách thu gọn cho tuần đầu do sách đề nghị])
   ],
 )
 
@@ -18,17 +17,18 @@
   [
     Chọn một giờ và một chỗ tương đối thuận tiện. Có thể dùng đồng hồ hẹn giờ, ngồi trên gối hoặc ghế, để thân vững mà không phải chịu đau. Sách đề nghị mười lăm phút ngồi mỗi ngày. Nếu mức ấy chưa phù hợp, dùng năm phút trong trọn tuần; các thẻ ghi mười lăm phút dưới đây cũng được hiểu theo mức năm phút bạn đã chọn.
 
-    Buổi kế tiếp giữ nguyên thời lượng quen thuộc; buổi bỏ lỡ không cần bù. Năm và mười lăm phút là gợi ý tạo thói quen của người biên soạn, không phải thời lượng tối ưu, yêu cầu trong kinh hay mốc bảo đảm thành tựu.
+    Buổi kế tiếp giữ nguyên thời lượng quen thuộc; buổi bỏ lỡ không cần bù. Năm và mười lăm phút là gợi ý của sách để tạo thói quen, không phải thời lượng tối ưu, yêu cầu trong kinh hay mốc bảo đảm thành tựu.
   ],
-  label: [THỰC HÀNH · BIÊN SOẠN THEO P01],
+  label: [Thực hành theo hướng dẫn của Thiền sư Mahāsi, nhịp tập do sách đề nghị],
+  kind: "BIÊN SOẠN",
 )
 
 #caution(
   [Nếu chuyển động bụng chưa rõ],
   [
-    Thở tự nhiên, không cố làm bụng phồng mạnh hơn. Có thể đặt nhẹ bàn tay lên bụng để làm quen với chuyển động rồi buông tay; P01 có gợi ý dùng bàn tay khi chưa nhận rõ. Nếu sau khoảng hai đến ba phút thả lỏng vẫn khó biết bụng, chuyển sang nhận biết thân đang ngồi và một chỗ tiếp xúc rõ, như thân với mặt ghế. Dùng chỗ ấy làm điểm trở về cho phần còn lại của buổi, không liên tục đổi đối tượng để tìm cảm giác tốt hơn.
+    Thở tự nhiên, không cố làm bụng phồng mạnh hơn. Có thể đặt nhẹ bàn tay lên bụng để làm quen với chuyển động rồi buông tay; Thiền sư Mahāsi có gợi ý dùng bàn tay khi chưa nhận rõ. Nếu sau khoảng hai đến ba phút thả lỏng vẫn khó biết bụng, chuyển sang nhận biết thân đang ngồi và một chỗ tiếp xúc rõ, như thân với mặt ghế. Dùng chỗ ấy làm điểm trở về cho phần còn lại của buổi, không liên tục đổi đối tượng để tìm cảm giác tốt hơn.
 
-    P01 có hướng dẫn “ngồi” và “xúc chạm” khi bụng không rõ. Việc chỉ chọn một điểm tiếp xúc, mốc hai đến ba phút và giữ điểm ấy đến hết buổi là cách sách thu gọn cho tuần đầu. Nếu việc chú ý vào thân làm tăng hoảng sợ, chóng mặt hay cảm giác xa lạ với bản thân hoặc thực tại, hãy dừng và dùng bài tiếp đất ở #link(<an-toan>)[Chương 9]. An toàn luôn được đặt trước việc giữ đề mục.
+    Thiền sư Mahāsi có hướng dẫn ghi nhận “ngồi” và “xúc chạm” khi bụng không rõ. Việc chỉ chọn một điểm tiếp xúc, mốc hai đến ba phút và giữ điểm ấy đến hết buổi là cách sách thu gọn cho tuần đầu. Nếu việc chú ý vào thân làm tăng hoảng sợ, chóng mặt hay cảm giác xa lạ với bản thân hoặc thực tại, hãy dừng và dùng bài tiếp đất ở #link(<an-toan>)[Chương 9]. An toàn luôn được đặt trước việc giữ đề mục.
   ],
 )
 
@@ -45,8 +45,8 @@
   Bạn không cần thuộc danh sách nhãn trước khi ngồi. “Phồng”, “xẹp”, “nghĩ” có thể đủ để bắt đầu; khi chọn điểm tiếp xúc, dùng “ngồi” hoặc “chạm”. #link(<nhan-tham-chieu>)[Phụ lục B] giúp tra thêm. Chỉ dùng nhãn sau khi nhận ra hiện tượng, không đoán cảm giác để khớp với một từ.
 ])
 
-#source-line("BIÊN SOẠN", [lịch bảy ngày dựa trên P01], [
-  Thời lượng được giữ nguyên trong tuần. Từ Ngày 3 có thể thêm thiền hành ngắn nếu thuận tiện và thân tâm ổn. Phần thêm hoàn toàn tùy chọn; P01 không quy định lịch bảy ngày hay những thời lượng này.
+#source-line("BIÊN SOẠN", [Lịch bảy ngày do sách soạn, dựa trên các bài tập căn bản của Thiền sư Mahāsi], [
+  Thời lượng được giữ nguyên trong tuần. Từ Ngày 3 có thể thêm thiền hành ngắn nếu thuận tiện và thân tâm ổn. Phần thêm hoàn toàn tùy chọn; sách của Thiền sư Mahāsi không quy định lịch bảy ngày hay những thời lượng này.
 ])
 
 Mỗi ngày giới thiệu một điều để làm quen. Có thể dành thêm vài ngày cho một nội dung trước khi đọc tiếp; không có yêu cầu phải tiến kịp lịch. Nếu đã chọn năm phút, tiếp tục năm phút ở tất cả các ngày. Cách giữ nhịp vừa sức cũng gồm việc chú ý đến giấc ngủ, sức khỏe và bổn phận.
@@ -67,13 +67,13 @@ Mỗi ngày giới thiệu một điều để làm quen. Có thể dành thêm 
 
 == Thế nào là “làm đúng” trong tuần đầu?
 
-#source-line("MAHĀSI", [P01], [
-  P01 dạy biết đối tượng căn bản, ghi nhận hiện tượng khác khi nó chi phối, rồi trở về. Nhãn hỗ trợ nhận biết; nó không thay thế hiện tượng được quan sát.
+#source-line("MAHĀSI", [Theo sách _#ten("P01")_ của Thiền sư Mahāsi], [
+  Thiền sư Mahāsi dạy biết đối tượng căn bản, ghi nhận hiện tượng khác khi nó chi phối, rồi trở về. Nhãn hỗ trợ nhận biết; nó không thay thế hiện tượng được quan sát.
 ])
 
 #v(8pt)
 
-#source-line("BIÊN SOẠN", [thử nhịp thực hành], [
+#source-line("BIÊN SOẠN", [Tuần đầu là thời gian thử nhịp], [
   Một tuần có thể bắt đầu cho thấy giờ, chỗ và thời lượng nào thuận tiện. Quãng thời gian ấy chưa đủ để kết luận phương pháp có phù hợp với toàn bộ con đường tu của một người hay không.
 ])
 
@@ -98,7 +98,7 @@ Mỗi ngày giới thiệu một điều để làm quen. Có thể dành thêm 
 
 == Ngày 8 đến 30: giữ mạch, không vội tăng <ngay-8-30>
 
-#source-line("BIÊN SOẠN", [cầu nối tháng đầu, đối chiếu Chương 7; Chương 8; Phụ lục A], [
+#source-line("BIÊN SOẠN", [Gợi ý của sách cho tháng đầu, nối với Chương 7, Chương 8 và Phụ lục A], [
   Không có nguồn kinh hay chỉ dẫn Mahāsi nào trong sách ấn định lịch dưới đây. Đây là gợi ý: chỉ đổi một yếu tố mỗi lần, theo dõi tác động lên đời sống và ưu tiên an toàn. Không cần tăng chỉ vì lịch đã sang tuần mới.
 ])
 
@@ -113,13 +113,14 @@ Mỗi ngày giới thiệu một điều để làm quen. Có thể dành thêm 
 
     Ngày 30 không phải kỳ thi về thời lượng. Những mốc này giúp thử nhịp sống cùng việc thực hành, không phải lịch phát triển tuệ.
   ],
-  label: [CẦU NỐI THÁNG ĐẦU · BIÊN SOẠN],
+  label: [Cầu nối cho tháng đầu],
+  kind: "BIÊN SOẠN",
 )
 
 == Khi nhịp bị gãy, quay lại thế nào <khoi-dong-lai>
 
-#source-line("BIÊN SOẠN", [quy tắc quay lại và ngưỡng an toàn], [
-  Kinh và P01 không ấn định một số ngày nghỉ khiến bạn buộc phải bắt đầu lại. Các gợi ý dưới đây giúp quay lại mà không bù giờ, tự phạt hoặc tự động tiếp tục sau dấu hiệu nguy cơ.
+#source-line("BIÊN SOẠN", [Cách quay lại và ngưỡng an toàn do sách đề nghị], [
+  Kinh điển và sách của Thiền sư Mahāsi không ấn định một số ngày nghỉ khiến bạn buộc phải bắt đầu lại. Các gợi ý dưới đây giúp quay lại mà không bù giờ, tự phạt hoặc tự động tiếp tục sau dấu hiệu nguy cơ.
 ])
 
 #practice-card(
@@ -133,7 +134,8 @@ Mỗi ngày giới thiệu một điều để làm quen. Có thể dành thêm 
 
     Nếu đã dừng vì hoảng sợ lặp lại, mất ngủ tăng, cảm giác xa lạ với bản thân hay thực tại, khó phân biệt thực với không thực hoặc suy giảm sinh hoạt, đừng tự động khởi động lại. Dùng #link(<an-toan>)[ba mức phản ứng ở Chương 9] và tìm hỗ trợ phù hợp trước.
   ],
-  label: [KHỞI ĐỘNG LẠI · BIÊN SOẠN],
+  label: [Khởi động lại sau khi gián đoạn],
+  kind: "BIÊN SOẠN",
 )
 
 #context {

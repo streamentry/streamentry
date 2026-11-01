@@ -50,8 +50,8 @@ class SourceCodeLegendTests(unittest.TestCase):
 
     def test_health_agency_abbreviations_are_expanded_at_first_use(self) -> None:
         text = SAFETY_CHAPTER.read_text(encoding="utf-8")
-        first_source_summary = text.index("Quy trình ấy là khung biên soạn thận trọng")
-        first_detailed_source = text.index('#source-line("Y TẾ & NGHIÊN CỨU", [R05]')
+        first_source_summary = text.index("Quy trình ấy là khung thận trọng do sách soạn")
+        first_detailed_source = text.index('#source-line("Y TẾ & NGHIÊN CỨU", [Theo #nguon("R05")]')
         legend = text[first_source_summary:first_detailed_source]
         for marker in (
             "*WHO* là _World Health Organization_",

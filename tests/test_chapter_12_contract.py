@@ -53,7 +53,7 @@ class Chapter12ContractTests(unittest.TestCase):
         )[1].split("== Tóm tắt đường đi", maxsplit=1)[0]
         for number in range(1, 12):
             self.assertRegex(section, rf"(?m)^- \*{number} · ")
-        self.assertIn("minh họa đối chiếu P02 mục 1–11", section)
+        self.assertIn("Giới hạn của minh họa, đối chiếu mục 1 đến 11", section)
 
     def test_beginner_model_explains_maturation_without_fake_thresholds(
         self,
@@ -84,7 +84,7 @@ class Chapter12ContractTests(unittest.TestCase):
             self.assertIn(distinction, self.chapter)
 
         self.assertIn(
-            "P02 không ban hành khung bốn câu, không cho ngưỡng số",
+            "Ngài không ban hành khung bốn câu, không cho ngưỡng số",
             self.chapter,
         )
         for redundant_frame in (
@@ -111,8 +111,8 @@ class Chapter12ContractTests(unittest.TestCase):
         for number in range(12, 18):
             stage = self._stage(number)
             self.assertIn("*Tên này đang chỉ gì.*", stage)
-        self.assertIn("P02 · mục 12–17; chú thích 40–45", self.chapter)
-        self.assertIn("V01 · XXI.128–131; XXII.1–21", self.chapter)
+        self.assertIn("mục 12 đến 17 và chú thích 40 đến 45", self.chapter)
+        self.assertIn("chương XXI, đoạn 128 đến 131, và chương XXII, đoạn 1 đến 21", self.chapter)
         self.assertIn(
             "không thể trung thực biến chúng thành năm cảm giác",
             self.chapter,

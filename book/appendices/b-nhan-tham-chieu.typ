@@ -21,14 +21,12 @@
 
     Trong tuần đầu, bụng là điểm mặc định. Nếu sau khoảng hai đến ba phút thả lỏng vẫn khó nhận, biết thân đang ngồi và một điểm tiếp xúc rõ, rồi dùng điểm ấy làm chỗ trở về cho phần còn lại của buổi. Không cần liên tục đổi đối tượng để tìm cảm giác dễ chịu hơn.
 
-    P01 có chỉ dẫn ngồi và xúc chạm khi bụng không rõ. Chỉ một điểm tiếp xúc, mốc hai đến ba phút và giữ đến hết buổi là cách sách thu gọn cho người mới; xem Chương 1 và Chương 5.
+    Thiền sư Mahāsi có chỉ dẫn ghi nhận ngồi và xúc chạm khi bụng không rõ. Chỉ một điểm tiếp xúc, mốc hai đến ba phút và giữ đến hết buổi là cách sách thu gọn cho người mới; xem Chương 1 và Chương 5.
 
     Nếu chú ý vào thân làm hoảng sợ, chóng mặt hoặc cảm giác xa lạ với bản thân hay thực tại tăng, hãy dừng và dùng #link(<an-toan>)[Chương 9]. An toàn được đặt trước việc giữ điểm tựa.
-
-    #v(5pt)
-    #source-badge("BIÊN SOẠN", refs: [đối chiếu P01])
   ],
-  label: [ĐỀ MỤC CHÍNH],
+  label: [Đề mục chính, đối chiếu hướng dẫn của Thiền sư Mahāsi],
+  kind: "BIÊN SOẠN",
 )
 
 #v(7pt)
@@ -36,9 +34,6 @@
 #practice-card(
   [Thân và chuyển động],
   [
-    #source-badge("BIÊN SOẠN", refs: [dựa trên P01])
-    #v(5pt)
-
     *Cảm giác:* “nóng”, “lạnh”, “căng”, “rung”, “tê”, “ngứa”, “đau”, “nặng”, “nhẹ”.
 
     *Thiền hành:* bắt đầu “trái”, “phải” hoặc “nhấc”, “đặt”; khi đủ rõ mới thêm “đưa”, “hạ”, “chạm”, “quay”.
@@ -47,7 +42,8 @@
 
     Biết nét đang rõ; không đoán nguyên nhân từ một nhãn. Nếu đau tăng hoặc cần bảo vệ an toàn, đổi tư thế hay dừng ngay, không chờ ghi nhãn xong.
   ],
-  label: [THÂN],
+  label: [Nhãn cho thân, dựa trên hướng dẫn của Thiền sư Mahāsi],
+  kind: "BIÊN SOẠN",
 )
 
 #v(7pt)
@@ -55,16 +51,14 @@
 #practice-card(
   [Thọ và tâm],
   [
-    #source-badge("BIÊN SOẠN", refs: [dựa trên K01; P01])
-    #v(5pt)
-
     *Thọ:* “dễ chịu”, “khó chịu”, “trung tính”.
 
     *Tâm và cảm xúc:* “tham”, “bực”, “sợ”, “lo”, “buồn”, “vui”, “chán”, “nghi”, “buồn ngủ”, “bồn chồn”.
 
     Thọ không phải toàn bộ một cảm xúc. Cảm xúc có thể gồm cảm giác thân, thọ, ý nghĩ và ý định. Một từ giúp nhận diện, không chứng minh nguyên nhân, triền cái hay mức chứng đạt. Chưa rõ thì để là chưa rõ; xem thêm *vedanā* ở Phụ lục D.
   ],
-  label: [THỌ VÀ TÂM],
+  label: [Nhãn cho thọ và tâm, dựa trên #ten("K01") và hướng dẫn của Thiền sư Mahāsi],
+  kind: "BIÊN SOẠN",
 )
 
 #v(7pt)
@@ -72,9 +66,6 @@
 #practice-card(
   [Sáu cửa và suy nghĩ],
   [
-    #source-badge("BIÊN SOẠN", refs: [đối chiếu K01; P01])
-    #v(5pt)
-
     “Sáu cửa” là mắt, tai, mũi, lưỡi, thân và ý. Cửa ý liên quan đến các đối tượng tâm như ý nghĩ, ký ức và hình ảnh tâm.
 
     *Giác quan:* “thấy”, “nghe”, “ngửi”, “nếm”, “chạm”.
@@ -83,7 +74,8 @@
 
     Trong buổi ngồi, không cần giải quyết mọi câu chuyện vừa xuất hiện. Nhưng nếu có việc cấp bách, tiếng báo nguy hiểm hoặc người cần giúp, hãy dừng và xử lý trước.
   ],
-  label: [SÁU CỬA],
+  label: [Nhãn cho sáu cửa, đối chiếu #ten("K01") và hướng dẫn của Thiền sư Mahāsi],
+  kind: "BIÊN SOẠN",
 )
 
 #v(7pt)
@@ -91,12 +83,10 @@
 #practice-card(
   [Ý định],
   [
-    #source-badge("BIÊN SOẠN", refs: [dựa trên P01; đối chiếu K19])
-    #v(5pt)
-
     Có thể dùng “muốn” kèm một động từ: “muốn gãi”, “muốn nói”, “muốn đứng”. Chỉ ghi khi đã nhận ra; không dựng ý định bằng tưởng tượng để khớp bài tập. Nhận ra muộn không có nghĩa phải quay lại kể đủ mọi bước. Khi an toàn đòi hỏi, hành động trước việc tìm nhãn.
   ],
-  label: [Ý ĐỊNH · CETANĀ],
+  label: [Nhãn cho ý định (cetanā), dựa trên hướng dẫn của Thiền sư Mahāsi, đối chiếu #ten("K19")],
+  kind: "BIÊN SOẠN",
 )
 
 == Ba quy tắc dùng nhãn
@@ -109,8 +99,8 @@
 
 #v(9pt)
 
-#source-line("BIÊN SOẠN", [bảng từ Việt, đối chiếu P01], [
-  P01 dạy ghi nhận trong tâm, không đọc thành tiếng hay tụng từ “phồng, xẹp”. Bảng tiếng Việt ở đây do sách biên soạn; MN 10 không quy định bảng từ này. Những quy tắc dùng nhãn cũng không phải mô tả chính xác thứ tự các sát-na tâm.
+#source-line("BIÊN SOẠN", [Bảng từ tiếng Việt do sách soạn, đối chiếu sách _#nguon("P01")_ của Thiền sư Mahāsi], [
+  Thiền sư Mahāsi dạy ghi nhận trong tâm, không đọc thành tiếng hay tụng từ “phồng, xẹp”. Bảng tiếng Việt ở đây do sách soạn; #nguon("K01") không quy định bảng từ này. Những quy tắc dùng nhãn cũng không phải mô tả chính xác thứ tự các sát-na tâm.
 ])
 
 #v(7pt)

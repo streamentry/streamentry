@@ -17,8 +17,8 @@ class CurrentReleaseIntegrationTests(unittest.TestCase):
     def test_current_release_evidence_matches_dist_artifacts(self) -> None:
         evidence = verify_release(ROOT)
         # Updated after the pinned hosted rebuild of the current book and the
-        # matching release-evidence.md update (243-page candidate).
-        self.assertEqual(evidence.pdf_pages, 243)
+        # matching release-evidence.md update (241-page candidate).
+        self.assertEqual(evidence.pdf_pages, 241)
         self.assertEqual(evidence.epub_content_entries, 278)
         self.assertEqual(evidence.epub_cover_entries, 1)
 

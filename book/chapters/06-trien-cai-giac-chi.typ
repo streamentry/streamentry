@@ -4,13 +4,13 @@
   [06],
   [Triền cái và giác chi],
   [Khi ngồi xuống, ta có thể gặp ham muốn, bực bội, buồn ngủ, bồn chồn hay nghi ngờ. Chương này giúp nhận ra những trạng thái ấy, tìm hiểu điều gì nuôi chúng và học cách nuôi những phẩm chất nâng đỡ sự giác ngộ.],
-  provenance: source-badge("BIÊN SOẠN", refs: [đọc K01 · K13 · K22 · K54]),
+  provenance: source-badge("BIÊN SOẠN", refs: [Chương này đọc #ten("K01"), #ten("K13"), #ten("K22") và #ten("K54")\; lời giải thích và gợi ý thực hành do sách soạn]),
 )
 
 Chương trước hướng dẫn cách nhận biết điều đang nổi bật. Chương này đi thêm một bước: không chỉ biết tâm đang thế nào, mà còn học cách đáp lại phù hợp. Một trở ngại được nhận ra là điều có thể tìm hiểu, không phải lý do để kết luận mình không biết tu.
 
-#source-line("KINH", [K01 · MN 10, phần quán pháp], [
-  MN 10 trình bày năm triền cái: tham dục, sân, hôn trầm-thụy miên, trạo cử-hối và hoài nghi. Bài kinh cũng trình bày bảy giác chi: niệm, trạch pháp, tinh tấn, hỷ, khinh an, định và xả.
+#source-line("KINH", [Theo phần quán pháp trong #nguon("K01")], [
+  Bài kinh trình bày năm triền cái: tham dục, sân, hôn trầm-thụy miên, trạo cử-hối và hoài nghi. Bài kinh cũng trình bày bảy giác chi: niệm, trạch pháp, tinh tấn, hỷ, khinh an, định và xả.
 ])
 
 #modern-note([
@@ -21,18 +21,18 @@ Chương trước hướng dẫn cách nhận biết điều đang nổi bật. 
 
 == Nhận ra trở ngại và tìm hiểu điều kiện của nó
 
-#source-line("KINH", [K01 · MN 10, phần năm triền cái], [
+#source-line("KINH", [Theo phần năm triền cái trong #ten("K01")], [
   Với mỗi triền cái, bài kinh nêu việc biết khi nó có mặt, khi nó vắng mặt, khi một triền cái chưa sinh được sinh khởi, khi triền cái đã sinh được từ bỏ, và khi triền cái đã được từ bỏ không còn sinh khởi về sau.
 ])
 
 #modern-note([
-  Vì vậy, gọi đúng tên mới chỉ là một phần. Bạn có thể tự hỏi: “Điều gì đang có mặt?”, “Điều gì đang nuôi nó?” và “Bây giờ có thể làm gì để không tiếp tục nuôi điều bất thiện?”. Ba câu này là gợi ý của sách, không phải một công thức được MN 10 liệt kê. Sự lắng xuống trong một buổi ngồi cũng cần được phân biệt với sự đoạn trừ không còn sinh lại.
+  Vì vậy, gọi đúng tên mới chỉ là một phần. Bạn có thể tự hỏi: “Điều gì đang có mặt?”, “Điều gì đang nuôi nó?” và “Bây giờ có thể làm gì để không tiếp tục nuôi điều bất thiện?”. Ba câu này là gợi ý của sách, không phải một công thức được Kinh Niệm Xứ liệt kê. Sự lắng xuống trong một buổi ngồi cũng cần được phân biệt với sự đoạn trừ không còn sinh lại.
 ])
 
 == Tham dục: nhận ra sự ham thích đang kéo tâm đi
 
-#source-line("KINH", [K01 · MN 10; K22 · SN 46.51], [
-  MN 10 dạy biết tham dục khi có và khi không. SN 46.51 nói đến việc thường xuyên tác ý không như lý đối với tướng đẹp như thức ăn cho tham dục; thường xuyên tác ý như lý đối với tướng bất tịnh là không cung cấp thức ăn cho tham dục.
+#source-line("KINH", [Theo #ten("K01") và #nguon("K22")], [
+  Kinh Niệm Xứ dạy biết tham dục khi có và khi không. Kinh Thức Ăn nói đến việc thường xuyên tác ý không như lý đối với tướng đẹp như thức ăn cho tham dục; thường xuyên tác ý như lý đối với tướng bất tịnh là không cung cấp thức ăn cho tham dục.
 ])
 
 #modern-note([
@@ -43,8 +43,8 @@ Chương trước hướng dẫn cách nhận biết điều đang nổi bật. 
 
 == Sân: nhận biết mà không làm hại
 
-#source-line("KINH", [K01 · MN 10; K22 · SN 46.51:14], [
-  MN 10 dạy biết sân khi có và khi không. SN 46.51 nêu tâm từ giải thoát, mettācetovimutti; thường xuyên tác ý như lý đối với điều ấy là không cung cấp thức ăn cho sự sinh khởi và tăng trưởng của sân.
+#source-line("KINH", [Theo #ten("K01") và #ten("K22"), đoạn 14], [
+  Kinh Niệm Xứ dạy biết sân khi có và khi không. Kinh Thức Ăn nêu tâm từ giải thoát, mettācetovimutti; thường xuyên tác ý như lý đối với điều ấy là không cung cấp thức ăn cho sự sinh khởi và tăng trưởng của sân.
 ])
 
 #modern-note([
@@ -56,35 +56,36 @@ Chương trước hướng dẫn cách nhận biết điều đang nổi bật. 
   [
     Trước hết, ngừng hành vi có thể gây hại. Khi đã ở nơi an toàn, nhận ra tâm đang có sân và những gì bạn thật sự biết ở thân, chẳng hạn nóng hoặc căng.
 
-    Nếu phù hợp, có thể khởi một lời nguyện ngắn: “Mong mình và người được an lành. Mong mình không làm điều gây thêm khổ.” Đây là câu do sách biên soạn, không phải lời kinh nguyên văn. Không cần ép mình phải cảm thấy thương mến ngay.
+    Nếu phù hợp, có thể khởi một lời nguyện ngắn: “Mong mình và người được an lành. Mong mình không làm điều gây thêm khổ.” Đây là câu do sách soạn, không phải lời kinh nguyên văn. Không cần ép mình phải cảm thấy thương mến ngay.
 
     Khi có thể trở lại thực hành nhẹ nhàng, trở về đề mục quen thuộc. Nếu hoảng sợ hay căng thẳng tăng, hãy dừng và dùng hướng dẫn an toàn ở Chương 9, thay vì cố hoàn thành bài tập.
   ],
-  label: [THỰC HÀNH · BIÊN SOẠN THEO K22],
+  label: [Thực hành dựa trên #ten("K22")],
+  kind: "BIÊN SOẠN",
 )
 
 == Hôn trầm-thụy miên: khi tâm trì trệ, buồn ngủ
 
-#source-line("KINH", [K01 · MN 10, phần năm triền cái], [
+#source-line("KINH", [Theo phần năm triền cái trong #ten("K01")], [
   Hôn trầm và thụy miên được nêu chung thành một triền cái. Bài kinh yêu cầu biết sự có mặt, vắng mặt, sinh khởi, từ bỏ và không sinh lại của triền cái ấy, như với các triền cái khác.
 ])
 
-#source-line("MAHĀSI", [P01 · Basic Exercise III, đoạn nằm xuống để ngủ], [
-  Trong đoạn hướng dẫn khi đã nằm xuống để ngủ, P01 dạy nhận biết buồn ngủ. Tác phẩm nói sự ghi nhận có thể xua buồn ngủ; nếu buồn ngủ vẫn thắng, tiếp tục nhận biết cho đến khi ngủ. Cần giữ bối cảnh này, không đổi thành lời dặn luôn ngồi chờ ngủ gật.
+#source-line("MAHĀSI", [Theo đoạn nằm xuống để ngủ, bài tập căn bản III trong sách _#nguon("P01")_ của Thiền sư Mahāsi], [
+  Trong đoạn hướng dẫn khi đã nằm xuống để ngủ, Thiền sư Mahāsi dạy nhận biết buồn ngủ. Tác phẩm nói sự ghi nhận có thể xua buồn ngủ; nếu buồn ngủ vẫn thắng, tiếp tục nhận biết cho đến khi ngủ. Cần giữ bối cảnh này, không đổi thành lời dặn luôn ngồi chờ ngủ gật.
 ])
 
-#source-line("KINH", [K54 · AN 7.61:2–9, hệ số SuttaCentral], [
+#source-line("KINH", [Theo #nguon("K54", doan: "đoạn 2 đến 9, theo cách đánh số của SuttaCentral")], [
   Đức Phật dạy Tôn giả Moggallāna nhiều cách ứng xử khi buồn ngủ; nếu cách trước chưa hiệu quả thì chuyển sang cách tiếp theo. Trong số đó có suy xét Pháp đã học, đọc lại thành tiếng, đứng dậy dùng nước lau mắt rồi nhìn quanh, và đi kinh hành. Nếu các cách ấy chưa xua được buồn ngủ, kinh nêu nằm nghiêng phải trong tư thế sư tử, có niệm, tỉnh giác và nhớ ý định thức dậy. Đây là diễn ý chọn lọc, không phải toàn bộ trình tự của bài kinh.
 ])
 
 #modern-note([
-  Nhận ra buồn ngủ là điểm bắt đầu, không phải lúc nào cũng là toàn bộ việc cần làm. Khi chỉ hơi lơ mơ và vẫn an toàn, bạn có thể thử mở mắt, ngồi thẳng vừa phải hoặc đi nhẹ ở nơi không có rủi ro. Chọn một điều chỉnh rồi xem có tỉnh hơn không; đây là cách sách thu gọn để áp dụng, không phải trình tự đầy đủ của AN 7.61 hay lời gán cho P01. Nếu thiếu ngủ hoặc kiệt sức, ưu tiên nghỉ; không buộc mình thử hết các cách chỉ để giữ đúng lịch.
+  Nhận ra buồn ngủ là điểm bắt đầu, không phải lúc nào cũng là toàn bộ việc cần làm. Khi chỉ hơi lơ mơ và vẫn an toàn, bạn có thể thử mở mắt, ngồi thẳng vừa phải hoặc đi nhẹ ở nơi không có rủi ro. Chọn một điều chỉnh rồi xem có tỉnh hơn không; đây là cách sách thu gọn để áp dụng, không phải trình tự đầy đủ của bài kinh hay lời gán cho Thiền sư Mahāsi. Nếu thiếu ngủ hoặc kiệt sức, ưu tiên nghỉ; không buộc mình thử hết các cách chỉ để giữ đúng lịch.
 ])
 
 #caution(
   [Chăm sóc giấc ngủ trước khi tăng nỗ lực],
   [
-    #source-badge("BIÊN SOẠN", refs: [giới hạn an toàn; xem Chương 9])
+    #source-badge("BIÊN SOẠN", refs: [Giới hạn an toàn do sách lưu ý; xem thêm Chương 9])
     #v(5pt)
     Nếu nhiều đêm ngủ không đủ, cần ưu tiên nghỉ và ngủ đủ. Không dùng việc tăng tốc ghi nhận để cố vượt qua kiệt sức. Buồn ngủ liên hệ với thuốc, bệnh hoặc vấn đề giấc ngủ cần được xem xét theo nguyên nhân; sách không dùng tên một triền cái để thay cho việc đánh giá sức khỏe.
   ],
@@ -92,20 +93,20 @@ Chương trước hướng dẫn cách nhận biết điều đang nổi bật. 
 
 == Trạo cử-hối: nhận ra xao động và day dứt
 
-#source-line("KINH", [K01 · MN 10; K04 · AN 10.1], [
-  MN 10 nêu trạo cử và hối trong cùng một triền cái. AN 10.1 trình bày không hối hận là lợi ích của giới thiện, rồi lần lượt nói đến hân hoan, hỷ, khinh an, lạc và định.
+#source-line("KINH", [Theo #ten("K01") và #nguon("K04")], [
+  Kinh Niệm Xứ nêu trạo cử và hối trong cùng một triền cái. Bài kinh về mục đích của giới trình bày không hối hận là lợi ích của giới thiện, rồi lần lượt nói đến hân hoan, hỷ, khinh an, lạc và định.
 ])
 
 #modern-note([
-  Trong buổi ngồi, bạn có thể nhận ra sự bồn chồn mà không cần giải quyết mọi ý nghĩ ngay. Sau buổi ngồi, hãy xem có việc nào thật sự cần xử lý: sửa một sai sót, xin lỗi, giữ một lời hứa hoặc sắp xếp lại công việc. Đây là gợi ý ứng dụng của sách, không phải danh sách hành động của AN 10.1.
+  Trong buổi ngồi, bạn có thể nhận ra sự bồn chồn mà không cần giải quyết mọi ý nghĩ ngay. Sau buổi ngồi, hãy xem có việc nào thật sự cần xử lý: sửa một sai sót, xin lỗi, giữ một lời hứa hoặc sắp xếp lại công việc. Đây là gợi ý ứng dụng của sách, không phải danh sách hành động của bài kinh.
 
   Không phải mọi bất an đều do mình làm sai. Khi chưa rõ nguyên nhân, có thể tìm người phù hợp để trao đổi thay vì tự trách. Nếu trạng thái kéo dài hoặc ảnh hưởng sinh hoạt, dùng hướng dẫn an toàn cuối chương.
 ])
 
 == Hoài nghi: phân biệt câu hỏi cần học và sự do dự cản trở
 
-#source-line("KINH", [K01 · MN 10; K22 · SN 46.51:17], [
-  MN 10 dạy biết hoài nghi khi có và khi không. SN 46.51 nêu việc thường xuyên tác ý như lý đối với các pháp thiện và bất thiện, có lỗi và không lỗi, thấp kém và cao thượng, thuộc phía tối và phía sáng, là không cung cấp thức ăn cho hoài nghi.
+#source-line("KINH", [Theo #ten("K01") và #ten("K22"), đoạn 17], [
+  Kinh Niệm Xứ dạy biết hoài nghi khi có và khi không. Kinh Thức Ăn nêu việc thường xuyên tác ý như lý đối với các pháp thiện và bất thiện, có lỗi và không lỗi, thấp kém và cao thượng, thuộc phía tối và phía sáng, là không cung cấp thức ăn cho hoài nghi.
 ])
 
 #modern-note([
@@ -115,7 +116,7 @@ Chương trước hướng dẫn cách nhận biết điều đang nổi bật. 
 #caution(
   [Kiên trì không có nghĩa là ở lại trong điều gây hại],
   [
-    #source-badge("BIÊN SOẠN", refs: [nguyên tắc an toàn])
+    #source-badge("BIÊN SOẠN", refs: [Nguyên tắc an toàn của sách])
     #v(5pt)
     Một khó chịu nhất thời và một phương pháp đang gây hại là hai việc khác nhau. Hãy tìm hiểu trước khi đổi chỉ vì nôn nóng; đồng thời, có thể dừng hoặc rời đi khi thực hành làm sức khỏe xấu đi hay quan hệ hướng dẫn có cưỡng ép, lạm dụng. Việc bảo vệ an toàn không phải bằng chứng thiếu lòng tin.
   ],
@@ -125,7 +126,7 @@ Năm phần trên giúp nhận ra điều đang cản trở. Phần tiếp theo 
 
 == Bảy giác chi: biết lúc nâng tâm, biết lúc làm dịu
 
-#source-line("KINH", [K01 · MN 10, phần bảy giác chi], [
+#source-line("KINH", [Theo phần bảy giác chi trong #ten("K01")], [
   Bảy giác chi là niệm, trạch pháp, tinh tấn, hỷ, khinh an, định và xả. Bài kinh nêu việc biết mỗi giác chi khi có, khi không, sự sinh khởi của giác chi chưa sinh và sự tu tập đến viên mãn của giác chi đã sinh.
 ])
 
@@ -143,7 +144,7 @@ Năm phần trên giúp nhận ra điều đang cản trở. Phần tiếp theo 
   Đây là lời giải nghĩa ngắn, không phải tiêu chuẩn tự xác nhận đã thành tựu giác chi. Một trạng thái tương tự trong sinh hoạt không tự động đồng nghĩa với phẩm chất đã được tu tập viên mãn.
 ])
 
-#source-line("KINH", [K13 · SN 46.53], [
+#source-line("KINH", [Theo #nguon("K13")], [
   Khi tâm trì trệ, bài kinh nêu đó là lúc thích hợp để phát triển trạch pháp, tinh tấn và hỷ, không phải lúc thích hợp để phát triển khinh an, định và xả. Khi tâm xao động, điều ngược lại được nêu: phát triển khinh an, định và xả là thích hợp; phát triển trạch pháp, tinh tấn và hỷ không thích hợp vào lúc ấy. Niệm được nói là hữu ích trong mọi trường hợp.
 ])
 
@@ -160,17 +161,18 @@ Năm phần trên giúp nhận ra điều đang cản trở. Phần tiếp theo 
 
     Các việc cụ thể này là gợi ý của sách, không phải cách dịch trực tiếp từng giác chi. Nếu điều chỉnh làm tình trạng xấu hơn, hãy dừng, không cố áp dụng bảng.
   ],
-  label: [THỰC HÀNH · BIÊN SOẠN THEO K13],
+  label: [Thực hành dựa trên #ten("K13")],
+  kind: "BIÊN SOẠN",
 )
 
 == Khi cần chuyển từ tên pháp sang câu hỏi về sức khỏe
 
-Một tên gọi trong pháp học không đủ để giải thích mọi trạng thái. Giới hạn an toàn dưới đây là hướng dẫn hiện đại của sách, không phải tiêu chuẩn chẩn đoán được rút từ MN 10.
+Một tên gọi trong pháp học không đủ để giải thích mọi trạng thái. Giới hạn an toàn dưới đây là hướng dẫn hiện đại của sách, không phải tiêu chuẩn chẩn đoán được rút từ Kinh Niệm Xứ.
 
 #caution(
   [Nhận ra dấu hiệu cần hỗ trợ],
   [
-    #source-badge("BIÊN SOẠN", refs: [giữ các ngưỡng an toàn ở Chương 9])
+    #source-badge("BIÊN SOẠN", refs: [Sách nhắc bạn giữ đúng các ngưỡng an toàn đã nêu ở Chương 9])
     #v(5pt)
     Cần chú ý khi các trạng thái sau kéo dài hoặc tăng lên:
 
@@ -187,10 +189,10 @@ Một tên gọi trong pháp học không đủ để giải thích mọi trạn
   [Gấp sách lại: ba quyết định],
   [
     1. Khi một triền cái có mặt, bạn sẽ tìm hiểu thêm điều gì ngoài tên của nó?
-    2. Khi tâm trì trệ và khi tâm xao động, hai nhóm giác chi nào được SN 46.53 khuyên phát triển? Niệm có vai trò gì?
+    2. Khi tâm trì trệ và khi tâm xao động, hai nhóm giác chi nào được bài kinh về cách quân bình các giác chi khuyên phát triển? Niệm có vai trò gì?
     3. Khi trạng thái kéo dài ngoài giờ hành, gây mất ngủ hoặc giảm khả năng sinh hoạt, vì sao cần mở hướng dẫn an toàn thay vì tự gắn tên một tầng tuệ?
 
     Bạn có thể mở lại đúng phần chưa nhớ. Mục đích là chọn được cách đáp lại phù hợp, không phải ghi nhớ thuật ngữ bằng mọi giá.
   ],
-  label: [GẤP SÁCH LẠI · QUYẾT ĐỊNH],
+  label: [Gấp sách lại và thử tự đưa ra quyết định],
 )

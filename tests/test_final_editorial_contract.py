@@ -45,12 +45,12 @@ class FinalEditorialContract(unittest.TestCase):
         text = read("book/chapters/12-ban-do-tue.typ")
         headings = re.findall(r"^==== (\d+)\.", text, re.MULTILINE)
         self.assertEqual(headings, [str(i) for i in range(1, 18)])
-        self.assertIn("V01 · XVIII.1–5", text)
-        self.assertIn("V01 · XXI.32–33", text)
-        self.assertIn("V01 · XXII.1; 7–11", text)
+        self.assertIn("chương XVIII, đoạn 1 đến 5", text)
+        self.assertIn("chương XXI, đoạn 32 và 33", text)
+        self.assertIn("chương XXII, đoạn 1 và đoạn 7 đến 11", text)
         self.assertIn("không đồng nhất với đạo trí", text)
         self.assertNotIn("Nibbidā* ở đây gần với ly tham", text)
-        self.assertIn("giới hạn suy luận của bản biên soạn", text)
+        self.assertIn("giới hạn suy luận của sách", text)
 
     def test_closing_recalls_all_four_tasks(self):
         text = read("book/chapters/loi-cuoi.typ")

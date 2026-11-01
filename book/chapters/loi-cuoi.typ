@@ -6,7 +6,7 @@
 #v(4mm)
 = Lời cuối
 
-#source-badge("BIÊN SOẠN", refs: [lời kết; đối chiếu K02 · K04 · K05 · K06])
+#source-badge("BIÊN SOẠN", refs: [Lời kết của sách, nhớ lại #ten("K02"), #ten("K04"), #ten("K05") và #ten("K06")])
 #v(5pt)
 
 Đến đây, bạn không cần mang theo tất cả tên gọi trong sách. Có thể giữ lại vài điều để tiếp tục học: khổ cần được hiểu, ái cần được từ bỏ, sự chấm dứt khổ cần được thực chứng, và con đường cần được tu tập. Đó không chỉ là việc trong giờ ngồi, mà còn là hướng để nhìn lại lời nói, hành động và cách sống.

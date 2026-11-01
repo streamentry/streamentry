@@ -48,7 +48,7 @@ class ThreeFettersChecklistTests(unittest.TestCase):
         for code, section in sections:
             with self.subTest(code=code):
                 self.assertIn('#source-badge("BIÊN SOẠN"', section)
-                self.assertRegex(section, r'#link\("https://[^\"]+"\)\[K\d{2}')
+                self.assertRegex(section, r'#(?:ten|Ten|nguon)\("K\d{2}"\)')
                 self.assertIn(f'| {code} |', self.audit)
 
     def test_each_prompt_keeps_its_source_badge_on_the_same_printed_page(self) -> None:
@@ -92,7 +92,7 @@ class ThreeFettersChecklistTests(unittest.TestCase):
     def test_an378_has_correct_speaker_numbering_and_scope(self) -> None:
         self.assertIn('Tôn giả Ānanda phân biệt', self.text)
         self.assertIn('Đức Phật tán thành câu trả lời', self.text)
-        self.assertIn('theo hệ số SuttaCentral', self.text)
+        self.assertIn('theo cách đánh số của SuttaCentral', self.text)
         self.assertIn('không tự đồng nghĩa với toàn bộ thuật ngữ', self.text)
         self.assertIn('https://suttacentral.net/an3.78/en/sujato', self.sources)
         self.assertNotIn('dhammatalks.org/suttas/AN/AN3_78.html', self.text + self.sources)

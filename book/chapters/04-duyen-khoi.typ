@@ -5,9 +5,8 @@
   [Duyên khởi ngay nơi thọ và ái],
   [Mười hai chi duyên khởi giúp hiểu sự sinh và diệt của khổ. Chương này bắt đầu từ một phần gần với việc thực hành: xúc, thọ, ái và thủ. Nhận ra một phản ứng có thể giúp ta đáp lại sáng suốt hơn, nhưng chưa có nghĩa toàn bộ chuỗi đã được đoạn tận.],
   provenance: [
-    #source-badge("KINH", refs: [K26; K27; K28; K29; K30])
-    #h(4pt)
-    #source-badge("BIÊN SOẠN", refs: [bài tập quan sát])
+    #source-badge("KINH", refs: [Dựa trên năm bài kinh: #ten("K26"), #ten("K27"), #ten("K28"), #ten("K29") và #ten("K30")])
+    #source-badge("BIÊN SOẠN", refs: [Bài tập quan sát do sách soạn])
   ],
 )
 
@@ -15,7 +14,7 @@ Chương trước phân biệt thọ với toàn bộ cảm xúc. Chương này 
 
 #scripture-quote(
   [Do xúc có thọ; do thọ có ái; do ái có thủ. Khi ái đoạn tận thì thủ đoạn tận, và toàn bộ khối khổ theo chiều ấy đi đến chấm dứt.],
-  [Sách diễn ý công thức duyên khởi trong K26 · SN 12.2 và K27 · SN 12.44, không trích nguyên văn một bản dịch Việt.],
+  [Sách diễn ý công thức duyên khởi trong #nguon("K26") và #nguon("K27"), không trích nguyên văn một bản dịch Việt.],
 )
 
 == Thử trước khi học bản đồ <tho-ai-nam-buoc>
@@ -35,7 +34,8 @@ Chương trước phân biệt thọ với toàn bộ cảm xúc. Chương này 
 
     Không cần tìm một khe thời gian chính xác giữa thọ và ái. Có lúc ta nhận ra khi phản ứng đã sinh; lúc ấy vẫn có thể ngừng nuôi thêm và sửa cách đáp lại. Một khoảng dừng có thể giúp, nhưng không bảo đảm đoạn ái hay thực chứng Diệt đế.
   ],
-  label: [BÀI TẬP · BIÊN SOẠN THEO K01; K28; K29; K30],
+  label: [Bài tập do sách soạn, dựa trên phần quán thọ của #ten("K01") cùng #ten("K28"), #ten("K29") và #ten("K30")],
+  kind: "BIÊN SOẠN",
 )
 
 Ví dụ, một thông báo hiện lên khi bạn đang làm việc. Có sự thấy, sự hiểu nội dung, thọ và ý muốn mở ngay. Bạn có thể nhận ra mình đang cần xử lý việc thật hay đang tìm cảm giác được chú ý. Chưa cần tuyên bố đã “cắt ái”: hãy quan sát điều đang có, rồi chọn mở vì cần thiết hoặc trở lại việc đang làm.
@@ -44,8 +44,8 @@ Năm nhịp này là khung gợi ý, không phải năm sát-na tâm (khoảnh k
 
 == Mười hai chi đang nói về điều gì?
 
-#source-line("KINH", [K26 · SN 12.2, Vibhaṅga Sutta], [
-  SN 12.2 nêu chuỗi: vô minh duyên hành; hành duyên thức; thức duyên danh sắc; danh sắc duyên sáu xứ; sáu xứ duyên xúc; xúc duyên thọ; thọ duyên ái; ái duyên thủ; thủ duyên hữu; hữu duyên sinh; sinh duyên già chết, sầu, bi, khổ, ưu và não. Bài kinh cũng định nghĩa từng chi, trong đó thọ và ái đều được phân theo sáu cửa giác quan.
+#source-line("KINH", [Theo #ten("K26"), tức _Vibhaṅga Sutta_], [
+  Bài kinh nêu chuỗi: vô minh duyên hành; hành duyên thức; thức duyên danh sắc; danh sắc duyên sáu xứ; sáu xứ duyên xúc; xúc duyên thọ; thọ duyên ái; ái duyên thủ; thủ duyên hữu; hữu duyên sinh; sinh duyên già chết, sầu, bi, khổ, ưu và não. Bài kinh cũng định nghĩa từng chi, trong đó thọ và ái đều được phân theo sáu cửa giác quan.
 ])
 
 Trước khi đọc danh mục, hãy giữ quan hệ chính: các chi được trình bày theo sự nương điều kiện, không phải như những việc độc lập. Bản tóm tắt dưới đây giúp đọc lời kinh; nó không rút toàn bộ duyên khởi thành một câu chuyện tâm lý trong vài giây.
@@ -57,7 +57,7 @@ Trước khi đọc danh mục, hãy giữ quan hệ chính: các chi được t
 #practice-card(
   [Mười hai mốc, đọc gần nghĩa trước khi học thuật ngữ],
   [
-    #source-badge("KINH", refs: [K26 · SN 12.2, diễn ý các định nghĩa])
+    #source-badge("KINH", refs: [Diễn ý các định nghĩa trong #ten("K26")])
     #v(5pt)
 
     + *Vô minh:* không biết khổ, nguồn sinh, sự chấm dứt và con đường.
@@ -73,7 +73,7 @@ Trước khi đọc danh mục, hãy giữ quan hệ chính: các chi được t
     + *Sinh:* sự xuất hiện của hữu tình trong một loại chúng sinh, sự hiện khởi của các uẩn và tiếp nhận các xứ.
     + *Già chết:* sự già suy và chấm dứt mạng sống được bài kinh giải thích, cùng sầu, bi, khổ, ưu và não trong công thức đầy đủ.
   ],
-  label: [BẢN ĐỌC NHANH · K26],
+  label: [Bản đọc nhanh mười hai chi, theo #ten("K26")],
 )
 
 #modern-note([
@@ -89,14 +89,14 @@ Chuỗi này không mô tả một linh hồn đi qua mười hai chặng. “L�
 + *Ái, chấp thủ và hiện hữu:* ái, thủ, hữu.
 + *Sinh và già chết:* sinh, già chết cùng khối khổ.
 
-Đây là cách nhóm để học, không phải một danh sách thứ hai trong SN 12.2. Tên các cụm không định nghĩa lại các chi. Trong phần thực hành, ta chú ý đến thọ và phản ứng đối với thọ mà vẫn giữ phạm vi rộng hơn của hữu, sinh và già chết.
+Đây là cách nhóm để học, không phải một danh sách thứ hai trong Kinh Phân Tích Duyên Khởi. Tên các cụm không định nghĩa lại các chi. Trong phần thực hành, ta chú ý đến thọ và phản ứng đối với thọ mà vẫn giữ phạm vi rộng hơn của hữu, sinh và già chết.
 
 #caution(
   [Không ép mười hai chi vào một chiếc đồng hồ tâm lý],
   [
-    #source-badge("BIÊN SOẠN", refs: [giới hạn diễn giải])
+    #source-badge("BIÊN SOẠN", refs: [Giới hạn của cách diễn giải trong sách])
     #v(5pt)
-    Các nguồn đang dẫn trình bày duyên khởi với những định nghĩa có phạm vi tái sinh, đồng thời SN 12.44 triển khai chuỗi từ sáu cửa giác quan. Chúng không đủ để khẳng định mọi chi chỉ diễn ra trong vài mili-giây. Sách dùng ví dụ hiện tại để học một phần giáo lý, không lấy phần dễ quan sát ấy thay cho toàn bộ lời dạy.
+    Các nguồn đang dẫn trình bày duyên khởi với những định nghĩa có phạm vi tái sinh, đồng thời Kinh Thế Gian triển khai chuỗi từ sáu cửa giác quan. Chúng không đủ để khẳng định mọi chi chỉ diễn ra trong vài mili-giây. Sách dùng ví dụ hiện tại để học một phần giáo lý, không lấy phần dễ quan sát ấy thay cho toàn bộ lời dạy.
   ],
 )
 
@@ -104,8 +104,8 @@ Chuỗi này không mô tả một linh hồn đi qua mười hai chặng. “L�
 
 Hãy giữ lại nghĩa đã học ở Chương 3: thọ chỉ sắc thái dễ chịu, khó chịu hoặc trung tính, chưa phải toàn bộ cơn giận, nỗi sợ hay niềm vui.
 
-#source-line("KINH", [K27 · SN 12.44, Loka Sutta], [
-  Do mắt và hình sắc, nhãn thức sinh; sự gặp nhau của ba yếu tố là xúc. Do xúc có thọ, do thọ có ái, rồi thủ, hữu, sinh và khổ. SN 12.44 lặp cấu trúc ấy cho tai, mũi, lưỡi, thân và ý, rồi trình bày chiều đoạn diệt.
+#source-line("KINH", [Theo #ten("K27"), tức _Loka Sutta_], [
+  Do mắt và hình sắc, nhãn thức sinh; sự gặp nhau của ba yếu tố là xúc. Do xúc có thọ, do thọ có ái, rồi thủ, hữu, sinh và khổ. Bài kinh lặp cấu trúc ấy cho tai, mũi, lưỡi, thân và ý, rồi trình bày chiều đoạn diệt.
 ])
 
 Một tin nhắn có chữ được thấy và ý nghĩa được nhận hiểu. Ví dụ này đã gồm nhiều tiến trình, không phải một lần xúc duy nhất mà ta dễ tách bằng đồng hồ. Ta có thể bắt đầu bằng điều rõ: có thọ nào, có phản ứng nào, và có sự bám víu nào cần được tìm hiểu?
@@ -120,8 +120,8 @@ Chẳng hạn:
 
 == Thọ không phải toàn bộ cảm xúc
 
-#source-line("KINH", [K30 · MN 148, Chachakka Sutta], [
-  MN 148 phân biệt thọ dễ chịu, khó chịu và trung tính sinh do xúc. Bài kinh nối thọ dễ chịu, khi được tán thưởng và bám giữ, với khuynh hướng tham; thọ khó chịu, đi cùng sầu than và rối loạn, với khuynh hướng sân; và thọ trung tính, khi không được hiểu rõ, với khuynh hướng vô minh.
+#source-line("KINH", [Theo #nguon("K30"), tức _Chachakka Sutta_], [
+  Bài kinh phân biệt thọ dễ chịu, khó chịu và trung tính sinh do xúc. Bài kinh nối thọ dễ chịu, khi được tán thưởng và bám giữ, với khuynh hướng tham; thọ khó chịu, đi cùng sầu than và rối loạn, với khuynh hướng sân; và thọ trung tính, khi không được hiểu rõ, với khuynh hướng vô minh.
 ])
 
 Một cảm xúc phức tạp có thể gồm thọ, cảm giác thân, sự nhận ra, ký ức, lời tự thoại và ý định. Trong cơn giận có thể có nóng nơi mặt, hình ảnh người kia, một câu chuyện về bất công và cả một thoáng dễ chịu khi tưởng tượng mình thắng. Gọi tất cả là “thọ” sẽ làm mất những phân biệt hữu ích.
@@ -136,21 +136,22 @@ Một cảm xúc phức tạp có thể gồm thọ, cảm giác thân, sự nh�
     - *Tâm:* có tham, sân, sợ, nghi hay bồn chồn không?
     - *Ý định:* tâm muốn giữ, nói, làm hay tránh điều gì?
 
-    Chỉ ghi điều mình biết. Bốn câu hỏi do sách biên soạn theo K01, K19, K27 và K30, không tái tạo trọn mọi tiến trình tâm hay yêu cầu nhận biết mọi phần cùng một lúc.
+    Chỉ ghi điều mình biết. Bốn câu hỏi này do sách đặt ra, dựa trên #ten("K01"), #nguon("K19"), #ten("K27") và #ten("K30")\; chúng không tái tạo trọn mọi tiến trình tâm hay yêu cầu nhận biết mọi phần cùng một lúc.
   ],
-  label: [THỰC HÀNH · BIÊN SOẠN],
+  label: [Thực hành tách một cảm xúc],
+  kind: "BIÊN SOẠN",
 )
 
 == Có phải thọ đến ái là mắt xích dễ cắt nhất?
 
 Không có nguồn nào được dẫn ở đây gọi đó là mắt xích dễ nhất cho mọi người. Thọ là một điểm có thể bắt đầu quan sát trong hiện tại. Thuận lợi để tập nhìn không đồng nghĩa dễ đoạn tận; một lần nhận ra phản ứng cũng chưa chứng minh khả năng trói buộc của nó đã hết.
 
-#source-line("KINH", [K28 · SN 36.6, Salla Sutta], [
-  SN 36.6 dùng hình ảnh hai mũi tên để phân biệt cảm giác đau thân với khổ tâm thêm vào. Bài kinh đối chiếu người phàm không được học với vị Thánh đệ tử được học: vị đệ tử vẫn cảm nhận đau thân nhưng không cộng thêm khổ tâm theo cùng cách ấy.
+#source-line("KINH", [Theo #nguon("K28"), tức _Salla Sutta_], [
+  Bài kinh dùng hình ảnh hai mũi tên để phân biệt cảm giác đau thân với khổ tâm thêm vào. Bài kinh đối chiếu người phàm không được học với vị Thánh đệ tử được học: vị đệ tử vẫn cảm nhận đau thân nhưng không cộng thêm khổ tâm theo cùng cách ấy.
 ])
 
-#source-line("KINH", [K29 · MN 38, Mahātaṇhāsaṅkhaya Sutta], [
-  MN 38 mô tả việc không thích thú, chào đón và bám chặt thọ, dù thọ dễ chịu, khó chịu hay trung tính. Khi sự thích thú đối với thọ chấm dứt, thủ và các chi tiếp theo được trình bày theo chiều đoạn diệt. Đoạn này nằm trong một tiến trình huấn luyện rộng hơn của bài kinh.
+#source-line("KINH", [Theo #nguon("K29"), tức _Mahātaṇhāsaṅkhaya Sutta_], [
+  Bài kinh mô tả việc không thích thú, chào đón và bám chặt thọ, dù thọ dễ chịu, khó chịu hay trung tính. Khi sự thích thú đối với thọ chấm dứt, thủ và các chi tiếp theo được trình bày theo chiều đoạn diệt. Đoạn này nằm trong một tiến trình huấn luyện rộng hơn của bài kinh.
 ])
 
 #modern-note([
@@ -163,15 +164,15 @@ Vì vậy, “cắt ở thọ” là cách nói tắt cần thận trọng. Th�
 
 Căn cứ gần là quán thọ trong Tứ Niệm Xứ. Việc ấy nằm trong Bát Chánh Đạo, không tách riêng thành một phương pháp thay cả con đường.
 
-#source-line("KINH", [K01 · MN 10, phần quán thọ], [
-  MN 10 dạy biết thọ dễ chịu, khó chịu và trung tính; với mỗi loại, còn phân biệt sāmisa và nirāmisa. Phần quán thọ có điệp khúc về bên trong, bên ngoài, sinh khởi, hoại diệt và không chấp thủ.
+#source-line("KINH", [Theo phần quán thọ trong #nguon("K01")], [
+  Bài kinh dạy biết thọ dễ chịu, khó chịu và trung tính; với mỗi loại, còn phân biệt sāmisa và nirāmisa. Phần quán thọ có điệp khúc về bên trong, bên ngoài, sinh khởi, hoại diệt và không chấp thủ.
 ])
 
 #modern-note([
   Như Chương 3 đã nêu, cặp sāmisa và nirāmisa thường được diễn đạt là thuộc thế tục và không thuộc thế tục. Không nên đọc cặp này đơn giản thành thọ ở thân và thọ ở tâm. Một nhãn đúng cũng chưa đồng nghĩa với toàn bộ sự quán thọ mà kinh chỉ dạy.
 ])
 
-#source-line("KINH", [K31 · MN 9, lời Tôn giả Sāriputta], [
+#source-line("KINH", [Theo #nguon("K31"), lời Tôn giả Sāriputta], [
   Tôn giả Sāriputta nêu con đường đưa đến đoạn diệt ái là Bát Chánh Đạo. Bài kinh cũng phân thọ theo sáu loại xúc và nói xúc là nguồn sinh của thọ.
 ])
 
@@ -181,7 +182,7 @@ Trong cách áp dụng của sách, có thể phân biệt những việc cần 
 + *Tỉnh giác:* biết rõ việc đang làm, không bỏ quên hoàn cảnh.
 + *Chánh kiến:* học hiểu thọ và ái trong mối liên hệ với khổ, nguồn sinh, sự chấm dứt và con đường.
 + *Chánh tinh tấn:* ngăn và bỏ bất thiện, làm sinh và nuôi lớn điều thiện.
-+ *Việc tu định:* rèn tâm có sự quy tụ trong toàn bộ đạo lộ. Theo K25 · SN 45.8, chánh định được định nghĩa bằng bốn thiền, không chỉ bằng sự tập trung trong một cuộc trò chuyện.
++ *Việc tu định:* rèn tâm có sự quy tụ trong toàn bộ đạo lộ. Theo #nguon("K25"), chánh định được định nghĩa bằng bốn thiền, không chỉ bằng sự tập trung trong một cuộc trò chuyện.
 + *Giới:* giữ ranh giới không gây hại, kể cả lúc tâm còn khó chịu.
 
 Danh sách này nối các vai trò để người đọc dễ thực hành; nó không phải một câu kinh nguyên văn. Một lần xử lý khéo cũng chưa có nghĩa đã thành tựu đủ các chi đạo.
@@ -193,7 +194,8 @@ Danh sách này nối các vai trò để người đọc dễ thực hành; nó
 
     Sự chú ý ổn định có thể giúp nghe hết câu. Nhưng không vì vậy mà gọi khả năng lắng nghe ấy là chánh định theo công thức bốn thiền. Ví dụ chỉ cho thấy việc quan sát cần đi cùng thấy đúng, ý hướng không hại, giới và sự rèn tâm.
   ],
-  label: [MINH HỌA · BIÊN SOẠN THEO K01; K23; K25; K31],
+  label: [Ví dụ minh họa dựa trên #ten("K01"), #ten("K23"), #ten("K25") và #ten("K31")],
+  kind: "BIÊN SOẠN",
 )
 
 == Ba trường hợp cụ thể
@@ -212,16 +214,16 @@ Khi đang chờ ở nơi an toàn, có thể nhận ra một kinh nghiệm khôn
 
 == Ghi nhận theo Mahāsi hỗ trợ ở đâu?
 
-#source-line("MAHĀSI", [P01 · các bài tập căn bản], [
-  P01 dạy nhận biết đối tượng chính và ghi nhận hiện tượng nổi bật như cảm giác, suy nghĩ hoặc ý muốn, rồi trở về đối tượng căn bản. Tác phẩm dặn không đọc thành tiếng hay biến “phồng, xẹp” thành chuỗi từ để tụng.
+#source-line("MAHĀSI", [Theo các bài tập căn bản trong sách _#ten("P01")_ của Thiền sư Mahāsi], [
+  Thiền sư Mahāsi dạy nhận biết đối tượng chính và ghi nhận hiện tượng nổi bật như cảm giác, suy nghĩ hoặc ý muốn, rồi trở về đối tượng căn bản. Tác phẩm dặn không đọc thành tiếng hay biến “phồng, xẹp” thành chuỗi từ để tụng.
 ])
 
-Có thể dùng “dễ chịu”, “khó chịu”, “muốn”, “bực” hoặc “nghĩ” khi điều tương ứng thật sự rõ. Bảng từ Việt là gợi ý biên soạn. Nhãn giúp nhớ việc quan sát, không chứng minh đã thấy toàn bộ duyên khởi. Nếu đang gọi điều mình dự đoán thay vì điều đã nhận ra, hãy trở về một đối tượng đơn giản và rõ hơn.
+Có thể dùng “dễ chịu”, “khó chịu”, “muốn”, “bực” hoặc “nghĩ” khi điều tương ứng thật sự rõ. Bảng từ tiếng Việt là gợi ý của sách. Nhãn giúp nhớ việc quan sát, không chứng minh đã thấy toàn bộ duyên khởi. Nếu đang gọi điều mình dự đoán thay vì điều đã nhận ra, hãy trở về một đối tượng đơn giản và rõ hơn.
 
 #caution(
   [Buông ái không phải bỏ mặc nhu cầu chính đáng],
   [
-    #source-badge("BIÊN SOẠN", refs: [giới hạn ứng dụng])
+    #source-badge("BIÊN SOẠN", refs: [Giới hạn khi ứng dụng, do sách lưu ý])
     #v(5pt)
     Một ham muốn đã sinh là điều cần được hiểu, không phải lý do để tự kết án. Khi đói, đau, gặp nguy hiểm, bất công hoặc cần chăm sóc y tế, đáp ứng thích hợp không tự động là ái. Hãy xét ý hướng, tác hại và hoàn cảnh. Mong kết thúc một việc gây hại cũng chưa đủ để gọi đó là phi hữu ái; Chương 12 giải thích rõ hơn ba loại ái.
   ],
@@ -249,5 +251,5 @@ Những câu hỏi này do sách đề nghị, không phải tiêu chuẩn chứ
 
     Có thể mở lại các phần “Có phải thọ đến ái là mắt xích dễ cắt nhất?” và “Vậy việc ấy dựa vào niệm nào?”. Khi thử bài năm nhịp, chọn một tình huống nhẹ; không lấy kết quả ấy làm bằng chứng chứng đắc.
   ],
-  label: [GẤP SÁCH LẠI · TỰ NHỚ],
+  label: [Gấp sách lại và thử tự nhớ những điều vừa đọc],
 )
