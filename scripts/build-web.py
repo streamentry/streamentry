@@ -680,6 +680,15 @@ def render_shell(
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
 <meta name="google-site-verification" content="Ydzx5wL5Yz9xT3ASFAU_l67uQgb5iIQBITZJjuA2EAE">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9695RFQFW5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9695RFQFW5');
+</script>
 <title>{html_escape(head_title)}</title>
 <meta name="description" content="{html_escape(description)}">
 <meta property="og:type" content="book">
